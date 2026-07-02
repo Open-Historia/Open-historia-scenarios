@@ -15,8 +15,18 @@ repo directly — post here and your scenario shows up in-game for everyone.
 
 ## Vote & discuss
 
-- 👍 **react on an issue** to upvote it — the in-game *Most Popular* sort uses these.
+- 👍 **react on an issue** to upvote it — the in-game *Most Liked* row uses these.
+- 🚀 react if you played it.
 - Comment on an issue to review or give feedback.
+
+## Install counts
+
+The official preset bundles live as assets on the
+[**`bundles` release**](https://github.com/Arkniem/pax-historia-scenarios/releases/tag/bundles);
+GitHub counts every download of those files, and the in-game **⬇ Most Installed** row shows
+that count. (The `bundles/` folder in this repo is a mirror for older game versions and is
+not counted.) Note: replacing a release asset resets its counter — install numbers count
+since the bundle's last update.
 
 ## Import a scenario
 
