@@ -19,6 +19,16 @@ repo directly — post here and your scenario shows up in-game for everyone.
 - 🚀 react if you played it.
 - Comment on an issue to review or give feedback.
 
+## Pinned & Official
+
+- **📌 Pinned** posts carry the `pinned` label, which **only hub collaborators can apply** —
+  GitHub silently drops labels set by anyone without write access (via the API, issue forms
+  or URL parameters alike), so you cannot pin your own post. Great community scenarios get
+  pinned by the moderators.
+- **✓ Official** (purple in-game) marks posts whose author is the hub owner or a repo
+  collaborator, as reported by GitHub's `author_association` — writing "official" in a
+  title does nothing.
+
 ## Install counts
 
 The official preset bundles live as assets on the
