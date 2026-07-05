@@ -1,20 +1,25 @@
 name: Share a scenario
-description: Post a Pax Historia scenario for others to play
+description: Post an Open Historia scenario for others to play
 title: "[Scenario] "
 labels: ["scenario"]
 body:
   - type: markdown
     attributes:
       value: |
-        **How to post:** in the game, export your scenario (Scenarios → Edit → Bundles → **Download JSON**),
-        then **drag the downloaded `.json` file into the Description box below** — GitHub uploads it and
-        inserts a link. Keep that link in the description or nobody can import your scenario!
+        **How to post:** the easiest way is the in-game **Community → ⬆ Publish to Hub** button — it exports
+        your scenario and opens this form for you. Or export it yourself
+        (**Scenarios → your scenario → Edit → Bundles → Download**) and drag the file in below.
+
+        Your scenario downloads as a **`.json`**, or a **`.zip`** if it uses a custom basemap (the `.zip`
+        bundles the map image and a preview alongside the scenario). **Either one works — drag it into the
+        Description box** so GitHub attaches it and inserts a link. Keep that link or nobody can import your
+        scenario!
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What is your scenario about — era, factions, twists? Attach your scenario .json by dragging it into this box.
-      placeholder: Describe your scenario, then drag your exported .json file into this box to attach it.
+      description: What is your scenario about — era, factions, twists? Attach your exported .json or .zip by dragging it into this box.
+      placeholder: Describe your scenario, then drag your exported .json (or .zip) file into this box to attach it.
     validations:
       required: true
   - type: input
@@ -22,3 +27,15 @@ body:
     attributes:
       label: Made by
       placeholder: your name / username
+    validations:
+      required: false
+  - type: textarea
+    id: technical
+    attributes:
+      label: Basemap info (auto-filled — leave blank)
+      description: >-
+        Filled in automatically when your scenario uses a custom basemap, so the game can also list that
+        basemap in the community Basemaps browser and avoid duplicating it. Leave blank for a normal scenario.
+      placeholder: The game fills this in for scenarios that use a custom basemap.
+    validations:
+      required: false
