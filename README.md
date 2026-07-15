@@ -5,6 +5,8 @@ Every **issue** on this repo is a post the game reads directly, so the in-game *
 tabs show what's posted here for everyone:
 
 - Issues labeled **`scenario`** → the **Community** tab (playable scenarios).
+- Issues labeled **`flag`** → the map editor's **Flags → Community** browser (country flags anyone
+  can apply to any country on their map)
 - Issues labeled **`basemap`** → the map editor's **Basemaps → Community** browser (custom map
   backgrounds you can build maps on).
 
@@ -32,6 +34,21 @@ Share a fantasy/alternate map background others can build scenarios on.
 3. **Drag the image file into the "Basemap image" box** (a `.png`/`.jpg`, or a `.geojson` for a vector
    basemap). The image is both the map and its preview. Don't edit the auto-filled **Technical info** lines.
 4. Submit. It appears in the editor's **Basemaps → Community** browser.
+
+## Post a flag
+
+A flag is just an image — no bundle, no hash, nothing to prepare.
+
+1. In the map editor: click a region, then **Flag → Choose flag → Community → ⬆ Share a flag**.
+   (It opens the form below with the name prefilled. You can also open it by hand.)
+2. Open a [**new flag post**](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=flag.yml).
+3. **Drag your flag image into the "Flag image" box** — `.png`, `.jpg`, `.webp`, `.gif` or `.svg`.
+   That image is both the flag and its preview, so there's nothing else to upload. Roughly 3:2 looks
+   best; large images are scaled down to 256px when someone applies one.
+4. Submit. It appears in the editor's **Flags → Community** browser.
+
+Flags posted here are usable on **any** country in **any** scenario — the `Flag-Code` line is only a
+hint about what you drew it for, not a restriction.
 
 ## Vote & discuss
 
@@ -68,7 +85,9 @@ basemap card. (Manually: download the attached file and use **Scenarios → Impo
 The `basemap.yml` form applies a **`basemap`** label to every basemap post. A form can only apply a
 label that already exists, so this repo must have a label named exactly **`basemap`**
 (Issues → Labels → New label). Without it, basemap posts submit unlabeled and the in-game Basemaps
-browser (which queries `labels=basemap`) stays empty. The `scenario` label works the same way.
+browser (which queries `labels=basemap`) stays empty. The `scenario` and **`flag`** labels work the
+same way — **`flag` must be created before the first flag post**, or the Flags → Community browser
+stays empty no matter how many people post.
 
 ---
 

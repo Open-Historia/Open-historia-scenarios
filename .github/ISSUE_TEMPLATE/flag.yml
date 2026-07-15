@@ -1,0 +1,45 @@
+name: Share a flag
+description: Post a country flag others can use in the map editor
+title: "[Flag] "
+labels: ["flag"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **How to post:** the easiest way is the editor's **Flag picker → Community → ⬆ Share a flag**,
+        which opens this form for you with the name filled in.
+
+        **Drag your flag image into the "Flag image" box below** — that image is both the flag and the
+        preview shown in the community Flags grid. PNG, JPG, WEBP, GIF and SVG all work; a wide, flag-shaped
+        image (roughly 3:2) looks best, and anything large is scaled down when someone uses it.
+  - type: input
+    id: name
+    attributes:
+      label: Flag name
+      placeholder: e.g. Kingdom of Arland
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author / credit
+      placeholder: your name / username (optional)
+    validations:
+      required: false
+  - type: textarea
+    id: image
+    attributes:
+      label: Flag image
+      description: Drag your flag image here (.png / .jpg / .webp / .gif / .svg).
+      placeholder: Drop your flag image here…
+    validations:
+      required: true
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical info (do not edit)
+      description: Auto-filled. Only a hint about which country the flag was drawn for — anyone can use it on any country.
+      value: |
+        Flag-Code:
+    validations:
+      required: false
