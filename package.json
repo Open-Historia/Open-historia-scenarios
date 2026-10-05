@@ -1,0 +1,15 @@
+{
+  "name": "open-historia-scenarios",
+  "private": true,
+  "description": "The Open Historia community hub: its posts are this repository's issues; scripts/ copies their files into releases.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"scripts/test/*.test.mjs\"",
+    "sync": "node scripts/sync-hub.mjs",
+    "sync:dry-run": "node scripts/sync-hub.mjs --dry-run"
+  }
+}

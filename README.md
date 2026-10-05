@@ -66,14 +66,44 @@ hint about what you drew it for, not a restriction.
   collaborator, as reported by GitHub's `author_association` — writing "official" in a
   title does nothing.
 
+## Where the files are kept
+
+You attach your file to your post, as described above, and that is all you do. A workflow
+([**Copy post files to releases**](.github/workflows/copy-post-files.yml)) then copies every file
+attached to a scenario, flag or basemap post into this repository's
+[releases](https://github.com/Open-Historia/Open-historia-scenarios/releases) (`scenarios-1`,
+`flags-1`, `basemaps-1`, and a `-2` once one is full), and the game downloads it from there.
+It runs when a post is opened, edited, closed or reopened, and every half hour.
+
+- **Editing your post** with a new file replaces the copy. **Closing** a post deletes its copies.
+- **If your file can't be copied** (nothing attached, not a scenario file, over 200 MB, or GitHub
+  no longer has the attachment), the workflow says why in a comment on your post and adds the
+  `file problem` label. Edit the post to fix it: it is checked again on every edit, and the
+  comment and the label go away once the file is in.
+- **Comments are never copied.** A suggestion on a scenario is a comment with a `.zip`, and it
+  stays where its author put it.
+- Until a new post's file has been copied (a minute or so), the game downloads it straight from
+  the post, so a post is playable the moment it is submitted.
+
+The game finds the copies through [`index.json`](https://github.com/Open-Historia/Open-historia-scenarios/blob/hub-index/index.json)
+on the `hub-index` branch, which the workflow rewrites. Do not edit that branch, or upload,
+rename or delete files in those releases, by hand.
+
 ## Install counts
 
-The official preset bundles live as assets on the
+A scenario's install count is **how many times its file has been downloaded from the release**,
+as GitHub counts it. The workflow adds the counts up every half hour and writes them into
+`index.json`, and the in-game **⬇ Most Installed** row shows them. A new version of a scenario
+keeps the count of the versions before it.
+
+Counting used to be done by a counter of the game's own. What it had counted for each post on
+5 October 2026 is kept in [`data/legacy-import-counts.json`](data/legacy-import-counts.json) and
+added in, so no post's number started again from nothing.
+
+The official preset bundles live on the older
 [**`bundles` release**](https://github.com/Open-Historia/Open-historia-scenarios/releases/tag/bundles);
-GitHub counts every download of those files, and the in-game **⬇ Most Installed** row shows
-that count. (The `bundles/` folder in this repo is a mirror for older game versions and is
-not counted.) Note: replacing a release asset resets its counter — install numbers count
-since the bundle's last update.
+they are counted the same way and are not copied again. (The `bundles/` folder in this repo is a
+mirror for older game versions and is not counted.)
 
 ## Import
 

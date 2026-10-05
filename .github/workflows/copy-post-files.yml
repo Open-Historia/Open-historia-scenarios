@@ -1,0 +1,51 @@
+# Copies the files attached to the hub's posts (issues labelled "scenario",
+# "flag" or "basemap") into this repository's releases, where the game
+# downloads them and GitHub counts the downloads, and writes the index the game
+# reads to the hub-index branch. A post whose file cannot be copied gets a
+# comment saying why, removed again once the post is fixed.
+#
+# Every run looks at every open post, so a run that was skipped or failed is
+# made up by the next one: nothing here depends on which post started it. It
+# runs when a post is opened, edited, closed, reopened or deleted, and every
+# half hour to refresh the download counts.
+#
+# Comments never start it. A suggestion on a scenario is a comment with a .zip,
+# and it stays a comment attachment.
+name: Copy post files to releases
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed, deleted, labeled, unlabeled]
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# One run at a time: two runs would both write the index. A run waiting while
+# another is in progress may be replaced by a newer one, which is fine: each
+# run does everything there is to do.
+concurrency:
+  group: hub-files
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'Open-Historia/Open-historia-scenarios'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      # Nothing a post says reaches a shell: the script reads the posts itself,
+      # through the API.
+      - name: Copy the files and write the index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-hub.mjs

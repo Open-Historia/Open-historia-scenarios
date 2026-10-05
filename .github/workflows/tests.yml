@@ -1,0 +1,27 @@
+# The tests of scripts/ (what the "Copy post files to releases" workflow runs).
+name: Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "package.json"
+      - ".github/workflows/**"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - run: npm test
