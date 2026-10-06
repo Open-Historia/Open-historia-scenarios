@@ -170,7 +170,15 @@ test("an SVG built to exhaust the machine fails by itself, and the next one is d
   const bomb = `<?xml version="1.0"?><!DOCTYPE svg [<!ENTITY a "aaaaaaaaaa"><!ENTITY b "&a;&a;&a;&a;&a;&a;&a;&a;&a;&a;"><!ENTITY c "&b;&b;&b;&b;&b;&b;&b;&b;&b;&b;"><!ENTITY d "&c;&c;&c;&c;&c;&c;&c;&c;&c;&c;"><!ENTITY e "&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;"><!ENTITY f "&e;&e;&e;&e;&e;&e;&e;&e;&e;&e;">]>${svg("<text>&f;</text>")}`;
   await assert.rejects(svgToPng(bomb, { longest: 90 }), Problem, "entities that multiply");
   const nodes = svg(`<defs><g id="a"><rect width="1" height="1"/></g>${Array.from({ length: 12 }, (_, level) => `<g id="l${level}">${`<use xlink:href="#${level ? `l${level - 1}` : "a"}"/>`.repeat(10)}</g>`).join("")}</defs><use xlink:href="#l11"/>`);
-  await assert.rejects(svgToPng(nodes, { longest: 90 }), Problem, "elements that multiply");
+  await assert.rejects(svgToPng(nodes, { longest: 90 }), /it stands for more shapes than the renderer will draw/, "elements that multiply");
+  // Patterns filled with patterns: a few lines to read, and 3 GB a second to
+  // draw, for as long as it is let. It is stopped for its memory, at once, and
+  // not at the end of the time a drawing has.
+  const began = Date.now();
+  let patterns = '<pattern id="p0" width="1" height="1" patternUnits="userSpaceOnUse"><rect width="1" height="1" fill="#c81e1e"/></pattern>';
+  for (let level = 1; level <= 14; level += 1) patterns += `<pattern id="p${level}" width="10" height="10" patternUnits="userSpaceOnUse">${`<rect width="10" height="10" fill="url(#p${level - 1})"/>`.repeat(3)}</pattern>`;
+  await assert.rejects(svgToPng(svg(`<defs>${patterns}</defs><rect width="90" height="60" fill="url(#p14)"/>`), { longest: 90 }), /\(it needs more memory than a drawing may take\)/, "patterns that multiply");
+  assert.ok(Date.now() - began < 12000, `${Date.now() - began} ms`);
   // 200,000 pixels a side: drawn at that size it would ask for 160 GB.
   const giant = svg('<rect width="200000" height="200000" fill="#c81e1e"/>', 'width="200000" height="200000"');
   const flag = await svgToPng(giant, { longest: 1024 });

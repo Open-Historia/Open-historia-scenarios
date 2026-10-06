@@ -11,6 +11,7 @@
 
 import { Resvg, renderAsync } from "@resvg/resvg-js";
 import { FrameReader, frame } from "./frames.mjs";
+import { watchMemory } from "./memory-watch.mjs";
 
 const MEMORY_LIMIT = (Number(process.env.HUB_SVG_MEMORY_MB) || 1536) * 1024 * 1024;
 // After a drawing this large the process is not kept: what it took is not all
@@ -21,12 +22,9 @@ const KEEP_BELOW = MEMORY_LIMIT / 3;
 // drawn. Text that was not turned into shapes is left out (svg.mjs says so).
 const OPTIONS = { font: { loadSystemFonts: false }, logLevel: "off" };
 
-let drawing = false;
-// The drawing itself runs on another thread (renderAsync), so this still ticks
-// while it does, and can end a drawing that is eating the machine.
-setInterval(() => {
-  if (drawing && process.memoryUsage.rss() > MEMORY_LIMIT) process.exit(70);
-}, 20).unref();
+// A drawing that is eating the machine is ended, by a watch that does not
+// wait for it (memory-watch.mjs).
+watchMemory(MEMORY_LIMIT / (1024 * 1024));
 
 const reply = (header, png = Buffer.alloc(0)) => new Promise((resolve) => {
   process.stdout.write(Buffer.concat([frame(Buffer.from(JSON.stringify(header))), frame(png)]), resolve);
@@ -63,14 +61,12 @@ process.stdin.on("data", (chunk) => {
   for (let request = incoming.take(); request; request = incoming.take()) {
     const bytes = request;
     working = working.then(async () => {
-      drawing = true;
       let answer;
       try {
         answer = await draw(JSON.parse(bytes.toString("utf8")));
       } catch (error) {
         answer = { header: { ok: false, error: String(error?.message || error).slice(0, 300) } };
       }
-      drawing = false;
       // Said in the answer, so nothing more is sent to a process that is
       // about to go.
       const leaving = process.memoryUsage.rss() > KEEP_BELOW;
@@ -80,6 +76,7 @@ process.stdin.on("data", (chunk) => {
   }
 });
 // Whoever asked has gone (or was stopped for taking too long over its file):
-// there is nobody to answer, and a drawing still going is not finished.
-process.stdin.on("end", () => process.exit(0));
+// there is nobody to answer, and a drawing still going is not finished. (Not
+// process.exit(), which would wait for the drawing: memory-watch.mjs.)
+process.stdin.on("end", () => process.kill(process.pid, "SIGKILL"));
 process.stdout.on("error", () => process.exit(0));

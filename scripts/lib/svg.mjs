@@ -40,6 +40,9 @@ const cannotDraw = (why) => new Problem(`it is an SVG the hub could not draw, so
 // what an author's file says must not be what a comment on GitHub says.
 const rendererSaid = (error) => {
   const said = String(error ?? "");
+  // (An SVG whose parts each use the ones before twice over is a few lines
+  // that stand for millions of shapes: the renderer counts, and stops.)
+  if (/limit/i.test(said)) return "it stands for more shapes than the renderer will draw";
   if (/pars|token|entit|xml|element|attribute|namespace|unexpected|malformed|utf-?8|root node/i.test(said)) return "it is not well-formed SVG";
   if (/\bsize\b|width|height|dimension/i.test(said)) return "it has no size the renderer can use";
   return "the renderer could not read it";
@@ -269,7 +272,9 @@ export class Rasteriser {
     // "close", not "exit": by then everything it wrote has been read, so an
     // answer it gave just before leaving is not taken for a failure.
     child.on("close", (code, signal) => {
-      const reason = /memory allocation/i.test(complaint) || code === 70
+      // (The renderer's own words when a single request for memory fails, and
+      // the watch's when all of it together is too much: memory-watch.mjs.)
+      const reason = /memory allocation|out of memory/i.test(complaint)
         ? "it needs more memory than a drawing may take"
         : `the renderer stopped${signal ? ` (${signal})` : code ? ` (code ${code})` : ""}`;
       gone(reason);
