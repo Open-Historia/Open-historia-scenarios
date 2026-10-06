@@ -1,11 +1,12 @@
-// GitHub, as lib/sync.mjs needs it: the posts, the releases and their files,
-// comments and labels, and the two data files on the `hub-index` branch.
+// GitHub, as lib/sync.mjs needs it: the posts and their comments, the releases
+// and their files, labels, closing and reopening, and the two data files on the
+// `hub-index` branch.
 //
 //   createClient({ repo, token, dataBranch, dryRun })
 //
 // With `dryRun`, everything is read and every file is downloaded and checked,
-// but nothing is changed: no release, no upload, no comment, no commit. What
-// would have been done is logged instead.
+// but nothing is changed: no release, no upload, no comment made or deleted,
+// no post closed, no commit. What would have been done is logged instead.
 
 import fs from "node:fs";
 import { discardFile, downloadFile } from "./download.mjs";
@@ -65,9 +66,12 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
     }
   };
 
-  const paged = async (url) => {
+  // Every page of a list. A list longer than `maxPages` pages is an error, not
+  // a short list: what a run does not see, it would take for gone.
+  const paged = async (url, { maxPages = 200 } = {}) => {
     const items = [];
-    for (let page = 1; page <= 50; page += 1) {
+    for (let page = 1; ; page += 1) {
+      if (page > maxPages) throw new GitHubError(`${url} is longer than ${maxPages} pages`, { transient: false });
       const batch = await api("GET", `${url}${url.includes("?") ? "&" : "?"}per_page=100&page=${page}`);
       if (!Array.isArray(batch) || !batch.length) break;
       items.push(...batch);
@@ -91,7 +95,9 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
     repo,
     dryRun,
 
-    listOpenPosts: (kind) => paged(`/repos/${repo}/issues?state=open&labels=${encodeURIComponent(kind)}`),
+    // Every post with this label, open or closed: a released post is closed
+    // (when the hub closes them), and its author may still update it.
+    listPosts: (label) => paged(`/repos/${repo}/issues?state=all&labels=${encodeURIComponent(label)}`),
 
     // null once the post is gone (deleted, or moved to another repository).
     getIssue: async (number) => {
@@ -101,6 +107,15 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
         if (error.status === 404 || error.status === 410 || error.status === 301) return null;
         throw error;
       }
+    },
+
+    closeIssue: async (number) => {
+      if (dryRun) return would(`close #${number} as completed`);
+      return api("PATCH", `/repos/${repo}/issues/${number}`, { body: { state: "closed", state_reason: "completed" } });
+    },
+    reopenIssue: async (number) => {
+      if (dryRun) return would(`reopen #${number}`);
+      return api("PATCH", `/repos/${repo}/issues/${number}`, { body: { state: "open" } });
     },
 
     listReleases: async () => (await paged(`/repos/${repo}/releases`))
@@ -119,13 +134,14 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
       return { id: release.id, tag: release.tag_name, assets: [] };
     },
 
-    uploadAsset: async (releaseId, { name, contentType, file }) => {
+    // `bytes` are the checked ones: what is uploaded is what was looked at.
+    uploadAsset: async (releaseId, { name, contentType, bytes, tag = "dry-run" }) => {
       if (dryRun) {
-        would(`upload ${name} (${fs.statSync(file).size} bytes)`);
-        return { id: fakeId--, name, url: `https://github.com/${repo}/releases/download/dry-run/${name}`, size: fs.statSync(file).size, downloads: 0 };
+        would(`upload ${name} (${bytes.length} bytes)`);
+        return { id: fakeId--, name, url: `https://github.com/${repo}/releases/download/${tag}/${name}`, size: bytes.length, downloads: 0 };
       }
       const asset = await api("POST", `${UPLOADS}/repos/${repo}/releases/${releaseId}/assets?name=${encodeURIComponent(name)}`, {
-        body: fs.readFileSync(file),
+        body: bytes,
         extraHeaders: { "Content-Type": contentType },
       });
       return toAsset(asset);
@@ -136,10 +152,25 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
       return api("DELETE", `/repos/${repo}/releases/assets/${assetId}`, { okStatuses: [404] });
     },
 
-    // A post's attachment, saved to a temporary file (lib/download.mjs). Never
-    // sent the token: these are public, and some are served from outside GitHub.
-    download: (url, { maxBytes = MAX_FILE_BYTES } = {}) => downloadFile(url, { maxBytes }),
-    discard: async (file) => discardFile(file),
+    // An attachment's bytes: { bytes, size, sha256 }, or { tooLarge: true,
+    // size } for one over `maxBytes`. Saved to a temporary file on the way
+    // (lib/download.mjs) and read from there. Never sent the token: these are
+    // public, and some are served from outside GitHub.
+    download: async (url, { maxBytes = MAX_FILE_BYTES } = {}) => {
+      const downloaded = await downloadFile(url, { maxBytes });
+      if (downloaded.tooLarge) return { tooLarge: true, size: downloaded.size };
+      try {
+        return { bytes: fs.readFileSync(downloaded.file), size: downloaded.size, sha256: downloaded.sha256 };
+      } finally {
+        discardFile(downloaded.file);
+      }
+    },
+
+    // The comments on issues that were made or edited since `since` (an ISO
+    // time; all of them without one), oldest change first: how suggestions
+    // are found without reading every post's comments on every run.
+    listComments: (since) => paged(`/repos/${repo}/issues/comments?sort=updated&direction=asc${since ? `&since=${encodeURIComponent(since)}` : ""}`),
+    listPostComments: (number) => paged(`/repos/${repo}/issues/${number}/comments`),
 
     createComment: async (number, body) => {
       if (dryRun) {
@@ -150,7 +181,7 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
       return { id: comment.id };
     },
     updateComment: async (id, body) => {
-      if (dryRun) return would(`update the comment ${id}`);
+      if (dryRun) return would(`update the comment ${id}:\n${body}`);
       return api("PATCH", `/repos/${repo}/issues/comments/${id}`, { body: { body } });
     },
     deleteComment: async (id) => {
@@ -205,7 +236,7 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
           "",
           "Written by the **Copy post files to releases** workflow; do not edit by hand.",
           "",
-          "- `index.json`: where the game finds each post's file in the releases, and how many times each scenario's file has been downloaded.",
+          "- `index.json`: what the game reads. The hub's released posts, where the checked copy of each of their files is in the releases, how many times each scenario's file has been downloaded, and which suggestions passed the checks.",
           "- `state.json`: the workflow's own notes.",
           "",
         ].join("\n"),

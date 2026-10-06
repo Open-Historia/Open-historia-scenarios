@@ -1,21 +1,26 @@
-# Copies the files attached to the hub's posts (issues labelled "scenario",
-# "flag" or "basemap") into this repository's releases, where the game
-# downloads them and GitHub counts the downloads, and writes the index the game
-# reads to the hub-index branch. A post whose file cannot be copied gets a
-# comment saying why, removed again once the post is fixed.
+# Checks the files attached to the hub's posts (issues labelled "scenario",
+# "flag" or "basemap") and copies the checked files into this repository's
+# releases, where the game downloads them and GitHub counts the downloads, and
+# writes the index the game reads to the hub-index branch. A post whose file
+# has a problem is not released: it gets a comment saying what is wrong,
+# removed again once the post is fixed.
 #
-# Every run looks at every open post, so a run that was skipped or failed is
-# made up by the next one: nothing here depends on which post started it. It
-# runs when a post is opened, edited, closed, reopened or deleted, and every
-# half hour to refresh the download counts.
+# Every run looks at every post, so a run that was skipped or failed is made
+# up by the next one: nothing here depends on which post started it. It runs
+# when a post is opened, edited, closed, reopened or deleted, when a comment
+# is made or edited, and every half hour to refresh the download counts.
 #
-# Comments never start it. A suggestion on a scenario is a comment with a .zip,
-# and it stays a comment attachment.
+# Comments start it because a suggestion on a scenario is a comment with a
+# .zip: it is checked where it is, and deleted when the game could not use it
+# or should not. (The workflow's own comments start nothing: GitHub starts no
+# workflow for what a workflow's token did.)
 name: Copy post files to releases
 
 on:
   issues:
     types: [opened, edited, reopened, closed, deleted, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited]
   # GitHub starts scheduled runs late, and under load not at all, so the half
   # hour is a target, not a promise: any change to a post starts a run too, and
   # every run brings every count up to date.
@@ -40,15 +45,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
+      # The token is not left in the checkout's git settings: nothing here uses
+      # git, and a file on disk is one more thing a post's file must never reach.
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - uses: actions/setup-node@v5
         with:
           node-version: 22
 
+      # The one dependency: the renderer that draws an SVG as a PNG. Exactly
+      # the versions package-lock.json names, and nothing a package would run
+      # on being installed.
+      - name: Install the SVG renderer
+        run: npm ci --ignore-scripts
+
       # Nothing a post says reaches a shell: the script reads the posts itself,
-      # through the API.
-      - name: Copy the files and write the index
+      # through the API, and has their files looked into by a second process of
+      # its own code, which is given no token, has a limit on its time and its
+      # memory, and costs a run nothing but that one file when a file breaks it.
+      - name: Check the files, copy them and write the index
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # "1" has released posts closed (a repository variable: Settings >
+          # Secrets and variables > Actions > Variables). Off until the games
+          # that can list closed posts are the ones people have: every build
+          # before them lists open posts only, and would show an empty hub.
+          HUB_AUTOCLOSE: ${{ vars.HUB_AUTOCLOSE }}
         run: node scripts/sync-hub.mjs

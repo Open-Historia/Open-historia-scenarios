@@ -13,6 +13,9 @@ body:
         preview shown in the community Basemaps grid. (A vector basemap arrives as a `.zip`; drop that in
         the same box.) The two lines under **Technical info** are filled in
         automatically; please don't edit them — they let the game find and dedupe this basemap.
+
+        Your file is checked automatically before it goes on the hub (a comment here says so if something
+        is wrong with it), and **editing this post** with a new file is how you release an update.
   - type: input
     id: name
     attributes:

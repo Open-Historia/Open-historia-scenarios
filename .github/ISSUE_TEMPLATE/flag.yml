@@ -12,6 +12,10 @@ body:
         **Drag your flag image into the "Flag image" box below** — that image is both the flag and the
         preview shown in the community Flags grid. PNG, JPG, WEBP, GIF and SVG all work; a wide, flag-shaped
         image (roughly 3:2) looks best, and anything large is scaled down when someone uses it.
+
+        Your image is checked automatically before it goes on the hub (an SVG is turned into a PNG, and a
+        comment here says so if something is wrong), and **editing this post** with a new image is how you
+        release an update.
   - type: input
     id: name
     attributes:

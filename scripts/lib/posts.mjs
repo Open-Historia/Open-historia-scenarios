@@ -1,23 +1,33 @@
 // Reading a hub post (an issue labelled "scenario", "flag" or "basemap"): which
 // files are attached to it, which one is THE file the game downloads, and what
-// each becomes when it is copied into a release.
+// each is called when its checked copy goes into a release.
 //
 // The patterns here are the game's own (src/runtime/hubPosts.js,
 // communityFlags.js, communityBasemaps.js, hubIssues.js in the game's
 // repository): the game looks a file up by the exact address it found in the
 // post, so both sides have to find the same address.
 //
-// Comments are never read. A suggestion is a comment with a .zip, and it stays
-// a comment attachment: only what is attached to the post itself is copied.
+// A comment on a scenario post is read only to tell whether it is a suggestion
+// (a .zip with suggested changes, by the game's rule): a suggestion is checked
+// where it is and never copied.
 
 export const KINDS = ["scenario", "flag", "basemap"];
+// An issue with this label and no kind label is a test post: its files go
+// through the same checks as a real post's, and nothing of it reaches a game
+// (games list posts by the three kind labels, and it has none).
+export const TEST_LABEL = "security test";
+
+const labelsOf = (issue) => (issue?.labels ?? []).map((label) => String(label?.name ?? label ?? "").toLowerCase());
+export const hasLabel = (issue, name) => labelsOf(issue).includes(String(name).toLowerCase());
 
 // The post's kind, from its labels: the game lists posts by label, so a post
 // without one is not a post to the game either.
-export const kindOfIssue = (issue) => {
-  const labels = (issue?.labels ?? []).map((label) => String(label?.name ?? label ?? "").toLowerCase());
-  return KINDS.find((kind) => labels.includes(kind)) ?? null;
-};
+export const kindOfIssue = (issue) => KINDS.find((kind) => labelsOf(issue).includes(kind)) ?? null;
+
+// A test post's kind, from the start of its title: the prefix the issue forms
+// write ("[Scenario] ", "[Flag] ", "[Basemap] ").
+export const kindOfTitle = (title) => /^\s*\[(scenario|flag|basemap)\]/i.exec(String(title ?? ""))?.[1].toLowerCase() ?? null;
+export const isTestPost = (issue) => hasLabel(issue, TEST_LABEL) && !kindOfIssue(issue) && !issue?.pull_request;
 
 const URL_CHARS = `[^\\s)<>"']+`;
 
@@ -55,15 +65,36 @@ const ATTACHMENT = new RegExp(
   "gi",
 );
 
+// The patterns above are the game's, and they are kept as they are so that
+// both sides find the same address. One kind of text they cannot be given:
+// the scenario and basemap patterns take time that grows with the cube of a
+// text made for them. 65,000 characters of "https://github.com/" and
+// "/releases/download/", over and over, keep one busy for more than a
+// minute, here and in every game that reads the post. What such a search can
+// cost is at most its starts, times the places it can turn at, times the
+// length of the text; an ordinary post has a handful of each. A text over the
+// limit is not searched: it has no files, and `slow` says why.
+const MAX_SEARCH = 2e8;
+const occurrences = (text, piece) => {
+  let found = 0;
+  for (let at = text.indexOf(piece); at >= 0; at = text.indexOf(piece, at + piece.length)) found += 1;
+  return found;
+};
+export const slowToRead = (body) => {
+  const text = String(body ?? "").toLowerCase();
+  return occurrences(text, "https://github.com/") * (occurrences(text, "/releases/download/") + 1) * text.length > MAX_SEARCH;
+};
+
 // At most this many files are copied for one post, THE file first.
 export const MAX_FILES_PER_POST = 12;
 
 // The addresses to copy for a post, THE file (the one the game imports, and the
-// one whose downloads count as imports) first and marked `primary`.
-export const postFiles = (issue) => {
-  const kind = kindOfIssue(issue);
+// one whose downloads count as imports) first and marked `primary`. `kind` is
+// given for a test post, which has no kind label to tell it by.
+export const postFiles = (issue, kind = kindOfIssue(issue)) => {
   if (!kind) return { kind: null, files: [] };
   const body = String(issue?.body ?? "");
+  if (slowToRead(body)) return { kind, files: [], slow: true };
   const primaries = [];
   if (kind === "scenario") {
     primaries.push(body.match(SCENARIO_FILE)?.[0]);
@@ -93,6 +124,28 @@ export const postFiles = (issue) => {
   return { kind, files: ordered.slice(0, MAX_FILES_PER_POST) };
 };
 
+// ---- suggestions ----------------------------------------------------------------
+
+// The game's rule for a suggestion (hubPosts.js parseSuggestionComment), to the
+// letter: a comment with a .zip attachment that is named like a suggestion, or
+// any .zip attachment when the comment carries the marker line the game writes.
+const SUGGESTION_MARKER_PATTERN = /^\s*Open-Historia-Suggestion:\s*([A-Za-z0-9-]{4,80})\s*$/im;
+const ZIP_ATTACHMENT_PATTERN = /https:\/\/github\.com\/(?:user-attachments\/files|[^\s)<>"'/]+\/[^\s)<>"'/]+\/files)\/[^\s)<>"']+\.zip/gi;
+
+// The address of a comment's suggestion file, or null when the game would not
+// take the comment for a suggestion.
+export const suggestionZipOf = (body) => {
+  const text = String(body ?? "");
+  const zips = text.match(ZIP_ATTACHMENT_PATTERN) ?? [];
+  if (!zips.length) return null;
+  return zips.find((url) => /suggestion[^/]*\.zip$/i.test(url)) ?? (SUGGESTION_MARKER_PATTERN.test(text) ? zips[0] : null);
+};
+
+// A comment of the workflow's own must never be one: whatever it quotes, any
+// address in it that the rule above would pick up is taken out before it is
+// posted.
+export const withoutZipAttachments = (text) => String(text).replace(ZIP_ATTACHMENT_PATTERN, "(an address, left out)");
+
 // ---- release assets ---------------------------------------------------------
 
 // A link to a release asset: { owner, repo, tag, name } or null.
@@ -103,6 +156,23 @@ export const parseReleaseLink = (url) => {
     try { return decodeURIComponent(part); } catch { return part; }
   };
   return { owner: match[1], repo: match[2], tag: decode(match[3]), name: decode(match[4]) };
+};
+
+// Whether an address is a file of this hub: the address of a file of one of
+// its posts, or a file in this repository's releases. (A scenario may share a
+// community basemap only by such an address.) The test is made from plain
+// lists, so that it can be handed to the process that checks files
+// (checker.mjs): the post files' addresses, this repository's names in lower
+// case, and "tag/name" for each file in its releases.
+export const hubAddressTest = ({ addresses = [], repos = [], assets = [] } = {}) => {
+  const posted = new Set(addresses);
+  const ours = new Set(repos);
+  const released = new Set(assets);
+  return (url) => {
+    if (posted.has(url)) return true;
+    const link = parseReleaseLink(url);
+    return Boolean(link) && ours.has(`${link.owner}/${link.repo}`.toLowerCase()) && released.has(`${link.tag}/${link.name}`);
+  };
 };
 
 // Short and stable for one attachment: its file number, the start of an image's
@@ -124,11 +194,15 @@ export const sourceKey = (source) => {
   return hashText(url);
 };
 
-const lastSegment = (source) => {
+// The last part of an address, as a name: "" for an image dragged into a post,
+// which has an id and no name.
+export const fileNameOf = (source) => {
   try {
     const { pathname } = new URL(source);
     const segment = pathname.split("/").filter(Boolean).pop() ?? "";
-    try { return decodeURIComponent(segment); } catch { return segment; }
+    let name = segment;
+    try { name = decodeURIComponent(segment); } catch { /* as it is */ }
+    return /^[0-9a-f]{8}-[0-9a-f]{4}-/i.test(name) ? "" : name;
   } catch {
     return "";
   }
@@ -137,77 +211,28 @@ const lastSegment = (source) => {
 const EXTENSION = /\.([A-Za-z0-9]{1,8})$/;
 export const extensionOf = (name) => EXTENSION.exec(String(name ?? ""))?.[1].toLowerCase() ?? "";
 
-// What a file is, from its first bytes: the game tells a scenario .zip from a
-// .json the same way, never by its name.
-export const sniffType = (bytes) => {
-  const head = bytes.subarray(0, 512);
-  const startsWith = (...values) => values.every((value, index) => head[index] === value);
-  if (startsWith(0x50, 0x4b, 0x03, 0x04) || startsWith(0x50, 0x4b, 0x05, 0x06)) return "zip";
-  if (startsWith(0x89, 0x50, 0x4e, 0x47)) return "png";
-  if (startsWith(0xff, 0xd8, 0xff)) return "jpg";
-  if (startsWith(0x47, 0x49, 0x46, 0x38)) return "gif";
-  if (startsWith(0x52, 0x49, 0x46, 0x46) && head[8] === 0x57 && head[9] === 0x45 && head[10] === 0x42 && head[11] === 0x50) return "webp";
-  const text = Buffer.from(head).toString("utf8").replace(/^﻿/, "").trimStart();
-  if (/^(?:<\?xml[^>]*>\s*)?(?:<!--[\s\S]*?-->\s*)*(?:<!DOCTYPE[^>]*>\s*)?<svg[\s>]/i.test(text)) return "svg";
-  if (text.startsWith("{") || text.startsWith("[")) return "json";
-  return "";
-};
-
-const IMAGE_TYPES = new Set(["png", "jpg", "gif", "webp", "svg"]);
-const DATA_TYPES = new Set(["zip", "json"]);
 export const MAX_FILE_BYTES = 200 * 1024 * 1024; // the game refuses a larger scenario file
-export const MAX_IMAGE_BYTES = 30 * 1024 * 1024;
 
-// Why a downloaded file cannot be copied, or "" when it can. THE file of a post
-// has to be what the game can import; anything else attached is copied only if
-// it is a picture or a data file, and skipped quietly otherwise (`skip`).
-export const checkFile = ({ kind, primary, type, size }) => {
-  const megabytes = (bytes) => `${Math.max(1, Math.round(bytes / 1048576))} MB`;
-  if (!size) return { problem: "it is empty" };
-  if (IMAGE_TYPES.has(type)) {
-    if (size > MAX_IMAGE_BYTES) return { problem: `it is ${megabytes(size)}, and an image can be ${megabytes(MAX_IMAGE_BYTES)} at most` };
-    if (primary && kind === "scenario") return { problem: "it is a picture, not a scenario file (.json or .zip)" };
-    return { problem: "" };
-  }
-  if (DATA_TYPES.has(type)) {
-    if (size > MAX_FILE_BYTES) return { problem: `it is ${megabytes(size)}, and the game can import ${megabytes(MAX_FILE_BYTES)} at most` };
-    if (primary && kind === "flag") return { problem: "it is not an image (.png, .jpg, .webp, .gif or .svg)" };
-    return { problem: "" };
-  }
-  if (!primary) return { problem: "", skip: true };
-  if (kind === "scenario") return { problem: "it is not a scenario file: the game exports a .json or a .zip" };
-  if (kind === "flag") return { problem: "it is not an image the game can read (.png, .jpg, .webp, .gif or .svg)" };
-  return { problem: "it is not a basemap the game can read (an image, or the .zip the editor gave you)" };
-};
-
-const CONTENT_TYPES = {
-  zip: "application/zip",
-  json: "application/json",
-  png: "image/png",
-  jpg: "image/jpeg",
-  gif: "image/gif",
-  webp: "image/webp",
-  svg: "image/svg+xml",
-};
-export const contentTypeOf = (type) => CONTENT_TYPES[type] ?? "application/octet-stream";
-
-// The name a copied file gets in its release: the post it belongs to, the
-// attachment it is, and its own name, in characters a release keeps as given.
-export const assetName = ({ post, source, type }) => {
-  const original = lastSegment(source);
+// The name a checked copy gets in its release: the post it belongs to, the
+// attachment it is, its own name, and the start of the SHA-256 of its bytes, in
+// characters a release keeps as given. The hash makes an address mean one
+// file for good (the game keeps what it downloaded by its address), and the
+// extension says what the copy is, which is not always what was attached (an
+// SVG's copy is a PNG).
+export const assetName = ({ post, source, type, sha256 = "", test = false }) => {
+  const original = fileNameOf(source);
   const stem = (extensionOf(original) ? original.replace(EXTENSION, "") : original)
     .normalize("NFKD")
     .replace(/[^A-Za-z0-9._-]+/g, "-")
     .replace(/-{2,}/g, "-")
     .replace(/^[-.]+|[-.]+$/g, "")
     .slice(0, 60);
-  // An image dragged into a post has an id and no name.
-  const named = /^[0-9a-f]{8}-[0-9a-f]{4}-/i.test(original) ? "" : stem;
   const extension = type || extensionOf(original) || "bin";
-  return [assetPrefix({ post, source }), named].filter(Boolean).join("-") + `.${extension}`;
+  return [assetPrefix({ post, source, test }), stem, String(sha256).slice(0, 8)].filter(Boolean).join("-") + `.${extension}`;
 };
-// What every name of one attachment of one post starts with.
-export const assetPrefix = ({ post, source }) => `p${Number(post)}-${sourceKey(source)}`;
+// What every name of one attachment of one post starts with ("t" for a test
+// post's, which live in a release of their own).
+export const assetPrefix = ({ post, source, test = false }) => `${test ? "t" : "p"}${Number(post)}-${sourceKey(source)}`;
 
 // The release a kind's files go in: "<prefix>-<n>", a new one once the last is
 // nearly full (a release holds 1000 files).
@@ -231,7 +256,19 @@ export const releaseTitle = (kind, tag) => {
   return `${label} (${releaseNumberOf(tag, kind)})`;
 };
 export const releaseNotes = (kind) => [
-  `The files attached to the hub's **${kind}** posts, copied here automatically so the game can download them and GitHub can count the downloads.`,
+  `The files attached to the hub's **${kind}** posts, checked and copied here automatically so the game can download them and GitHub can count the downloads.`,
   "",
   "Do not upload, rename or delete files here by hand: the **Copy post files to releases** workflow owns this release. To change a file, edit the post it came from.",
 ].join("\n");
+
+// The one release test posts' checked copies go in.
+export const TEST_RELEASE = "security-test";
+export const TEST_RELEASE_TITLE = "Security test files";
+export const TEST_RELEASE_NOTES = [
+  `What the checks made of the files attached to issues labelled **${TEST_LABEL}**: files made to be refused or repaired, to see that they are.`,
+  "",
+  "Nothing here is on the hub. No game lists these issues or downloads these files, and each file is deleted when its issue is closed.",
+].join("\n");
+// Whether a release is one the workflow fills (and so one whose files are its
+// own copies, not files a post can adopt by linking to them).
+export const isOwnRelease = (tag) => tag === TEST_RELEASE || KINDS.some((kind) => releaseNumberOf(tag, kind) > 0);
