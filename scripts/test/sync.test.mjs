@@ -442,12 +442,31 @@ test("a fault in the checks costs one post a run, not the run", async () => {
   hub.files.set(COVER, PNG);
   // Something the checks were not written for: a download that hands back no bytes.
   const download = hub.client.download;
-  hub.client.download = async (url) => (url === FILE ? { bytes: null, size: 1, sha256: "" } : download(url));
+  let tries = 0;
+  hub.client.download = async (url) => (url === FILE ? (tries += 1, { bytes: null, size: 1, sha256: "" }) : download(url));
   const lines = [];
   await run(hub, { log: (line) => lines.push(line) });
   assert.match(lines.join("\n"), /#60: `world-scenario\.zip` could not be checked: TypeError/);
   assert.equal(hub.comments.size, 0, "not the author's problem");
   assert.deepEqual(hub.index().posts.map((entry) => entry.number), [61], "the other post is released all the same");
+  // A fault does not mend by being tried at once: the post is tried again
+  // after half an hour, then an hour after that, then two, and so on.
+  const triedAt = [];
+  for (const minute of [5, 30, 45, 60, 90, 120, 180, 210]) {
+    const before = tries;
+    await run(hub, { now: at(minute) });
+    if (tries > before) triedAt.push(minute);
+  }
+  assert.deepEqual(triedAt, [30, 90, 210]);
+  assert.match(hub.said(60)[0], /could not be checked just now \(an error on the hub's side\)[\s\S]*Nothing needs changing in the post/);
+  // Mended (or the post edited): it goes through at its next try.
+  hub.client.download = download;
+  await run(hub, { now: at(215) });
+  assert.deepEqual(hub.index().posts.map((entry) => entry.number).sort(), [61], "not before its time");
+  hub.issues.get(60).body = `My world, attached again. ${FILE}`;
+  await run(hub, { now: at(216) });
+  assert.deepEqual(hub.index().posts.map((entry) => entry.number).sort(), [60, 61]);
+  assert.deepEqual(hub.said(60), []);
 });
 
 // ---- the index ------------------------------------------------------------------

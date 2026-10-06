@@ -93,7 +93,7 @@ export class Checker {
       const said = `${complaint}${chunk}`;
       // How Node ends when its memory is used up: it says so, and aborts.
       // (Looked for as it is said: a long trace follows it.)
-      outOfMemory ||= /heap out of memory|allocation failed/i.test(said);
+      outOfMemory ||= /out of memory|allocation failed/i.test(said);
       complaint = said.slice(-2000);
     });
     // The process went away with a pipe still in use (it was stopped, or it

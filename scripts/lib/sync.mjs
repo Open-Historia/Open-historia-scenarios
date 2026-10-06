@@ -67,6 +67,11 @@ export const PIPELINE = 2;
 // A problem that may pass by itself (GitHub not answering) is commented on only
 // after this many runs in a row.
 export const TRANSIENT_RUNS_BEFORE_COMMENT = 3;
+// A file the checks themselves fail on (a fault of the hub's, not the file's)
+// is tried again after half an hour, then an hour, then two, and from then on
+// every six: a fault that is mended lets the post through by itself, and one
+// that is not costs four tries a day and not forty-eight.
+export const FAULT_RETRY_MINUTES = [30, 60, 120, 240, 360];
 // A copy that a newer one replaced is kept this long before it is deleted: the
 // game holds the index for five minutes, and for that long may still ask for
 // the copy the old index named.
@@ -113,6 +118,7 @@ export const normalizeState = (raw) => {
       failures: Number(record.failures) || 0,
       comment: record.comment ?? null,
       closedByUs: Boolean(record.closedByUs),
+      ...(typeof record.retry?.at === "string" ? { retry: { at: record.retry.at, hash: String(record.retry.hash ?? "") } } : {}),
     };
   }
   const comments = plainObject(state.comments);
@@ -375,10 +381,11 @@ export const syncHub = async ({
       const label = spoken(want.source, { kind, primary: want.primary, ordinal: test && !fileNameOf(want.source) ? (unnamed += 1) : 0 });
       const result = { label, name: fileNameOf(want.source), primary: want.primary, outcome: "", repairs: [], problems: [] };
       results.push(result);
-      const fail = (text, transient) => {
+      // `fault`: the checks themselves failed, which trying again at once does not mend.
+      const fail = (text, transient, fault = false) => {
         result.outcome = transient ? "waiting" : "refused";
         result.problems.push(text);
-        if (want.primary || test) problems.push({ text, transient });
+        if (want.primary || test) problems.push({ text, transient, ...(fault ? { fault: true } : {}) });
         else log(`#${number}: not copied: ${text}`);
       };
       if (spent >= postCheckMs) {
@@ -466,7 +473,7 @@ export const syncHub = async ({
         // reason to end the run for every other post: said in the log, and
         // tried again next time.
         log(`#${number}: ${label} could not be checked: ${error?.stack || error}`);
-        fail(`${label} could not be checked just now (an error on the hub's side).`, true);
+        fail(`${label} could not be checked just now (an error on the hub's side).`, true, true);
       }
     }
     return { files, problems, deferred, results };
@@ -521,7 +528,11 @@ export const syncHub = async ({
     const entry = { number, kind, title: String(issue.title ?? ""), state: record.live.state, outcome: "unchanged", files: [], problems: [] };
     report.posts.push(entry);
 
-    if (!settled && late()) {
+    // Its file made the checks themselves fail a while ago: not yet tried again.
+    const resting = !settled && record.retry?.hash === bodyHash && now.getTime() < Date.parse(record.retry.at);
+    if (resting) {
+      entry.outcome = "waiting";
+    } else if (!settled && late()) {
       entry.outcome = "waiting";
       summary.deferred += 1;
     } else if (!settled) {
@@ -538,7 +549,12 @@ export const syncHub = async ({
           record.problems = attempt.problems;
           record.failures += 1;
         }
+        if (attempt.problems.some((problem) => problem.fault)) {
+          const minutes = FAULT_RETRY_MINUTES[Math.min(record.failures, FAULT_RETRY_MINUTES.length) - 1] ?? FAULT_RETRY_MINUTES[0];
+          record.retry = { at: new Date(now.getTime() + minutes * 60000).toISOString(), hash: bodyHash };
+        } else delete record.retry;
       } else {
+        delete record.retry;
         if (entry.outcome === "refused") {
           // What an earlier pipeline copied was never checked: it is no
           // release to keep. A version these checks released stays.
