@@ -137,6 +137,23 @@ export const parseReleaseLink = (url) => {
   return { owner: match[1], repo: match[2], tag: decode(match[3]), name: decode(match[4]) };
 };
 
+// Whether an address is a file of this hub: the address of a file of one of
+// its posts, or a file in this repository's releases. (A scenario may share a
+// community basemap only by such an address.) The test is made from plain
+// lists, so that it can be handed to the process that checks files
+// (checker.mjs): the post files' addresses, this repository's names in lower
+// case, and "tag/name" for each file in its releases.
+export const hubAddressTest = ({ addresses = [], repos = [], assets = [] } = {}) => {
+  const posted = new Set(addresses);
+  const ours = new Set(repos);
+  const released = new Set(assets);
+  return (url) => {
+    if (posted.has(url)) return true;
+    const link = parseReleaseLink(url);
+    return Boolean(link) && ours.has(`${link.owner}/${link.repo}`.toLowerCase()) && released.has(`${link.tag}/${link.name}`);
+  };
+};
+
 // Short and stable for one attachment: its file number, the start of an image's
 // id, or a few characters of anything else's address.
 const hashText = (text) => {

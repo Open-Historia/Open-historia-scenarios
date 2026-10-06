@@ -1,10 +1,24 @@
-// Messages between this process and the one that draws SVGs (svg.mjs and
-// svg-worker.mjs): each is four bytes of length and then that many bytes.
+// Messages between this process and the ones that work for it (the one that
+// checks a file: checker.mjs and check-worker.mjs; the one that draws SVGs:
+// svg.mjs and svg-worker.mjs): each is four bytes of length and then that many
+// bytes.
 
-export const frame = (bytes) => {
+const lengthOf = (bytes) => {
   const length = Buffer.alloc(4);
   length.writeUInt32BE(bytes.length);
-  return Buffer.concat([length, bytes]);
+  return length;
+};
+
+export const frame = (bytes) => Buffer.concat([lengthOf(bytes), bytes]);
+
+// Writes messages to a pipe, each as its length and then its bytes as they
+// are: a file of 200 MB is not copied to have four bytes put in front of it.
+// `done` is called when the last has been handed over.
+export const writeFrames = (pipe, messages, done) => {
+  messages.forEach((bytes, index) => {
+    pipe.write(lengthOf(bytes));
+    pipe.write(bytes, index === messages.length - 1 ? done : undefined);
+  });
 };
 
 // Collects what arrives on a pipe and hands back whole messages. The pieces

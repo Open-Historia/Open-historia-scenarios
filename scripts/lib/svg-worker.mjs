@@ -79,4 +79,6 @@ process.stdin.on("data", (chunk) => {
     });
   }
 });
-process.stdin.on("end", () => working.then(() => process.exit(0)));
+// Whoever asked has gone (or was stopped for taking too long over its file):
+// there is nobody to answer, and a drawing still going is not finished.
+process.stdin.on("end", () => process.exit(0));

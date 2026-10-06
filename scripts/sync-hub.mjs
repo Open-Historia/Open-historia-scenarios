@@ -22,8 +22,8 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { closeSharedChecker, sharedChecker } from "./lib/checker.mjs";
 import { createClient } from "./lib/github.mjs";
-import { closeSharedRasteriser } from "./lib/svg.mjs";
 import { syncHub } from "./lib/sync.mjs";
 
 const args = process.argv.slice(2);
@@ -73,7 +73,8 @@ if (keepFolder) {
 // that what it has done is written down in time.
 const deadline = started + 50 * 60000;
 const { summary, index, report } = await syncHub({ client, aliases: ALIASES, legacy, log: dryRun ? () => {} : console.log, autoClose, only: only.size ? only : null, deadline });
-closeSharedRasteriser();
+const checkerMemoryMb = sharedChecker().peakMemoryMb;
+closeSharedChecker();
 
 const seconds = Math.round((Date.now() - started) / 1000);
 const peakMemoryMb = Math.round(process.resourceUsage().maxRSS / 1024);
@@ -119,8 +120,8 @@ const lines = [
   ...(summary.tests ? [`${summary.tests} test post(s).`] : []),
   ...(summary.deferred ? [`${summary.deferred} left for the next run.`] : []),
   dryRun ? "A dry run: nothing was changed." : summary.written ? "The index was updated." : "The index is unchanged.",
-  `${seconds} s, ${peakMemoryMb} MB of memory at most.`,
+  `${seconds} s; ${peakMemoryMb} MB of memory at most here, and ${checkerMemoryMb} MB in the process that checks the files.`,
 ];
 console.log(lines.join("\n"));
 if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${lines.map((line) => `- ${line}`).join("\n")}\n`);
-if (reportFile) fs.writeFileSync(reportFile, `${JSON.stringify({ generatedAt: new Date().toISOString(), repo, dryRun, autoClose, seconds, peakMemoryMb, summary, ...report }, null, 1)}\n`);
+if (reportFile) fs.writeFileSync(reportFile, `${JSON.stringify({ generatedAt: new Date().toISOString(), repo, dryRun, autoClose, seconds, peakMemoryMb, checkerMemoryMb, summary, ...report }, null, 1)}\n`);

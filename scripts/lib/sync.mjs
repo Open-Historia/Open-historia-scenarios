@@ -6,7 +6,9 @@
 // maintainer): a run that was skipped or failed is made up by the next one.
 //
 //   - a file attached to a post is downloaded, checked, put right where that
-//     is safe (lib/check.mjs), and the CHECKED bytes are uploaded to a release;
+//     is safe (lib/check.mjs, run in a process of its own by lib/checker.mjs,
+//     so that a file made to break the checks costs only itself), and the
+//     CHECKED bytes are uploaded to a release;
 //   - a post whose file has a problem is not released: it gets a comment
 //     saying what is wrong (one comment, updated in place, removed once the
 //     post is fixed) and the "file problem" label. If an earlier version of it
@@ -28,7 +30,8 @@
 // GitHub is reached only through `client` (lib/github.mjs), so all of this runs
 // against a stand-in in the tests.
 
-import { checkPostFile, checkSuggestion, contentTypeOf } from "./check.mjs";
+import { contentTypeOf } from "./check.mjs";
+import { duration, sharedChecker } from "./checker.mjs";
 import { COMMENT_MARKER, NO_FILE, TEST_NOTES, problemComment, spoken, suggestionNotice, testComment } from "./comments.mjs";
 import { buildIndex } from "./index.mjs";
 import {
@@ -68,6 +71,11 @@ export const TRANSIENT_RUNS_BEFORE_COMMENT = 3;
 // game holds the index for five minutes, and for that long may still ask for
 // the copy the old index named.
 export const REPLACED_COPY_MINUTES = 10;
+// All the files of one post are checked within this long between them. Each
+// has its own limit (checker.mjs), and a post can name a dozen: one made of
+// files that each use their time up would keep a run busy past the time the
+// workflow gives it, and the run after it, and the one after that.
+export const POST_CHECK_MINUTES = 8;
 // A suggestion whose file will not download is tried again on so many runs,
 // and then left where it is, unlisted.
 export const SUGGESTION_TRIES = 20;
@@ -181,7 +189,8 @@ export const syncHub = async ({
   maxUploads = 400,
   autoClose = false,
   only = null,
-  rasteriser,
+  checker = sharedChecker(),
+  postCheckMs = POST_CHECK_MINUTES * 60000,
   deadline = Infinity,
 }) => {
   const state = normalizeState(await client.readData(STATE_FILE));
@@ -247,7 +256,10 @@ export const syncHub = async ({
     const sources = sameText(number, issue) ? [...record.files, ...record.hosted] : postFiles(issue).files;
     for (const file of sources) postAddresses.add(file.source);
   }
-  const isHubAddress = (url) => postAddresses.has(url) || Boolean(releaseFileOf(url));
+  // (As lists, for the process that checks the files: posts.mjs's hubAddressTest.)
+  const hubRepos = [...ownRepos];
+  const hubAddresses = [...postAddresses];
+  const hub = () => ({ addresses: hubAddresses, repos: hubRepos, assets: [...assetsByName.keys()] });
 
   const summary = { posts: onHub.size, copied: 0, kept: 0, deleted: 0, retired: 0, commented: 0, problems: 0, deferred: 0, closed: 0, reopened: 0, tests: tests.size, suggestionsKept: 0, suggestionsDeleted: 0 };
   const report = { posts: [], tests: [], suggestions: [] };
@@ -355,6 +367,7 @@ export const syncHub = async ({
     const results = [];
     let deferred = 0;
     let unnamed = 0;
+    let spent = 0; // on checking this post's files, in milliseconds
     if (!named.some((file) => file.primary)) problems.push({ text: NO_FILE[kind], transient: false });
     for (const want of named) {
       if (!test && problems.length && !want.primary) break;
@@ -367,6 +380,17 @@ export const syncHub = async ({
         if (want.primary || test) problems.push({ text, transient });
         else log(`#${number}: not copied: ${text}`);
       };
+      if (spent >= postCheckMs) {
+        // THE file is first, so this is something else attached, and it is
+        // not fetched: for a post it is only not copied.
+        const text = `${label} was not checked: the files of this ${test ? "issue" : "post"} together took more than ${duration(postCheckMs)} to check.`;
+        if (test) fail(text, false);
+        else {
+          result.outcome = "left alone";
+          log(`#${number}: not copied: ${text}`);
+        }
+        continue;
+      }
       let got;
       try {
         got = await client.download(want.source, { maxBytes: MAX_FILE_BYTES });
@@ -384,7 +408,9 @@ export const syncHub = async ({
           continue;
         }
         result.size = got.bytes.length;
-        const checked = await checkPostFile({ kind, primary: want.primary, bytes: got.bytes, label, rasteriser, isHubAddress });
+        const began = Date.now();
+        const checked = await checker.postFile({ kind, primary: want.primary, bytes: got.bytes, label, hub: hub(), timeoutMs: postCheckMs - spent });
+        spent += Date.now() - began;
         if (checked.skip) {
           result.outcome = "left alone";
           continue;
@@ -750,7 +776,7 @@ export const syncHub = async ({
       const got = await client.download(zip, { maxBytes: MAX_FILE_BYTES });
       verdict = got.tooLarge
         ? { ok: false, problems: [`${label} can't be used: it is ${sizeText(got.size)}, and the game can import ${sizeText(MAX_FILE_BYTES)} at most.`] }
-        : await checkSuggestion({ bytes: got.bytes, label, rasteriser, isHubAddress });
+        : await checker.suggestion({ bytes: got.bytes, label, hub: hub() });
     } catch (error) {
       if (error?.transient === false) verdict = { ok: false, problems: [`${label} can't be downloaded any more (${error?.message || error}).`] };
       else if (typeof error?.transient !== "boolean") log(`#${number}: the suggestion ${id} could not be checked: ${error?.stack || error}`);

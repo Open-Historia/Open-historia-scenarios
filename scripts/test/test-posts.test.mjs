@@ -4,17 +4,15 @@
 // through the same checks as a real post's, to see what they do with a file
 // made to be refused or repaired. Nothing of it reaches a game.
 import assert from "node:assert/strict";
-import test, { after } from "node:test";
+import test from "node:test";
 
 import { TEST_MARKER } from "../lib/comments.mjs";
 import { readImage } from "../lib/images.mjs";
 import { TEST_LABEL, TEST_RELEASE, isTestPost, kindOfTitle, postFiles } from "../lib/posts.mjs";
-import { closeSharedRasteriser } from "../lib/svg.mjs";
 import { PROBLEM_LABEL } from "../lib/sync.mjs";
 import { REPO, at, fakeHub, installed, post, run } from "./fake-client.mjs";
 import { SVG, dataUrl, png, scenario, scenarioZip, suggestionZip, zip } from "./fixtures.mjs";
 
-after(() => closeSharedRasteriser());
 
 const PNG = png({ width: 60, height: 40 });
 const PADDED = "https://github.com/user-attachments/assets/aaaaaaaa-1111-2222-3333-444444444444";

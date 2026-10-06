@@ -1,17 +1,15 @@
 // Run: npm test
 import assert from "node:assert/strict";
-import test, { after } from "node:test";
+import test from "node:test";
 
 import { readImage } from "../lib/images.mjs";
 import { assetName } from "../lib/posts.mjs";
-import { closeSharedRasteriser } from "../lib/svg.mjs";
 import { COMMENT_MARKER, PIPELINE, PROBLEM_LABEL, REPLACED_COPY_MINUTES, TRANSIENT_RUNS_BEFORE_COMMENT, normalizeState } from "../lib/sync.mjs";
 import { sha256 } from "../lib/util.mjs";
 import { readZip } from "../lib/zip.mjs";
 import { REPO, at, fakeHub, installed, post, run } from "./fake-client.mjs";
 import { SVG, png, rawZip, scenario, scenarioJson, scenarioZip, zip } from "./fixtures.mjs";
 
-after(() => closeSharedRasteriser());
 
 const FILE = "https://github.com/user-attachments/files/501/world-scenario.zip";
 const FILE_V2 = "https://github.com/user-attachments/files/502/world-scenario.zip";

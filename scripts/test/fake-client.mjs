@@ -2,8 +2,14 @@
 // record of everything a run did to it.
 
 import crypto from "node:crypto";
+import { after } from "node:test";
 
+import { closeSharedChecker } from "../lib/checker.mjs";
 import { syncHub } from "../lib/sync.mjs";
+
+// A run checks its files in a process of its own (lib/checker.mjs), kept from
+// one run to the next: it is let go when the tests of a file are done.
+after(() => closeSharedChecker());
 
 export const REPO = "Open-Historia/Open-historia-scenarios";
 const BOT = { login: "github-actions[bot]", type: "Bot" };
