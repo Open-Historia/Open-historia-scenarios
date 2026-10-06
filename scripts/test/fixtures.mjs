@@ -138,12 +138,13 @@ export const gif = ({ width = 4, height = 3, color = [30, 160, 60] } = {}) => {
 };
 
 // A WebP in structure only: the lossless kind, or the extended kind that
-// states its size in a header of its own.
+// states its size in a header of its own. `weight` adds that many bytes of
+// metadata, for a WebP that has to be heavy.
 const riffChunk = (name, data) => Buffer.concat([Buffer.from(name, "latin1"), u32le(data.length), data, Buffer.alloc(data.length & 1)]);
-export const webp = ({ width = 4, height = 3, extended = false } = {}) => {
+export const webp = ({ width = 4, height = 3, extended = false, weight = 0 } = {}) => {
   const picture = riffChunk("VP8L", Buffer.concat([Buffer.from([0x2f]), u32le(((width - 1) & 0x3fff) | (((height - 1) & 0x3fff) << 14)), Buffer.from([0, 0, 0])]));
   const size = Buffer.concat([u32le(0), Buffer.from([(width - 1) & 0xff, ((width - 1) >> 8) & 0xff, (width - 1) >> 16, (height - 1) & 0xff, ((height - 1) >> 8) & 0xff, (height - 1) >> 16])]);
-  const body = Buffer.concat([Buffer.from("WEBP", "latin1"), ...(extended ? [riffChunk("VP8X", size)] : []), picture]);
+  const body = Buffer.concat([Buffer.from("WEBP", "latin1"), ...(extended || weight ? [riffChunk("VP8X", size)] : []), picture, ...(weight ? [riffChunk("EXIF", Buffer.alloc(weight, 1))] : [])]);
   return Buffer.concat([Buffer.from("RIFF", "latin1"), u32le(body.length), body]);
 };
 
