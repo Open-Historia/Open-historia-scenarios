@@ -298,6 +298,45 @@ test("the rules that hold everywhere in a scenario's JSON", async () => {
   assert.equal(many.problems.length, 13);
 });
 
+test("an address is judged as a browser would read it, however it is written", async () => {
+  const flags = (value) => scenarioJson({ assets: { flags: { data: { France: value }, fileName: "flags.json", mode: "embedded" } } });
+  // A browser drops tabs and line breaks from an address, and reads a backslash as a slash.
+  for (const value of ["/\t/evil.example/x.png", " \n//evil.example/x.png", "\\\\evil.example\\x.png", "/\\evil.example/x.png", "ht\ttps://evil.example/x.png", "https:\\\\evil.example/x.png", "HTTPS://evil.example/x.png"]) {
+    await refused("scenario", flags(value), /holds a flag that is (?:loaded from another website|not an image the game can show)/);
+  }
+  await released("scenario", flags("flags/my flag (1).png"));
+  const text = (value) => withRawField(`"text":${JSON.stringify(value)}`);
+  const pictures = [
+    "![x](&#104;ttps://evil.example/p.png)",
+    "![x](&#x68;ttps&colon;//evil.example/p.png)",
+    "![x](<ht\ttps://evil.example/p.png>)",
+    "![x](https\\://evil.example/p.png)",
+    "![a [nested] alt](https://evil.example/p.png \"a title\")",
+    "![x]( //evil.example/p.png )",
+    "<img srcset=\"//evil.example/p.png 2x\">",
+    "<img\nalt='x'\nsrc = 'HTTPS://evil.example/p'>",
+    "<img src=&#104;ttps://evil.example/p.png>",
+    "![x][1]\n\n   [1]: <https://evil.example/p.png>",
+  ];
+  for (const value of pictures) await refused("scenario", text(`Before. ${value} After.`), /shows a picture from another website \(`evil\.example`/);
+  const scripts = ["[x](java&#115;cript:alert(1))", "[x](<java\tscript:alert(1)>)", "<a href=\"jav&#x61;script:alert(1)\">x</a>", "<form action=vbscript:x>", "![x](javascript\\:alert(1))"];
+  for (const value of scripts) await refused("scenario", text(`Before. ${value} After.`), /holds a script address/);
+  // What only looks like one of these is left alone.
+  for (const value of ["\\![x](https://example.com/p.png)", "[x](https://example.com/p.png)", "![x](pictures/p.png)", "![x](data:image/png;base64,AAAA)", "an <image> of [brackets] (and) parentheses", "<img alt=\"no source\">", "5 > 3 and src = nothing"]) {
+    await released("scenario", text(`Before. ${value} After.`));
+  }
+});
+
+test("a text made to be slow to read is read once, like any other", async () => {
+  const flood = (piece) => withRawField(`"text":${JSON.stringify(piece.repeat(Math.ceil(3000000 / piece.length)))}`);
+  const started = Date.now();
+  for (const piece of ["![", "](", "[", "<img ", "<img src=", "![a](", "href=\"", "[x]: ", "&#104;"]) {
+    const result = await check("scenario", flood(piece));
+    assert.equal(result.released, true, piece);
+  }
+  assert.ok(Date.now() - started < 20000, `${Date.now() - started} ms for 27 MB of it`);
+});
+
 // ---- a scenario as a .zip --------------------------------------------------------
 
 test("a zipped scenario is written again from its checked entries", async () => {

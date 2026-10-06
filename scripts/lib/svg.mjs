@@ -109,9 +109,26 @@ const INLINE_PICTURE = /^data:image\/(png|jpeg|jpg|gif|webp);base64,([A-Za-z0-9+
 // (xlink:href, a:href). It also finds text that only looks like one, in a
 // comment or a value; blanking that harms nothing.
 const ADDRESS_ATTRIBUTE = /(href|src)(\s*=\s*)("[^"]*"|'[^']*')/gi;
-// url(...) in a style, wherever it stands.
-const URL_REFERENCE = /url\(([^)]*)\)/gi;
+// url(...) in a style, wherever it stands: kept when it names something
+// inside the SVG, and made to name nothing otherwise. Each "url(" is taken to
+// its ")" and the next looked for after that, so the text is read once however
+// many there are (one pattern for the whole of "url(...)" reads an SVG made of
+// "url(" again from every one of them).
 const LOCAL_URL = /^(?:(["'])#[\w.:-]+\1|&quot;#[\w.:-]+&quot;|&apos;#[\w.:-]+&apos;|#[\w.:-]+)$/;
+const blankUrls = (text) => {
+  const opening = /url\(/gi;
+  let out = "";
+  let done = 0;
+  for (let match = opening.exec(text); match; match = opening.exec(text)) {
+    const close = text.indexOf(")", match.index);
+    if (close < 0) break; // never closed, and so is nothing after it
+    const target = text.slice(match.index + 4, close).trim();
+    out += `${text.slice(done, match.index)}${target.length < 300 && LOCAL_URL.test(target) ? text.slice(match.index, close + 1) : "url(#_)"}`;
+    done = close + 1;
+    opening.lastIndex = done;
+  }
+  return out + text.slice(done);
+};
 
 // The most pixels the pictures carried inside one SVG may add up to: each is
 // decoded in full to be drawn.
@@ -173,7 +190,7 @@ export const sanitizeSvg = (input) => {
     return `${name}${equals}""`;
   });
   if (pixels > MAX_INLINE_PIXELS) throw cannotDraw("the pictures inside it are too large");
-  text = text.replace(URL_REFERENCE, (whole, target) => (LOCAL_URL.test(target.trim()) ? whole : "url(#_)"));
+  text = blankUrls(text);
 
   return { svg: text, hasText: /<(?:[A-Za-z_][\w.-]*:)?text[\s>]/.test(text) };
 };

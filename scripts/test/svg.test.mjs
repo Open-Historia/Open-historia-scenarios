@@ -72,6 +72,18 @@ test("url(...) in a style stays only when it names something inside the SVG", ()
   assert.doesNotMatch(out, /secret|example\.com/);
 });
 
+test("an SVG made to be slow to read is read once", () => {
+  const started = Date.now();
+  for (const piece of ["url(", "url(#a", "href=\"", "href='x' src=\"", "<!ENTITY ", "&a", "<text"]) {
+    try {
+      assert.ok(sanitizeSvg(svg(`<style>${piece.repeat(Math.ceil(2000000 / piece.length))}</style>`)).svg.length > 0, piece);
+    } catch (error) {
+      assert.ok(error instanceof Problem, `${piece}: ${error}`); // refused is as good, when it is quick
+    }
+  }
+  assert.ok(Date.now() - started < 10000, `${Date.now() - started} ms`);
+});
+
 test("the DOCTYPE is taken out, and only entities that are plain text are put back", () => {
   const illustrator = `<?xml version="1.0"?>\n<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [\n\t<!ENTITY ns_svg "http://www.w3.org/2000/svg">\n\t<!ENTITY q 'a "quoted" &lt;word>'>\n]>\n<svg xmlns="&ns_svg;" width="9" height="6"><title>&q;</title><rect width="9" height="6"/></svg>`;
   const { svg: out } = sanitizeSvg(illustrator);

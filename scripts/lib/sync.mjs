@@ -234,10 +234,19 @@ export const syncHub = async ({
 
   const onHub = new Map();
   for (const [number, issue] of listed) if (isOnHub(issue, state.posts[number], autoClose)) onHub.set(number, issue);
-  // What a scenario may share a community basemap by: an address written in
-  // one of the hub's own posts, or a file in this repository's releases.
+  // What a scenario may share a community basemap by: the address of a file of
+  // one of the hub's own posts, or a file in this repository's releases. For a
+  // post already looked at as it stands, those are the files that were
+  // released for it (none, when it has a problem); for a new or changed one,
+  // the files its text names, which this run is about to look at. (So a post's
+  // text is read for its files when it changes, and not again on every run.)
+  const sameText = (number, issue) => state.posts[number]?.pipeline === PIPELINE && state.posts[number].bodyHash === sha256(issue.body);
   const postAddresses = new Set();
-  for (const issue of onHub.values()) for (const file of postFiles(issue).files) postAddresses.add(file.source);
+  for (const [number, issue] of onHub) {
+    const record = state.posts[number];
+    const sources = sameText(number, issue) ? [...record.files, ...record.hosted] : postFiles(issue).files;
+    for (const file of sources) postAddresses.add(file.source);
+  }
   const isHubAddress = (url) => postAddresses.has(url) || Boolean(releaseFileOf(url));
 
   const summary = { posts: onHub.size, copied: 0, kept: 0, deleted: 0, retired: 0, commented: 0, problems: 0, deferred: 0, closed: 0, reopened: 0, tests: tests.size, suggestionsKept: 0, suggestionsDeleted: 0 };
@@ -480,7 +489,6 @@ export const syncHub = async ({
     // Reopened by someone after this workflow closed it: looked at afresh.
     const reopened = record.closedByUs && issue.state !== "closed";
     if (issue.state !== "closed") record.closedByUs = false;
-    const named = postFiles(issue, kind).files;
     const intact = record.files.every((file) => assetsById.has(file.asset.id)) && record.hosted.every((link) => hostedFileOf(link.source)?.id === link.id);
     const settled = record.pipeline === PIPELINE && record.bodyHash === bodyHash && !reopened && intact;
     const entry = { number, kind, title: String(issue.title ?? ""), state: record.live.state, outcome: "unchanged", files: [], problems: [] };
@@ -490,6 +498,7 @@ export const syncHub = async ({
       entry.outcome = "waiting";
       summary.deferred += 1;
     } else if (!settled) {
+      const named = postFiles(issue, kind).files;
       followHosted(record, number, named);
       const attempt = await checkFiles({ number, kind, files: named, known: record.files });
       entry.files = attempt.results;
