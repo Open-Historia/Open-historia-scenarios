@@ -258,7 +258,8 @@ export class Rasteriser {
     child.stderr.on("data", (chunk) => {
       complaint = `${complaint}${chunk}`.slice(-400);
     });
-    child.stdin.on("error", () => {}); // the process went away mid-write: "exit" says so
+    // The process went away with a pipe still in use: "close" says so.
+    for (const pipe of [child.stdin, child.stdout, child.stderr]) pipe.on("error", () => {});
     const gone = (why) => {
       if (this.#child !== child) return;
       this.#child = null;

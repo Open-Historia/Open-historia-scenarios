@@ -76,3 +76,4 @@ process.stdin.on("data", (chunk) => {
 });
 // Whoever asked has gone: there is nobody to answer.
 process.stdin.on("end", () => process.exit(0));
+process.stdout.on("error", () => process.exit(0));

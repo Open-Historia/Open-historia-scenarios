@@ -96,7 +96,9 @@ export class Checker {
       outOfMemory ||= /heap out of memory|allocation failed/i.test(said);
       complaint = said.slice(-2000);
     });
-    child.stdin.on("error", () => {}); // the process went away mid-write: "close" says so
+    // The process went away with a pipe still in use (it was stopped, or it
+    // ended): "close" says so, and a pipe's own complaint must not end the run.
+    for (const pipe of [child.stdin, child.stdout, child.stderr]) pipe.on("error", () => {});
     const gone = (error) => {
       if (this.#child === child) this.#child = null;
       this.#fail(child, error);
