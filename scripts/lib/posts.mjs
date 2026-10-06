@@ -65,6 +65,26 @@ const ATTACHMENT = new RegExp(
   "gi",
 );
 
+// The patterns above are the game's, and they are kept as they are so that
+// both sides find the same address. One kind of text they cannot be given:
+// the scenario and basemap patterns take time that grows with the cube of a
+// text made for them. 65,000 characters of "https://github.com/" and
+// "/releases/download/", over and over, keep one busy for more than a
+// minute, here and in every game that reads the post. What such a search can
+// cost is at most its starts, times the places it can turn at, times the
+// length of the text; an ordinary post has a handful of each. A text over the
+// limit is not searched: it has no files, and `slow` says why.
+const MAX_SEARCH = 2e8;
+const occurrences = (text, piece) => {
+  let found = 0;
+  for (let at = text.indexOf(piece); at >= 0; at = text.indexOf(piece, at + piece.length)) found += 1;
+  return found;
+};
+export const slowToRead = (body) => {
+  const text = String(body ?? "").toLowerCase();
+  return occurrences(text, "https://github.com/") * (occurrences(text, "/releases/download/") + 1) * text.length > MAX_SEARCH;
+};
+
 // At most this many files are copied for one post, THE file first.
 export const MAX_FILES_PER_POST = 12;
 
@@ -74,6 +94,7 @@ export const MAX_FILES_PER_POST = 12;
 export const postFiles = (issue, kind = kindOfIssue(issue)) => {
   if (!kind) return { kind: null, files: [] };
   const body = String(issue?.body ?? "");
+  if (slowToRead(body)) return { kind, files: [], slow: true };
   const primaries = [];
   if (kind === "scenario") {
     primaries.push(body.match(SCENARIO_FILE)?.[0]);

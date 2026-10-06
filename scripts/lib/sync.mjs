@@ -32,7 +32,7 @@
 
 import { contentTypeOf } from "./check.mjs";
 import { duration, sharedChecker } from "./checker.mjs";
-import { COMMENT_MARKER, NO_FILE, TEST_NOTES, problemComment, spoken, suggestionNotice, testComment } from "./comments.mjs";
+import { COMMENT_MARKER, NO_FILE, SLOW_TEXT, TEST_NOTES, problemComment, spoken, suggestionNotice, testComment } from "./comments.mjs";
 import { buildIndex } from "./index.mjs";
 import {
   KINDS,
@@ -361,14 +361,15 @@ export const syncHub = async ({
   // what happened to each file, for the report and for a test post's comment.
   // For a real post only THE file's problems are the post's, and nothing else
   // is looked at until THE file is right; a test post has every file judged.
-  const checkFiles = async ({ number, kind, files: named, known, test = false }) => {
+  const checkFiles = async ({ number, kind, files: named, slow = false, known, test = false }) => {
     const files = [];
     const problems = [];
     const results = [];
     let deferred = 0;
     let unnamed = 0;
     let spent = 0; // on checking this post's files, in milliseconds
-    if (!named.some((file) => file.primary)) problems.push({ text: NO_FILE[kind], transient: false });
+    if (slow) problems.push({ text: SLOW_TEXT, transient: false });
+    else if (!named.some((file) => file.primary)) problems.push({ text: NO_FILE[kind], transient: false });
     for (const want of named) {
       if (!test && problems.length && !want.primary) break;
       const label = spoken(want.source, { kind, primary: want.primary, ordinal: test && !fileNameOf(want.source) ? (unnamed += 1) : 0 });
@@ -524,9 +525,9 @@ export const syncHub = async ({
       entry.outcome = "waiting";
       summary.deferred += 1;
     } else if (!settled) {
-      const named = postFiles(issue, kind).files;
+      const { files: named, slow } = postFiles(issue, kind);
       followHosted(record, number, named);
-      const attempt = await checkFiles({ number, kind, files: named, known: record.files });
+      const attempt = await checkFiles({ number, kind, files: named, slow, known: record.files });
       entry.files = attempt.results;
       entry.outcome = outcomeOf(attempt.problems, attempt.deferred, attempt.results);
       summary.deferred += attempt.deferred;
@@ -646,8 +647,8 @@ export const syncHub = async ({
       entry.outcome = "no kind";
       body = testComment({ note: TEST_NOTES.noKind });
     } else {
-      const named = postFiles(issue, kind).files;
-      const attempt = await checkFiles({ number, kind, files: named, known: record.files, test: true });
+      const { files: named, slow } = postFiles(issue, kind);
+      const attempt = await checkFiles({ number, kind, files: named, slow, known: record.files, test: true });
       entry.files = attempt.results;
       entry.outcome = outcomeOf(attempt.problems, attempt.deferred, attempt.results);
       entry.problems = attempt.problems.map((problem) => problem.text);
@@ -660,7 +661,7 @@ export const syncHub = async ({
       record.key = entry.outcome === "waiting" ? "" : key;
       body = named.length
         ? testComment({ kind, files: attempt.results })
-        : testComment({ note: `Checked as a **${kind}** post. ${NO_FILE[kind].replace(/ Edit the post.*$/, "")} Attach one, or link one of this repository's files, and the checks run.` });
+        : testComment({ note: slow ? `Checked as a **${kind}** post. ${SLOW_TEXT}` : `Checked as a **${kind}** post. ${NO_FILE[kind].replace(/ Edit the post.*$/, "")} Attach one, or link one of this repository's files, and the checks run.` });
     }
     try {
       state.testComments[number] = await putComment(number, state.testComments[number], body);

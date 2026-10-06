@@ -28,6 +28,10 @@ export const NO_FILE = {
   basemap: "No basemap is attached to this post. Edit the post and drag your image (or the `.zip` the editor gave you) into the Basemap image box.",
 };
 
+// A post whose text is written so that looking for its file takes minutes
+// (posts.mjs, slowToRead).
+export const SLOW_TEXT = "This post's text can't be searched for its file: it repeats the start of a link so many times that looking through it would take minutes, here and in the game. Edit the post: keep your description and the attached file, and take the repeated links out.";
+
 // How a file is named in a sentence: by its name when it has one, never by
 // its address. An image dragged into a post has an id and no name.
 export const spoken = (source, { kind = "", primary = true, ordinal = 0 } = {}) => {

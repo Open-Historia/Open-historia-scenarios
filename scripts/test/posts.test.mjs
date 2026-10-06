@@ -14,6 +14,7 @@ import {
   kindOfIssue,
   parseReleaseLink,
   postFiles,
+  slowToRead,
   sourceKey,
   withoutZipAttachments,
 } from "../lib/posts.mjs";
@@ -64,6 +65,24 @@ test("a basemap post: the data file is the file when there is one, else the imag
     { source: IMAGE, primary: false },
   ]);
   assert.deepEqual(postFiles(issue("basemap", `![map](${IMAGE})`)).files, [{ source: IMAGE, primary: true }]);
+});
+
+test("a text written to keep the search for its file busy is not searched", () => {
+  // The game's own patterns would take more than a minute over this one.
+  const body = `${"https://github.com/".repeat(1700)}${"/releases/download/".repeat(1700)}`;
+  const started = Date.now();
+  for (const kind of ["scenario", "flag", "basemap"]) assert.deepEqual(postFiles(issue(kind, body)), { kind, files: [], slow: true });
+  assert.ok(Date.now() - started < 2000, `${Date.now() - started} ms`);
+  // The same again with a real file after it: still not searched.
+  assert.deepEqual(postFiles(issue("scenario", `${body} ${FILE}`)).files, []);
+  // A post with a great many links of its own is nowhere near.
+  const pictures = Array.from({ length: 60 }, (_, index) => `![shot ${index}](https://github.com/user-attachments/assets/${String(index).padStart(8, "0")}-1111-2222-3333-444444444444)`).join("\n");
+  const preset = "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/bundles/modern-day.zip";
+  const long = `${"A long description. ".repeat(3000)}\n${pictures}\n[modern-day.zip](${preset})`;
+  assert.equal(slowToRead(long), false);
+  const read = postFiles(issue("scenario", long));
+  assert.equal(read.slow, undefined);
+  assert.deepEqual(read.files[0], { source: preset, primary: true });
 });
 
 test("a release link is read into its parts", () => {

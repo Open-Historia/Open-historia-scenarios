@@ -242,6 +242,24 @@ test("a post with no file gets a comment and the label; fixed, both go", async (
   assert.match(hub.index().files[FILE], /p20-501-world-scenario-[0-9a-f]{8}\.json$/, "named for what it is, not what it was called");
 });
 
+test("a post whose text is written to be slow to search is told so, and is not searched again", async () => {
+  const slow = `${"https://github.com/".repeat(1700)}${"/releases/download/".repeat(1700)} ${FILE}`;
+  const hub = fakeHub({ issues: [post(21, "scenario", slow), post(22, "scenario", FILE_V2)], files: { [FILE]: ZIP, [FILE_V2]: ZIP_V2 } });
+  const started = Date.now();
+  await run(hub);
+  assert.ok(Date.now() - started < 5000, `${Date.now() - started} ms`);
+  assert.match(hub.said(21)[0], /This post's text can't be searched for its file: it repeats the start of a link so many times/);
+  assert.ok(labelled(hub, 21));
+  assert.deepEqual(hub.index().posts.map((entry) => entry.number), [22], "the other post is released, and this one is not on the hub");
+  assert.deepEqual(hub.did("download").map(([, url]) => url), [FILE_V2]);
+  // Edited to plain text and the file, it is released like any other.
+  hub.issues.get(21).body = `My world. ${FILE}`;
+  await run(hub, { now: at(30) });
+  assert.deepEqual(hub.said(21), []);
+  assert.ok(!labelled(hub, 21));
+  assert.deepEqual(hub.index().posts.map((entry) => entry.number).sort(), [21, 22]);
+});
+
 test("a file that is gone, too large or the wrong thing is said plainly", async () => {
   const hub = await installed();
   const big = "https://github.com/user-attachments/files/601/huge-scenario.zip";
