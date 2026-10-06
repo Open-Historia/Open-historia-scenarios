@@ -108,7 +108,9 @@ can use and nothing else.
 - **A scenario's flags and logos are carried in the file** (or are the game's own built-in flags).
   A scenario may not have the game load a picture from another website, and its text may not embed
   one (`![…](https://…)`, `<img>`): whoever runs that website would see every player who opens the
-  scenario. Ordinary links in text are fine.
+  scenario. Ordinary links in text are fine. (Once a text has opened a picture with `![`, every
+  link after it is read as a picture's: which bracket closes which is easy to write so that two
+  readers disagree, and the checks do not try to out-read the game.)
 - **A `.zip`** may hold JSON, pictures, tile archives and plain text files, each really what its
   name says, and nothing else: no programs, scripts, web pages, or archives inside the archive. It
   may not be encrypted or split, no entry may leave its folder, and it may hold 2,000 entries and
@@ -118,6 +120,12 @@ can use and nothing else.
 - **Nothing in a file may be something a program could be made to run or follow**: no `javascript:`
   addresses, no `data:` addresses other than pictures, no fields named `__proto__`, `constructor`
   or `prototype`.
+- **A file has to be one that can be checked.** Each file is checked by itself, with three minutes
+  and about 3 GB of memory to do it in (the largest scenarios on the hub take a few seconds and
+  a quarter of that). A file made to need more is refused, and costs no other post anything.
+- **The post's own text** is searched for its file the way the game searches it. A text that
+  repeats the start of a link thousands of times, which would keep the game busy for minutes, is
+  not searched, and the post is not released until it is edited.
 
 ## What is repaired
 
