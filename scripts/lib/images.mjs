@@ -167,7 +167,8 @@ const readWebp = (bytes) => {
     const type = ascii(bytes, at, at + 4);
     const size = bytes.readUInt32LE(at + 4);
     const data = at + 8;
-    if (data + size > end) throw damaged(`its ${type.trim()} part runs past the end`);
+    // (A part's name is four bytes of the file's own: said only when it is a name.)
+    if (data + size > end) throw damaged(/^[A-Za-z0-9]{3,4} ?$/.test(type) ? `its ${type.trim()} part runs past the end` : "one of its parts runs past the end");
     if (first) {
       if (type === "VP8 ") {
         if (size < 10 || bytes[data + 3] !== 0x9d || bytes[data + 4] !== 0x01 || bytes[data + 5] !== 0x2a) throw damaged("its picture has no header");

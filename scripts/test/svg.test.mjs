@@ -197,6 +197,24 @@ test("a drawing that takes too long is stopped, and costs only itself", async ()
   quick.close();
 });
 
+test("what the renderer says of an SVG is never what a comment says", async () => {
+  // The renderer names what it tripped over, in the SVG's own words; a comment
+  // on GitHub would turn those into a link, or a mention.
+  const named = [
+    svg(`<www.evil.example:rect width="9" height="6"/>`),
+    svg(`<text>&www.evil.example;</text>${redBox}`),
+    svg(`<g></evil.example>`),
+  ];
+  for (const text of named) {
+    await assert.rejects(svgToPng(Buffer.from(text), { longest: 64 }), (error) => {
+      assert.ok(error instanceof Problem);
+      assert.match(error.message, /^it is an SVG the hub could not draw, so it cannot be turned into a PNG \(it is not well-formed SVG\)\. Save it as a PNG and attach that instead$/);
+      return true;
+    });
+  }
+  await assert.rejects(svgToPng(Buffer.from(svg(redBox, 'width="0" height="0"')), { longest: 64 }), /\(it has no size the renderer can use\)/);
+});
+
 test("a picture is drawn again smaller, when the renderer can read its kind", async () => {
   const heavy = png({ width: 600, height: 400, color: [...GREEN, 255] });
   const lighter = await redrawSmaller(heavy, { width: 600, height: 400, longest: 300 });

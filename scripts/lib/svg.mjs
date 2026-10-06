@@ -35,6 +35,15 @@ import { imageType, readImage } from "./images.mjs";
 import { BYTE_ORDER_MARK, MIB, Problem, utf8OrNull } from "./util.mjs";
 
 const cannotDraw = (why) => new Problem(`it is an SVG the hub could not draw, so it cannot be turned into a PNG (${why}). Save it as a PNG and attach that instead`);
+// Why the renderer could not draw an SVG, in words of this file's own. The
+// renderer's words are not passed on: they quote the names the SVG uses, and
+// what an author's file says must not be what a comment on GitHub says.
+const rendererSaid = (error) => {
+  const said = String(error ?? "");
+  if (/pars|token|entit|xml|element|attribute|namespace|unexpected|malformed|utf-?8|root node/i.test(said)) return "it is not well-formed SVG";
+  if (/\bsize\b|width|height|dimension/i.test(said)) return "it has no size the renderer can use";
+  return "the renderer could not read it";
+};
 
 // ---- is it an SVG? ------------------------------------------------------------
 
@@ -288,7 +297,7 @@ export class Rasteriser {
     // must start a new one rather than write to one that is on its way out.
     if (waiting.header.leaving) this.#child = null;
     if (waiting.header.ok) waiting.resolve({ ...waiting.header, png: Buffer.from(message) });
-    else waiting.reject(cannotDraw(String(waiting.header.error || "it is not a drawing").replace(/\s+/g, " ").replace(/[`<>]|:\/\//g, " ").slice(0, 160)));
+    else waiting.reject(cannotDraw(rendererSaid(waiting.header.error)));
   }
 
   #fail(why) {
