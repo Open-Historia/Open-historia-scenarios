@@ -8,6 +8,7 @@ on:
       - "scripts/**"
       - "data/**"
       - "package.json"
+      - "package-lock.json"
       - ".github/workflows/**"
   pull_request:
 
@@ -23,5 +24,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+
+      # The SVG renderer, as the workflow itself installs it.
+      - run: npm ci --ignore-scripts
 
       - run: npm test
