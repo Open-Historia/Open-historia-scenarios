@@ -558,6 +558,9 @@ test("a zip may hold only what the game uses, by name and by bytes", async () =>
   // Only a name that says SVG is changed, since what is under it never is one.
   const renamed = await released("scenario", holding({ "basemap.svg": PNG, "cover.svg": avif() }));
   assert.deepEqual(renamed.repairs, ["zip rebuilt: `basemap.svg` → `basemap.png`, `cover.svg` → `cover.bin`"]);
+  // Many of them are one line all the same: the first few names, and how many more.
+  const many = await released("scenario", holding(Object.fromEntries(Array.from({ length: 9 }, (_, index) => [`art/picture ${index}.svg`, PNG]))));
+  assert.deepEqual(many.repairs, ["zip rebuilt: `art/picture 0.svg` → `art/picture 0.png`, `art/picture 1.svg` → `art/picture 1.png`, `art/picture 2.svg` → `art/picture 2.png`, `art/picture 3.svg` → `art/picture 3.png`, 5 more entries renamed the same way"]);
   // Whatever was released is released unchanged when it is checked again.
   for (const once of [mixed, renamed]) assert.equal(sha256((await released("scenario", once.bytes)).bytes), sha256(once.bytes));
   await refused("scenario", holding({ "basemap.svg": SVG, "basemap.png": PNG }), /it holds `basemap\.svg`, which would become `basemap\.png`, and it has an entry by that name already/);

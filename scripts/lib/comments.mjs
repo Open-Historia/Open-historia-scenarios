@@ -22,6 +22,18 @@ export const TEST_MARKER = "<!-- hub-test -->";
 
 const WHAT = { scenario: "scenario file", flag: "flag", basemap: "basemap" };
 
+// A comment as it is posted: no address the game would take for a suggestion
+// (above), and no longer than GitHub takes (65,536 characters; a test issue
+// with a dozen files that each have a dozen problems comes close). One that
+// is refused for its length would be no comment at all.
+const MAX_COMMENT = 60000;
+const comment = (lines) => {
+  const body = withoutZipAttachments(lines.join("\n"));
+  if (body.length <= MAX_COMMENT) return body;
+  const cut = body.lastIndexOf("\n", MAX_COMMENT);
+  return `${body.slice(0, cut > 0 ? cut : MAX_COMMENT)}\n\n(There is more than one comment holds: the rest is left out.)`;
+};
+
 export const NO_FILE = {
   scenario: "No scenario file is attached to this post, so nobody can import it. Edit the post and drag your exported `.json` or `.zip` into the Description box.",
   flag: "No flag image is attached to this post. Edit the post and drag your image into the Flag image box.",
@@ -43,7 +55,7 @@ export const spoken = (source, { kind = "", primary = true, ordinal = 0 } = {}) 
 
 // On a post whose file cannot be released. `released`: the post has a version
 // on the hub already, which stays there.
-export const problemComment = (kind, problems, { released = false } = {}) => withoutZipAttachments([
+export const problemComment = (kind, problems, { released = false } = {}) => comment([
   COMMENT_MARKER,
   released
     ? `### ⚠️ The new version of this post's ${WHAT[kind]} could not be added to the hub`
@@ -55,10 +67,10 @@ export const problemComment = (kind, problems, { released = false } = {}) => wit
     ? "Nothing needs changing in the post: this is tried again automatically, and this comment goes away once it works."
     : "Edit this post (⋯ → Edit) to fix it. It is checked again on every edit, and this comment goes away once the file is in.",
   ...(released ? ["", "Until then the hub keeps the version of this post that was released before."] : []),
-].join("\n"));
+]);
 
 // On a scenario post, once for each person whose suggestion was removed.
-export const suggestionNotice = (login, problems) => withoutZipAttachments([
+export const suggestionNotice = (login, problems) => comment([
   NOTICE_MARKER,
   `### ⚠️ Suggested changes from @${login} were removed`,
   "",
@@ -67,14 +79,14 @@ export const suggestionNotice = (login, problems) => withoutZipAttachments([
   ...problems.map((problem) => `- ${problem}`),
   "",
   "Nothing is wrong with the scenario itself. You can suggest your changes again from the game (**Suggest changes** on your copy of the scenario), and post the new file in a new comment.",
-].join("\n"));
+]);
 
 // On a test post: what the checks did with each of its files.
 //   files: [{ label, primary, outcome, repairs, problems, url }]
 //   outcome: "as is" | "repaired" | "refused" | "left alone" | "waiting"
 export const testComment = ({ kind, files = [], note = "" }) => {
   const lines = [TEST_MARKER, "### 🧪 Security test: what the checks did with this issue's files", ""];
-  if (note) return withoutZipAttachments([...lines, note].join("\n"));
+  if (note) return comment([...lines, note]);
   lines.push(
     `Checked as a **${kind}** post. Nothing here is on the hub: the checked copies are in the \`${TEST_RELEASE}\` release only, no game lists this issue, and the copies are deleted when it is closed.`,
     "",
@@ -88,7 +100,7 @@ export const testComment = ({ kind, files = [], note = "" }) => {
     else if (file.outcome === "waiting") lines.push(`- ${name}: not checked yet.`, ...file.problems.map((problem) => `  - ${problem}`));
     else lines.push(`- ${name}: left alone (neither a picture nor a data file, so the hub copies nothing of it).`);
   }
-  return withoutZipAttachments(lines.join("\n"));
+  return comment(lines);
 };
 
 export const TEST_NOTES = {

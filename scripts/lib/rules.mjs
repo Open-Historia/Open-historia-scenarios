@@ -72,7 +72,9 @@ export class Findings {
 
   // What was put right inside a document, as short phrases.
   repairPhrases() {
-    const phrases = this.renamed.map(([from, to]) => `${quoted(from)} → ${quoted(to)}`);
+    // (The first few names: a zip may hold hundreds of SVGs, and this is one line.)
+    const phrases = this.renamed.slice(0, 4).map(([from, to]) => `${quoted(from)} → ${quoted(to)}`);
+    if (this.renamed.length > 4) phrases.push(`${plural(this.renamed.length - 4, "more entry", "more entries")} renamed the same way`);
     const say = (kind, one, many) => {
       const times = this.#repairs.get(kind);
       if (times) phrases.push(times === 1 ? one : many.replace("#", count(times)));

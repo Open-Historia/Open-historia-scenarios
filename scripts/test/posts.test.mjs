@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { spoken } from "../lib/comments.mjs";
+import { TEST_MARKER, problemComment, spoken, testComment } from "../lib/comments.mjs";
 import { limitedBody } from "../lib/index.mjs";
 import {
   RELEASE_FILE_LIMIT,
@@ -132,6 +132,20 @@ test("a file is named in a sentence by its name, never by its address", () => {
   // And should an address ever get into a comment, it is taken out before the comment is posted.
   assert.equal(withoutZipAttachments(`see ${FILE} and https://github.com/Open-Historia/Open-historia-scenarios/releases/download/security-test/t1-x-1a2b3c4d.zip`),
     "see (an address, left out) and https://github.com/Open-Historia/Open-historia-scenarios/releases/download/security-test/t1-x-1a2b3c4d.zip");
+});
+
+test("a comment is never longer than GitHub takes", () => {
+  // A test issue with a dozen files, each with a dozen long problems.
+  const problems = Array.from({ length: 13 }, (_, index) => `Problem ${index}: ${"a long sentence about one entry of the file. ".repeat(10)}`);
+  const files = Array.from({ length: 12 }, (_, index) => ({ label: `\`file-${index}.zip\``, primary: index === 0, outcome: "refused", repairs: [], problems }));
+  const long = testComment({ kind: "scenario", files });
+  assert.ok(long.length < 65536, `${long.length} characters`);
+  assert.ok(long.startsWith(TEST_MARKER));
+  assert.match(long, /\n\n\(There is more than one comment holds: the rest is left out\.\)$/);
+  assert.match(long, /`file-0\.zip`\*\* \(the post's file\): refused\./);
+  // An ordinary one is as it was written.
+  const short = problemComment("flag", [{ text: "No flag image is attached to this post.", transient: false }]);
+  assert.doesNotMatch(short, /left out/);
 });
 
 test("a long post is cut for the index around what the game reads from it", () => {
