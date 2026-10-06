@@ -16,8 +16,11 @@ name: Copy post files to releases
 on:
   issues:
     types: [opened, edited, reopened, closed, deleted, labeled, unlabeled]
+  # GitHub starts scheduled runs late, and under load not at all, so the half
+  # hour is a target, not a promise: any change to a post starts a run too, and
+  # every run brings every count up to date.
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "11,41 * * * *"
   workflow_dispatch:
 
 permissions:
