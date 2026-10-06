@@ -12,13 +12,16 @@
 // and needs no token for a public repository. It prints, for each post, what
 // a real run would do with it: release its file as it is, repair it (and
 // how), or refuse it (and why); and for each suggestion, keep it or delete it.
-// With --posts it looks at those posts only. --report writes the same as data.
+// With --posts it looks at those posts only. --report writes the same as data,
+// and --keep <folder> saves there each file it would have uploaded, under the
+// name it would have had in the release, to be looked at.
 //
 // HUB_AUTOCLOSE=1 has released posts closed. It is a repository variable, off
 // until the games that can list closed posts are the ones people have: every
 // build before them lists open posts only.
 
 import fs from "node:fs";
+import path from "node:path";
 import { createClient } from "./lib/github.mjs";
 import { closeSharedRasteriser } from "./lib/svg.mjs";
 import { syncHub } from "./lib/sync.mjs";
@@ -35,6 +38,7 @@ if (only.size && !dryRun) {
   process.exit(2);
 }
 const reportFile = option("report");
+const keepFolder = dryRun ? option("keep") : undefined;
 
 const repo = process.env.GITHUB_REPOSITORY || "Open-Historia/Open-historia-scenarios";
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
@@ -56,7 +60,19 @@ const started = Date.now();
 // In a dry run the client's own "would ..." lines are kept out of the way of
 // the per-post account below, which says the same more briefly.
 const client = createClient({ repo, token, dryRun, log: dryRun ? () => {} : console.log });
-const { summary, index, report } = await syncHub({ client, aliases: ALIASES, legacy, log: dryRun ? () => {} : console.log, autoClose, only: only.size ? only : null });
+if (keepFolder) {
+  fs.mkdirSync(keepFolder, { recursive: true });
+  const uploadAsset = client.uploadAsset;
+  client.uploadAsset = (releaseId, file) => {
+    // The name is the workflow's own (letters, digits, dots and dashes), never a name from a file.
+    fs.writeFileSync(path.join(keepFolder, file.name), file.bytes);
+    return uploadAsset(releaseId, file);
+  };
+}
+// The workflow gives a run 90 minutes. After 50 it starts nothing new, so
+// that what it has done is written down in time.
+const deadline = started + 50 * 60000;
+const { summary, index, report } = await syncHub({ client, aliases: ALIASES, legacy, log: dryRun ? () => {} : console.log, autoClose, only: only.size ? only : null, deadline });
 closeSharedRasteriser();
 
 const seconds = Math.round((Date.now() - started) / 1000);
@@ -101,7 +117,7 @@ const lines = [
   `${summary.suggestionsKept} suggestion(s) checked and kept, ${summary.suggestionsDeleted} deleted; ${Object.keys(index.suggestions).length} listed.`,
   ...(autoClose ? [`${summary.closed} post(s) closed, ${summary.reopened} reopened.`] : []),
   ...(summary.tests ? [`${summary.tests} test post(s).`] : []),
-  ...(summary.deferred ? [`${summary.deferred} file(s) left for the next run.`] : []),
+  ...(summary.deferred ? [`${summary.deferred} left for the next run.`] : []),
   dryRun ? "A dry run: nothing was changed." : summary.written ? "The index was updated." : "The index is unchanged.",
   `${seconds} s, ${peakMemoryMb} MB of memory at most.`,
 ];

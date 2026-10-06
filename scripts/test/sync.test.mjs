@@ -384,6 +384,40 @@ test("a listing that fails ends the run before anything is changed", async () =>
   assert.deepEqual(hub.calls, []);
 });
 
+test("a release that will not take a file is not the author's problem either", async () => {
+  const hub = await installed();
+  hub.issues.set(40, post(40, "scenario", FILE));
+  hub.files.set(FILE, ZIP);
+  const uploadAsset = hub.client.uploadAsset;
+  hub.client.uploadAsset = async () => { throw Object.assign(new Error("POST /repos/x/releases/1/assets answered 422: validation failed"), { status: 422, transient: false }); };
+  const lines = [];
+  await run(hub, { log: (line) => lines.push(line) });
+  await run(hub, { now: at(30) });
+  assert.match(lines.join("\n"), /#40: p40-501-world-scenario-[0-9a-f]{8}\.zip could not be uploaded \(POST .* answered 422/);
+  assert.equal(hub.comments.size, 0);
+  assert.ok(!labelled(hub, 40));
+  assert.deepEqual(hub.index().posts, []);
+  await run(hub, { now: at(60) });
+  assert.match(hub.said(40)[0], /`world-scenario\.zip` is in order, but could not be put into the hub's releases just now\.[\s\S]*Nothing needs changing in the post/);
+  hub.client.uploadAsset = uploadAsset;
+  await run(hub, { now: at(90) });
+  assert.equal(hub.comments.size, 0);
+  assert.deepEqual(hub.index().posts.map((entry) => entry.number), [40]);
+});
+
+test("a run that is out of time starts nothing new, and writes down what it did", async () => {
+  const hub = await installed({ issues: [post(12, "scenario", FILE)], files: { [FILE]: ZIP, [FILE_V2]: ZIP_V2 } });
+  hub.issues.set(13, post(13, "scenario", FILE_V2));
+  hub.downloaded("p12-501-", 3);
+  const out = await run(hub, { now: at(30), deadline: 0 });
+  assert.deepEqual(hub.did("download"), []);
+  assert.equal(out.summary.deferred, 1);
+  assert.equal(hub.comments.size, 0, "a post not reached is not a post with a problem");
+  assert.deepEqual(hub.index().imports, { 12: 3 }, "what needs no work is still brought up to date");
+  await run(hub, { now: at(60) });
+  assert.deepEqual(hub.index().posts.map((entry) => entry.number).sort(), [12, 13]);
+});
+
 test("a fault in the checks costs one post a run, not the run", async () => {
   const hub = await installed();
   hub.issues.set(60, post(60, "scenario", FILE));

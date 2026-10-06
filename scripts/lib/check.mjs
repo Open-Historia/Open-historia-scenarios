@@ -11,7 +11,7 @@
 import { checkBasemapFile, checkScenarioFile, checkSuggestionFile } from "./content.mjs";
 import { imageType } from "./images.mjs";
 import { checkPicture, describeChange } from "./pictures.mjs";
-import { looksLikeSvg } from "./svg.mjs";
+import { looksLikeSvg, sharedRasteriser, withinBudget } from "./svg.mjs";
 import { Problem } from "./util.mjs";
 
 // What a file is, from its first bytes: the game tells a scenario .zip from a
@@ -48,7 +48,7 @@ const skipped = () => ({ released: false, skip: true, problems: [], repairs: [] 
 const picture = async (bytes, use, { label, rasteriser }) => {
   try {
     const checked = await checkPicture(bytes, use, { rasteriser });
-    return { released: true, type: checked.type, bytes: checked.bytes, problems: [], repairs: checked.changes.map(describeChange) };
+    return { released: true, type: checked.type, bytes: checked.bytes, pixels: [checked.width, checked.height], problems: [], repairs: checked.changes.map(describeChange) };
   } catch (error) {
     if (!(error instanceof Problem)) throw error;
     return refused(label, error.message);
@@ -69,13 +69,15 @@ const dataFile = async (check, bytes, type, ctx) => {
 // imports); anything else attached is copied when it is a picture or a data
 // file that passes, and left alone (`skip`) when it is neither.
 //
-// { released, type, bytes, repairs, problems, skip }: `problems` are whole
-// sentences for the post's author, `repairs` short lines of what was put
-// right; `bytes` and `type` are what goes into the release.
-export const checkPostFile = async ({ kind, primary, bytes, label, rasteriser, isHubAddress }) => {
+// { released, type, bytes, repairs, problems, skip, pixels }: `problems` are
+// whole sentences for the post's author, `repairs` short lines of what was put
+// right; `bytes` and `type` are what goes into the release, and `pixels` the
+// width and height of a picture.
+export const checkPostFile = async ({ kind, primary, bytes, label, rasteriser, isHubAddress, drawingMs }) => {
   if (!bytes.length) return primary ? refused(label, "it is empty") : skipped();
   const type = sniffType(bytes);
-  const ctx = { label, rasteriser, isHubAddress };
+  // Every SVG in the file is drawn within one allowance of time (svg.mjs).
+  const ctx = { label, rasteriser: withinBudget(rasteriser ?? sharedRasteriser(), drawingMs), isHubAddress };
 
   if (PICTURES.has(type)) {
     if (kind === "scenario" && primary) return refused(label, "it is a picture, not a scenario file (.json or .zip)");

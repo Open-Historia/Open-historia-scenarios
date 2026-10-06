@@ -4,7 +4,7 @@ import test, { after } from "node:test";
 
 import { checkPostFile, checkSuggestion, sniffType } from "../lib/check.mjs";
 import { readImage } from "../lib/images.mjs";
-import { closeSharedRasteriser } from "../lib/svg.mjs";
+import { Rasteriser, closeSharedRasteriser } from "../lib/svg.mjs";
 import { MIB, sha256, sizeText } from "../lib/util.mjs";
 import { readZip } from "../lib/zip.mjs";
 import {
@@ -270,6 +270,9 @@ test("a scenario's tile archives are tile archives", async () => {
   await released("scenario", tiles(pmtiles()));
   await refused("scenario", tiles(Buffer.from("MZ\x90\x00 not tiles at all")), /The `countries` asset of `the-file` can't be used: it is not a PMTiles archive/);
   await refused("scenario", tiles(pmtiles({ longer: 4000 })), /it is cut short/);
+  // What the game's own exporter writes for a world with no tiles of its own: an archive with nothing in it.
+  const none = tiles(Buffer.alloc(0));
+  assert.ok((await released("scenario", none)).bytes.equals(none));
 });
 
 test("the rules that hold everywhere in a scenario's JSON", async () => {
@@ -365,6 +368,9 @@ test("an SVG in a zipped scenario becomes a PNG, and what pointed at it is rewri
   assert.equal(flags.Wales, "https://flagcdn.com/gb-wls.svg");
   assert.notEqual(flags.France, flags.Spain);
   assert.ok(!result.bytes.includes("<svg"), "no SVG is left anywhere in what is released");
+  // And what was released is released unchanged when it is checked again.
+  const again = await released("scenario", result.bytes);
+  assert.deepEqual([again.repairs, sha256(again.bytes)], [["zip rebuilt from its checked entries"], sha256(result.bytes)]);
 });
 
 test("a zipped scenario is refused for what it points at and is not there", async () => {
@@ -403,14 +409,37 @@ test("a zip may hold only what the game uses, by name and by bytes", async () =>
   await refused("scenario", holding({ "notes.txt": Buffer.from([0x4d, 0x5a, 0x00, 0x01, 0xff]) }), /`notes\.txt` is not plain text/);
   await refused("scenario", holding({ "extra.json": { icon: dataUrl("text/html", "<script>") } }), /`extra\.json` holds a `data:` address that is not a picture/);
   await refused("scenario", holding({ "basemap.geojson": { type: "FeatureCollection" } }), /`basemap\.geojson` is not a map the game can draw/);
-  // A picture under another picture's name is given its own.
-  const renamed = await released("scenario", holding({ "preview.png": REAL_JPEG, "art/photo.jpeg": REAL_JPEG, "assets/extra.bin": gif() }));
-  assert.deepEqual(renamed.repairs, ["zip rebuilt: `preview.png` → `preview.jpg`"]);
-  assert.deepEqual(Object.keys(unzipped(renamed.bytes)), ["scenario.json", "preview.jpg", "art/photo.jpeg", "assets/extra.bin"]);
+  // A picture under another kind of picture's name keeps it: the game itself
+  // writes a cover of any kind as cover.jpg, and shows a picture whatever its
+  // name says. (An AVIF is a picture only as a cover.)
+  const mixed = await released("scenario", holding({ "preview.png": REAL_JPEG, "art/photo.jpeg": REAL_JPEG, "assets/extra.bin": gif(), "cover.jpg": avif() }));
+  assert.deepEqual(mixed.repairs, ["zip rebuilt from its checked entries"]);
+  assert.deepEqual(Object.keys(unzipped(mixed.bytes)), ["scenario.json", "preview.png", "art/photo.jpeg", "assets/extra.bin", "cover.jpg"]);
+  await refused("scenario", holding({ "preview.jpg": avif() }), /`preview\.jpg` can't be used: it is an AVIF, which the game shows only as a scenario's cover/);
+  // Only a name that says SVG is changed, since what is under it never is one.
+  const renamed = await released("scenario", holding({ "basemap.svg": PNG, "cover.svg": avif() }));
+  assert.deepEqual(renamed.repairs, ["zip rebuilt: `basemap.svg` → `basemap.png`, `cover.svg` → `cover.bin`"]);
+  // Whatever was released is released unchanged when it is checked again.
+  for (const once of [mixed, renamed]) assert.equal(sha256((await released("scenario", once.bytes)).bytes), sha256(once.bytes));
   await refused("scenario", holding({ "basemap.svg": SVG, "basemap.png": PNG }), /it holds `basemap\.svg`, which would become `basemap\.png`, and it has an entry by that name already/);
   // What the zip reader refuses is the file's problem as a whole.
   await refused("scenario", rawZip([{ name: "scenario.json", data: JSON.stringify(scenario()), flags: 1 }]), /`the-file` can't be used: it has an entry that is encrypted \(`scenario\.json`\)/);
   await refused("scenario", rawZip([{ name: "scenario.json", data: JSON.stringify(scenario()) }, { name: "assets/cover.png", data: PNG, crc: 7 }]), /`the-file` can't be used: it has an entry that is damaged/);
+});
+
+test("the SVGs of one file are drawn within one allowance of time", async () => {
+  // A few lines of SVG that keep the renderer busy for minutes; a file may hold hundreds.
+  const slow = (index) => `<svg xmlns="http://www.w3.org/2000/svg" width="4000" height="4000"><filter id="f${index}"><feGaussianBlur stdDeviation="900"/><feMorphology radius="400"/></filter><rect width="4000" height="4000" filter="url(#f${index})"/></svg>`;
+  const attached = scenarioZip({}, Object.fromEntries(Array.from({ length: 8 }, (_, index) => [`art/slow-${index}.svg`, slow(index)])));
+  const impatient = new Rasteriser({ timeoutMs: 400 });
+  const started = Date.now();
+  const result = await checkPostFile({ kind: "scenario", primary: true, bytes: attached, label: "`the-file`", rasteriser: impatient, drawingMs: 700 });
+  impatient.close();
+  assert.equal(result.released, false);
+  // Two were tried, each stopped at its own limit; the other six were not started.
+  assert.equal(result.problems.filter((problem) => /drawing it took more than/.test(problem)).length, 2);
+  assert.equal(result.problems.filter((problem) => /the SVGs in this file together take too long to draw/.test(problem)).length, 6);
+  assert.ok(Date.now() - started < 6000, `${Date.now() - started} ms`);
 });
 
 // ---- a basemap --------------------------------------------------------------------

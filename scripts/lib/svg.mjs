@@ -311,6 +311,26 @@ export class Rasteriser {
   }
 }
 
+// A renderer that draws for one file, for so long in all. A drawing has its
+// own limit (twenty seconds), and a file can hold hundreds: a dozen lines of
+// SVG can keep the renderer busy for minutes, and a file made of those would
+// keep a run busy for hours.
+export const FILE_DRAWING_MS = 60000;
+export const withinBudget = (rasteriser, budgetMs = FILE_DRAWING_MS) => {
+  let spent = 0;
+  return {
+    draw: async (request) => {
+      if (spent >= budgetMs) throw cannotDraw("the SVGs in this file together take too long to draw");
+      const started = Date.now();
+      try {
+        return await rasteriser.draw(request);
+      } finally {
+        spent += Date.now() - started;
+      }
+    },
+  };
+};
+
 let shared = null;
 export const sharedRasteriser = () => (shared ??= new Rasteriser());
 export const closeSharedRasteriser = () => {

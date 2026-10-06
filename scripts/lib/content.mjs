@@ -147,18 +147,23 @@ const openZip = (bytes, findings, label, options) => {
   }
 };
 
-// A picture entry: checked for its use, and named for what it is (an SVG that
-// became a PNG is no longer "basemap.svg"). Returns the checked picture, or
-// null when it has a problem.
+// The name a picture entry is released under. An entry called ".svg" is no
+// longer one once it is drawn (and the game reads a basemap's kind off its
+// name, so a PNG left under ".svg" would not show). Any other name is kept,
+// even over another kind of picture: the game itself writes a cover of any
+// kind as "cover.jpg", and shows a picture whatever its name says.
+// (".bin" for an AVIF, which is a picture only as a cover, and has no name of
+// its own among the names a zip for the hub may hold.)
+const pictureName = (name, type) => (extensionOf(name) === "svg" ? `${name.slice(0, -3)}${type === "avif" ? "bin" : type}` : name);
+
+// A picture entry, checked for its use. Returns the checked picture, or null
+// when it has a problem.
 const keepPicture = async (archive, name, bytes, use, { findings, ctx }) => {
   const checked = await attempt(findings, quoted(name), () => checkPicture(bytes, use, ctx));
   if (checked === FAILED) return null;
   for (const change of checked.changes) findings.repaired(change.kind === "svg" ? `svg:${use}` : change.kind);
-  const extension = extensionOf(name);
-  const fits = extension === "bin" || extension === checked.type || (extension === "jpeg" && checked.type === "jpg");
-  // In a suggestion nothing is renamed: the game is told the picture's type
-  // beside it, and reads it whatever its name.
-  const as = fits || ctx.repair === false ? name : `${name.slice(0, -extension.length)}${checked.type}`;
+  // In a suggestion nothing is renamed: nothing in one is put right.
+  const as = ctx.repair === false ? name : pictureName(name, checked.type);
   archive.keep(name, checked.bytes, { store: true, as });
   return { ...checked, name: as };
 };
@@ -338,6 +343,10 @@ const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) =
       const payload = descriptor.data;
       slots.fields.set(descriptor, { data: "payload" });
       if (payload === undefined || payload === null) continue; // nothing in it: the game uses its own
+      // A tile archive with nothing in it is what the game's own exporter
+      // writes for a world that has none of its own (one drawn by hand, on its
+      // own regions): nothing to check, and nothing to refuse.
+      if (payload === "" && FILE_ASSETS[key] === "tiles") continue;
       if (Object.hasOwn(FILE_ASSETS, key)) {
         const bytes = typeof payload === "string" ? base64Bytes(payload) : null;
         if (!bytes) {
@@ -415,9 +424,7 @@ const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) =
         }
         const checked = await checkFile(key, fileBytes, entry);
         if (!checked) continue;
-        const extension = extensionOf(file);
-        const fits = key !== "cover" || extension === "bin" || extension === checked.type || (extension === "jpeg" && checked.type === "jpg");
-        const as = fits ? file : `${file.slice(0, -extension.length)}${checked.type}`;
+        const as = key === "cover" ? pictureName(file, checked.type) : file;
         archive.keep(file, inText ? Buffer.from(checked.bytes.toString("base64")) : checked.bytes, { store: !inText, as });
         if (as !== file) {
           descriptor.file = as;

@@ -36,6 +36,22 @@ export const USES = {
 
 const megapixels = (pixels) => `${Math.round(pixels / 1e6)} megapixels`;
 
+// What the renderer drew is held to the same standard as what an author sends:
+// a PNG that is whole, of the size the renderer said. Anything else is the
+// hub's failure, not a picture to release.
+const drawnWhole = (drawn) => {
+  let read = null;
+  try {
+    read = readImage(drawn.bytes);
+  } catch {
+    // Not a picture at all: said below.
+  }
+  if (read?.type !== "png" || read.length !== drawn.bytes.length || read.width !== drawn.width || read.height !== drawn.height) {
+    throw new Problem("the hub could not draw it as a PNG (the drawing came out damaged)");
+  }
+  return drawn;
+};
+
 // { bytes, type, width, height, changes } for a picture that can be released
 // as `use`; `changes` lists what was put right ({ kind: "svg" | "trimmed" |
 // "lighter", ... }). Throws a Problem, which finishes "... can't be used: ",
@@ -52,7 +68,7 @@ export const checkPicture = async (input, useName, { rasteriser, repair = true }
 
   if (!type && looksLikeSvg(bytes)) {
     if (!repair) throw new Problem("it is an SVG, and an SVG cannot be used here: save it as a PNG and use that instead");
-    const drawn = await svgToPng(bytes, { ...use.svg, rasteriser });
+    const drawn = drawnWhole(await svgToPng(bytes, { ...use.svg, rasteriser }));
     changes.push({ kind: "svg", width: drawn.width, height: drawn.height, lostText: drawn.lostText });
     ({ bytes, width, height } = drawn);
     type = "png";
@@ -87,7 +103,7 @@ export const checkPicture = async (input, useName, { rasteriser, repair = true }
       if (longest > Math.max(width, height) && lighter) continue;
       lighter = await redrawSmaller(bytes, { width, height, longest, rasteriser });
       // null: the renderer cannot read this kind of picture (a WebP).
-      if (!lighter || lighter.bytes.length <= use.maxBytes) break;
+      if (!lighter || drawnWhole(lighter).bytes.length <= use.maxBytes) break;
     }
     if (!lighter || lighter.bytes.length > use.maxBytes) {
       throw new Problem(`it is ${sizeText(before)}, and a ${use.what} can be ${sizeText(use.maxBytes)} at most${type === "webp" ? " (the hub can make a PNG, JPEG or GIF smaller, but not a WebP)" : ""}`);

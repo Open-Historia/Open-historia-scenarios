@@ -182,11 +182,17 @@ export const syncHub = async ({
   autoClose = false,
   only = null,
   rasteriser,
+  deadline = Infinity,
 }) => {
   const state = normalizeState(await client.readData(STATE_FILE));
   if (!state.installedAt) state.installedAt = now.toISOString();
   const before = JSON.stringify(state);
   const wanted = (number) => !only || only.has(Number(number));
+  // Past `deadline` (a time on the clock) nothing new is started: what is left
+  // waits for the next run, and what was done is written down. A run cut off
+  // by the workflow's own time limit would write nothing, and the next would
+  // start on the same work again.
+  const late = () => Date.now() >= deadline;
 
   // Everything is read before anything is changed: a listing that fails ends
   // the run here, with nothing deleted on the strength of half a list.
@@ -352,8 +358,17 @@ export const syncHub = async ({
         if (want.primary || test) problems.push({ text, transient });
         else log(`#${number}: not copied: ${text}`);
       };
+      let got;
       try {
-        const got = await client.download(want.source, { maxBytes: MAX_FILE_BYTES });
+        got = await client.download(want.source, { maxBytes: MAX_FILE_BYTES });
+      } catch (error) {
+        const transient = error?.transient !== false;
+        fail(transient
+          ? `${label} could not be fetched from GitHub just now (${error?.message || error}).`
+          : `${label} can't be downloaded any more (${error?.message || error}). Attach it again.`, transient);
+        continue;
+      }
+      try {
         if (got.tooLarge) {
           if (want.primary || test) fail(`${label} can't be used: it is ${sizeText(got.size)}, and the game can import ${sizeText(MAX_FILE_BYTES)} at most.`, false);
           else result.outcome = "left alone";
@@ -390,7 +405,16 @@ export const syncHub = async ({
           continue;
         } else {
           const tag = test ? TEST_RELEASE : chooseRelease(releases, kind).tag;
-          const made = await upload(tag, test ? TEST_RELEASE_TITLE : releaseTitle(kind, tag), test ? TEST_RELEASE_NOTES : releaseNotes(kind), { name, type: checked.type, bytes: checked.bytes });
+          let made;
+          try {
+            made = await upload(tag, test ? TEST_RELEASE_TITLE : releaseTitle(kind, tag), test ? TEST_RELEASE_NOTES : releaseNotes(kind), { name, type: checked.type, bytes: checked.bytes });
+          } catch (error) {
+            // The file is fine and the release would not take it: GitHub's
+            // side or the hub's, never the author's. Tried again next run.
+            log(`#${number}: ${name} could not be uploaded (${error?.message || error})`);
+            fail(`${label} is in order, but could not be put into the hub's releases just now.`, true);
+            continue;
+          }
           asset = { id: made.id, tag: made.tag, name: made.name, url: made.url, size: checked.bytes.length, sha256: hash };
         }
         files.push({ source: want.source, primary: want.primary, asset, ...(checked.repairs.length ? { repairs: checked.repairs } : {}) });
@@ -398,19 +422,15 @@ export const syncHub = async ({
         result.repairs = checked.repairs;
         result.copy = asset.name;
         result.url = asset.url;
+        result.type = checked.type;
         result.copySize = checked.bytes.length;
+        if (checked.pixels) result.pixels = checked.pixels;
       } catch (error) {
-        if (typeof error?.transient === "boolean") {
-          fail(error.transient
-            ? `${label} could not be fetched from GitHub just now (${error?.message || error}).`
-            : `${label} can't be downloaded any more (${error?.message || error}). Attach it again.`, error.transient);
-        } else {
-          // A fault of this program's own. Not the author's problem, and not
-          // a reason to end the run for every other post: said in the log,
-          // and tried again next time.
-          log(`#${number}: ${label} could not be checked: ${error?.stack || error}`);
-          fail(`${label} could not be checked just now (an error on the hub's side).`, true);
-        }
+        // A fault of this program's own. Not the author's problem, and not a
+        // reason to end the run for every other post: said in the log, and
+        // tried again next time.
+        log(`#${number}: ${label} could not be checked: ${error?.stack || error}`);
+        fail(`${label} could not be checked just now (an error on the hub's side).`, true);
       }
     }
     return { files, problems, deferred, results };
@@ -466,7 +486,10 @@ export const syncHub = async ({
     const entry = { number, kind, title: String(issue.title ?? ""), state: record.live.state, outcome: "unchanged", files: [], problems: [] };
     report.posts.push(entry);
 
-    if (!settled) {
+    if (!settled && late()) {
+      entry.outcome = "waiting";
+      summary.deferred += 1;
+    } else if (!settled) {
       followHosted(record, number, named);
       const attempt = await checkFiles({ number, kind, files: named, known: record.files });
       entry.files = attempt.results;
@@ -575,6 +598,11 @@ export const syncHub = async ({
     const entry = { number, kind, title: String(issue.title ?? ""), outcome: "unchanged", files: [], problems: [] };
     report.tests.push(entry);
     if (record.key === key && record.files.every((file) => assetsById.has(file.asset.id))) continue;
+    if (late()) {
+      entry.outcome = "waiting";
+      summary.deferred += 1;
+      continue;
+    }
     let body;
     if (!kind) {
       await dropTestCopies(record);
@@ -699,6 +727,10 @@ export const syncHub = async ({
     const known = state.suggestions[id];
     if (known && known.at === stamp && known.zip === zip) {
       pass(); // looked at already, as it stands
+      continue;
+    }
+    if (late()) {
+      held = true; // looked at on the next run, from here
       continue;
     }
     const label = spoken(zip);
