@@ -24,7 +24,7 @@
 import { featureCollectionProblem, looksLikeFeatureCollection, pmtilesProblem } from "./geodata.mjs";
 import { IMAGE_MIME } from "./images.mjs";
 import { base64Bytes, checkPicture, isDataAddress } from "./pictures.mjs";
-import { Findings, Slots, checkDocument } from "./rules.mjs";
+import { Findings, MAX_DEPTH, Slots, checkDocument } from "./rules.mjs";
 import { MIB, Problem, count, isRecord, quoted, sizeText, utf8OrNull } from "./util.mjs";
 import { packEntry, readZip, writeZip } from "./zip.mjs";
 
@@ -38,8 +38,33 @@ export const MAX_JSON_BYTES = 256 * MIB;
 // JSON inside a .zip or inside another document is not, because there the game
 // does not drop one either, and fails on it.
 const fileDecoder = new TextDecoder("utf-8");
+
+// Whether the brackets of a JSON text go deeper than `limit`, told without
+// reading it as JSON. JSON.parse keeps a record of every bracket that is
+// still open, outside the memory it can be held to: 250 MB of "[" cost it
+// 14 GB before it found that they are never closed. (A few levels are allowed
+// over what a document may have, rules.mjs: the points of a shape are not
+// levels there.)
+const nestedDeeperThan = (bytes, limit) => {
+  let depth = 0;
+  let inString = false;
+  for (let at = 0; at < bytes.length; at += 1) {
+    const byte = bytes[at];
+    if (inString) {
+      if (byte === 0x5c) at += 1;
+      else if (byte === 0x22) inString = false;
+    } else if (byte === 0x22) inString = true;
+    else if (byte === 0x5b || byte === 0x7b) {
+      depth += 1;
+      if (depth > limit) return true;
+    } else if (byte === 0x5d || byte === 0x7d) depth -= 1;
+  }
+  return false;
+};
+
 const parseJson = (bytes, { file = false } = {}) => {
   if (bytes.length > MAX_JSON_BYTES) throw new Problem(`it is ${sizeText(bytes.length)} of JSON, and the game could not read more than ${sizeText(MAX_JSON_BYTES)}`);
+  if (nestedDeeperThan(bytes, MAX_DEPTH + 4)) throw new Problem(`it is nested more than ${MAX_DEPTH} levels deep, which nothing the game writes is`);
   try {
     return JSON.parse(file ? fileDecoder.decode(bytes) : bytes.toString("utf8"));
   } catch (error) {

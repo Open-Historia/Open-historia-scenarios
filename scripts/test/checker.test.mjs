@@ -95,6 +95,21 @@ test("a file that needs more memory than the checker has is refused, and the nex
   }
 });
 
+test("all of the checker's memory is watched, not only what its JavaScript holds", async () => {
+  // A file whose bytes alone are more than the checker may use, with all the
+  // JavaScript memory it could want: the watch is on a thread of its own, and
+  // stops the checker in the middle of reading.
+  const tight = new Checker({ allMemoryMb: 200 });
+  try {
+    const bytes = Buffer.from(JSON.stringify(scenario({ world: { text: "a".repeat(120 * 1024 * 1024) } })));
+    const result = await tight.postFile({ kind: "scenario", primary: true, bytes, label: "`long.json`", hub: HUB });
+    assert.deepEqual(result, { released: false, problems: ["`long.json` can't be used: checking it takes more memory than the hub has for one file, far more than any file the game makes."], repairs: [] });
+    assert.equal((await tight.postFile({ kind: "flag", primary: true, bytes: PNG, label: "`flag.png`", hub: HUB })).released, true);
+  } finally {
+    tight.close();
+  }
+});
+
 test("a file that takes too long to check is refused, and the next file is checked", async () => {
   const hasty = new Checker({ timeoutMs: 1000 });
   try {

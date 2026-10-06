@@ -33,6 +33,9 @@ const WORKER = fileURLToPath(new URL("./check-worker.mjs", import.meta.url));
 // JSON, a 20 MB .zip) take from two to five seconds and well under a gigabyte.
 export const CHECK_MINUTES = 3;
 export const CHECK_MEMORY_MB = 3072;
+// ... and of memory of every kind (the bytes of the file, of its entries and
+// of what is written from them are not JavaScript's to hold).
+export const CHECK_ALL_MEMORY_MB = 5120;
 
 // Why a file's check was stopped: the words finish "<the file> can't be used: ".
 class Stopped extends Error {}
@@ -62,15 +65,17 @@ export class Checker {
   #queue = Promise.resolve();
   #timeoutMs;
   #memoryMb;
+  #allMemoryMb;
   #worker;
   // The most memory a checker has said it used, in megabytes (one stopped for
   // using too much never says).
   peakMemoryMb = 0;
 
   // (`worker` is for the tests: a checker that fails.)
-  constructor({ timeoutMs = CHECK_MINUTES * 60000, memoryMb = CHECK_MEMORY_MB, worker = WORKER } = {}) {
+  constructor({ timeoutMs = CHECK_MINUTES * 60000, memoryMb = CHECK_MEMORY_MB, allMemoryMb = Math.max(512, Math.round((memoryMb * CHECK_ALL_MEMORY_MB) / CHECK_MEMORY_MB)), worker = WORKER } = {}) {
     this.#timeoutMs = timeoutMs;
     this.#memoryMb = memoryMb;
+    this.#allMemoryMb = allMemoryMb;
     this.#worker = worker;
   }
 
@@ -80,7 +85,7 @@ export class Checker {
       stdio: ["pipe", "pipe", "pipe"],
       windowsHide: true,
       // The checker has no use for the token this process may hold.
-      env: { ...process.env, GITHUB_TOKEN: "", GH_TOKEN: "", NODE_OPTIONS: "" },
+      env: { ...process.env, GITHUB_TOKEN: "", GH_TOKEN: "", NODE_OPTIONS: "", HUB_CHECK_RSS_MB: String(this.#allMemoryMb) },
     });
     const reader = new FrameReader();
     let complaint = "";

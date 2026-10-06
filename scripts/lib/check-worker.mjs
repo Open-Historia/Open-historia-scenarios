@@ -15,10 +15,30 @@
 //      `same`, or is not released at all)
 // (frames.mjs says what a message is.)
 
+import { Worker } from "node:worker_threads";
+
 import { checkPostFile, checkSuggestion } from "./check.mjs";
 import { FrameReader, writeFrames } from "./frames.mjs";
 import { hubAddressTest } from "./posts.mjs";
 import { closeSharedRasteriser } from "./svg.mjs";
+
+// All the memory this process may use, whatever it is used for. What its
+// JavaScript holds has a limit already (--max-old-space-size, which checker.mjs
+// sets), but not everything is held there: the bytes of files are not, nor
+// what the parts of Node written in C++ keep for themselves. The checks run on
+// the main thread and do not pause to look, so the watch is kept on a thread
+// of its own; it says why on the way out, in the words checker.mjs looks for.
+const MEMORY_LIMIT = (Number(process.env.HUB_CHECK_RSS_MB) || 5120) * 1024 * 1024;
+new Worker(
+  `const { workerData } = require("node:worker_threads");
+  const fs = require("node:fs");
+  setInterval(() => {
+    if (process.memoryUsage.rss() <= workerData.limit) return;
+    try { fs.writeSync(2, "out of memory: more than the checker may use\\n"); } catch {}
+    process.kill(process.pid, "SIGKILL");
+  }, 50);`,
+  { eval: true, workerData: { limit: MEMORY_LIMIT } },
+).unref();
 
 // After a file this heavy the process is not kept: the next one starts with
 // all of its memory to itself.

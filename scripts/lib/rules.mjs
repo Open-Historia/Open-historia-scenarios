@@ -114,7 +114,8 @@ export class Slots {
 // ---- walking a document -------------------------------------------------------
 
 const FORBIDDEN_KEYS = new Set(["__proto__", "constructor", "prototype"]);
-const MAX_DEPTH = 200;
+// (Nothing the game writes is nested a tenth as deep.)
+export const MAX_DEPTH = 200;
 
 // "data.world.polityOverrides.France.flag", from the visit that reached it.
 // (Each name only by its start: a name can be as long as the file.)

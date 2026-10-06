@@ -402,6 +402,25 @@ test("a text made to be slow to read is read once, like any other", async () => 
   assert.ok(Date.now() - started < 30000, `${Date.now() - started} ms for ${pieces.length * 3} MB of it`);
 });
 
+test("JSON is not read before its brackets are counted", async () => {
+  // Reading JSON keeps a record of every bracket still open, and a file of
+  // nothing but opening brackets is the most records for the fewest bytes:
+  // it is refused for its depth, and never for what reading it would find.
+  const top = '{"schema":"open-historia-scenario-bundle/2","scenario":{},"deep":';
+  const started = Date.now();
+  await refused("scenario", Buffer.concat([Buffer.from(top), Buffer.alloc(8000000, "[")]), /^`the-file` can't be used: it is nested more than 200 levels deep, which nothing the game writes is\.$/);
+  await refused("scenario", Buffer.concat([Buffer.from(top), Buffer.alloc(8000000, "{\"a\":")]), /nested more than 200 levels deep/);
+  assert.ok(Date.now() - started < 3000, `${Date.now() - started} ms`);
+  // Brackets in text are text, and a document may be as deep as any real one is, and deeper.
+  await released("scenario", Buffer.from(`${top}${JSON.stringify("[{".repeat(5000))}}`));
+  await released("scenario", Buffer.from(`${top}${JSON.stringify(`a quote \\" and a bracket [ ${"[".repeat(500)}`)}}`));
+  await released("scenario", Buffer.from(`${top}${"[".repeat(150)}${"]".repeat(150)}}`));
+  // In a .zip too, and in a map carried as base64.
+  await refused("scenario", zip({ "scenario.json": Buffer.concat([Buffer.from(top), Buffer.alloc(100000, "[")]) }), /`scenario\.json` can't be used: it is nested more than 200 levels deep/);
+  const carried = scenarioJson({ assets: { regionsGeojson: { contentType: "application/json", encoding: "base64", data: Buffer.alloc(100000, "[").toString("base64"), fileName: "regions.geojson", mode: "embedded" } } });
+  await refused("scenario", carried, /The `regionsGeojson` asset of `the-file` can't be used: it is nested more than 200 levels deep/);
+});
+
 test("a name as long as the file costs no more than a short one", async () => {
   // Twenty thousand problems under a name of a megabyte: each is counted, and
   // only the dozen that are said are written out.
