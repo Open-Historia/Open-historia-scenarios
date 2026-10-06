@@ -243,6 +243,11 @@ else: a test issue is not in the index, is never counted, closed or labelled `fi
   a real post; one that passes stays, and is not listed for any game.
 - An issue that carries a kind label as well as `security test` is a **real post**: games would
   list it, so it is handled as one, and its result comment says so.
+- **A file made to break the checks themselves** (to use up the memory, or never to finish) is
+  refused like any other, in so many words ("checking it takes more memory than the hub has for one
+  file", "checking it took more than 3 minutes"), and the run goes on to the next file. If a
+  result ever says a file *could not be checked just now (an error on the hub's side)*, that is a
+  fault in the checks: the run's log has the details, and it is worth reporting.
 - **To clean up**, close the issue (or delete it, or take the label off): its copies in the
   `security-test` release are deleted on the next run. The result comment stays as the record.
 
