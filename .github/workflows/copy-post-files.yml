@@ -45,7 +45,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
+      # The token is not left in the checkout's git settings: nothing here uses
+      # git, and a file on disk is one more thing a post's file must never reach.
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - uses: actions/setup-node@v5
         with:
@@ -58,7 +62,9 @@ jobs:
         run: npm ci --ignore-scripts
 
       # Nothing a post says reaches a shell: the script reads the posts itself,
-      # through the API, and looks inside their files in its own process.
+      # through the API, and has their files looked into by a second process of
+      # its own code, which is given no token, has a limit on its time and its
+      # memory, and costs a run nothing but that one file when a file breaks it.
       - name: Check the files, copy them and write the index
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

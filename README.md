@@ -121,8 +121,9 @@ can use and nothing else.
   addresses, no `data:` addresses other than pictures, no fields named `__proto__`, `constructor`
   or `prototype`.
 - **A file has to be one that can be checked.** Each file is checked by itself, with three minutes
-  and about 3 GB of memory to do it in (the largest scenarios on the hub take a few seconds and
-  a quarter of that). A file made to need more is refused, and costs no other post anything.
+  and a few gigabytes of memory to do it in (the largest scenarios on the hub take five seconds
+  and one gigabyte), and JSON may be nested 200 levels deep. A file made to need more is refused,
+  and costs no other post anything.
 - **The post's own text** is searched for its file the way the game searches it. A text that
   repeats the start of a link thousands of times, which would keep the game busy for minutes, is
   not searched, and the post is not released until it is edited.
