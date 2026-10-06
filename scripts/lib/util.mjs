@@ -55,11 +55,26 @@ const ELLIPSIS = String.fromCharCode(0x2026);
 // a .zip attachment's address as a suggestion, and a file can name an entry or
 // a key anything it likes.
 export const quoted = (value, max = 60) => {
-  let text = String(value ?? "").replace(UNPRINTABLE_ALL, " ").replace(/`/g, "'").replace(/\s+/g, " ").trim();
+  // (Only its start is read: a name can be as long as the file it stands in.)
+  let text = String(value ?? "").slice(0, max * 4 + 200).replace(UNPRINTABLE_ALL, " ").replace(/`/g, "'").replace(/\s+/g, " ").trim();
   const address = text.search(/:\/\/|github\.com|githubusercontent/i);
   if (address >= 0) text = `${text.slice(0, address)}${ELLIPSIS}`;
   if (text.length > max) text = `${text.slice(0, max - 1)}${ELLIPSIS}`;
   return `\`${text || " "}\``;
+};
+
+// The first `wanted` characters of an address as a browser reads one: the
+// blanks and control characters in front of it are passed over, and tabs and
+// line breaks are left out wherever they stand ("java<tab>script:" is
+// "javascript:" to a browser), however many of them there are.
+export const addressStart = (text, wanted) => {
+  let start = "";
+  for (let at = 0; at < text.length && start.length < wanted; at += 1) {
+    const code = text.charCodeAt(at);
+    if (code === 0x09 || code === 0x0a || code === 0x0d || (!start && code <= 0x20)) continue;
+    start += text[at];
+  }
+  return start;
 };
 
 // Text decoded as UTF-8 (a byte order mark at its start left out), or null

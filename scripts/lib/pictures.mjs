@@ -15,7 +15,7 @@
 
 import { IMAGE_MIME, MIME_IMAGE, imageType, readImage } from "./images.mjs";
 import { looksLikeSvg, redrawSmaller, svgToPng } from "./svg.mjs";
-import { KIB, MIB, Problem, count, sizeText } from "./util.mjs";
+import { KIB, MIB, Problem, addressStart, count, sizeText } from "./util.mjs";
 
 const RASTER = new Set(["png", "jpg", "gif", "webp"]);
 export const MAX_PICTURE_BYTES = 30 * MIB;
@@ -155,25 +155,43 @@ export const base64Bytes = (text) => {
   return Buffer.from(spaces ? text.replace(/[ \t\n\f\r]+/g, "") : text, "base64");
 };
 
-// "data:<type>[;parameters][;base64],<data>" in its parts, or null.
-const DATA_ADDRESS = /^\s*data:([^,;]*)((?:;[^,;]*)*),/i;
-export const isDataAddress = (text) => text.length >= 5 && /^\s*data:/i.test(text.slice(0, 16));
+// "data:<type>[;parameters][;base64],<data>" in its parts, as a browser reads
+// one: whatever blanks stand in front of it, and whatever tabs and line breaks
+// are written into its start. Null for what is not a data: address: text with
+// no comma after its "data:" (a browser has nothing to load from it), and text
+// with something other than a type where the type stands ("Data: 12 divisions,
+// 3 fleets"), which a browser shows as the plain text it is.
+const DATA_HEAD = /^data:([^;]*)((?:;[^;]*)*)$/i;
+const MEDIA_TYPE = /^[!#$%&'*+.^_`|~0-9a-z-]+\/[!#$%&'*+.^_`|~0-9a-z-]+$/;
 export const parseDataAddress = (text) => {
-  const head = DATA_ADDRESS.exec(text.slice(0, 300));
+  const comma = text.indexOf(",");
+  const head = comma < 0 ? null : DATA_HEAD.exec(addressStart(text.slice(0, comma), 300));
   if (!head) return null;
-  return { mime: head[1].trim().toLowerCase(), base64: /;\s*base64\s*$/i.test(head[2]), start: head[0].length };
+  const mime = head[1].trim().toLowerCase();
+  if (mime && !MEDIA_TYPE.test(mime)) return null;
+  return { mime, base64: /;\s*base64\s*$/i.test(head[2]), start: comma + 1 };
 };
+export const isDataAddress = (text) => {
+  if (text.length < 6) return false;
+  // (Nearly every string is told apart by its first character.)
+  const first = text.charCodeAt(0);
+  if (first > 0x20 && first !== 0x64 && first !== 0x44) return false;
+  return addressStart(text, 5).toLowerCase() === "data:" && parseDataAddress(text) !== null;
+};
+// What an address that is not base64 carries: its text, with "%41" for "A".
+const HEX = /^[0-9A-Fa-f]{2}$/;
 const percentDecoded = (text) => {
-  const bytes = [];
   const plain = Buffer.from(text, "utf8");
+  const bytes = Buffer.allocUnsafe(plain.length);
+  let length = 0;
   for (let index = 0; index < plain.length; index += 1) {
-    const hex = plain[index] === 0x25 ? plain.toString("latin1", index + 1, index + 3) : "";
-    if (/^[0-9A-Fa-f]{2}$/.test(hex)) {
-      bytes.push(parseInt(hex, 16));
+    if (plain[index] === 0x25 && HEX.test(plain.toString("latin1", index + 1, index + 3))) {
+      bytes[length] = parseInt(plain.toString("latin1", index + 1, index + 3), 16);
       index += 2;
-    } else bytes.push(plain[index]);
+    } else bytes[length] = plain[index];
+    length += 1;
   }
-  return Buffer.from(bytes);
+  return bytes.subarray(0, length);
 };
 
 // A picture's data: address, checked as `use`: the address to keep (the same
@@ -183,10 +201,12 @@ export const checkPictureAddress = async (text, useName, options = {}) => {
   const parsed = parseDataAddress(text);
   if (!parsed) throw new Problem("it is not a complete data: address");
   const payload = text.slice(parsed.start);
+  // Before it is decoded: no picture is this long, however it is written.
+  if (payload.length > MAX_PICTURE_BYTES * 3) throw new Problem(`it is more than ${sizeText(MAX_PICTURE_BYTES)}, and a picture can be ${sizeText(MAX_PICTURE_BYTES)} at most`);
   const bytes = parsed.base64 ? base64Bytes(payload) : percentDecoded(payload);
   if (!bytes) throw new Problem("what it carries is not base64");
   const checked = await checkPicture(bytes, useName, options);
-  const said = parsed.mime === "image/svg+xml" ? "svg" : MIME_IMAGE[parsed.mime] ?? "";
+  const said = parsed.mime === "image/svg+xml" ? "svg" : Object.hasOwn(MIME_IMAGE, parsed.mime) ? MIME_IMAGE[parsed.mime] : "";
   const changes = [...checked.changes];
   // An address that says "image/png" and carries a JPEG is shown all the same;
   // one that says "svg+xml" and carries a PNG is not. Put right either way.

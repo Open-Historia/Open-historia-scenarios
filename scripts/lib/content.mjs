@@ -252,7 +252,7 @@ const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) =
   if (typeof bundle.schema !== "string" || !SCENARIO_SCHEMA.test(bundle.schema)) {
     findings.problem(bundle.schema === undefined
       ? `${label} is not a scenario the game can import: it does not say what it is (it has no \`schema\`)`
-      : `${label} is not a scenario the game can import: its \`schema\` is ${quoted(typeof bundle.schema === "string" ? bundle.schema : JSON.stringify(bundle.schema))}, which is not a scenario's`);
+      : `${label} is not a scenario the game can import: its \`schema\` is ${typeof bundle.schema === "string" ? quoted(bundle.schema) : "not a name"}, which is not a scenario's`);
     return false;
   }
   const part = (holder, key, path) => {

@@ -286,6 +286,20 @@ test("the rules that hold everywhere in a scenario's JSON", async () => {
   await refused("scenario", withRawField('"text":"The war. ![map](https://evil.example/pixel.png?who=player)"'), /has text that shows a picture from another website \(`evil\.example`, at `data\.world\.text`\): the game would load it from there for every player/);
   await refused("scenario", withRawField('"text":"<IMG alt=\\"x\\" SRC=\'http://evil.example/p.gif\'>"'), /shows a picture from another website/);
   await refused("scenario", withRawField('"text":"![map][m]\\n\\n[m]: https://evil.example/m.png"'), /shows a picture from another website/);
+  // An address is one as a browser reads it: whatever blanks stand in front of
+  // it, and whatever tabs and line breaks are written into it.
+  const page = "<script>alert(1)</script>";
+  await refused("scenario", withRawField(`"note":${JSON.stringify(` \n\t${dataUrl("text/html", page)}`)}`), /holds a `data:` address that is not a picture \(`text\/html`/);
+  await refused("scenario", withRawField(`"note":${JSON.stringify(`${" ".repeat(500)}Da\tta:\ntext/html,${page}`)}`), /holds a `data:` address that is not a picture \(`text\/html`/);
+  await refused("scenario", withRawField('"note":"data:,alert(1)"'), /holds a `data:` address that is not a picture \(`of no kind`/);
+  await refused("scenario", withRawField(`"link":${JSON.stringify(`${" ".repeat(500)}javascript:alert(1)`)}`), /holds a script address/);
+  await refused("scenario", withRawField(`"link":${JSON.stringify(`j${"\n".repeat(500)}avascript:alert(1)`)}`), /holds a script address/);
+  const spaced = await released("scenario", withRawField(`"icon":${JSON.stringify(` \n${svgUrl}`)}`));
+  assert.match(json(spaced.bytes).data.world.icon, /^data:image\/png;base64,/);
+  // What only begins like an address is text: nothing for a browser to load,
+  // or words where an address has its type.
+  await released("scenario", withRawField('"note":"data: what the census of 1936 found"'));
+  await released("scenario", withRawField('"note":"Data: 12 divisions, 3 fleets and no fuel."'));
   // A picture anywhere is checked as a picture, and an SVG anywhere is drawn.
   const anywhere = await released("scenario", withRawField(`"markers":[{"icon":${JSON.stringify(svgUrl)}}]`));
   assert.deepEqual(anywhere.repairs, ["1 SVG picture converted to a PNG"]);
@@ -313,13 +327,15 @@ test("an address is judged as a browser would read it, however it is written", a
     "![x](https\\://evil.example/p.png)",
     "![a [nested] alt](https://evil.example/p.png \"a title\")",
     "![x]( //evil.example/p.png )",
+    "![x](\\\\\\\\evil.example\\p.png)",
+    "<img src=\"\\\\evil.example\\p.png\">",
     "<img srcset=\"//evil.example/p.png 2x\">",
     "<img\nalt='x'\nsrc = 'HTTPS://evil.example/p'>",
     "<img src=&#104;ttps://evil.example/p.png>",
     "![x][1]\n\n   [1]: <https://evil.example/p.png>",
   ];
   for (const value of pictures) await refused("scenario", text(`Before. ${value} After.`), /shows a picture from another website \(`evil\.example`/);
-  const scripts = ["[x](java&#115;cript:alert(1))", "[x](<java\tscript:alert(1)>)", "<a href=\"jav&#x61;script:alert(1)\">x</a>", "<form action=vbscript:x>", "![x](javascript\\:alert(1))"];
+  const scripts = ["[x](java&#115;cript:alert(1))", "[x](<java\tscript:alert(1)>)", "<a href=\"jav&#x61;script:alert(1)\">x</a>", "<form action=vbscript:x>", "![x](javascript\\:alert(1))", "[x]: javascript:alert(1)", `<a href="${"\n".repeat(400)}javascript:alert(1)">x</a>`];
   for (const value of scripts) await refused("scenario", text(`Before. ${value} After.`), /holds a script address/);
   // What only looks like one of these is left alone.
   for (const value of ["\\![x](https://example.com/p.png)", "[x](https://example.com/p.png)", "![x](pictures/p.png)", "![x](data:image/png;base64,AAAA)", "an <image> of [brackets] (and) parentheses", "<img alt=\"no source\">", "5 > 3 and src = nothing"]) {
@@ -327,15 +343,80 @@ test("an address is judged as a browser would read it, however it is written", a
   }
 });
 
+test("a picture in text is found by what Markdown itself would show", async () => {
+  const text = (value) => withRawField(`"text":${JSON.stringify(value)}`);
+  const remote = "https://evil.example/p.png";
+  const shown = [
+    // Any number of blanks may stand before the address, and a line break.
+    `![x](${" ".repeat(400)}${remote})`,
+    `![x](\n   ${remote})`,
+    // A caption may hold code and brackets of its own, to any depth.
+    `![a \`]\` b](${remote})`,
+    `![a \`[\` b](${remote})`,
+    `![a \`](x)\` b](${remote})`,
+    `![${"[".repeat(90)}deep${"]".repeat(90)}](${remote})`,
+    `![a [link](local.html) inside](${remote})`,
+    `[![x](${remote})](https://example.com/)`,
+    // An address given by name: on another line, in a quote, in a list, under a long name.
+    `![m][]\n\n[m]:\n   ${remote}`,
+    `![m]\n\n> [m]: ${remote}`,
+    `![m][n]\n\n- [n]: <${remote}>`,
+    `![${"long name ".repeat(40)}]\n\n[${"long name ".repeat(40)}]: ${remote}`,
+    `[m]: ${remote}\n\nAnd further down: ![m]`,
+  ];
+  for (const value of shown) await refused("scenario", text(`Before. ${value} After.`), /shows a picture from another website \(`evil\.example`/);
+  // HTML, should anything ever render it.
+  const tags = [
+    `<img alt="a>b" src="${remote}">`,
+    `<img ${"data-x=1 ".repeat(1000)} src="${remote}">`,
+    `<img src="${"\n".repeat(400)}${remote}">`,
+    `<img src="h${"\t".repeat(400)}ttps://evil.example/p.png">`,
+    `<img srcset="local.png 1x,${" ".repeat(400)}${remote} 2x">`,
+    `<image src="${remote}">`,
+    `<IMG/SRC="${remote}">`,
+  ];
+  for (const value of tags) await refused("scenario", text(`Before. ${value} After.`), /shows a picture from another website \(`evil\.example`/);
+  // A link is not a picture: nothing follows one until a player clicks it.
+  const links = [
+    `[a link](${remote})`,
+    `Hurrah! [a link](${remote})`,
+    `[a link][n]\n\n[n]: ${remote}`,
+    `<a href="${remote}">a link</a>`,
+    `[a link](${remote}) and, after it, ![a picture of the game's own](maps/europe.png)`,
+  ];
+  for (const value of links) await released("scenario", text(`Before. ${value} After.`));
+  // After a picture has been opened, though, every link is taken for a
+  // picture's: which bracket closes which is Markdown's to say, not this
+  // reader's, and a text can be written so that the two disagree.
+  await refused("scenario", text(`![a picture of the game's own](maps/europe.png) and then [a link](${remote})`), /shows a picture from another website/);
+});
+
 test("a text made to be slow to read is read once, like any other", async () => {
   const flood = (piece) => withRawField(`"text":${JSON.stringify(piece.repeat(Math.ceil(3000000 / piece.length)))}`);
   const started = Date.now();
-  for (const piece of ["![", "](", "[", "<img ", "<img src=", "![a](", "href=\"", "[x]: ", "&#104;"]) {
+  const pieces = ["![", "](", "[", "<img ", "<img src=", "![a](", "href=\"", "[x]: ", "&#104;", "]:", "](<\t", "![x](\t\t\t\t", "]:\n\n\n\n", "src=\"\n", "srcset=\",", "src ", "<img srcset=', ", "\\"];
+  for (const piece of pieces) {
     const result = await check("scenario", flood(piece));
     assert.equal(result.released, true, piece);
   }
-  assert.ok(Date.now() - started < 20000, `${Date.now() - started} ms for 27 MB of it`);
+  assert.ok(Date.now() - started < 30000, `${Date.now() - started} ms for ${pieces.length * 3} MB of it`);
 });
+
+test("a name as long as the file costs no more than a short one", async () => {
+  // Twenty thousand problems under a name of a megabyte: each is counted, and
+  // only the dozen that are said are written out.
+  const long = "k".repeat(1000000);
+  const bundle = scenario();
+  bundle.data.world[long] = Array.from({ length: 20000 }, () => ({ link: "javascript:alert(1)", note: "data:text/html,x" }));
+  const started = Date.now();
+  const result = await check("scenario", Buffer.from(JSON.stringify(bundle)));
+  assert.equal(result.released, false);
+  assert.equal(result.problems.length, 13);
+  assert.match(result.problems[12], /^And 39,988 more problems of the same kinds\.$/);
+  assert.ok(result.problems.every((problem) => problem.length < 400), "a sentence is short whatever the file names its fields");
+  assert.ok(Date.now() - started < 10000, `${Date.now() - started} ms`);
+});
+
 
 // ---- a scenario as a .zip --------------------------------------------------------
 

@@ -24,7 +24,7 @@
 // author liked.
 
 import { USES, checkPictureAddress, isDataAddress, parseDataAddress } from "./pictures.mjs";
-import { Problem, count, plural, quoted } from "./util.mjs";
+import { Problem, addressStart, count, plural, quoted } from "./util.mjs";
 
 // ---- what a check found -------------------------------------------------------
 
@@ -55,6 +55,14 @@ export class Findings {
 
   get failed() {
     return this.problems.length > 0;
+  }
+
+  // One more problem, where it has been found and what it says is `say()`:
+  // once the list is full the sentence is not even written, because a file can
+  // be made to have a problem in every one of its millions of values.
+  found(say) {
+    if (this.problems.length >= MAX_PROBLEMS) this.#more += 1;
+    else this.problem(say());
   }
 
   // The problems, with a last line for those there was no room for.
@@ -95,7 +103,11 @@ export class Slots {
   fields = new WeakMap();
 
   of(container, key) {
-    return this.whole.get(container) ?? this.fields.get(container)?.[key];
+    const whole = this.whole.get(container);
+    if (whole) return whole;
+    // (A key is whatever the file's author wrote: "constructor" is a key too.)
+    const fields = this.fields.get(container);
+    return fields && Object.hasOwn(fields, key) ? fields[key] : undefined;
   }
 }
 
@@ -105,10 +117,11 @@ const FORBIDDEN_KEYS = new Set(["__proto__", "constructor", "prototype"]);
 const MAX_DEPTH = 200;
 
 // "data.world.polityOverrides.France.flag", from the visit that reached it.
+// (Each name only by its start: a name can be as long as the file.)
 const pathOf = (frame, key) => {
   const parts = [key];
   for (let at = frame; at && at.parent; at = at.parent) parts.push(at.key);
-  return quoted(parts.reverse().map((part, index) => (typeof part === "number" ? `[${part}]` : `${index ? "." : ""}${part}`)).join(""), 90);
+  return quoted(parts.reverse().map((part, index) => (typeof part === "number" ? `[${part}]` : `${index ? "." : ""}${part.slice(0, 60)}`)).join(""), 90);
 };
 
 // A pair or triple of numbers: one point of a shape. A map has millions, and
@@ -116,27 +129,29 @@ const pathOf = (frame, key) => {
 const isPoint = (value) => value.length <= 4 && typeof value[0] === "number" && (value.length < 2 || typeof value[1] === "number")
   && (value.length < 3 || typeof value[2] === "number") && (value.length < 4 || typeof value[3] === "number");
 
-// Walks `root`, calling onKey(frame, key) for a forbidden key and
-// onString(frame, key, value) for every string. Returns false when the
-// document is nested too deeply to go on.
+// Walks `root` in the order it is written, calling onKey(frame, key) for a
+// forbidden key and onString(frame, key, value) for every string. Returns
+// false when the document is nested too deeply to go on. What is kept while
+// walking is one frame for each level it is inside of, and not one for every
+// value still to come: a list can have ten million.
+const frameOf = (node, parent, key) => ({ node, keys: Array.isArray(node) ? null : Object.keys(node), next: 0, parent, key, depth: parent ? parent.depth + 1 : 0 });
 const walk = (root, { onKey, onString }) => {
-  const stack = [{ node: root, parent: null, key: "", depth: 0 }];
-  while (stack.length) {
-    const frame = stack.pop();
-    const { node } = frame;
-    if (frame.depth > MAX_DEPTH) return false;
-    const list = Array.isArray(node);
-    const keys = list ? null : Object.keys(node);
-    const length = list ? node.length : keys.length;
-    for (let index = 0; index < length; index += 1) {
-      const key = list ? index : keys[index];
-      if (!list && FORBIDDEN_KEYS.has(key)) onKey(frame, key);
-      const value = node[key];
-      if (typeof value === "string") onString(frame, key, value);
-      else if (value !== null && typeof value === "object") {
-        if (Array.isArray(value) && (!value.length || isPoint(value))) continue;
-        stack.push({ node: value, parent: frame, key, depth: frame.depth + 1 });
-      }
+  let frame = frameOf(root, null, "");
+  while (frame) {
+    const { node, keys } = frame;
+    if (frame.next >= (keys ? keys.length : node.length)) {
+      frame = frame.parent;
+      continue;
+    }
+    const key = keys ? keys[frame.next] : frame.next;
+    frame.next += 1;
+    if (keys && FORBIDDEN_KEYS.has(key)) onKey(frame, key);
+    const value = node[key];
+    if (typeof value === "string") onString(frame, key, value);
+    else if (value !== null && typeof value === "object") {
+      if (Array.isArray(value) && (!value.length || isPoint(value))) continue;
+      if (frame.depth >= MAX_DEPTH) return false;
+      frame = frameOf(value, frame, key);
     }
   }
   return true;
@@ -151,7 +166,7 @@ const HAS_SCHEME = /^[a-z][a-z0-9+.-]*:/i;
 const REMOTE = /^(?:https?:)?\/\//i;
 const SCRIPT = /^(?:javascript|vbscript):/i;
 const SHIPPED_HOST = /^https:\/\/flagcdn\.com\//i;
-const hostOf = (address) => address.replace(REMOTE, "").split(/[/?#:@]/)[0];
+const hostOf = (address) => address.replace(REMOTE, "").replace(/^\/+/, "").split(/[/?#:@]/)[0];
 
 // An address as a browser reads it: tabs and line breaks dropped wherever they
 // stand, and the blanks and control characters in front of it.
@@ -169,75 +184,103 @@ const flagAddressProblem = (value) => {
   return "";
 };
 
-// The start of an address written inside text, with what Markdown and HTML
-// let an author write it in undone: backslashes before punctuation, and
-// characters written as references ("&#104;ttps:", "&colon;").
+// The start of an address written inside text, in each way it may be read:
+// with characters written as references read as the characters ("&#104;ttps:",
+// "&colon;"), as HTML and Markdown both do, and then also with Markdown's
+// backslashes undone ("https\://"). Either reading counts.
 const NAMED_CHARACTERS = { colon: ":", sol: "/", bsol: "\\", Tab: "", NewLine: "", period: ".", amp: "&" };
 const character = (code) => (code > 0 && code <= 0x10ffff ? String.fromCodePoint(code) : "");
-const writtenAddress = (raw) => asBrowserReads(raw.slice(0, 300)
-  .replace(/&#x([0-9a-f]{1,6});?/gi, (whole, hex) => character(parseInt(hex, 16)))
-  .replace(/&#(\d{1,7});?/g, (whole, digits) => character(Number(digits)))
-  .replace(/&([A-Za-z]{2,8});/g, (whole, name) => (Object.hasOwn(NAMED_CHARACTERS, name) ? NAMED_CHARACTERS[name] : whole))
-  .replace(/\\(?=[!-/:-@[-`{-~])/g, ""));
+const readings = (raw) => {
+  // (Most have neither a reference nor a backslash in them, and are what they say.)
+  if (!raw.includes("&") && !raw.includes("\\")) return [raw];
+  const plain = asBrowserReads(raw
+    .replace(/&#x([0-9a-f]{1,6});?/gi, (whole, hex) => character(parseInt(hex, 16)))
+    .replace(/&#(\d{1,7});?/g, (whole, digits) => character(Number(digits)))
+    .replace(/&([A-Za-z]{2,8});/g, (whole, name) => (Object.hasOwn(NAMED_CHARACTERS, name) ? NAMED_CHARACTERS[name] : whole)));
+  const unescaped = asBrowserReads(plain.replace(/\\([!-/:-@[-`{-~])/g, "$1"));
+  return unescaped === plain ? [plain] : [plain, unescaped];
+};
 
 // What a text embeds or links that it may not: the websites it would load a
-// picture from (Markdown's ![alt](address) and ![alt][name], an <img>), and
-// whether it carries a script address where a browser would follow one. Each
-// is found in one pass over the text, however long it is and whatever it is
-// made of: a pattern that looks ahead for a closing bracket from every opening
-// one takes a thousand times longer on a text made of opening brackets.
-const NAMED_ADDRESS = /^[ \t]{0,3}\[[^\]\n]{1,200}\]:[ \t]*<?[ \t]*(\S{1,300})/gm;
-const ATTRIBUTE = /\b(src|srcset|href|action|formaction|poster|data)\s*=\s*(?:"([^"]{0,300})|'([^']{0,300})|([^\s"'>]{1,300}))/gi;
+// picture from, and whether it carries a script address where a browser would
+// follow one.
+//
+// The game shows text as Markdown. Telling exactly which "](" closes a picture
+// takes all of Markdown's rules (a "]" inside a code span closes nothing, a
+// picture's caption may hold links and brackets of its own), and a text made
+// to slip past a reader that follows fewer rules than the game's would. So a
+// picture is told by the least it needs: after a "![" that is not written
+// "\![", every "](address)" is taken for a picture's, and every "[name]:
+// address" anywhere in such a text too (a picture can be given its address by
+// name, on another line, in a quote). A text with a "![" in it and a plain
+// link to a website after it is refused with the rest; a link alone never is.
+//
+// HTML the game does not render, and is read the same way in case something
+// ever does: in a text with an <img>, every src and srcset after it.
+//
+// Each is found in passes that read no part of the text twice, however long
+// it is and whatever it is made of.
+
+// Where an address is written (after "](" or "]:"), its first 300 characters
+// as a browser would be handed them: the blanks and the "<" in front of it
+// passed over, tabs and line breaks left out, to the end of the link. It stops
+// at a "]" in any case, where the next link could begin, so that a text made
+// of nothing but links is still read once.
+const targetAt = (text, from) => {
+  let target = "";
+  for (let at = from; at < text.length && target.length < 300; at += 1) {
+    const code = text.charCodeAt(at);
+    if (code === 0x09 || code === 0x0a || code === 0x0d) continue;
+    if (code === 0x29 || code === 0x3e || code === 0x5d) break;
+    if (!target && (code <= 0x20 || code === 0x3c)) continue;
+    target += text[at];
+  }
+  return target;
+};
+
+const ATTRIBUTE = /\b(src|srcset|href|action|formaction|poster|data)\s*=\s*(?:"([^"]*)|'([^']*)|([^\s"'>]{1,300}))/gi;
+const IMAGE_TAG = /<(?:img|image)\b/i;
+const CANDIDATE = /(?:^|,)\s*([^,]{0,300})/g;
 const scanText = (text) => {
   const hosts = new Set();
   let script = false;
-  const picture = (raw) => {
-    const address = writtenAddress(raw);
-    if (REMOTE.test(address) && !SHIPPED_HOST.test(address)) hosts.add(hostOf(address));
-  };
-  const link = (raw) => {
-    if (SCRIPT.test(writtenAddress(raw))) script = true;
+  // An address found in the text, its start as targetAt or addressStart gives
+  // it: a link's, and when `shown` a picture's, which the game would load.
+  const found = (raw, shown) => {
+    if (raw.length < 2) return;
+    for (const reading of readings(raw)) {
+      if (SCRIPT.test(reading)) script = true;
+      if (!shown) continue;
+      // (A browser reads a backslash in an address as a slash.)
+      const address = reading.replace(/\\/g, "/");
+      if (REMOTE.test(address) && !SHIPPED_HOST.test(address)) hosts.add(hostOf(address));
+    }
   };
 
-  if (text.includes("](") || text.includes("![")) {
-    // For each "[" still open: whether a "!" stands before it (a picture).
-    const open = [];
-    let named = false;
-    let bang = -2; // where the last "!" stood
+  const named = text.includes("]:");
+  if (named || text.includes("](")) {
+    let pictures = false; // a "![" has been passed
     for (let at = 0; at < text.length; at += 1) {
       const code = text.charCodeAt(at);
       if (code === 0x5c) at += 1; // a backslash: the next character is only itself
-      else if (code === 0x21) bang = at;
-      else if (code === 0x5b) {
-        if (open.length >= 64) open.shift();
-        open.push(bang === at - 1);
-      } else if (code === 0x5d && open.length) {
-        const isPicture = open.pop();
-        if (text.charCodeAt(at + 1) === 0x28) {
-          const target = text.slice(at + 2, at + 302).replace(/^\s*<?\s*/, "");
-          link(target);
-          if (isPicture) picture(target);
-        } else if (isPicture) named = true; // ![alt][name]: the address is given elsewhere, by name
-      }
+      else if (code === 0x21) pictures ||= text.charCodeAt(at + 1) === 0x5b;
+      else if (code === 0x5d && text.charCodeAt(at + 1) === 0x28) found(targetAt(text, at + 2), pictures);
     }
-    if (named) for (const match of text.matchAll(NAMED_ADDRESS)) picture(match[1]);
+    if (named) {
+      for (let at = text.indexOf("]:"); at >= 0; at = text.indexOf("]:", at + 2)) found(targetAt(text, at + 2), pictures);
+    }
   }
   // HTML: only a text with a tag in it can have an attribute a browser follows.
   if (text.includes("<")) {
-    const tag = /<img\b/gi;
-    let unclosed = false; // no ">" from here on: not looked for again
-    for (let match = tag.exec(text); match; match = tag.exec(text)) {
-      // The tag, to its ">" or for 4,000 characters; the next tag is looked
-      // for after it, so no part of the text is read twice.
-      const close = unclosed ? -1 : text.indexOf(">", match.index);
-      unclosed = close < 0;
-      const end = close < 0 || close > match.index + 4000 ? Math.min(text.length, match.index + 4000) : close;
-      for (const attribute of text.slice(match.index, end).matchAll(ATTRIBUTE)) {
-        if (/^src/i.test(attribute[1])) picture(attribute[2] ?? attribute[3] ?? attribute[4] ?? "");
-      }
-      tag.lastIndex = end;
+    const image = text.search(IMAGE_TAG);
+    for (const attribute of text.matchAll(ATTRIBUTE)) {
+      const value = attribute[2] ?? attribute[3] ?? attribute[4] ?? "";
+      const name = attribute[1].toLowerCase();
+      const inImage = image >= 0 && attribute.index > image;
+      found(addressStart(value, 300), inImage && name === "src");
+      // (A srcset names several pictures, each with a size after it.)
+      if (inImage && name === "srcset") for (const candidate of value.matchAll(CANDIDATE)) found(addressStart(candidate[1], 300), true);
     }
-    for (const attribute of text.matchAll(ATTRIBUTE)) link(attribute[2] ?? attribute[3] ?? attribute[4] ?? "");
   }
   return { hosts: [...hosts], script };
 };
@@ -255,20 +298,22 @@ const MAX_DRAWINGS = 600;
 export const checkDocument = async (root, { label, findings, slots = new Slots(), ctx, drawn = { count: 0, cache: new Map() } }) => {
   if (root === null || typeof root !== "object") return false;
   const pictures = [];
+  // Which one a string is: the key of a list of flags, the name a polity's or
+  // an institution's record is kept under, or else the place in the document.
+  // (Worked out only for a string that is spoken of: a document has millions.)
+  const whereOf = (frame, key, slot) => (slots.whole.has(frame.node) ? `key ${quoted(key)}` : slot && typeof frame.key === "string" ? quoted(frame.key) : `at ${pathOf(frame, key)}`);
   const complete = walk(root, {
     onKey: (frame, key) => {
-      findings.problem(`${label} has a field named ${quoted(key)} (at ${pathOf(frame, key)}), a name that can break the program that reads it`);
+      findings.found(() => `${label} has a field named ${quoted(key)} (at ${pathOf(frame, key)}), a name that can break the program that reads it`);
     },
     onString: (frame, key, value) => {
       const slot = slots.of(frame.node, key);
       if (slot === "payload") return;
-      // Which one it is: the key of a list of flags, the name a polity's or an
-      // institution's record is kept under, or else the place in the document.
-      const where = slots.whole.has(frame.node) ? `key ${quoted(key)}` : slot && typeof frame.key === "string" ? `${quoted(frame.key)}` : `at ${pathOf(frame, key)}`;
+      const where = () => whereOf(frame, key, slot);
       if (isDataAddress(value)) {
         const parsed = parseDataAddress(value);
         if (!parsed || !parsed.mime.startsWith("image/")) {
-          findings.problem(`${label} holds a \`data:\` address that is not a picture (${quoted(parsed?.mime || "of no kind")}, ${where})`);
+          findings.found(() => `${label} holds a \`data:\` address that is not a picture (${quoted(parsed?.mime || "of no kind")}, ${where()})`);
         } else {
           pictures.push({ container: frame.node, key, value, use: SLOT_USE[slot] ?? "picture", where });
         }
@@ -277,21 +322,21 @@ export const checkDocument = async (root, { label, findings, slots = new Slots()
       if (slot === "flag" || slot === "emblem") {
         const what = slot === "flag" ? "flag" : "logo";
         const wrong = flagAddressProblem(value);
-        if (wrong === "remote") findings.problem(`${label} holds a ${what} that is loaded from another website (${quoted(hostOf(asBrowserReads(value)))}, ${where}): a ${what} has to be carried in the file itself`);
-        else if (wrong) findings.problem(`${label} holds a ${what} that is not an image the game can show (${where})`);
+        if (wrong === "remote") findings.found(() => `${label} holds a ${what} that is loaded from another website (${quoted(hostOf(asBrowserReads(value).replace(/\\/g, "/")))}, ${where()}): a ${what} has to be carried in the file itself`);
+        else if (wrong) findings.found(() => `${label} holds a ${what} that is not an image the game can show (${where()})`);
         return;
       }
       if (slot === "logo" || slot === "basemap" || slot === "cover" || slot === "picture") {
-        if (value.trim()) findings.problem(`${label} holds a ${USES[SLOT_USE[slot]].what} that is not a picture carried in the file (${where})`);
+        if (value.trim()) findings.found(() => `${label} holds a ${USES[SLOT_USE[slot]].what} that is not a picture carried in the file (${where()})`);
         return;
       }
       if (value.length < 8) return;
       const inText = scanText(value);
-      if (inText.script || SCRIPT.test(asBrowserReads(value.slice(0, 200)))) {
-        findings.problem(`${label} holds a script address (\`javascript:\` or \`vbscript:\`, ${where})`);
+      if (inText.script || SCRIPT.test(addressStart(value, 12))) {
+        findings.found(() => `${label} holds a script address (\`javascript:\` or \`vbscript:\`, ${where()})`);
       }
       for (const host of inText.hosts) {
-        findings.problem(`${label} has text that shows a picture from another website (${quoted(host)}, ${where}): the game would load it from there for every player`);
+        findings.found(() => `${label} has text that shows a picture from another website (${quoted(host)}, ${where()}): the game would load it from there for every player`);
       }
     },
   });
@@ -323,7 +368,7 @@ export const checkDocument = async (root, { label, findings, slots = new Slots()
       checkedBefore.set(picture.value, result);
     }
     if (result.problem) {
-      findings.problem(`${label} holds a ${what} that can't be used (${picture.where}): ${result.problem}`);
+      findings.found(() => `${label} holds a ${what} that can't be used (${picture.where()}): ${result.problem}`);
       continue;
     }
     if (result.text === picture.value) continue;
