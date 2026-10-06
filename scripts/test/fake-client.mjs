@@ -3,19 +3,40 @@
 
 import crypto from "node:crypto";
 
-const REPO = "Open-Historia/Open-historia-scenarios";
+import { syncHub } from "../lib/sync.mjs";
 
-export const zipBytes = (size = 64) => Buffer.concat([Buffer.from([0x50, 0x4b, 0x03, 0x04]), Buffer.alloc(Math.max(0, size - 4), 7)]);
-export const pngBytes = (size = 64) => Buffer.concat([Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]), Buffer.alloc(Math.max(0, size - 8), 3)]);
-export const jsonBytes = () => Buffer.from('{"schema":"open-historia-scenario-bundle/2"}');
+export const REPO = "Open-Historia/Open-historia-scenarios";
+const BOT = { login: "github-actions[bot]", type: "Bot" };
+
+// Minutes after noon on the day of the tests.
+export const at = (minutes) => new Date(Date.UTC(2026, 9, 5, 12, minutes));
+// One run of the workflow, at a time the hub's own clock then shows too.
+export const run = (hub, { now = at(0), ...options } = {}) => {
+  hub.time = now.toISOString();
+  return syncHub({ client: hub.client, now, ...options });
+};
+// A hub the workflow has already run on once, so what a test does comes after.
+export const installed = async (setup = {}, options = {}) => {
+  const hub = fakeHub(setup);
+  await run(hub, options);
+  hub.calls.length = 0;
+  return hub;
+};
 
 export const post = (number, kind, body, extra = {}) => ({
   number,
   state: "open",
-  title: `[${kind}] Post ${number}`,
+  state_reason: null,
+  title: `[${kind[0].toUpperCase()}${kind.slice(1)}] Post ${number}`,
   body,
   labels: [{ name: kind }],
+  user: { login: "author", type: "User", avatar_url: "https://avatars.githubusercontent.com/u/1?v=4" },
+  html_url: `https://github.com/${REPO}/issues/${number}`,
+  created_at: `2026-10-01T00:00:${String(number % 60).padStart(2, "0")}Z`,
   updated_at: `2026-10-05T00:00:${String(number % 60).padStart(2, "0")}Z`,
+  author_association: "NONE",
+  reactions: { "+1": 0 },
+  comments: 0,
   ...extra,
 });
 
@@ -25,17 +46,44 @@ export const fakeHub = ({ issues = [], releases = [], data = {}, files = {} } = 
     issues: new Map(issues.map((issue) => [issue.number, issue])),
     releases: releases.map((release) => ({ ...release, assets: [...(release.assets ?? [])] })),
     data: { ...data },
-    // source URL -> Buffer, or an Error to throw
+    // source URL -> Buffer, an Error to throw, or { tooLarge: bytes }
     files: new Map(Object.entries(files)),
-    comments: new Map(), // id -> { number, body }
+    comments: new Map(), // id -> { number, body, user, created_at, updated_at }
+    uploaded: new Map(), // asset name -> the bytes that were uploaded
     calls: [],
     nextId: 1000,
+    // The time the hub's own clock shows: what a comment made now is stamped with.
+    time: "2026-10-05T12:00:00.000Z",
   };
   const call = (name, ...args) => hub.calls.push([name, ...args]);
+  const gone = () => Object.assign(new Error("GitHub answered 404"), { status: 404, transient: false });
+  const shown = (id, comment) => ({
+    id,
+    body: comment.body,
+    user: comment.user,
+    created_at: comment.created_at,
+    updated_at: comment.updated_at,
+    issue_url: `https://api.github.com/repos/${REPO}/issues/${comment.number}`,
+    html_url: `https://github.com/${REPO}/issues/${comment.number}#issuecomment-${id}`,
+  });
+  const addComment = (number, body, user) => {
+    const id = hub.nextId++;
+    hub.comments.set(id, { number, body, user, created_at: hub.time, updated_at: hub.time });
+    if (hub.issues.has(number)) hub.issues.get(number).comments += 1;
+    return id;
+  };
   hub.client = {
     repo: REPO,
-    listOpenPosts: async (kind) => [...hub.issues.values()].filter((issue) => issue.state === "open" && issue.labels.some((label) => label.name === kind)),
-    getIssue: async (number) => hub.issues.get(number) ?? null,
+    listPosts: async (label) => [...hub.issues.values()].filter((issue) => issue.labels.some((entry) => entry.name === label)).map((issue) => ({ ...issue, labels: [...issue.labels] })),
+    getIssue: async (number) => (hub.issues.has(number) ? { ...hub.issues.get(number) } : null),
+    closeIssue: async (number) => {
+      call("closeIssue", number);
+      Object.assign(hub.issues.get(number), { state: "closed", state_reason: "completed" });
+    },
+    reopenIssue: async (number) => {
+      call("reopenIssue", number);
+      Object.assign(hub.issues.get(number), { state: "open", state_reason: "reopened" });
+    },
     listReleases: async () => hub.releases.map((release) => ({ ...release, assets: release.assets.map((asset) => ({ ...asset })) })),
     createRelease: async ({ tag, title, notes }) => {
       call("createRelease", tag);
@@ -43,11 +91,13 @@ export const fakeHub = ({ issues = [], releases = [], data = {}, files = {} } = 
       hub.releases.push(release);
       return { id: release.id, tag, assets: [] };
     },
-    uploadAsset: async (releaseId, { name, contentType, file }) => {
+    uploadAsset: async (releaseId, { name, contentType, bytes }) => {
       call("uploadAsset", name, contentType);
       const release = hub.releases.find((entry) => entry.id === releaseId);
-      const asset = { id: hub.nextId++, name, url: `https://github.com/${REPO}/releases/download/${release.tag}/${name}`, size: file.length, downloads: 0 };
+      if (release.assets.some((asset) => asset.name === name)) throw Object.assign(new Error("GitHub answered 422: already_exists"), { status: 422, transient: false });
+      const asset = { id: hub.nextId++, name, url: `https://github.com/${REPO}/releases/download/${release.tag}/${name}`, size: bytes.length, downloads: 0 };
       release.assets.push(asset);
+      hub.uploaded.set(name, Buffer.from(bytes));
       return { ...asset };
     },
     deleteAsset: async (assetId) => {
@@ -58,23 +108,31 @@ export const fakeHub = ({ issues = [], releases = [], data = {}, files = {} } = 
       call("download", url);
       const bytes = hub.files.get(url);
       if (bytes instanceof Error) throw bytes;
-      if (!bytes) throw Object.assign(new Error("GitHub answered 404"), { transient: false });
-      if (bytes.tooLarge) return { file: null, size: bytes.tooLarge, sha256: "", head: Buffer.alloc(0), tooLarge: true };
-      return { file: bytes, size: bytes.length, sha256: crypto.createHash("sha256").update(bytes).digest("hex"), head: bytes.subarray(0, 512) };
+      if (!bytes) throw gone();
+      if (bytes.tooLarge) return { tooLarge: true, size: bytes.tooLarge };
+      return { bytes, size: bytes.length, sha256: crypto.createHash("sha256").update(bytes).digest("hex") };
     },
-    discard: async () => {},
+    listComments: async (since) => [...hub.comments.entries()]
+      .filter(([, comment]) => !since || comment.updated_at >= since)
+      .sort((a, b) => a[1].updated_at.localeCompare(b[1].updated_at) || a[0] - b[0])
+      .map(([id, comment]) => shown(id, comment)),
+    listPostComments: async (number) => {
+      call("listPostComments", number);
+      return [...hub.comments.entries()].filter(([, comment]) => comment.number === number).map(([id, comment]) => shown(id, comment));
+    },
     createComment: async (number, body) => {
       call("createComment", number);
-      const id = hub.nextId++;
-      hub.comments.set(id, { number, body });
-      return { id };
+      return { id: addComment(number, body, BOT) };
     },
     updateComment: async (id, body) => {
       call("updateComment", id);
-      hub.comments.get(id).body = body;
+      if (!hub.comments.has(id)) throw gone();
+      Object.assign(hub.comments.get(id), { body, updated_at: hub.time });
     },
     deleteComment: async (id) => {
       call("deleteComment", id);
+      const comment = hub.comments.get(id);
+      if (comment && hub.issues.has(comment.number)) hub.issues.get(comment.number).comments -= 1;
       hub.comments.delete(id);
     },
     addLabel: async (number, name) => {
@@ -95,9 +153,17 @@ export const fakeHub = ({ issues = [], releases = [], data = {}, files = {} } = 
   hub.did = (name) => hub.calls.filter(([what]) => what === name);
   hub.index = () => JSON.parse(hub.data["index.json"]);
   hub.state = () => JSON.parse(hub.data["state.json"]);
-  // A download of an asset, as GitHub would count it.
-  hub.downloaded = (assetName, times = 1) => {
-    for (const release of hub.releases) for (const asset of release.assets) if (asset.name === assetName) asset.downloads += times;
+  // Someone comments on a post (or edits their comment), as a person would.
+  hub.comment = (number, body, login = "suggester") => addComment(number, body, { login, type: "User" });
+  hub.edit = (id, body) => Object.assign(hub.comments.get(id), { body, updated_at: hub.time });
+  // The comments the workflow itself has on a post.
+  hub.said = (number) => [...hub.comments.values()].filter((comment) => comment.number === number && comment.user.type === "Bot").map((comment) => comment.body);
+  // Every file in the releases, by name; and one of them by the start of its name.
+  hub.assets = () => hub.releases.flatMap((release) => release.assets.map((asset) => ({ ...asset, tag: release.tag })));
+  hub.asset = (start) => hub.assets().find((asset) => asset.name.startsWith(start));
+  // Downloads of an asset, as GitHub would count them.
+  hub.downloaded = (start, times = 1) => {
+    for (const release of hub.releases) for (const asset of release.assets) if (asset.name.startsWith(start)) asset.downloads += times;
   };
   return hub;
 };

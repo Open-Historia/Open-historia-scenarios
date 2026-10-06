@@ -1,17 +1,26 @@
-// Copies the files attached to the hub's posts into this repository's releases,
-// and writes the index the game reads. Run by the "Copy post files to releases"
-// workflow whenever a post is opened, edited, closed or reopened, and every
-// half hour; see scripts/lib/sync.mjs for what a run does.
+// Checks the files attached to the hub's posts, copies the checked files into
+// this repository's releases, and writes the index the game reads. Run by the
+// "Copy post files to releases" workflow whenever a post is opened, edited,
+// closed or reopened, whenever a comment is made or edited, and every half
+// hour; see scripts/lib/sync.mjs for what a run does.
 //
 //   GITHUB_TOKEN=... node scripts/sync-hub.mjs
-//   node scripts/sync-hub.mjs --dry-run [--posts 12,34]
+//   node scripts/sync-hub.mjs --dry-run [--posts 12,34] [--report report.json]
 //
-// --dry-run reads and downloads everything but changes nothing (no release, no
-// upload, no comment, no commit), and needs no token for a public repository.
-// With --posts it looks at those posts only.
+// --dry-run reads and downloads and checks everything but changes nothing (no
+// release, no upload, no comment made or deleted, no post closed, no commit),
+// and needs no token for a public repository. It prints, for each post, what
+// a real run would do with it: release its file as it is, repair it (and
+// how), or refuse it (and why); and for each suggestion, keep it or delete it.
+// With --posts it looks at those posts only. --report writes the same as data.
+//
+// HUB_AUTOCLOSE=1 has released posts closed. It is a repository variable, off
+// until the games that can list closed posts are the ones people have: every
+// build before them lists open posts only.
 
 import fs from "node:fs";
 import { createClient } from "./lib/github.mjs";
+import { closeSharedRasteriser } from "./lib/svg.mjs";
 import { syncHub } from "./lib/sync.mjs";
 
 const args = process.argv.slice(2);
@@ -22,9 +31,10 @@ const option = (name) => {
 const dryRun = args.includes("--dry-run");
 const only = new Set(String(option("posts") ?? "").split(",").map((part) => Number(part.trim())).filter((number) => number > 0));
 if (only.size && !dryRun) {
-  console.error("--posts is for --dry-run only: a real run has to see every post, or it would take the others for closed.");
+  console.error("--posts is for --dry-run only: a real run has to see every post, or it would take the others for gone.");
   process.exit(2);
 }
+const reportFile = option("report");
 
 const repo = process.env.GITHUB_REPOSITORY || "Open-Historia/Open-historia-scenarios";
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
@@ -32,6 +42,7 @@ if (!token && !dryRun) {
   console.error("GITHUB_TOKEN is not set.");
   process.exit(2);
 }
+const autoClose = process.env.HUB_AUTOCLOSE === "1";
 
 // What this repository was called before it moved: posts made then link to its
 // releases under the old name, and GitHub redirects them here.
@@ -41,19 +52,59 @@ const ALIASES = ["Arkniem/pax-historia-scenarios"];
 // from nothing. Never updated.
 const legacy = JSON.parse(fs.readFileSync(new URL("../data/legacy-import-counts.json", import.meta.url), "utf8"));
 
-const client = createClient({ repo, token, dryRun, log: console.log });
-if (only.size) {
-  const listOpenPosts = client.listOpenPosts;
-  client.listOpenPosts = async (kind) => (await listOpenPosts(kind)).filter((issue) => only.has(Number(issue.number)));
-}
+const started = Date.now();
+// In a dry run the client's own "would ..." lines are kept out of the way of
+// the per-post account below, which says the same more briefly.
+const client = createClient({ repo, token, dryRun, log: dryRun ? () => {} : console.log });
+const { summary, index, report } = await syncHub({ client, aliases: ALIASES, legacy, log: dryRun ? () => {} : console.log, autoClose, only: only.size ? only : null });
+closeSharedRasteriser();
 
-const { summary, index } = await syncHub({ client, aliases: ALIASES, legacy, log: console.log });
+const seconds = Math.round((Date.now() - started) / 1000);
+const peakMemoryMb = Math.round(process.resourceUsage().maxRSS / 1024);
+
+// What happened to each post, one line each and a line for each file, repair
+// and problem.
+const fileLine = (file) => {
+  const name = file.label.replace(/^`|`$/g, "");
+  if (file.outcome === "as is") return `    ${name}: as it is -> ${file.copy}`;
+  if (file.outcome === "repaired") return `    ${name}: repaired -> ${file.copy}`;
+  if (file.outcome === "refused") return `    ${name}: refused`;
+  if (file.outcome === "waiting") return `    ${name}: not done yet`;
+  return `    ${name}: left alone`;
+};
+const account = [];
+const describe = (what, entry) => {
+  // A post nothing happened to is not listed, unless it still has a problem.
+  if (entry.outcome === "unchanged" && !entry.problems.length && !entry.closed) return;
+  const outcome = entry.outcome === "unchanged" && entry.problems.length ? "unchanged, still refused" : entry.outcome;
+  account.push(`#${entry.number} ${what}${entry.kind ? ` (${entry.kind})` : ""}: ${outcome}${entry.closed ? ", then closed" : ""}${entry.reopened ? ", and reopened" : ""}  ${JSON.stringify(entry.title)}`);
+  for (const file of entry.files) {
+    account.push(fileLine(file));
+    for (const repair of file.repairs) account.push(`      ~ ${repair}`);
+    if (!file.primary) for (const problem of file.problems) account.push(`      (not copied) ${problem}`);
+  }
+  for (const problem of entry.problems) account.push(`      ! ${problem}`);
+};
+for (const entry of report.posts) describe("post", entry);
+for (const entry of report.tests) describe("test", entry);
+for (const entry of report.suggestions) {
+  account.push(`suggestion ${entry.comment} on #${entry.post} by ${entry.by}${entry.test ? " (test post)" : ""}: ${entry.outcome}  ${entry.file}`);
+  for (const problem of entry.problems) account.push(`      ! ${problem}`);
+}
+if (dryRun || account.length) console.log(account.join("\n"));
+
+const unchanged = report.posts.filter((entry) => entry.outcome === "unchanged").length;
 const lines = [
-  `${summary.posts} open post(s); ${Object.keys(index.files).length} file(s) in the releases.`,
-  `${summary.copied} copied, ${summary.deleted} deleted, ${summary.retired} closed post(s) cleared.`,
+  `${summary.posts} post(s) on the hub; ${index.posts.length} released, with ${Object.keys(index.files).length} file(s) in the releases.`,
+  `${summary.copied} checked file(s) uploaded, ${summary.kept} kept as they were, ${summary.deleted} deleted; ${unchanged} post(s) unchanged; ${summary.retired} post(s) off the hub cleared.`,
   `${summary.problems} post(s) with a file problem; ${summary.commented} comment(s) written.`,
+  `${summary.suggestionsKept} suggestion(s) checked and kept, ${summary.suggestionsDeleted} deleted; ${Object.keys(index.suggestions).length} listed.`,
+  ...(autoClose ? [`${summary.closed} post(s) closed, ${summary.reopened} reopened.`] : []),
+  ...(summary.tests ? [`${summary.tests} test post(s).`] : []),
   ...(summary.deferred ? [`${summary.deferred} file(s) left for the next run.`] : []),
-  summary.written ? "The index was updated." : "The index is unchanged.",
+  dryRun ? "A dry run: nothing was changed." : summary.written ? "The index was updated." : "The index is unchanged.",
+  `${seconds} s, ${peakMemoryMb} MB of memory at most.`,
 ];
 console.log(lines.join("\n"));
 if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${lines.map((line) => `- ${line}`).join("\n")}\n`);
+if (reportFile) fs.writeFileSync(reportFile, `${JSON.stringify({ generatedAt: new Date().toISOString(), repo, dryRun, autoClose, seconds, peakMemoryMb, summary, ...report }, null, 1)}\n`);

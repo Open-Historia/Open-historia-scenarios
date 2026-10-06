@@ -33,10 +33,11 @@ export const MIB = 1024 * 1024;
 
 export const count = (number) => Number(number).toLocaleString("en-US");
 export const plural = (number, one, many = `${one}s`) => `${count(number)} ${number === 1 ? one : many}`;
-// "734 KB", "4.3 MB", "231 MB".
+// "734 KB", "4.3 MB", "231 MB", "1 GB".
 export const sizeText = (bytes) => {
   if (bytes < MIB) return `${Math.max(1, Math.round(bytes / KIB))} KB`;
   const megabytes = bytes / MIB;
+  if (megabytes >= 1024) return `${(megabytes / 1024).toFixed(1).replace(/\.0$/, "")} GB`;
   return `${megabytes < 10 ? megabytes.toFixed(1).replace(/\.0$/, "") : Math.round(megabytes)} MB`;
 };
 
