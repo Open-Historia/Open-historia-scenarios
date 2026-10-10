@@ -9,6 +9,9 @@ tabs show what's posted here for everyone:
   can apply to any country on their map)
 - Issues labeled **`basemap`** → the map editor's **Basemaps → Community** browser (custom map
   backgrounds you can build maps on).
+- Issues labeled **`detailed map`** → **Maps → Community → Detailed maps** (large, sharp terrain
+  maps that scenarios are drawn on). See [the list of detailed maps](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md),
+  with each map's credits and licence.
 
 ## Post a scenario
 
@@ -34,6 +37,62 @@ Share a fantasy/alternate map background others can build scenarios on.
 3. **Drag the image file into the "Basemap image" box** (a `.png`/`.jpg`, or a `.geojson` for a vector
    basemap). The image is both the map and its preview. Don't edit the auto-filled **Technical info** lines.
 4. Submit. It appears in the editor's **Basemaps → Community** browser.
+
+## Post a detailed map
+
+> **Two different things:**
+> - A **basemap** is the flat map drawn under the countries: a built-in Earth map, an uploaded
+>   picture, or a painted map. Every scenario has one, and a custom one travels inside the scenario.
+> - A **detailed map** is an optional layer drawn **on top of** a scenario's basemap: a large set of
+>   picture tiles (often hundreds of MB) that stays sharp from the whole world down to single castles.
+>   It's far too big to go inside a scenario, so it lives here, and a scenario only names it: "this
+>   map, version 1 or newer".
+
+Every scenario on a detailed map **must also have its own basemap**. Players who don't download the
+detailed map, or whose game can't show it, see the basemap instead.
+
+**Using one in a scenario:** in the Map Editor, press **Basemap: …** in the bottom bar. Give your
+scenario a basemap of its own first (**My Maps → Your basemaps**). Then **Community → Detailed maps**,
+download the map, and pick it under **My Maps → Your detailed maps**. Your scenario only names it, so
+players are offered the download (with its size) when they install your scenario, or later from
+**Settings → Map → Detailed maps**. A detailed map downloads once, however many scenarios use it.
+
+**Making one:** a **raster `.pmtiles` file** (PNG, JPEG, WebP or AVIF tiles) of **500 MB or less**.
+Extra detail can be drawn only around important places: where a close-up tile is missing, the game
+enlarges the nearest one. Try it in your own game first with **⬆ Add basemap or detailed map** in the
+Maps window. You must have the right to share everything in it: credit every source and follow its
+licence (a map built on CC BY-NC-SA material must be CC BY-NC-SA too).
+
+**Posting it:**
+
+1. Put the `.pmtiles` file online as a **direct download**. It's too big to drag into a post. A
+   release on your own GitHub works best; Google Drive often doesn't work for big files. You can
+   delete your copy once the map is on the list.
+2. Open a [**new detailed map post**](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=detailed-map.yml),
+   or press **⤴** on your map in the game's Maps window (**My Maps → Your detailed maps**), which
+   fills in the name, size and checksum for you.
+3. Fill in the download link, a map ID if you want one (lower-case letters, digits and dashes, like
+   `got-world`; empty makes one from the name), what it shows, screenshots, credits and licence.
+   Don't delete or rename the form's headings: the bot reads your answers under them.
+4. Submit. Within minutes the bot downloads the file and checks it the way the game will (a real map
+   of picture tiles, 500 MB or less, matching the checksum if you gave one), and either puts it on the
+   list (✅ **This map is on the list**) or says exactly what to fix (❌ **This post needs changes**,
+   with the `needs changes` label). To fix something, edit the post: the checks run again.
+
+**The map ID and who owns a map:** the ID is how scenarios find your map. No two maps share one, and
+once your map is on the list its ID never changes. The map belongs to its post: only you (and the
+hub's moderators) can edit the post, so only you can release new versions.
+
+**Updating it:** edit your post with the **new download link** (and say what changed). The new file
+becomes the next version (version 2, 3…). Editing only the words (name, credits, licence) changes the
+map's details and downloads nothing. Players who have an older version keep it; the game offers the
+update with its size, and never downloads it without asking. Scenarios name the lowest version they
+need, so scenarios made on version 1 keep working.
+
+**Taking it down:** close the post as **not planned**. That deletes the map **for good**: its files
+go, and its ID is never used again (it stays on the list as removed, so scenarios that name it can say
+so). Players who already have it keep their copy. Deleting the issue or removing its label does
+**not** remove the map; close it as not planned instead.
 
 ## Post a flag
 
@@ -207,8 +266,8 @@ and is not counted.)
 
 ## Import
 
-In-game: **Community tab → Import** on a scenario card, or **Basemaps → Community → Install** on a
-basemap card. (Manually: download the attached file and use **Scenarios → Import JSON**.)
+In-game: **Community tab → Import** on a scenario card, **Basemaps → Community → Install** on a
+basemap card, or **Maps → Community → Detailed maps → Download** on a detailed map. (Manually: download the attached file and use **Scenarios → Import JSON**.)
 
 ## Maintainer setup
 
@@ -217,7 +276,28 @@ label that already exists, so this repo must have a label named exactly **`basem
 (Issues → Labels → New label). Without it, basemap posts submit unlabeled and the in-game Basemaps
 browser (which queries `labels=basemap`) stays empty. The `scenario` and **`flag`** labels work the
 same way — **`flag` must be created before the first flag post**, or the Flags → Community browser
-stays empty no matter how many people post.
+stays empty no matter how many people post. **`detailed map`** must exist too, before the first
+detailed map post.
+
+### Detailed maps
+
+Detailed map posts have a workflow of their own, [**Detailed maps**](.github/workflows/detailed-maps.yml),
+apart from **Copy post files to releases** (which looks at scenario, flag and basemap posts only).
+It checks each new or edited post, copies the map file into a `detailed-maps-<n>` release as
+`<id>-v<version>.pmtiles`, and writes the list the game reads, `detailed-maps.json`, with
+`DETAILED-MAPS.md` for people, to the **`detailed-maps-index`** branch. Don't edit that branch or
+those releases by hand. There is no approval step: a map that passes the checks is on the list at
+once. Moderate it like any other post.
+
+Two more workflows, for maintainers (**Actions → the workflow → Run workflow**):
+
+- **Archive or restore a detailed map:** archived, a map stays on the list but is no longer offered
+  for download, and its file moves to the draft release `detailed-maps-archived` (kept, not deleted).
+  Players who have it keep using it. Restoring offers it again. One version or the whole map.
+- **Delete a detailed map:** deletes a map (or one version) for good, like closing its post as not
+  planned. Type the ID again to confirm.
+
+Both post a comment on the map's post saying what was done, by whom, and why.
 
 ## Testing the checks
 

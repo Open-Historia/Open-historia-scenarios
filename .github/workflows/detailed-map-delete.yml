@@ -1,0 +1,66 @@
+# Deletes a detailed map (or one version of it) for good: its files go, and the
+# list keeps a tombstone (the date and reason, with no link), so the ID and
+# version numbers are never used again and the game can tell players the map
+# was removed. This can't be undone: to take a map down for now, archive it.
+# (Closing a map's post as "not planned" deletes the whole map the same way.)
+# Run from Actions → "Delete a detailed map" → Run workflow.
+name: Delete a detailed map
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Map ID, like got-world"
+        required: true
+      version:
+        description: "One version only (a number), or leave empty for the whole map"
+        required: false
+      reason:
+        description: "Why (kept in the list, and posted on the map's post)"
+        required: true
+      confirm:
+        description: "Type the map ID again (or <id>-v<version> for one version) to confirm. This can't be undone."
+        required: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: detailed-maps
+  cancel-in-progress: false
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      MAP_ID: ${{ inputs.id }}
+      MAP_VERSION: ${{ inputs.version }}
+      REASON: ${{ inputs.reason }}
+      CONFIRM: ${{ inputs.confirm }}
+      ACTOR: ${{ github.actor }}
+    steps:
+      - name: Only maintainers, and only when confirmed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          permission=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo none)
+          case "$permission" in admin|maintain|write) ;; *) echo "::error::Only maintainers can delete maps."; exit 1 ;; esac
+          expected="$MAP_ID${MAP_VERSION:+-v$MAP_VERSION}"
+          if [ "$CONFIRM" != "$expected" ]; then
+            echo "::error::To confirm, type exactly \"$expected\". Nothing was deleted."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Delete it
+        run: node scripts/manage-detailed-map.mjs delete --id "$MAP_ID" --version "$MAP_VERSION" --reason "$REASON" --by "$ACTOR"

@@ -1,0 +1,99 @@
+name: Share a detailed map
+description: Post a large, sharp terrain map (a .pmtiles file) that scenarios can be drawn on
+title: "[Detailed map] "
+labels: ["detailed map"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A **detailed map** is drawn on top of a scenario's basemap and stays sharp from the whole world down to single castles. It is far too big to go inside a scenario, so it lives here and scenarios only name it. ([More about detailed maps](https://github.com/Open-Historia/Open-historia-scenarios#post-a-detailed-map))
+
+        **The file is too big to drag in here.** Put it online somewhere it can be downloaded directly (a release on your own GitHub works best) and paste the link below. It is checked automatically and copied into this repository; once it's on the list you can delete your copy.
+
+        **To release an update later, edit this post** with the new download link. Only you (and the hub's maintainers) can edit it, and the map keeps its ID.
+  - type: input
+    id: name
+    attributes:
+      label: Map name
+      description: The name players will see.
+      placeholder: Game of Thrones world map
+    validations:
+      required: true
+  - type: input
+    id: map-id
+    attributes:
+      label: Map ID
+      description: Lower-case letters, digits and dashes. Leave it empty to make one from the name. It can't change once the map is on the list.
+      placeholder: got-world
+  - type: input
+    id: download
+    attributes:
+      label: Download link to the .pmtiles file
+      description: A direct link to the file. It must be a raster PMTiles file of 500 MB or less.
+      placeholder: https://github.com/you/your-repo/releases/download/v1/my-map.pmtiles
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: File size
+      placeholder: 463 MB
+    validations:
+      required: true
+  - type: input
+    id: sha256
+    attributes:
+      label: SHA-256 checksum (optional)
+      description: Helps check that the exact file was downloaded. On Windows, run `certutil -hashfile my-map.pmtiles SHA256`. On Mac or Linux, run `shasum -a 256 my-map.pmtiles`.
+  - type: textarea
+    id: description
+    attributes:
+      label: What does the map show?
+      description: The area covered, the zoom levels and anything special (for example, extra detail around cities).
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: What changed? (updates only)
+      description: When you edit this post with a new file, say what's different, so players can decide whether to download it again.
+  - type: textarea
+    id: preview
+    attributes:
+      label: Screenshots
+      description: Drag in one or two screenshots, one zoomed out and one zoomed in close.
+    validations:
+      required: true
+  - type: textarea
+    id: credits
+    attributes:
+      label: Who made it, and what is it based on?
+      description: Your name, plus every source the map uses (data, artwork, other maps), with links. This is shown with the map in the list of detailed maps.
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      description: The licence the map is released under, for example CC BY-SA 4.0. If it's built on someone else's work, it must follow their licence too.
+      placeholder: CC BY-NC-SA 3.0
+    validations:
+      required: true
+  - type: input
+    id: scenarios
+    attributes:
+      label: Scenarios that use it (optional)
+      description: Links to any scenarios built on this map.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I made this map, or I have the right to share it under the licence above.
+          required: true
+        - label: Any scenario using this map also has its own basemap, for players who don't download it.
+          required: true
+        - label: The file is 500 MB or less.
+          required: true
+        - label: The map contains no offensive content.
+          required: true
