@@ -1285,6 +1285,11 @@
       "id": "path-through-the-mountains",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/path-through-the-mountains.mp3",
       "bodyHash": "ea3c94da80efa070f6b009fc8ee75b14f9c199a642e6e6f01d97fcba2f157e11"
+    },
+    "511": {
+      "id": "clarion",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/clarion.mp3",
+      "bodyHash": "e44b3a14a3331cf8779ba16568ead4f0ca161720d53e95bc2917b26b008b71ac"
     }
   }
 }
