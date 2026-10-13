@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:32:30.356Z",
+  "updated": "2026-10-13T22:32:34.845Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2324,6 +2324,24 @@
       "sha256": "c03c0d8fdcb94a8c93b32b072e30364d18cae2f4bfff3555208cb7fcfcc7fe61",
       "seconds": 146,
       "post": 411,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "oblivion-overture",
+      "name": "Oblivion Overture",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/oblivion-overture/",
+      "credit": "'Oblivion Overture' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/oblivion-overture-v1-75a06c40.mp3",
+      "type": "mp3",
+      "bytes": 2795686,
+      "sha256": "75a06c408048ace9240816be1e8474c4b6c76f2dd2246fab8664826ffe0264b7",
+      "seconds": 116,
+      "post": 470,
       "postedBy": "Arkniem",
       "removed": false
     },

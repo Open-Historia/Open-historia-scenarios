@@ -135,6 +135,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 15.3 MB | — |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
+| [Oblivion Overture](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) | `oblivion-overture` | Scott Buckley | CC BY 4.0 | 1:56 | 2.7 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
 | [One Falls to the Fire](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) | `one-falls-to-the-fire` | Scott Buckley | CC BY 4.0 | 3:50 | 5.3 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
@@ -1643,6 +1644,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Oh Come All Ye Faithful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/o-come-all-ye-faithful-v1-c03c0d8f.mp3) (version 1, posted by @Arkniem)
+
+### Oblivion Overture (`oblivion-overture`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/oblivion-overture/>
+- **Credit:**
+
+> 'Oblivion Overture' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/oblivion-overture-v1-75a06c40.mp3) (version 1, posted by @Arkniem)
 
 ### Omega (`omega`)
 

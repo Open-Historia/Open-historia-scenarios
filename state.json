@@ -1080,6 +1080,11 @@
       "id": "one-falls-to-the-fire",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/one-falls-to-the-fire.mp3",
       "bodyHash": "c4d4f73463ab46c41fcb0fb1342c71e69e54df96139771196b722330069539bd"
+    },
+    "470": {
+      "id": "oblivion-overture",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/oblivion-overture.mp3",
+      "bodyHash": "4456a1841da2451d12fa31c44d75a04f20e3ed89273df413d023eeb002c3e695"
     }
   }
 }
