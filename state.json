@@ -300,6 +300,11 @@
       "id": "hour-of-the-witch",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hour-of-the-witch.mp3",
       "bodyHash": "512338cb16d4de5acc26c252fd852627ab240e908b272c34065da0dda135d22c"
+    },
+    "314": {
+      "id": "artemis",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/artemis.mp3",
+      "bodyHash": "bccf1c4c5395e37e6fd2b48b3b4a38f2e8db937c004a7f445bd71e8c26bb70a7"
     }
   }
 }

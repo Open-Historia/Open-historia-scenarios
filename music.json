@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:47:46.575Z",
+  "updated": "2026-10-13T21:48:40.505Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -71,6 +71,24 @@
       "sha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
       "seconds": 422,
       "post": 262,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "artemis",
+      "name": "Artemis",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/artemis/",
+      "credit": "'Artemis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/artemis-v1-e46316b6.mp3",
+      "type": "mp3",
+      "bytes": 15034219,
+      "sha256": "e46316b663605c9c937181d7802682cea88634aa2e2a489d790617033fb4bbd0",
+      "seconds": 376,
+      "post": 314,
       "postedBy": "Arkniem",
       "removed": false
     },
