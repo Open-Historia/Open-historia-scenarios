@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:15:52.808Z",
+  "updated": "2026-10-13T22:16:19.376Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2381,6 +2381,24 @@
       "sha256": "a98adeb1f2f4271a48a2bf734ec3e0df028a5e4c36f5f34787a6ec5be3607052",
       "seconds": 411,
       "post": 256,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "there-is-a-place",
+      "name": "There is a Place",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/there-is-a-place/",
+      "credit": "'There is a Place' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-is-a-place-v1-2351a903.mp3",
+      "type": "mp3",
+      "bytes": 13023798,
+      "sha256": "2351a90357cc5746957364bceff426f0b817cf9702789ec5910888d8e6c0cb71",
+      "seconds": 326,
+      "post": 402,
       "postedBy": "Arkniem",
       "removed": false
     },
