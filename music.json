@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:28:44.892Z",
+  "updated": "2026-10-13T22:29:12.075Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -935,6 +935,24 @@
       "sha256": "880686f9e39b326862b084c9ae4100c9a1c9e2e91bf94a239cd5c1226acada07",
       "seconds": 340,
       "post": 378,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "firefly",
+      "name": "Firefly",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/firefly/",
+      "credit": "'Firefly' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/firefly-v1-ba145cfa.mp3",
+      "type": "mp3",
+      "bytes": 5912941,
+      "sha256": "ba145cfa16c6fdf3e587bf11bd3ed929214e689e7f382ab5373daf518b3116f5",
+      "seconds": 157,
+      "post": 455,
       "postedBy": "Arkniem",
       "removed": false
     },

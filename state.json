@@ -1005,6 +1005,11 @@
       "id": "reparateur",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/reparateur.mp3",
       "bodyHash": "a99a458af8b2867adcbb1f6e69698d000abc5fd4f2cc1fcee332950a1b741ca9"
+    },
+    "455": {
+      "id": "firefly",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/firefly.mp3",
+      "bodyHash": "8c25982b3140b6923d07e109493b3af332a6e5c36ea4cab6eb27321e84a20364"
     }
   }
 }
