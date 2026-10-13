@@ -16,6 +16,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
 | [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 2.4 MB | — |
+| [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 16.1 MB | — |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 14.3 MB | — |
 | [Ascension](https://github.com/Open-Historia/Open-historia-scenarios/issues/407) | `ascension` | Scott Buckley | CC BY 4.0 | 6:11 | 14.2 MB | — |
@@ -358,6 +359,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'An Unexpected Party' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/an-unexpected-party-v1-4d877c2d.mp3) (version 1, posted by @Arkniem)
+
+### Anna’s Theme (`annas-theme`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/annas-theme/>
+- **Credit:**
+
+> 'Anna's Theme' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/annas-theme-v1-2968ddca.mp3) (version 1, posted by @Arkniem)
 
 ### Aphelion (`aphelion`)
 
