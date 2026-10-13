@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:58:13.031Z",
+  "updated": "2026-10-13T21:58:44.005Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -647,6 +647,24 @@
       "sha256": "559961b869bb3ae223522a740ba25ff04cc2897299595a5afdca348f57edeb9a",
       "seconds": 252,
       "post": 284,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "i-walk-with-ghosts",
+      "name": "I Walk With Ghosts",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/i-walk-with-ghosts/",
+      "credit": "'I Walk With Ghosts' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/i-walk-with-ghosts-v1-312c41b1.mp3",
+      "type": "mp3",
+      "bytes": 19369485,
+      "sha256": "312c41b1beefcf60f37ac90e4fc64635ff39303129852d7389dd57a25e09fa18",
+      "seconds": 484,
+      "post": 344,
       "postedBy": "Arkniem",
       "removed": false
     },

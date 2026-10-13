@@ -42,6 +42,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 8.3 MB | — |
 | [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 9.6 MB | — |
+| [I Walk With Ghosts](https://github.com/Open-Historia/Open-historia-scenarios/issues/344) | `i-walk-with-ghosts` | Scott Buckley | CC BY 4.0 | 8:04 | 18.5 MB | — |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 17.0 MB | — |
@@ -494,6 +495,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Hyperion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hyperion-v1-559961b8.mp3) (version 1, posted by @Arkniem)
+
+### I Walk With Ghosts (`i-walk-with-ghosts`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/i-walk-with-ghosts/>
+- **Credit:**
+
+> 'I Walk With Ghosts' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/344) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/i-walk-with-ghosts-v1-312c41b1.mp3) (version 1, posted by @Arkniem)
 
 ### Ice Cream (`ice-cream`)
 
