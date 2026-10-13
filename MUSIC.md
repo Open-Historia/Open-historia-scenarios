@@ -51,6 +51,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 14.9 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
+| [Life in Silico](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) | `life-in-silico` | Scott Buckley | CC BY 4.0 | 3:56 | 9.0 MB | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 14.7 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
@@ -586,6 +587,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Life In Motion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-motion-v1-e72d7160.mp3) (version 1, posted by @Arkniem)
+
+### Life in Silico (`life-in-silico`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/life-in-silico/>
+- **Credit:**
+
+> 'Life in Silico' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-silico-v1-63c98d71.mp3) (version 1, posted by @Arkniem)
 
 ### Maleficus (`maleficus`)
 
