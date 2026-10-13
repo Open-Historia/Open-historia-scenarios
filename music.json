@@ -1,7 +1,25 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:26:15.883Z",
+  "updated": "2026-10-13T21:27:45.627Z",
   "tracks": [
+    {
+      "id": "in-this-moment",
+      "name": "In This Moment",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/in-this-moment/",
+      "credit": "'In This Moment' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/in-this-moment-v1-83cbc46b.mp3",
+      "type": "mp3",
+      "bytes": 7984316,
+      "sha256": "83cbc46b22660533d814a6dba29d50bc02e0ccb102561017e6533fb2db917b9a",
+      "seconds": 200,
+      "post": 258,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
     {
       "id": "legionnaire",
       "name": "Legionnaire (2022 Remaster)",
