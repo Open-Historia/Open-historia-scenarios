@@ -1265,6 +1265,11 @@
       "id": "incantation",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/incantation.mp3",
       "bodyHash": "aa28034dfaf85fb52104876c34d2ad7b352f2f092a0d51e616b0657bace3e05c"
+    },
+    "507": {
+      "id": "uprising",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/uprising.mp3",
+      "bodyHash": "7f201b7f967907430ce40f6be80c01cc8c7b3e0d0101bccba88c9b2cdec0825f"
     }
   }
 }

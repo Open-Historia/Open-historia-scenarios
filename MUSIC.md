@@ -240,6 +240,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 10.9 MB | — |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
+| [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 7.8 MB | — |
 | [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — |
@@ -2835,6 +2836,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/unraveling-v1-82ed1057.mp3) (version 1, posted by @Arkniem)
+
+### Uprising (`uprising`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/uprising/>
+- **Credit:**
+
+> 'Uprising' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/uprising-v1-c9b82e7f.mp3) (version 1, posted by @Arkniem)
 
 ### Utopia (`utopia`)
 

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:41:41.472Z",
+  "updated": "2026-10-13T22:41:46.752Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4217,6 +4217,24 @@
       "sha256": "82ed105724e6ee31d2007615472cb4e3621000edbff9a4aaf6a64789c32bece5",
       "seconds": 444,
       "post": 261,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "uprising",
+      "name": "Uprising",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/uprising/",
+      "credit": "'Uprising' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/uprising-v1-c9b82e7f.mp3",
+      "type": "mp3",
+      "bytes": 8229845,
+      "sha256": "c9b82e7f836c37fdf02899e31c46163f6f20a0a965a7a49c695d2c78f2a60517",
+      "seconds": 206,
+      "post": 507,
       "postedBy": "Arkniem",
       "removed": false
     },
