@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:29:12.075Z",
+  "updated": "2026-10-13T22:29:15.774Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2993,6 +2993,24 @@
       "sha256": "c56f817a5090e17a2def09e3623104a5474f144f81a595eb4ccae5f3ef9ab69f",
       "seconds": 340,
       "post": 385,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "tears-of-a-distant-sun",
+      "name": "Tears of a Distant Sun",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/tears-of-a-distant-sun/",
+      "credit": "'Tears of a Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tears-of-a-distant-sun-v1-d69298be.mp3",
+      "type": "mp3",
+      "bytes": 8199254,
+      "sha256": "d69298be36ea922236df2e1b682a0ec48df2dbc92e3222acacddb60c5218a8f6",
+      "seconds": 215,
+      "post": 456,
       "postedBy": "Arkniem",
       "removed": false
     },

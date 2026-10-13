@@ -1010,6 +1010,11 @@
       "id": "firefly",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/firefly.mp3",
       "bodyHash": "8c25982b3140b6923d07e109493b3af332a6e5c36ea4cab6eb27321e84a20364"
+    },
+    "456": {
+      "id": "tears-of-a-distant-sun",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tears-of-a-distant-sun.mp3",
+      "bodyHash": "fdcceb7fcc8029a98aeb80b4a5b542aab117b033518619d03d2b9885ece74436"
     }
   }
 }

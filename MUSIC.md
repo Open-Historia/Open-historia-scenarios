@@ -172,6 +172,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
 | [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 9.0 MB | — |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
+| [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 7.8 MB | — |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 6.7 MB | — |
 | [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 13.2 MB | — |
@@ -2036,6 +2037,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Tears In Rain' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tears-in-rain-v1-c56f817a.mp3) (version 1, posted by @Arkniem)
+
+### Tears of a Distant Sun (`tears-of-a-distant-sun`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/tears-of-a-distant-sun/>
+- **Credit:**
+
+> 'Tears of a Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tears-of-a-distant-sun-v1-d69298be.mp3) (version 1, posted by @Arkniem)
 
 ### Terminus (`terminus`)
 
