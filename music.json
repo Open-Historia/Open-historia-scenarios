@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:35:58.866Z",
+  "updated": "2026-10-13T21:36:32.739Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -35,6 +35,24 @@
       "sha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
       "seconds": 422,
       "post": 262,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "at-the-end-of-all-things",
+      "name": "At The End Of All Things",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/at-the-end-of-all-things/",
+      "credit": "'At The End Of All Things' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/at-the-end-of-all-things-v1-57028e3d.mp3",
+      "type": "mp3",
+      "bytes": 12683236,
+      "sha256": "57028e3de133aa9beba2f9540ffea3bb7822cbdb8f899de16b6b44389879ba91",
+      "seconds": 317,
+      "post": 283,
       "postedBy": "Arkniem",
       "removed": false
     },

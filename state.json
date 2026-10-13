@@ -145,6 +145,11 @@
       "id": "shoulders-of-giants",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/shoulders-of-giants.mp3",
       "bodyHash": "beb5dba8e6fd13a487e6f41a6c17c1d5e4696a2070ee2f16e0aa205c9dd663b7"
+    },
+    "283": {
+      "id": "at-the-end-of-all-things",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/at-the-end-of-all-things.mp3",
+      "bodyHash": "38d64fe4d847dd001cc46473548ea84ba289fbfc1e7b33a182df1b70b2805b45"
     }
   }
 }
