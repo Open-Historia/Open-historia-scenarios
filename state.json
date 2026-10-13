@@ -175,6 +175,11 @@
       "id": "simplicity",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/simplicity.mp3",
       "bodyHash": "76f8a0eba816aea31f1ed496b6c9130a9fd654fc3c4584332eb3329ea9c49b42"
+    },
+    "289": {
+      "id": "clear-skies",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/clear-skies.mp3",
+      "bodyHash": "0564de75d2365904edbadf0de619ba68de39016133dda9bd95f82250204451d9"
     }
   }
 }
