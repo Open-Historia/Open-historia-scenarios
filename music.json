@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:31:52.349Z",
+  "updated": "2026-10-13T21:32:24.653Z",
   "tracks": [
     {
       "id": "aphelion",
@@ -53,6 +53,24 @@
       "sha256": "c7fd63d6ad0e8902dbedbb08e7be1770902efb440f8e3896b1beb992ac18c0ae",
       "seconds": 220,
       "post": 263,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "echoes-of-home",
+      "name": "Echoes Of Home",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/echoes-of-home/",
+      "credit": "'Echoes Of Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-of-home-v1-b980963a.mp3",
+      "type": "mp3",
+      "bytes": 11672796,
+      "sha256": "b980963ac01d5211e2729906e2f5e74915a9d5df22fc8744e2d95045bb120e8e",
+      "seconds": 292,
+      "post": 273,
       "postedBy": "Arkniem",
       "removed": false
     },
