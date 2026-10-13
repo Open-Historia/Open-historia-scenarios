@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:34:43.316Z",
+  "updated": "2026-10-13T22:35:09.763Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1097,6 +1097,24 @@
       "sha256": "47650ff7ccc573df011a11d8440eb8c79e30fae31f61fc72750545efd41f6686",
       "seconds": 213,
       "post": 310,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "forever-sky",
+      "name": "Forever Sky",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/forever-sky/",
+      "credit": "'Forever Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/forever-sky-v1-f243ae91.mp3",
+      "type": "mp3",
+      "bytes": 7793642,
+      "sha256": "f243ae91dcdbce355b4f27386afd771b54cd3208a079bfa94ac3fdce0b0bbbc3",
+      "seconds": 325,
+      "post": 480,
       "postedBy": "Arkniem",
       "removed": false
     },
