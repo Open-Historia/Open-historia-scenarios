@@ -164,6 +164,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
 | [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 9.7 MB | — |
 | [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
+| [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 9.0 MB | — |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 6.7 MB | — |
@@ -1940,6 +1941,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Static' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/static-v1-618521a9.mp3) (version 1, posted by @Arkniem)
+
+### Supernova (`supernova`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/supernova/>
+- **Credit:**
+
+> 'Supernova' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/supernova-v1-9bb8aa0f.mp3) (version 1, posted by @Arkniem)
 
 ### Tears in Rain (`tears-in-rain`)
 

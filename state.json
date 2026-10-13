@@ -970,6 +970,11 @@
       "id": "happiness",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/happiness.mp3",
       "bodyHash": "76af2b681e3a6e6d75e3d870a45a6190cf8aa1b0f65fe9a67f439ecd89dbb19e"
+    },
+    "448": {
+      "id": "supernova",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/supernova.mp3",
+      "bodyHash": "b04da7c41736cc4400c1aa0e35bb49a2d7ddc90a2efd07e5a937f05cc5574206"
     }
   }
 }
