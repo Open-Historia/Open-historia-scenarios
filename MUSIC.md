@@ -139,6 +139,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
+| [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 6.7 MB | — |
@@ -1634,6 +1635,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Starfire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/starfire-v1-d97bd4c5.mp3) (version 1, posted by @Arkniem)
+
+### Static (`static`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/static/>
+- **Credit:**
+
+> 'Static' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/static-v1-618521a9.mp3) (version 1, posted by @Arkniem)
 
 ### Tears in Rain (`tears-in-rain`)
 
