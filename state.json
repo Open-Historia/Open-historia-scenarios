@@ -355,6 +355,11 @@
       "id": "glow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/glow.mp3",
       "bodyHash": "b62d58eb7a9a1dff8d93b784b57039a2bb8f92d4a6aebf09d7ea26996e5db21c"
+    },
+    "325": {
+      "id": "adrift-among-infinite-stars",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/adrift-among-infinite-stars.mp3",
+      "bodyHash": "b846daaad0cfee68122bd88e62e7117af456b1a12dba3dab455c74e81f19e086"
     }
   }
 }
