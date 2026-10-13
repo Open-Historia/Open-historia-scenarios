@@ -1055,6 +1055,11 @@
       "id": "the-spirit",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-spirit.mp3",
       "bodyHash": "ae6c375969b4d5afa5738992e6e9872c5de0772d7171703e64a512937f87db68"
+    },
+    "465": {
+      "id": "an-unexpected-party",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/an-unexpected-party.mp3",
+      "bodyHash": "0ddbad9f747fba7824a88d2aef4056f61463a0ff0f8171b69cca94dc97f8703e"
     }
   }
 }
