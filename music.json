@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:58:09.289Z",
+  "updated": "2026-10-13T21:58:13.031Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -197,6 +197,24 @@
       "sha256": "1546693f6381dc44c2cc90e8934aad32fd325bbc7ee26419ca3f2fb78f0809ad",
       "seconds": 340,
       "post": 299,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "beyond-these-walls",
+      "name": "Beyond These Walls",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/beyond-these-walls/",
+      "credit": "'Beyond These Walls' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beyond-these-walls-v1-a862ae87.mp3",
+      "type": "mp3",
+      "bytes": 16698767,
+      "sha256": "a862ae87b926cbf0ef40f8535acad3174f5eec10658893312452c815dcf61866",
+      "seconds": 417,
+      "post": 343,
       "postedBy": "Arkniem",
       "removed": false
     },

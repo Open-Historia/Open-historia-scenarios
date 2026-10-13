@@ -17,6 +17,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 12.1 MB | — |
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 19.0 MB | — |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
+| [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 15.9 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Bring Me The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) | `bring-me-the-sky` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
@@ -218,6 +219,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Balefire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/balefire-v1-1546693f.mp3) (version 1, posted by @Arkniem)
+
+### Beyond These Walls (`beyond-these-walls`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/beyond-these-walls/>
+- **Credit:**
+
+> 'Beyond These Walls' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beyond-these-walls-v1-a862ae87.mp3) (version 1, posted by @Arkniem)
 
 ### Born Of The Sky (`born-of-the-sky`)
 
