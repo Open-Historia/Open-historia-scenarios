@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:12:29.632Z",
+  "updated": "2026-10-13T22:12:34.533Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1406,6 +1406,24 @@
       "sha256": "234f048795471c5168d790a3ff4770863757280678f6a7824000c2e45cdda1a7",
       "seconds": 230,
       "post": 390,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-spaces-between",
+      "name": "Monomyth – The Spaces Between",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-spaces-between/",
+      "credit": "'The Spaces Between' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-spaces-between-v1-d4e81700.mp3",
+      "type": "mp3",
+      "bytes": 10453334,
+      "sha256": "d4e81700907f733d0709cbb4dae71cc261eb1a73db2515bbb3873b281f84c2c6",
+      "seconds": 261,
+      "post": 391,
       "postedBy": "Arkniem",
       "removed": false
     },
