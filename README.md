@@ -87,8 +87,10 @@ licence (a map built on CC BY-NC-SA material must be CC BY-NC-SA too).
 once your map is on the list its ID never changes. The map belongs to its post: only you (and the
 hub's moderators) can edit the post, so only you can release new versions.
 
-**Updating it:** edit your post with the **new download link** (and say what changed). The new file
-becomes the next version (version 2, 3…). Editing only the words (name, credits, licence) changes the
+**Updating it:** edit your post with the **new download link**, and replace **What changed?** with
+what's new. The new file becomes the next version (version 2, 3…). Players see what changed in the
+game before downloading, and the bot's comment on the post keeps it, so the comments build up into
+the map's history. Editing only the words (name, credits, licence) changes the
 map's details and downloads nothing. Players who have an older version keep it; the game offers the
 update with its size, and never downloads it without asking. Scenarios name the lowest version they
 need, so scenarios made on version 1 keep working.

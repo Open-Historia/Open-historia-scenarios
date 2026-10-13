@@ -308,7 +308,13 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     const release = await store.currentRelease();
     const asset = await store.putAsset(release, assetNameOf(id, version), file);
     const preview = await copyPreview({ client, store, release, form, id, version, workDir, log });
-    const entry = addVersion(list, { id, version, url: asset.url, bytes: check.bytes, sha256: check.sha256, preview, name, author, license, post: number, released: today });
+    // "What changed?" belongs to the version it came with (the game shows it as
+    // "New in v2: …"). A first version has nothing to compare with, and a box
+    // left as it was for the last version says nothing about this one.
+    const changes = plain(form.changes).slice(0, 500);
+    const notes = version > 1 && changes !== (record.changes ?? "") ? changes : "";
+    record.changes = changes;
+    const entry = addVersion(list, { id, version, url: asset.url, bytes: check.bytes, sha256: check.sha256, preview, notes, name, author, license, post: number, released: today });
     if (map) updateDetails(entry, { name, license });
     record.id = id;
     record.link = form.download;
@@ -319,7 +325,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     if (!made) {
       await client.createComment(number, version === 1
         ? `✅ \`${id}\` is on the list.`
-        : `✅ Version ${version} of \`${id}\` is released. Players who have an older version are offered the update.`);
+        : `✅ Version ${version} of \`${id}\` is released. Players who have an older version are offered the update.${notes ? `\n\n**What changed:** ${notes}` : ""}`);
     }
     return "released";
   } finally {

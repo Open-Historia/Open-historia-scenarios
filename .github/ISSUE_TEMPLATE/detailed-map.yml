@@ -58,7 +58,7 @@ body:
     id: changes
     attributes:
       label: What changed? (updates only)
-      description: When you edit this post with a new file, say what's different, so players can decide whether to download it again.
+      description: Leave empty for a new map. Releasing an update? Replace this with what's new in it (players see it in the game before downloading). Each version keeps its own note, and the bot posts it in a comment, so you don't need to keep older ones here.
   - type: textarea
     id: preview
     attributes:
