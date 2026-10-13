@@ -910,6 +910,11 @@
       "id": "theory-of-machines",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/theory-of-machines.mp3",
       "bodyHash": "e4221c9bd393ef1c19f739f7cdc9a041aa91ced653b72f2a8c48d600ab3f1dfb"
+    },
+    "436": {
+      "id": "journeys",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/journeys.mp3",
+      "bodyHash": "9e6aa2c1a50f8fe3a82848cf69ff02ba29a34f0ab8e79e6e18f6fcd3dae8cdef"
     }
   }
 }
