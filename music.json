@@ -1,7 +1,25 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:32:59.267Z",
+  "updated": "2026-10-13T21:33:27.532Z",
   "tracks": [
+    {
+      "id": "amberlight",
+      "name": "Amberlight",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/amberlight/",
+      "credit": "'Amberlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/amberlight-v1-3cce8ecd.mp3",
+      "type": "mp3",
+      "bytes": 11319612,
+      "sha256": "3cce8ecd622a870c833b3688658b10f8ebab4f621e7953b57f6d69e6e4bcf023",
+      "seconds": 283,
+      "post": 276,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
     {
       "id": "aphelion",
       "name": "Aphelion",

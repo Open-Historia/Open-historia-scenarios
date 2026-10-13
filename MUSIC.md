@@ -6,6 +6,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits |
 |---|---|---|---|---|---|---|
+| [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 16.1 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
@@ -30,6 +31,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
 
 ## Credits and licences
+
+### Amberlight (`amberlight`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/amberlight/>
+- **Credit:**
+
+> 'Amberlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/amberlight-v1-3cce8ecd.mp3) (version 1, posted by @Arkniem)
 
 ### Aphelion (`aphelion`)
 
