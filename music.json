@@ -1,7 +1,25 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:38:33.562Z",
+  "updated": "2026-10-13T22:38:37.020Z",
   "tracks": [
+    {
+      "id": "a-dragons-lullabye",
+      "name": "A Dragon’s Lullaby",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/a-dragons-lullabye/",
+      "credit": "'A Dragon's Lullaby (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-dragons-lullabye-v1-44982897.mp3",
+      "type": "mp3",
+      "bytes": 2496786,
+      "sha256": "449828971609ff001bac55809b00f9143d089f6ee722188291cf6007fe44912c",
+      "seconds": 156,
+      "post": 496,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
     {
       "id": "a-dragons-lullaby-2023",
       "name": "A Dragon’s Lullaby (2023 Remaster)",

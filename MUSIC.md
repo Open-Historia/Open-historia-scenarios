@@ -6,6 +6,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits |
 |---|---|---|---|---|---|---|
+| [A Dragon’s Lullaby](https://github.com/Open-Historia/Open-historia-scenarios/issues/496) | `a-dragons-lullabye` | Scott Buckley | CC BY 4.0 | 2:36 | 2.4 MB | — |
 | [A Dragon’s Lullaby (2023 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) | `a-dragons-lullaby-2023` | Scott Buckley | CC BY 4.0 | 2:48 | 6.4 MB | — |
 | [A Kind Of Hope](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) | `a-kind-of-hope` | Scott Buckley | CC BY 4.0 | 5:43 | 13.1 MB | — |
 | [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 10.4 MB | — |
@@ -250,6 +251,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 13.8 MB | — |
 
 ## Credits and licences
+
+### A Dragon’s Lullaby (`a-dragons-lullabye`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/a-dragons-lullabye/>
+- **Credit:**
+
+> 'A Dragon's Lullaby (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/496) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-dragons-lullabye-v1-44982897.mp3) (version 1, posted by @Arkniem)
 
 ### A Dragon’s Lullaby (2023 Remaster) (`a-dragons-lullaby-2023`)
 
