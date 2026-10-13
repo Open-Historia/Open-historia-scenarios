@@ -715,6 +715,11 @@
       "id": "the-fury",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-fury.mp3",
       "bodyHash": "54003f51d4d1b118cc284046d8ec024cf8bf7ffe6da7be1d3abb4395785c84e4"
+    },
+    "397": {
+      "id": "the-restoration",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-restoration.mp3",
+      "bodyHash": "9d4af072493c46f6dbcac6b6b77eb718b320da5ad6433ce2e89db496f0a15357"
     }
   }
 }

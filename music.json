@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:13:54.902Z",
+  "updated": "2026-10-13T22:14:22.604Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1478,6 +1478,24 @@
       "sha256": "c0d266b8af8c2d11f102c79fbdbd3d0156e65b3e0231ebe790ca00eecab1cbe5",
       "seconds": 426,
       "post": 396,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-restoration",
+      "name": "Monomyth – The Restoration",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-restoration/",
+      "credit": "'The Restoration' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-restoration-v1-00d343a7.mp3",
+      "type": "mp3",
+      "bytes": 7509851,
+      "sha256": "00d343a7ac4b94d41cd7dffdc38bbcf95ce2684047cb312c676e15a55a85a55e",
+      "seconds": 188,
+      "post": 397,
       "postedBy": "Arkniem",
       "removed": false
     },
