@@ -1020,6 +1020,11 @@
       "id": "soldier-of-fortune",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/soldier-of-fortune.mp3",
       "bodyHash": "554013fc329aff01796e81fd8e7c1eebcd33539e881fcb99ba5f6f867a2ae612"
+    },
+    "458": {
+      "id": "ashes-of-a-fallen-year",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ashes-of-a-fallen-year.mp3",
+      "bodyHash": "8ded8db3a11c854f556f5e35bea68f528e1536baa7caea7c3c141b68f74a9354"
     }
   }
 }
