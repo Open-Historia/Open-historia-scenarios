@@ -485,6 +485,11 @@
       "id": "precipice",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/precipice.mp3",
       "bodyHash": "160da96f13729fc19b10a9907c7e4fd78dff78c07e108034726b4d2945508f55"
+    },
+    "351": {
+      "id": "this-too-shall-pass",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/this-too-shall-pass.mp3",
+      "bodyHash": "60151fa46fa1ebd2e39c70505fecaef1a2d582259fe9340042adf1106977ae8c"
     }
   }
 }
