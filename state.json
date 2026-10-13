@@ -580,6 +580,11 @@
       "id": "fate-and-fortune",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/fate-and-fortune.mp3",
       "bodyHash": "67524f9462108ab9fc4d7e41cbadd25bd85aada2fb1111db8222d969400cb57f"
+    },
+    "370": {
+      "id": "horizons",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/horizons.mp3",
+      "bodyHash": "f2ed8e34f83795da1e95da0a741fd52d8fa972a9fdc5a38f42b03c1c46863919"
     }
   }
 }

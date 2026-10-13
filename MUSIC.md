@@ -47,6 +47,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
+| [Horizons](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) | `horizons` | Scott Buckley | CC BY 4.0 | 4:53 | 11.2 MB | — |
 | [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 8.3 MB | — |
 | [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 9.6 MB | — |
@@ -575,6 +576,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v1-b1050f49.mp3) (version 1, posted by @Arkniem)
+
+### Horizons (`horizons`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/horizons/>
+- **Credit:**
+
+> 'Horizons' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/horizons-v1-e61b3588.mp3) (version 1, posted by @Arkniem)
 
 ### Hour Of The Witch (`hour-of-the-witch`)
 
