@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:45:00.467Z",
+  "updated": "2026-10-13T21:45:28.048Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -797,6 +797,24 @@
       "sha256": "a98adeb1f2f4271a48a2bf734ec3e0df028a5e4c36f5f34787a6ec5be3607052",
       "seconds": 411,
       "post": 256,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "three-sheets-to-the-wind",
+      "name": "Three Sheets to the Wind",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/three-sheets-to-the-wind/",
+      "credit": "'Three Sheets To The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/three-sheets-to-the-wind-v1-bace0727.mp3",
+      "type": "mp3",
+      "bytes": 8016677,
+      "sha256": "bace0727baafbd9274a58ce08c2b07b04e53c85265c3993d990f37792cd11401",
+      "seconds": 200,
+      "post": 305,
       "postedBy": "Arkniem",
       "removed": false
     },

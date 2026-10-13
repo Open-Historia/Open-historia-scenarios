@@ -255,6 +255,11 @@
       "id": "cirrus",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cirrus.mp3",
       "bodyHash": "f2af457d4cf3f6e2a1496445462160e9d5c76a7d390f4fba513e992641cdacf5"
+    },
+    "305": {
+      "id": "three-sheets-to-the-wind",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/three-sheets-to-the-wind.mp3",
+      "bodyHash": "cc6f1d15498360fe4a5ba38e3c73b11c8d28120a9d171390010fc5475b15911d"
     }
   }
 }

@@ -50,6 +50,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 10.8 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
+| [Three Sheets to the Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) | `three-sheets-to-the-wind` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 7.7 MB | — |
@@ -543,6 +544,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v1-a98adeb1.mp3) (version 1, posted by @Arkniem)
+
+### Three Sheets to the Wind (`three-sheets-to-the-wind`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/three-sheets-to-the-wind/>
+- **Credit:**
+
+> 'Three Sheets To The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/three-sheets-to-the-wind-v1-bace0727.mp3) (version 1, posted by @Arkniem)
 
 ### Unraveling (`unraveling`)
 
