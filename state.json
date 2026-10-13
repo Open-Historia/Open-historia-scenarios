@@ -710,6 +710,11 @@
       "id": "the-rise",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-rise.mp3",
       "bodyHash": "4fc9a8ae862b4de3ae6435fa7fd2233e87c247566dd4c4bfa9a6f8edd96a6592"
+    },
+    "396": {
+      "id": "the-fury",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-fury.mp3",
+      "bodyHash": "54003f51d4d1b118cc284046d8ec024cf8bf7ffe6da7be1d3abb4395785c84e4"
     }
   }
 }
