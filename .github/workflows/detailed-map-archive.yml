@@ -1,0 +1,62 @@
+# Archives a detailed map (or one version of it), or restores it. Archived: the
+# game stops offering it for download, and its file moves to a draft release
+# nobody can download from (it is kept, not deleted); players who already have
+# it keep using it. Restoring offers it again. Run from Actions → "Archive or
+# restore a detailed map" → Run workflow.
+name: Archive or restore a detailed map
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Archive or restore"
+        type: choice
+        options: [archive, restore]
+        required: true
+      id:
+        description: "Map ID, like got-world"
+        required: true
+      version:
+        description: "One version only (a number), or leave empty for the whole map"
+        required: false
+      reason:
+        description: "Why (required to archive; shown in the list and on the map's post)"
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: detailed-maps
+  cancel-in-progress: false
+
+jobs:
+  change:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ACTION: ${{ inputs.action }}
+      MAP_ID: ${{ inputs.id }}
+      MAP_VERSION: ${{ inputs.version }}
+      REASON: ${{ inputs.reason }}
+      ACTOR: ${{ github.actor }}
+    steps:
+      - name: Only maintainers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          permission=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo none)
+          case "$permission" in admin|maintain|write) ;; *) echo "::error::Only maintainers can archive or restore maps."; exit 1 ;; esac
+
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Change the map
+        run: node scripts/manage-detailed-map.mjs "$ACTION" --id "$MAP_ID" --version "$MAP_VERSION" --reason "$REASON" --by "$ACTOR"

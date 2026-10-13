@@ -1,0 +1,53 @@
+# Checks the hub's detailed map posts (issues labelled "detailed map"), copies
+# each checked map file into a "detailed-maps-<n>" release, and writes the list
+# the game reads (detailed-maps.json, with DETAILED-MAPS.md for people) to the
+# detailed-maps-index branch. A post with a problem gets a comment saying what
+# to fix; editing the post with a new download link releases the next version;
+# closing it as "not planned" deletes the map for good.
+#
+# Apart from the hub's own "Copy post files to releases" workflow: that one
+# looks at scenario, flag and basemap posts only, and this one at detailed map
+# posts only, so neither changes what the other does.
+#
+# Every run looks at every detailed map post, so a skipped run is made up by
+# the next. A map file is downloaded only when its post's link changed.
+name: Detailed maps
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed, labeled]
+  # Picks up a download that failed for a reason that passes (the host or
+  # GitHub being unwell).
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# One run at a time, shared with the archive and delete workflows: they all
+# write the list.
+concurrency:
+  group: detailed-maps
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'Open-Historia/Open-historia-scenarios' && (github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'detailed map'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      # No packages: the scripts read PMTiles themselves.
+      - name: Check the posts, release the maps and write the list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-detailed-maps.mjs
