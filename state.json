@@ -455,6 +455,11 @@
       "id": "i-walk-with-ghosts",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/i-walk-with-ghosts.mp3",
       "bodyHash": "cd5e8f92c9c5218ec288b85d91454dc5319f07a442f73ea1b5f3420a94df11a0"
+    },
+    "345": {
+      "id": "pathfinder",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/pathfinder.mp3",
+      "bodyHash": "ad9ef5a31c06b99af0b4b0624992a51fff4189b4d71dca826b2266a19c94a108"
     }
   }
 }
