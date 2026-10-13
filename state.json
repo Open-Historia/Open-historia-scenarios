@@ -1290,6 +1290,11 @@
       "id": "clarion",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/clarion.mp3",
       "bodyHash": "e44b3a14a3331cf8779ba16568ead4f0ca161720d53e95bc2917b26b008b71ac"
+    },
+    "512": {
+      "id": "luminance",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/luminance.mp3",
+      "bodyHash": "a3ffc87273c0fd7b89c887aa1437b2122c79631f40c2f59c45c5203c73868249"
     }
   }
 }

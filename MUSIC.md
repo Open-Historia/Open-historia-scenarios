@@ -130,6 +130,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Light in Dark Places](https://github.com/Open-Historia/Open-historia-scenarios/issues/476) | `light-in-dark-places` | Scott Buckley | CC BY 4.0 | 2:19 | 3.0 MB | — |
 | [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 5.2 MB | — |
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 6.6 MB | — |
+| [Luminance](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) | `luminance` | Scott Buckley | CC BY 4.0 | 4:53 | 11.2 MB | — |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 11.1 MB | — |
 | [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 14.7 MB | — |
@@ -1630,6 +1631,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Love Conquers' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/love-conquers-v1-686cb299.mp3) (version 1, posted by @Arkniem)
+
+### Luminance (`luminance`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/luminance/>
+- **Credit:**
+
+> 'Luminance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/luminance-v1-a3b1a1fd.mp3) (version 1, posted by @Arkniem)
 
 ### Machina (`machina`)
 

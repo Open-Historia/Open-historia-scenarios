@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:43:21.971Z",
+  "updated": "2026-10-13T22:43:25.949Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2234,6 +2234,24 @@
       "sha256": "686cb299507b193e153d56e0cd453e7fa79462d23705472cfcfe6c804423b225",
       "seconds": 186,
       "post": 461,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "luminance",
+      "name": "Luminance",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/luminance/",
+      "credit": "'Luminance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/luminance-v1-a3b1a1fd.mp3",
+      "type": "mp3",
+      "bytes": 11734392,
+      "sha256": "a3b1a1fde9beb11359270f7e1857eeb946e315f9925535fbd5643e9219d9d38a",
+      "seconds": 293,
+      "post": 512,
       "postedBy": "Arkniem",
       "removed": false
     },
