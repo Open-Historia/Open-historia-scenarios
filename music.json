@@ -1,7 +1,25 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:27:45.627Z",
+  "updated": "2026-10-13T21:27:50.480Z",
   "tracks": [
+    {
+      "id": "home-was-you",
+      "name": "Home Was You",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/home-was-you/",
+      "credit": "'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v1-4d4cf96e.mp3",
+      "type": "mp3",
+      "bytes": 10779404,
+      "sha256": "4d4cf96e941c61cbdab71ef49c6dd6b67d6fd1df00926fac2f6e419e34d76d61",
+      "seconds": 269,
+      "post": 259,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
     {
       "id": "in-this-moment",
       "name": "In This Moment",

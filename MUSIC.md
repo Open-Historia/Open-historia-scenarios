@@ -6,6 +6,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits |
 |---|---|---|---|---|---|---|
+| [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
@@ -13,6 +14,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 
 ## Credits and licences
+
+### Home Was You (`home-was-you`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/home-was-you/>
+- **Credit:**
+
+> 'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v1-4d4cf96e.mp3) (version 1, posted by @Arkniem)
 
 ### In This Moment (`in-this-moment`)
 
