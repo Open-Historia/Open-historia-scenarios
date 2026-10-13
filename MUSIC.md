@@ -159,6 +159,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Precipice](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) | `precipice` | Scott Buckley | CC BY 4.0 | 1:59 | 4.5 MB | — |
 | [Prelude to Chemistry](https://github.com/Open-Historia/Open-historia-scenarios/issues/483) | `prelude-to-chemistry` | Scott Buckley | CC BY 4.0 | 4:02 | 5.4 MB | — |
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
+| [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 4.5 MB | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
@@ -1924,6 +1925,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Pursuit' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pursuit-v1-0d302909.mp3) (version 1, posted by @Arkniem)
+
+### Quirky Lane (`quirky-lane`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/quirky-lane/>
+- **Credit:**
+
+> 'Quirky Lane' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/quirky-lane-v1-d3486d33.mp3) (version 1, posted by @Arkniem)
 
 ### Race The Sun (`race-the-sun`)
 

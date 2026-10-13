@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:36:23.171Z",
+  "updated": "2026-10-13T22:36:50.850Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2759,6 +2759,24 @@
       "sha256": "0d3029092d9bd501189ad353708c4453de0f912d45db0cc9a0eae572b7452c31",
       "seconds": 165,
       "post": 434,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "quirky-lane",
+      "name": "Quirky Lane",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/quirky-lane/",
+      "credit": "'Quirky Lane' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/quirky-lane-v1-d3486d33.mp3",
+      "type": "mp3",
+      "bytes": 1309423,
+      "sha256": "d3486d33f973e27cac0b959fa95a15c5150ee14f71cea6f6493f72cf6b024931",
+      "seconds": 82,
+      "post": 487,
       "postedBy": "Arkniem",
       "removed": false
     },
