@@ -117,6 +117,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
+| [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 15.3 MB | — |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
@@ -1418,6 +1419,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/neon-v1-3d0cb066.mp3) (version 1, posted by @Arkniem)
+
+### Never Dying (`never-dying`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/never-dying/>
+- **Credit:**
+
+> 'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v1-4058afd7.mp3) (version 1, posted by @Arkniem)
 
 ### Nightfall (`nightfall`)
 
