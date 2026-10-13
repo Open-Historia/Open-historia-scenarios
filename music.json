@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:38:40.410Z",
+  "updated": "2026-10-13T22:39:05.157Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4361,6 +4361,24 @@
       "sha256": "b1ae020dc9c45060f4ef282878b4a474b7216419f98d7c1ab3bbc0fec4451ea1",
       "seconds": 134,
       "post": 446,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "world-of-magic",
+      "name": "World of Magic",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/world-of-magic/",
+      "credit": "'World of Magic' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/world-of-magic-v1-241f4438.mp3",
+      "type": "mp3",
+      "bytes": 1568060,
+      "sha256": "241f4438c15a3adea24304f2d5c04312a5f16848b8c3b8c70c050421830de5f8",
+      "seconds": 97,
+      "post": 498,
       "postedBy": "Arkniem",
       "removed": false
     },
