@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:11:20.349Z",
+  "updated": "2026-10-13T22:11:48.647Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1352,6 +1352,24 @@
       "sha256": "1ef5ddefcce9f9dbf1725dcbb3f46bce7f46cd7ddc92e348cc62b63e6fc64641",
       "seconds": 274,
       "post": 327,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-call",
+      "name": "Monomyth – The Call",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-call/",
+      "credit": "'The Call' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-call-v1-ee54a5b6.mp3",
+      "type": "mp3",
+      "bytes": 9477379,
+      "sha256": "ee54a5b6c710ff4424ed3f8d7880736cefb74c147b810b087e3c778b5ef8138e",
+      "seconds": 237,
+      "post": 387,
       "postedBy": "Arkniem",
       "removed": false
     },
