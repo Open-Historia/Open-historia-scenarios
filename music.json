@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:20:06.795Z",
+  "updated": "2026-10-13T22:20:27.526Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2273,6 +2273,24 @@
       "sha256": "03214e5a8d09207cdc86525e833fb0a4a0d895a27f69a9d1094f351b36b8eb60",
       "seconds": 89,
       "post": 405,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "skyward",
+      "name": "Skyward",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/skyward/",
+      "credit": "'Skyward' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyward-v1-6f8558ef.mp3",
+      "type": "mp3",
+      "bytes": 10394835,
+      "sha256": "6f8558efdfce9d942431634536916f946168624723238d0b2c55c24374298cd2",
+      "seconds": 260,
+      "post": 419,
       "postedBy": "Arkniem",
       "removed": false
     },
