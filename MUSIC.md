@@ -26,6 +26,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
+| [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 8.3 MB | — |
 | [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 9.6 MB | — |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
@@ -287,6 +288,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v1-b1050f49.mp3) (version 1, posted by @Arkniem)
+
+### Hour Of The Witch (`hour-of-the-witch`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/hour-of-the-witch/>
+- **Credit:**
+
+> 'Hour Of The Witch' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hour-of-the-witch-v1-bf0d8209.mp3) (version 1, posted by @Arkniem)
 
 ### Hymn to the Dawn (`hymn-to-the-dawn`)
 
