@@ -60,6 +60,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 9.4 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
+| [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 9.0 MB | — |
 | [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
 | [Eidolon](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) | `eidolon` | Scott Buckley | CC BY 4.0 | 3:11 | 6.8 MB | — |
@@ -862,6 +863,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Echoes Of Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-of-home-v1-b980963a.mp3) (version 1, posted by @Arkniem)
+
+### Eclipse (`eclipse`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/eclipse/>
+- **Credit:**
+
+> 'Eclipse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eclipse-v1-a6af3d9a.mp3) (version 1, posted by @Arkniem)
 
 ### Edge of Remorse (`edge-of-remorse`)
 

@@ -1300,6 +1300,11 @@
       "id": "ephemera",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ephemera.mp3",
       "bodyHash": "77948b2e26b7701fa4da75430958ff698bd13cbe62c461541d69e136594b7d1a"
+    },
+    "514": {
+      "id": "eclipse",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/eclipse.mp3",
+      "bodyHash": "f5d91f7abf32fabd9532217fd43c37598be87ec10752c13174a443cc8a1eb8fb"
     }
   }
 }
