@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:36:32.739Z",
+  "updated": "2026-10-13T21:36:38.248Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -161,6 +161,24 @@
       "sha256": "b1050f499c16e719a7eafc2b93bb61634b42537776ac9a80a7cbf67b9870df8d",
       "seconds": 240,
       "post": 275,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "hyperion",
+      "name": "Hyperion",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/hyperion/",
+      "credit": "'Hyperion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hyperion-v1-559961b8.mp3",
+      "type": "mp3",
+      "bytes": 10066776,
+      "sha256": "559961b869bb3ae223522a740ba25ff04cc2897299595a5afdca348f57edeb9a",
+      "seconds": 252,
+      "post": 284,
       "postedBy": "Arkniem",
       "removed": false
     },
