@@ -350,6 +350,11 @@
       "id": "age-of-wonder",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/age-of-wonder.mp3",
       "bodyHash": "75e0cdfd93a3770e4e322fa5c99d945bf0f42563149c20c25f849155275bbbfb"
+    },
+    "324": {
+      "id": "glow",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/glow.mp3",
+      "bodyHash": "b62d58eb7a9a1dff8d93b784b57039a2bb8f92d4a6aebf09d7ea26996e5db21c"
     }
   }
 }

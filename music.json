@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:52:22.658Z",
+  "updated": "2026-10-13T21:52:49.849Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -359,6 +359,24 @@
       "sha256": "47650ff7ccc573df011a11d8440eb8c79e30fae31f61fc72750545efd41f6686",
       "seconds": 213,
       "post": 310,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "glow",
+      "name": "Glow",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/glow/",
+      "credit": "'Glow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/glow-v1-c35662d3.mp3",
+      "type": "mp3",
+      "bytes": 7646780,
+      "sha256": "c35662d307b9890139e580eca66e863632bfcf7ac141b0164b67d586040e2088",
+      "seconds": 191,
+      "post": 324,
       "postedBy": "Arkniem",
       "removed": false
     },
