@@ -920,6 +920,11 @@
       "id": "the-legend-of-kvothe",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-legend-of-kvothe.mp3",
       "bodyHash": "9478b552198b85a7f36dbb08b0ff16ff7a32097ebd36ab7ade126de6f5896913"
+    },
+    "438": {
+      "id": "jade",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jade.mp3",
+      "bodyHash": "94cb484e4b9d65c5b90d6fba54b8b21b45c26ca63a5d23721db95f5e67999e9e"
     }
   }
 }

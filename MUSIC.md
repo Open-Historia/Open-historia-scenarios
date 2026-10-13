@@ -84,6 +84,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 9.4 MB | — |
+| [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 4.5 MB | — |
 | [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 4.4 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 7.9 MB | — |
@@ -1050,6 +1051,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Into The Wilds' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-wilds-v1-a06467d9.mp3) (version 1, posted by @Arkniem)
+
+### Jade (`jade`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/jade/>
+- **Credit:**
+
+> 'Jade' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jade-v1-ecf646ea.mp3) (version 1, posted by @Arkniem)
 
 ### Journeys (`journeys`)
 
