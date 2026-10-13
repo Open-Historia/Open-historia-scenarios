@@ -1030,6 +1030,11 @@
       "id": "blood",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/blood.mp3",
       "bodyHash": "0b034dba4bd07642ecd3aff493ee390d0d92bd07021305bc6f343dd735dfcf9f"
+    },
+    "460": {
+      "id": "your-numbers-up-ost",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/your-numbers-up-ost.mp3",
+      "bodyHash": "b01a5ad51496b13cf3b705db519480f1bbf170103d760ae0993bfbce3f28c0bd"
     }
   }
 }
