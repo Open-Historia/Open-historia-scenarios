@@ -895,6 +895,11 @@
       "id": "solstice",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solstice.mp3",
       "bodyHash": "b957f26be45999ce018a41d83e628fcb346c16ee1cbe478180cc9bae1b23db7e"
+    },
+    "433": {
+      "id": "elementary",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/elementary.mp3",
+      "bodyHash": "6b624cb48bdf5503cfdc69e092bc3961c789bafcceaa1abd38859860aee2637c"
     }
   }
 }
