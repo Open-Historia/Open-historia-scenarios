@@ -34,6 +34,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
+| [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 10.3 MB | — |
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 10.2 MB | — |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
@@ -363,6 +364,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v1-303e9daf.mp3) (version 1, posted by @Arkniem)
+
+### Reawakening (`reawakening`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/reawakening/>
+- **Credit:**
+
+> 'Reawakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reawakening-v1-59923ffa.mp3) (version 1, posted by @Arkniem)
 
 ### Ride The Wind (`ride-the-wind`)
 
