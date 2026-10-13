@@ -168,6 +168,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 7.8 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
+| [Theory of Machines](https://github.com/Open-Historia/Open-historia-scenarios/issues/435) | `theory-of-machines` | Scott Buckley | CC BY 4.0 | 3:21 | 7.7 MB | — |
 | [There is a Place](https://github.com/Open-Historia/Open-historia-scenarios/issues/402) | `there-is-a-place` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
 | [There Was A Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/321) | `there-was-a-time` | Scott Buckley | CC BY 4.0 | 5:14 | 12.0 MB | — |
 | [This Too Shall Pass](https://github.com/Open-Historia/Open-historia-scenarios/issues/351) | `this-too-shall-pass` | Scott Buckley | CC BY 4.0 | 7:27 | 17.1 MB | — |
@@ -1971,6 +1972,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v1-a98adeb1.mp3) (version 1, posted by @Arkniem)
+
+### Theory of Machines (`theory-of-machines`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/theory-of-machines/>
+- **Credit:**
+
+> 'Theory of Machines' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/435) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/theory-of-machines-v1-65a901b3.mp3) (version 1, posted by @Arkniem)
 
 ### There is a Place (`there-is-a-place`)
 
