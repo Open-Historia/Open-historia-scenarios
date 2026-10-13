@@ -1205,6 +1205,11 @@
       "id": "annas-theme",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/annas-theme.mp3",
       "bodyHash": "2990e66fad143f778c0e8c55ef83642ac3f6078b5374affaeb226a2cb41deff9"
+    },
+    "495": {
+      "id": "fading",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/fading.mp3",
+      "bodyHash": "4f2ff24547b6b4649661763661ea25b359c27152ec9b46fb7afdc1af4fc05279"
     }
   }
 }

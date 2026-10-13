@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:38:07.484Z",
+  "updated": "2026-10-13T22:38:33.562Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1061,6 +1061,24 @@
       "sha256": "285e9aea3e24698fda179eba56d2f6c7d6ecd92f0ddc78932633e0641f769335",
       "seconds": 264,
       "post": 272,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "fading",
+      "name": "Fading",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/fading/",
+      "credit": "'Fading' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/fading-v1-3098ccaf.mp3",
+      "type": "mp3",
+      "bytes": 7488055,
+      "sha256": "3098ccafbfd3cfdfaaba6467e7cf6a86995ff9f79e3ff1abf447f327a53f6e07",
+      "seconds": 468,
+      "post": 495,
       "postedBy": "Arkniem",
       "removed": false
     },
