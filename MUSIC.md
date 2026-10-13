@@ -103,6 +103,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 7.7 MB | — |
+| [Wanderlust](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) | `wanderlust` | Scott Buckley | CC BY 4.0 | 2:48 | 6.4 MB | — |
 | [Wayfarer](https://github.com/Open-Historia/Open-historia-scenarios/issues/334) | `wayfarer` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
 | [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 15.6 MB | — |
 | [Where Stars Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) | `where-stars-fall` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
@@ -1179,6 +1180,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Victor Lux' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/victor-lux-v1-28c6c03f.mp3) (version 1, posted by @Arkniem)
+
+### Wanderlust (`wanderlust`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/wanderlust/>
+- **Credit:**
+
+> 'Wanderlust' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wanderlust-v1-1dda9c6a.mp3) (version 1, posted by @Arkniem)
 
 ### Wayfarer (`wayfarer`)
 
