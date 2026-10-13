@@ -705,6 +705,11 @@
       "id": "the-fall",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-fall.mp3",
       "bodyHash": "cc6b98298837e94ed301398d1524c88679a73048b5b9e3a5f279a8208ed9f4ee"
+    },
+    "395": {
+      "id": "the-rise",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-rise.mp3",
+      "bodyHash": "4fc9a8ae862b4de3ae6435fa7fd2233e87c247566dd4c4bfa9a6f8edd96a6592"
     }
   }
 }

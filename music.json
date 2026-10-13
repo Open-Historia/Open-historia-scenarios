@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:13:43.837Z",
+  "updated": "2026-10-13T22:13:48.920Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1460,6 +1460,24 @@
       "sha256": "8434fdb837d3e54a7ad7ae6c27ce21fb2fc9cad5c1f3580242c44961a812325f",
       "seconds": 383,
       "post": 394,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-rise",
+      "name": "Monomyth – The Rise",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-rise/",
+      "credit": "'The Rise' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-rise-v1-c80b3444.mp3",
+      "type": "mp3",
+      "bytes": 6787813,
+      "sha256": "c80b34440b8763f7e23aef6fca328209a1b166abc171050689290582c3e3e7f2",
+      "seconds": 170,
+      "post": 395,
       "postedBy": "Arkniem",
       "removed": false
     },
