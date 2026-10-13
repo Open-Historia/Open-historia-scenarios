@@ -98,6 +98,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 7.9 MB | — |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
+| [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 2.6 MB | — |
 | [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 14.9 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
@@ -1228,6 +1229,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Last And First Light' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/last-and-first-light-v1-5137f8f8.mp3) (version 1, posted by @Arkniem)
+
+### Latin Dish Pigs (`latin-dish-pigs`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/latin-dish-pigs/>
+- **Credit:**
+
+> 'Latin Dish Pigs' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/latin-dish-pigs-v1-e81e1907.mp3) (version 1, posted by @Arkniem)
 
 ### Legacy (`legacy`)
 
