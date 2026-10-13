@@ -24,6 +24,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Beautiful Oblivion](https://github.com/Open-Historia/Open-historia-scenarios/issues/356) | `beautiful-oblivion` | Scott Buckley | CC BY 4.0 | 7:06 | 16.3 MB | — |
 | [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 15.9 MB | — |
+| [Blood](https://github.com/Open-Historia/Open-historia-scenarios/issues/459) | `blood` | Scott Buckley | CC BY 4.0 | 5:48 | 12.6 MB | — |
 | [Borealis](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) | `borealis` | Scott Buckley | CC BY 4.0 | 6:32 | 14.9 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Bring Me The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) | `bring-me-the-sky` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
@@ -411,6 +412,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Beyond These Walls' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beyond-these-walls-v1-a862ae87.mp3) (version 1, posted by @Arkniem)
+
+### Blood (`blood`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/blood/>
+- **Credit:**
+
+> 'Blood' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/459) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/blood-v1-a6f2acd0.mp3) (version 1, posted by @Arkniem)
 
 ### Borealis (`borealis`)
 

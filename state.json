@@ -1025,6 +1025,11 @@
       "id": "ashes-of-a-fallen-year",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ashes-of-a-fallen-year.mp3",
       "bodyHash": "8ded8db3a11c854f556f5e35bea68f528e1536baa7caea7c3c141b68f74a9354"
+    },
+    "459": {
+      "id": "blood",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/blood.mp3",
+      "bodyHash": "0b034dba4bd07642ecd3aff493ee390d0d92bd07021305bc6f343dd735dfcf9f"
     }
   }
 }

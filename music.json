@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:29:46.580Z",
+  "updated": "2026-10-13T22:30:24.748Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -323,6 +323,24 @@
       "sha256": "a862ae87b926cbf0ef40f8535acad3174f5eec10658893312452c815dcf61866",
       "seconds": 417,
       "post": 343,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "blood",
+      "name": "Blood",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/blood/",
+      "credit": "'Blood' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/blood-v1-a6f2acd0.mp3",
+      "type": "mp3",
+      "bytes": 13239406,
+      "sha256": "a6f2acd02dc64aa03ed18d8467345a585868c73da689c76a6793137bfa103b15",
+      "seconds": 348,
+      "post": 459,
       "postedBy": "Arkniem",
       "removed": false
     },
