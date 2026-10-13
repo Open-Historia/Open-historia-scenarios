@@ -110,6 +110,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
 | [Life in Silico](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) | `life-in-silico` | Scott Buckley | CC BY 4.0 | 3:56 | 9.0 MB | — |
 | [Life Is](https://github.com/Open-Historia/Open-historia-scenarios/issues/430) | `life-is` | Scott Buckley | CC BY 4.0 | 5:21 | 12.3 MB | — |
+| [Light in Dark Places](https://github.com/Open-Historia/Open-historia-scenarios/issues/476) | `light-in-dark-places` | Scott Buckley | CC BY 4.0 | 2:19 | 3.0 MB | — |
 | [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 5.2 MB | — |
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 6.6 MB | — |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 11.1 MB | — |
@@ -1374,6 +1375,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Life Is' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/430) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-is-v1-1f0387de.mp3) (version 1, posted by @Arkniem)
+
+### Light in Dark Places (`light-in-dark-places`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/light-in-dark-places/>
+- **Credit:**
+
+> 'Light in Dark Places (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/476) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/light-in-dark-places-v1-50ed5afa.mp3) (version 1, posted by @Arkniem)
 
 ### Light in Dark Places (2019 Remaster) (`light-in-dark-places-2019-remaster`)
 

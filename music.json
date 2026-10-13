@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:33:50.027Z",
+  "updated": "2026-10-13T22:34:09.036Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1874,6 +1874,24 @@
       "sha256": "1f0387de4216a76a6b6acf7eedf2741a122c98f383646f8390ed78a10c1d094d",
       "seconds": 321,
       "post": 430,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "light-in-dark-places",
+      "name": "Light in Dark Places",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/light-in-dark-places/",
+      "credit": "'Light in Dark Places (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/light-in-dark-places-v1-50ed5afa.mp3",
+      "type": "mp3",
+      "bytes": 3109252,
+      "sha256": "50ed5afa6447c0bbdc39c34ed0d6341db4007a28231427c3d3f1ed31e65c7dc7",
+      "seconds": 139,
+      "post": 476,
       "postedBy": "Arkniem",
       "removed": false
     },
