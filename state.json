@@ -1045,6 +1045,11 @@
       "id": "latin-dish-pigs",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/latin-dish-pigs.mp3",
       "bodyHash": "38dcb186fe29833bc090319a6ebf870fde0618af6e43ea6c22eca93b920bd5b4"
+    },
+    "463": {
+      "id": "crusader",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/crusader.mp3",
+      "bodyHash": "7ac9144f24ff585c974c690a58810b355c00e89de5474fcb94cf9e60f7b17782"
     }
   }
 }
