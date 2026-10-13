@@ -74,6 +74,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 4.4 MB | — |
 | [Happiness](https://github.com/Open-Historia/Open-historia-scenarios/issues/447) | `happiness` | Scott Buckley | CC BY 4.0 | 1:47 | 4.1 MB | — |
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
+| [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
@@ -970,6 +971,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Helios' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helios-v1-43f7396f.mp3) (version 1, posted by @Arkniem)
+
+### Helsinki (`helsinki`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/helsinki/>
+- **Credit:**
+
+> 'Helsinki' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helsinki-v1-4c5e4df7.mp3) (version 1, posted by @Arkniem)
 
 ### Hiraeth (`hiraeth`)
 

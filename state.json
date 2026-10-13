@@ -1070,6 +1070,11 @@
       "id": "awakening",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/awakening.mp3",
       "bodyHash": "35266b9944b5d0a70857ab8cd1dfa0ca6e5dcbb510ee5e7cf1ec2e3dd6cd39b3"
+    },
+    "468": {
+      "id": "helsinki",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/helsinki.mp3",
+      "bodyHash": "458fb8456bcf27cb408890807f2acb17958555c185ea9d6100832754d2ade1d9"
     }
   }
 }
