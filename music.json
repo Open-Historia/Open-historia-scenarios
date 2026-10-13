@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:20:50.524Z",
+  "updated": "2026-10-13T22:20:55.588Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2057,6 +2057,24 @@
       "sha256": "d61702c3b378662a3dd07d6207d9ac2cfedd405a4746c273db890afa644c7015",
       "seconds": 328,
       "post": 326,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "resonance",
+      "name": "Resonance",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/resonance/",
+      "credit": "'Resonance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resonance-v1-264be9c4.mp3",
+      "type": "mp3",
+      "bytes": 10643504,
+      "sha256": "264be9c44c32419b6de70f0ac24c92f81401419419c8fb111b8e19e62261331b",
+      "seconds": 266,
+      "post": 421,
       "postedBy": "Arkniem",
       "removed": false
     },
