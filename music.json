@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:33:12.331Z",
+  "updated": "2026-10-13T22:33:16.714Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3695,6 +3695,24 @@
       "sha256": "82ed105724e6ee31d2007615472cb4e3621000edbff9a4aaf6a64789c32bece5",
       "seconds": 444,
       "post": 261,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "utopia",
+      "name": "Utopia",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/utopia/",
+      "credit": "'Utopia' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/utopia-v1-09cc7da3.mp3",
+      "type": "mp3",
+      "bytes": 2867486,
+      "sha256": "09cc7da39ba9b1453248aac23c5e5f387881baf4e071c31d512651f3880fe445",
+      "seconds": 179,
+      "post": 473,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -211,6 +211,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 10.9 MB | — |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
+| [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — |
 | [Venom](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) | `venom` | Scott Buckley | CC BY 4.0 | 1:12 | 2.6 MB | — |
@@ -2482,6 +2483,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/unraveling-v1-82ed1057.mp3) (version 1, posted by @Arkniem)
+
+### Utopia (`utopia`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/utopia/>
+- **Credit:**
+
+> 'Utopia' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/utopia-v1-09cc7da3.mp3) (version 1, posted by @Arkniem)
 
 ### Vanguard (`vanguard`)
 
