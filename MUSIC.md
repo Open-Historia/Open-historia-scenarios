@@ -18,6 +18,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
+| [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 12.3 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
 
 ## Credits and licences
@@ -153,6 +154,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/unraveling-v1-82ed1057.mp3) (version 1, posted by @Arkniem)
+
+### Wildflowers (`wildflowers`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/wildflowers/>
+- **Credit:**
+
+> 'Wildflowers' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wildflowers-v1-8beb0445.mp3) (version 1, posted by @Arkniem)
 
 ### With These Hands (`with-these-hands`)
 
