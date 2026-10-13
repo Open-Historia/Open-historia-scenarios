@@ -160,6 +160,11 @@
       "id": "echoes",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/echoes.mp3",
       "bodyHash": "96938918a06288f3c67d91f4003aa1b71fe3811ee0006c8b65ef081cb471d20d"
+    },
+    "286": {
+      "id": "sentinel",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sentinel.mp3",
+      "bodyHash": "25cf5615801822d0bc43bf3024905cd46af0d946253d3acac47f7e41a65dbb1e"
     }
   }
 }
