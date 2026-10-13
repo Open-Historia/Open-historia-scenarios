@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:38:23.787Z",
+  "updated": "2026-10-13T21:38:28.183Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -455,6 +455,24 @@
       "sha256": "a148f8fd320d4a739da3124053fdc3178dcf9b6902507f2c86a83497f0279674",
       "seconds": 443,
       "post": 282,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "simplicity",
+      "name": "Simplicity",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/simplicity/",
+      "credit": "'Simplicity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/simplicity-v1-71cfdd6d.mp3",
+      "type": "mp3",
+      "bytes": 7384513,
+      "sha256": "71cfdd6d81765a0624f6b48704a26cfbeb095f83190c1d52d9fcfba3fe1afb0b",
+      "seconds": 185,
+      "post": 288,
       "postedBy": "Arkniem",
       "removed": false
     },
