@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:37:28.522Z",
+  "updated": "2026-10-13T22:37:32.861Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -755,6 +755,24 @@
       "sha256": "f94d1bc51651c5a4e4e81da032a2eae15df726857fce5a14babcfa9227cdb5dd",
       "seconds": 138,
       "post": 422,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "desperation",
+      "name": "Desperation",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/desperation/",
+      "credit": "'Desperation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/desperation-v1-2d9d945f.mp3",
+      "type": "mp3",
+      "bytes": 2097694,
+      "sha256": "2d9d945f6b9a17263548832a543ae0b56e19626e1d0197125371ba87f31e0b9e",
+      "seconds": 131,
+      "post": 491,
       "postedBy": "Arkniem",
       "removed": false
     },
