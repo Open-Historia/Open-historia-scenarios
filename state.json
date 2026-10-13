@@ -365,6 +365,11 @@
       "id": "resolutions",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/resolutions.mp3",
       "bodyHash": "ea1f1ba64759a1405419581ee65f1459f159eea16c555e3038f8a1f3fe1b7ebe"
+    },
+    "327": {
+      "id": "midvinter",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/midvinter.mp3",
+      "bodyHash": "cd9acaaa10393e788cba06c57b75b28f1719f726cf0b59e97d3443dd2dfa73d8"
     }
   }
 }

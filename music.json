@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:53:24.693Z",
+  "updated": "2026-10-13T21:53:52.848Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -740,6 +740,24 @@
       "sha256": "1ad908e4c0e0c2a311300f6b69f2587f9161e15990ee01f18e00992f25d1b252",
       "seconds": 330,
       "post": 265,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "midvinter",
+      "name": "Midvinter ❄️",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/midvinter/",
+      "credit": "'Midvinter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/midvinter-v1-1ef5ddef.mp3",
+      "type": "mp3",
+      "bytes": 10963286,
+      "sha256": "1ef5ddefcce9f9dbf1725dcbb3f46bce7f46cd7ddc92e348cc62b63e6fc64641",
+      "seconds": 274,
+      "post": 327,
       "postedBy": "Arkniem",
       "removed": false
     },
