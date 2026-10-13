@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:11:58.727Z",
+  "updated": "2026-10-13T22:12:29.632Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1388,6 +1388,24 @@
       "sha256": "d36718692cbc0fddb36700dc754b90a5205495d3b89eb0b3ab8f4af0cbf6c57e",
       "seconds": 224,
       "post": 386,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-exodus",
+      "name": "Monomyth – The Exodus",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-exodus/",
+      "credit": "'The Exodus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-exodus-v1-234f0487.mp3",
+      "type": "mp3",
+      "bytes": 9199440,
+      "sha256": "234f048795471c5168d790a3ff4770863757280678f6a7824000c2e45cdda1a7",
+      "seconds": 230,
+      "post": 390,
       "postedBy": "Arkniem",
       "removed": false
     },
