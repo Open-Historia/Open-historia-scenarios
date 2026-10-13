@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:46:01.928Z",
+  "updated": "2026-10-13T21:46:30.956Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -107,6 +107,24 @@
       "sha256": "0d2f6a8b048a0f1ae366933de17da1b8c2e1d219eb5fbb8d4b00b9d930e89b26",
       "seconds": 188,
       "post": 270,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "call-to-adventure",
+      "name": "Call To Adventure",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/call-to-adventure/",
+      "credit": "'Call To Adventure' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/call-to-adventure-v1-ed871ff6.mp3",
+      "type": "mp3",
+      "bytes": 10398026,
+      "sha256": "ed871ff603184cd40a995f15150237e35f95aeb6257a686a5af9a1abd3b5350f",
+      "seconds": 260,
+      "post": 308,
       "postedBy": "Arkniem",
       "removed": false
     },
