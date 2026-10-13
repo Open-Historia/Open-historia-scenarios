@@ -32,6 +32,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
+| [Electric Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) | `electric-dreams` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 10.1 MB | — |
 | [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 11.7 MB | — |
@@ -397,6 +398,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v1-215ff6ec.mp3) (version 1, posted by @Arkniem)
+
+### Electric Dreams (`electric-dreams`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/electric-dreams/>
+- **Credit:**
+
+> 'Electric Dreams' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/electric-dreams-v1-7c570cd7.mp3) (version 1, posted by @Arkniem)
 
 ### Escape Velocity (`escape-velocity`)
 

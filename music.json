@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:02:02.940Z",
+  "updated": "2026-10-13T22:02:47.181Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -467,6 +467,24 @@
       "sha256": "215ff6ec113abbcfa3258028af322f651a40cf1102996b347dde873379b42674",
       "seconds": 413,
       "post": 297,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "electric-dreams",
+      "name": "Electric Dreams",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/electric-dreams/",
+      "credit": "'Electric Dreams' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/electric-dreams-v1-7c570cd7.mp3",
+      "type": "mp3",
+      "bytes": 11667530,
+      "sha256": "7c570cd7f2d0611fca3d6e411490bc22e1c95473a93583e93888cbb0472ddcb4",
+      "seconds": 292,
+      "post": 357,
       "postedBy": "Arkniem",
       "removed": false
     },
