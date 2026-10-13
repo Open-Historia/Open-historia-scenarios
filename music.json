@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:31:26.594Z",
+  "updated": "2026-10-13T21:31:31.136Z",
   "tracks": [
     {
       "id": "aphelion",
@@ -167,6 +167,24 @@
       "sha256": "0066b940bec49211769790ceaf086289a634c84189bb9131002252d8495997a4",
       "seconds": 271,
       "post": 253,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "penumbra",
+      "name": "Penumbra",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/penumbra/",
+      "credit": "'Penumbra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/penumbra-v1-bc225a79.mp3",
+      "type": "mp3",
+      "bytes": 17994415,
+      "sha256": "bc225a79d41107bce3cb31a177adccf0a7c95933b8263473ca0b7ad00d90bec3",
+      "seconds": 450,
+      "post": 271,
       "postedBy": "Arkniem",
       "removed": false
     },
