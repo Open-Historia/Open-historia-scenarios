@@ -31,6 +31,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 12.9 MB | — |
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 10.5 MB | — |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
+| [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
@@ -452,6 +453,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Childhood' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/childhood-v1-7bc1a9bf.mp3) (version 1, posted by @Arkniem)
+
+### Chronicle (`chronicle`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/chronicle/>
+- **Credit:**
+
+> 'Chronicle' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chronicle-v1-1ded5ef2.mp3) (version 1, posted by @Arkniem)
 
 ### Cicadas (`cicadas`)
 

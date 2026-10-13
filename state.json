@@ -845,6 +845,11 @@
       "id": "descent",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/descent.mp3",
       "bodyHash": "2386ae7c4d5402616f567c8f38bbfb2d87417a238da757f28ea16b2b0757d19a"
+    },
+    "423": {
+      "id": "chronicle",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/chronicle.mp3",
+      "bodyHash": "5971ccf22c2d8774e4c135498009625fa3b989e3a51371759f002efc06c18a82"
     }
   }
 }
