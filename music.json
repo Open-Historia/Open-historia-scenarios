@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:41:56.058Z",
+  "updated": "2026-10-13T21:42:24.703Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -743,6 +743,24 @@
       "sha256": "82ed105724e6ee31d2007615472cb4e3621000edbff9a4aaf6a64789c32bece5",
       "seconds": 444,
       "post": 261,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "vanguard",
+      "name": "Vanguard",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/vanguard/",
+      "credit": "'Vanguard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/vanguard-v1-e3eaf7e0.mp3",
+      "type": "mp3",
+      "bytes": 9385461,
+      "sha256": "e3eaf7e0e8727f06db9ceb6b93324bee73cf37f44370a1228da516800bffadff",
+      "seconds": 235,
+      "post": 298,
       "postedBy": "Arkniem",
       "removed": false
     },

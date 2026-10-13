@@ -220,6 +220,11 @@
       "id": "effervescence",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/effervescence.mp3",
       "bodyHash": "4b26127763c263bfb848e8ebefabe8311cb68868edc6e8bce369ef419e58b1d2"
+    },
+    "298": {
+      "id": "vanguard",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/vanguard.mp3",
+      "bodyHash": "264608ae657271df51407c1d553330a85ca545d2d159f1a24b26f2b1644ad963"
     }
   }
 }

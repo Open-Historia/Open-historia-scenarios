@@ -47,6 +47,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
+| [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 12.3 MB | — |
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
@@ -503,6 +504,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/unraveling-v1-82ed1057.mp3) (version 1, posted by @Arkniem)
+
+### Vanguard (`vanguard`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/vanguard/>
+- **Credit:**
+
+> 'Vanguard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/vanguard-v1-e3eaf7e0.mp3) (version 1, posted by @Arkniem)
 
 ### Wildflowers (`wildflowers`)
 
