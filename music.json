@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:42:24.703Z",
+  "updated": "2026-10-13T21:42:30.550Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -53,6 +53,24 @@
       "sha256": "57028e3de133aa9beba2f9540ffea3bb7822cbdb8f899de16b6b44389879ba91",
       "seconds": 317,
       "post": 283,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "balefire",
+      "name": "Balefire",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/balefire/",
+      "credit": "'Balefire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/balefire-v1-1546693f.mp3",
+      "type": "mp3",
+      "bytes": 13601666,
+      "sha256": "1546693f6381dc44c2cc90e8934aad32fd325bbc7ee26419ca3f2fb78f0809ad",
+      "seconds": 340,
+      "post": 299,
       "postedBy": "Arkniem",
       "removed": false
     },
