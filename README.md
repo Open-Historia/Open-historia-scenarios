@@ -10,8 +10,9 @@ tabs show what's posted here for everyone:
 - Issues labeled **`basemap`** → the map editor's **Basemaps → Community** browser (custom map
   backgrounds you can build maps on).
 - Issues labeled **`detailed map`** → **Maps → Community → Detailed maps** (large, sharp terrain
-  maps that scenarios are drawn on). See [the list of detailed maps](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md),
-  with each map's credits and licence.
+  maps that scenarios are drawn on).
+
+**📜 [Every detailed map, with its credits and licence](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md)**
 
 ## Post a scenario
 
@@ -39,6 +40,9 @@ Share a fantasy/alternate map background others can build scenarios on.
 4. Submit. It appears in the editor's **Basemaps → Community** browser.
 
 ## Post a detailed map
+
+The maps already shared, with their credits and licences, are in
+[**DETAILED-MAPS.md**](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md).
 
 > **Two different things:**
 > - A **basemap** is the flat map drawn under the countries: a built-in Earth map, an uploaded

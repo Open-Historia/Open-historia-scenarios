@@ -161,6 +161,10 @@ test("the form: an ID from the name, IDs that are taken, and an ID that can't ch
   assert.match(checkForm(parseForm(body({ id: "other" })), list, { ownId: "taken" }).problems.join(" "), /never changes/);
   assert.deepEqual(checkForm(parseForm(body({ id: "taken" })), list, { ownId: "taken" }).problems, []);
   assert.match(checkForm(parseForm(body({ ticks: 3 })), list).problems.join(" "), /Tick all the boxes/);
+  // A checksum copied from a GitHub release page, label and all.
+  const copied = checkForm(parseForm(body({ sha: `sha256:${"Ab".repeat(32)}` })), list);
+  assert.deepEqual(copied.problems, []);
+  assert.equal(copied.sha256, "ab".repeat(32));
   const linked = parseForm(body({ link: "[file](https://example.com/my_map.pmtiles)" }));
   assert.equal(linked.download, "https://example.com/my_map.pmtiles");
 });
@@ -230,6 +234,8 @@ test("a post with a problem is told what to fix, and labelled until it is fixed"
   assert.equal((await run()).released, 1);
   assert.ok(!github.posts[0].labels.some((label) => label.name === PROBLEM_LABEL));
   assert.match(statusOf(github, 9), /on the list/);
+  // The status comment was edited, which notifies no one, so a new one says so.
+  assert.match(github.comments.get(9).at(-1).body, /^✅ `test-world` is on the list\.$/);
 });
 
 test("two posts can't share an ID, and the older one has it", async () => {
