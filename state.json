@@ -155,6 +155,11 @@
       "id": "hyperion",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hyperion.mp3",
       "bodyHash": "d5a396cb4800f6ad018328559c873ec250620d16e949bdebac06c6cf851c348b"
+    },
+    "285": {
+      "id": "echoes",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/echoes.mp3",
+      "bodyHash": "96938918a06288f3c67d91f4003aa1b71fe3811ee0006c8b65ef081cb471d20d"
     }
   }
 }
