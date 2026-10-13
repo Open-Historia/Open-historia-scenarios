@@ -770,6 +770,11 @@
       "id": "ascension",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ascension.mp3",
       "bodyHash": "5741e6acd82fd09920d8a03ec3d6abfb13debb8bbe694dbc838228f940fe1756"
+    },
+    "408": {
+      "id": "childhood",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/childhood.mp3",
+      "bodyHash": "33c4daefc51a9d5c8cb3b621b6916be9b9e12c3952468cfc2dfd06a81dab3efc"
     }
   }
 }
