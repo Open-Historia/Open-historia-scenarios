@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:39:41.442Z",
+  "updated": "2026-10-13T22:39:45.652Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -179,6 +179,24 @@
       "sha256": "3cce8ecd622a870c833b3688658b10f8ebab4f621e7953b57f6d69e6e4bcf023",
       "seconds": 283,
       "post": 276,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "ambush",
+      "name": "Ambush",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/ambush/",
+      "credit": "'Ambush' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ambush-v1-f08f2137.mp3",
+      "type": "mp3",
+      "bytes": 6825977,
+      "sha256": "f08f2137c94a9204bf2dfe3f097155b252791bc24b7c28cafd882142f0c6a435",
+      "seconds": 426,
+      "post": 501,
       "postedBy": "Arkniem",
       "removed": false
     },
