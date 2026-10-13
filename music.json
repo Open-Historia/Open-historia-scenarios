@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:23:49.678Z",
+  "updated": "2026-10-13T22:23:54.391Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2165,6 +2165,24 @@
       "sha256": "14516700c1560a490b057807c234645893315afff2bfe1a334e03d30ccfa00b4",
       "seconds": 119,
       "post": 350,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "pursuit",
+      "name": "Pursuit",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/pursuit/",
+      "credit": "'Pursuit' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pursuit-v1-0d302909.mp3",
+      "type": "mp3",
+      "bytes": 6599710,
+      "sha256": "0d3029092d9bd501189ad353708c4453de0f912d45db0cc9a0eae572b7452c31",
+      "seconds": 165,
+      "post": 434,
       "postedBy": "Arkniem",
       "removed": false
     },

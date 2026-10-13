@@ -900,6 +900,11 @@
       "id": "elementary",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/elementary.mp3",
       "bodyHash": "6b624cb48bdf5503cfdc69e092bc3961c789bafcceaa1abd38859860aee2637c"
+    },
+    "434": {
+      "id": "pursuit",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/pursuit.mp3",
+      "bodyHash": "cc181ddab25f8e02f98c01862bc091f68475aac6dc6ff96afcb9dd19c61ff5eb"
     }
   }
 }
