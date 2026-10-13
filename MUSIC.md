@@ -90,6 +90,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 16.9 MB | — |
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 7.0 MB | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
+| [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
@@ -1042,6 +1043,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Simulacra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/simulacra-v1-f65439c7.mp3) (version 1, posted by @Arkniem)
+
+### Solace (`solace`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/solace/>
+- **Credit:**
+
+> 'Solace' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solace-v1-bb54696d.mp3) (version 1, posted by @Arkniem)
 
 ### Solecism (`solecism`)
 

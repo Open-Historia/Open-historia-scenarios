@@ -550,6 +550,11 @@
       "id": "hiraeth",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hiraeth.mp3",
       "bodyHash": "5c6fd59f0b4313c19b45d51fc6c07c015902fda3bfb0e1b7dbda333a742e1d30"
+    },
+    "364": {
+      "id": "solace",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solace.mp3",
+      "bodyHash": "16ef9c8c559a46382cd069c15379f3d9dafa1eb123bbe83cce89c553fe85ad27"
     }
   }
 }

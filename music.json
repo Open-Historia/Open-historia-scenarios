@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:04:25.957Z",
+  "updated": "2026-10-13T22:04:52.205Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1517,6 +1517,24 @@
       "sha256": "f65439c7685594e63a9e1d586dc9487b5ac231b3e210e0f5c39c7ee7ddd1a794",
       "seconds": 234,
       "post": 277,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "solace",
+      "name": "Solace",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/solace/",
+      "credit": "'Solace' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solace-v1-bb54696d.mp3",
+      "type": "mp3",
+      "bytes": 14257802,
+      "sha256": "bb54696d9b49e60d8e9edc25d80c19a975d25b3c8d8ca32afe4d963372e1d1bf",
+      "seconds": 356,
+      "post": 364,
       "postedBy": "Arkniem",
       "removed": false
     },
