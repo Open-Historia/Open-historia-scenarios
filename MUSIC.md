@@ -17,6 +17,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 19.0 MB | — |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
+| [Bring Me The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) | `bring-me-the-sky` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 8.6 MB | — |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
@@ -207,6 +208,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Born Of The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/born-of-the-sky-v1-0d2f6a8b.mp3) (version 1, posted by @Arkniem)
+
+### Bring Me The Sky (`bring-me-the-sky`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/bring-me-the-sky/>
+- **Credit:**
+
+> 'Bring Me The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/bring-me-the-sky-v1-e51fc7e5.mp3) (version 1, posted by @Arkniem)
 
 ### Call To Adventure (`call-to-adventure`)
 

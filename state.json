@@ -390,6 +390,11 @@
       "id": "maleficus",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/maleficus.mp3",
       "bodyHash": "4b0b6d01af658947ea327a725ac1d407a2ef1cc4de202eb5bf9769ba861bf676"
+    },
+    "332": {
+      "id": "bring-me-the-sky",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/bring-me-the-sky.mp3",
+      "bodyHash": "45002da23046ae1adb881cab5406817c2656389b7076d93c5ba000d98d6de425"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:54:48.872Z",
+  "updated": "2026-10-13T21:55:17.082Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -197,6 +197,24 @@
       "sha256": "0d2f6a8b048a0f1ae366933de17da1b8c2e1d219eb5fbb8d4b00b9d930e89b26",
       "seconds": 188,
       "post": 270,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "bring-me-the-sky",
+      "name": "Bring Me The Sky",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/bring-me-the-sky/",
+      "credit": "'Bring Me The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/bring-me-the-sky-v1-e51fc7e5.mp3",
+      "type": "mp3",
+      "bytes": 9291477,
+      "sha256": "e51fc7e5e507152030fa3b0be53c27d1c6221a6370c8a32687745b91b467e757",
+      "seconds": 232,
+      "post": 332,
       "postedBy": "Arkniem",
       "removed": false
     },
