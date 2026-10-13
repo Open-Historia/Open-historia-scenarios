@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:07:29.827Z",
+  "updated": "2026-10-13T22:08:04.484Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -35,6 +35,24 @@
       "sha256": "d0dc554c0db9ea208b4f59e4f0c1b4446aa7ef622c7bfeffca278130a46c51f1",
       "seconds": 343,
       "post": 312,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "absolution",
+      "name": "Absolution",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/absolution/",
+      "credit": "'Absolution' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/absolution-v1-4ce96177.mp3",
+      "type": "mp3",
+      "bytes": 13158590,
+      "sha256": "4ce9617736bb1342ee697d4eba9286744f850b3b41d427707aee373fcbe75f95",
+      "seconds": 329,
+      "post": 371,
       "postedBy": "Arkniem",
       "removed": false
     },
