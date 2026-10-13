@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:25:10.198Z",
+  "updated": "2026-10-13T22:25:39.311Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -701,6 +701,24 @@
       "sha256": "215ff6ec113abbcfa3258028af322f651a40cf1102996b347dde873379b42674",
       "seconds": 413,
       "post": 297,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "eidolon",
+      "name": "Eidolon",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/eidolon/",
+      "credit": "'Eidolon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eidolon-v1-be54ff62.mp3",
+      "type": "mp3",
+      "bytes": 7105869,
+      "sha256": "be54ff621d53cbca6dc3464428b4677d327a648f96631b80352ee3222a7d24d5",
+      "seconds": 191,
+      "post": 440,
       "postedBy": "Arkniem",
       "removed": false
     },

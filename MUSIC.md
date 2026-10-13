@@ -45,6 +45,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
+| [Eidolon](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) | `eidolon` | Scott Buckley | CC BY 4.0 | 3:11 | 6.8 MB | — |
 | [Electric Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) | `electric-dreams` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Elementary](https://github.com/Open-Historia/Open-historia-scenarios/issues/433) | `elementary` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
 | [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 8.8 MB | — |
@@ -623,6 +624,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v1-215ff6ec.mp3) (version 1, posted by @Arkniem)
+
+### Eidolon (`eidolon`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/eidolon/>
+- **Credit:**
+
+> 'Eidolon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eidolon-v1-be54ff62.mp3) (version 1, posted by @Arkniem)
 
 ### Electric Dreams (`electric-dreams`)
 
