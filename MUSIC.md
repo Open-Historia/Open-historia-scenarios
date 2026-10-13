@@ -90,6 +90,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Invocation](https://github.com/Open-Historia/Open-historia-scenarios/issues/450) | `invocation` | Scott Buckley | CC BY 4.0 | 3:34 | 7.6 MB | — |
 | [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 4.5 MB | — |
 | [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 4.4 MB | — |
+| [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 4.7 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 7.9 MB | — |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
@@ -1129,6 +1130,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Journeys' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/journeys-v1-86c70eeb.mp3) (version 1, posted by @Arkniem)
+
+### Jubilee (`jubilee`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/jubilee/>
+- **Credit:**
+
+> 'Jubilee' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jubilee-v1-fff65631.mp3) (version 1, posted by @Arkniem)
 
 ### Juggernaut (`juggernaut`)
 

@@ -985,6 +985,11 @@
       "id": "invocation",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/invocation.mp3",
       "bodyHash": "026a39b676600963c187b0e373e65546082614c4eff0ee5e327ce901ec95fc14"
+    },
+    "451": {
+      "id": "jubilee",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jubilee.mp3",
+      "bodyHash": "f6f0c1089ded6646d2ce68715a0d86af29e7ba21e18c73ddcbb4b440d95cd66b"
     }
   }
 }
