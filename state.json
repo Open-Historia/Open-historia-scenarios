@@ -140,6 +140,11 @@
       "id": "into-the-wilds",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/into-the-wilds.mp3",
       "bodyHash": "23ff74a352daccdcb887132f257cb9905e25850132c8febfd8f5fa6e2b89e685"
+    },
+    "282": {
+      "id": "shoulders-of-giants",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/shoulders-of-giants.mp3",
+      "bodyHash": "beb5dba8e6fd13a487e6f41a6c17c1d5e4696a2070ee2f16e0aa205c9dd663b7"
     }
   }
 }

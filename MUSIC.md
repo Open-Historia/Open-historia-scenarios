@@ -25,6 +25,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 10.3 MB | — |
+| [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 16.9 MB | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
@@ -245,6 +246,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Ride The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ride-the-wind-v1-0adeacb8.mp3) (version 1, posted by @Arkniem)
+
+### Shoulders Of Giants (`shoulders-of-giants`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/shoulders-of-giants/>
+- **Credit:**
+
+> 'Shoulders Of Giants' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/shoulders-of-giants-v1-a148f8fd.mp3) (version 1, posted by @Arkniem)
 
 ### Simulacra (`simulacra`)
 
