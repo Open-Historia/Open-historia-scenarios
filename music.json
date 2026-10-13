@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:35:13.385Z",
+  "updated": "2026-10-13T22:35:40.375Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1331,6 +1331,24 @@
       "sha256": "4d4cf96e941c61cbdab71ef49c6dd6b67d6fd1df00926fac2f6e419e34d76d61",
       "seconds": 269,
       "post": 259,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "homeward",
+      "name": "Homeward",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/homeward/",
+      "credit": "'Homeward' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/homeward-v1-0e72f00a.mp3",
+      "type": "mp3",
+      "bytes": 3624359,
+      "sha256": "0e72f00a6133110054022e82e4617434d863e11e11e53db6ec288b02f002356a",
+      "seconds": 159,
+      "post": 482,
       "postedBy": "Arkniem",
       "removed": false
     },
