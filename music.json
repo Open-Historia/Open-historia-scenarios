@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:39:38.148Z",
+  "updated": "2026-10-13T21:40:07.741Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -491,6 +491,24 @@
       "sha256": "ca19618bf7eeb95e0798d7a72710695ff45ad1d9731ae8074f5d0f24afd47a0c",
       "seconds": 203,
       "post": 286,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "shadows-and-dust",
+      "name": "Shadows and Dust",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/shadows-and-dust/",
+      "credit": "'Shadows and Dust' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/shadows-and-dust-v1-5ea11efb.mp3",
+      "type": "mp3",
+      "bytes": 16339308,
+      "sha256": "5ea11efb8df8df8c97f944973dee2203a7b44fa1dbc21026a80035d4619a4ae5",
+      "seconds": 408,
+      "post": 293,
       "postedBy": "Arkniem",
       "removed": false
     },
