@@ -1085,6 +1085,11 @@
       "id": "oblivion-overture",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/oblivion-overture.mp3",
       "bodyHash": "4456a1841da2451d12fa31c44d75a04f20e3ed89273df413d023eeb002c3e695"
+    },
+    "471": {
+      "id": "edge-of-remorse",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/edge-of-remorse.mp3",
+      "bodyHash": "cff2a31e15967f257b7acfaa764af4090e77926b1598b3922425bc0f4c76f779"
     }
   }
 }

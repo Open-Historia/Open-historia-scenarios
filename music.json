@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:32:34.845Z",
+  "updated": "2026-10-13T22:33:07.680Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -827,6 +827,24 @@
       "sha256": "b980963ac01d5211e2729906e2f5e74915a9d5df22fc8744e2d95045bb120e8e",
       "seconds": 292,
       "post": 273,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "edge-of-remorse",
+      "name": "Edge of Remorse",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/edge-of-remorse/",
+      "credit": "'Edge of Remorse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/edge-of-remorse-v1-bebddecb.mp3",
+      "type": "mp3",
+      "bytes": 7482262,
+      "sha256": "bebddecb9dd88808218bd3b05bed9baf0af5447061ded835680707088f9b6569",
+      "seconds": 467,
+      "post": 471,
       "postedBy": "Arkniem",
       "removed": false
     },
