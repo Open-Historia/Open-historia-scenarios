@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:09:28.387Z",
+  "updated": "2026-10-13T22:09:33.798Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -647,6 +647,24 @@
       "sha256": "054dcaafd60653b9b562941c478f762ace27d7620e11f1b83f95271756aedb4a",
       "seconds": 211,
       "post": 346,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "filaments",
+      "name": "Filaments",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/filaments/",
+      "credit": "'Filaments' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/filaments-v1-880686f9.mp3",
+      "type": "mp3",
+      "bytes": 13599523,
+      "sha256": "880686f9e39b326862b084c9ae4100c9a1c9e2e91bf94a239cd5c1226acada07",
+      "seconds": 340,
+      "post": 378,
       "postedBy": "Arkniem",
       "removed": false
     },
