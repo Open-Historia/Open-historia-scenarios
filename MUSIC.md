@@ -106,6 +106,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 17.0 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Inbound](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) | `inbound` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
+| [Incantation](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) | `incantation` | Scott Buckley | CC BY 4.0 | 7:13 | 16.5 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
 | [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 8.8 MB | — |
 | [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
@@ -1360,6 +1361,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Inbound' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inbound-v1-2ad877ee.mp3) (version 1, posted by @Arkniem)
+
+### Incantation (`incantation`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/incantation/>
+- **Credit:**
+
+> 'Incantation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incantation-v1-e50eb62e.mp3) (version 1, posted by @Arkniem)
 
 ### Incredulity (`incredulity`)
 

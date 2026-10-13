@@ -1260,6 +1260,11 @@
       "id": "contagion",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/contagion.mp3",
       "bodyHash": "d74bf6a4e3cf5cd254417e0154866c4b926ab8b00ab112049a3c36f5ea398b42"
+    },
+    "506": {
+      "id": "incantation",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/incantation.mp3",
+      "bodyHash": "aa28034dfaf85fb52104876c34d2ad7b352f2f092a0d51e616b0657bace3e05c"
     }
   }
 }
