@@ -238,6 +238,19 @@ test("a post with a problem is told what to fix, and labelled until it is fixed"
   assert.match(github.comments.get(9).at(-1).body, /^✅ `test-world` is on the list\.$/);
 });
 
+test("a file that is already another map's version is refused, so an update goes on the map's own post", async () => {
+  const github = fakeGitHub();
+  const file = makeMap("original.pmtiles", { tile: "ORIGINAL" });
+  const { download } = fakeDownloads({ "https://example.com/a.pmtiles": file });
+  const run = () => syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} });
+  github.addPost(1, body({ id: "first" }));
+  await run();
+  github.addPost(2, body({ id: "second" }), "someone-else");
+  assert.equal((await run()).problem, 1);
+  assert.match(statusOf(github, 2), /already version 1 of `first` \(#1\)[\s\S]*edit that map's post/);
+  assert.equal(findMap(github.list(), "second"), null);
+});
+
 test("two posts can't share an ID, and the older one has it", async () => {
   const github = fakeGitHub();
   const file = makeMap("shared.pmtiles");

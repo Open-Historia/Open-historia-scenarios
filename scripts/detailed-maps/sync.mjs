@@ -285,6 +285,17 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
       }));
       return "problem";
     }
+    // The same file as another map's version: most likely an update posted as
+    // a new map, which scenarios naming the old ID would never be offered.
+    const copied = list.basemaps.find((other) => other !== map && other.versions.some((entry) => entry.sha256 === check.sha256));
+    if (copied) {
+      const { version: copiedVersion } = copied.versions.find((entry) => entry.sha256 === check.sha256);
+      await setStatus(client, number, problemComment({
+        problems: [`This file is already version ${copiedVersion} of \`${copied.id}\`${copied.post ? ` (#${copied.post})` : ""}. To release an update, edit that map's post with the new download link instead of making a new post.`],
+        offered: latest && !latest.archived ? latest.version : 0, id, name, license, check,
+      }));
+      return "problem";
+    }
     if (map && latest && check.sha256 === latest.sha256) {
       updateDetails(map, { name, license });
       record.link = form.download;
