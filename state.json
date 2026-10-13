@@ -995,6 +995,11 @@
       "id": "dreamt-of-flying",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/dreamt-of-flying.mp3",
       "bodyHash": "e8cdcb824ec1e144d29a878907f01f70c085ba31ea9898b8cbc3670187d9a631"
+    },
+    "453": {
+      "id": "venom",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/venom.mp3",
+      "bodyHash": "7d549ee7046bcfa54ff1ad88233a0b2cf16d6f2f37441a5075ab6fa277375b27"
     }
   }
 }

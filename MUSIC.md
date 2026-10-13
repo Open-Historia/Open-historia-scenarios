@@ -195,6 +195,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
+| [Venom](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) | `venom` | Scott Buckley | CC BY 4.0 | 1:12 | 2.6 MB | — |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 7.7 MB | — |
 | [Wanderlust](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) | `wanderlust` | Scott Buckley | CC BY 4.0 | 2:48 | 6.4 MB | — |
 | [Wayfarer](https://github.com/Open-Historia/Open-historia-scenarios/issues/334) | `wayfarer` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
@@ -2286,6 +2287,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Vanguard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/vanguard-v1-e3eaf7e0.mp3) (version 1, posted by @Arkniem)
+
+### Venom (`venom`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/venom/>
+- **Credit:**
+
+> 'Venom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/venom-v1-e7310bb6.mp3) (version 1, posted by @Arkniem)
 
 ### Victor Lux (`victor-lux`)
 

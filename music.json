@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:28:35.358Z",
+  "updated": "2026-10-13T22:28:40.151Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3407,6 +3407,24 @@
       "sha256": "e3eaf7e0e8727f06db9ceb6b93324bee73cf37f44370a1228da516800bffadff",
       "seconds": 235,
       "post": 298,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "venom",
+      "name": "Venom",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/venom/",
+      "credit": "'Venom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/venom-v1-e7310bb6.mp3",
+      "type": "mp3",
+      "bytes": 2764456,
+      "sha256": "e7310bb677f9a44ca57c2baa72a68fe955f7d36995eba476e1c8400ca7d09ac7",
+      "seconds": 72,
+      "post": 453,
       "postedBy": "Arkniem",
       "removed": false
     },
