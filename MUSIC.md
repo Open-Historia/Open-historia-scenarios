@@ -15,6 +15,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 16.1 MB | — |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 14.3 MB | — |
+| [Ashes of a Fallen Year (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) | `ashes-of-a-fallen-year-2019-remaster` | Scott Buckley | CC BY 4.0 | 5:10 | 11.8 MB | — |
 | [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 12.1 MB | — |
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 19.0 MB | — |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
@@ -257,6 +258,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Artemis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/artemis-v1-e46316b6.mp3) (version 1, posted by @Arkniem)
+
+### Ashes of a Fallen Year (2019 Remaster) (`ashes-of-a-fallen-year-2019-remaster`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/ashes-of-a-fallen-year-2019-remaster/>
+- **Credit:**
+
+> 'Ashes of a Fallen Year' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ashes-of-a-fallen-year-2019-remaster-v1-62e8b46c.mp3) (version 1, posted by @Arkniem)
 
 ### At The End Of All Things (`at-the-end-of-all-things`)
 

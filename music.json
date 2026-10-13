@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:16:23.083Z",
+  "updated": "2026-10-13T22:16:51.489Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -161,6 +161,24 @@
       "sha256": "e46316b663605c9c937181d7802682cea88634aa2e2a489d790617033fb4bbd0",
       "seconds": 376,
       "post": 314,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "ashes-of-a-fallen-year-2019-remaster",
+      "name": "Ashes of a Fallen Year (2019 Remaster)",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/ashes-of-a-fallen-year-2019-remaster/",
+      "credit": "'Ashes of a Fallen Year' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ashes-of-a-fallen-year-2019-remaster-v1-62e8b46c.mp3",
+      "type": "mp3",
+      "bytes": 12413582,
+      "sha256": "62e8b46c46de10df708effe8a7b71ab1a46aa0e533a6008f412cb034befeb963",
+      "seconds": 310,
+      "post": 404,
       "postedBy": "Arkniem",
       "removed": false
     },
