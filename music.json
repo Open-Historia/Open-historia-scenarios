@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:47:10.654Z",
+  "updated": "2026-10-13T21:47:15.372Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -17,6 +17,24 @@
       "sha256": "fe07f1c8e0b10743c7ed72348bf7fe4692e8471358f0f7f48d0a4e8ca8ae4200",
       "seconds": 168,
       "post": 306,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "a-kind-of-hope",
+      "name": "A Kind Of Hope",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/a-kind-of-hope/",
+      "credit": "'A Kind Of Hope' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-kind-of-hope-v1-d0dc554c.mp3",
+      "type": "mp3",
+      "bytes": 13708261,
+      "sha256": "d0dc554c0db9ea208b4f59e4f0c1b4446aa7ef622c7bfeffca278130a46c51f1",
+      "seconds": 343,
+      "post": 312,
       "postedBy": "Arkniem",
       "removed": false
     },

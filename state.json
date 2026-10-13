@@ -290,6 +290,11 @@
       "id": "hymn-to-the-dawn",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hymn-to-the-dawn.mp3",
       "bodyHash": "1cb5a0b4074f2c44d90e1ff853957bb0dfa2eb8021cab552d751bd4f3a6e663a"
+    },
+    "312": {
+      "id": "a-kind-of-hope",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-kind-of-hope.mp3",
+      "bodyHash": "687e68201adadaec9663c532f71c52aa87b05272410722ea9a30ee4317d775ec"
     }
   }
 }
