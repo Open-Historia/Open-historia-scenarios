@@ -121,6 +121,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
+| [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 5.4 MB | — |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 7.8 MB | — |
@@ -1461,6 +1462,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Origami' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/origami-v1-8b8edd81.mp3) (version 1, posted by @Arkniem)
+
+### Passage (`passage`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/passage/>
+- **Credit:**
+
+> 'Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-v1-2cf2692f.mp3) (version 1, posted by @Arkniem)
 
 ### Passage Of Time (`passage-of-time`)
 

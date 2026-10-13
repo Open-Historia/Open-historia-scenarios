@@ -940,6 +940,11 @@
       "id": "patagonia",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/patagonia.mp3",
       "bodyHash": "1296d58236cb8c98fe82d25b44310a88eec8112260cd60ef5b45dd40429d1f38"
+    },
+    "442": {
+      "id": "passage",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/passage.mp3",
+      "bodyHash": "de6cab130f96634ccf8f4628163579645c2509ab90a81590275be4b658e8dd8f"
     }
   }
 }
