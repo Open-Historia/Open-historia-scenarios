@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:00:27.446Z",
+  "updated": "2026-10-13T22:00:56.009Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -845,6 +845,24 @@
       "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
       "seconds": 222,
       "post": 316,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "jul",
+      "name": "Jul",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/jul/",
+      "credit": "'Jul' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jul-v1-522de8e2.mp3",
+      "type": "mp3",
+      "bytes": 8308188,
+      "sha256": "522de8e2cedaefcebb72c46d1b4907a2335a2a05d08ac31fc7658caa74e7ed8f",
+      "seconds": 208,
+      "post": 352,
       "postedBy": "Arkniem",
       "removed": false
     },

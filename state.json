@@ -490,6 +490,11 @@
       "id": "this-too-shall-pass",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/this-too-shall-pass.mp3",
       "bodyHash": "60151fa46fa1ebd2e39c70505fecaef1a2d582259fe9340042adf1106977ae8c"
+    },
+    "352": {
+      "id": "jul",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jul.mp3",
+      "bodyHash": "e64e461152cbc05b4d00dc174747381db444c24c7c62f7cdac70525ce212f580"
     }
   }
 }
