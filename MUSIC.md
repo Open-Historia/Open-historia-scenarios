@@ -29,6 +29,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 10.1 MB | — |
+| [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 11.7 MB | — |
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
@@ -342,6 +343,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Eyes In The Void' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eyes-in-the-void-v1-285e9aea.mp3) (version 1, posted by @Arkniem)
+
+### Falling Together (`falling-together`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/falling-together/>
+- **Credit:**
+
+> 'Falling Together' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/falling-together-v1-909e60d5.mp3) (version 1, posted by @Arkniem)
 
 ### First Snow (`first-snow`)
 
