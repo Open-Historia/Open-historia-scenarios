@@ -975,6 +975,11 @@
       "id": "supernova",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/supernova.mp3",
       "bodyHash": "b04da7c41736cc4400c1aa0e35bb49a2d7ddc90a2efd07e5a937f05cc5574206"
+    },
+    "449": {
+      "id": "drift",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/drift.mp3",
+      "bodyHash": "5f4286b980456b67ab3758d0bd99237f1072fbe5629d41f1a888c2aad60b26b4"
     }
   }
 }
