@@ -250,6 +250,11 @@
       "id": "escape-velocity",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/escape-velocity.mp3",
       "bodyHash": "a96f16d22601b71a8d09c5d7bda7486511710603bc88559912229d5b7d587f79"
+    },
+    "304": {
+      "id": "cirrus",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cirrus.mp3",
+      "bodyHash": "f2af457d4cf3f6e2a1496445462160e9d5c76a7d390f4fba513e992641cdacf5"
     }
   }
 }

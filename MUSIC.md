@@ -12,6 +12,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
+| [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
@@ -124,6 +125,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Cicadas' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cicadas-v1-6260cfd4.mp3) (version 1, posted by @Arkniem)
+
+### Cirrus (`cirrus`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/cirrus/>
+- **Credit:**
+
+> 'Cirrus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cirrus-v1-020b1e91.mp3) (version 1, posted by @Arkniem)
 
 ### Clear Skies (`clear-skies`)
 
