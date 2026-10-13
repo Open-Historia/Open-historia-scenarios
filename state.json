@@ -865,6 +865,11 @@
       "id": "phoenix",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/phoenix.mp3",
       "bodyHash": "0937f187251f87e9b2a36fad4d26ea74457c45cf5735adc5f65dd7ba78f2b519"
+    },
+    "427": {
+      "id": "a-new-year",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-new-year.mp3",
+      "bodyHash": "33c3673dc84c757774a6464080dfab8e2e88dd2f1fb4bf96fab723b10b0bc3ef"
     }
   }
 }
