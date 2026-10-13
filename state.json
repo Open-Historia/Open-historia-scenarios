@@ -745,6 +745,11 @@
       "id": "there-is-a-place",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/there-is-a-place.mp3",
       "bodyHash": "e64437dc4d3e060cd2daf26ed3e7d7a29c84b3e4ad33ddc909dee3345b64f81d"
+    },
+    "403": {
+      "id": "she-moved-mountains",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/she-moved-mountains.mp3",
+      "bodyHash": "309a7e7bfef236d526c20bb11cfc961c22b911b0eea8ff5f71c38e4a6e4f591f"
     }
   }
 }
