@@ -419,6 +419,29 @@ membership of the organisation is private may be reported as not being one.
 `npm run sync:music:dry-run` (or `node scripts/sync-music.mjs --dry-run`) reads the real music
 posts, downloads and checks their files, and prints what a run would do, changing nothing.
 
+## Posting a composer's whole library (maintainers)
+
+`scripts/import-scott-buckley.mjs` posts Scott Buckley's library
+([www.scottbuckley.com.au/library](https://www.scottbuckley.com.au/library/)) on the music list, a
+track a post, the way a contributor would by hand. Every track there is released under CC BY 4.0,
+and each of its pages says so and gives its credit line: the tool takes a track only if its page
+says it, and uses the page's own credit.
+
+Run it from your own machine, signed in to the `gh` CLI as one of the hub's contributors:
+
+```bash
+node scripts/import-scott-buckley.mjs                 # what it would post; changes nothing
+node scripts/import-scott-buckley.mjs --go --limit 5  # post the first five not on the hub yet
+node scripts/import-scott-buckley.mjs --go            # post all of them
+node scripts/import-scott-buckley.mjs --clean-inbox   # delete inbox files of tracks now listed
+```
+
+It reads the composer's own posts list, downloads each MP3 from his site once (one at a time, with
+a pause, under a name that says who is asking), puts it in the `music-inbox` release so the
+workflow fetches it from GitHub, and opens the music post. Tracks already on the hub, or with a
+post already made, are skipped, so a run that stopped can be run again. The workflow then checks
+and lists each post like any other.
+
 ## Testing the checks
 
 To see what the checks do with a file made to be refused or repaired, without anything of it
