@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:43:37.388Z",
+  "updated": "2026-10-13T21:43:41.963Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -197,6 +197,24 @@
       "sha256": "215ff6ec113abbcfa3258028af322f651a40cf1102996b347dde873379b42674",
       "seconds": 413,
       "post": 297,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "escape-velocity",
+      "name": "Escape Velocity",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/escape-velocity/",
+      "credit": "'Escape Velocity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/escape-velocity-v1-ce152c6a.mp3",
+      "type": "mp3",
+      "bytes": 10825384,
+      "sha256": "ce152c6a16b1ea8e12342783966df3be9b332ab713170b4e5c18f0245c609235",
+      "seconds": 271,
+      "post": 303,
       "postedBy": "Arkniem",
       "removed": false
     },

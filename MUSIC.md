@@ -17,6 +17,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
+| [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 10.1 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
@@ -178,6 +179,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v1-215ff6ec.mp3) (version 1, posted by @Arkniem)
+
+### Escape Velocity (`escape-velocity`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/escape-velocity/>
+- **Credit:**
+
+> 'Escape Velocity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/escape-velocity-v1-ce152c6a.mp3) (version 1, posted by @Arkniem)
 
 ### Eyes In The Void (`eyes-in-the-void`)
 

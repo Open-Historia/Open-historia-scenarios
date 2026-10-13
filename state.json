@@ -245,6 +245,11 @@
       "id": "within-our-nature",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/within-our-nature.mp3",
       "bodyHash": "e71415a04e3407aaf3580c7459d96b064448d0fe7fff8b840fe91459c90d73fa"
+    },
+    "303": {
+      "id": "escape-velocity",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/escape-velocity.mp3",
+      "bodyHash": "a96f16d22601b71a8d09c5d7bda7486511710603bc88559912229d5b7d587f79"
     }
   }
 }
