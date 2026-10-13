@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:03:27.739Z",
+  "updated": "2026-10-13T22:03:53.832Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -845,6 +845,24 @@
       "sha256": "cce101d47fe4b345ca33a3d43e2331b1f1687045ed1bdc3dbae180d0edda3b90",
       "seconds": 374,
       "post": 274,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "inflection",
+      "name": "Inflection",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/inflection/",
+      "credit": "'Inflection' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inflection-v1-14142d86.mp3",
+      "type": "mp3",
+      "bytes": 9279896,
+      "sha256": "14142d86d2015cd4243111104010fc5411c5b947fa45397f25810e548ea19d69",
+      "seconds": 232,
+      "post": 361,
       "postedBy": "Arkniem",
       "removed": false
     },

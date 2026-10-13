@@ -53,6 +53,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 17.0 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
+| [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 8.8 MB | — |
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 9.4 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
@@ -632,6 +633,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Incredulity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incredulity-v1-cce101d4.mp3) (version 1, posted by @Arkniem)
+
+### Inflection (`inflection`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/inflection/>
+- **Credit:**
+
+> 'Inflection' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inflection-v1-14142d86.mp3) (version 1, posted by @Arkniem)
 
 ### Into The Unknown (`into-the-unknown`)
 
