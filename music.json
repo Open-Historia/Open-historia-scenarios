@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:18:33.525Z",
+  "updated": "2026-10-13T22:19:02.942Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2255,6 +2255,24 @@
       "sha256": "575bd0de1a5299f65d8a96b64192464d33c2b583d51d8638e488cbe32134d956",
       "seconds": 184,
       "post": 383,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "snowfall",
+      "name": "Snowfall",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/snowfall/",
+      "credit": "'Snowfall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/snowfall-v1-56e267fa.mp3",
+      "type": "mp3",
+      "bytes": 9940302,
+      "sha256": "56e267faf043be43877546b4f33a00228284076954c06c0163f9b804ebbd87b5",
+      "seconds": 248,
+      "post": 412,
       "postedBy": "Arkniem",
       "removed": false
     },

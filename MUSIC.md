@@ -131,6 +131,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 3.4 MB | — |
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 7.0 MB | — |
+| [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 9.5 MB | — |
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
@@ -1541,6 +1542,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Sleep' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sleep-v1-575bd0de.mp3) (version 1, posted by @Arkniem)
+
+### Snowfall (`snowfall`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/snowfall/>
+- **Credit:**
+
+> 'Snowfall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/snowfall-v1-56e267fa.mp3) (version 1, posted by @Arkniem)
 
 ### Soar (`soar`)
 
