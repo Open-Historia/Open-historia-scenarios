@@ -104,6 +104,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
+| [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
@@ -1243,6 +1244,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Nightfall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/nightfall-v1-831a6bae.mp3) (version 1, posted by @Arkniem)
+
+### O Come All Ye Faithful (`o-come-all-ye-faithful`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/o-come-all-ye-faithful/>
+- **Credit:**
+
+> 'Oh Come All Ye Faithful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/o-come-all-ye-faithful-v1-c03c0d8f.mp3) (version 1, posted by @Arkniem)
 
 ### Omega (`omega`)
 
