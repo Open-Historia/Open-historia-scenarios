@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:36:19.100Z",
+  "updated": "2026-10-13T22:36:23.171Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1295,6 +1295,24 @@
       "sha256": "4c5e4df7eb901306df721922ab50052858d137be2d2edbbd9fe859b8bd2dbaa1",
       "seconds": 272,
       "post": 468,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "high-games",
+      "name": "High Games",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/high-games/",
+      "credit": "'High Games' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/high-games-v1-b5d8cf65.mp3",
+      "type": "mp3",
+      "bytes": 1285599,
+      "sha256": "b5d8cf65e1ea7f72ed01324b61bb6a8a2bfe8c36cb28fde9c6da1b7cde5db493",
+      "seconds": 80,
+      "post": 486,
       "postedBy": "Arkniem",
       "removed": false
     },

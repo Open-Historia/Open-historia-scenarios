@@ -1160,6 +1160,11 @@
       "id": "special-ops",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/special-ops.mp3",
       "bodyHash": "be80a81fb336ed6c211f13750f96bb4b4fa3669d0b6088fcda8adaf615707ec6"
+    },
+    "486": {
+      "id": "high-games",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/high-games.mp3",
+      "bodyHash": "039f3ab9c6a82c9dccc79da346f53d5620209d0c475485d34c7a1e5f5caaaf37"
     }
   }
 }

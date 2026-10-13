@@ -78,6 +78,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Happiness](https://github.com/Open-Historia/Open-historia-scenarios/issues/447) | `happiness` | Scott Buckley | CC BY 4.0 | 1:47 | 4.1 MB | — |
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
 | [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — |
+| [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — |
@@ -1032,6 +1033,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Helsinki' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helsinki-v1-4c5e4df7.mp3) (version 1, posted by @Arkniem)
+
+### High Games (`high-games`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/high-games/>
+- **Credit:**
+
+> 'High Games' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/high-games-v1-b5d8cf65.mp3) (version 1, posted by @Arkniem)
 
 ### Hiraeth (`hiraeth`)
 
