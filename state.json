@@ -1280,6 +1280,11 @@
       "id": "golden-hour",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/golden-hour.mp3",
       "bodyHash": "1d1d495ba71136d6c52701479d265f9dbe8f5dfc9303c009a30f94996e67ca5c"
+    },
+    "510": {
+      "id": "path-through-the-mountains",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/path-through-the-mountains.mp3",
+      "bodyHash": "ea3c94da80efa070f6b009fc8ee75b14f9c199a642e6e6f01d97fcba2f157e11"
     }
   }
 }
