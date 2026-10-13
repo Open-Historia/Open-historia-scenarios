@@ -189,6 +189,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 6.6 MB | — |
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 8.1 MB | — |
 | [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
+| [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 1.6 MB | — |
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 7.8 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
@@ -2231,6 +2232,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-old-ones-v1-6f933a86.mp3) (version 1, posted by @Arkniem)
+
+### The Spirit (`the-spirit`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-spirit/>
+- **Credit:**
+
+> 'The Spirit' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-spirit-v1-305b633a.mp3) (version 1, posted by @Arkniem)
 
 ### The Summoning (`the-summoning`)
 

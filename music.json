@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:31:32.069Z",
+  "updated": "2026-10-13T22:31:35.542Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3299,6 +3299,24 @@
       "sha256": "6f933a86122fade9ac69b848edf101a1dd286fac788488466b1b77f0e89721ec",
       "seconds": 302,
       "post": 415,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-spirit",
+      "name": "The Spirit",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-spirit/",
+      "credit": "'The Spirit' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-spirit-v1-305b633a.mp3",
+      "type": "mp3",
+      "bytes": 1651941,
+      "sha256": "305b633a159015ac648beba1eea1377199b640741ee3114eec05dbac453c4b1c",
+      "seconds": 41,
+      "post": 464,
       "postedBy": "Arkniem",
       "removed": false
     },

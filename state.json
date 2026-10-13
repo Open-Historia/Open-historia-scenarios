@@ -1050,6 +1050,11 @@
       "id": "crusader",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/crusader.mp3",
       "bodyHash": "7ac9144f24ff585c974c690a58810b355c00e89de5474fcb94cf9e60f7b17782"
+    },
+    "464": {
+      "id": "the-spirit",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-spirit.mp3",
+      "bodyHash": "ae6c375969b4d5afa5738992e6e9872c5de0772d7171703e64a512937f87db68"
     }
   }
 }
