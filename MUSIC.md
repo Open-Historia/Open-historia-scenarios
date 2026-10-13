@@ -71,6 +71,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Inbound](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) | `inbound` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
 | [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 8.8 MB | — |
+| [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 9.4 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
@@ -879,6 +880,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Inflection' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inflection-v1-14142d86.mp3) (version 1, posted by @Arkniem)
+
+### Intervention (`intervention`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/intervention/>
+- **Credit:**
+
+> 'Intervention' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/intervention-v1-cc94e417.mp3) (version 1, posted by @Arkniem)
 
 ### Into The Unknown (`into-the-unknown`)
 
