@@ -465,6 +465,11 @@
       "id": "felicity",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/felicity.mp3",
       "bodyHash": "21ab37f084fe15e25601b3c302a296135bd1fceb9562cd491fbfc9efa6a5df3d"
+    },
+    "347": {
+      "id": "chasing-daylight",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/chasing-daylight.mp3",
+      "bodyHash": "c9d942067e6c5451a35cf7d0a01d153db5e72ec53ddd0c831c37a7be1524adc2"
     }
   }
 }

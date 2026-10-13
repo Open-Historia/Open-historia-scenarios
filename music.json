@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:59:13.849Z",
+  "updated": "2026-10-13T21:59:18.429Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -305,6 +305,24 @@
       "sha256": "ab5eda0070d01631691eb0e71f9c55dd4229eb07897e5430a666d1f1944f2191",
       "seconds": 337,
       "post": 340,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "chasing-daylight",
+      "name": "Chasing Daylight",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/chasing-daylight/",
+      "credit": "'Chasing Daylight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chasing-daylight-v1-f8581d15.mp3",
+      "type": "mp3",
+      "bytes": 10958088,
+      "sha256": "f8581d155e0a05ea2e0a58ca430917587d308157ac5551f441ea8745b875feee",
+      "seconds": 274,
+      "post": 347,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -23,6 +23,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 8.6 MB | — |
 | [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 12.9 MB | — |
+| [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 10.5 MB | — |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
@@ -288,6 +289,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Celestial' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/celestial-v1-ab5eda00.mp3) (version 1, posted by @Arkniem)
+
+### Chasing Daylight (`chasing-daylight`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/chasing-daylight/>
+- **Credit:**
+
+> 'Chasing Daylight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chasing-daylight-v1-f8581d15.mp3) (version 1, posted by @Arkniem)
 
 ### Cicadas (`cicadas`)
 
