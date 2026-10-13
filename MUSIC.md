@@ -122,6 +122,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
+| [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 5.4 MB | — |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 7.8 MB | — |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
 | [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 17.1 MB | — |
@@ -1471,6 +1472,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v1-0066b940.mp3) (version 1, posted by @Arkniem)
+
+### Patagonia (`patagonia`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/patagonia/>
+- **Credit:**
+
+> 'Patagonia' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/patagonia-v1-531769b2.mp3) (version 1, posted by @Arkniem)
 
 ### Pathfinder (`pathfinder`)
 

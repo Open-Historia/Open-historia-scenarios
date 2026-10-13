@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:25:39.311Z",
+  "updated": "2026-10-13T22:25:44.108Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2093,6 +2093,24 @@
       "sha256": "0066b940bec49211769790ceaf086289a634c84189bb9131002252d8495997a4",
       "seconds": 271,
       "post": 253,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "patagonia",
+      "name": "Patagonia",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/patagonia/",
+      "credit": "'Patagonia' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/patagonia-v1-531769b2.mp3",
+      "type": "mp3",
+      "bytes": 5623108,
+      "sha256": "531769b290c4fb779dc7c31a8ecba95ca8be8885fa42dc771a1e115546c11488",
+      "seconds": 151,
+      "post": 441,
       "postedBy": "Arkniem",
       "removed": false
     },

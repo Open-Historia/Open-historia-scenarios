@@ -935,6 +935,11 @@
       "id": "eidolon",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/eidolon.mp3",
       "bodyHash": "52bb10423a4dbf024eeb5073f0ca8b0f806b42416b4d4666aed0b626e98e7bb8"
+    },
+    "441": {
+      "id": "patagonia",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/patagonia.mp3",
+      "bodyHash": "1296d58236cb8c98fe82d25b44310a88eec8112260cd60ef5b45dd40429d1f38"
     }
   }
 }
