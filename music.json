@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:19:02.942Z",
+  "updated": "2026-10-13T22:19:08.410Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -665,6 +665,24 @@
       "sha256": "ce152c6a16b1ea8e12342783966df3be9b332ab713170b4e5c18f0245c609235",
       "seconds": 271,
       "post": 303,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "extrapolation",
+      "name": "Extrapolation",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/extrapolation/",
+      "credit": "'Extrapolation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/extrapolation-v1-d3591b5c.mp3",
+      "type": "mp3",
+      "bytes": 15109387,
+      "sha256": "d3591b5c831a8d0ac4ba517b3d094e0b42d3dd10508caaecfc2910680a8e47d0",
+      "seconds": 378,
+      "post": 413,
       "postedBy": "Arkniem",
       "removed": false
     },
