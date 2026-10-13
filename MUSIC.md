@@ -149,6 +149,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
+| [Solstice](https://github.com/Open-Historia/Open-historia-scenarios/issues/432) | `solstice` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
 | [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
@@ -1759,6 +1760,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Solecism' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solecism-v1-7940c698.mp3) (version 1, posted by @Arkniem)
+
+### Solstice (`solstice`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/solstice/>
+- **Credit:**
+
+> 'Solstice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/432) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solstice-v1-2a8ec70a.mp3) (version 1, posted by @Arkniem)
 
 ### Song Of The Forge (`song-of-the-forge`)
 

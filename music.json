@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:23:16.093Z",
+  "updated": "2026-10-13T22:23:44.329Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2579,6 +2579,24 @@
       "sha256": "7940c69805ea073c2d5d233cf60ba6d3be4ff2e2a47ced0b048321f2971fcd75",
       "seconds": 232,
       "post": 353,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "solstice",
+      "name": "Solstice",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/solstice/",
+      "credit": "'Solstice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solstice-v1-2a8ec70a.mp3",
+      "type": "mp3",
+      "bytes": 7568391,
+      "sha256": "2a8ec70a5d907d1381b468a9b8fe566a810fcfa08a0d86f9773c0567baee4094",
+      "seconds": 189,
+      "post": 432,
       "postedBy": "Arkniem",
       "removed": false
     },
