@@ -560,6 +560,11 @@
       "id": "helios",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/helios.mp3",
       "bodyHash": "6bc3a8e0a8d24ce582276845625c3911bdbfbba7dd3179867930795b2ddd88eb"
+    },
+    "366": {
+      "id": "signal-to-noise",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/signal-to-noise.mp3",
+      "bodyHash": "62df9808d207ac1a5d1ef765b6cad3a7d000f465288acb72cc36ee17f698976e"
     }
   }
 }

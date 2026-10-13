@@ -89,6 +89,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 7.8 MB | — |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 15.6 MB | — |
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 16.9 MB | — |
+| [Signal to Noise](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) | `signal-to-noise` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 7.0 MB | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
@@ -1033,6 +1034,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Shoulders Of Giants' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/shoulders-of-giants-v1-a148f8fd.mp3) (version 1, posted by @Arkniem)
+
+### Signal to Noise (`signal-to-noise`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/signal-to-noise/>
+- **Credit:**
+
+> 'Signal to Noise' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/signal-to-noise-v1-47a2f15e.mp3) (version 1, posted by @Arkniem)
 
 ### Simplicity (`simplicity`)
 
