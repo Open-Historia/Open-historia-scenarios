@@ -100,6 +100,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Icarus (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) | `icarus-2019` | Scott Buckley | CC BY 4.0 | 3:29 | 8.0 MB | — |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
+| [In Development](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) | `in-development` | Scott Buckley | CC BY 4.0 | 2:15 | 3.1 MB | — |
 | [In Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/354) | `in-dreams` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 17.0 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
@@ -1290,6 +1291,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Ignis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ignis-v1-cbee0a34.mp3) (version 1, posted by @Arkniem)
+
+### In Development (`in-development`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/in-development/>
+- **Credit:**
+
+> 'In Development' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/in-development-v1-cf8839fc.mp3) (version 1, posted by @Arkniem)
 
 ### In Dreams (`in-dreams`)
 
