@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:23:07.431Z",
+  "updated": "2026-10-13T22:23:12.057Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1496,6 +1496,24 @@
       "sha256": "63c98d71edb0071e143fc68b529cedac43b3f3eb9ebf9737b9f701d610db8f86",
       "seconds": 236,
       "post": 337,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "life-is",
+      "name": "Life Is",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/life-is/",
+      "credit": "'Life Is' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-is-v1-1f0387de.mp3",
+      "type": "mp3",
+      "bytes": 12855578,
+      "sha256": "1f0387de4216a76a6b6acf7eedf2741a122c98f383646f8390ed78a10c1d094d",
+      "seconds": 321,
+      "post": 430,
       "postedBy": "Arkniem",
       "removed": false
     },
