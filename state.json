@@ -830,6 +830,11 @@
       "id": "skyward",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/skyward.mp3",
       "bodyHash": "de721c09731cfed3de2dc852c66f354e113c7ce9bbb848ad63966ee2d5d5eb23"
+    },
+    "420": {
+      "id": "growing-up",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/growing-up.mp3",
+      "bodyHash": "2c92290b9879d191256ec81c18a61417fb5eda0717f7b46e6d8802c063bd0df9"
     }
   }
 }

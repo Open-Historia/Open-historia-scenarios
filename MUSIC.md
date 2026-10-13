@@ -54,6 +54,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 14.6 MB | — |
+| [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 4.4 MB | — |
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
@@ -702,6 +703,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Goliath' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/goliath-v1-a74f3890.mp3) (version 1, posted by @Arkniem)
+
+### Growing Up (`growing-up`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/growing-up/>
+- **Credit:**
+
+> 'Growing Up' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/growing-up-v1-3e2ae6d6.mp3) (version 1, posted by @Arkniem)
 
 ### Helios (`helios`)
 
