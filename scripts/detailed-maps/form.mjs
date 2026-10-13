@@ -21,7 +21,10 @@ const FIELDS = {
 };
 export const CHECKBOX_COUNT = 4;
 
-export const parseForm = (body) => {
+// The answers of a post made with an issue form, by the headings they stand
+// under: `fields` is { key: heading }, and the result { key: answer }. (The
+// background music form is read with this too: scripts/music/form.mjs.)
+export const readAnswers = (body, fields) => {
   const sections = {};
   let current = null;
   for (const line of String(body ?? "").replace(/\r\n/g, "\n").split("\n")) {
@@ -38,10 +41,20 @@ export const parseForm = (body) => {
     return value === "_No response_" ? "" : value;
   };
   const form = {};
-  for (const [key, label] of Object.entries(FIELDS)) form[key] = field(label);
-  // The address as it was given: GitHub may have made it a link.
-  form.download = /\]\((https?:\/\/[^\s)]+)\)/.exec(form.download)?.[1] ?? /\S+/.exec(form.download.replace(/^<|>$/g, ""))?.[0] ?? "";
-  form.ticked = (form.checks.match(/^- \[[xX]\]/gm) ?? []).length;
+  for (const [key, label] of Object.entries(fields)) form[key] = field(label);
+  return form;
+};
+
+// The address in an answer, as it was given: GitHub may have made it a link.
+export const linkOf = (answer) => /\]\((https?:\/\/[^\s)]+)\)/.exec(answer)?.[1] ?? /\S+/.exec(answer.replace(/^<|>$/g, ""))?.[0] ?? "";
+
+// The boxes of a checkbox answer that are ticked, by what is written beside them.
+export const tickedIn = (answer) => [...String(answer ?? "").matchAll(/^- \[[xX]\][ \t]*(.*?)[ \t]*$/gm)].map((match) => match[1]);
+
+export const parseForm = (body) => {
+  const form = readAnswers(body, FIELDS);
+  form.download = linkOf(form.download);
+  form.ticked = tickedIn(form.checks).length;
   return form;
 };
 

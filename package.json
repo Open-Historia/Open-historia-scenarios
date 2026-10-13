@@ -10,7 +10,9 @@
   "scripts": {
     "test": "node --test \"scripts/test/*.test.mjs\"",
     "sync": "node scripts/sync-hub.mjs",
-    "sync:dry-run": "node scripts/sync-hub.mjs --dry-run"
+    "sync:dry-run": "node scripts/sync-hub.mjs --dry-run",
+    "sync:music": "node scripts/sync-music.mjs",
+    "sync:music:dry-run": "node scripts/sync-music.mjs --dry-run"
   },
   "dependencies": {
     "@resvg/resvg-js": "2.6.2"

@@ -11,8 +11,12 @@ tabs show what's posted here for everyone:
   backgrounds you can build maps on).
 - Issues labeled **`detailed map`** → **Maps → Community → Detailed maps** (large, sharp terrain
   maps that scenarios are drawn on).
+- Issues labeled **`music`** → the game's music list for scenario makers (background music a
+  scenario can play; posted by the hub's contributors only).
 
 **📜 [Every detailed map, with its credits and licence](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md)**
+
+**🎵 [Every music track, with its credit and licence](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md)**
 
 ## Post a scenario
 
@@ -100,6 +104,83 @@ go, and its ID is never used again (it stays on the list as removed, so scenario
 so). Players who already have it keep their copy. Deleting the issue or removing its label does
 **not** remove the map; close it as not planned instead.
 
+## Post background music
+
+The tracks already shared, with their credits and licences, are in
+[**MUSIC.md**](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md).
+
+Background music is tracks a scenario can play: while a game loads, in the game, at war and in the
+war room. A scenario never carries music. It only **names** tracks from the hub's music list, by
+their ID, and the game downloads those from here.
+
+> **Only the hub's contributors can post music** (people the maintainers have given access to this
+> repository). A flag or a map is usually its author's own to share. A piece of music almost always
+> belongs to someone else, and the hub hands a copy of it to every player, so every track has to be
+> one the hub is allowed to share, checked by someone the maintainers know. A music post from anyone
+> else is closed with a note, and nothing of it is downloaded.
+>
+> **To propose a track, ask on [Discord](https://discord.gg/QaqAK7fQAg):** say where the track is
+> and what its licence is, and a contributor can post it.
+
+**What can be posted:** an **`.mp3`** or **`.ogg`** file (Vorbis or Opus) of **20 MB or less**, under
+a licence that lets the hub share it and games play it: CC0, CC BY, CC BY-SA, public domain, your
+own work released under CC BY 4.0 or CC0 1.0, or another free licence, which you name. Music that
+may be used but not passed on ("royalty free" from a paid library, a game's or a film's soundtrack,
+anything from a streaming service) can't be posted.
+
+**Posting it:**
+
+1. Put the file online as a **direct download**. It's too big to drag into a post. A release on
+   your own GitHub works best. You can delete your copy once the track is on the list.
+2. Open a [**new music post**](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=music.yml)
+   and fill in:
+   - **Track name**, and a **Track ID** if you want one (lower-case letters, digits and dashes,
+     like `passage-of-time`; empty makes one from the name).
+   - **Composer / artist** and **Licence**.
+   - **Source:** the page where the track and its licence can be seen.
+   - **Credit line:** the attribution to show for the track, worded the way its licence or its
+     composer asks, for example
+     `'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au`.
+   - **Download link to the audio file.**
+   - **Fits** (optional): where the track suits: the menu, a game loading, in the game, at war, in
+     the war room. Scenario makers see these as suggestions, and can still use a track anywhere.
+   - **Notes** (optional), and the box that says you have checked the licence and the credit.
+
+   Don't delete or rename the form's headings: the bot reads your answers under them.
+3. Submit. Within minutes the bot checks the post and either puts the track on the list
+   (✅ **This track is on the music list**) or says exactly what to fix (❌ **This post needs
+   changes**, with the `needs changes` label). To fix something, edit the post: the checks run again.
+
+**What is checked:** that the post's author is one of the hub's contributors, by what GitHub itself
+reports of them (nothing a post says about its author counts). Then that the composer, licence,
+source (a link) and credit line are filled in and the box is ticked; that the file downloads from
+the link (an `https://` link to a public address); that it is 20 MB or less; and that it really is
+an MP3 or an Ogg Vorbis or Opus file, told by what is in it and not by its name, so a file that was
+only renamed is refused. The bot can't tell whether a licence is true: that is what the box, and the
+rule about who can post, are for.
+
+**The track ID:** the ID is how scenarios find a track. No two tracks share one, and once a track is
+on the list its ID never changes.
+
+**Updating it:** edit your post. A **new download link** to a different file makes the next version
+(version 2, 3…), which takes the place of the last one: the list points at the new file, and the old
+file is deleted. Editing only the words (name, composer, licence, source, credit, where it fits)
+changes the track's details and downloads nothing. Scenarios that use the track keep working: they
+name it by its ID.
+
+**Taking it down:** close the post as **not planned**. That removes the track **for good**: its file
+is deleted, and it stays on the list marked as removed, so its ID is never used again and a scenario
+that names it simply plays without it. Deleting the issue or removing its label does **not** remove
+the track; close it as not planned instead.
+
+**Where the list and the credits are:** on the `music-index` branch.
+[`music.json`](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/music.json)
+is what the game reads, and
+[`MUSIC.md`](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md)
+beside it lists every track with its composer, licence, source and credit line: that page is how
+the hub credits the music. The files themselves are in the
+[`music` release](https://github.com/Open-Historia/Open-historia-scenarios/releases/tag/music).
+
 ## Post a flag
 
 A flag is just an image — no bundle, no hash, nothing to prepare.
@@ -176,6 +257,12 @@ can use and nothing else.
   scenario. Ordinary links in text are fine. (Once a text has opened a picture with `![`, every
   link after it is read as a picture's: which bracket closes which is easy to write so that two
   readers disagree, and the checks do not try to out-read the game.)
+- **A scenario's music is named, never carried.** A scenario may name tracks of the hub's
+  [music list](#post-background-music) for a game loading, in the game, at war and in the war room
+  (`loading`, `game`, `atWar`, `battle`: at most 12 tracks each), every one by its ID and version
+  and nothing else. It may not hold a sound file, or the address of one: every player's game would
+  fetch it from wherever the scenario's author liked, and it would be music nobody checked the hub
+  may share. A track that has since been taken down is not a problem: the game skips it.
 - **A `.zip`** may hold JSON, pictures, tile archives and plain text files, each really what its
   name says, and nothing else: no programs, scripts, web pages, or archives inside the archive. It
   may not be encrypted or split, no entry may leave its folder, and it may hold 2,000 entries and
@@ -283,7 +370,7 @@ label that already exists, so this repo must have a label named exactly **`basem
 browser (which queries `labels=basemap`) stays empty. The `scenario` and **`flag`** labels work the
 same way — **`flag` must be created before the first flag post**, or the Flags → Community browser
 stays empty no matter how many people post. **`detailed map`** must exist too, before the first
-detailed map post.
+detailed map post, and **`music`** before the first music post.
 
 ### Detailed maps
 
@@ -304,6 +391,33 @@ Two more workflows, for maintainers (**Actions → the workflow → Run workflow
   planned. Type the ID again to confirm.
 
 Both post a comment on the map's post saying what was done, by whom, and why.
+
+### Background music
+
+Music posts have a workflow of their own too, [**Background music**](.github/workflows/music.yml),
+which looks at issues labelled `music` and at nothing else. For each new or edited post it:
+
+- **turns the post away unless its author is a contributor**: GitHub has to report the author as
+  the repository's `OWNER`, a `MEMBER` of the organisation or a `COLLABORATOR` (the issue's
+  `author_association`; the list is `ALLOWED_ASSOCIATIONS` in `scripts/music/music.mjs`). Anyone
+  else's post gets one comment, the `needs changes` label, and is closed as not planned, and its
+  link is never followed;
+- checks a contributor's post and its file, copies the file into the **`music`** release as
+  `<id>-v<version>-<start of its checksum>.<mp3|ogg>`, and writes the list the game reads,
+  `music.json`, with `MUSIC.md` for people, to the **`music-index`** branch. Don't edit that branch
+  or that release by hand.
+
+There is no approval step: a contributor's track that passes the checks is on the list at once.
+**Giving someone access to this repository therefore also lets them post music**, and they are
+trusted to post only what the hub may share. To take a track down, close its post as not planned
+(anyone with triage access can). A track stays on the list if its author later stops being a
+contributor; only that post's later edits are no longer read.
+
+If a contributor's post is turned away, look at what GitHub reports for them: a member whose
+membership of the organisation is private may be reported as not being one.
+
+`npm run sync:music:dry-run` (or `node scripts/sync-music.mjs --dry-run`) reads the real music
+posts, downloads and checks their files, and prints what a run would do, changing nothing.
 
 ## Testing the checks
 

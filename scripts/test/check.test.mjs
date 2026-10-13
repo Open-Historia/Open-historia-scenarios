@@ -275,6 +275,51 @@ test("a scenario's tile archives are tile archives", async () => {
   assert.ok((await released("scenario", none)).bytes.equals(none));
 });
 
+test("a scenario's music is tracks of the hub's music list, named by ID and version, and nothing else", async () => {
+  const withMusic = (music) => scenarioJson({ scenario: { id: "test-world", name: "Test world", description: "A world for the tests.", music } });
+  const track = (id = "passage-of-time", version = 1) => ({ id, version });
+  const tracks = (length) => Array.from({ length }, (_, index) => track(`track-${index + 1}`, index + 1));
+
+  // Each situation with its list, up to twelve tracks in one: released as it is.
+  const full = withMusic({ loading: [track()], game: tracks(12), atWar: [], battle: [track("a", 3), track("0-9", 40)] });
+  const result = await released("scenario", full);
+  assert.equal(sha256(result.bytes), sha256(full));
+  assert.deepEqual(result.repairs, []);
+  await released("scenario", withMusic({}));
+  await released("scenario", withMusic({ game: [track()] }));
+  await released("scenario", withMusic(null));
+  // An ID that is on no list is not a problem: a track can be taken down after
+  // a scenario named it, and the game skips what it cannot find.
+  await released("scenario", withMusic({ atWar: [track("a-track-nobody-ever-posted", 7), track("a-track-nobody-ever-posted", 7)] }));
+  // In a .zip too.
+  await released("scenario", scenarioZip({ scenario: { id: "test-world", name: "Test world", music: { battle: [track()] } } }));
+
+  await refused("scenario", withMusic([track()]), /`the-file` is damaged: its `scenario\.music` is not what the game writes there/);
+  await refused("scenario", withMusic("passage-of-time"), /its `scenario\.music` is not what the game writes there/);
+  // Another key: the menu's music is not a scenario's to set, and nothing else is either.
+  await refused("scenario", withMusic({ menu: [track()] }), /`the-file` has music for `menu`, which is not something a scenario can set music for \(only `loading`, `game`, `atWar`, `battle`\)/);
+  await refused("scenario", withMusic({ game: [track()], url: "https://example.com/a.mp3" }), /has music for `url`/);
+  await refused("scenario", withMusic({ game: "passage-of-time" }), /The `game` music of `the-file` is not a list of tracks/);
+  await refused("scenario", withMusic({ game: { id: "passage-of-time", version: 1 } }), /is not a list of tracks/);
+  await refused("scenario", withMusic({ loading: tracks(13) }), /The `loading` music of `the-file` names 13 tracks, and a scenario can name 12 at most for one situation/);
+  // An entry that is an address, or carries one, or carries anything else.
+  await refused("scenario", withMusic({ game: [track(), "https://example.com/a.mp3"] }), /has an entry that does not name a track of the hub's music list \(track 2\): a track is named by its `id` and `version`, and never by an address/);
+  await refused("scenario", withMusic({ battle: [{ id: "ok", version: 1, url: "https://example.com/a.mp3" }] }), /The `battle` music of `the-file` has an entry with a field other than `id` and `version` \(`url`, track 1\)/);
+  await refused("scenario", withMusic({ battle: [{ id: "ok", version: 1, name: "A name" }] }), /a field other than `id` and `version` \(`name`, track 1\)/);
+  await refused("scenario", withMusic({ battle: [{ id: "ok", version: 1, file: "music/a.mp3" }] }), /a field other than `id` and `version` \(`file`, track 1\)/);
+  await refused("scenario", withMusic({ atWar: [track("https://example.com/a.mp3")] }), /The `atWar` music of `the-file` names a track by `https…` \(track 1\), which is not a track's ID: an ID is lower-case letters, digits and dashes/);
+  for (const id of ["Passage Of Time", "passage_of_time", "PASSAGE", "-passage", "passage.mp3", "../passage", "", "a".repeat(65)]) {
+    await refused("scenario", withMusic({ game: [track(id)] }), /which is not a track's ID/, { label: "`the-file`" });
+  }
+  await refused("scenario", withMusic({ game: [{ id: 7, version: 1 }] }), /names a track by something that is not text \(track 1\)/);
+  await refused("scenario", withMusic({ game: [{ version: 1 }] }), /which is not a track's ID/);
+  for (const version of [0, -1, 1.5, "1", null, undefined, 2 ** 60]) {
+    await refused("scenario", withMusic({ game: [{ id: "ok", version }] }), /has an entry whose `version` is not a whole number from 1 up \(track 1\)/);
+  }
+  // A sound file carried in the .zip is not something a scenario holds either.
+  await refused("scenario", scenarioZip({ scenario: { id: "test-world", name: "Test world", music: { game: [{ id: "ok", version: 1, file: "music/a.mp3" }] } } }, { "music/a.mp3": "ID3" }), /The `game` music of `scenario\.json` has an entry with a field other than `id` and `version`[\s\S]*`music\/a\.mp3` is not something the game uses/);
+});
+
 test("the rules that hold everywhere in a scenario's JSON", async () => {
   await refused("scenario", withRawField('"__proto__":{"isAdmin":true}'), /`the-file` has a field named `__proto__` \(at `data\.world\.__proto__`\)/);
   await refused("scenario", withRawField('"units":[{"constructor":{"prototype":{"x":1}}}]'), /has a field named `constructor` \(at `data\.world\.units\[0\]\.constructor`\)[\s\S]*has a field named `prototype`/);

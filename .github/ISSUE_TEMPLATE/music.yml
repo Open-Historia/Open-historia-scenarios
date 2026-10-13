@@ -1,0 +1,99 @@
+name: Share background music
+description: Post a track scenario makers can use as background music (the hub's contributors only)
+title: "[Music] "
+labels: ["music"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Music can be posted only by the hub's contributors** (people the maintainers have given access to this repository), because every track must be one the hub is allowed to share. Anyone else's music post is closed with a note. **To propose a track, ask on [Discord](https://discord.gg/QaqAK7fQAg).**
+
+        A track posted here goes on the hub's music list, where scenario makers choose music for their scenarios: for a game loading, in the game, at war and in the war room. ([More about background music](https://github.com/Open-Historia/Open-historia-scenarios#post-background-music))
+
+        **The file is too big to drag in here.** Put the `.mp3` or `.ogg` online somewhere it can be downloaded directly and paste the link below. It is checked automatically and copied into this repository; once the track is on the list you can delete your copy.
+
+        **To change a track later, edit this post:** a new download link replaces the file, and anything else changes the details. **To take a track down, close this post as not planned.** Don't delete or rename the headings below: the bot reads your answers under them.
+  - type: input
+    id: name
+    attributes:
+      label: Track name
+      description: The name scenario makers and players will see.
+      placeholder: Passage Of Time
+    validations:
+      required: true
+  - type: input
+    id: track-id
+    attributes:
+      label: Track ID
+      description: Lower-case letters, digits and dashes. Leave it empty to make one from the name. It can't change once the track is on the list.
+      placeholder: passage-of-time
+  - type: input
+    id: artist
+    attributes:
+      label: Composer / artist
+      description: Who wrote or performs the track.
+      placeholder: Scott Buckley
+    validations:
+      required: true
+  - type: dropdown
+    id: licence
+    attributes:
+      label: Licence
+      description: The licence the track is released under. It has to let the hub share the track and games play it. Not sure it does? Don't post the track; ask on Discord first.
+      options:
+        - "CC0 1.0 (public domain)"
+        - "CC BY 4.0"
+        - "CC BY-SA 4.0"
+        - "Public domain (expired or dedicated)"
+        - "My own work, released under CC BY 4.0"
+        - "My own work, released under CC0 1.0"
+        - "Other free licence (say which under Credits)"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: The page where the track and its licence can be seen.
+      placeholder: https://www.scottbuckley.com.au/library/passage-of-time/
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Credit line
+      description: The attribution to show for the track, worded the way its licence or its composer asks. For another free licence, name the licence here too.
+      placeholder: "'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au"
+    validations:
+      required: true
+  - type: input
+    id: download
+    attributes:
+      label: Download link to the audio file
+      description: A direct link to an .mp3 or .ogg file of 20 MB or less. The file is too big for GitHub to attach.
+      placeholder: https://github.com/you/your-repo/releases/download/v1/passage-of-time.mp3
+    validations:
+      required: true
+  - type: checkboxes
+    id: fits
+    attributes:
+      label: Fits
+      description: Where the track suits. Scenario makers see these as suggestions and can still use it anywhere. Tick any, or none.
+      options:
+        - label: The menu
+        - label: A game loading
+        - label: In the game
+        - label: At war
+        - label: In the war room
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else worth knowing about the track (optional).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: "I have checked that this track's licence allows the hub to share it and games to play it, and that the credit line above is the one it asks for."
+          required: true
