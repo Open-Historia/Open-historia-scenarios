@@ -30,6 +30,11 @@
       "id": "home-was-you",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/home-was-you.mp3",
       "bodyHash": "2fbf1df705cab2f4bbd73b2a12e68f21d1e1d0970d4f5aabcc11f3786eb8cb4b"
+    },
+    "260": {
+      "id": "with-these-hands",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/with-these-hands.mp3",
+      "bodyHash": "ef2818be067e1ba012996a49bd1389fa3430b40f1d5efbf99f71efa097abf762"
     }
   }
 }

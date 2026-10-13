@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:27:50.480Z",
+  "updated": "2026-10-13T21:28:16.229Z",
   "tracks": [
     {
       "id": "home-was-you",
@@ -113,6 +113,24 @@
       "sha256": "a98adeb1f2f4271a48a2bf734ec3e0df028a5e4c36f5f34787a6ec5be3607052",
       "seconds": 411,
       "post": 256,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "with-these-hands",
+      "name": "With These Hands",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/with-these-hands/",
+      "credit": "'With These Hands' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/with-these-hands-v1-e450028d.mp3",
+      "type": "mp3",
+      "bytes": 12231820,
+      "sha256": "e450028d152becd5c68dec24899f05a71ac1c13d6934dfebf71dbbae5472db9b",
+      "seconds": 306,
+      "post": 260,
       "postedBy": "Arkniem",
       "removed": false
     }
