@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:32:54.370Z",
+  "updated": "2026-10-13T21:32:59.267Z",
   "tracks": [
     {
       "id": "aphelion",
@@ -107,6 +107,24 @@
       "sha256": "4d4cf96e941c61cbdab71ef49c6dd6b67d6fd1df00926fac2f6e419e34d76d61",
       "seconds": 269,
       "post": 259,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "honour-among-thieves",
+      "name": "Honour Among Thieves",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/honour-among-thieves/",
+      "credit": "'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v1-b1050f49.mp3",
+      "type": "mp3",
+      "bytes": 9603894,
+      "sha256": "b1050f499c16e719a7eafc2b93bb61634b42537776ac9a80a7cbf67b9870df8d",
+      "seconds": 240,
+      "post": 275,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -12,6 +12,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 10.1 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
+| [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
@@ -95,6 +96,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v1-4d4cf96e.mp3) (version 1, posted by @Arkniem)
+
+### Honour Among Thieves (`honour-among-thieves`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/honour-among-thieves/>
+- **Credit:**
+
+> 'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v1-b1050f49.mp3) (version 1, posted by @Arkniem)
 
 ### In This Moment (`in-this-moment`)
 

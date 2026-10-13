@@ -105,6 +105,11 @@
       "id": "incredulity",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/incredulity.mp3",
       "bodyHash": "dc26882b75d80895c8e962fc874bef958965777ee5bd90dd273bce248ea00ebf"
+    },
+    "275": {
+      "id": "honour-among-thieves",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/honour-among-thieves.mp3",
+      "bodyHash": "e5745d22b82f841d448ba2f90b4bfc5a8dbf84c28b1126bcda52cd2bc0d5cc0c"
     }
   }
 }
