@@ -575,6 +575,11 @@
       "id": "reverie",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/reverie.mp3",
       "bodyHash": "7bea51f5deaf1b7b3476939f0e61f07d6cf7c38de15f20fe68b07c2d80ab49d4"
+    },
+    "369": {
+      "id": "fate-and-fortune",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/fate-and-fortune.mp3",
+      "bodyHash": "67524f9462108ab9fc4d7e41cbadd25bd85aada2fb1111db8222d969400cb57f"
     }
   }
 }

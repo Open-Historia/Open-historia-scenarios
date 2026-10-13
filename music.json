@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:06:17.521Z",
+  "updated": "2026-10-13T22:06:23.332Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -557,6 +557,24 @@
       "sha256": "909e60d5a1b12654facd202ae932d573f86f1148fb8ad930b5a8ed4c6073bbb0",
       "seconds": 305,
       "post": 335,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "fate-and-fortune",
+      "name": "Fate and Fortune",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/fate-and-fortune/",
+      "credit": "'Fate and Fortune' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/fate-and-fortune-v1-a213071b.mp3",
+      "type": "mp3",
+      "bytes": 3325069,
+      "sha256": "a213071bf50124f956f426425e1a90a680ec622cd1dc73008cbe34ae71ba7da5",
+      "seconds": 83,
+      "post": 369,
       "postedBy": "Arkniem",
       "removed": false
     },
