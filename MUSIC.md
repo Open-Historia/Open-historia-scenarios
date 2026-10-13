@@ -49,6 +49,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 13.8 MB | — |
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 6.0 MB | — |
 | [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — |
+| [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 2.9 MB | — |
 | [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 5.3 MB | — |
@@ -732,6 +733,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Confessions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/confessions-v1-3c856125.mp3) (version 1, posted by @Arkniem)
+
+### Contagion (`contagion`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/contagion/>
+- **Credit:**
+
+> 'Contagion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/contagion-v1-c2283082.mp3) (version 1, posted by @Arkniem)
 
 ### Convergence (`convergence`)
 

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:40:24.539Z",
+  "updated": "2026-10-13T22:40:56.712Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -773,6 +773,24 @@
       "sha256": "3c856125bb09b0c205c364b3f947e38651b2a83dd3b9163c83d71c2ee888147a",
       "seconds": 124,
       "post": 492,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "contagion",
+      "name": "Contagion",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/contagion/",
+      "credit": "'Contagion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/contagion-v1-c2283082.mp3",
+      "type": "mp3",
+      "bytes": 2990821,
+      "sha256": "c2283082a8119f601e4ed7d039840ba31706f2a9fa9a27b58f089e9c378b55ec",
+      "seconds": 131,
+      "post": 505,
       "postedBy": "Arkniem",
       "removed": false
     },
