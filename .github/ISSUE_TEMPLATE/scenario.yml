@@ -17,6 +17,12 @@ body:
 
         Your file is checked automatically before it goes on the hub (a comment here says so if something
         is wrong with it), and **editing this post** with a new file is how you release an update.
+
+        > **Everything posted here is public domain.** By posting a scenario you dedicate it to the
+        > public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/): anyone may copy,
+        > change and share it, for any purpose, without asking or crediting you, and that cannot be taken
+        > back. Only post what you made yourself, or what is already free to give away like this.
+        > [More about this](https://github.com/Open-Historia/Open-historia-scenarios#every-scenario-here-is-public-domain).
   - type: textarea
     id: description
     attributes:
@@ -42,3 +48,11 @@ body:
       placeholder: The game fills this in for scenarios that use a custom basemap.
     validations:
       required: false
+  - type: checkboxes
+    id: public-domain
+    attributes:
+      label: Public domain
+      description: Every scenario on the hub is public domain. Tick the box to post yours.
+      options:
+        - label: I dedicate this scenario, and everything I made for it, to the public domain under CC0 1.0. I made it myself or have the right to give it away like this.
+          required: true
