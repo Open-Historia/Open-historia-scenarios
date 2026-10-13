@@ -240,6 +240,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
 | [Within Our Nature](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) | `within-our-nature` | Scott Buckley | CC BY 4.0 | 6:39 | 15.2 MB | — |
 | [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 5.1 MB | — |
+| [Yellow](https://github.com/Open-Historia/Open-historia-scenarios/issues/489) | `yellow` | Scott Buckley | CC BY 4.0 | 1:23 | 1.9 MB | — |
 | [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 13.8 MB | — |
 
 ## Credits and licences
@@ -2817,6 +2818,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Wonderful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wonderful-v1-b1ae020d.mp3) (version 1, posted by @Arkniem)
+
+### Yellow (`yellow`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/yellow/>
+- **Credit:**
+
+> 'Yellow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/489) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/yellow-v1-c5d3c608.mp3) (version 1, posted by @Arkniem)
 
 ### Your Number’s Up (OST) (`your-numbers-up-ost`)
 

@@ -1175,6 +1175,11 @@
       "id": "mr-lonogan",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/mr-lonogan.mp3",
       "bodyHash": "2dc5714ef090fa69722edcfc611f36c20ac208e2afcf3e84eea21fddf8a4800e"
+    },
+    "489": {
+      "id": "yellow",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/yellow.mp3",
+      "bodyHash": "263cbc5cd6d7311884de290f9d1f206cb994752c61d7cebee782915ad2623ef2"
     }
   }
 }

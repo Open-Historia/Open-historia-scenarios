@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:36:54.644Z",
+  "updated": "2026-10-13T22:37:23.882Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -4217,6 +4217,24 @@
       "sha256": "b1ae020dc9c45060f4ef282878b4a474b7216419f98d7c1ab3bbc0fec4451ea1",
       "seconds": 134,
       "post": 446,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/yellow/",
+      "credit": "'Yellow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/yellow-v1-c5d3c608.mp3",
+      "type": "mp3",
+      "bytes": 1991221,
+      "sha256": "c5d3c6082a465ed2c109985c7a42a4edf3bafd88c8023734e59e299124de9568",
+      "seconds": 83,
+      "post": 489,
       "postedBy": "Arkniem",
       "removed": false
     },
