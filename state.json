@@ -870,6 +870,11 @@
       "id": "a-new-year",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-new-year.mp3",
       "bodyHash": "33c3673dc84c757774a6464080dfab8e2e88dd2f1fb4bf96fab723b10b0bc3ef"
+    },
+    "428": {
+      "id": "cobalt",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cobalt.mp3",
+      "bodyHash": "8d01fcb7fa964b894eda678c0137456432c1538f57643bdb1d3e730c0a890da5"
     }
   }
 }
