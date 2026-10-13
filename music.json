@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:33:07.680Z",
+  "updated": "2026-10-13T22:33:12.331Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3713,6 +3713,24 @@
       "sha256": "e3eaf7e0e8727f06db9ceb6b93324bee73cf37f44370a1228da516800bffadff",
       "seconds": 235,
       "post": 298,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "vengeance",
+      "name": "Vengeance",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/vengeance/",
+      "credit": "'Vengeance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/vengeance-v1-d1c1197c.mp3",
+      "type": "mp3",
+      "bytes": 4240780,
+      "sha256": "d1c1197cbaadd16bd4df86be812984b7cf8f9956576737ed5caefd32eda5156d",
+      "seconds": 177,
+      "post": 472,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -1090,6 +1090,11 @@
       "id": "edge-of-remorse",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/edge-of-remorse.mp3",
       "bodyHash": "cff2a31e15967f257b7acfaa764af4090e77926b1598b3922425bc0f4c76f779"
+    },
+    "472": {
+      "id": "vengeance",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/vengeance.mp3",
+      "bodyHash": "708e75356d8a57b36f7be277c02976a17e153a35d1b91d908cc93e9cfa1f2439"
     }
   }
 }
