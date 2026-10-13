@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:36:50.850Z",
+  "updated": "2026-10-13T22:36:54.644Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2396,6 +2396,24 @@
       "sha256": "7feb8c703983dbdfc97018f004cfebad8f03b86f2382c58c0ad24e375d4c17f5",
       "seconds": 254,
       "post": 317,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "mr-lonogan",
+      "name": "Mr Lonogan",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/mr-lonogan/",
+      "credit": "'Mr Lonogan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/mr-lonogan-v1-b59a981c.mp3",
+      "type": "mp3",
+      "bytes": 1257596,
+      "sha256": "b59a981c399541a44dacef13a66c80734211d4c76b964a2885a0fcce1c798f86",
+      "seconds": 78,
+      "post": 488,
       "postedBy": "Arkniem",
       "removed": false
     },

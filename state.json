@@ -1170,6 +1170,11 @@
       "id": "quirky-lane",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/quirky-lane.mp3",
       "bodyHash": "5d20243fdcf0e028f8b66f41be81e9f7d92932fed2cb7c016ba43a58a3781c79"
+    },
+    "488": {
+      "id": "mr-lonogan",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/mr-lonogan.mp3",
+      "bodyHash": "2dc5714ef090fa69722edcfc611f36c20ac208e2afcf3e84eea21fddf8a4800e"
     }
   }
 }

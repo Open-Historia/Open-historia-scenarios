@@ -139,6 +139,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 10.2 MB | — |
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
+| [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 15.3 MB | — |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
@@ -1705,6 +1706,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/moonlight-v1-7feb8c70.mp3) (version 1, posted by @Arkniem)
+
+### Mr Lonogan (`mr-lonogan`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/mr-lonogan/>
+- **Credit:**
+
+> 'Mr Lonogan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/mr-lonogan-v1-b59a981c.mp3) (version 1, posted by @Arkniem)
 
 ### Neon (`neon`)
 
