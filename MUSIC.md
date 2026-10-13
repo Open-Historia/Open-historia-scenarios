@@ -32,6 +32,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 9.6 MB | — |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
+| [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 17.0 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
@@ -360,6 +361,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Ignis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ignis-v1-cbee0a34.mp3) (version 1, posted by @Arkniem)
+
+### In Search Of Solitude (`in-search-of-solitude`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/in-search-of-solitude/>
+- **Credit:**
+
+> 'In Search Of Solitude' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/in-search-of-solitude-v1-f7b95d34.mp3) (version 1, posted by @Arkniem)
 
 ### In This Moment (`in-this-moment`)
 
