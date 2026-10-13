@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:01:35.452Z",
+  "updated": "2026-10-13T22:02:02.940Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -197,6 +197,24 @@
       "sha256": "1546693f6381dc44c2cc90e8934aad32fd325bbc7ee26419ca3f2fb78f0809ad",
       "seconds": 340,
       "post": 299,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "beautiful-oblivion",
+      "name": "Beautiful Oblivion",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/beautiful-oblivion/",
+      "credit": "'Beautiful Oblivion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beautiful-oblivion-v1-19c8f2ad.mp3",
+      "type": "mp3",
+      "bytes": 17051943,
+      "sha256": "19c8f2ad5cabf4f21980ab923948f5e8cb3ce02c4d8c211a7954559e3831f863",
+      "seconds": 426,
+      "post": 356,
       "postedBy": "Arkniem",
       "removed": false
     },
