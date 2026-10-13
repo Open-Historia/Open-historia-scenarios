@@ -36,6 +36,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
+| [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 10.8 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
@@ -374,6 +375,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Starfire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/starfire-v1-d97bd4c5.mp3) (version 1, posted by @Arkniem)
+
+### The Great Sea (`the-great-sea`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-great-sea/>
+- **Credit:**
+
+> 'The Great Sea' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-great-sea-v1-f2c2d69a.mp3) (version 1, posted by @Arkniem)
 
 ### The Weight of Air – Anabasis II (`anabasis-ii`)
 
