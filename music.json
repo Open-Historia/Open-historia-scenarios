@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:28:09.072Z",
+  "updated": "2026-10-13T22:28:35.358Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -647,6 +647,24 @@
       "sha256": "e4629422bd18a927950167dabfbe7c77c061595329da367f2407a8b4021fb832",
       "seconds": 235,
       "post": 372,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "dreamt-of-flying",
+      "name": "Dreamt of Flying",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/dreamt-of-flying/",
+      "credit": "'Dreamt of Flying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/dreamt-of-flying-v1-a4124861.mp3",
+      "type": "mp3",
+      "bytes": 8684388,
+      "sha256": "a4124861a56a0312ab7ddeb674b4bc2b10673924d24411b95f38ff69d000a92b",
+      "seconds": 229,
+      "post": 452,
       "postedBy": "Arkniem",
       "removed": false
     },

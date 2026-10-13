@@ -42,6 +42,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
 | [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 5.3 MB | — |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
+| [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 8.3 MB | — |
 | [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 9.4 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
@@ -602,6 +603,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Discovery' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/discovery-v1-e4629422.mp3) (version 1, posted by @Arkniem)
+
+### Dreamt of Flying (`dreamt-of-flying`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/dreamt-of-flying/>
+- **Credit:**
+
+> 'Dreamt of Flying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/dreamt-of-flying-v1-a4124861.mp3) (version 1, posted by @Arkniem)
 
 ### Drift (`drift`)
 

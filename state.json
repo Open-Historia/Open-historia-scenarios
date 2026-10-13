@@ -990,6 +990,11 @@
       "id": "jubilee",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jubilee.mp3",
       "bodyHash": "f6f0c1089ded6646d2ce68715a0d86af29e7ba21e18c73ddcbb4b440d95cd66b"
+    },
+    "452": {
+      "id": "dreamt-of-flying",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/dreamt-of-flying.mp3",
+      "bodyHash": "e8cdcb824ec1e144d29a878907f01f70c085ba31ea9898b8cbc3670187d9a631"
     }
   }
 }
