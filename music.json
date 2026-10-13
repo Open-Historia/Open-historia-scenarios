@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:36:14.822Z",
+  "updated": "2026-10-13T22:36:19.100Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3299,6 +3299,24 @@
       "sha256": "5be7859f5846bf80f93c4d936991e76616c8b147c178ba7e77b292191b3b5d48",
       "seconds": 206,
       "post": 268,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "special-ops",
+      "name": "Special Ops",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/special-ops/",
+      "credit": "'Special Ops' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/special-ops-v1-232493b6.mp3",
+      "type": "mp3",
+      "bytes": 3390860,
+      "sha256": "232493b64c7dab16630a35d8f20c012f9030da27d7a7b2b2918f0570d7c421e1",
+      "seconds": 212,
+      "post": 485,
       "postedBy": "Arkniem",
       "removed": false
     },
