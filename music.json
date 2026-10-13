@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:34:10.301Z",
+  "updated": "2026-10-13T21:34:43.301Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -455,6 +455,24 @@
       "sha256": "8beb04451d69523608d1f2f45eb228b6b752534091afc22a889c512c5e88834a",
       "seconds": 322,
       "post": 267,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "winter-waltz",
+      "name": "Winter Waltz",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/winter-waltz/",
+      "credit": "'Winter Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/winter-waltz-v1-d8e91a13.mp3",
+      "type": "mp3",
+      "bytes": 8003108,
+      "sha256": "d8e91a139e54a800270289b4c2f6b663c3c10cf5e71e082e9c11933187cce88f",
+      "seconds": 200,
+      "post": 280,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -130,6 +130,11 @@
       "id": "meanwhile",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/meanwhile.mp3",
       "bodyHash": "179a894e690918fbcc2d204f92c3c8e12d32ad102f99ede82c90d653a50c0e11"
+    },
+    "280": {
+      "id": "winter-waltz",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/winter-waltz.mp3",
+      "bodyHash": "b3625cdd718376e7904c4749ed6778385adec07366b1bf09647d90bfcefddba8"
     }
   }
 }
