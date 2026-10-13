@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:05:49.809Z",
+  "updated": "2026-10-13T22:06:17.521Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1373,6 +1373,24 @@
       "sha256": "d61702c3b378662a3dd07d6207d9ac2cfedd405a4746c273db890afa644c7015",
       "seconds": 328,
       "post": 326,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "reverie",
+      "name": "Reverie",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/reverie/",
+      "credit": "'Reverie' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reverie-v1-ca1e7194.mp3",
+      "type": "mp3",
+      "bytes": 8950768,
+      "sha256": "ca1e7194d7d6f49127c77ff2f4011d07182525c826bb7ded3d3944e69ca678d2",
+      "seconds": 224,
+      "post": 368,
       "postedBy": "Arkniem",
       "removed": false
     },

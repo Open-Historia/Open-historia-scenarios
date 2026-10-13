@@ -82,6 +82,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
+| [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 8.5 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 10.3 MB | — |
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 10.2 MB | — |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
@@ -958,6 +959,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resolutions-v1-d61702c3.mp3) (version 1, posted by @Arkniem)
+
+### Reverie (`reverie`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/reverie/>
+- **Credit:**
+
+> 'Reverie' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reverie-v1-ca1e7194.mp3) (version 1, posted by @Arkniem)
 
 ### Ride The Wind (`ride-the-wind`)
 
