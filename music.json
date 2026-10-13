@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:19:08.410Z",
+  "updated": "2026-10-13T22:19:13.231Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2417,6 +2417,24 @@
       "sha256": "33ca786940809d29171d559b9d3f0d4c62e6cd1b977fd6f92c4c8c75ac09913e",
       "seconds": 263,
       "post": 342,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-black-waltz",
+      "name": "The Black Waltz",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-black-waltz/",
+      "credit": "'The Black Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-black-waltz-v1-33bb8c6d.mp3",
+      "type": "mp3",
+      "bytes": 7064757,
+      "sha256": "33bb8c6dd2799a62240dde57bfc06ac6add5a49bc121f09b6b3d6c256e206d99",
+      "seconds": 177,
+      "post": 414,
       "postedBy": "Arkniem",
       "removed": false
     },
