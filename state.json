@@ -1100,6 +1100,11 @@
       "id": "utopia",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/utopia.mp3",
       "bodyHash": "b281cacb26474e4e67a7607489f1c91ad8ab624b03b3853153ce2e0d17a07373"
+    },
+    "474": {
+      "id": "white-dawn",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/white-dawn.mp3",
+      "bodyHash": "6433e60edd1ede1cd18af909b3a31c849536f24e5fc0d38471ba76ca0db386f3"
     }
   }
 }
