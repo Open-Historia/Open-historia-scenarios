@@ -1,7 +1,25 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:45:28.048Z",
+  "updated": "2026-10-13T21:45:32.597Z",
   "tracks": [
+    {
+      "id": "a-dragons-lullaby-2023",
+      "name": "A Dragon’s Lullaby (2023 Remaster)",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/a-dragons-lullaby-2023/",
+      "credit": "'A Dragon's Lullaby' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-dragons-lullaby-2023-v1-fe07f1c8.mp3",
+      "type": "mp3",
+      "bytes": 6729383,
+      "sha256": "fe07f1c8e0b10743c7ed72348bf7fe4692e8471358f0f7f48d0a4e8ca8ae4200",
+      "seconds": 168,
+      "post": 306,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
     {
       "id": "amberlight",
       "name": "Amberlight",

@@ -260,6 +260,11 @@
       "id": "three-sheets-to-the-wind",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/three-sheets-to-the-wind.mp3",
       "bodyHash": "cc6f1d15498360fe4a5ba38e3c73b11c8d28120a9d171390010fc5475b15911d"
+    },
+    "306": {
+      "id": "a-dragons-lullaby-2023",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-dragons-lullaby-2023.mp3",
+      "bodyHash": "fb8e669ed1beca6060fa2f0176743bf62fbb1ff267f018104e754a4a15d830f9"
     }
   }
 }
