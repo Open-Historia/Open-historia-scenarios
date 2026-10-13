@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:11:53.802Z",
+  "updated": "2026-10-13T22:11:58.727Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1406,6 +1406,24 @@
       "sha256": "a8ac035dc83a29dce3924b68debea4c6bd9777ef2de18a303c52fd0267957db9",
       "seconds": 266,
       "post": 388,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-vision",
+      "name": "Monomyth – The Vision",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-vision/",
+      "credit": "'The Vision' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-vision-v1-d977b626.mp3",
+      "type": "mp3",
+      "bytes": 10334200,
+      "sha256": "d977b626880db284b45c50c38e1a48a4bcef0400db6557f80f5685badea86032",
+      "seconds": 258,
+      "post": 389,
       "postedBy": "Arkniem",
       "removed": false
     },

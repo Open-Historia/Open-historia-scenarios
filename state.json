@@ -675,6 +675,11 @@
       "id": "the-things-that-keep-us-here",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-things-that-keep-us-here.mp3",
       "bodyHash": "ccc731c5401e085b2d29f8f43ac839cf4c34e082c5fc92d53dffc509a6e5e31b"
+    },
+    "389": {
+      "id": "the-vision",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-vision.mp3",
+      "bodyHash": "3f2ab516d2025bc50d9110cf14a0610d732eb4383429d35a0096d402fef02ffd"
     }
   }
 }

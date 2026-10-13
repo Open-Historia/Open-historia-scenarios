@@ -84,6 +84,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 9.0 MB | — |
 | [Monomyth – The Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) | `the-distant-sun` | Scott Buckley | CC BY 4.0 | 3:44 | 8.6 MB | — |
 | [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 10.2 MB | — |
+| [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
@@ -1001,6 +1002,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-things-that-keep-us-here-v1-a8ac035d.mp3) (version 1, posted by @Arkniem)
+
+### Monomyth – The Vision (`the-vision`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-vision/>
+- **Credit:**
+
+> 'The Vision' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-vision-v1-d977b626.mp3) (version 1, posted by @Arkniem)
 
 ### Moonlight (`moonlight`)
 
