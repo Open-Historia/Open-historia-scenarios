@@ -3,7 +3,22 @@
   "posts": {
     "248": {
       "credits": "Made by SeventhDread for Open Historia. Based on [GOT-Inspired-Map](https://github.com/mapbox/GOT-Inspired-Map) (A Song of Ice and Fire speculative world map): GIS files by cadaei, based on maps by Tear and theMountainGoat. A Song of Ice and Fire, and every place on this map, are (c) George R. R. Martin. Changed from the original: drawn as a relief map and cut into map tiles, with extra detail added around Winterfell, King's Landing and Dragonstone. Licensed under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/).",
-      "bodyHash": "1c660ea9a7e4448747e16c27a858014d3e45d17154e4bf9b0e96ceb3ec2369eb"
+      "bodyHash": "dc744ab394f1d560ef1b4c4623548321c45684546975348fa9e28c3376f4d479",
+      "id": "got-world",
+      "link": "https://github.com/SeventhDread/open-historia/releases/download/got-world-upload/got-world-v1.pmtiles",
+      "check": {
+        "tileType": "webp",
+        "minzoom": 0,
+        "maxzoom": 14,
+        "bounds": [
+          0.2,
+          -42.4,
+          92.8,
+          49.4
+        ],
+        "bytes": 463431905,
+        "sha256": "42c40f2922bb7d03bf0a72cf34070cd51d3d3c5950bbb87dbf5e101802459822"
+      }
     }
   }
 }

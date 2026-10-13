@@ -1,4 +1,25 @@
 {
   "format": 1,
-  "basemaps": []
+  "basemaps": [
+    {
+      "id": "got-world",
+      "name": "Game of Thrones - 298 AC",
+      "author": "SeventhDread",
+      "owners": [
+        "SeventhDread"
+      ],
+      "license": "CC BY-NC-SA 3.0",
+      "post": 248,
+      "versions": [
+        {
+          "version": 1,
+          "url": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/detailed-maps-1/got-world-v1.pmtiles",
+          "bytes": 463431905,
+          "sha256": "42c40f2922bb7d03bf0a72cf34070cd51d3d3c5950bbb87dbf5e101802459822",
+          "preview": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/detailed-maps-1/got-world-v1.png",
+          "released": "2026-10-13"
+        }
+      ]
+    }
+  ]
 }
