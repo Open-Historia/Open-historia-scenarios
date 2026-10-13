@@ -7,6 +7,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits |
 |---|---|---|---|---|---|---|
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 16.1 MB | — |
+| [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
@@ -35,6 +36,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aphelion-v1-57ae03db.mp3) (version 1, posted by @Arkniem)
+
+### Born Of The Sky (`born-of-the-sky`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/born-of-the-sky/>
+- **Credit:**
+
+> 'Born Of The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/born-of-the-sky-v1-0d2f6a8b.mp3) (version 1, posted by @Arkniem)
 
 ### Convergence (`convergence`)
 
