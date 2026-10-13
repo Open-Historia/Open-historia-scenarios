@@ -240,6 +240,11 @@
       "id": "reawakening",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/reawakening.mp3",
       "bodyHash": "599d4a5ec6ba3310a1b4530e5e00a081ae6cfac862ca85327a3cf227134b497f"
+    },
+    "302": {
+      "id": "within-our-nature",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/within-our-nature.mp3",
+      "bodyHash": "e71415a04e3407aaf3580c7459d96b064448d0fe7fff8b840fe91459c90d73fa"
     }
   }
 }

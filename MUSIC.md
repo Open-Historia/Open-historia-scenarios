@@ -54,6 +54,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 12.3 MB | — |
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
+| [Within Our Nature](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) | `within-our-nature` | Scott Buckley | CC BY 4.0 | 6:39 | 15.2 MB | — |
 
 ## Credits and licences
 
@@ -584,3 +585,14 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'With These Hands' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/with-these-hands-v1-e450028d.mp3) (version 1, posted by @Arkniem)
+
+### Within Our Nature (`within-our-nature`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/within-our-nature/>
+- **Credit:**
+
+> 'Within Our Nature' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/within-our-nature-v1-38951d15.mp3) (version 1, posted by @Arkniem)

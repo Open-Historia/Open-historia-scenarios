@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:43:07.539Z",
+  "updated": "2026-10-13T21:43:37.388Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -869,6 +869,24 @@
       "sha256": "e450028d152becd5c68dec24899f05a71ac1c13d6934dfebf71dbbae5472db9b",
       "seconds": 306,
       "post": 260,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "within-our-nature",
+      "name": "Within Our Nature",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/within-our-nature/",
+      "credit": "'Within Our Nature' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/within-our-nature-v1-38951d15.mp3",
+      "type": "mp3",
+      "bytes": 15974651,
+      "sha256": "38951d15d52ca55958384983db4226a9d36a33583f4eccabdc6c8ca02f32e028",
+      "seconds": 399,
+      "post": 302,
       "postedBy": "Arkniem",
       "removed": false
     }
