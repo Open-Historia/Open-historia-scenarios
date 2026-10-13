@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:25:45.579Z",
+  "updated": "2026-10-13T21:26:15.883Z",
   "tracks": [
     {
       "id": "legionnaire",
@@ -41,6 +41,24 @@
       "sha256": "0066b940bec49211769790ceaf086289a634c84189bb9131002252d8495997a4",
       "seconds": 271,
       "post": 253,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "anabasis-ii",
+      "name": "The Weight of Air – Anabasis II",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/anabasis-ii/",
+      "credit": "'Anabasis II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/anabasis-ii-v1-8350b32a.mp3",
+      "type": "mp3",
+      "bytes": 13179297,
+      "sha256": "8350b32a04df1893abc7a2781a64688e5c7a794b5aafa6ee7e35042a790df7a0",
+      "seconds": 329,
+      "post": 257,
       "postedBy": "Arkniem",
       "removed": false
     },
