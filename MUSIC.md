@@ -163,6 +163,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [There Was A Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/321) | `there-was-a-time` | Scott Buckley | CC BY 4.0 | 5:14 | 12.0 MB | — |
 | [This Too Shall Pass](https://github.com/Open-Historia/Open-historia-scenarios/issues/351) | `this-too-shall-pass` | Scott Buckley | CC BY 4.0 | 7:27 | 17.1 MB | — |
 | [Three Sheets to the Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) | `three-sheets-to-the-wind` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
+| [Time and Space](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) | `time-and-space` | Scott Buckley | CC BY 4.0 | 3:52 | 8.8 MB | — |
 | [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 6.7 MB | — |
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 10.9 MB | — |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
@@ -1906,6 +1907,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Three Sheets To The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/three-sheets-to-the-wind-v1-bace0727.mp3) (version 1, posted by @Arkniem)
+
+### Time and Space (`time-and-space`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/time-and-space/>
+- **Credit:**
+
+> 'Time and Space' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/time-and-space-v1-e8b26a4b.mp3) (version 1, posted by @Arkniem)
 
 ### Titan (`titan`)
 
