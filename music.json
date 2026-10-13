@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:35:09.763Z",
+  "updated": "2026-10-13T22:35:13.385Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -125,6 +125,24 @@
       "sha256": "fc22227a67a0d016271107e425204cacc1e59a4c4ae33a9326bc83107f6c760f",
       "seconds": 351,
       "post": 323,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "air",
+      "name": "Air",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/air/",
+      "credit": "'Air' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/air-v1-fd035e2c.mp3",
+      "type": "mp3",
+      "bytes": 3304527,
+      "sha256": "fd035e2cbc96b03277bcd60a25922b8f0be9418a1dbdb627a918bac668baf753",
+      "seconds": 145,
+      "post": 481,
       "postedBy": "Arkniem",
       "removed": false
     },
