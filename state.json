@@ -280,6 +280,11 @@
       "id": "legacy",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/legacy.mp3",
       "bodyHash": "7280c952e36d878c604735de86f67140e270d0596304d886a6dc1fbc82fade1a"
+    },
+    "310": {
+      "id": "first-snow",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/first-snow.mp3",
+      "bodyHash": "196b70296b04119f935ff5a6c26f7eee6688097cf258c42c29aa0168cf243843"
     }
   }
 }
