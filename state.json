@@ -205,6 +205,11 @@
       "id": "rites-of-passage",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/rites-of-passage.mp3",
       "bodyHash": "0f9dcbe03e19af720448d478fe5ed7e96f666d8e39de9b5da560367a28b751aa"
+    },
+    "295": {
+      "id": "rise-above",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/rise-above.mp3",
+      "bodyHash": "6639d3f07c80db4cbd49e1e23df5856ae3bf37a7b855d21505c80a3bd1d1acbc"
     }
   }
 }

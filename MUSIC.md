@@ -32,6 +32,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 10.3 MB | — |
+| [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 10.2 MB | — |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 7.8 MB | — |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 15.6 MB | — |
@@ -335,6 +336,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Ride The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ride-the-wind-v1-0adeacb8.mp3) (version 1, posted by @Arkniem)
+
+### Rise Above (`rise-above`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/rise-above/>
+- **Credit:**
+
+> 'Rise Above' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rise-above-v1-5c284b7f.mp3) (version 1, posted by @Arkniem)
 
 ### Rites of Passage (`rites-of-passage`)
 

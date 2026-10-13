@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:40:13.966Z",
+  "updated": "2026-10-13T21:41:15.025Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -473,6 +473,24 @@
       "sha256": "0adeacb87531510d91ab2b88b92ea6625e27d7346de1dc0011a8d9b3bd41388e",
       "seconds": 270,
       "post": 278,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "rise-above",
+      "name": "Rise Above",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/rise-above/",
+      "credit": "'Rise Above' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rise-above-v1-5c284b7f.mp3",
+      "type": "mp3",
+      "bytes": 10718796,
+      "sha256": "5c284b7f6fbce91dba8ad5299974edfdf8c4354c5d9c3ea60c5a3bed9e809ea0",
+      "seconds": 268,
+      "post": 295,
       "postedBy": "Arkniem",
       "removed": false
     },
