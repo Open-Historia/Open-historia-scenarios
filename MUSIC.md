@@ -136,6 +136,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
+| [One Falls to the Fire](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) | `one-falls-to-the-fire` | Scott Buckley | CC BY 4.0 | 3:50 | 5.3 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
@@ -1653,6 +1654,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Omega' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/omega-v1-ec56d1dd.mp3) (version 1, posted by @Arkniem)
+
+### One Falls to the Fire (`one-falls-to-the-fire`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/one-falls-to-the-fire/>
+- **Credit:**
+
+> 'One Falls To The Fire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/one-falls-to-the-fire-v1-9d24db17.mp3) (version 1, posted by @Arkniem)
 
 ### Origami (`origami`)
 
