@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:11:16.204Z",
+  "updated": "2026-10-13T22:11:20.349Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1352,6 +1352,24 @@
       "sha256": "1ef5ddefcce9f9dbf1725dcbb3f46bce7f46cd7ddc92e348cc62b63e6fc64641",
       "seconds": 274,
       "post": 327,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-distant-sun",
+      "name": "Monomyth – The Distant Sun",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-distant-sun/",
+      "credit": "'The Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-distant-sun-v1-d3671869.mp3",
+      "type": "mp3",
+      "bytes": 8978977,
+      "sha256": "d36718692cbc0fddb36700dc754b90a5205495d3b89eb0b3ab8f4af0cbf6c57e",
+      "seconds": 224,
+      "post": 386,
       "postedBy": "Arkniem",
       "removed": false
     },

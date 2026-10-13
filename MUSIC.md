@@ -81,6 +81,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
 | [Midsommar](https://github.com/Open-Historia/Open-historia-scenarios/issues/360) | `midsommar` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 10.5 MB | — |
+| [Monomyth – The Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) | `the-distant-sun` | Scott Buckley | CC BY 4.0 | 3:44 | 8.6 MB | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
@@ -965,6 +966,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Midvinter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/midvinter-v1-1ef5ddef.mp3) (version 1, posted by @Arkniem)
+
+### Monomyth – The Distant Sun (`the-distant-sun`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-distant-sun/>
+- **Credit:**
+
+> 'The Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-distant-sun-v1-d3671869.mp3) (version 1, posted by @Arkniem)
 
 ### Moonlight (`moonlight`)
 
