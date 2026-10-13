@@ -1,7 +1,25 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:28:43.342Z",
+  "updated": "2026-10-13T21:29:10.947Z",
   "tracks": [
+    {
+      "id": "aphelion",
+      "name": "Aphelion",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/aphelion/",
+      "credit": "'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aphelion-v1-57ae03db.mp3",
+      "type": "mp3",
+      "bytes": 16894139,
+      "sha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
+      "seconds": 422,
+      "post": 262,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
     {
       "id": "home-was-you",
       "name": "Home Was You",
