@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:32:06.921Z",
+  "updated": "2026-10-13T22:32:10.253Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -287,6 +287,24 @@
       "sha256": "311ae35bf827be51372da47693357f79b8022b704d833cd26d547bbf67c117ed",
       "seconds": 499,
       "post": 330,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "awakening",
+      "name": "Awakening",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/awakening/",
+      "credit": "'Awakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/awakening-v1-39c1f584.mp3",
+      "type": "mp3",
+      "bytes": 3938177,
+      "sha256": "39c1f584516f662b3f3d04071712148f61abd22a872290582c17aa97be476936",
+      "seconds": 98,
+      "post": 467,
       "postedBy": "Arkniem",
       "removed": false
     },

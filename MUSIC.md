@@ -22,6 +22,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ashes of a Fallen Year (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) | `ashes-of-a-fallen-year-2019-remaster` | Scott Buckley | CC BY 4.0 | 5:10 | 11.8 MB | — |
 | [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 12.1 MB | — |
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 19.0 MB | — |
+| [Awakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/467) | `awakening` | Scott Buckley | CC BY 4.0 | 1:38 | 3.8 MB | — |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Beautiful Oblivion](https://github.com/Open-Historia/Open-historia-scenarios/issues/356) | `beautiful-oblivion` | Scott Buckley | CC BY 4.0 | 7:06 | 16.3 MB | — |
 | [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 15.9 MB | — |
@@ -397,6 +398,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Aurora' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aurora-v1-311ae35b.mp3) (version 1, posted by @Arkniem)
+
+### Awakening (`awakening`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/awakening/>
+- **Credit:**
+
+> 'Awakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/467) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/awakening-v1-39c1f584.mp3) (version 1, posted by @Arkniem)
 
 ### Balefire (`balefire`)
 
