@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:37:59.265Z",
+  "updated": "2026-10-13T22:38:03.099Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -4127,6 +4127,24 @@
       "sha256": "641b3db74edf78b3bb4fa4e6f63ba24dc459fa01bc8c21d137553e121b3f789a",
       "seconds": 222,
       "post": 334,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "welcome-to-my-junkyard",
+      "name": "Welcome to my Junkyard",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/welcome-to-my-junkyard/",
+      "credit": "'Welcome to my Junkyard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/welcome-to-my-junkyard-v1-c73d77d5.mp3",
+      "type": "mp3",
+      "bytes": 1776701,
+      "sha256": "c73d77d5ed6418e1f2955a7f0030b8bccbce1433713c95276933cb137d673ca6",
+      "seconds": 111,
+      "post": 493,
       "postedBy": "Arkniem",
       "removed": false
     },
