@@ -1215,6 +1215,11 @@
       "id": "a-dragons-lullabye",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-dragons-lullabye.mp3",
       "bodyHash": "d92c22402a080b933490452d8d856dbd85ab78c50eaa2d7653f3cd32bd91d0e2"
+    },
+    "497": {
+      "id": "hunted",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hunted.mp3",
+      "bodyHash": "34b9c592c8b662617a109646be28b28ec3860570bf91b0abf509ec16b938eba1"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:38:37.020Z",
+  "updated": "2026-10-13T22:38:40.410Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1511,6 +1511,24 @@
       "sha256": "bf0d82097af63ccf8d3660b0541de873810f23ee45d5c424b44e328a87625cbc",
       "seconds": 217,
       "post": 313,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "hunted",
+      "name": "Hunted",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/hunted/",
+      "credit": "'Hunted' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hunted-v1-899d26ad.mp3",
+      "type": "mp3",
+      "bytes": 1721443,
+      "sha256": "899d26ad271f80df82468f4ca35dd1ad11b48ff191fd288ed7dba2d8fe32db03",
+      "seconds": 107,
+      "post": 497,
       "postedBy": "Arkniem",
       "removed": false
     },
