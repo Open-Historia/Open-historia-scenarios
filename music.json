@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:42:30.550Z",
+  "updated": "2026-10-13T21:42:35.870Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -779,6 +779,24 @@
       "sha256": "e3eaf7e0e8727f06db9ceb6b93324bee73cf37f44370a1228da516800bffadff",
       "seconds": 235,
       "post": 298,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "victor-lux",
+      "name": "Victor Lux",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/victor-lux/",
+      "credit": "'Victor Lux' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/victor-lux-v1-28c6c03f.mp3",
+      "type": "mp3",
+      "bytes": 8096102,
+      "sha256": "28c6c03f77c08991f0b10dc0d84aa61e5de6814ea563847cb002cf33cdbeb086",
+      "seconds": 202,
+      "post": 300,
       "postedBy": "Arkniem",
       "removed": false
     },

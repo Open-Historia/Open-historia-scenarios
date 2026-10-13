@@ -230,6 +230,11 @@
       "id": "balefire",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/balefire.mp3",
       "bodyHash": "b94bf24b50d58e9b389056b9a3b36914182251a312c1559b0565b55217c17b9f"
+    },
+    "300": {
+      "id": "victor-lux",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/victor-lux.mp3",
+      "bodyHash": "6b7100bba503a199a6c1c9bcf2bf6e28fc094dc34cfee674c8cc03e40e925724"
     }
   }
 }
