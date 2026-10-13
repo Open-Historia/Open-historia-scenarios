@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:27:22.120Z",
+  "updated": "2026-10-13T22:27:49.041Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1457,6 +1457,24 @@
       "sha256": "a06467d9779841950c897e9023984fcf2bbc0ee2609fb15230f660cc922941b8",
       "seconds": 247,
       "post": 281,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "invocation",
+      "name": "Invocation",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/invocation/",
+      "credit": "'Invocation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/invocation-v1-51f8c7e7.mp3",
+      "type": "mp3",
+      "bytes": 8016323,
+      "sha256": "51f8c7e773dac0ba292bbb2acf0e449f4b8c1b90f1eebe4bba2381384af236de",
+      "seconds": 214,
+      "post": 450,
       "postedBy": "Arkniem",
       "removed": false
     },
