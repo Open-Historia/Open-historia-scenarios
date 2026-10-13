@@ -1000,6 +1000,11 @@
       "id": "venom",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/venom.mp3",
       "bodyHash": "7d549ee7046bcfa54ff1ad88233a0b2cf16d6f2f37441a5075ab6fa277375b27"
+    },
+    "454": {
+      "id": "reparateur",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/reparateur.mp3",
+      "bodyHash": "a99a458af8b2867adcbb1f6e69698d000abc5fd4f2cc1fcee332950a1b741ca9"
     }
   }
 }

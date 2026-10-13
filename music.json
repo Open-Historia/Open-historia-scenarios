@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:28:40.151Z",
+  "updated": "2026-10-13T22:28:44.892Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2453,6 +2453,24 @@
       "sha256": "ed72defef8012ce963263409bf775e949cf16411dbbddf2b3d53a8297e9b288f",
       "seconds": 213,
       "post": 416,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "reparateur",
+      "name": "Reparateur",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/reparateur/",
+      "credit": "'Reparateur' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reparateur-v1-64133439.mp3",
+      "type": "mp3",
+      "bytes": 7830631,
+      "sha256": "641334398c8c2895f43c69640d0faf1a77f2f268dc7327ec4a815ed1d160f576",
+      "seconds": 326,
+      "post": 454,
       "postedBy": "Arkniem",
       "removed": false
     },

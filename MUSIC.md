@@ -142,6 +142,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 4.5 MB | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
+| [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
 | [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 10.2 MB | — |
 | [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 8.5 MB | — |
@@ -1704,6 +1705,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Red' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/red-v1-ed72defe.mp3) (version 1, posted by @Arkniem)
+
+### Reparateur (`reparateur`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/reparateur/>
+- **Credit:**
+
+> 'Reparateur' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reparateur-v1-64133439.mp3) (version 1, posted by @Arkniem)
 
 ### Resolutions (`resolutions`)
 
