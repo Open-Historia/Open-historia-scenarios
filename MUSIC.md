@@ -8,6 +8,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 |---|---|---|---|---|---|---|
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
+| [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 
 ## Credits and licences
 
@@ -32,3 +33,14 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v1-0066b940.mp3) (version 1, posted by @Arkniem)
+
+### The Weight of Air – Katabasis II (`katabasis-ii`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/katabasis-ii/>
+- **Credit:**
+
+> 'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v1-a98adeb1.mp3) (version 1, posted by @Arkniem)

@@ -10,6 +10,11 @@
       "id": "legionnaire",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/legionnaire-2022-remaster.mp3",
       "bodyHash": "33a596ff4b5b9927b3a37824959f16f02ae2a399cf6bd2c9df30b779e82378d8"
+    },
+    "256": {
+      "id": "katabasis-ii",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/katabasis-ii.mp3",
+      "bodyHash": "df419543fc8eec7fd88e2120ab80f8bc1df152191a25476550f0cdcf458820e4"
     }
   }
 }

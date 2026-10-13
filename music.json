@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:23:08.079Z",
+  "updated": "2026-10-13T21:25:45.579Z",
   "tracks": [
     {
       "id": "legionnaire",
@@ -41,6 +41,24 @@
       "sha256": "0066b940bec49211769790ceaf086289a634c84189bb9131002252d8495997a4",
       "seconds": 271,
       "post": 253,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "katabasis-ii",
+      "name": "The Weight of Air – Katabasis II",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/katabasis-ii/",
+      "credit": "'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v1-a98adeb1.mp3",
+      "type": "mp3",
+      "bytes": 16442513,
+      "sha256": "a98adeb1f2f4271a48a2bf734ec3e0df028a5e4c36f5f34787a6ec5be3607052",
+      "seconds": 411,
+      "post": 256,
       "postedBy": "Arkniem",
       "removed": false
     }
