@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:09:01.343Z",
+  "updated": "2026-10-13T22:09:28.387Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -971,6 +971,24 @@
       "sha256": "83cbc46b22660533d814a6dba29d50bc02e0ccb102561017e6533fb2db917b9a",
       "seconds": 200,
       "post": 258,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "inbound",
+      "name": "Inbound",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/inbound/",
+      "credit": "'Inbound' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inbound-v1-2ad877ee.mp3",
+      "type": "mp3",
+      "bytes": 9777296,
+      "sha256": "2ad877eea4a85c02dd4f43fc36de4596ed8409e172d826ca8f29d05057aa1c83",
+      "seconds": 244,
+      "post": 377,
       "postedBy": "Arkniem",
       "removed": false
     },

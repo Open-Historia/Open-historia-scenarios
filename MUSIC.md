@@ -60,6 +60,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/354) | `in-dreams` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 17.0 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
+| [Inbound](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) | `inbound` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
 | [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 8.8 MB | — |
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
@@ -725,6 +726,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'In This Moment' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/in-this-moment-v1-83cbc46b.mp3) (version 1, posted by @Arkniem)
+
+### Inbound (`inbound`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/inbound/>
+- **Credit:**
+
+> 'Inbound' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inbound-v1-2ad877ee.mp3) (version 1, posted by @Arkniem)
 
 ### Incredulity (`incredulity`)
 
