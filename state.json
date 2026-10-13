@@ -635,6 +635,11 @@
       "id": "neon",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/neon.mp3",
       "bodyHash": "bc3df1334d93727c2f31c9ea75aefb3e8f8cf57a41f7f11cc3b56927f360013f"
+    },
+    "381": {
+      "id": "borealis",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/borealis.mp3",
+      "bodyHash": "817259a3e7dbb8fe5bf58826c5e6d747f6a7486d0718db4f59f4e7243ad53696"
     }
   }
 }

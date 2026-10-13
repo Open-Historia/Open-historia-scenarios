@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:10:04.113Z",
+  "updated": "2026-10-13T22:10:34.846Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -251,6 +251,24 @@
       "sha256": "a862ae87b926cbf0ef40f8535acad3174f5eec10658893312452c815dcf61866",
       "seconds": 417,
       "post": 343,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "borealis",
+      "name": "Borealis",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/borealis/",
+      "credit": "'Borealis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/borealis-v1-1057bd27.mp3",
+      "type": "mp3",
+      "bytes": 15674696,
+      "sha256": "1057bd271315aaf4267b9c09ef18ac7609a6f701b6d2bff07f40d029adaa85ea",
+      "seconds": 392,
+      "post": 381,
       "postedBy": "Arkniem",
       "removed": false
     },
