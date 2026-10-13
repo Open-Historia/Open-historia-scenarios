@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:51:48.269Z",
+  "updated": "2026-10-13T21:51:53.112Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -797,6 +797,24 @@
       "sha256": "303e9daf060ee930e6a8f7be96c8022c405f6c6353bbee5d2d29039c61ff8b02",
       "seconds": 354,
       "post": 264,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "race-the-sun",
+      "name": "Race The Sun",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/race-the-sun/",
+      "credit": "'Race The Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/race-the-sun-v1-b970c977.mp3",
+      "type": "mp3",
+      "bytes": 11669657,
+      "sha256": "b970c977d46db35139e7639d99b5e628513a900988a69f539195d5fc138e129f",
+      "seconds": 292,
+      "post": 322,
       "postedBy": "Arkniem",
       "removed": false
     },

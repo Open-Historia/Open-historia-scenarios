@@ -340,6 +340,11 @@
       "id": "there-was-a-time",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/there-was-a-time.mp3",
       "bodyHash": "f18f042cbef9de6decd28a21a18c0603985feb19c3a7b6f6862f8a707390fee2"
+    },
+    "322": {
+      "id": "race-the-sun",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/race-the-sun.mp3",
+      "bodyHash": "e9bd65c2fdeefb27f208fbc38ae8fc4b99b46105d90e9c4ef05542c4f864610c"
     }
   }
 }
