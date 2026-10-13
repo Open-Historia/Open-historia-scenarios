@@ -34,6 +34,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
+| [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 9.4 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
@@ -381,6 +382,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Incredulity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incredulity-v1-cce101d4.mp3) (version 1, posted by @Arkniem)
+
+### Into The Unknown (`into-the-unknown`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/into-the-unknown/>
+- **Credit:**
+
+> 'Into The Unknown' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-unknown-v1-94ff76f8.mp3) (version 1, posted by @Arkniem)
 
 ### Into The Wilds (`into-the-wilds`)
 

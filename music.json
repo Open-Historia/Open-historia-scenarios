@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:50:42.631Z",
+  "updated": "2026-10-13T21:50:47.353Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -503,6 +503,24 @@
       "sha256": "cce101d47fe4b345ca33a3d43e2331b1f1687045ed1bdc3dbae180d0edda3b90",
       "seconds": 374,
       "post": 274,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "into-the-unknown",
+      "name": "Into The Unknown",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/into-the-unknown/",
+      "credit": "'Into The Unknown' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-unknown-v1-94ff76f8.mp3",
+      "type": "mp3",
+      "bytes": 10479526,
+      "sha256": "94ff76f82df2a40556355571cd497e32cf0fe471f324ddd2bc526811b79de6fb",
+      "seconds": 262,
+      "post": 319,
       "postedBy": "Arkniem",
       "removed": false
     },
