@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:29:42.692Z",
+  "updated": "2026-10-13T21:30:12.208Z",
   "tracks": [
     {
       "id": "aphelion",
@@ -92,6 +92,24 @@
       "sha256": "1e18197d21268fe9467f4f31c8c35ebd3b73a97479ebff486e07ca0c2757d44f",
       "seconds": 187,
       "post": 254,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "memories-of-stone",
+      "name": "Memories Of Stone",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/memories-of-stone/",
+      "credit": "'Memories Of Stone' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/memories-of-stone-v1-1ad908e4.mp3",
+      "type": "mp3",
+      "bytes": 13217159,
+      "sha256": "1ad908e4c0e0c2a311300f6b69f2587f9161e15990ee01f18e00992f25d1b252",
+      "seconds": 330,
+      "post": 265,
       "postedBy": "Arkniem",
       "removed": false
     },

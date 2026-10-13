@@ -55,6 +55,11 @@
       "id": "phoenix-2026",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/phoenix-2026.mp3",
       "bodyHash": "589174e9ebb607b770cf11d01fad94ed354560b5950f6927a387bf131c399446"
+    },
+    "265": {
+      "id": "memories-of-stone",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/memories-of-stone.mp3",
+      "bodyHash": "077ea6ce0beafbad9509c8e66493605c5098a9f7a031f31a5f607d917fa4b380"
     }
   }
 }
