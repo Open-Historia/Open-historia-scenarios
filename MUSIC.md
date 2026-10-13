@@ -68,6 +68,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 10.3 MB | — |
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 10.2 MB | — |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
+| [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 9.4 MB | — |
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 7.8 MB | — |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 15.6 MB | — |
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 16.9 MB | — |
@@ -774,6 +775,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Rites of Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rites-of-passage-v1-b7c05f20.mp3) (version 1, posted by @Arkniem)
+
+### Sanctuary (`sanctuary`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/sanctuary/>
+- **Credit:**
+
+> 'Sanctuary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctuary-v1-1119b63d.mp3) (version 1, posted by @Arkniem)
 
 ### Sentinel (`sentinel`)
 

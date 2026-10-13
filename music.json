@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:56:38.622Z",
+  "updated": "2026-10-13T21:56:42.815Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1121,6 +1121,24 @@
       "sha256": "b7c05f20329781f947ba8fdf1ca00fb2b4c91a3b8da12d527d5dca866d406059",
       "seconds": 336,
       "post": 294,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "sanctuary",
+      "name": "Sanctuary",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/sanctuary/",
+      "credit": "'Sanctuary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctuary-v1-1119b63d.mp3",
+      "type": "mp3",
+      "bytes": 9844159,
+      "sha256": "1119b63d91012466e5ff8486fa2f9ad036eab9ebaf2ebf7f2af2a23dc5769f3c",
+      "seconds": 246,
+      "post": 338,
       "postedBy": "Arkniem",
       "removed": false
     },
