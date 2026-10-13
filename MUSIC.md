@@ -15,7 +15,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
-- **Source:** <https://www.scottbuckley.com.au/library/legionnaire/>
+- **Source:** <https://www.scottbuckley.com.au/library/legionnaire-2022/>
 - **Credit:**
 
 > 'Legionnaire (2022 Remaster)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au

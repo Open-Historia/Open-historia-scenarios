@@ -1,13 +1,13 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:16:26.940Z",
+  "updated": "2026-10-13T21:23:08.079Z",
   "tracks": [
     {
       "id": "legionnaire",
       "name": "Legionnaire (2022 Remaster)",
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
-      "source": "https://www.scottbuckley.com.au/library/legionnaire/",
+      "source": "https://www.scottbuckley.com.au/library/legionnaire-2022/",
       "credit": "'Legionnaire (2022 Remaster)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [
         "atWar",
