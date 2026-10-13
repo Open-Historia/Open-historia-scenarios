@@ -380,6 +380,11 @@
       "id": "castles-in-the-sky",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/castles-in-the-sky.mp3",
       "bodyHash": "6ad44b8cb915c4cd975364ead6d3cd319e545076908b2368a174c5b3c80d66e3"
+    },
+    "330": {
+      "id": "aurora",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/aurora.mp3",
+      "bodyHash": "3f08ab9f44d596c6eadcdc7b79b8c3cd2332730204099ff886a5af243cb99e55"
     }
   }
 }
