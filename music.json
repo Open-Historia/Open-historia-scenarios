@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:40:14.580Z",
+  "updated": "2026-10-13T22:40:19.300Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2720,6 +2720,24 @@
       "sha256": "8b8edd81ee2110a62169b48e3233e1556c0f9de10003b21f41a28e5b4bcbfe14",
       "seconds": 189,
       "post": 269,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/parasite/",
+      "credit": "'Parasite' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/parasite-v1-1dc013ac.mp3",
+      "type": "mp3",
+      "bytes": 5993283,
+      "sha256": "1dc013ac25375b2e59f993ebbe1551ef9392443519b0ca69e2d3f039550fd256",
+      "seconds": 244,
+      "post": 503,
       "postedBy": "Arkniem",
       "removed": false
     },
