@@ -210,6 +210,11 @@
       "id": "rise-above",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/rise-above.mp3",
       "bodyHash": "6639d3f07c80db4cbd49e1e23df5856ae3bf37a7b855d21505c80a3bd1d1acbc"
+    },
+    "296": {
+      "id": "ice-cream",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ice-cream.mp3",
+      "bodyHash": "b6788426fbc8b307ebd9b564a95137a09702ec0123867bb829f28321b314dc01"
     }
   }
 }
