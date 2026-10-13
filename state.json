@@ -885,6 +885,11 @@
       "id": "life-is",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/life-is.mp3",
       "bodyHash": "6370e25e8f2a62f89a853fe35e00b8be869baf9dc66252190c721881d6c7d70a"
+    },
+    "431": {
+      "id": "cassini",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cassini.mp3",
+      "bodyHash": "8b1acabdfa303a00350c2b68e848ab801f91b2b502fca50cc8379cdcad9b5c42"
     }
   }
 }
