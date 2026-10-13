@@ -500,6 +500,11 @@
       "id": "solecism",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solecism.mp3",
       "bodyHash": "573000d6174f9dff63f5e72f8948b1e50eeb21c031d9ba5dd7fe76f39e4d0ad7"
+    },
+    "354": {
+      "id": "in-dreams",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/in-dreams.mp3",
+      "bodyHash": "28a1474960e327ce782e4fd5f803960484280ce93639e2217309138a4d14138c"
     }
   }
 }
