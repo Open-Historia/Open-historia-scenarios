@@ -590,6 +590,11 @@
       "id": "absolution",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/absolution.mp3",
       "bodyHash": "cab8f22d61b76a003a00117bf3890ea25d58eb4a4754fd04f02a4d0b90d0ced6"
+    },
+    "372": {
+      "id": "discovery",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/discovery.mp3",
+      "bodyHash": "57d93b16c3283425548b1b9dd54d04799d83253c6be42db8eda702292ffdb549"
     }
   }
 }

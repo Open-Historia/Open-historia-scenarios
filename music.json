@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:08:04.484Z",
+  "updated": "2026-10-13T22:08:09.570Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -449,6 +449,24 @@
       "sha256": "c7fd63d6ad0e8902dbedbb08e7be1770902efb440f8e3896b1beb992ac18c0ae",
       "seconds": 220,
       "post": 263,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/discovery/",
+      "credit": "'Discovery' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/discovery-v1-e4629422.mp3",
+      "type": "mp3",
+      "bytes": 9415765,
+      "sha256": "e4629422bd18a927950167dabfbe7c77c061595329da367f2407a8b4021fb832",
+      "seconds": 235,
+      "post": 372,
       "postedBy": "Arkniem",
       "removed": false
     },
