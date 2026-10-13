@@ -57,6 +57,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 9.6 MB | — |
 | [I Walk With Ghosts](https://github.com/Open-Historia/Open-historia-scenarios/issues/344) | `i-walk-with-ghosts` | Scott Buckley | CC BY 4.0 | 8:04 | 18.5 MB | — |
+| [Icarus (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) | `icarus-2019` | Scott Buckley | CC BY 4.0 | 3:29 | 8.0 MB | — |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [In Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/354) | `in-dreams` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
@@ -715,6 +716,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'I Walk With Ghosts' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/344) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/i-walk-with-ghosts-v1-312c41b1.mp3) (version 1, posted by @Arkniem)
+
+### Icarus (2019 Remaster) (`icarus-2019`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/icarus-2019/>
+- **Credit:**
+
+> 'Icarus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/icarus-2019-v1-c07b4794.mp3) (version 1, posted by @Arkniem)
 
 ### Ice Cream (`ice-cream`)
 

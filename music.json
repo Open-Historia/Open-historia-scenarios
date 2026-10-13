@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:15:29.818Z",
+  "updated": "2026-10-13T22:15:48.793Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -917,6 +917,24 @@
       "sha256": "312c41b1beefcf60f37ac90e4fc64635ff39303129852d7389dd57a25e09fa18",
       "seconds": 484,
       "post": 344,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "icarus-2019",
+      "name": "Icarus (2019 Remaster)",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/icarus-2019/",
+      "credit": "'Icarus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/icarus-2019-v1-c07b4794.mp3",
+      "type": "mp3",
+      "bytes": 8367724,
+      "sha256": "c07b4794d9932112ded9366e72ac23f70e9b17f923478b59a6a4f2b53802ccf3",
+      "seconds": 209,
+      "post": 400,
       "postedBy": "Arkniem",
       "removed": false
     },

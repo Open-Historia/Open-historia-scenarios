@@ -730,6 +730,11 @@
       "id": "nightfall",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/nightfall.mp3",
       "bodyHash": "8d44b3d66512b64f798b34c186b53173338bf6ea80f5ac32b4990ffeef4579b6"
+    },
+    "400": {
+      "id": "icarus-2019",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/icarus-2019.mp3",
+      "bodyHash": "8827c21e86d801fcd6883b8e33cfc3191b2e87f338839b6691f5661d25e5aa89"
     }
   }
 }
