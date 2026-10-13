@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:34:43.301Z",
+  "updated": "2026-10-13T21:35:13.700Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -179,6 +179,24 @@
       "sha256": "cce101d47fe4b345ca33a3d43e2331b1f1687045ed1bdc3dbae180d0edda3b90",
       "seconds": 374,
       "post": 274,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "into-the-wilds",
+      "name": "Into The Wilds",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/into-the-wilds/",
+      "credit": "'Into The Wilds' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-wilds-v1-a06467d9.mp3",
+      "type": "mp3",
+      "bytes": 9875571,
+      "sha256": "a06467d9779841950c897e9023984fcf2bbc0ee2609fb15230f660cc922941b8",
+      "seconds": 247,
+      "post": 281,
       "postedBy": "Arkniem",
       "removed": false
     },
