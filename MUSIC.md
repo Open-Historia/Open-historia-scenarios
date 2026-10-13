@@ -113,6 +113,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 5.2 MB | — |
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 6.6 MB | — |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 11.1 MB | — |
+| [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 14.7 MB | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
@@ -1406,6 +1407,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Machina' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machina-v1-72f479c5.mp3) (version 1, posted by @Arkniem)
+
+### Machinery of the Stars (`machinery-of-the-stars`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/machinery-of-the-stars/>
+- **Credit:**
+
+> 'Machinery of the Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machinery-of-the-stars-v1-3632834c.mp3) (version 1, posted by @Arkniem)
 
 ### Maleficus (`maleficus`)
 

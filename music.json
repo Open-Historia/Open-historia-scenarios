@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:33:46.411Z",
+  "updated": "2026-10-13T22:33:50.027Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1928,6 +1928,24 @@
       "sha256": "72f479c583fd1cb894584c51d4fb9b33200b098bd1b13195bd41d29586d9d344",
       "seconds": 291,
       "post": 374,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "machinery-of-the-stars",
+      "name": "Machinery of the Stars",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/machinery-of-the-stars/",
+      "credit": "'Machinery of the Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machinery-of-the-stars-v1-3632834c.mp3",
+      "type": "mp3",
+      "bytes": 5733293,
+      "sha256": "3632834cce1d31ef41ebd5d8b1dcff5508187aa797917bee524bd77bf8da1f48",
+      "seconds": 255,
+      "post": 475,
       "postedBy": "Arkniem",
       "removed": false
     },

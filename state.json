@@ -1105,6 +1105,11 @@
       "id": "white-dawn",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/white-dawn.mp3",
       "bodyHash": "6433e60edd1ede1cd18af909b3a31c849536f24e5fc0d38471ba76ca0db386f3"
+    },
+    "475": {
+      "id": "machinery-of-the-stars",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/machinery-of-the-stars.mp3",
+      "bodyHash": "d7d12bf3412c52422cee398a8a143a2303bfdd2e9bcc2435fa172ddceb8a9ba5"
     }
   }
 }
