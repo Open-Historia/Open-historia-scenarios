@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:41:46.752Z",
+  "updated": "2026-10-13T22:42:17.674Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2921,6 +2921,24 @@
       "sha256": "d8af12108d454a84fa729a32016365ea2bfe830c9b858e6db2975fc1e6d1cd5c",
       "seconds": 271,
       "post": 398,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "phase-shift",
+      "name": "Phase Shift",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/phase-shift/",
+      "credit": "'Phase Shift' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phase-shift-v1-5b05e101.mp3",
+      "type": "mp3",
+      "bytes": 14520141,
+      "sha256": "5b05e101737b7ebcd83343923e34801be533aea3383fa5a6daea7a4351af49aa",
+      "seconds": 363,
+      "post": 508,
       "postedBy": "Arkniem",
       "removed": false
     },
