@@ -6,9 +6,21 @@ Music can be posted only by the hub's contributors, because every track must be 
 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits |
 |---|---|---|---|---|---|---|
+| [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 
 ## Credits and licences
+
+### Legionnaire (2022 Remaster) (`legionnaire`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/legionnaire/>
+- **Credit:**
+
+> 'Legionnaire (2022 Remaster)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-v1-1e18197d.mp3) (version 1, posted by @Arkniem)
 
 ### Passage Of Time (`passage-of-time`)
 
