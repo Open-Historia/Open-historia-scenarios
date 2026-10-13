@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:21:27.457Z",
+  "updated": "2026-10-13T22:21:31.887Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1025,6 +1025,24 @@
       "sha256": "bf0d82097af63ccf8d3660b0541de873810f23ee45d5c424b44e328a87625cbc",
       "seconds": 217,
       "post": 313,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "hymn",
+      "name": "Hymn",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/hymn/",
+      "credit": "'Hymn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-v1-65a0b4ee.mp3",
+      "type": "mp3",
+      "bytes": 4855797,
+      "sha256": "65a0b4ee666c26d72cb6faeaaf2215f9516924a9bdbf01008cd642cbad4ba125",
+      "seconds": 121,
+      "post": 424,
       "postedBy": "Arkniem",
       "removed": false
     },
