@@ -198,6 +198,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
 | [Within Our Nature](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) | `within-our-nature` | Scott Buckley | CC BY 4.0 | 6:39 | 15.2 MB | — |
+| [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 5.1 MB | — |
 
 ## Credits and licences
 
@@ -2312,3 +2313,14 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Within Our Nature' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/within-our-nature-v1-38951d15.mp3) (version 1, posted by @Arkniem)
+
+### Wonderful (`wonderful`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/wonderful/>
+- **Credit:**
+
+> 'Wonderful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wonderful-v1-b1ae020d.mp3) (version 1, posted by @Arkniem)
