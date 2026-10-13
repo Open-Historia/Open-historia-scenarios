@@ -156,6 +156,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Phoenix](https://github.com/Open-Historia/Open-historia-scenarios/issues/426) | `phoenix` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [Precipice](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) | `precipice` | Scott Buckley | CC BY 4.0 | 1:59 | 4.5 MB | — |
+| [Prelude to Chemistry](https://github.com/Open-Historia/Open-historia-scenarios/issues/483) | `prelude-to-chemistry` | Scott Buckley | CC BY 4.0 | 4:02 | 5.4 MB | — |
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 4.5 MB | — |
@@ -1887,6 +1888,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v1-14516700.mp3) (version 1, posted by @Arkniem)
+
+### Prelude to Chemistry (`prelude-to-chemistry`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/prelude-to-chemistry/>
+- **Credit:**
+
+> 'Prelude to Chemistry' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/483) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/prelude-to-chemistry-v1-07445ff8.mp3) (version 1, posted by @Arkniem)
 
 ### Pursuit (`pursuit`)
 

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:35:40.375Z",
+  "updated": "2026-10-13T22:35:45.681Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2705,6 +2705,24 @@
       "sha256": "14516700c1560a490b057807c234645893315afff2bfe1a334e03d30ccfa00b4",
       "seconds": 119,
       "post": 350,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "prelude-to-chemistry",
+      "name": "Prelude to Chemistry",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/prelude-to-chemistry/",
+      "credit": "'Prelude to Chemistry' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/prelude-to-chemistry-v1-07445ff8.mp3",
+      "type": "mp3",
+      "bytes": 5644111,
+      "sha256": "07445ff8f356152687ab0db3cf78507c71334bca8a42af52b046a176354fe425",
+      "seconds": 242,
+      "post": 483,
       "postedBy": "Arkniem",
       "removed": false
     },
