@@ -68,7 +68,8 @@ export const checkForm = (form, list, { ownId = "" } = {}) => {
   if (!plain(form.licence)) problems.push("Give the map's licence.");
   if (!form.preview.trim()) problems.push("Add one or two screenshots.");
   if (form.ticked < CHECKBOX_COUNT) problems.push("Tick all the boxes under **Before you post**.");
-  const sha256 = plain(form.sha256).toLowerCase();
+  // A release page on GitHub shows a file's checksum as "sha256:<64 characters>".
+  const sha256 = plain(form.sha256).toLowerCase().replace(/^sha-?256:\s*/, "");
   if (sha256 && !/^[a-f0-9]{64}$/.test(sha256)) problems.push("The SHA-256 checksum should be 64 letters and digits (or leave it empty).");
   return { id, sha256: /^[a-f0-9]{64}$/.test(sha256) ? sha256 : "", problems };
 };

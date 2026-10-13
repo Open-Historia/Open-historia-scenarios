@@ -161,6 +161,10 @@ test("the form: an ID from the name, IDs that are taken, and an ID that can't ch
   assert.match(checkForm(parseForm(body({ id: "other" })), list, { ownId: "taken" }).problems.join(" "), /never changes/);
   assert.deepEqual(checkForm(parseForm(body({ id: "taken" })), list, { ownId: "taken" }).problems, []);
   assert.match(checkForm(parseForm(body({ ticks: 3 })), list).problems.join(" "), /Tick all the boxes/);
+  // A checksum copied from a GitHub release page, label and all.
+  const copied = checkForm(parseForm(body({ sha: `sha256:${"Ab".repeat(32)}` })), list);
+  assert.deepEqual(copied.problems, []);
+  assert.equal(copied.sha256, "ab".repeat(32));
   const linked = parseForm(body({ link: "[file](https://example.com/my_map.pmtiles)" }));
   assert.equal(linked.download, "https://example.com/my_map.pmtiles");
 });
