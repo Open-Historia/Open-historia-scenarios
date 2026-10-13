@@ -95,6 +95,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
+| [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 9.4 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
@@ -1132,6 +1133,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/neon-v1-3d0cb066.mp3) (version 1, posted by @Arkniem)
+
+### Nightfall (`nightfall`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/nightfall/>
+- **Credit:**
+
+> 'Nightfall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/nightfall-v1-831a6bae.mp3) (version 1, posted by @Arkniem)
 
 ### Omega (`omega`)
 
