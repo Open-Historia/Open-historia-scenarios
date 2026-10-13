@@ -1295,6 +1295,11 @@
       "id": "luminance",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/luminance.mp3",
       "bodyHash": "a3ffc87273c0fd7b89c887aa1437b2122c79631f40c2f59c45c5203c73868249"
+    },
+    "513": {
+      "id": "ephemera",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ephemera.mp3",
+      "bodyHash": "77948b2e26b7701fa4da75430958ff698bd13cbe62c461541d69e136594b7d1a"
     }
   }
 }

@@ -66,6 +66,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Electric Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) | `electric-dreams` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Elementary](https://github.com/Open-Historia/Open-historia-scenarios/issues/433) | `elementary` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
 | [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 8.8 MB | — |
+| [Ephemera](https://github.com/Open-Historia/Open-historia-scenarios/issues/513) | `ephemera` | Scott Buckley | CC BY 4.0 | 5:38 | 12.9 MB | — |
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 14.4 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 10.1 MB | — |
@@ -927,6 +928,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Emergent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/emergent-v1-653e6a1e.mp3) (version 1, posted by @Arkniem)
+
+### Ephemera (`ephemera`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/ephemera/>
+- **Credit:**
+
+> 'Ephemera' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/513) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ephemera-v1-e38cf3ae.mp3) (version 1, posted by @Arkniem)
 
 ### Escape Velocity (`escape-velocity`)
 
