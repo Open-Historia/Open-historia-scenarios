@@ -73,7 +73,7 @@ licence (a map built on CC BY-NC-SA material must be CC BY-NC-SA too).
    fills in the name, size and checksum for you.
 3. Fill in the download link, a map ID if you want one (lower-case letters, digits and dashes, like
    `got-world`; empty makes one from the name), what it shows, screenshots, credits and licence.
-   Don't delete or rename the form's headings: the bot reads your answers under them.
+   The first screenshot becomes the map's picture in the game. Don't delete or rename the form's headings: the bot reads your answers under them.
 4. Submit. Within minutes the bot downloads the file and checks it the way the game will (a real map
    of picture tiles, 500 MB or less, matching the checksum if you gave one), and either puts it on the
    list (✅ **This map is on the list**) or says exactly what to fix (❌ **This post needs changes**,

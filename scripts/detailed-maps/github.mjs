@@ -1,11 +1,14 @@
 // GitHub, as the detailed maps scripts need it: the posts and their comments,
 // the releases the map files go in, and the files on the detailed-maps-index
 // branch. Kept apart from the hub's own client (scripts/lib/github.mjs): the
-// two workflows share nothing but the repository.
+// two workflows share nothing but the repository, and the hub's downloader
+// for pictures dragged into a post.
 
 import fs from "node:fs";
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
+import { discardFile, downloadFile } from "../lib/download.mjs";
+import { MAX_PICTURE_BYTES } from "../lib/pictures.mjs";
 import { DATA_BRANCH, LABEL } from "./maps.mjs";
 
 const API = "https://api.github.com";
@@ -141,6 +144,18 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, fetchImpl 
       });
       if (!response.ok) throw new GitHubError(`GitHub answered ${response.status} to downloading ${asset.name}`, response.status);
       await pipeline(Readable.fromWeb(response.body), fs.createWriteStream(dest));
+    },
+
+    // A picture dragged into a post, to disk: from GitHub's own hosts only,
+    // and no bigger than the hub takes a scenario's cover.
+    downloadAttachment: async (url, dest) => {
+      const downloaded = await downloadFile(url, { maxBytes: MAX_PICTURE_BYTES });
+      if (downloaded.tooLarge) throw new GitHubError(`the picture is over ${MAX_PICTURE_BYTES} bytes`);
+      try {
+        fs.copyFileSync(downloaded.file, dest);
+      } finally {
+        discardFile(downloaded.file);
+      }
     },
 
     // A JSON file from the data branch, or null before the first run.

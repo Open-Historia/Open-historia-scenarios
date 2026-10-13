@@ -7,6 +7,7 @@ import { checkForm, parseForm } from "../detailed-maps/form.mjs";
 import { ARCHIVE_RELEASE, LIST_FILE, PAGE_FILE, PROBLEM_LABEL, STATE_FILE, emptyList, findMap } from "../detailed-maps/maps.mjs";
 import { inspectMap, zxyToTileId } from "../detailed-maps/pmtiles.mjs";
 import { MARKER, changeMap, openStore, syncDetailedMaps } from "../detailed-maps/sync.mjs";
+import { png } from "./fixtures.mjs";
 
 const REPO = "Open-Historia/Open-historia-scenarios";
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "detailed-maps-test-"));
@@ -62,6 +63,7 @@ const fakeGitHub = () => {
   const releases = [];
   const data = {};
   const commits = [];
+  const attachments = {};
   const client = {
     repo: REPO,
     listPosts: async () => posts.filter((post) => post.labels.some((label) => label.name === "detailed map")).map((post) => ({ ...post })),
@@ -100,6 +102,11 @@ const fakeGitHub = () => {
       const stored = releases.flatMap((release) => release.assets).find((entry) => entry.id === asset.id);
       fs.writeFileSync(dest, stored.bytes);
     },
+    // Pictures dragged into posts: served when they are in `attachments`.
+    downloadAttachment: async (url, dest) => {
+      if (!attachments[url]) throw new Error("GitHub answered 404");
+      fs.writeFileSync(dest, attachments[url]);
+    },
     readData: async (file) => (data[file] ? JSON.parse(data[file]) : null),
     writeData: async (files, message) => {
       Object.assign(data, files);
@@ -111,7 +118,7 @@ const fakeGitHub = () => {
     posts.push({ number, body: text, state: "open", state_reason: null, user: { login: user }, labels: [{ name: "detailed map" }] });
   };
   const editPost = (number, changes) => Object.assign(posts.find((entry) => entry.number === number), changes);
-  return { client, posts, comments, releases, data, commits, addPost, editPost, list: () => JSON.parse(data[LIST_FILE]), state: () => JSON.parse(data[STATE_FILE]) };
+  return { client, posts, comments, releases, data, commits, attachments, addPost, editPost, list: () => JSON.parse(data[LIST_FILE]), state: () => JSON.parse(data[STATE_FILE]) };
 };
 
 // Downloads served from local files, counted.
@@ -296,6 +303,45 @@ test("archiving moves the file out of reach, and restoring brings it back", asyn
   assert.equal(map.versions[0].url, `https://github.com/${REPO}/releases/download/detailed-maps-1/arch-v1.pmtiles`);
   assert.equal(archived.assets.length, 0);
   await assert.rejects(changeMap({ store, action: "restore", id: "arch", today: "2026-10-12" }), /isn't archived/);
+});
+
+test("a version's first screenshot is copied next to its file, and the list points the game at the copy", async () => {
+  const github = fakeGitHub();
+  const file = makeMap("shot.pmtiles");
+  const { download } = fakeDownloads({ "https://example.com/a.pmtiles": file });
+  const picture = png({ width: 8, height: 6 });
+  github.attachments["https://github.com/user-attachments/assets/0000"] = picture;
+  github.addPost(10, body({ id: "shot" }));
+  assert.equal((await syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} })).released, 1);
+  const url = `https://github.com/${REPO}/releases/download/detailed-maps-1/shot-v1.png`;
+  assert.equal(findMap(github.list(), "shot").versions[0].preview, url);
+  assert.ok(github.releases[0].assets.find((asset) => asset.url === url).bytes.equals(picture));
+});
+
+test("a screenshot is archived, restored and deleted with its map's file", async () => {
+  const github = fakeGitHub();
+  const { download } = fakeDownloads({ "https://example.com/a.pmtiles": makeMap("pic.pmtiles") });
+  github.attachments["https://github.com/user-attachments/assets/0000"] = png();
+  github.addPost(11, body({ id: "pic" }));
+  await syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} });
+  const names = (tag) => github.releases.find((release) => release.tag === tag).assets.map((asset) => asset.name).sort();
+
+  let store = await openStore({ client: github.client, workDir: path.join(temp, "work"), log: () => {} });
+  await changeMap({ store, action: "archive", id: "pic", today: "2026-10-13" });
+  await store.save("Archive pic");
+  assert.deepEqual(names(ARCHIVE_RELEASE), ["pic-v1.pmtiles", "pic-v1.png"]);
+  assert.deepEqual(names("detailed-maps-1"), []);
+
+  store = await openStore({ client: github.client, workDir: path.join(temp, "work"), log: () => {} });
+  await changeMap({ store, action: "restore", id: "pic", today: "2026-10-13" });
+  await store.save("Restore pic");
+  assert.equal(findMap(github.list(), "pic").versions[0].preview, `https://github.com/${REPO}/releases/download/detailed-maps-1/pic-v1.png`);
+  assert.deepEqual(names("detailed-maps-1"), ["pic-v1.pmtiles", "pic-v1.png"]);
+
+  github.editPost(11, { state: "closed", state_reason: "not_planned" });
+  await syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} });
+  assert.deepEqual(names("detailed-maps-1"), []);
+  assert.equal(findMap(github.list(), "pic").versions[0].preview, undefined);
 });
 
 test("a download that fails for a passing reason is tried again on the next run, without an edit", async () => {

@@ -61,7 +61,7 @@ body:
     id: preview
     attributes:
       label: Screenshots
-      description: Drag in one or two screenshots, one zoomed out and one zoomed in close.
+      description: Drag in one or two screenshots, one zoomed out and one zoomed in close. The first one becomes the map's picture in the game.
     validations:
       required: true
   - type: textarea

@@ -46,6 +46,8 @@ import {
 } from "./maps.mjs";
 import { buildPage } from "./page.mjs";
 import { inspectMap, megabytes } from "./pmtiles.mjs";
+import { imageType } from "../lib/images.mjs";
+import { firstHubImage } from "../lib/posts.mjs";
 
 export const MARKER = "<!-- detailed-map-check -->";
 const BOT = "github-actions[bot]";
@@ -213,6 +215,28 @@ const waitingComment = (reason) => [
 
 // ---- one post ---------------------------------------------------------------------
 
+// The first screenshot in the post, copied next to the version's file as
+// "<id>-v<version>.<type>" so the game can show it on the map's card (it shows
+// pictures from the hub's releases only, as it does a scenario's cover).
+// Resolves its address, or "" when there is no picture to copy: a screenshot
+// is a nicety, and never holds a map back.
+const copyPreview = async ({ client, store, release, form, id, version, workDir, log }) => {
+  const source = firstHubImage(form.preview);
+  if (!source) return "";
+  const file = path.join(workDir, `${id}-preview`);
+  try {
+    await client.downloadAttachment(source, file);
+    const type = imageType(fs.readFileSync(file));
+    if (!type) return "";
+    return (await store.putAsset(release, `${id}-v${version}.${type}`, file)).url;
+  } catch (error) {
+    log(`${id} version ${version}: no preview (${error?.message || error})`);
+    return "";
+  } finally {
+    fs.rmSync(file, { force: true });
+  }
+};
+
 const checkPost = async ({ client, store, issue, record, workDir, download, inspect, hashFile, today, log }) => {
   const { list, state } = store;
   const number = issue.number;
@@ -272,7 +296,8 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     const version = map ? Math.max(...map.versions.map((entry) => entry.version)) + 1 : 1;
     const release = await store.currentRelease();
     const asset = await store.putAsset(release, assetNameOf(id, version), file);
-    const entry = addVersion(list, { id, version, url: asset.url, bytes: check.bytes, sha256: check.sha256, name, author, license, post: number, released: today });
+    const preview = await copyPreview({ client, store, release, form, id, version, workDir, log });
+    const entry = addVersion(list, { id, version, url: asset.url, bytes: check.bytes, sha256: check.sha256, preview, name, author, license, post: number, released: today });
     if (map) updateDetails(entry, { name, license });
     record.id = id;
     record.link = form.download;
@@ -294,19 +319,33 @@ export const changeMap = async ({ store, action, id, version = null, reason = ""
   const map = findMap(store.list, id);
   if (!map) throw new Error(`There is no map "${id}" in the list.`);
   const versions = versionsFor(map, version, action);
+  // A version's screenshot (copyPreview) goes wherever its file goes.
+  const previewName = (entry) => (entry.preview ? decodeURIComponent(entry.preview.split("/").pop()) : "");
+  const movePreview = async (entry, to) => {
+    if (entry.preview) entry.preview = (await store.moveAsset(previewName(entry), to)).url;
+  };
   if (action === "archive") {
     const to = await store.archiveRelease();
     const urls = {};
-    for (const entry of versions.filter((item) => !item.archived)) urls[entry.version] = (await store.moveAsset(assetNameOf(id, entry.version), to)).url;
+    for (const entry of versions.filter((item) => !item.archived)) {
+      urls[entry.version] = (await store.moveAsset(assetNameOf(id, entry.version), to)).url;
+      await movePreview(entry, to);
+    }
     archive(map, versions, { reason, date: today, urls });
   } else if (action === "restore") {
     const to = await store.currentRelease();
     const back = versions.filter((entry) => entry.archived);
     const urls = {};
-    for (const entry of back) urls[entry.version] = (await store.moveAsset(assetNameOf(id, entry.version), to)).url;
+    for (const entry of back) {
+      urls[entry.version] = (await store.moveAsset(assetNameOf(id, entry.version), to)).url;
+      await movePreview(entry, to);
+    }
     restore(map, back, { urls });
   } else if (action === "delete") {
-    for (const entry of versions) await store.dropAsset(assetNameOf(id, entry.version));
+    for (const entry of versions) {
+      await store.dropAsset(assetNameOf(id, entry.version));
+      if (entry.preview) await store.dropAsset(previewName(entry));
+    }
     remove(map, versions, { reason, date: today });
   } else {
     throw new Error(`"${action}" is not archive, restore or delete.`);

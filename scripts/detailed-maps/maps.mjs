@@ -137,7 +137,7 @@ export const idProblem = (list, id, name = "") => {
 };
 
 // Adds one checked version, making the map when it is new.
-export const addVersion = (list, { id, version, url, bytes, sha256, name, author, license, post, released }) => {
+export const addVersion = (list, { id, version, url, bytes, sha256, preview, name, author, license, post, released }) => {
   let map = findMap(list, id);
   if (map?.deleted) throw new Error(`${id} was deleted, so it can't have new versions.`);
   if (map?.versions.some((entry) => entry.version === version)) throw new Error(`${id} already has a version ${version}.`);
@@ -145,7 +145,7 @@ export const addVersion = (list, { id, version, url, bytes, sha256, name, author
     map = { id, name, ...(author ? { author, owners: [author] } : {}), license, post, versions: [] };
     list.basemaps.push(map);
   }
-  map.versions.push({ version, url, bytes, sha256, released });
+  map.versions.push({ version, url, bytes, sha256, ...(preview ? { preview } : {}), released });
   map.versions.sort((a, b) => a.version - b.version);
   return map;
 };
