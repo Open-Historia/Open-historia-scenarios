@@ -810,6 +810,11 @@
       "id": "the-old-ones",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-old-ones.mp3",
       "bodyHash": "334033875859bdcf4786205e3f5b30657b51c90e1c35233cbc8ef64090ccee2c"
+    },
+    "416": {
+      "id": "red",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/red.mp3",
+      "bodyHash": "9163858e24f6aef99262b24c3408e9611700ee218c6d73d592f3342102c02be8"
     }
   }
 }

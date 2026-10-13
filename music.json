@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:19:41.472Z",
+  "updated": "2026-10-13T22:19:45.058Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2003,6 +2003,24 @@
       "sha256": "59923ffab0832c3ab240cfa5465f9f6eb2cf3e8c6c3912e0eac554bd3e027393",
       "seconds": 255,
       "post": 301,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/red/",
+      "credit": "'Red' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/red-v1-ed72defe.mp3",
+      "type": "mp3",
+      "bytes": 8528635,
+      "sha256": "ed72defef8012ce963263409bf775e949cf16411dbbddf2b3d53a8297e9b288f",
+      "seconds": 213,
+      "post": 416,
       "postedBy": "Arkniem",
       "removed": false
     },
