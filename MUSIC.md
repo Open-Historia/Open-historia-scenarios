@@ -96,6 +96,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 7.7 MB | — |
 | [Wayfarer](https://github.com/Open-Historia/Open-historia-scenarios/issues/334) | `wayfarer` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
 | [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 15.6 MB | — |
+| [Where Stars Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) | `where-stars-fall` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 12.3 MB | — |
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
@@ -1092,6 +1093,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'What We Don't Say' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/what-we-dont-say-v1-c63c3e66.mp3) (version 1, posted by @Arkniem)
+
+### Where Stars Fall (`where-stars-fall`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/where-stars-fall/>
+- **Credit:**
+
+> 'Where Stars Fall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/where-stars-fall-v1-2e7e0f7c.mp3) (version 1, posted by @Arkniem)
 
 ### Wildflowers (`wildflowers`)
 
