@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:09:59.655Z",
+  "updated": "2026-10-13T22:10:04.113Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1352,6 +1352,24 @@
       "sha256": "7feb8c703983dbdfc97018f004cfebad8f03b86f2382c58c0ad24e375d4c17f5",
       "seconds": 254,
       "post": 317,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/neon/",
+      "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/neon-v1-3d0cb066.mp3",
+      "type": "mp3",
+      "bytes": 10366612,
+      "sha256": "3d0cb0662c74a33df9683a5650a862b4d84599affc71ccd060028f816586ff59",
+      "seconds": 259,
+      "post": 380,
       "postedBy": "Arkniem",
       "removed": false
     },

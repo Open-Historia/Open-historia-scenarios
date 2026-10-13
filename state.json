@@ -630,6 +630,11 @@
       "id": "march-of-midnight",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/march-of-midnight.mp3",
       "bodyHash": "c7b92910cc38e1382edccf683d6e52c9105eb6672eee0a8d8850c04e1a1b70b2"
+    },
+    "380": {
+      "id": "neon",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/neon.mp3",
+      "bodyHash": "bc3df1334d93727c2f31c9ea75aefb3e8f8cf57a41f7f11cc3b56927f360013f"
     }
   }
 }
