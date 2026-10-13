@@ -335,6 +335,11 @@
       "id": "in-search-of-solitude",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/in-search-of-solitude.mp3",
       "bodyHash": "95f98983d705b1ec9e35c66fa0ed7def2d9e299d26d16be58d450f323e5a2067"
+    },
+    "321": {
+      "id": "there-was-a-time",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/there-was-a-time.mp3",
+      "bodyHash": "f18f042cbef9de6decd28a21a18c0603985feb19c3a7b6f6862f8a707390fee2"
     }
   }
 }
