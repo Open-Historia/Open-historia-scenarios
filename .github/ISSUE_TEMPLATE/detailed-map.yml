@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Updating a map you already posted? Don't make a new post: edit your old one** with the new download link. A new post makes a separate map, and scenarios that use the old one are never offered it.
+
         A **detailed map** is drawn on top of a scenario's basemap and stays sharp from the whole world down to single castles. It is far too big to go inside a scenario, so it lives here and scenarios only name it. ([More about detailed maps](https://github.com/Open-Historia/Open-historia-scenarios#post-a-detailed-map))
 
         **The file is too big to drag in here.** Put it online somewhere it can be downloaded directly (a release on your own GitHub works best) and paste the link below. It is checked automatically and copied into this repository; once it's on the list you can delete your copy.
@@ -56,7 +58,7 @@ body:
     id: changes
     attributes:
       label: What changed? (updates only)
-      description: When you edit this post with a new file, say what's different, so players can decide whether to download it again.
+      description: Leave empty for a new map. Releasing an update? Replace this with what's new in it (players see it in the game before downloading). Each version keeps its own note, and the bot posts it in a comment, so you don't need to keep older ones here.
   - type: textarea
     id: preview
     attributes:

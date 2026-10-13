@@ -39,14 +39,14 @@ const makeMap = (name, { tileType = 2, tile = "TILE-A" } = {}) => {
   return file;
 };
 
-const body = ({ name = "Test world", id = "", link = "https://example.com/a.pmtiles", sha = "", credits = "Made by me, from [OSM](https://osm.org)", licence = "CC BY-SA 4.0", ticks = 4 } = {}) => [
+const body = ({ name = "Test world", id = "", link = "https://example.com/a.pmtiles", sha = "", credits = "Made by me, from [OSM](https://osm.org)", licence = "CC BY-SA 4.0", ticks = 4, changes = "" } = {}) => [
   "### Map name", "", name, "",
   "### Map ID", "", id || "_No response_", "",
   "### Download link to the .pmtiles file", "", link, "",
   "### File size", "", "1 MB", "",
   "### SHA-256 checksum (optional)", "", sha || "_No response_", "",
   "### What does the map show?", "", "A test world.", "",
-  "### What changed? (updates only)", "", "_No response_", "",
+  "### What changed? (updates only)", "", changes || "_No response_", "",
   "### Screenshots", "", "![a](https://github.com/user-attachments/assets/0000)", "",
   "### Who made it, and what is it based on?", "", credits, "",
   "### Licence", "", licence, "",
@@ -214,6 +214,29 @@ test("a post is released, its words edited without a download, and a new file be
   assert.equal(findMap(github.list(), "test-world").versions.length, 2);
 });
 
+test("what changed is kept with its version, shown in the post's history, and never carried to the next version", async () => {
+  const github = fakeGitHub();
+  const files = { "https://example.com/v1.pmtiles": makeMap("n1.pmtiles", { tile: "N1" }), "https://example.com/v2.pmtiles": makeMap("n2.pmtiles", { tile: "N2!" }), "https://example.com/v3.pmtiles": makeMap("n3.pmtiles", { tile: "N3!!" }) };
+  const { download } = fakeDownloads(files);
+  const run = () => syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} });
+  github.addPost(12, body({ id: "notes", link: "https://example.com/v1.pmtiles" }));
+  await run();
+
+  github.editPost(12, { body: body({ id: "notes", link: "https://example.com/v2.pmtiles", changes: "Sharper **coasts** around the bay." }) });
+  await run();
+  let map = findMap(github.list(), "notes");
+  assert.equal(map.versions[0].notes, undefined);
+  assert.equal(map.versions[1].notes, "Sharper coasts around the bay.");
+  assert.match(github.comments.get(12).at(-1).body, /Version 2 of `notes` is released[\s\S]*\*\*What changed:\*\* Sharper coasts around the bay\./);
+
+  // A new file, the box left as it was: the old note is not version 3's.
+  github.editPost(12, { body: body({ id: "notes", link: "https://example.com/v3.pmtiles", changes: "Sharper **coasts** around the bay." }) });
+  await run();
+  map = findMap(github.list(), "notes");
+  assert.equal(map.versions[2].notes, undefined);
+  assert.doesNotMatch(github.comments.get(12).at(-1).body, /What changed/);
+});
+
 test("a post with a problem is told what to fix, and labelled until it is fixed", async () => {
   const github = fakeGitHub();
   const file = makeMap("fix.pmtiles");
@@ -236,6 +259,19 @@ test("a post with a problem is told what to fix, and labelled until it is fixed"
   assert.match(statusOf(github, 9), /on the list/);
   // The status comment was edited, which notifies no one, so a new one says so.
   assert.match(github.comments.get(9).at(-1).body, /^✅ `test-world` is on the list\.$/);
+});
+
+test("a file that is already another map's version is refused, so an update goes on the map's own post", async () => {
+  const github = fakeGitHub();
+  const file = makeMap("original.pmtiles", { tile: "ORIGINAL" });
+  const { download } = fakeDownloads({ "https://example.com/a.pmtiles": file });
+  const run = () => syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} });
+  github.addPost(1, body({ id: "first" }));
+  await run();
+  github.addPost(2, body({ id: "second" }), "someone-else");
+  assert.equal((await run()).problem, 1);
+  assert.match(statusOf(github, 2), /already version 1 of `first` \(#1\)[\s\S]*edit that map's post/);
+  assert.equal(findMap(github.list(), "second"), null);
 });
 
 test("two posts can't share an ID, and the older one has it", async () => {
