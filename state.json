@@ -430,6 +430,11 @@
       "id": "affirmations",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/affirmations.mp3",
       "bodyHash": "10e437504db14e4801a137a3e61b65bd7efef3f3c2b2a6288a13ba714752d80d"
+    },
+    "340": {
+      "id": "celestial",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/celestial.mp3",
+      "bodyHash": "880d6d10143df506c3a829a94b97191c750650d10988c4fdc3161b9f525e8c48"
     }
   }
 }
