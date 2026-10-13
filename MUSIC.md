@@ -41,6 +41,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
+| [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
@@ -456,6 +457,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Memories Of Stone' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/memories-of-stone-v1-1ad908e4.mp3) (version 1, posted by @Arkniem)
+
+### Moonlight (`moonlight`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/moonlight/>
+- **Credit:**
+
+> 'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/moonlight-v1-7feb8c70.mp3) (version 1, posted by @Arkniem)
 
 ### Origami (`origami`)
 
