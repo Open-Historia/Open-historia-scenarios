@@ -1180,6 +1180,11 @@
       "id": "yellow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/yellow.mp3",
       "bodyHash": "263cbc5cd6d7311884de290f9d1f206cb994752c61d7cebee782915ad2623ef2"
+    },
+    "490": {
+      "id": "new-beginnings",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/new-beginnings.mp3",
+      "bodyHash": "ce25996bc9b1f6229720343c000b67ac18784b2b3cafb6b149882f1d5bfdcb91"
     }
   }
 }

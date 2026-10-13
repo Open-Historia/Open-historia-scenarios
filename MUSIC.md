@@ -142,6 +142,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 15.3 MB | — |
+| [New Beginnings](https://github.com/Open-Historia/Open-historia-scenarios/issues/490) | `new-beginnings` | Scott Buckley | CC BY 4.0 | 1:43 | 1.6 MB | — |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
 | [Oblivion Overture](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) | `oblivion-overture` | Scott Buckley | CC BY 4.0 | 1:56 | 2.7 MB | — |
@@ -1740,6 +1741,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v1-4058afd7.mp3) (version 1, posted by @Arkniem)
+
+### New Beginnings (`new-beginnings`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/new-beginnings/>
+- **Credit:**
+
+> 'New Beginnings' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/490) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/new-beginnings-v1-ed92c4be.mp3) (version 1, posted by @Arkniem)
 
 ### Nightfall (`nightfall`)
 

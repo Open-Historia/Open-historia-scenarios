@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:37:23.882Z",
+  "updated": "2026-10-13T22:37:28.522Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2450,6 +2450,24 @@
       "sha256": "4058afd709b398a4eaa38252dc47397ee00a67eb6a80553795deb211a1c9f4c2",
       "seconds": 402,
       "post": 443,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "new-beginnings",
+      "name": "New Beginnings",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/new-beginnings/",
+      "credit": "'New Beginnings' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/new-beginnings-v1-ed92c4be.mp3",
+      "type": "mp3",
+      "bytes": 1658001,
+      "sha256": "ed92c4be9e1c10e89c845d149958847c0a1d6b40db5383a1c927ac591fd58e51",
+      "seconds": 103,
+      "post": 490,
       "postedBy": "Arkniem",
       "removed": false
     },
