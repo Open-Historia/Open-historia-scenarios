@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:30:54.225Z",
+  "updated": "2026-10-13T22:30:58.921Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1766,6 +1766,24 @@
       "sha256": "de84d3073bebab79a6b2946545124890c9895371a5232ec96db53cbee1bc3c97",
       "seconds": 136,
       "post": 401,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "love-conquers",
+      "name": "Love Conquers",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/love-conquers/",
+      "credit": "'Love Conquers' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/love-conquers-v1-686cb299.mp3",
+      "type": "mp3",
+      "bytes": 6951740,
+      "sha256": "686cb299507b193e153d56e0cd453e7fa79462d23705472cfcfe6c804423b225",
+      "seconds": 186,
+      "post": 461,
       "postedBy": "Arkniem",
       "removed": false
     },
