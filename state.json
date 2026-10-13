@@ -610,6 +610,11 @@
       "id": "undertow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/undertow.mp3",
       "bodyHash": "46754613a0267daf3dcfbc2ac578b9b371c6a1e1911d62d213ab784a7262f03a"
+    },
+    "376": {
+      "id": "emergent",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/emergent.mp3",
+      "bodyHash": "f950efa407802a35101271ae2897e659d8415be5293967a06fe50d9315238ef0"
     }
   }
 }
