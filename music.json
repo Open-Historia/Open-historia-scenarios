@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:39:09.172Z",
+  "updated": "2026-10-13T22:39:41.442Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3497,6 +3497,24 @@
       "sha256": "5be7859f5846bf80f93c4d936991e76616c8b147c178ba7e77b292191b3b5d48",
       "seconds": 206,
       "post": 268,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "soul-searcher",
+      "name": "Soul Searcher",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/soul-searcher/",
+      "credit": "'Soul Searcher' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/soul-searcher-v1-df90d080.mp3",
+      "type": "mp3",
+      "bytes": 5085131,
+      "sha256": "df90d08088922d7a306e768af19c2f122b99c563cf5788ab5dca76ed6591ba96",
+      "seconds": 317,
+      "post": 500,
       "postedBy": "Arkniem",
       "removed": false
     },

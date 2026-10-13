@@ -1230,6 +1230,11 @@
       "id": "primal-carnage",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/primal-carnage.mp3",
       "bodyHash": "69838caa106ab56b57ac0eba2a350c3946d33cd07094960e8e5bbdabf0f70175"
+    },
+    "500": {
+      "id": "soul-searcher",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/soul-searcher.mp3",
+      "bodyHash": "4bb34c3c031aa0537e66b8d63a55383b70fbaeb032ee14f712bd0946b092c495"
     }
   }
 }

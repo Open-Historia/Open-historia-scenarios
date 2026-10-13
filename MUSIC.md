@@ -200,6 +200,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Solstice](https://github.com/Open-Historia/Open-historia-scenarios/issues/432) | `solstice` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
+| [Soul Searcher](https://github.com/Open-Historia/Open-historia-scenarios/issues/500) | `soul-searcher` | Scott Buckley | CC BY 4.0 | 5:17 | 4.8 MB | — |
 | [Special Ops](https://github.com/Open-Historia/Open-historia-scenarios/issues/485) | `special-ops` | Scott Buckley | CC BY 4.0 | 3:32 | 3.2 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
 | [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 9.7 MB | — |
@@ -2388,6 +2389,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Song Of The Forge' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/song-of-the-forge-v1-5be7859f.mp3) (version 1, posted by @Arkniem)
+
+### Soul Searcher (`soul-searcher`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/soul-searcher/>
+- **Credit:**
+
+> 'Soul Searcher' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/500) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/soul-searcher-v1-df90d080.mp3) (version 1, posted by @Arkniem)
 
 ### Special Ops (`special-ops`)
 
