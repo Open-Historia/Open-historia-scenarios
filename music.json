@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:44:21.963Z",
+  "updated": "2026-10-13T22:44:25.542Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2141,6 +2141,24 @@
       "sha256": "6cf8094c7277b33190cfd9ccedd04dacc487bd96c7214f26a8d5b7d0e848db07",
       "seconds": 390,
       "post": 309,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "legionnaire-scott-buckley",
+      "name": "Legionnaire",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/legionnaire/",
+      "credit": "'Legionnaire (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-scott-buckley-v1-49230c85.mp3",
+      "type": "mp3",
+      "bytes": 3622107,
+      "sha256": "49230c850b0d3a278aee2871ca684cf4bc87bf4dd1ecc8f453f425bff2dce27c",
+      "seconds": 184,
+      "post": 516,
       "postedBy": "Arkniem",
       "removed": false
     },

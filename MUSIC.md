@@ -125,6 +125,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
 | [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 2.6 MB | — |
 | [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 14.9 MB | — |
+| [Legionnaire](https://github.com/Open-Historia/Open-historia-scenarios/issues/516) | `legionnaire-scott-buckley` | Scott Buckley | CC BY 4.0 | 3:04 | 3.5 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
 | [Life in Silico](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) | `life-in-silico` | Scott Buckley | CC BY 4.0 | 3:56 | 9.0 MB | — |
@@ -1579,6 +1580,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Legacy' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legacy-v1-6cf8094c.mp3) (version 1, posted by @Arkniem)
+
+### Legionnaire (`legionnaire-scott-buckley`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/legionnaire/>
+- **Credit:**
+
+> 'Legionnaire (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/516) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-scott-buckley-v1-49230c85.mp3) (version 1, posted by @Arkniem)
 
 ### Legionnaire (2022 Remaster) (`legionnaire`)
 

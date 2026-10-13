@@ -1310,6 +1310,11 @@
       "id": "the-waster-ost",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-waster-ost.mp3",
       "bodyHash": "8e1ebe0b9c5d1edb176986f2268ec368c12f268d1252600a69fe3a85058f4bba"
+    },
+    "516": {
+      "id": "legionnaire-scott-buckley",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/legionnaire-scott-buckley.mp3",
+      "bodyHash": "25b1474e8528bb57a9ea7ac1707bbbbbcc4327dc31e5de8c105fd0df397689c3"
     }
   }
 }
