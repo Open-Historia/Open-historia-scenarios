@@ -700,6 +700,11 @@
       "id": "the-endurance",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-endurance.mp3",
       "bodyHash": "2653953c035f5053f1f21f9c85ee0059344261ba91d0bfb5ce23404a85e00f1d"
+    },
+    "394": {
+      "id": "the-fall",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-fall.mp3",
+      "bodyHash": "cc6b98298837e94ed301398d1524c88679a73048b5b9e3a5f279a8208ed9f4ee"
     }
   }
 }
