@@ -25,6 +25,7 @@ import { featureCollectionProblem, looksLikeFeatureCollection, pmtilesProblem } 
 import { IMAGE_MIME } from "./images.mjs";
 import { base64Bytes, checkPicture, isDataAddress } from "./pictures.mjs";
 import { Findings, MAX_DEPTH, Slots, checkDocument } from "./rules.mjs";
+import { checkScenarioMusic } from "./scenario-music.mjs";
 import { MIB, Problem, count, isRecord, quoted, sizeText, utf8OrNull } from "./util.mjs";
 import { packEntry, readZip, writeZip } from "./zip.mjs";
 
@@ -297,6 +298,9 @@ const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) =
   const world = part(data, "world", "data.world");
   part(data, "game", "data.game");
   part(data, "prompts", "data.prompts");
+  // Its music is tracks of the hub's music list, named by their IDs, and
+  // nothing else (scenario-music.mjs).
+  checkScenarioMusic(scenario?.music, { label, findings });
 
   let changed = false;
   const slots = new Slots();

@@ -1,0 +1,58 @@
+# Checks the hub's background music posts (issues labelled "music"), copies
+# each checked track's file into the "music" release, and writes the list the
+# game reads (music.json, with MUSIC.md for people, which is where the hub
+# credits the music) to the music-index branch.
+#
+# Only the hub's contributors can post music, for copyright reasons: a post
+# whose author GitHub does not report as the repository's owner, a member or a
+# collaborator is closed with a note, and nothing of it is downloaded. A
+# contributor's post with a problem gets a comment saying what to fix; editing
+# the post with a different file releases the next version; closing it as
+# "not planned" removes the track for good.
+#
+# Apart from the hub's other workflows: "Copy post files to releases" looks at
+# scenario, flag and basemap posts only, "Detailed maps" at detailed map posts
+# only, and this one at music posts only, so none changes what another does.
+#
+# Every run looks at every music post, so a skipped run is made up by the
+# next. A file is downloaded only when its post's link changed.
+name: Background music
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed, labeled]
+  # Picks up a download that failed for a reason that passes (the host or
+  # GitHub being unwell).
+  schedule:
+    - cron: "47 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# One run at a time: two runs would both write the list.
+concurrency:
+  group: music
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'Open-Historia/Open-historia-scenarios' && (github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'music'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      # No packages: the scripts read MP3 and Ogg files themselves. Nothing a
+      # post says reaches a shell: the script reads the posts through the API.
+      - name: Check the posts, publish the tracks and write the list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-music.mjs
