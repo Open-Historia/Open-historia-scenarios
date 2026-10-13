@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:19:13.231Z",
+  "updated": "2026-10-13T22:19:41.472Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2543,6 +2543,24 @@
       "sha256": "b5f9b2e110ccfb52c7dd0c810d06ac2cbbfefb85262afa8bad56f068959f56e0",
       "seconds": 212,
       "post": 359,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-old-ones",
+      "name": "The Old Ones",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-old-ones/",
+      "credit": "'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-old-ones-v1-6f933a86.mp3",
+      "type": "mp3",
+      "bytes": 12086530,
+      "sha256": "6f933a86122fade9ac69b848edf101a1dd286fac788488466b1b77f0e89721ec",
+      "seconds": 302,
+      "post": 415,
       "postedBy": "Arkniem",
       "removed": false
     },

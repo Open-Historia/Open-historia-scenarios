@@ -805,6 +805,11 @@
       "id": "the-black-waltz",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-black-waltz.mp3",
       "bodyHash": "7d23cf64630dd158cfd592a0d530ec38e18914b8ffa8c8b749f7775fd0b4d891"
+    },
+    "415": {
+      "id": "the-old-ones",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-old-ones.mp3",
+      "bodyHash": "334033875859bdcf4786205e3f5b30657b51c90e1c35233cbc8ef64090ccee2c"
     }
   }
 }
