@@ -555,6 +555,11 @@
       "id": "solace",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solace.mp3",
       "bodyHash": "16ef9c8c559a46382cd069c15379f3d9dafa1eb123bbe83cce89c553fe85ad27"
+    },
+    "365": {
+      "id": "helios",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/helios.mp3",
+      "bodyHash": "6bc3a8e0a8d24ce582276845625c3911bdbfbba7dd3179867930795b2ddd88eb"
     }
   }
 }
