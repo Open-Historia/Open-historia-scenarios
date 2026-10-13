@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:40:19.300Z",
+  "updated": "2026-10-13T22:40:24.539Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2738,6 +2738,24 @@
       "sha256": "1dc013ac25375b2e59f993ebbe1551ef9392443519b0ca69e2d3f039550fd256",
       "seconds": 244,
       "post": 503,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "pariah",
+      "name": "Pariah",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/pariah/",
+      "credit": "'Pariah' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pariah-v1-1e7dd385.mp3",
+      "type": "mp3",
+      "bytes": 3614728,
+      "sha256": "1e7dd38578d52081de5ec643e22e730a1a82b91110288606a5efa442f85a1676",
+      "seconds": 155,
+      "post": 504,
       "postedBy": "Arkniem",
       "removed": false
     },

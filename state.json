@@ -1250,6 +1250,11 @@
       "id": "parasite",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/parasite.mp3",
       "bodyHash": "7f7ee19b3007888ace5db89ae6af66b5ca1433edab35f1ffefa89e711c01573a"
+    },
+    "504": {
+      "id": "pariah",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/pariah.mp3",
+      "bodyHash": "01aeefc37fb78bfef6fb72afd0c2047500c8bde32fa6d8db169757cdba0865bd"
     }
   }
 }

@@ -158,6 +158,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [One Falls to the Fire](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) | `one-falls-to-the-fire` | Scott Buckley | CC BY 4.0 | 3:50 | 5.3 MB | — |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Parasite](https://github.com/Open-Historia/Open-historia-scenarios/issues/503) | `parasite` | Scott Buckley | CC BY 4.0 | 4:04 | 5.7 MB | — |
+| [Pariah](https://github.com/Open-Historia/Open-historia-scenarios/issues/504) | `pariah` | Scott Buckley | CC BY 4.0 | 2:35 | 3.4 MB | — |
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 5.4 MB | — |
@@ -1930,6 +1931,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Parasite' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/503) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/parasite-v1-1dc013ac.mp3) (version 1, posted by @Arkniem)
+
+### Pariah (`pariah`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/pariah/>
+- **Credit:**
+
+> 'Pariah' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/504) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pariah-v1-1e7dd385.mp3) (version 1, posted by @Arkniem)
 
 ### Passage (`passage`)
 
