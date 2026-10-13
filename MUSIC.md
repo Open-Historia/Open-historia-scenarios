@@ -83,6 +83,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 10.5 MB | — |
 | [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 9.0 MB | — |
 | [Monomyth – The Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) | `the-distant-sun` | Scott Buckley | CC BY 4.0 | 3:44 | 8.6 MB | — |
+| [Monomyth – The Encounter](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) | `the-encounter` | Scott Buckley | CC BY 4.0 | 5:07 | 11.7 MB | — |
 | [Monomyth – The Exodus](https://github.com/Open-Historia/Open-historia-scenarios/issues/390) | `the-exodus` | Scott Buckley | CC BY 4.0 | 3:50 | 8.8 MB | — |
 | [Monomyth – The Spaces Between](https://github.com/Open-Historia/Open-historia-scenarios/issues/391) | `the-spaces-between` | Scott Buckley | CC BY 4.0 | 4:21 | 10.0 MB | — |
 | [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 10.2 MB | — |
@@ -993,6 +994,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'The Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-distant-sun-v1-d3671869.mp3) (version 1, posted by @Arkniem)
+
+### Monomyth – The Encounter (`the-encounter`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-encounter/>
+- **Credit:**
+
+> 'The Encounter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-encounter-v1-d105d6b9.mp3) (version 1, posted by @Arkniem)
 
 ### Monomyth – The Exodus (`the-exodus`)
 
