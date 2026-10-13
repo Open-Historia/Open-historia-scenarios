@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:44:17.940Z",
+  "updated": "2026-10-13T22:44:21.963Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4109,6 +4109,24 @@
       "sha256": "76de8cb11dcb883b8a062de45a29ae51035d01f757849f799863ed0f05a3717c",
       "seconds": 205,
       "post": 355,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-waster-ost",
+      "name": "The Waster (OST)",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-waster-ost/",
+      "credit": "'The Waster' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-waster-ost-v1-38f2aa8f.mp3",
+      "type": "mp3",
+      "bytes": 8792312,
+      "sha256": "38f2aa8f77f293dd6f97f3ee755ccba74d98ba46d9a32eef45cfe96ff858dffb",
+      "seconds": 232,
+      "post": 515,
       "postedBy": "Arkniem",
       "removed": false
     },

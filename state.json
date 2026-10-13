@@ -1305,6 +1305,11 @@
       "id": "eclipse",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/eclipse.mp3",
       "bodyHash": "f5d91f7abf32fabd9532217fd43c37598be87ec10752c13174a443cc8a1eb8fb"
+    },
+    "515": {
+      "id": "the-waster-ost",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-waster-ost.mp3",
+      "bodyHash": "8e1ebe0b9c5d1edb176986f2268ec368c12f268d1252600a69fe3a85058f4bba"
     }
   }
 }
