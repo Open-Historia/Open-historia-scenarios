@@ -75,6 +75,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Life in Silico](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) | `life-in-silico` | Scott Buckley | CC BY 4.0 | 3:56 | 9.0 MB | — |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 11.1 MB | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 14.7 MB | — |
+| [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
 | [Midsommar](https://github.com/Open-Historia/Open-historia-scenarios/issues/360) | `midsommar` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
@@ -892,6 +893,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Maleficus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/maleficus-v1-6949e9c9.mp3) (version 1, posted by @Arkniem)
+
+### March of Midnight (`march-of-midnight`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/march-of-midnight/>
+- **Credit:**
+
+> 'March of Midnight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/march-of-midnight-v1-da2f660d.mp3) (version 1, posted by @Arkniem)
 
 ### Meanwhile (`meanwhile`)
 

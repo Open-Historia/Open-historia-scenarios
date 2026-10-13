@@ -625,6 +625,11 @@
       "id": "filaments",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/filaments.mp3",
       "bodyHash": "77f117a8157399b3c135cdc991cf534a314fd18af0785c20f9cdb775fef96784"
+    },
+    "379": {
+      "id": "march-of-midnight",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/march-of-midnight.mp3",
+      "bodyHash": "c7b92910cc38e1382edccf683d6e52c9105eb6672eee0a8d8850c04e1a1b70b2"
     }
   }
 }
