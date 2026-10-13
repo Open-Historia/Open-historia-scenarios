@@ -440,6 +440,11 @@
       "id": "the-long-way-home",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-long-way-home.mp3",
       "bodyHash": "ae082d59641de058b9e8bbe02a429270190bbb9b952020899e4b9c90c05cc936"
+    },
+    "342": {
+      "id": "terminus",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/terminus.mp3",
+      "bodyHash": "70435fb76ada39779767210072f4dc882230deee7920002ab14ebcd5a476e753"
     }
   }
 }

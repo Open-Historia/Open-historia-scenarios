@@ -78,6 +78,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
+| [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 10.8 MB | — |
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 16.8 MB | — |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 6.6 MB | — |
@@ -888,6 +889,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Starfire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/starfire-v1-d97bd4c5.mp3) (version 1, posted by @Arkniem)
+
+### Terminus (`terminus`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/terminus/>
+- **Credit:**
+
+> 'Terminus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/terminus-v1-33ca7869.mp3) (version 1, posted by @Arkniem)
 
 ### The Great Sea (`the-great-sea`)
 
