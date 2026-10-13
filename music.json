@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:29:38.283Z",
+  "updated": "2026-10-13T21:29:42.692Z",
   "tracks": [
     {
       "id": "aphelion",
@@ -113,6 +113,24 @@
       "sha256": "0066b940bec49211769790ceaf086289a634c84189bb9131002252d8495997a4",
       "seconds": 271,
       "post": 253,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "phoenix-2026",
+      "name": "Phoenix (2026)",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/phoenix-2026/",
+      "credit": "'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v1-303e9daf.mp3",
+      "type": "mp3",
+      "bytes": 14178473,
+      "sha256": "303e9daf060ee930e6a8f7be96c8022c405f6c6353bbee5d2d29039c61ff8b02",
+      "seconds": 354,
+      "post": 264,
       "postedBy": "Arkniem",
       "removed": false
     },

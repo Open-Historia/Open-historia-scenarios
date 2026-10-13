@@ -12,6 +12,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
+| [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
@@ -84,6 +85,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v1-0066b940.mp3) (version 1, posted by @Arkniem)
+
+### Phoenix (2026) (`phoenix-2026`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/phoenix-2026/>
+- **Credit:**
+
+> 'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v1-303e9daf.mp3) (version 1, posted by @Arkniem)
 
 ### The Weight of Air – Anabasis II (`anabasis-ii`)
 
