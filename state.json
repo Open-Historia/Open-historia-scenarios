@@ -70,6 +70,11 @@
       "id": "wildflowers",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/wildflowers.mp3",
       "bodyHash": "2ab5493cfa111e5841dd35f6817d0fea17886baa0b459928031a1d5b54d2fe6b"
+    },
+    "268": {
+      "id": "song-of-the-forge",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/song-of-the-forge.mp3",
+      "bodyHash": "dfd3b2a5fc7a0bb1e9f7d4444213fc267642d09882118bfea56135ca9312f261"
     }
   }
 }

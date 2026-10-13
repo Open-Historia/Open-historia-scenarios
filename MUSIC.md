@@ -14,6 +14,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
+| [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
@@ -110,6 +111,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v1-303e9daf.mp3) (version 1, posted by @Arkniem)
+
+### Song Of The Forge (`song-of-the-forge`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/song-of-the-forge/>
+- **Credit:**
+
+> 'Song Of The Forge' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/song-of-the-forge-v1-5be7859f.mp3) (version 1, posted by @Arkniem)
 
 ### Starfire (`starfire`)
 
