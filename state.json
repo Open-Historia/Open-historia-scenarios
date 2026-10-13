@@ -650,6 +650,11 @@
       "id": "sleep",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sleep.mp3",
       "bodyHash": "edb45d8af30601677bc64e19bbd56e0fea8919ce6178f8bf769045a3bfc009a9"
+    },
+    "384": {
+      "id": "the-illusionist",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-illusionist.mp3",
+      "bodyHash": "f279e41231ea0c8fbc6b4c7c3a5ffa6e9358fd673a604d590cbf4c64de93b67c"
     }
   }
 }

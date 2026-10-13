@@ -114,6 +114,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 13.2 MB | — |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 10.8 MB | — |
+| [The Illusionist](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) | `the-illusionist` | Scott Buckley | CC BY 4.0 | 3:35 | 8.2 MB | — |
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 16.8 MB | — |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 6.6 MB | — |
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 8.1 MB | — |
@@ -1326,6 +1327,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'The Great Sea' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-great-sea-v1-f2c2d69a.mp3) (version 1, posted by @Arkniem)
+
+### The Illusionist (`the-illusionist`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-illusionist/>
+- **Credit:**
+
+> 'The Illusionist' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-illusionist-v1-79d77e41.mp3) (version 1, posted by @Arkniem)
 
 ### The Long Dark (`the-long-dark`)
 
