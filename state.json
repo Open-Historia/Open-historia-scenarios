@@ -925,6 +925,11 @@
       "id": "jade",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jade.mp3",
       "bodyHash": "94cb484e4b9d65c5b90d6fba54b8b21b45c26ca63a5d23721db95f5e67999e9e"
+    },
+    "439": {
+      "id": "stars-in-her-skies",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/stars-in-her-skies.mp3",
+      "bodyHash": "b94ddc8e706b410a89481886b2ec4af2b20e1fd98006573bd15e443213ecb9aa"
     }
   }
 }
