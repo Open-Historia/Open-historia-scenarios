@@ -840,6 +840,11 @@
       "id": "resonance",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/resonance.mp3",
       "bodyHash": "3e1dd858e40c775590412525a90464c0fd51289f898074a4c33e93fe026bf2a1"
+    },
+    "422": {
+      "id": "descent",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/descent.mp3",
+      "bodyHash": "2386ae7c4d5402616f567c8f38bbfb2d87417a238da757f28ea16b2b0757d19a"
     }
   }
 }
