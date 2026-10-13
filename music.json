@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:55:33.350Z",
+  "updated": "2026-10-13T21:55:37.664Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1355,6 +1355,24 @@
       "sha256": "28c6c03f77c08991f0b10dc0d84aa61e5de6814ea563847cb002cf33cdbeb086",
       "seconds": 202,
       "post": 300,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "wayfarer",
+      "name": "Wayfarer",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/wayfarer/",
+      "credit": "'Wayfarer' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wayfarer-v1-641b3db7.mp3",
+      "type": "mp3",
+      "bytes": 8889176,
+      "sha256": "641b3db74edf78b3bb4fa4e6f63ba24dc459fa01bc8c21d137553e121b3f789a",
+      "seconds": 222,
+      "post": 334,
       "postedBy": "Arkniem",
       "removed": false
     },
