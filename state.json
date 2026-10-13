@@ -345,6 +345,11 @@
       "id": "race-the-sun",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/race-the-sun.mp3",
       "bodyHash": "e9bd65c2fdeefb27f208fbc38ae8fc4b99b46105d90e9c4ef05542c4f864610c"
+    },
+    "323": {
+      "id": "age-of-wonder",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/age-of-wonder.mp3",
+      "bodyHash": "75e0cdfd93a3770e4e322fa5c99d945bf0f42563149c20c25f849155275bbbfb"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:51:53.112Z",
+  "updated": "2026-10-13T21:52:22.658Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -35,6 +35,24 @@
       "sha256": "d0dc554c0db9ea208b4f59e4f0c1b4446aa7ef622c7bfeffca278130a46c51f1",
       "seconds": 343,
       "post": 312,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "age-of-wonder",
+      "name": "Age of Wonder",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/age-of-wonder/",
+      "credit": "'Age of Wonder' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/age-of-wonder-v1-fc22227a.mp3",
+      "type": "mp3",
+      "bytes": 14041578,
+      "sha256": "fc22227a67a0d016271107e425204cacc1e59a4c4ae33a9326bc83107f6c760f",
+      "seconds": 351,
+      "post": 323,
       "postedBy": "Arkniem",
       "removed": false
     },

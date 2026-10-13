@@ -8,6 +8,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 |---|---|---|---|---|---|---|
 | [A Dragon’s Lullaby (2023 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) | `a-dragons-lullaby-2023` | Scott Buckley | CC BY 4.0 | 2:48 | 6.4 MB | — |
 | [A Kind Of Hope](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) | `a-kind-of-hope` | Scott Buckley | CC BY 4.0 | 5:43 | 13.1 MB | — |
+| [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 13.4 MB | — |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 16.1 MB | — |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 14.3 MB | — |
@@ -99,6 +100,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'A Kind Of Hope' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-kind-of-hope-v1-d0dc554c.mp3) (version 1, posted by @Arkniem)
+
+### Age of Wonder (`age-of-wonder`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/age-of-wonder/>
+- **Credit:**
+
+> 'Age of Wonder' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/age-of-wonder-v1-fc22227a.mp3) (version 1, posted by @Arkniem)
 
 ### Amberlight (`amberlight`)
 
