@@ -34,6 +34,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
+| [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 13.8 MB | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 13.9 MB | — |
@@ -471,6 +472,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Clear Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clear-skies-v1-0b71c446.mp3) (version 1, posted by @Arkniem)
+
+### Computations in a Snowstorm (`computations`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/computations/>
+- **Credit:**
+
+> 'Computations in a Snowstorm' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/computations-v1-1f0924d2.mp3) (version 1, posted by @Arkniem)
 
 ### Convergence (`convergence`)
 

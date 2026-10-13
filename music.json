@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:17:57.802Z",
+  "updated": "2026-10-13T22:18:02.353Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -503,6 +503,24 @@
       "sha256": "0b71c4460054e26f3a98cfe3477f3f967b8d5e4df0da1440ccc40d2a01eb31ab",
       "seconds": 195,
       "post": 289,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "computations",
+      "name": "Computations in a Snowstorm",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/computations/",
+      "credit": "'Computations in a Snowstorm' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/computations-v1-1f0924d2.mp3",
+      "type": "mp3",
+      "bytes": 14468922,
+      "sha256": "1f0924d25a2fe3020d354bbd578da00c5267d3faea7967c7c36c9247e4fca9e9",
+      "seconds": 362,
+      "post": 409,
       "postedBy": "Arkniem",
       "removed": false
     },
