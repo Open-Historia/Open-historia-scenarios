@@ -285,6 +285,11 @@
       "id": "first-snow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/first-snow.mp3",
       "bodyHash": "196b70296b04119f935ff5a6c26f7eee6688097cf258c42c29aa0168cf243843"
+    },
+    "311": {
+      "id": "hymn-to-the-dawn",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hymn-to-the-dawn.mp3",
+      "bodyHash": "1cb5a0b4074f2c44d90e1ff853957bb0dfa2eb8021cab552d751bd4f3a6e663a"
     }
   }
 }
