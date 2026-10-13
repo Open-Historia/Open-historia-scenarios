@@ -1120,6 +1120,11 @@
       "id": "sanctum",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sanctum.mp3",
       "bodyHash": "fe484c8c825cdba7f23253135301d98203f9d8add3a358c440af3615564dc4d9"
+    },
+    "478": {
+      "id": "icarus",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/icarus.mp3",
+      "bodyHash": "8c9c4bc667950466c87ee0f384ad8bf97785885c16e34ea0b37ee323bd010211"
     }
   }
 }
