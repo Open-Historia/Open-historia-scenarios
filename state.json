@@ -820,6 +820,11 @@
       "id": "static",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/static.mp3",
       "bodyHash": "61c24214942594013464c055280dc4f4923d55d1dbb5ca8c64be4b97331feae3"
+    },
+    "418": {
+      "id": "titan",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/titan.mp3",
+      "bodyHash": "287d63d7ca595e63c31e3903f03a7b0eb95b613063affd3c01f3ec3c08212a98"
     }
   }
 }

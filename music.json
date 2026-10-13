@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:19:48.901Z",
+  "updated": "2026-10-13T22:20:06.795Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2723,6 +2723,24 @@
       "sha256": "bace0727baafbd9274a58ce08c2b07b04e53c85265c3993d990f37792cd11401",
       "seconds": 200,
       "post": 305,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/titan/",
+      "credit": "'Titan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/titan-v1-fb921a09.mp3",
+      "type": "mp3",
+      "bytes": 7034419,
+      "sha256": "fb921a09cc6181228b14945c7a6b90b50a83f4f38a37644a383bf7c70ea83729",
+      "seconds": 176,
+      "post": 418,
       "postedBy": "Arkniem",
       "removed": false
     },
