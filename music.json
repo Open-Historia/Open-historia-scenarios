@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:34:09.036Z",
+  "updated": "2026-10-13T22:34:12.802Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2867,6 +2867,24 @@
       "sha256": "1119b63d91012466e5ff8486fa2f9ad036eab9ebaf2ebf7f2af2a23dc5769f3c",
       "seconds": 246,
       "post": 338,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "sanctum",
+      "name": "Sanctum",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/sanctum/",
+      "credit": "'Sanctum' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctum-v1-5ad7dc18.mp3",
+      "type": "mp3",
+      "bytes": 5957614,
+      "sha256": "5ad7dc183d2d18eb228d1a3db7695f45ea8fc9f6ba31de8cf769cbe4f68fac7f",
+      "seconds": 254,
+      "post": 477,
       "postedBy": "Arkniem",
       "removed": false
     },

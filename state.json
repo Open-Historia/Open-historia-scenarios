@@ -1115,6 +1115,11 @@
       "id": "light-in-dark-places",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/light-in-dark-places.mp3",
       "bodyHash": "9e7b070b4a3d05ef0d73782812cca8e9fca9174fb4487ceee62b5b955ac60a61"
+    },
+    "477": {
+      "id": "sanctum",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sanctum.mp3",
+      "bodyHash": "fe484c8c825cdba7f23253135301d98203f9d8add3a358c440af3615564dc4d9"
     }
   }
 }

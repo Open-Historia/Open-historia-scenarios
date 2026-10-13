@@ -165,6 +165,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 10.2 MB | — |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
 | [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 9.4 MB | — |
+| [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — |
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 7.8 MB | — |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 15.6 MB | — |
 | [She Moved Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/403) | `she-moved-mountains` | Scott Buckley | CC BY 4.0 | 5:13 | 11.9 MB | — |
@@ -1980,6 +1981,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Sanctuary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctuary-v1-1119b63d.mp3) (version 1, posted by @Arkniem)
+
+### Sanctum (`sanctum`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/sanctum/>
+- **Credit:**
+
+> 'Sanctum' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctum-v1-5ad7dc18.mp3) (version 1, posted by @Arkniem)
 
 ### Sentinel (`sentinel`)
 
