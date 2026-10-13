@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:55:17.082Z",
+  "updated": "2026-10-13T21:55:33.350Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1355,6 +1355,24 @@
       "sha256": "28c6c03f77c08991f0b10dc0d84aa61e5de6814ea563847cb002cf33cdbeb086",
       "seconds": 202,
       "post": 300,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "what-we-dont-say",
+      "name": "What We Don’t Say",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/what-we-dont-say/",
+      "credit": "'What We Don't Say' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/what-we-dont-say-v1-c63c3e66.mp3",
+      "type": "mp3",
+      "bytes": 16401998,
+      "sha256": "c63c3e66771a56cfbfa6ebdd91f387029e33b3821261f7d69868776910ac4292",
+      "seconds": 410,
+      "post": 333,
       "postedBy": "Arkniem",
       "removed": false
     },

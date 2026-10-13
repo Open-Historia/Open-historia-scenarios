@@ -81,6 +81,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 7.7 MB | — |
+| [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 15.6 MB | — |
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 12.3 MB | — |
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
@@ -912,6 +913,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Victor Lux' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/victor-lux-v1-28c6c03f.mp3) (version 1, posted by @Arkniem)
+
+### What We Don’t Say (`what-we-dont-say`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/what-we-dont-say/>
+- **Credit:**
+
+> 'What We Don't Say' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/what-we-dont-say-v1-c63c3e66.mp3) (version 1, posted by @Arkniem)
 
 ### Wildflowers (`wildflowers`)
 
