@@ -480,6 +480,11 @@
       "id": "the-climb",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-climb.mp3",
       "bodyHash": "8fc7940cb9b394b25890fcb2a4ccf6be5c7c473a849feb8837aa5d40d8f3ab70"
+    },
+    "350": {
+      "id": "precipice",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/precipice.mp3",
+      "bodyHash": "160da96f13729fc19b10a9907c7e4fd78dff78c07e108034726b4d2945508f55"
     }
   }
 }

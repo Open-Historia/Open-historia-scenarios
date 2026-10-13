@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:59:53.345Z",
+  "updated": "2026-10-13T22:00:22.709Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1139,6 +1139,24 @@
       "sha256": "303e9daf060ee930e6a8f7be96c8022c405f6c6353bbee5d2d29039c61ff8b02",
       "seconds": 354,
       "post": 264,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "precipice",
+      "name": "Precipice",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/precipice/",
+      "credit": "'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v1-14516700.mp3",
+      "type": "mp3",
+      "bytes": 4757610,
+      "sha256": "14516700c1560a490b057807c234645893315afff2bfe1a334e03d30ccfa00b4",
+      "seconds": 119,
+      "post": 350,
       "postedBy": "Arkniem",
       "removed": false
     },

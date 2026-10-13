@@ -69,6 +69,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
 | [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 17.1 MB | — |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
+| [Precipice](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) | `precipice` | Scott Buckley | CC BY 4.0 | 1:59 | 4.5 MB | — |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
@@ -797,6 +798,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v1-303e9daf.mp3) (version 1, posted by @Arkniem)
+
+### Precipice (`precipice`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/precipice/>
+- **Credit:**
+
+> 'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v1-14516700.mp3) (version 1, posted by @Arkniem)
 
 ### Race The Sun (`race-the-sun`)
 
