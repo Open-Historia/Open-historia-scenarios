@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:02:57.285Z",
+  "updated": "2026-10-13T22:03:27.739Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1064,6 +1064,24 @@
       "sha256": "1ad908e4c0e0c2a311300f6b69f2587f9161e15990ee01f18e00992f25d1b252",
       "seconds": 330,
       "post": 265,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "midsommar",
+      "name": "Midsommar",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/midsommar/",
+      "credit": "'Midsommar' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/midsommar-v1-2786e9c9.mp3",
+      "type": "mp3",
+      "bytes": 9363506,
+      "sha256": "2786e9c98341c7e2a20247852c1eed484097f5110feac7874ce80f3c255d0308",
+      "seconds": 234,
+      "post": 360,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -530,6 +530,11 @@
       "id": "the-miracle-of-flight",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-miracle-of-flight.mp3",
       "bodyHash": "3557ce3df6a7d5ce2756062d6646233d78fa617f54549469e17fddd0e8812c11"
+    },
+    "360": {
+      "id": "midsommar",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/midsommar.mp3",
+      "bodyHash": "9ac4b36f12ba24927fc547ef94658442c0fb06fd8490833132c32e3313f36175"
     }
   }
 }
