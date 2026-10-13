@@ -30,6 +30,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 14.3 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 9.4 MB | — |
+| [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 14.9 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
@@ -327,6 +328,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Into The Wilds' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-wilds-v1-a06467d9.mp3) (version 1, posted by @Arkniem)
+
+### Legacy (`legacy`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/legacy/>
+- **Credit:**
+
+> 'Legacy' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legacy-v1-6cf8094c.mp3) (version 1, posted by @Arkniem)
 
 ### Legionnaire (2022 Remaster) (`legionnaire`)
 

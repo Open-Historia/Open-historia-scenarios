@@ -275,6 +275,11 @@
       "id": "call-to-adventure",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/call-to-adventure.mp3",
       "bodyHash": "f9094253207dbf1ba4c64d6c00bc94d174bbec7d7104ae7d7ef2feaf6af14e92"
+    },
+    "309": {
+      "id": "legacy",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/legacy.mp3",
+      "bodyHash": "7280c952e36d878c604735de86f67140e270d0596304d886a6dc1fbc82fade1a"
     }
   }
 }
