@@ -234,6 +234,8 @@ test("a post with a problem is told what to fix, and labelled until it is fixed"
   assert.equal((await run()).released, 1);
   assert.ok(!github.posts[0].labels.some((label) => label.name === PROBLEM_LABEL));
   assert.match(statusOf(github, 9), /on the list/);
+  // The status comment was edited, which notifies no one, so a new one says so.
+  assert.match(github.comments.get(9).at(-1).body, /^✅ `test-world` is on the list\.$/);
 });
 
 test("two posts can't share an ID, and the older one has it", async () => {

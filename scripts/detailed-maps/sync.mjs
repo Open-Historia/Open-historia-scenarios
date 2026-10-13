@@ -305,7 +305,11 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     state.posts[number] = record;
     log(`#${number}: released ${id} version ${version} (${megabytes(check.bytes)} MB)`);
     const made = await setStatus(client, number, listedComment({ id, version, name, license, check }));
-    if (!made) await client.createComment(number, `✅ Version ${version} of \`${id}\` is released. Players who have an older version are offered the update.`);
+    if (!made) {
+      await client.createComment(number, version === 1
+        ? `✅ \`${id}\` is on the list.`
+        : `✅ Version ${version} of \`${id}\` is released. Players who have an older version are offered the update.`);
+    }
     return "released";
   } finally {
     fs.rmSync(file, { force: true });
