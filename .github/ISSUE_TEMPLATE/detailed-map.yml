@@ -79,11 +79,6 @@ body:
       placeholder: CC BY-NC-SA 3.0
     validations:
       required: true
-  - type: input
-    id: scenarios
-    attributes:
-      label: Scenarios that use it (optional)
-      description: Links to any scenarios built on this map.
   - type: checkboxes
     id: checks
     attributes:

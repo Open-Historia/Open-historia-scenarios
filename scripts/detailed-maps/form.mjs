@@ -17,7 +17,6 @@ const FIELDS = {
   preview: "Screenshots",
   credits: "Who made it, and what is it based on?",
   licence: "Licence",
-  scenarios: "Scenarios that use it (optional)",
   checks: "Before you post",
 };
 export const CHECKBOX_COUNT = 4;
