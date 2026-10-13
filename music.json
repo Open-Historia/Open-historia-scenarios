@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:17:20.116Z",
+  "updated": "2026-10-13T22:17:25.561Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -737,6 +737,24 @@
       "sha256": "378c3617660c4ca5e904274003a3c10ffd85cd28b604054c4e459244997f9da3",
       "seconds": 192,
       "post": 328,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "freedom",
+      "name": "Freedom",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/freedom/",
+      "credit": "'Freedom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/freedom-v1-3ede5306.mp3",
+      "type": "mp3",
+      "bytes": 9743859,
+      "sha256": "3ede53066c7ad33e242f2c883482b08351cedcf839e150f5b162d8d7f35b2693",
+      "seconds": 244,
+      "post": 406,
       "postedBy": "Arkniem",
       "removed": false
     },

@@ -47,6 +47,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Filaments](https://github.com/Open-Historia/Open-historia-scenarios/issues/378) | `filaments` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
+| [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 14.6 MB | — |
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
@@ -611,6 +612,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/frankincense-and-myrrh-v1-378c3617.mp3) (version 1, posted by @Arkniem)
+
+### Freedom (`freedom`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/freedom/>
+- **Credit:**
+
+> 'Freedom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/freedom-v1-3ede5306.mp3) (version 1, posted by @Arkniem)
 
 ### Glow (`glow`)
 

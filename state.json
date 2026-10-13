@@ -760,6 +760,11 @@
       "id": "skyscraper-samba",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/skyscraper-samba.mp3",
       "bodyHash": "7e2279115a4399a334567f8285d9fe68054c7f264cd8d12da7625cb4c96441fd"
+    },
+    "406": {
+      "id": "freedom",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/freedom.mp3",
+      "bodyHash": "5efefe02c6b9e3548a50ce6d67d043b382c59539f946fcf0ddef109b3087a8b5"
     }
   }
 }
