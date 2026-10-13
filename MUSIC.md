@@ -111,6 +111,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
+| [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 13.2 MB | — |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 10.8 MB | — |
@@ -1294,6 +1295,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Starfire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/starfire-v1-d97bd4c5.mp3) (version 1, posted by @Arkniem)
+
+### Tears in Rain (`tears-in-rain`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/tears-in-rain/>
+- **Credit:**
+
+> 'Tears In Rain' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tears-in-rain-v1-c56f817a.mp3) (version 1, posted by @Arkniem)
 
 ### Terminus (`terminus`)
 
