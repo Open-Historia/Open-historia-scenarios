@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:40:07.741Z",
+  "updated": "2026-10-13T21:40:13.966Z",
   "tracks": [
     {
       "id": "amberlight",
@@ -473,6 +473,24 @@
       "sha256": "0adeacb87531510d91ab2b88b92ea6625e27d7346de1dc0011a8d9b3bd41388e",
       "seconds": 270,
       "post": 278,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "rites-of-passage",
+      "name": "Rites of Passage",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/rites-of-passage/",
+      "credit": "'Rites of Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rites-of-passage-v1-b7c05f20.mp3",
+      "type": "mp3",
+      "bytes": 13452261,
+      "sha256": "b7c05f20329781f947ba8fdf1ca00fb2b4c91a3b8da12d527d5dca866d406059",
+      "seconds": 336,
+      "post": 294,
       "postedBy": "Arkniem",
       "removed": false
     },
