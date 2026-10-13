@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:03:58.519Z",
+  "updated": "2026-10-13T22:04:25.957Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -647,6 +647,24 @@
       "sha256": "a74f3890ad21d54f125c6caafbeac5efc51fbb8002bc3f23f5a9a23aab41bafe",
       "seconds": 382,
       "post": 336,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "hiraeth",
+      "name": "Hiraeth",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/hiraeth/",
+      "credit": "'Hiraeth' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hiraeth-v1-f790c7d5.mp3",
+      "type": "mp3",
+      "bytes": 13851302,
+      "sha256": "f790c7d53b8d802981ff7cdd8c59e22cdfe103ea66aba296c6cf1a65fe7fcf01",
+      "seconds": 346,
+      "post": 363,
       "postedBy": "Arkniem",
       "removed": false
     },
