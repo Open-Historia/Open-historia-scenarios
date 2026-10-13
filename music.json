@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:34:39.341Z",
+  "updated": "2026-10-13T22:34:43.316Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3263,6 +3263,24 @@
       "sha256": "618521a988f0800550b84af0e1fb279b95c570d2d2899738f332592239592b9b",
       "seconds": 249,
       "post": 417,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "sunday-smooth",
+      "name": "Sunday Smooth",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/sunday-smooth/",
+      "credit": "'Sunday Smooth' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sunday-smooth-v1-546bf5ab.mp3",
+      "type": "mp3",
+      "bytes": 2473972,
+      "sha256": "546bf5abcfdcf0f22761c113b703b52c842d174dec8f4a201b291d3bdd9a340b",
+      "seconds": 155,
+      "post": 479,
       "postedBy": "Arkniem",
       "removed": false
     },

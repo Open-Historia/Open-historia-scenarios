@@ -187,6 +187,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
 | [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 9.7 MB | — |
 | [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 9.5 MB | — |
+| [Sunday Smooth](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) | `sunday-smooth` | Scott Buckley | CC BY 4.0 | 2:35 | 2.4 MB | — |
 | [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 9.0 MB | — |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 7.8 MB | — |
@@ -2224,6 +2225,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Static' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/static-v1-618521a9.mp3) (version 1, posted by @Arkniem)
+
+### Sunday Smooth (`sunday-smooth`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/sunday-smooth/>
+- **Credit:**
+
+> 'Sunday Smooth' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sunday-smooth-v1-546bf5ab.mp3) (version 1, posted by @Arkniem)
 
 ### Supernova (`supernova`)
 
