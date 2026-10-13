@@ -385,6 +385,11 @@
       "id": "aurora",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/aurora.mp3",
       "bodyHash": "3f08ab9f44d596c6eadcdc7b79b8c3cd2332730204099ff886a5af243cb99e55"
+    },
+    "331": {
+      "id": "maleficus",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/maleficus.mp3",
+      "bodyHash": "4b0b6d01af658947ea327a725ac1d407a2ef1cc4de202eb5bf9769ba861bf676"
     }
   }
 }

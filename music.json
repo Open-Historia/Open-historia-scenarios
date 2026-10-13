@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:54:31.326Z",
+  "updated": "2026-10-13T21:54:48.872Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -758,6 +758,24 @@
       "sha256": "e72d716034afe99b9653670f1b695b3ffec9f9d25945cdd60186ac6d35216beb",
       "seconds": 381,
       "post": 287,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "maleficus",
+      "name": "Maleficus",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/maleficus/",
+      "credit": "'Maleficus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/maleficus-v1-6949e9c9.mp3",
+      "type": "mp3",
+      "bytes": 15414549,
+      "sha256": "6949e9c9d45c45f46c58082edc053675bc648f98e94ffbe563be21b1b37a6bd1",
+      "seconds": 385,
+      "post": 331,
       "postedBy": "Arkniem",
       "removed": false
     },
