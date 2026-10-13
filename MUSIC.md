@@ -17,6 +17,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
+| [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 8.6 MB | — |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
@@ -204,6 +205,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Call To Adventure' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/call-to-adventure-v1-ed871ff6.mp3) (version 1, posted by @Arkniem)
+
+### Castles in the Sky (`castles-in-the-sky`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/castles-in-the-sky/>
+- **Credit:**
+
+> 'Castles in the Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/castles-in-the-sky-v1-5a3e8e5c.mp3) (version 1, posted by @Arkniem)
 
 ### Cicadas (`cicadas`)
 

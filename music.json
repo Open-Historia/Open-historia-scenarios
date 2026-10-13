@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:53:57.384Z",
+  "updated": "2026-10-13T21:54:25.583Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -197,6 +197,24 @@
       "sha256": "ed871ff603184cd40a995f15150237e35f95aeb6257a686a5af9a1abd3b5350f",
       "seconds": 260,
       "post": 308,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "castles-in-the-sky",
+      "name": "Castles in the Sky",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/castles-in-the-sky/",
+      "credit": "'Castles in the Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/castles-in-the-sky-v1-5a3e8e5c.mp3",
+      "type": "mp3",
+      "bytes": 9067869,
+      "sha256": "5a3e8e5cb7e848f399f6215c913727d4fa18ad5b25ca8e1a220f9abe6b367f68",
+      "seconds": 227,
+      "post": 329,
       "postedBy": "Arkniem",
       "removed": false
     },
