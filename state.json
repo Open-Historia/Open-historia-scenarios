@@ -860,6 +860,11 @@
       "id": "time-and-space",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/time-and-space.mp3",
       "bodyHash": "0708b59d304e42d346e5bb7bffab31bd4c8a6703cec3ac45d6dc63b9520973b0"
+    },
+    "426": {
+      "id": "phoenix",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/phoenix.mp3",
+      "bodyHash": "0937f187251f87e9b2a36fad4d26ea74457c45cf5735adc5f65dd7ba78f2b519"
     }
   }
 }

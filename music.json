@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:22:00.233Z",
+  "updated": "2026-10-13T22:22:04.784Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -2003,6 +2003,24 @@
       "sha256": "d8af12108d454a84fa729a32016365ea2bfe830c9b858e6db2975fc1e6d1cd5c",
       "seconds": 271,
       "post": 398,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/phoenix/",
+      "credit": "'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-v1-b0068f8f.mp3",
+      "type": "mp3",
+      "bytes": 16524168,
+      "sha256": "b0068f8f8b1bc36da9a16ff8f95d90927a736eff7aa6366d70e94217fb960f0c",
+      "seconds": 413,
+      "post": 426,
       "postedBy": "Arkniem",
       "removed": false
     },
