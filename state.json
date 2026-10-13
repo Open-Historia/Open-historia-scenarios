@@ -165,6 +165,11 @@
       "id": "sentinel",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sentinel.mp3",
       "bodyHash": "25cf5615801822d0bc43bf3024905cd46af0d946253d3acac47f7e41a65dbb1e"
+    },
+    "287": {
+      "id": "life-in-motion",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/life-in-motion.mp3",
+      "bodyHash": "e62edb4220b5b23d67d5b005941e04a2e752f665a598f324505feea7da574251"
     }
   }
 }
