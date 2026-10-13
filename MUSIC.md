@@ -56,6 +56,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
+| [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 7.0 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 14.6 MB | — |
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 4.4 MB | — |
@@ -733,6 +734,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Freedom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/freedom-v1-3ede5306.mp3) (version 1, posted by @Arkniem)
+
+### Genesis (`genesis`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/genesis/>
+- **Credit:**
+
+> 'Genesis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/genesis-v1-cbfdddf7.mp3) (version 1, posted by @Arkniem)
 
 ### Glow (`glow`)
 

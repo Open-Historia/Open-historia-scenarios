@@ -875,6 +875,11 @@
       "id": "cobalt",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cobalt.mp3",
       "bodyHash": "8d01fcb7fa964b894eda678c0137456432c1538f57643bdb1d3e730c0a890da5"
+    },
+    "429": {
+      "id": "genesis",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/genesis.mp3",
+      "bodyHash": "9b40a0985a020f161eecdf52ec776aeeb5dbfd000d7b2e9cbe493204bbc281ef"
     }
   }
 }

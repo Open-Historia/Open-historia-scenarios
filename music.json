@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:22:39.235Z",
+  "updated": "2026-10-13T22:23:07.431Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -899,6 +899,24 @@
       "sha256": "3ede53066c7ad33e242f2c883482b08351cedcf839e150f5b162d8d7f35b2693",
       "seconds": 244,
       "post": 406,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "genesis",
+      "name": "Genesis",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/genesis/",
+      "credit": "'Genesis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/genesis-v1-cbfdddf7.mp3",
+      "type": "mp3",
+      "bytes": 7301942,
+      "sha256": "cbfdddf7c8cce5849c49210582d15aa5efbfed20b7f8e46128fa0f0782e85c83",
+      "seconds": 182,
+      "post": 429,
       "postedBy": "Arkniem",
       "removed": false
     },
