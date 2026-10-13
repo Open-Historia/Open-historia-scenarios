@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:10:34.846Z",
+  "updated": "2026-10-13T22:10:39.823Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -1388,6 +1388,24 @@
       "sha256": "3d0cb0662c74a33df9683a5650a862b4d84599affc71ccd060028f816586ff59",
       "seconds": 259,
       "post": 380,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "omega",
+      "name": "Omega",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/omega/",
+      "credit": "'Omega' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/omega-v1-ec56d1dd.mp3",
+      "type": "mp3",
+      "bytes": 9812666,
+      "sha256": "ec56d1dd6c9a7a4610b4d2c62babdc8b4056de28f0d00e8a5fd5266088dab9db",
+      "seconds": 245,
+      "post": 382,
       "postedBy": "Arkniem",
       "removed": false
     },
