@@ -495,6 +495,11 @@
       "id": "jul",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jul.mp3",
       "bodyHash": "e64e461152cbc05b4d00dc174747381db444c24c7c62f7cdac70525ce212f580"
+    },
+    "353": {
+      "id": "solecism",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solecism.mp3",
+      "bodyHash": "573000d6174f9dff63f5e72f8948b1e50eeb21c031d9ba5dd7fe76f39e4d0ad7"
     }
   }
 }
