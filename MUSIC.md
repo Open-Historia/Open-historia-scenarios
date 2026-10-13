@@ -12,6 +12,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 7.1 MB | At war, In the war room |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
+| [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 10.4 MB | The menu, A game loading |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
@@ -89,6 +90,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Memories Of Stone' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/memories-of-stone-v1-1ad908e4.mp3) (version 1, posted by @Arkniem)
+
+### Origami (`origami`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/origami/>
+- **Credit:**
+
+> 'Origami' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/origami-v1-8b8edd81.mp3) (version 1, posted by @Arkniem)
 
 ### Passage Of Time (`passage-of-time`)
 
