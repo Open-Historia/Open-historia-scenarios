@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T21:45:32.597Z",
+  "updated": "2026-10-13T21:46:01.928Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -779,6 +779,24 @@
       "sha256": "f2c2d69a0c89656e676c0fac3da23a201237951c8be7e77dcaa1705dca5b9cf8",
       "seconds": 282,
       "post": 290,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "the-long-dark",
+      "name": "The Long Dark",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/the-long-dark/",
+      "credit": "'The Long Dark' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-dark-v1-fa5bfe90.mp3",
+      "type": "mp3",
+      "bytes": 17595203,
+      "sha256": "fa5bfe904dd4902b9eb66d8df518a91adde41fb6d1687aefb5af1a2de7da28da",
+      "seconds": 440,
+      "post": 307,
       "postedBy": "Arkniem",
       "removed": false
     },

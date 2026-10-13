@@ -49,6 +49,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 13.0 MB | — |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 10.8 MB | — |
+| [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 16.8 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 | [Three Sheets to the Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) | `three-sheets-to-the-wind` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
@@ -534,6 +535,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'The Great Sea' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-great-sea-v1-f2c2d69a.mp3) (version 1, posted by @Arkniem)
+
+### The Long Dark (`the-long-dark`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/the-long-dark/>
+- **Credit:**
+
+> 'The Long Dark' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-dark-v1-fa5bfe90.mp3) (version 1, posted by @Arkniem)
 
 ### The Weight of Air – Anabasis II (`anabasis-ii`)
 
