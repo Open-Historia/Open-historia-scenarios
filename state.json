@@ -120,6 +120,11 @@
       "id": "simulacra",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/simulacra.mp3",
       "bodyHash": "1075f63742e25353edfc485e46565f8e666ceb01ec57b84808052eb1e7750186"
+    },
+    "278": {
+      "id": "ride-the-wind",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ride-the-wind.mp3",
+      "bodyHash": "72e3e2a3e79ee7d7d8e9cc97deb44756641cbf540ca436e436b5981b0046d006"
     }
   }
 }
