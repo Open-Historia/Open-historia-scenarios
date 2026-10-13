@@ -755,6 +755,11 @@
       "id": "ashes-of-a-fallen-year-2019-remaster",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ashes-of-a-fallen-year-2019-remaster.mp3",
       "bodyHash": "32ad8001f654ea9df73415c5d22ea22e75e535cc407232bbaa4c171fcf997319"
+    },
+    "405": {
+      "id": "skyscraper-samba",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/skyscraper-samba.mp3",
+      "bodyHash": "7e2279115a4399a334567f8285d9fe68054c7f264cd8d12da7625cb4c96441fd"
     }
   }
 }

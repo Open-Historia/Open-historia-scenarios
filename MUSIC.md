@@ -123,6 +123,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Signal to Noise](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) | `signal-to-noise` | Scott Buckley | CC BY 4.0 | 5:54 | 13.5 MB | — |
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 7.0 MB | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
+| [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 3.4 MB | — |
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 7.0 MB | — |
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
@@ -1446,6 +1447,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Simulacra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/simulacra-v1-f65439c7.mp3) (version 1, posted by @Arkniem)
+
+### Skyscraper Samba (`skyscraper-samba`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/skyscraper-samba/>
+- **Credit:**
+
+> 'Skyscraper Samba' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyscraper-samba-v1-03214e5a.mp3) (version 1, posted by @Arkniem)
 
 ### Sleep (`sleep`)
 
