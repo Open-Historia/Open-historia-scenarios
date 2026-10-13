@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-13T22:26:16.609Z",
+  "updated": "2026-10-13T22:26:22.077Z",
   "tracks": [
     {
       "id": "a-dragons-lullaby-2023",
@@ -3191,6 +3191,24 @@
       "sha256": "fb921a09cc6181228b14945c7a6b90b50a83f4f38a37644a383bf7c70ea83729",
       "seconds": 176,
       "post": 418,
+      "postedBy": "Arkniem",
+      "removed": false
+    },
+    {
+      "id": "tomorrow",
+      "name": "Tomorrow",
+      "artist": "Scott Buckley",
+      "licence": "CC BY 4.0",
+      "source": "https://www.scottbuckley.com.au/library/tomorrow/",
+      "credit": "'Tomorrow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "fits": [],
+      "version": 1,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tomorrow-v1-d2af250a.mp3",
+      "type": "mp3",
+      "bytes": 6116988,
+      "sha256": "d2af250a3756b827b45e3b463486c09b2d314de02876b3489e4423e8caeb2da7",
+      "seconds": 153,
+      "post": 444,
       "postedBy": "Arkniem",
       "removed": false
     },

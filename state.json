@@ -950,6 +950,11 @@
       "id": "never-dying",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/never-dying.mp3",
       "bodyHash": "e76eae95e038e11439dbfa28d1c9ca64e21a59b854ec4081199b708882603700"
+    },
+    "444": {
+      "id": "tomorrow",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tomorrow.mp3",
+      "bodyHash": "9df059362665f8bbb8ecb41d051791c0388d535697fe932ec0ab0cd176fb6105"
     }
   }
 }

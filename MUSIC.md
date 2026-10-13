@@ -183,6 +183,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Three Sheets to the Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) | `three-sheets-to-the-wind` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
 | [Time and Space](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) | `time-and-space` | Scott Buckley | CC BY 4.0 | 3:52 | 8.8 MB | — |
 | [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 6.7 MB | — |
+| [Tomorrow](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) | `tomorrow` | Scott Buckley | CC BY 4.0 | 2:33 | 5.8 MB | — |
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 10.9 MB | — |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
@@ -2145,6 +2146,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Titan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/titan-v1-fb921a09.mp3) (version 1, posted by @Arkniem)
+
+### Tomorrow (`tomorrow`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/tomorrow/>
+- **Credit:**
+
+> 'Tomorrow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tomorrow-v1-d2af250a.mp3) (version 1, posted by @Arkniem)
 
 ### Twilight Echo (`twilight-echo`)
 
