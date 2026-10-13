@@ -505,6 +505,11 @@
       "id": "in-dreams",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/in-dreams.mp3",
       "bodyHash": "28a1474960e327ce782e4fd5f803960484280ce93639e2217309138a4d14138c"
+    },
+    "355": {
+      "id": "the-summoning",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-summoning.mp3",
+      "bodyHash": "8471baa4c97ebc7bc41b84b6772283a93b0411bbefc81a719f60bdc330285a22"
     }
   }
 }
