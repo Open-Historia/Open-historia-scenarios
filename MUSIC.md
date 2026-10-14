@@ -38,7 +38,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Cassini](https://github.com/Open-Historia/Open-historia-scenarios/issues/431) | `cassini` | Scott Buckley | CC BY 4.0 | 4:51 | 5.1 MB | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 4.0 MB | — |
 | [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 10.6 MB | — |
-| [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 12.9 MB | — |
+| [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — |
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 10.5 MB | — |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
 | [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
@@ -631,9 +631,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/celestial/>
 - **Credit:**
 
-> 'Celestial' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Celestial' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/celestial-v1-ab5eda00.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/celestial-v2-ab3dee64.mp3) (version 2, posted by @Arkniem)
 
 ### Chasing Daylight (`chasing-daylight`)
 

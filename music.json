@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:13:55.810Z",
+  "updated": "2026-10-14T02:14:01.437Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -584,13 +584,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/celestial/",
-      "credit": "'Celestial' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Celestial' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/celestial-v1-ab5eda00.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/celestial-v2-ab3dee64.mp3",
       "type": "mp3",
-      "bytes": 13495088,
-      "sha256": "ab5eda0070d01631691eb0e71f9c55dd4229eb07897e5430a666d1f1944f2191",
+      "bytes": 5929596,
+      "sha256": "ab3dee64c13fe903221e84898af6b0002d63a83dcd92ef97ea990722963fea36",
       "seconds": 337,
       "post": 340,
       "postedBy": "Arkniem",
