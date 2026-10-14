@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:37:58.018Z",
+  "updated": "2026-10-14T02:38:04.003Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2621,13 +2621,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-spaces-between/",
-      "credit": "'The Spaces Between' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Spaces Between' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-spaces-between-v1-d4e81700.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-spaces-between-v2-3c085c3e.mp3",
       "type": "mp3",
-      "bytes": 10453334,
-      "sha256": "d4e81700907f733d0709cbb4dae71cc261eb1a73db2515bbb3873b281f84c2c6",
+      "bytes": 4597171,
+      "sha256": "3c085c3e5a0e5c1616ca11e923900f43b4d5d8f7ec81cdd31bbc5f958dc9e948",
       "seconds": 261,
       "post": 391,
       "postedBy": "Arkniem",
