@@ -46,7 +46,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 7.8 MB | — |
 | [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 3.6 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 3.5 MB | — |
-| [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 8.8 MB | — |
+| [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — |
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — |
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 6.0 MB | — |
 | [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — |
@@ -719,9 +719,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/cobalt/>
 - **Credit:**
 
-> 'Cobalt' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Cobalt' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cobalt-v1-5834a502.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cobalt-v2-32734a94.mp3) (version 2, posted by @Arkniem)
 
 ### Computations in a Snowstorm (`computations`)
 

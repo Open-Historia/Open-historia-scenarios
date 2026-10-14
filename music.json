@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:16:06.510Z",
+  "updated": "2026-10-14T02:16:13.038Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -728,13 +728,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/cobalt/",
-      "credit": "'Cobalt' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Cobalt' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cobalt-v1-5834a502.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cobalt-v2-32734a94.mp3",
       "type": "mp3",
-      "bytes": 9262162,
-      "sha256": "5834a502f3a35407969b81e7e0291a03c808b4464f5b747ca7fb3dc2c0f8c8b4",
+      "bytes": 4182227,
+      "sha256": "32734a949c38c7de4f9156b3c0b1596c536c3f9d969ff23fa081421c1c1d9dbb",
       "seconds": 231,
       "post": 428,
       "postedBy": "Arkniem",
