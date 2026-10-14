@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:17:10.397Z",
+  "updated": "2026-10-14T02:17:42.312Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -944,13 +944,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/echoes/",
-      "credit": "'Echoes' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Echoes' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-v1-d82b855a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-v2-ecc64961.mp3",
       "type": "mp3",
-      "bytes": 14557747,
-      "sha256": "d82b855a4a606f597820c8d7ff9719173189b8862f440480cb4cbd85b41a91d2",
+      "bytes": 6600667,
+      "sha256": "ecc64961904e54dfce39ab4b17de2f2f296cf89f6682fb9f04bcd0b1fab0b6b8",
       "seconds": 364,
       "post": 285,
       "postedBy": "Arkniem",
