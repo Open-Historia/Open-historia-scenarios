@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:16:57.203Z",
+  "updated": "2026-10-14T02:17:03.988Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -854,13 +854,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/descent/",
-      "credit": "'Descent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Descent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/descent-v1-f94d1bc5.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/descent-v2-ea776f62.mp3",
       "type": "mp3",
-      "bytes": 5512007,
-      "sha256": "f94d1bc51651c5a4e4e81da032a2eae15df726857fce5a14babcfa9227cdb5dd",
+      "bytes": 2512302,
+      "sha256": "ea776f62bb4381d248b2a58898fb0df5058f39f2c0b8774052a3aaf12577a857",
       "seconds": 138,
       "post": 422,
       "postedBy": "Arkniem",
