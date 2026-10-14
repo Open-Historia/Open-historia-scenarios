@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:46:58.759Z",
+  "updated": "2026-10-14T02:47:28.132Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3110,13 +3110,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/precipice/",
-      "credit": "'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v1-14516700.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v2-fa54bce4.mp3",
       "type": "mp3",
-      "bytes": 4757610,
-      "sha256": "14516700c1560a490b057807c234645893315afff2bfe1a334e03d30ccfa00b4",
+      "bytes": 2205663,
+      "sha256": "fa54bce4f9f2a61914027a8ffee133d798eabb9fdcf1bb7a3069359c8a8d303e",
       "seconds": 119,
       "post": 350,
       "postedBy": "Arkniem",

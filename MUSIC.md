@@ -178,7 +178,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Phase Shift](https://github.com/Open-Historia/Open-historia-scenarios/issues/508) | `phase-shift` | Scott Buckley | CC BY 4.0 | 6:03 | 5.9 MB | — |
 | [Phoenix](https://github.com/Open-Historia/Open-historia-scenarios/issues/426) | `phoenix` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 6.3 MB | — |
-| [Precipice](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) | `precipice` | Scott Buckley | CC BY 4.0 | 1:59 | 4.5 MB | — |
+| [Precipice](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) | `precipice` | Scott Buckley | CC BY 4.0 | 1:59 | 2.1 MB | — |
 | [Prelude to Chemistry](https://github.com/Open-Historia/Open-historia-scenarios/issues/483) | `prelude-to-chemistry` | Scott Buckley | CC BY 4.0 | 4:02 | 5.4 MB | — |
 | [Primal Carnage](https://github.com/Open-Historia/Open-historia-scenarios/issues/499) | `primal-carnage` | Scott Buckley | CC BY 4.0 | 2:39 | 6.4 MB | — |
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
@@ -2171,9 +2171,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/precipice/>
 - **Credit:**
 
-> 'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Precipice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v1-14516700.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/precipice-v2-fa54bce4.mp3) (version 2, posted by @Arkniem)
 
 ### Prelude to Chemistry (`prelude-to-chemistry`)
 
