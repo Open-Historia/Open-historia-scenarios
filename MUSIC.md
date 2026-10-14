@@ -246,7 +246,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [There Was A Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/321) | `there-was-a-time` | Scott Buckley | CC BY 4.0 | 5:14 | 5.6 MB | — | Neoclassical | Emotional, Melancholy, Uplifting |
 | [This Too Shall Pass](https://github.com/Open-Historia/Open-historia-scenarios/issues/351) | `this-too-shall-pass` | Scott Buckley | CC BY 4.0 | 7:27 | 7.8 MB | — | Neoclassical | Bittersweet, Melancholy, Reflective, Thoughtful |
 | [Three Sheets to the Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) | `three-sheets-to-the-wind` | Scott Buckley | CC BY 4.0 | 3:20 | 3.6 MB | — | Orchestral | Adventurous, Happy, Heroic |
-| [Time and Space](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) | `time-and-space` | Scott Buckley | CC BY 4.0 | 3:52 | 3.7 MB | — | — | — |
+| [Time and Space](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) | `time-and-space` | Scott Buckley | CC BY 4.0 | 3:52 | 3.7 MB | — | Neoclassical, Orchestral | Bittersweet, Driving, Passionate, Reflective, Sombre, Thoughtful |
 | [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 3.1 MB | — | Orchestral | Adventurous, Driving, Epic, Inspirational, Uplifting |
 | [Tomorrow](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) | `tomorrow` | Scott Buckley | CC BY 4.0 | 2:33 | 2.8 MB | — | — | — |
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 5.2 MB | — | — | — |
@@ -3624,6 +3624,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/time-and-space/>
+- **Genre:** Neoclassical, Orchestral
+- **Mood:** Bittersweet, Driving, Passionate, Reflective, Sombre, Thoughtful
+- **Instruments:** Brass, Orchestra, Piano, Strings
 - **Credit:**
 
 > 'Time and Space' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
