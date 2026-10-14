@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:17:03.988Z",
+  "updated": "2026-10-14T02:17:10.397Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -836,13 +836,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/crusader/",
-      "credit": "'Crusader' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Crusader' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/crusader-v1-5aa1939d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/crusader-v2-80445711.mp3",
       "type": "mp3",
-      "bytes": 3076136,
-      "sha256": "5aa1939dd8f787ac9498e16bfc4bbe75c31cf0975b677216ac275e39aed2f3b2",
+      "bytes": 1438599,
+      "sha256": "8044571124e2adfeee080fed5e131e549ca7b352534fa12ca7f70efccff1c617",
       "seconds": 77,
       "post": 463,
       "postedBy": "Arkniem",
