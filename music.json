@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:28:58.965Z",
+  "updated": "2026-10-14T04:29:02.270Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -152,9 +152,20 @@
       "source": "https://www.scottbuckley.com.au/library/adrift-among-infinite-stars/",
       "credit": "'Adrift Among Infinite Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Emotional",
+        "Peaceful",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Synth (Atmospherics)",
+        "Synth (Lead)",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/adrift-among-infinite-stars-v2-05734c9a.mp3",
       "type": "mp3",

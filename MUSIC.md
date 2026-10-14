@@ -11,7 +11,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [A Kind Of Hope](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) | `a-kind-of-hope` | Scott Buckley | CC BY 4.0 | 5:43 | 5.4 MB | — | Neoclassical | Bittersweet, Melancholy, Thoughtful, Uplifting |
 | [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 4.5 MB | — | — | — |
 | [Absolution](https://github.com/Open-Historia/Open-historia-scenarios/issues/371) | `absolution` | Scott Buckley | CC BY 4.0 | 5:29 | 5.8 MB | — | — | — |
-| [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 6.4 MB | — | — | — |
+| [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 6.4 MB | — | Neoclassical | Emotional, Peaceful, Thoughtful |
 | [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — | — | — |
 | [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 6.3 MB | — | Orchestral | Adventurous, Epic, Inspirational |
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — | — | — |
@@ -344,6 +344,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/adrift-among-infinite-stars/>
+- **Genre:** Neoclassical
+- **Mood:** Emotional, Peaceful, Thoughtful
+- **Instruments:** Piano, Synth (Atmospherics), Synth (Lead), Violin
 - **Credit:**
 
 > 'Adrift Among Infinite Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
