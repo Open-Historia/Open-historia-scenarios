@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:29:02.744Z",
+  "updated": "2026-10-14T02:29:08.110Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2006,13 +2006,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/jade/",
-      "credit": "'Jade' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Jade' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jade-v1-ecf646ea.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jade-v2-c734c2a8.mp3",
       "type": "mp3",
-      "bytes": 4679218,
-      "sha256": "ecf646ea9eb6ef5060a5a5290ea44558765be721ed049044bb96b0c24254770f",
+      "bytes": 2396883,
+      "sha256": "c734c2a8a10515eb78b616cd619e7f9b9e3593b5dfcb6527ff8965e59160c51e",
       "seconds": 127,
       "post": 438,
       "postedBy": "Arkniem",

@@ -117,7 +117,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 4.7 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 4.5 MB | — |
 | [Invocation](https://github.com/Open-Historia/Open-historia-scenarios/issues/450) | `invocation` | Scott Buckley | CC BY 4.0 | 3:34 | 7.6 MB | — |
-| [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 4.5 MB | — |
+| [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — |
 | [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 4.4 MB | — |
 | [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 4.7 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
@@ -1500,9 +1500,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/jade/>
 - **Credit:**
 
-> 'Jade' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Jade' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jade-v1-ecf646ea.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jade-v2-c734c2a8.mp3) (version 2, posted by @Arkniem)
 
 ### Journeys (`journeys`)
 
