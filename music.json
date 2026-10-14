@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:54:06.688Z",
+  "updated": "2026-10-14T02:54:35.860Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3830,13 +3830,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/static/",
-      "credit": "'Static' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Static' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/static-v1-618521a9.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/static-v2-8d6856dd.mp3",
       "type": "mp3",
-      "bytes": 9959090,
-      "sha256": "618521a988f0800550b84af0e1fb279b95c570d2d2899738f332592239592b9b",
+      "bytes": 4647329,
+      "sha256": "8d6856ddd608b9ede5b92419378f8b56ae1c332e9d0fd2a3b93e3879e02027f7",
       "seconds": 249,
       "post": 417,
       "postedBy": "Arkniem",
