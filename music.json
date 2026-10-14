@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:46:33.546Z",
+  "updated": "2026-10-14T04:46:36.652Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3603,9 +3603,20 @@
       "source": "https://www.scottbuckley.com.au/library/invocation/",
       "credit": "'Invocation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Emotional",
+        "Melancholy",
+        "Sombre",
+        "Spiritual"
+      ],
+      "instruments": [
+        "Flute (Ethnic)",
+        "Harp",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/invocation-v2-ce442a4c.mp3",
       "type": "mp3",
