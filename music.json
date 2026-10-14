@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:12:14.992Z",
+  "updated": "2026-10-14T05:12:18.383Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8263,9 +8263,18 @@
       "source": "https://www.scottbuckley.com.au/library/where-stars-fall/",
       "credit": "'Where Stars Fall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Inspirational",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/where-stars-fall-v2-76b8933d.mp3",
       "type": "mp3",
