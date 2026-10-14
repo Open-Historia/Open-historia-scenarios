@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:28:25.226Z",
+  "updated": "2026-10-14T02:28:56.251Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1970,13 +1970,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/into-the-wilds/",
-      "credit": "'Into The Wilds' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Into The Wilds' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-wilds-v1-a06467d9.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-wilds-v2-afdec52e.mp3",
       "type": "mp3",
-      "bytes": 9875571,
-      "sha256": "a06467d9779841950c897e9023984fcf2bbc0ee2609fb15230f660cc922941b8",
+      "bytes": 4679632,
+      "sha256": "afdec52e30186e1d0a787daa8b173303b4e9efaf2da888d1295dc6d1f56ec1ec",
       "seconds": 247,
       "post": 281,
       "postedBy": "Arkniem",
