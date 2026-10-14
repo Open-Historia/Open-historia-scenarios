@@ -254,7 +254,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 7.8 MB | — | Ambient, Neoclassical | Bittersweet, Sad, Thoughtful |
 | [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 3.6 MB | — | Orchestral | Dark, Driving, Epic, Heroic |
 | [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — | — | — |
-| [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | — | — |
+| [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | Orchestral | Driving, Epic, Heroic |
 | [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — | — | — |
 | [Venom](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) | `venom` | Scott Buckley | CC BY 4.0 | 1:12 | 1.3 MB | — | — | — |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 3.7 MB | — | — | — |
@@ -3733,6 +3733,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/vanguard/>
+- **Genre:** Orchestral
+- **Mood:** Driving, Epic, Heroic
+- **Instruments:** Drums (Epic), Orchestra, Synth (Lead)
 - **Credit:**
 
 > 'Vanguard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
