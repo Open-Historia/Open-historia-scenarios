@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:47:37.392Z",
+  "updated": "2026-10-14T04:47:40.365Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3889,9 +3889,20 @@
       "source": "https://www.scottbuckley.com.au/library/legionnaire/",
       "credit": "'Legionnaire (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Angry",
+        "Epic",
+        "Militaristic"
+      ],
+      "instruments": [
+        "Brass",
+        "Drums (Epic)",
+        "Orchestra",
+        "Strings"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-scott-buckley-v1-49230c85.mp3",
       "type": "mp3",
