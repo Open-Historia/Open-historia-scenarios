@@ -12,7 +12,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 4.5 MB | — | — | — |
 | [Absolution](https://github.com/Open-Historia/Open-historia-scenarios/issues/371) | `absolution` | Scott Buckley | CC BY 4.0 | 5:29 | 5.8 MB | — | — | — |
 | [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 6.4 MB | — | Neoclassical | Emotional, Peaceful, Thoughtful |
-| [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — | — | — |
+| [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — | Neoclassical, Pop | Bittersweet, Peaceful, Thoughtful, Uplifting |
 | [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 6.3 MB | — | Orchestral | Adventurous, Epic, Inspirational |
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — | — | — |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 5.1 MB | — | — | — |
@@ -358,6 +358,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/affirmations/>
+- **Genre:** Neoclassical, Pop
+- **Mood:** Bittersweet, Peaceful, Thoughtful, Uplifting
+- **Instruments:** Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Affirmations' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
