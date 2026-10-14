@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:45:45.884Z",
+  "updated": "2026-10-14T02:46:17.394Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3038,13 +3038,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/petrichor/",
-      "credit": "'Petrichor' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Petrichor' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/petrichor-v1-d8af1210.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/petrichor-v2-1587e3ed.mp3",
       "type": "mp3",
-      "bytes": 10852500,
-      "sha256": "d8af12108d454a84fa729a32016365ea2bfe830c9b858e6db2975fc1e6d1cd5c",
+      "bytes": 4603363,
+      "sha256": "1587e3ed60254ee709149d290f1ee8baf781e7b43565366a77f1e7e22cc47d1d",
       "seconds": 271,
       "post": 398,
       "postedBy": "Arkniem",
