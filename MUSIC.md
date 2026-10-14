@@ -169,7 +169,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Pariah](https://github.com/Open-Historia/Open-historia-scenarios/issues/504) | `pariah` | Scott Buckley | CC BY 4.0 | 2:35 | 3.4 MB | — |
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 5.0 MB | The menu, A game loading |
-| [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 5.4 MB | — |
+| [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 2.8 MB | — |
 | [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 12.2 MB | — |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 7.8 MB | — |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
@@ -2072,9 +2072,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/patagonia/>
 - **Credit:**
 
-> 'Patagonia' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Patagonia' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/patagonia-v1-531769b2.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/patagonia-v2-c0c098ac.mp3) (version 2, posted by @Arkniem)
 
 ### Path Through The Mountains (`path-through-the-mountains`)
 
