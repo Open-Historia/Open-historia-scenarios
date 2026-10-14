@@ -733,8 +733,8 @@
     },
     "400": {
       "id": "icarus-2019",
-      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/icarus-2019.mp3",
-      "bodyHash": "8827c21e86d801fcd6883b8e33cfc3191b2e87f338839b6691f5661d25e5aa89"
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/icarus-2019-small.mp3",
+      "bodyHash": "a3fe53ba8566ba22f57bea294305e56d48552a5f5da8e4105f34de8ddc1f86b0"
     },
     "401": {
       "id": "light-in-dark-places-2019-remaster",

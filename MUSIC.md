@@ -102,7 +102,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 4.3 MB | — |
 | [I Walk With Ghosts](https://github.com/Open-Historia/Open-historia-scenarios/issues/344) | `i-walk-with-ghosts` | Scott Buckley | CC BY 4.0 | 8:04 | 8.2 MB | — |
 | [Icarus](https://github.com/Open-Historia/Open-historia-scenarios/issues/478) | `icarus` | Scott Buckley | CC BY 4.0 | 3:30 | 4.8 MB | — |
-| [Icarus (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) | `icarus-2019` | Scott Buckley | CC BY 4.0 | 3:29 | 8.0 MB | — |
+| [Icarus (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) | `icarus-2019` | Scott Buckley | CC BY 4.0 | 3:29 | 3.7 MB | — |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
 | [In Development](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) | `in-development` | Scott Buckley | CC BY 4.0 | 2:15 | 3.1 MB | — |
@@ -1335,9 +1335,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/icarus-2019/>
 - **Credit:**
 
-> 'Icarus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Icarus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/icarus-2019-v1-c07b4794.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/icarus-2019-v2-bb4f6afb.mp3) (version 2, posted by @Arkniem)
 
 ### Ice Cream (`ice-cream`)
 

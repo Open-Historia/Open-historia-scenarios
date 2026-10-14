@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:26:09.015Z",
+  "updated": "2026-10-14T02:26:15.280Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1736,13 +1736,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/icarus-2019/",
-      "credit": "'Icarus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Icarus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/icarus-2019-v1-c07b4794.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/icarus-2019-v2-bb4f6afb.mp3",
       "type": "mp3",
-      "bytes": 8367724,
-      "sha256": "c07b4794d9932112ded9366e72ac23f70e9b17f923478b59a6a4f2b53802ccf3",
+      "bytes": 3864888,
+      "sha256": "bb4f6afba3925e5d951a3daaa0037ff27d5e2ed0fb50d4985fccd234b700c50c",
       "seconds": 209,
       "post": 400,
       "postedBy": "Arkniem",
