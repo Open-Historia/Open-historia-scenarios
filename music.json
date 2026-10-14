@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:50:14.298Z",
+  "updated": "2026-10-14T04:50:39.011Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4455,9 +4455,21 @@
       "source": "https://www.scottbuckley.com.au/library/the-distant-sun/",
       "credit": "'The Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Electronica"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Brooding",
+        "Melancholy"
+      ],
+      "instruments": [
+        "Cello",
+        "Strings",
+        "Synth (Atmospherics)",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-distant-sun-v2-e37e340f.mp3",
       "type": "mp3",
