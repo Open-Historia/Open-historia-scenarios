@@ -294,6 +294,17 @@ test("a scenario's music is tracks of the hub's music list, named by ID and vers
   // In a .zip too.
   await released("scenario", scenarioZip({ scenario: { id: "test-world", name: "Test world", music: { battle: [track()] } } }));
 
+  // How loud each situation is: whole numbers from 0 to 100, with tracks or with none.
+  await released("scenario", withMusic({ game: [track()], volume: { game: 35, battle: 100 } }));
+  await released("scenario", withMusic({ loading: [], game: [], atWar: [], battle: [], volume: { loading: 0, game: 20, atWar: 50, battle: 100 } }));
+  await released("scenario", withMusic({ volume: {} }));
+  await refused("scenario", withMusic({ volume: 35 }), /The music volume of `the-file` is not what the game writes there: it is a number from 0 to 100 for each situation/);
+  await refused("scenario", withMusic({ volume: [35] }), /The music volume of `the-file` is not what the game writes there/);
+  await refused("scenario", withMusic({ volume: { menu: 35 } }), /`the-file` has a music volume for `menu`, which is not something a scenario can set music for \(only `loading`, `game`, `atWar`, `battle`\)/);
+  for (const value of [101, -1, 35.5, "35", null, true, "https://example.com/a.mp3", [35], { level: 35 }]) {
+    await refused("scenario", withMusic({ volume: { game: value } }), /The `game` music volume of `the-file` is not a whole number from 0 to 100/);
+  }
+
   await refused("scenario", withMusic([track()]), /`the-file` is damaged: its `scenario\.music` is not what the game writes there/);
   await refused("scenario", withMusic("passage-of-time"), /its `scenario\.music` is not what the game writes there/);
   // Another key: the menu's music is not a scenario's to set, and nothing else is either.

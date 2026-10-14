@@ -141,7 +141,8 @@ The tracks already shared, with their credits and licences, are in
 
 Background music is tracks a scenario can play: while a game loads, in the game, at war and in the
 war room. A scenario never carries music. It only **names** tracks from the hub's music list, by
-their ID, and the game downloads those from here.
+their ID, and the game downloads those from here. It may also say how loud each of those four
+situations is, as a share of the volume the player set (a whole number from 0 to 100).
 
 > **Only the hub's contributors can post music** (people the maintainers have given access to this
 > repository). A flag or a map is usually its author's own to share. A piece of music almost always
