@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:25:03.031Z",
+  "updated": "2026-10-14T02:25:34.316Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1682,13 +1682,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/hyperion/",
-      "credit": "'Hyperion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Hyperion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hyperion-v1-559961b8.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hyperion-v2-c3e55f35.mp3",
       "type": "mp3",
-      "bytes": 10066776,
-      "sha256": "559961b869bb3ae223522a740ba25ff04cc2897299595a5afdca348f57edeb9a",
+      "bytes": 4551023,
+      "sha256": "c3e55f3535e6431bc953639ffa755a30eb4ed4a78b7cd341113f7b8a0a9ecede",
       "seconds": 252,
       "post": 284,
       "postedBy": "Arkniem",
