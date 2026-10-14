@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:01:46.721Z",
+  "updated": "2026-10-14T03:02:15.001Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4604,13 +4604,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/wildflowers/",
-      "credit": "'Wildflowers' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Wildflowers' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wildflowers-v1-8beb0445.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wildflowers-v2-04394aee.mp3",
       "type": "mp3",
-      "bytes": 12891141,
-      "sha256": "8beb04451d69523608d1f2f45eb228b6b752534091afc22a889c512c5e88834a",
+      "bytes": 6011540,
+      "sha256": "04394aeeb1ddf7c222beeea56985e45825079d2d1e3b6b4519934e8c75314d67",
       "seconds": 322,
       "post": 267,
       "postedBy": "Arkniem",
