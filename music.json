@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:58:19.935Z",
+  "updated": "2026-10-14T02:58:41.406Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4226,13 +4226,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/there-was-a-time/",
-      "credit": "'There Was A Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'There Was A Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-was-a-time-v1-41171d0f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-was-a-time-v2-6c437594.mp3",
       "type": "mp3",
-      "bytes": 12575596,
-      "sha256": "41171d0fe47bab894309f215bce7f18540526e66319e17942097ba64106ab237",
+      "bytes": 5890108,
+      "sha256": "6c4375949d35b0633e6086a77c101e737049330147c018da455b6f030120d748",
       "seconds": 314,
       "post": 321,
       "postedBy": "Arkniem",
