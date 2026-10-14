@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:29:05.594Z",
+  "updated": "2026-10-14T04:29:08.596Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -131,9 +131,18 @@
       "source": "https://www.scottbuckley.com.au/library/absolution/",
       "credit": "'Absolution' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional"
+      ],
+      "instruments": [
+        "Cello",
+        "Strings",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/absolution-v2-a1a5e176.mp3",
       "type": "mp3",
