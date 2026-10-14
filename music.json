@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:48:05.947Z",
+  "updated": "2026-10-14T04:48:08.319Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3977,8 +3977,16 @@
       "source": "https://www.scottbuckley.com.au/library/life-in-silico/",
       "credit": "'Life in Silico' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
+      "genres": [
+        "Neoclassical",
+        "Orchestral"
+      ],
+      "moods": [
+        "Fun",
+        "Happy",
+        "Peaceful",
+        "Uplifting"
+      ],
       "instruments": [],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-silico-v2-8f486cc6.mp3",
