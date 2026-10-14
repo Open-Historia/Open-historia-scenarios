@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:47:40.365Z",
+  "updated": "2026-10-14T04:48:03.732Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3924,8 +3924,14 @@
         "atWar",
         "battle"
       ],
-      "genres": [],
-      "moods": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Epic",
+        "Militaristic"
+      ],
       "instruments": [],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-v2-9715294c.mp3",
