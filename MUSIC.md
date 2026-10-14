@@ -106,7 +106,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Icarus (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) | `icarus-2019` | Scott Buckley | CC BY 4.0 | 3:29 | 3.7 MB | — | Electronica, Orchestral | Adventurous, Epic, Uplifting |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 4.6 MB | — | Jazz, Pop | Dreamy, Innocent, Playful |
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | Orchestral | Adventurous, Epic, Inspirational |
-| [In Development](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) | `in-development` | Scott Buckley | CC BY 4.0 | 2:15 | 3.1 MB | — | — | — |
+| [In Development](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) | `in-development` | Scott Buckley | CC BY 4.0 | 2:15 | 3.1 MB | — | Electronica, Hip Hop, Orchestral | Bittersweet, Brooding, Driving, Melancholy, Mysterious |
 | [In Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/354) | `in-dreams` | Scott Buckley | CC BY 4.0 | 4:09 | 4.5 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 7.6 MB | — | — | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 3.5 MB | — | — | — |
@@ -1674,6 +1674,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/in-development/>
+- **Genre:** Electronica, Hip Hop, Orchestral
+- **Mood:** Bittersweet, Brooding, Driving, Melancholy, Mysterious
+- **Instruments:** Drums (Electronic), Piano, Strings, Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'In Development' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
