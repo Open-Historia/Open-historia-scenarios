@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:31:23.067Z",
+  "updated": "2026-10-14T02:31:27.883Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2261,13 +2261,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/light-in-dark-places-2019-remaster/",
-      "credit": "'Light in Dark Places' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Light in Dark Places' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/light-in-dark-places-2019-remaster-v1-de84d307.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/light-in-dark-places-2019-remaster-v2-e7b23b30.mp3",
       "type": "mp3",
-      "bytes": 5426399,
-      "sha256": "de84d3073bebab79a6b2946545124890c9895371a5232ec96db53cbee1bc3c97",
+      "bytes": 2476649,
+      "sha256": "e7b23b30af99d1fa04b2bf69c1005e7d5add7c6ff6696b12dfd06e799841a97b",
       "seconds": 136,
       "post": 401,
       "postedBy": "Arkniem",
