@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:14:45.423Z",
+  "updated": "2026-10-14T02:14:50.288Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -620,13 +620,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/childhood/",
-      "credit": "'Childhood' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Childhood' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/childhood-v1-7bc1a9bf.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/childhood-v2-7c64f001.mp3",
       "type": "mp3",
-      "bytes": 5486935,
-      "sha256": "7bc1a9bf1d57d1eb96dcfd9ead5d31371d378fa6c238fe7f59700cd6e5936460",
+      "bytes": 2360757,
+      "sha256": "7c64f001fe37da48ff06c90ec992a3ffa87a42ec286a612e8effc55e5f6d405a",
       "seconds": 137,
       "post": 408,
       "postedBy": "Arkniem",
