@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:32:22.377Z",
+  "updated": "2026-10-14T04:32:25.752Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -889,9 +889,19 @@
       "source": "https://www.scottbuckley.com.au/library/bring-me-the-sky/",
       "credit": "'Bring Me The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Inspirational",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra",
+        "Piano"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/bring-me-the-sky-v2-3b92ec77.mp3",
       "type": "mp3",
