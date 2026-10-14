@@ -177,7 +177,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 7.7 MB | — | Ambient, Neoclassical | Bittersweet, Calm, Melancholy, Thoughtful |
 | [Petrichor](https://github.com/Open-Historia/Open-historia-scenarios/issues/398) | `petrichor` | Scott Buckley | CC BY 4.0 | 4:31 | 4.4 MB | — | Ambient | Calm, Emotional, Peaceful, Reflective, Thoughtful |
 | [Phase Shift](https://github.com/Open-Historia/Open-historia-scenarios/issues/508) | `phase-shift` | Scott Buckley | CC BY 4.0 | 6:03 | 5.9 MB | — | Ambient, Neoclassical | Bittersweet, Reflective, Thoughtful |
-| [Phoenix](https://github.com/Open-Historia/Open-historia-scenarios/issues/426) | `phoenix` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — | — | — |
+| [Phoenix](https://github.com/Open-Historia/Open-historia-scenarios/issues/426) | `phoenix` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — | Neoclassical, Orchestral | Bittersweet, Emotional, Melancholy, Passionate, Thoughtful |
 | [Phoenix (2026)](https://github.com/Open-Historia/Open-historia-scenarios/issues/264) | `phoenix-2026` | Scott Buckley | CC BY 4.0 | 5:54 | 6.3 MB | — | Neoclassical | Bittersweet, Calm |
 | [Precipice](https://github.com/Open-Historia/Open-historia-scenarios/issues/350) | `precipice` | Scott Buckley | CC BY 4.0 | 1:59 | 2.1 MB | — | Orchestral | Adventurous, Epic, Inspirational |
 | [Prelude to Chemistry](https://github.com/Open-Historia/Open-historia-scenarios/issues/483) | `prelude-to-chemistry` | Scott Buckley | CC BY 4.0 | 4:02 | 5.4 MB | — | — | — |
@@ -2661,6 +2661,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/phoenix/>
+- **Genre:** Neoclassical, Orchestral
+- **Mood:** Bittersweet, Emotional, Melancholy, Passionate, Thoughtful
+- **Instruments:** Choir, Orchestra, Strings
 - **Credit:**
 
 > 'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
