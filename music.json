@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:56:07.592Z",
+  "updated": "2026-10-14T02:56:12.786Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3956,13 +3956,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-climb/",
-      "credit": "'The Climb' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Climb' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-climb-v1-791472ee.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-climb-v2-1d783e38.mp3",
       "type": "mp3",
-      "bytes": 13886884,
-      "sha256": "791472ee1554311ca4191f1efc6b839b41fcb3139edc0ad0fd58292d95479343",
+      "bytes": 6606884,
+      "sha256": "1d783e38d58b1c7c1c9e22662f32ffeafe2f9f22ba9abdd84c17ef2ebdb043bb",
       "seconds": 347,
       "post": 349,
       "postedBy": "Arkniem",

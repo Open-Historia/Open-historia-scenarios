@@ -225,7 +225,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 3.8 MB | — |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 4.8 MB | — |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 3.3 MB | — |
-| [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 13.2 MB | — |
+| [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 6.3 MB | — |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 5.0 MB | — |
 | [The Illusionist](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) | `the-illusionist` | Scott Buckley | CC BY 4.0 | 3:35 | 8.2 MB | — |
 | [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 12.9 MB | — |
@@ -2688,9 +2688,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-climb/>
 - **Credit:**
 
-> 'The Climb' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Climb' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-climb-v1-791472ee.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-climb-v2-1d783e38.mp3) (version 2, posted by @Arkniem)
 
 ### The Great Sea (`the-great-sea`)
 
