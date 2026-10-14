@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:59:52.361Z",
+  "updated": "2026-10-14T05:00:16.452Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5925,8 +5925,15 @@
       "source": "https://www.scottbuckley.com.au/library/resolutions/",
       "credit": "'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
+      "genres": [
+        "Neoclassical",
+        "Pop"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Uplifting"
+      ],
       "instruments": [],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resolutions-v2-a91222b3.mp3",

@@ -189,7 +189,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | Neoclassical | Bittersweet, Innocent |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | Electronica, Orchestral | Dark, Driving, Industrial, Intense, Mysterious |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | Electronica, Pop | Blissful, Dreamy, Happy, Sleepy |
-| [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — | — | — |
+| [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — | Neoclassical, Pop | Bittersweet, Emotional, Uplifting |
 | [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 4.8 MB | — | — | — |
 | [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 4.0 MB | — | — | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 4.8 MB | — | — | — |
@@ -2829,6 +2829,8 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/resolutions/>
+- **Genre:** Neoclassical, Pop
+- **Mood:** Bittersweet, Emotional, Uplifting
 - **Credit:**
 
 > 'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
