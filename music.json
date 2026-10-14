@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:59:26.496Z",
+  "updated": "2026-10-14T02:59:55.936Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4334,13 +4334,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/twilight-echo/",
-      "credit": "'Twilight Echo' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Twilight Echo' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/twilight-echo-v1-001f83ce.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/twilight-echo-v2-eeebabb8.mp3",
       "type": "mp3",
-      "bytes": 11478400,
-      "sha256": "001f83ce090b72ebc29e6caa278e15e4e715d000f7600a82439baad5ffdee08b",
+      "bytes": 5452969,
+      "sha256": "eeebabb8fb5d87b52913bf5d43fd9f8fc8a8d82b9a27039835e2091a27c1a5bf",
       "seconds": 287,
       "post": 367,
       "postedBy": "Arkniem",

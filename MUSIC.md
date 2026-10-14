@@ -246,7 +246,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Time and Space](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) | `time-and-space` | Scott Buckley | CC BY 4.0 | 3:52 | 3.7 MB | — |
 | [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 6.7 MB | — |
 | [Tomorrow](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) | `tomorrow` | Scott Buckley | CC BY 4.0 | 2:33 | 5.8 MB | — |
-| [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 10.9 MB | — |
+| [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 5.2 MB | — |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 16.9 MB | — |
 | [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 7.8 MB | — |
@@ -2919,9 +2919,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/twilight-echo/>
 - **Credit:**
 
-> 'Twilight Echo' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Twilight Echo' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/twilight-echo-v1-001f83ce.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/twilight-echo-v2-eeebabb8.mp3) (version 2, posted by @Arkniem)
 
 ### Undertow (`undertow`)
 
