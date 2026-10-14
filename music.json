@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:36:12.684Z",
+  "updated": "2026-10-14T04:36:38.714Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1756,9 +1756,20 @@
       "source": "https://www.scottbuckley.com.au/library/echoes-of-home/",
       "credit": "'Echoes Of Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Innocent",
+        "Peaceful"
+      ],
+      "instruments": [
+        "Orchestra",
+        "Strings",
+        "Woodwinds"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-of-home-v2-cd19ec10.mp3",
       "type": "mp3",

@@ -60,7 +60,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 4.1 MB | — | Pop | Happy, Inspirational, Uplifting |
 | [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — | Pop, Rock | Happy, Melancholy, Uplifting |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — | — | — |
-| [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | — | — |
+| [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | Orchestral | Bittersweet, Emotional, Innocent, Peaceful |
 | [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 4.3 MB | — | — | — |
 | [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — | — | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — | — | — |
@@ -1031,6 +1031,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/echoes-of-home/>
+- **Genre:** Orchestral
+- **Mood:** Bittersweet, Emotional, Innocent, Peaceful
+- **Instruments:** Orchestra, Strings, Woodwinds
 - **Credit:**
 
 > 'Echoes Of Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
