@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:08:45.155Z",
+  "updated": "2026-10-14T02:08:50.861Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -98,13 +98,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/adrift-among-infinite-stars/",
-      "credit": "'Adrift Among Infinite Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Adrift Among Infinite Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/adrift-among-infinite-stars-v1-e2674472.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/adrift-among-infinite-stars-v2-05734c9a.mp3",
       "type": "mp3",
-      "bytes": 16211863,
-      "sha256": "e26744726c5677f915d91e7d0784767a293f76ecd2ad7d4db3118c076aa12a28",
+      "bytes": 6723572,
+      "sha256": "05734c9a148c81bfaa768cf5f565116e408c9169b35c5a0b174e902ca240d7a3",
       "seconds": 405,
       "post": 325,
       "postedBy": "Arkniem",
