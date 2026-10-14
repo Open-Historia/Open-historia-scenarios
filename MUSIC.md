@@ -205,7 +205,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 3.4 MB | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — |
 | [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 1.5 MB | — |
-| [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
+| [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 4.1 MB | — |
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 7.0 MB | — |
 | [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 9.5 MB | — |
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
@@ -2468,9 +2468,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/skyward/>
 - **Credit:**
 
-> 'Skyward' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Skyward' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyward-v1-6f8558ef.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyward-v2-616aee59.mp3) (version 2, posted by @Arkniem)
 
 ### Sleep (`sleep`)
 
