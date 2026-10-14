@@ -91,7 +91,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — |
 | [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
-| [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 10.3 MB | — |
+| [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — |
 | [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
 | [Horizons](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) | `horizons` | Scott Buckley | CC BY 4.0 | 4:53 | 11.2 MB | — |
@@ -1214,9 +1214,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/home-was-you/>
 - **Credit:**
 
-> 'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v1-4d4cf96e.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v2-adaa0b36.mp3) (version 2, posted by @Arkniem)
 
 ### Homeward (`homeward`)
 

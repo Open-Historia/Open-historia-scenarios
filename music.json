@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:23:21.994Z",
+  "updated": "2026-10-14T02:23:55.206Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1538,13 +1538,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/home-was-you/",
-      "credit": "'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v1-4d4cf96e.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/home-was-you-v2-adaa0b36.mp3",
       "type": "mp3",
-      "bytes": 10779404,
-      "sha256": "4d4cf96e941c61cbdab71ef49c6dd6b67d6fd1df00926fac2f6e419e34d76d61",
+      "bytes": 4683890,
+      "sha256": "adaa0b36eff451f72b2cc9e4cff8e51bf00969104b98e73dea482169b91c7684",
       "seconds": 269,
       "post": 259,
       "postedBy": "Arkniem",
