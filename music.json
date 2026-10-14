@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:54:01.715Z",
+  "updated": "2026-10-14T02:54:06.688Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3722,13 +3722,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/solstice/",
-      "credit": "'Solstice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Solstice' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solstice-v1-2a8ec70a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solstice-v2-293a0b95.mp3",
       "type": "mp3",
-      "bytes": 7568391,
-      "sha256": "2a8ec70a5d907d1381b468a9b8fe566a810fcfa08a0d86f9773c0567baee4094",
+      "bytes": 3665446,
+      "sha256": "293a0b9510de07f825acacf36d8f3ff3119a4736c422f6228e5743ae0a893e19",
       "seconds": 189,
       "post": 432,
       "postedBy": "Arkniem",
