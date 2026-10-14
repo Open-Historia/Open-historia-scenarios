@@ -120,7 +120,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — |
 | [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 4.4 MB | — |
 | [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 4.7 MB | — |
-| [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 8.5 MB | — |
+| [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 7.9 MB | — |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
 | [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 2.6 MB | — |
@@ -1533,9 +1533,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/juggernaut/>
 - **Credit:**
 
-> 'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/juggernaut-v1-50be286d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/juggernaut-v2-6af1a581.mp3) (version 2, posted by @Arkniem)
 
 ### Jul (`jul`)
 

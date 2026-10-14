@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:29:13.924Z",
+  "updated": "2026-10-14T02:29:43.424Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2060,13 +2060,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/juggernaut/",
-      "credit": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/juggernaut-v1-50be286d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/juggernaut-v2-6af1a581.mp3",
       "type": "mp3",
-      "bytes": 8885000,
-      "sha256": "50be286d170f5a08791f1540b110fbbb4c0aa26e841084fceff0c908379e76f6",
+      "bytes": 4209942,
+      "sha256": "6af1a5815c5c843d5deb048caab36e3e4613400c74552fb09de51962137b3501",
       "seconds": 222,
       "post": 316,
       "postedBy": "Arkniem",
