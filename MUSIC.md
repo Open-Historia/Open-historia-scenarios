@@ -32,7 +32,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 7.3 MB | — | Ambient, Neoclassical | Mysterious, Peaceful, Reflective, Thoughtful |
 | [Blood](https://github.com/Open-Historia/Open-historia-scenarios/issues/459) | `blood` | Scott Buckley | CC BY 4.0 | 5:48 | 6.0 MB | — | Ambient, Pop | Calm, Happy, Inspirational, Melancholy, Relaxed, Uplifting |
 | [Borealis](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) | `borealis` | Scott Buckley | CC BY 4.0 | 6:32 | 5.8 MB | — | — | — |
-| [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 3.2 MB | — | — | — |
+| [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 3.2 MB | — | Orchestral, Rock | Heroic, Uplifting |
 | [Bring Me The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) | `bring-me-the-sky` | Scott Buckley | CC BY 4.0 | 3:52 | 4.0 MB | — | — | — |
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 4.8 MB | — | — | — |
 | [Cassini](https://github.com/Open-Historia/Open-historia-scenarios/issues/431) | `cassini` | Scott Buckley | CC BY 4.0 | 4:51 | 5.1 MB | — | — | — |
@@ -640,6 +640,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/born-of-the-sky/>
+- **Genre:** Orchestral, Rock
+- **Mood:** Heroic, Uplifting
+- **Instruments:** Drums (Acoustic), Guitar (Electric), Orchestra
 - **Credit:**
 
 > 'Born Of The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
