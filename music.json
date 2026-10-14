@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:24:45.719Z",
+  "updated": "2026-10-14T02:24:55.127Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1592,13 +1592,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/horizons/",
-      "credit": "'Horizons' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Horizons' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/horizons-v1-e61b3588.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/horizons-v2-65fadf6d.mp3",
       "type": "mp3",
-      "bytes": 11738571,
-      "sha256": "e61b3588333d284fab24411f3f7dcc495890235c49e465e33ceb072012df45c6",
+      "bytes": 5347773,
+      "sha256": "65fadf6d4dba28451f92ecc79989bf1c35ee232ce92c074a5c7d31412ccc7537",
       "seconds": 293,
       "post": 370,
       "postedBy": "Arkniem",
