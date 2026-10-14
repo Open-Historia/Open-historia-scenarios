@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:59:13.528Z",
+  "updated": "2026-10-14T02:59:20.516Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4244,13 +4244,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/this-too-shall-pass/",
-      "credit": "'This Too Shall Pass' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'This Too Shall Pass' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/this-too-shall-pass-v1-4c0a2e93.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/this-too-shall-pass-v2-59b0e1c3.mp3",
       "type": "mp3",
-      "bytes": 17885773,
-      "sha256": "4c0a2e9351906fd2f793634aeb3bceddf6171999b5388a79e600aa489413ae4a",
+      "bytes": 8172150,
+      "sha256": "59b0e1c35a90435e79f80385ec19aaadcf45baef7c5af1825045b679aa257ecf",
       "seconds": 447,
       "post": 351,
       "postedBy": "Arkniem",
