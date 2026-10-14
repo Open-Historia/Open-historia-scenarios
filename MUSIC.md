@@ -271,7 +271,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 2.2 MB | — | Pop | Calm, Fun, Happy, Playful, Reflective, Relaxed, Uplifting |
 | [World of Magic](https://github.com/Open-Historia/Open-historia-scenarios/issues/498) | `world-of-magic` | Scott Buckley | CC BY 4.0 | 1:37 | 1.5 MB | — | — | — |
 | [Yellow](https://github.com/Open-Historia/Open-historia-scenarios/issues/489) | `yellow` | Scott Buckley | CC BY 4.0 | 1:23 | 1.9 MB | — | — | — |
-| [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 6.9 MB | — | — | — |
+| [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 6.9 MB | — | Ambient, Electronica, Orchestral, Pop, Rock | Brooding, Dark, Driving, Sinister |
 
 ## Credits and licences
 
@@ -3967,6 +3967,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/your-numbers-up-ost/>
+- **Genre:** Ambient, Electronica, Orchestral, Pop, Rock
+- **Mood:** Brooding, Dark, Driving, Sinister
+- **Instruments:** Bass, Drums (Acoustic), Drums (Electronic), Guitar (Electric), Piano, Strings, Synth (Pad)
 - **Credit:**
 
 > 'Your Number's Up (OST)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
