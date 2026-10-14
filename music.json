@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:55:24.963Z",
+  "updated": "2026-10-14T02:55:30.870Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3938,13 +3938,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-black-waltz/",
-      "credit": "'The Black Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Black Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-black-waltz-v1-33bb8c6d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-black-waltz-v2-64a1accc.mp3",
       "type": "mp3",
-      "bytes": 7064757,
-      "sha256": "33bb8c6dd2799a62240dde57bfc06ac6add5a49bc121f09b6b3d6c256e206d99",
+      "bytes": 3444202,
+      "sha256": "64a1accc2b61572a9d5a7738387d4815d6a00bf33ff773dfb03fdfd96cd1e064",
       "seconds": 177,
       "post": 414,
       "postedBy": "Arkniem",
