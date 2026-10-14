@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:22:14.249Z",
+  "updated": "2026-10-14T02:22:20.974Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1358,13 +1358,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/genesis/",
-      "credit": "'Genesis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Genesis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/genesis-v1-cbfdddf7.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/genesis-v2-ea79cee0.mp3",
       "type": "mp3",
-      "bytes": 7301942,
-      "sha256": "cbfdddf7c8cce5849c49210582d15aa5efbfed20b7f8e46128fa0f0782e85c83",
+      "bytes": 3379798,
+      "sha256": "ea79cee093d901279dc49c014541deace58dbfb37d5595b5dab1f5a83413b549",
       "seconds": 182,
       "post": 429,
       "postedBy": "Arkniem",

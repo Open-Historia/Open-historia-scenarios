@@ -878,8 +878,8 @@
     },
     "429": {
       "id": "genesis",
-      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/genesis.mp3",
-      "bodyHash": "9b40a0985a020f161eecdf52ec776aeeb5dbfd000d7b2e9cbe493204bbc281ef"
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/genesis-small.mp3",
+      "bodyHash": "abe9c5aa7e35b0cbdf22525376e5530718becb9aaeac664caf9d5956bc3f5e85"
     },
     "430": {
       "id": "life-is",
