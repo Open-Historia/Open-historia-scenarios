@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:34:17.371Z",
+  "updated": "2026-10-14T02:34:22.283Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2513,13 +2513,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-endurance/",
-      "credit": "'The Endurance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Endurance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-endurance-v1-3e799629.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-endurance-v2-29fcdb60.mp3",
       "type": "mp3",
-      "bytes": 10124181,
-      "sha256": "3e79962939d290b80da7f848f976a829a676eebc31d75a4afed0ecbb8cb5e91e",
+      "bytes": 4917368,
+      "sha256": "29fcdb6071711a117889dee0c77a0ab29958029f3d1d04735af47eba09fb0da5",
       "seconds": 253,
       "post": 393,
       "postedBy": "Arkniem",
