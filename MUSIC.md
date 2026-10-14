@@ -135,7 +135,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 2.4 MB | — | Orchestral | Epic, Inspirational, Uplifting |
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 3.3 MB | — | — | — |
 | [Luminance](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) | `luminance` | Scott Buckley | CC BY 4.0 | 4:53 | 4.9 MB | — | — | — |
-| [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 5.0 MB | — | — | — |
+| [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 5.0 MB | — | Ambient, Electronica | Brooding, Mysterious, Ominous |
 | [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — | — | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 6.7 MB | — | — | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 2.9 MB | — | — | — |
@@ -2070,6 +2070,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/machina/>
+- **Genre:** Ambient, Electronica
+- **Mood:** Brooding, Mysterious, Ominous
+- **Instruments:** Synth (Atmospherics), Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Machina' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
