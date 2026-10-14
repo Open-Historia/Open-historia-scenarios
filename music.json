@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:02:32.563Z",
+  "updated": "2026-10-14T03:03:05.113Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4640,13 +4640,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/with-these-hands/",
-      "credit": "'With These Hands' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'With These Hands' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/with-these-hands-v1-e450028d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/with-these-hands-v2-8dd608d3.mp3",
       "type": "mp3",
-      "bytes": 12231820,
-      "sha256": "e450028d152becd5c68dec24899f05a71ac1c13d6934dfebf71dbbae5472db9b",
+      "bytes": 5579282,
+      "sha256": "8dd608d35b7e54a52f219b4111b8470e5d5adc1b6aff10e8a8658165921b4c05",
       "seconds": 306,
       "post": 260,
       "postedBy": "Arkniem",
