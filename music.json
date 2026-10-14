@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:04:16.782Z",
+  "updated": "2026-10-14T05:04:41.357Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6709,9 +6709,19 @@
       "source": "https://www.scottbuckley.com.au/library/song-of-the-forge/",
       "credit": "'Song Of The Forge' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Epic",
+        "Militaristic"
+      ],
+      "instruments": [
+        "Choir",
+        "Drums (Epic)",
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/song-of-the-forge-v2-b272646d.mp3",
       "type": "mp3",
