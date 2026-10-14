@@ -173,6 +173,10 @@ anything from a streaming service) can't be posted.
    - **Download link to the audio file.**
    - **Fits** (optional): where the track suits: the menu, a game loading, in the game, at war, in
      the war room. Scenario makers see these as suggestions, and can still use a track anywhere.
+   - **Genre**, **Mood** and **Instruments** (optional): choose any that fit from each list.
+     Scenario makers find tracks by them in the game's Music tab. The lists are the ones
+     [Scott Buckley's library](https://www.scottbuckley.com.au/library/) sorts its music by, where
+     most of the hub's music comes from.
    - **Notes** (optional), and the box that says you have checked the licence and the credit.
 
    Don't delete or rename the form's headings: the bot reads your answers under them.

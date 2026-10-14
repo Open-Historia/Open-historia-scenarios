@@ -85,6 +85,122 @@ body:
         - label: In the game
         - label: At war
         - label: In the war room
+  - type: dropdown
+    id: genres
+    attributes:
+      label: Genre
+      description: What kind of music it is. Scenario makers find tracks by these. Choose any that fit, or none.
+      multiple: true
+      options:
+        - "Ambient"
+        - "Christmas"
+        - "Electronica"
+        - "Folk"
+        - "Funk"
+        - "Halloween"
+        - "Hip Hop"
+        - "Jazz"
+        - "Neoclassical"
+        - "Noir"
+        - "Orchestral"
+        - "Pop"
+        - "Rock"
+        - "Techno"
+  - type: dropdown
+    id: moods
+    attributes:
+      label: Mood
+      description: How it feels. Choose any that fit, or none.
+      multiple: true
+      options:
+        - "Adventurous"
+        - "Angry"
+        - "Bittersweet"
+        - "Blissful"
+        - "Brooding"
+        - "Calm"
+        - "Christmas"
+        - "Comedic"
+        - "Cute"
+        - "Dark"
+        - "Depressed"
+        - "Dreamy"
+        - "Driving"
+        - "Emotional"
+        - "Energetic"
+        - "Epic"
+        - "Excited"
+        - "Fun"
+        - "Grandiose"
+        - "Happy"
+        - "Heroic"
+        - "Hopeful"
+        - "Industrial"
+        - "Innocent"
+        - "Inspirational"
+        - "Intense"
+        - "Lonely"
+        - "Meditative"
+        - "Melancholy"
+        - "Militaristic"
+        - "Mysterious"
+        - "Nostalgic"
+        - "Ominous"
+        - "Passionate"
+        - "Peaceful"
+        - "Playful"
+        - "Reflective"
+        - "Relaxed"
+        - "Romantic"
+        - "Sad"
+        - "Sinister"
+        - "Sleepy"
+        - "Sombre"
+        - "Spiritual"
+        - "Thoughtful"
+        - "Uplifting"
+  - type: dropdown
+    id: instruments
+    attributes:
+      label: Instruments
+      description: What it is played on. Choose any that fit, or none.
+      multiple: true
+      options:
+        - "Accordion"
+        - "Bass"
+        - "Bass (Acoustic)"
+        - "Brass"
+        - "Cello"
+        - "Choir"
+        - "Clarinet"
+        - "Drums (Acoustic)"
+        - "Drums (Electronic)"
+        - "Drums (Epic)"
+        - "Flute (Ethnic)"
+        - "Glockenspiel"
+        - "Guitar (Acoustic)"
+        - "Guitar (Electric)"
+        - "Harp"
+        - "Mandolin"
+        - "Orchestra"
+        - "Organ"
+        - "Percussion"
+        - "Piano"
+        - "Piano (Electric)"
+        - "Recorder"
+        - "Saxophone"
+        - "Strings"
+        - "Synth (Atmospherics)"
+        - "Synth (Lead)"
+        - "Synth (Pad)"
+        - "Trumpet"
+        - "Ukulele"
+        - "Vibes"
+        - "Violin"
+        - "Vocals (Female)"
+        - "Vocals (Male)"
+        - "Woodwinds"
+        - "Xylophone"
   - type: textarea
     id: notes
     attributes:
