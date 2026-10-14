@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:54:35.860Z",
+  "updated": "2026-10-14T02:54:41.072Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3812,13 +3812,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/stars-in-her-skies/",
-      "credit": "'Stars In Her Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Stars In Her Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/stars-in-her-skies-v1-1bbe9a38.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/stars-in-her-skies-v2-b407cac6.mp3",
       "type": "mp3",
-      "bytes": 10161139,
-      "sha256": "1bbe9a38f3fa841c6ee30d0ac5ac223882b24aab3c77711fc05d2311a308be45",
+      "bytes": 5108368,
+      "sha256": "b407cac675f1dd137825b690ec1f0708cb4e152cc359d69e57457a7a85f66f66",
       "seconds": 277,
       "post": 439,
       "postedBy": "Arkniem",

@@ -217,7 +217,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Soul Searcher](https://github.com/Open-Historia/Open-historia-scenarios/issues/500) | `soul-searcher` | Scott Buckley | CC BY 4.0 | 5:17 | 4.8 MB | — |
 | [Special Ops](https://github.com/Open-Historia/Open-historia-scenarios/issues/485) | `special-ops` | Scott Buckley | CC BY 4.0 | 3:32 | 3.2 MB | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 6.1 MB | — |
-| [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 9.7 MB | — |
+| [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 4.9 MB | — |
 | [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 4.4 MB | — |
 | [Sunday Smooth](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) | `sunday-smooth` | Scott Buckley | CC BY 4.0 | 2:35 | 2.4 MB | — |
 | [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 9.0 MB | — |
@@ -2600,9 +2600,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/stars-in-her-skies/>
 - **Credit:**
 
-> 'Stars In Her Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Stars In Her Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/stars-in-her-skies-v1-1bbe9a38.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/stars-in-her-skies-v2-b407cac6.mp3) (version 2, posted by @Arkniem)
 
 ### Static (`static`)
 
