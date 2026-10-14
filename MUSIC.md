@@ -260,7 +260,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 3.7 MB | — | Orchestral | Adventurous, Grandiose, Inspirational |
 | [Wanderlust](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) | `wanderlust` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — | Folk, Pop | Happy, Peaceful |
 | [Wayfarer](https://github.com/Open-Historia/Open-historia-scenarios/issues/334) | `wayfarer` | Scott Buckley | CC BY 4.0 | 3:42 | 3.9 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
-| [Welcome to my Junkyard](https://github.com/Open-Historia/Open-historia-scenarios/issues/493) | `welcome-to-my-junkyard` | Scott Buckley | CC BY 4.0 | 1:51 | 1.7 MB | — | — | — |
+| [Welcome to my Junkyard](https://github.com/Open-Historia/Open-historia-scenarios/issues/493) | `welcome-to-my-junkyard` | Scott Buckley | CC BY 4.0 | 1:51 | 1.7 MB | — | Orchestral | Excited, Happy, Inspirational, Uplifting |
 | [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 6.6 MB | — | Neoclassical | Bittersweet, Melancholy, Reflective, Sad |
 | [Where Stars Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) | `where-stars-fall` | Scott Buckley | CC BY 4.0 | 4:31 | 4.8 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [White Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/474) | `white-dawn` | Scott Buckley | CC BY 4.0 | 6:30 | 8.9 MB | — | Electronica, Orchestral | Emotional, Epic, Happy, Inspirational, Uplifting |
@@ -3820,6 +3820,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/welcome-to-my-junkyard/>
+- **Genre:** Orchestral
+- **Mood:** Excited, Happy, Inspirational, Uplifting
+- **Instruments:** Recorder, Strings, Woodwinds
 - **Credit:**
 
 > 'Welcome to my Junkyard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
