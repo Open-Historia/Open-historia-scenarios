@@ -121,7 +121,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — | Orchestral | Adventurous, Emotional, Epic |
 | [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 2.1 MB | — | Folk, Pop | Happy, Relaxed, Uplifting |
 | [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 2.3 MB | — | — | — |
-| [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — | — | — |
+| [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — | Orchestral | Adventurous, Dark, Epic, Militaristic |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 3.6 MB | — | — | — |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 8.2 MB | — | — | — |
 | [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 1.2 MB | — | — | — |
@@ -1881,6 +1881,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/juggernaut/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Dark, Epic, Militaristic
+- **Instruments:** Drums (Epic), Orchestra
 - **Credit:**
 
 > 'Juggernaut' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
