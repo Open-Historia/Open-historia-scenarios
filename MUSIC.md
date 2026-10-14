@@ -93,7 +93,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — |
 | [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — |
-| [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 9.2 MB | — |
+| [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 4.5 MB | — |
 | [Horizons](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) | `horizons` | Scott Buckley | CC BY 4.0 | 4:53 | 11.2 MB | — |
 | [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 8.3 MB | — |
 | [Hunted](https://github.com/Open-Historia/Open-historia-scenarios/issues/497) | `hunted` | Scott Buckley | CC BY 4.0 | 1:47 | 1.6 MB | — |
@@ -1236,9 +1236,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/honour-among-thieves/>
 - **Credit:**
 
-> 'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v1-b1050f49.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v2-1b65d01c.mp3) (version 2, posted by @Arkniem)
 
 ### Horizons (`horizons`)
 

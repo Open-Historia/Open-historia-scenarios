@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:23:55.206Z",
+  "updated": "2026-10-14T02:24:00.523Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1574,13 +1574,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/honour-among-thieves/",
-      "credit": "'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v1-b1050f49.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v2-1b65d01c.mp3",
       "type": "mp3",
-      "bytes": 9603894,
-      "sha256": "b1050f499c16e719a7eafc2b93bb61634b42537776ac9a80a7cbf67b9870df8d",
+      "bytes": 4684410,
+      "sha256": "1b65d01cd9ac9c6aaa0ffccb12255689fbbf3eabdaf1bead079aff8f763b5b55",
       "seconds": 240,
       "post": 275,
       "postedBy": "Arkniem",
