@@ -115,7 +115,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 5.9 MB | — | Neoclassical | Bittersweet, Melancholy, Thoughtful |
 | [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 4.2 MB | — | — | — |
 | [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 4.4 MB | — | — | — |
-| [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 4.7 MB | — | — | — |
+| [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 4.7 MB | — | Orchestral | Adventurous, Driving, Epic |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 4.5 MB | — | — | — |
 | [Invocation](https://github.com/Open-Historia/Open-historia-scenarios/issues/450) | `invocation` | Scott Buckley | CC BY 4.0 | 3:34 | 3.8 MB | — | — | — |
 | [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — | — | — |
@@ -1794,6 +1794,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/into-the-unknown/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Driving, Epic
+- **Instruments:** Drums (Epic), Orchestra, Synth (Atmospherics)
 - **Credit:**
 
 > 'Into The Unknown' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
