@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:40:48.448Z",
+  "updated": "2026-10-14T04:40:50.738Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2622,9 +2622,20 @@
       "source": "https://www.scottbuckley.com.au/library/growing-up/",
       "credit": "'Growing Up' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical",
+        "Pop"
+      ],
+      "moods": [
+        "Peaceful",
+        "Reflective",
+        "Relaxed",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/growing-up-v2-0c0120ec.mp3",
       "type": "mp3",
