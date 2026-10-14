@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:03:37.474Z",
+  "updated": "2026-10-14T05:03:40.000Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6443,9 +6443,18 @@
       "source": "https://www.scottbuckley.com.au/library/skyscraper-samba/",
       "credit": "'Skyscraper Samba' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Jazz"
+      ],
+      "moods": [
+        "Comedic",
+        "Fun"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Organ",
+        "Saxophone"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyscraper-samba-v2-389bdd18.mp3",
       "type": "mp3",
