@@ -53,7 +53,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — | Rock | Brooding, Intense, Sinister |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — | Neoclassical | Emotional, Melancholy, Uplifting |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 1.4 MB | — | Orchestral | Driving, Epic, Militaristic, Uplifting |
-| [Decoherence](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) | `decoherence` | Scott Buckley | CC BY 4.0 | 10:18 | 9.7 MB | — | — | — |
+| [Decoherence](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) | `decoherence` | Scott Buckley | CC BY 4.0 | 10:18 | 9.7 MB | — | Ambient, Neoclassical | Bittersweet, Brooding, Mysterious |
 | [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 2.4 MB | — | Ambient, Electronica | Dark, Industrial, Mysterious, Sinister |
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — | Orchestral | Brooding, Dark, Emotional, Reflective, Sombre |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | — | — |
@@ -936,6 +936,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/decoherence/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Bittersweet, Brooding, Mysterious
+- **Instruments:** Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Decoherence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
