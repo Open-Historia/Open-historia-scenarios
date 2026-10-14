@@ -80,7 +80,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Firefly](https://github.com/Open-Historia/Open-historia-scenarios/issues/455) | `firefly` | Scott Buckley | CC BY 4.0 | 2:37 | 2.8 MB | — | Pop | Calm, Happy, Relaxed |
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 3.8 MB | — | Ambient, Christmas, Neoclassical | Calm, Peaceful, Uplifting |
 | [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — | — | — |
-| [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — | — | — |
+| [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — | Christmas, Orchestral | Christmas, Inspirational, Uplifting |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — | — | — |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — | — | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — | — | — |
@@ -1311,6 +1311,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/frankincense-and-myrrh/>
+- **Genre:** Christmas, Orchestral
+- **Mood:** Christmas, Inspirational, Uplifting
+- **Instruments:** Orchestra
 - **Credit:**
 
 > 'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

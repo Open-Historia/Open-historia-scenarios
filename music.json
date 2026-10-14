@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:39:23.271Z",
+  "updated": "2026-10-14T04:39:48.131Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2420,9 +2420,18 @@
       "source": "https://www.scottbuckley.com.au/library/frankincense-and-myrrh/",
       "credit": "'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Christmas",
+        "Orchestral"
+      ],
+      "moods": [
+        "Christmas",
+        "Inspirational",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/frankincense-and-myrrh-v2-028053eb.mp3",
       "type": "mp3",
