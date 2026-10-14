@@ -1320,6 +1320,11 @@
       "id": "katabasis-i",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/katabasis-i-small.mp3",
       "bodyHash": "351a00f2931467c700fa879a1a2e71f6238a0fb6181bc872c735ea2ce6c84a80"
+    },
+    "520": {
+      "id": "anabasis-i",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/anabasis-i-small.mp3",
+      "bodyHash": "9bede19c3286505ece3c8de4fdf24772791618cb9d85fd47342ff948b2b92215"
     }
   }
 }

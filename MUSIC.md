@@ -236,6 +236,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 0.7 MB | — |
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 3.6 MB | — |
 | [The Waster (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) | `the-waster-ost` | Scott Buckley | CC BY 4.0 | 3:52 | 4.1 MB | — |
+| [The Weight of Air – Anabasis I](https://github.com/Open-Historia/Open-historia-scenarios/issues/520) | `anabasis-i` | Scott Buckley | CC BY 4.0 | 9:21 | 10.4 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 6.1 MB | — |
 | [The Weight of Air – Katabasis I](https://github.com/Open-Historia/Open-historia-scenarios/issues/519) | `katabasis-i` | Scott Buckley | CC BY 4.0 | 9:50 | 10.7 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 7.4 MB | — |
@@ -2802,6 +2803,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'The Waster' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-waster-ost-v2-57bd6cd2.mp3) (version 2, posted by @Arkniem)
+
+### The Weight of Air – Anabasis I (`anabasis-i`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/anabasis-i/>
+- **Credit:**
+
+> 'Anabasis I' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/520) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/anabasis-i-v1-a540be2a.mp3) (version 1, posted by @Arkniem)
 
 ### The Weight of Air – Anabasis II (`anabasis-ii`)
 
