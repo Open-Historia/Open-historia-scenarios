@@ -244,7 +244,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [This Too Shall Pass](https://github.com/Open-Historia/Open-historia-scenarios/issues/351) | `this-too-shall-pass` | Scott Buckley | CC BY 4.0 | 7:27 | 7.8 MB | — |
 | [Three Sheets to the Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/305) | `three-sheets-to-the-wind` | Scott Buckley | CC BY 4.0 | 3:20 | 3.6 MB | — |
 | [Time and Space](https://github.com/Open-Historia/Open-historia-scenarios/issues/425) | `time-and-space` | Scott Buckley | CC BY 4.0 | 3:52 | 3.7 MB | — |
-| [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 6.7 MB | — |
+| [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 3.1 MB | — |
 | [Tomorrow](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) | `tomorrow` | Scott Buckley | CC BY 4.0 | 2:33 | 5.8 MB | — |
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 5.2 MB | — |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
@@ -2897,9 +2897,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/titan/>
 - **Credit:**
 
-> 'Titan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Titan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/titan-v1-fb921a09.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/titan-v2-d21030cc.mp3) (version 2, posted by @Arkniem)
 
 ### Tomorrow (`tomorrow`)
 

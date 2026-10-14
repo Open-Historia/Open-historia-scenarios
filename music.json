@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:59:55.936Z",
+  "updated": "2026-10-14T03:00:00.490Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4298,13 +4298,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/titan/",
-      "credit": "'Titan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Titan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/titan-v1-fb921a09.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/titan-v2-d21030cc.mp3",
       "type": "mp3",
-      "bytes": 7034419,
-      "sha256": "fb921a09cc6181228b14945c7a6b90b50a83f4f38a37644a383bf7c70ea83729",
+      "bytes": 3268987,
+      "sha256": "d21030cc12d719a6e701af1b4a2d4fb38cdec3ee2bd9edf94affbf9c67c6cfa3",
       "seconds": 176,
       "post": 418,
       "postedBy": "Arkniem",
