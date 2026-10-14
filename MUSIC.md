@@ -90,7 +90,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
 | [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — |
 | [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — |
-| [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 13.2 MB | — |
+| [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 6.0 MB | — |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — |
 | [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 4.5 MB | — |
@@ -1203,9 +1203,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/hiraeth/>
 - **Credit:**
 
-> 'Hiraeth' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Hiraeth' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hiraeth-v1-f790c7d5.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hiraeth-v2-6ae2b148.mp3) (version 2, posted by @Arkniem)
 
 ### Home Was You (`home-was-you`)
 
