@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:09:29.105Z",
+  "updated": "2026-10-14T02:09:34.803Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -206,13 +206,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/an-unexpected-party/",
-      "credit": "'An Unexpected Party' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'An Unexpected Party' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/an-unexpected-party-v1-4d877c2d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/an-unexpected-party-v2-b22ebdbe.mp3",
       "type": "mp3",
-      "bytes": 2524430,
-      "sha256": "4d877c2dd3f52f3e207aebdaf79729b27655d60ed2fcaca03b5da1cc3f1de1de",
+      "bytes": 1200999,
+      "sha256": "b22ebdbe7a4bd42588a4ffa98beecf3a83112b4facab4433dc61a983a300fc3b",
       "seconds": 63,
       "post": 465,
       "postedBy": "Arkniem",

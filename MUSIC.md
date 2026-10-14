@@ -17,7 +17,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 5.1 MB | — |
 | [Ambush](https://github.com/Open-Historia/Open-historia-scenarios/issues/501) | `ambush` | Scott Buckley | CC BY 4.0 | 7:06 | 6.5 MB | — |
-| [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 2.4 MB | — |
+| [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 1.1 MB | — |
 | [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 7.4 MB | — |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 14.3 MB | — |
@@ -400,9 +400,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/an-unexpected-party/>
 - **Credit:**
 
-> 'An Unexpected Party' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'An Unexpected Party' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/an-unexpected-party-v1-4d877c2d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/an-unexpected-party-v2-b22ebdbe.mp3) (version 2, posted by @Arkniem)
 
 ### Anna’s Theme (`annas-theme`)
 
