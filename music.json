@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:48:08.319Z",
+  "updated": "2026-10-14T04:48:31.865Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4048,9 +4048,18 @@
       "source": "https://www.scottbuckley.com.au/library/light-in-dark-places-2019-remaster/",
       "credit": "'Light in Dark Places' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Epic",
+        "Inspirational",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Choir",
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/light-in-dark-places-2019-remaster-v2-e7b23b30.mp3",
       "type": "mp3",

@@ -132,7 +132,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Life in Silico](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) | `life-in-silico` | Scott Buckley | CC BY 4.0 | 3:56 | 4.2 MB | — | Neoclassical, Orchestral | Fun, Happy, Peaceful, Uplifting |
 | [Life Is](https://github.com/Open-Historia/Open-historia-scenarios/issues/430) | `life-is` | Scott Buckley | CC BY 4.0 | 5:21 | 5.3 MB | — | — | — |
 | [Light in Dark Places](https://github.com/Open-Historia/Open-historia-scenarios/issues/476) | `light-in-dark-places` | Scott Buckley | CC BY 4.0 | 2:19 | 3.0 MB | — | — | — |
-| [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 2.4 MB | — | — | — |
+| [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 2.4 MB | — | Orchestral | Epic, Inspirational, Uplifting |
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 3.3 MB | — | — | — |
 | [Luminance](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) | `luminance` | Scott Buckley | CC BY 4.0 | 4:53 | 4.9 MB | — | — | — |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 5.0 MB | — | — | — |
@@ -2028,6 +2028,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/light-in-dark-places-2019-remaster/>
+- **Genre:** Orchestral
+- **Mood:** Epic, Inspirational, Uplifting
+- **Instruments:** Choir, Orchestra
 - **Credit:**
 
 > 'Light in Dark Places' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
