@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:09:16.107Z",
+  "updated": "2026-10-14T05:09:41.040Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7715,8 +7715,14 @@
       "source": "https://www.scottbuckley.com.au/library/three-sheets-to-the-wind/",
       "credit": "'Three Sheets To The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Happy",
+        "Heroic"
+      ],
       "instruments": [],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/three-sheets-to-the-wind-v2-595fbffb.mp3",
