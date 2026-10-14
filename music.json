@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:31:10.693Z",
+  "updated": "2026-10-14T04:31:14.032Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -667,9 +667,21 @@
       "source": "https://www.scottbuckley.com.au/library/awakening/",
       "credit": "'Awakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Calm",
+        "Emotional",
+        "Lonely",
+        "Melancholy"
+      ],
+      "instruments": [
+        "Harp",
+        "Recorder",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/awakening-v2-e9d7bc5b.mp3",
       "type": "mp3",
