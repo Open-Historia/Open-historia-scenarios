@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:58:08.732Z",
+  "updated": "2026-10-14T02:58:14.549Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4154,13 +4154,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/anabasis-ii/",
-      "credit": "'Anabasis II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Anabasis II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/anabasis-ii-v1-8350b32a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/anabasis-ii-v2-ab7068b3.mp3",
       "type": "mp3",
-      "bytes": 13179297,
-      "sha256": "8350b32a04df1893abc7a2781a64688e5c7a794b5aafa6ee7e35042a790df7a0",
+      "bytes": 6422256,
+      "sha256": "ab7068b316f1831ba2d8e010e191c9356ab26c3c3dc041b178dc8c036258636e",
       "seconds": 329,
       "post": 257,
       "postedBy": "Arkniem",
