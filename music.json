@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:14:50.288Z",
+  "updated": "2026-10-14T02:14:55.259Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -638,13 +638,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/chronicle/",
-      "credit": "'Chronicle' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Chronicle' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chronicle-v1-1ded5ef2.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chronicle-v2-920ee0e2.mp3",
       "type": "mp3",
-      "bytes": 10211962,
-      "sha256": "1ded5ef2fac4c7d63aee722f3e0055d1e8f28e667a69f41550c2c1b31b1347a4",
+      "bytes": 4605264,
+      "sha256": "920ee0e2eb0796ade162921259478ddb6f0b6dc55bdfd588852f1ba450af28ee",
       "seconds": 255,
       "post": 423,
       "postedBy": "Arkniem",
