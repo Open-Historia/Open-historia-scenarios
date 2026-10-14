@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:38:04.003Z",
+  "updated": "2026-10-14T02:41:48.728Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2675,13 +2675,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/moonlight/",
-      "credit": "'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/moonlight-v1-7feb8c70.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/moonlight-v2-61e63602.mp3",
       "type": "mp3",
-      "bytes": 10177523,
-      "sha256": "7feb8c703983dbdfc97018f004cfebad8f03b86f2382c58c0ad24e375d4c17f5",
+      "bytes": 4377613,
+      "sha256": "61e636027cd8b1d36a3889ac2247a6a0a6a6b3be41a3fbb7d4d8689a0c8a382a",
       "seconds": 254,
       "post": 317,
       "postedBy": "Arkniem",

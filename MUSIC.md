@@ -154,7 +154,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Spaces Between](https://github.com/Open-Historia/Open-historia-scenarios/issues/391) | `the-spaces-between` | Scott Buckley | CC BY 4.0 | 4:21 | 4.4 MB | — |
 | [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 3.9 MB | — |
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
-| [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
+| [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 4.2 MB | — |
 | [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 9.9 MB | — |
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 15.3 MB | — |
@@ -1907,9 +1907,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/moonlight/>
 - **Credit:**
 
-> 'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/moonlight-v1-7feb8c70.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/moonlight-v2-61e63602.mp3) (version 2, posted by @Arkniem)
 
 ### Mr Lonogan (`mr-lonogan`)
 
