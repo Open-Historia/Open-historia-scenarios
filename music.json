@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:15:36.305Z",
+  "updated": "2026-10-14T02:16:06.510Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -746,13 +746,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/computations/",
-      "credit": "'Computations in a Snowstorm' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Computations in a Snowstorm' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/computations-v1-1f0924d2.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/computations-v2-e5bd205f.mp3",
       "type": "mp3",
-      "bytes": 14468922,
-      "sha256": "1f0924d25a2fe3020d354bbd578da00c5267d3faea7967c7c36c9247e4fca9e9",
+      "bytes": 6934780,
+      "sha256": "e5bd205fd8ae20b6a722552efcb44faf78045b015ba53eb5946634f3563c9ac6",
       "seconds": 362,
       "post": 409,
       "postedBy": "Arkniem",
