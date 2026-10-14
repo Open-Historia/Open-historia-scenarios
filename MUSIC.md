@@ -68,7 +68,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Elementary](https://github.com/Open-Historia/Open-historia-scenarios/issues/433) | `elementary` | Scott Buckley | CC BY 4.0 | 2:17 | 2.1 MB | — |
 | [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — |
 | [Ephemera](https://github.com/Open-Historia/Open-historia-scenarios/issues/513) | `ephemera` | Scott Buckley | CC BY 4.0 | 5:38 | 6.0 MB | — |
-| [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
+| [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 4.9 MB | — |
 | [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 14.4 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 4.8 MB | — |
 | [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — |
@@ -961,9 +961,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/escape-velocity/>
 - **Credit:**
 
-> 'Escape Velocity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Escape Velocity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/escape-velocity-v1-ce152c6a.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/escape-velocity-v2-10a694c7.mp3) (version 2, posted by @Arkniem)
 
 ### Extrapolation (`extrapolation`)
 
