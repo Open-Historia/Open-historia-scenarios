@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:54:31.788Z",
+  "updated": "2026-10-14T04:54:55.835Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5061,9 +5061,19 @@
       "source": "https://www.scottbuckley.com.au/library/omega/",
       "credit": "'Omega' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Epic"
+      ],
+      "instruments": [
+        "Cello",
+        "Orchestra",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/omega-v2-6c65626e.mp3",
       "type": "mp3",
