@@ -118,7 +118,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 4.5 MB | — |
 | [Invocation](https://github.com/Open-Historia/Open-historia-scenarios/issues/450) | `invocation` | Scott Buckley | CC BY 4.0 | 3:34 | 3.8 MB | — |
 | [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — |
-| [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 4.4 MB | — |
+| [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 2.1 MB | — |
 | [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 4.7 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 3.6 MB | — |
@@ -1511,9 +1511,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/journeys/>
 - **Credit:**
 
-> 'Journeys' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Journeys' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/journeys-v1-86c70eeb.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/journeys-v2-4111bc2b.mp3) (version 2, posted by @Arkniem)
 
 ### Jubilee (`jubilee`)
 

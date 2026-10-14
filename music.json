@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:29:49.930Z",
+  "updated": "2026-10-14T02:29:56.162Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2024,13 +2024,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/journeys/",
-      "credit": "'Journeys' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Journeys' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/journeys-v1-86c70eeb.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/journeys-v2-4111bc2b.mp3",
       "type": "mp3",
-      "bytes": 4622657,
-      "sha256": "86c70eeb02654b46771da58a8adced30fe8d512b6e09c529d27fe615cbe07529",
+      "bytes": 2188936,
+      "sha256": "4111bc2b119800d335f8e72d3d256d2ea9fcaabee5a9ed722ada7dc8ad1ca9b0",
       "seconds": 116,
       "post": 436,
       "postedBy": "Arkniem",
