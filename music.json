@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:44:07.958Z",
+  "updated": "2026-10-14T02:44:36.733Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2927,16 +2927,16 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/passage-of-time/",
-      "credit": "'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [
         "menu",
         "loading"
       ],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v1-0066b940.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v2-b7a463c3.mp3",
       "type": "mp3",
-      "bytes": 10857533,
-      "sha256": "0066b940bec49211769790ceaf086289a634c84189bb9131002252d8495997a4",
+      "bytes": 5220744,
+      "sha256": "b7a463c3305f0d409adea2b4af1a5d5d0615f42efd62aee7288abdef6f0f29e4",
       "seconds": 271,
       "post": 253,
       "postedBy": "Arkniem",
