@@ -204,7 +204,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Signal to Noise](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) | `signal-to-noise` | Scott Buckley | CC BY 4.0 | 5:54 | 6.2 MB | — |
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 3.4 MB | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — |
-| [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 3.4 MB | — |
+| [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 1.5 MB | — |
 | [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 7.0 MB | — |
 | [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 9.5 MB | — |
@@ -2457,9 +2457,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/skyscraper-samba/>
 - **Credit:**
 
-> 'Skyscraper Samba' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Skyscraper Samba' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyscraper-samba-v1-03214e5a.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyscraper-samba-v2-389bdd18.mp3) (version 2, posted by @Arkniem)
 
 ### Skyward (`skyward`)
 

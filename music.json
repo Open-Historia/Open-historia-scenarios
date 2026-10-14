@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:51:58.008Z",
+  "updated": "2026-10-14T02:52:03.305Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3578,13 +3578,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/skyscraper-samba/",
-      "credit": "'Skyscraper Samba' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Skyscraper Samba' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyscraper-samba-v1-03214e5a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/skyscraper-samba-v2-389bdd18.mp3",
       "type": "mp3",
-      "bytes": 3561244,
-      "sha256": "03214e5a8d09207cdc86525e833fb0a4a0d895a27f69a9d1094f351b36b8eb60",
+      "bytes": 1600663,
+      "sha256": "389bdd1897db8e59e991cc9c026114da63528ec3168db0848813fa811525c304",
       "seconds": 89,
       "post": 405,
       "postedBy": "Arkniem",
