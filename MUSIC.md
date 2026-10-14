@@ -84,7 +84,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — |
 | [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 12.4 MB | — |
-| [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 14.6 MB | — |
+| [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 7.0 MB | — |
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 4.4 MB | — |
 | [Happiness](https://github.com/Open-Historia/Open-historia-scenarios/issues/447) | `happiness` | Scott Buckley | CC BY 4.0 | 1:47 | 4.1 MB | — |
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
@@ -1137,9 +1137,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/goliath/>
 - **Credit:**
 
-> 'Goliath' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Goliath' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/goliath-v1-a74f3890.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/goliath-v2-e1c6be48.mp3) (version 2, posted by @Arkniem)
 
 ### Growing Up (`growing-up`)
 
