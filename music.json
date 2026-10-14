@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:44:46.775Z",
+  "updated": "2026-10-14T02:45:04.596Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2984,13 +2984,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/pathfinder/",
-      "credit": "'Pathfinder' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Pathfinder' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pathfinder-v1-f20e3e9a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pathfinder-v2-b2feb5db.mp3",
       "type": "mp3",
-      "bytes": 8176518,
-      "sha256": "f20e3e9aaac2d947510ec971d7ea477320370091c3ea7b1541792c3fe5683e78",
+      "bytes": 3952217,
+      "sha256": "b2feb5dbf6309f2b33c5c6956c1bd019dec9d0bd1f4ab4ae604cf6b953d72548",
       "seconds": 204,
       "post": 345,
       "postedBy": "Arkniem",
