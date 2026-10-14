@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:49:03.479Z",
+  "updated": "2026-10-14T04:49:05.978Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4108,9 +4108,21 @@
       "source": "https://www.scottbuckley.com.au/library/love-conquers/",
       "credit": "'Love Conquers' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Inspirational",
+        "Romantic",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Brass",
+        "Orchestra",
+        "Percussion",
+        "Strings",
+        "Woodwinds"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/love-conquers-v2-fc5b941e.mp3",
       "type": "mp3",
