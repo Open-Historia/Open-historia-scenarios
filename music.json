@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:44:12.073Z",
+  "updated": "2026-10-14T04:44:36.830Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3228,9 +3228,19 @@
       "source": "https://www.scottbuckley.com.au/library/ignis/",
       "credit": "'Ignis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Epic",
+        "Inspirational"
+      ],
+      "instruments": [
+        "Orchestra",
+        "Synth (Atmospherics)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ignis-v2-e6123f08.mp3",
       "type": "mp3",

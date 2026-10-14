@@ -105,7 +105,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Icarus](https://github.com/Open-Historia/Open-historia-scenarios/issues/478) | `icarus` | Scott Buckley | CC BY 4.0 | 3:30 | 4.8 MB | — | Electronica, Orchestral | Bittersweet, Epic, Inspirational, Reflective, Uplifting |
 | [Icarus (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/400) | `icarus-2019` | Scott Buckley | CC BY 4.0 | 3:29 | 3.7 MB | — | Electronica, Orchestral | Adventurous, Epic, Uplifting |
 | [Ice Cream](https://github.com/Open-Historia/Open-historia-scenarios/issues/296) | `ice-cream` | Scott Buckley | CC BY 4.0 | 4:14 | 4.6 MB | — | Jazz, Pop | Dreamy, Innocent, Playful |
-| [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | — | — |
+| [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | Orchestral | Adventurous, Epic, Inspirational |
 | [In Development](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) | `in-development` | Scott Buckley | CC BY 4.0 | 2:15 | 3.1 MB | — | — | — |
 | [In Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/354) | `in-dreams` | Scott Buckley | CC BY 4.0 | 4:09 | 4.5 MB | — | — | — |
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 7.6 MB | — | — | — |
@@ -1660,6 +1660,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/ignis/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Epic, Inspirational
+- **Instruments:** Orchestra, Synth (Atmospherics), Synth (Pad)
 - **Credit:**
 
 > 'Ignis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
