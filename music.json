@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:04:41.357Z",
+  "updated": "2026-10-14T05:04:45.459Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6667,9 +6667,22 @@
       "source": "https://www.scottbuckley.com.au/library/solecism/",
       "credit": "'Solecism' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Jazz"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Reflective",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Bass (Acoustic)",
+        "Clarinet",
+        "Drums (Acoustic)",
+        "Organ",
+        "Piano",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solecism-v2-87d05a03.mp3",
       "type": "mp3",
