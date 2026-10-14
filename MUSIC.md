@@ -268,7 +268,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 2.2 MB | — |
 | [World of Magic](https://github.com/Open-Historia/Open-historia-scenarios/issues/498) | `world-of-magic` | Scott Buckley | CC BY 4.0 | 1:37 | 1.5 MB | — |
 | [Yellow](https://github.com/Open-Historia/Open-historia-scenarios/issues/489) | `yellow` | Scott Buckley | CC BY 4.0 | 1:23 | 1.9 MB | — |
-| [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 13.8 MB | — |
+| [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 6.9 MB | — |
 
 ## Credits and licences
 
@@ -3161,6 +3161,6 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/your-numbers-up-ost/>
 - **Credit:**
 
-> 'Your Number's Up (OST)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Your Number's Up (OST)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/your-numbers-up-ost-v1-c014c326.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/your-numbers-up-ost-v2-1597e321.mp3) (version 2, posted by @Arkniem)

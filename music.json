@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:03:17.494Z",
+  "updated": "2026-10-14T03:03:24.116Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4730,13 +4730,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/your-numbers-up-ost/",
-      "credit": "'Your Number's Up (OST)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Your Number's Up (OST)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/your-numbers-up-ost-v1-c014c326.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/your-numbers-up-ost-v2-1597e321.mp3",
       "type": "mp3",
-      "bytes": 14421544,
-      "sha256": "c014c3266c76e770c19023a4f846eb0b9e052d67666bff1d25864bfa3abc9d71",
+      "bytes": 7203227,
+      "sha256": "1597e3213f63db479ae49cc07ca8a390b5318fdd81acd9efe54364c5b69f929b",
       "seconds": 383,
       "post": 460,
       "postedBy": "Arkniem",
