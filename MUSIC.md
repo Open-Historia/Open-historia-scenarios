@@ -47,7 +47,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 3.6 MB | — | Orchestral | Adventurous, Happy, Inspirational |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 3.5 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | — | — |
-| [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — | — | — |
+| [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — | Ambient, Electronica | Dreamy, Mysterious, Ominous |
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 3.0 MB | — | — | — |
 | [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — | — | — |
 | [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — | — | — |
@@ -849,6 +849,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/computations/>
+- **Genre:** Ambient, Electronica
+- **Mood:** Dreamy, Mysterious, Ominous
+- **Instruments:** Cello, Synth (Pad)
 - **Credit:**
 
 > 'Computations in a Snowstorm' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
