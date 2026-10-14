@@ -134,7 +134,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Light in Dark Places (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/401) | `light-in-dark-places-2019-remaster` | Scott Buckley | CC BY 4.0 | 2:16 | 2.4 MB | — |
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 6.6 MB | — |
 | [Luminance](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) | `luminance` | Scott Buckley | CC BY 4.0 | 4:53 | 11.2 MB | — |
-| [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 11.1 MB | — |
+| [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 5.0 MB | — |
 | [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 6.7 MB | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
@@ -1687,9 +1687,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/machina/>
 - **Credit:**
 
-> 'Machina' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Machina' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machina-v1-72f479c5.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machina-v2-0ee2d3b3.mp3) (version 2, posted by @Arkniem)
 
 ### Machinery of the Stars (`machinery-of-the-stars`)
 

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:32:02.092Z",
+  "updated": "2026-10-14T02:32:07.018Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2315,13 +2315,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/machina/",
-      "credit": "'Machina' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Machina' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machina-v1-72f479c5.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machina-v2-0ee2d3b3.mp3",
       "type": "mp3",
-      "bytes": 11639298,
-      "sha256": "72f479c583fd1cb894584c51d4fb9b33200b098bd1b13195bd41d29586d9d344",
+      "bytes": 5274384,
+      "sha256": "0ee2d3b3f6e5acf44f31e157a2769a161760a84f3715d9e35de60f67e58e911d",
       "seconds": 291,
       "post": 374,
       "postedBy": "Arkniem",
