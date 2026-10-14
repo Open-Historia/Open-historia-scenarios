@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:02:33.456Z",
+  "updated": "2026-10-14T05:02:37.837Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6274,9 +6274,22 @@
       "source": "https://www.scottbuckley.com.au/library/she-moved-mountains/",
       "credit": "'She Moved Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Calm",
+        "Lonely",
+        "Melancholy",
+        "Peaceful",
+        "Sombre"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/she-moved-mountains-v2-03c6feb7.mp3",
       "type": "mp3",
