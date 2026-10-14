@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:08:55.637Z",
+  "updated": "2026-10-14T02:09:23.165Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -242,13 +242,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/aphelion/",
-      "credit": "'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aphelion-v1-57ae03db.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aphelion-v2-7f0c5716.mp3",
       "type": "mp3",
-      "bytes": 16894139,
-      "sha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
+      "bytes": 7722261,
+      "sha256": "7f0c5716ce990376374966578b7f23f8f9593cd181dc075f79b74defe2a78d97",
       "seconds": 422,
       "post": 262,
       "postedBy": "Arkniem",

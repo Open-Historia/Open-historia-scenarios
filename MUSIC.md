@@ -19,7 +19,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ambush](https://github.com/Open-Historia/Open-historia-scenarios/issues/501) | `ambush` | Scott Buckley | CC BY 4.0 | 7:06 | 6.5 MB | — |
 | [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 2.4 MB | — |
 | [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — |
-| [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 16.1 MB | — |
+| [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 7.4 MB | — |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 14.3 MB | — |
 | [Ascension](https://github.com/Open-Historia/Open-historia-scenarios/issues/407) | `ascension` | Scott Buckley | CC BY 4.0 | 6:11 | 14.2 MB | — |
 | [Ashes of a Fallen Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) | `ashes-of-a-fallen-year` | Scott Buckley | CC BY 4.0 | 5:37 | 12.1 MB | — |
@@ -422,9 +422,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/aphelion/>
 - **Credit:**
 
-> 'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aphelion-v1-57ae03db.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aphelion-v2-7f0c5716.mp3) (version 2, posted by @Arkniem)
 
 ### Artemis (`artemis`)
 
