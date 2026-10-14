@@ -209,7 +209,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 4.1 MB | — | Neoclassical | Melancholy, Peaceful, Reflective, Thoughtful, Uplifting |
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 3.0 MB | — | Ambient, Neoclassical, Pop | Dreamy, Peaceful, Thoughtful |
 | [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 4.3 MB | — | Ambient, Neoclassical, Pop | Bittersweet, Calm, Happy, Reflective, Thoughtful |
-| [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | — | — |
+| [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | Orchestral | Adventurous, Christmas, Inspirational, Uplifting |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 6.1 MB | — | Ambient, Neoclassical | Melancholy, Relaxed, Thoughtful |
 | [Soldier of Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/457) | `soldier-of-fortune` | Scott Buckley | CC BY 4.0 | 2:44 | 2.8 MB | — | — | — |
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 3.9 MB | — | — | — |
@@ -3107,6 +3107,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/soar/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Christmas, Inspirational, Uplifting
+- **Instruments:** Orchestra
 - **Credit:**
 
 > 'Soar' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
