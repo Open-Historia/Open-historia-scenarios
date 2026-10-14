@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:07:07.005Z",
+  "updated": "2026-10-14T05:07:32.715Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7257,9 +7257,20 @@
       "source": "https://www.scottbuckley.com.au/library/the-long-dark/",
       "credit": "'The Long Dark' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Melancholy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-dark-v2-4a8dafb9.mp3",
       "type": "mp3",
