@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:41:54.487Z",
+  "updated": "2026-10-14T02:42:25.599Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2711,13 +2711,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/neon/",
-      "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/neon-v1-3d0cb066.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/neon-v2-34d99d46.mp3",
       "type": "mp3",
-      "bytes": 10366612,
-      "sha256": "3d0cb0662c74a33df9683a5650a862b4d84599affc71ccd060028f816586ff59",
+      "bytes": 4890236,
+      "sha256": "34d99d4611ddbef099619b1d7464dffa5d269790737e6bacc59448337118e0f4",
       "seconds": 259,
       "post": 380,
       "postedBy": "Arkniem",
