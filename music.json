@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:57:44.451Z",
+  "updated": "2026-10-14T04:57:47.947Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5435,9 +5435,21 @@
       "source": "https://www.scottbuckley.com.au/library/permafrost/",
       "credit": "'Permafrost' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Calm",
+        "Melancholy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Strings",
+        "Synth (Atmospherics)",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/permafrost-v2-c3ce15c8.mp3",
       "type": "mp3",

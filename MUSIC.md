@@ -174,7 +174,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — | Orchestral | Adventurous, Bittersweet, Mysterious |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 3.8 MB | — | Orchestral | Adventurous, Epic, Militaristic |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 8.1 MB | — | Ambient, Neoclassical | Bittersweet, Melancholy, Thoughtful |
-| [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 7.7 MB | — | — | — |
+| [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 7.7 MB | — | Ambient, Neoclassical | Bittersweet, Calm, Melancholy, Thoughtful |
 | [Petrichor](https://github.com/Open-Historia/Open-historia-scenarios/issues/398) | `petrichor` | Scott Buckley | CC BY 4.0 | 4:31 | 4.4 MB | — | — | — |
 | [Phase Shift](https://github.com/Open-Historia/Open-historia-scenarios/issues/508) | `phase-shift` | Scott Buckley | CC BY 4.0 | 6:03 | 5.9 MB | — | — | — |
 | [Phoenix](https://github.com/Open-Historia/Open-historia-scenarios/issues/426) | `phoenix` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — | — | — |
@@ -2619,6 +2619,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/permafrost/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Bittersweet, Calm, Melancholy, Thoughtful
+- **Instruments:** Strings, Synth (Atmospherics), Violin
 - **Credit:**
 
 > 'Permafrost' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
