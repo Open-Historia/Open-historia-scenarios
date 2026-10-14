@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:46:24.069Z",
+  "updated": "2026-10-14T02:46:53.738Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3092,13 +3092,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/phoenix-2026/",
-      "credit": "'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Phoenix' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v1-303e9daf.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/phoenix-2026-v2-44602993.mp3",
       "type": "mp3",
-      "bytes": 14178473,
-      "sha256": "303e9daf060ee930e6a8f7be96c8022c405f6c6353bbee5d2d29039c61ff8b02",
+      "bytes": 6576022,
+      "sha256": "446029937e74b96689717f1557145786960cce9b550cd34b4e97a225b3e0e998",
       "seconds": 354,
       "post": 264,
       "postedBy": "Arkniem",
