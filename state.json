@@ -1315,6 +1315,11 @@
       "id": "legionnaire-scott-buckley",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/legionnaire-scott-buckley.mp3",
       "bodyHash": "25b1474e8528bb57a9ea7ac1707bbbbbcc4327dc31e5de8c105fd0df397689c3"
+    },
+    "519": {
+      "id": "katabasis-i",
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/katabasis-i-small.mp3",
+      "bodyHash": "351a00f2931467c700fa879a1a2e71f6238a0fb6181bc872c735ea2ce6c84a80"
     }
   }
 }
