@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:01:39.988Z",
+  "updated": "2026-10-14T03:01:46.721Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4460,13 +4460,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/venom/",
-      "credit": "'Venom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Venom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/venom-v1-e7310bb6.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/venom-v2-a3c3be7e.mp3",
       "type": "mp3",
-      "bytes": 2764456,
-      "sha256": "e7310bb677f9a44ca57c2baa72a68fe955f7d36995eba476e1c8400ca7d09ac7",
+      "bytes": 1327172,
+      "sha256": "a3c3be7e5ee74d75910fd5ffaf98187ed8d025ba67d649e06538b10ccb95ab81",
       "seconds": 72,
       "post": 453,
       "postedBy": "Arkniem",
