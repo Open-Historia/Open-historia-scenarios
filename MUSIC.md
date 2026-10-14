@@ -227,7 +227,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 4.8 MB | — | Orchestral | Adventurous, Driving, Epic, Heroic |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 3.3 MB | — | Halloween, Orchestral | Comedic, Dark, Playful, Sinister |
 | [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 6.3 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
-| [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 5.0 MB | — | — | — |
+| [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 5.0 MB | — | Orchestral | Adventurous, Bittersweet, Grandiose, Heroic |
 | [The Illusionist](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) | `the-illusionist` | Scott Buckley | CC BY 4.0 | 3:35 | 3.7 MB | — | — | — |
 | [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 6.0 MB | — | — | — |
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 7.5 MB | — | — | — |
@@ -3359,6 +3359,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/the-great-sea/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Bittersweet, Grandiose, Heroic
+- **Instruments:** Orchestra, Synth (Atmospherics)
 - **Credit:**
 
 > 'The Great Sea' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
