@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:51:04.608Z",
+  "updated": "2026-10-14T02:51:11.029Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3488,13 +3488,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/she-moved-mountains/",
-      "credit": "'She Moved Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'She Moved Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/she-moved-mountains-v1-4250083e.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/she-moved-mountains-v2-03c6feb7.mp3",
       "type": "mp3",
-      "bytes": 12511804,
-      "sha256": "4250083e8eab4336888a15491f024495250f2349d1ac7b959c736cdd215033f4",
+      "bytes": 4966987,
+      "sha256": "03c6feb782ade08b3e08758cd7e04447a7d0858d2ea19bcbbcd0b87599daf02c",
       "seconds": 313,
       "post": 403,
       "postedBy": "Arkniem",
