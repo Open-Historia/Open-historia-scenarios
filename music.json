@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:27:35.726Z",
+  "updated": "2026-10-14T02:28:07.332Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1898,13 +1898,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/incredulity/",
-      "credit": "'Incredulity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Incredulity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incredulity-v1-cce101d4.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incredulity-v2-b969bf85.mp3",
       "type": "mp3",
-      "bytes": 14969441,
-      "sha256": "cce101d47fe4b345ca33a3d43e2331b1f1687045ed1bdc3dbae180d0edda3b90",
+      "bytes": 6161819,
+      "sha256": "b969bf858cf5fe77f1887c78db4328595ad20ba4d33f29bae3b39c643f314438",
       "seconds": 374,
       "post": 274,
       "postedBy": "Arkniem",
