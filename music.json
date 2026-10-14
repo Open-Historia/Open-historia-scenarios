@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:05:49.739Z",
+  "updated": "2026-10-14T05:05:53.294Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6954,9 +6954,23 @@
       "source": "https://www.scottbuckley.com.au/library/supernova/",
       "credit": "'Supernova' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Pop"
+      ],
+      "moods": [
+        "Dark",
+        "Driving",
+        "Epic"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Drums (Electronic)",
+        "Guitar (Electric)",
+        "Organ",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/supernova-v2-5ed643c9.mp3",
       "type": "mp3",
