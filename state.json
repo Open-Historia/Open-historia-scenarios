@@ -358,922 +358,1106 @@
     "313": {
       "id": "hour-of-the-witch",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hour-of-the-witch-small.mp3",
-      "bodyHash": "f5f967b1b10e0b22d056fd3732053363c1e05ab0a0b9c897d44e357f2ed7687a"
+      "bodyHash": "f5f967b1b10e0b22d056fd3732053363c1e05ab0a0b9c897d44e357f2ed7687a",
+      "reader": 2
     },
     "314": {
       "id": "artemis",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/artemis-small.mp3",
-      "bodyHash": "add1d162d077a556f4b7b52db03535470efb4edace14282659f59e8e2dd004bb"
+      "bodyHash": "add1d162d077a556f4b7b52db03535470efb4edace14282659f59e8e2dd004bb",
+      "reader": 2
     },
     "315": {
       "id": "permafrost",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/permafrost-small.mp3",
-      "bodyHash": "68c07bdb68cee93b4a69d4fcc2086b05b30bc269446f4fb796742a55440c5738"
+      "bodyHash": "68c07bdb68cee93b4a69d4fcc2086b05b30bc269446f4fb796742a55440c5738",
+      "reader": 2
     },
     "316": {
       "id": "juggernaut",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/juggernaut-small.mp3",
-      "bodyHash": "176d6201716afb7b3be4a1bd92705935398afdc78034777116e8780fe9e7267c"
+      "bodyHash": "176d6201716afb7b3be4a1bd92705935398afdc78034777116e8780fe9e7267c",
+      "reader": 2
     },
     "317": {
       "id": "moonlight",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/moonlight-small.mp3",
-      "bodyHash": "1a916c293d93c3c4045a4f6620be30cf4df76d0a8bcf0a21fe2104ec9043d791"
+      "bodyHash": "1a916c293d93c3c4045a4f6620be30cf4df76d0a8bcf0a21fe2104ec9043d791",
+      "reader": 2
     },
     "318": {
       "id": "last-and-first-light",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/last-and-first-light-small.mp3",
-      "bodyHash": "ad8efbd358968eb1d810c9a82e0296bd1bee192cef03d70b78f347bb93260c4d"
+      "bodyHash": "ad8efbd358968eb1d810c9a82e0296bd1bee192cef03d70b78f347bb93260c4d",
+      "reader": 2
     },
     "319": {
       "id": "into-the-unknown",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/into-the-unknown-small.mp3",
-      "bodyHash": "90b652b4a69d9a24c8510aa634edb60135b7c3725d283d2ba137f785a59a5f7d"
+      "bodyHash": "90b652b4a69d9a24c8510aa634edb60135b7c3725d283d2ba137f785a59a5f7d",
+      "reader": 2
     },
     "320": {
       "id": "in-search-of-solitude",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/in-search-of-solitude-small.mp3",
-      "bodyHash": "265791b1ac21d2003a6f7fc18d1280c8959725409f9edecb09c2cb35d5037760"
+      "bodyHash": "265791b1ac21d2003a6f7fc18d1280c8959725409f9edecb09c2cb35d5037760",
+      "reader": 2
     },
     "321": {
       "id": "there-was-a-time",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/there-was-a-time-small.mp3",
-      "bodyHash": "9c5b656122098c69f27883e1a1d11c867707cf52548a82f2d3de1dc64ff12bff"
+      "bodyHash": "9c5b656122098c69f27883e1a1d11c867707cf52548a82f2d3de1dc64ff12bff",
+      "reader": 2
     },
     "322": {
       "id": "race-the-sun",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/race-the-sun-small.mp3",
-      "bodyHash": "ceda59c58434dafad15058016903cd4816aca3529101e7ead61a6d0f17925032"
+      "bodyHash": "ceda59c58434dafad15058016903cd4816aca3529101e7ead61a6d0f17925032",
+      "reader": 2
     },
     "323": {
       "id": "age-of-wonder",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/age-of-wonder-small.mp3",
-      "bodyHash": "cf4ed50259607a64688b24a8a0f2cc97c03fff56e2eba4428e870f88ec59fdaf"
+      "bodyHash": "cf4ed50259607a64688b24a8a0f2cc97c03fff56e2eba4428e870f88ec59fdaf",
+      "reader": 2
     },
     "324": {
       "id": "glow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/glow-small.mp3",
-      "bodyHash": "d6377a6767fed993a4a97dd764703bf5a615bd15d23ac59c501751345cb54c22"
+      "bodyHash": "d6377a6767fed993a4a97dd764703bf5a615bd15d23ac59c501751345cb54c22",
+      "reader": 2
     },
     "325": {
       "id": "adrift-among-infinite-stars",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/adrift-among-infinite-stars-small.mp3",
-      "bodyHash": "a83cab98fd4cc457e1f98f3053797f70ff2d79e4253fa470447f8005f2b53b9e"
+      "bodyHash": "a83cab98fd4cc457e1f98f3053797f70ff2d79e4253fa470447f8005f2b53b9e",
+      "reader": 2
     },
     "326": {
       "id": "resolutions",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/resolutions-small.mp3",
-      "bodyHash": "b0c01c214a19c101f67ad96b79bac2424c7ec38a6dcd890f8c9efcc2fa6a2cc7"
+      "bodyHash": "b0c01c214a19c101f67ad96b79bac2424c7ec38a6dcd890f8c9efcc2fa6a2cc7",
+      "reader": 2
     },
     "327": {
       "id": "midvinter",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/midvinter-small.mp3",
-      "bodyHash": "b9f4db443cccdfe274b0171f00349bc8e622e06e0d46f572b4b7863c65b8f7bf"
+      "bodyHash": "b9f4db443cccdfe274b0171f00349bc8e622e06e0d46f572b4b7863c65b8f7bf",
+      "reader": 2
     },
     "328": {
       "id": "frankincense-and-myrrh",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/frankincense-and-myrrh-small.mp3",
-      "bodyHash": "f91e4a760264f55d758080891c3cee7120f614194c7cda192f653a8b1888bc04"
+      "bodyHash": "f91e4a760264f55d758080891c3cee7120f614194c7cda192f653a8b1888bc04",
+      "reader": 2
     },
     "329": {
       "id": "castles-in-the-sky",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/castles-in-the-sky-small.mp3",
-      "bodyHash": "e93e6a27c90c609f9891be0b7a5d5af6e02498e9e731a28464b33eaa543b1106"
+      "bodyHash": "e93e6a27c90c609f9891be0b7a5d5af6e02498e9e731a28464b33eaa543b1106",
+      "reader": 2
     },
     "330": {
       "id": "aurora",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/aurora-small.mp3",
-      "bodyHash": "d9e813476971cff93d77d4ed1b4281607a8bb4532d76576b2580f45ce7d22449"
+      "bodyHash": "d9e813476971cff93d77d4ed1b4281607a8bb4532d76576b2580f45ce7d22449",
+      "reader": 2
     },
     "331": {
       "id": "maleficus",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/maleficus-small.mp3",
-      "bodyHash": "e1f32a6dda8a343f5fbb12d928ac57dd53a482dabab13d20f112310260f9f664"
+      "bodyHash": "e1f32a6dda8a343f5fbb12d928ac57dd53a482dabab13d20f112310260f9f664",
+      "reader": 2
     },
     "332": {
       "id": "bring-me-the-sky",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/bring-me-the-sky-small.mp3",
-      "bodyHash": "c137ded26e4777f3dbe417821cf0b35fa7eb2837d27e81ce58ae4179e0f3ad50"
+      "bodyHash": "c137ded26e4777f3dbe417821cf0b35fa7eb2837d27e81ce58ae4179e0f3ad50",
+      "reader": 2
     },
     "333": {
       "id": "what-we-dont-say",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/what-we-dont-say-small.mp3",
-      "bodyHash": "b3c945aacf9f65faaa44ebf38e355f621d32bc3071c8f85552b0d986e419ade0"
+      "bodyHash": "b3c945aacf9f65faaa44ebf38e355f621d32bc3071c8f85552b0d986e419ade0",
+      "reader": 2
     },
     "334": {
       "id": "wayfarer",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/wayfarer-small.mp3",
-      "bodyHash": "85e10c211cb2888853fc14f65b11e92c714980e256752a5c006c0b35ce8b9758"
+      "bodyHash": "85e10c211cb2888853fc14f65b11e92c714980e256752a5c006c0b35ce8b9758",
+      "reader": 2
     },
     "335": {
       "id": "falling-together",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/falling-together-small.mp3",
-      "bodyHash": "1f1a1b193ece4a0865e25aa795328f86b16a163854df6c5e55181996fb709c7b"
+      "bodyHash": "1f1a1b193ece4a0865e25aa795328f86b16a163854df6c5e55181996fb709c7b",
+      "reader": 2
     },
     "336": {
       "id": "goliath",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/goliath-small.mp3",
-      "bodyHash": "6e795cbd95995e22e29cbe987081ae8aacea1f523a92ae541797841afb9ae025"
+      "bodyHash": "6e795cbd95995e22e29cbe987081ae8aacea1f523a92ae541797841afb9ae025",
+      "reader": 2
     },
     "337": {
       "id": "life-in-silico",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/life-in-silico-small.mp3",
-      "bodyHash": "b24f4457e0e93bf37e8c1c205b51e3d7998726551c3663a86456bcaf77a48566"
+      "bodyHash": "b24f4457e0e93bf37e8c1c205b51e3d7998726551c3663a86456bcaf77a48566",
+      "reader": 2
     },
     "338": {
       "id": "sanctuary",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sanctuary-small.mp3",
-      "bodyHash": "79ab968f2bcb484b74850819575c2c6cb1adb3d85ab26f8eafd7c2c79b048b84"
+      "bodyHash": "79ab968f2bcb484b74850819575c2c6cb1adb3d85ab26f8eafd7c2c79b048b84",
+      "reader": 2
     },
     "339": {
       "id": "affirmations",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/affirmations-small.mp3",
-      "bodyHash": "de1b91ec775dbde9e4c0dc34ee6d5c3a7d918fb5570e10e297e6eb00ab8c4f4f"
+      "bodyHash": "de1b91ec775dbde9e4c0dc34ee6d5c3a7d918fb5570e10e297e6eb00ab8c4f4f",
+      "reader": 2
     },
     "340": {
       "id": "celestial",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/celestial-small.mp3",
-      "bodyHash": "f3ab61b300bbe5a39b1693b83051678d869810844b6a8c6a6d799a19e9c101fd"
+      "bodyHash": "f3ab61b300bbe5a39b1693b83051678d869810844b6a8c6a6d799a19e9c101fd",
+      "reader": 2
     },
     "341": {
       "id": "the-long-way-home",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-long-way-home-small.mp3",
-      "bodyHash": "1555b3fdb1c4add49c46f301dde250904e3ae5df077b817676b9b246d6ca603d"
+      "bodyHash": "1555b3fdb1c4add49c46f301dde250904e3ae5df077b817676b9b246d6ca603d",
+      "reader": 2
     },
     "342": {
       "id": "terminus",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/terminus-small.mp3",
-      "bodyHash": "c0ae2bb2cdb5d65a04d407af4ae6ce2fdebb6e8b29511693fac6e4971003fb2f"
+      "bodyHash": "c0ae2bb2cdb5d65a04d407af4ae6ce2fdebb6e8b29511693fac6e4971003fb2f",
+      "reader": 2
     },
     "343": {
       "id": "beyond-these-walls",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/beyond-these-walls-small.mp3",
-      "bodyHash": "2e9b0af549963e3561196fbdb1bb4b85600a2ef8ad6e4c135585b03f64ff9235"
+      "bodyHash": "2e9b0af549963e3561196fbdb1bb4b85600a2ef8ad6e4c135585b03f64ff9235",
+      "reader": 2
     },
     "344": {
       "id": "i-walk-with-ghosts",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/i-walk-with-ghosts-small.mp3",
-      "bodyHash": "2ec3bdbae2c3cacda58b5921b2ef94418b793c20dc1c8bd5face9af3f4c05d3b"
+      "bodyHash": "2ec3bdbae2c3cacda58b5921b2ef94418b793c20dc1c8bd5face9af3f4c05d3b",
+      "reader": 2
     },
     "345": {
       "id": "pathfinder",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/pathfinder-small.mp3",
-      "bodyHash": "46c8f861991ebee6610ab66dd07b3f67b2d0112a8c3455bae21ab799f667db26"
+      "bodyHash": "46c8f861991ebee6610ab66dd07b3f67b2d0112a8c3455bae21ab799f667db26",
+      "reader": 2
     },
     "346": {
       "id": "felicity",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/felicity-small.mp3",
-      "bodyHash": "53995a31e577e9f99700d34cbca5584e3af8fc44c1bbb772a1b36a6e2e80bf60"
+      "bodyHash": "53995a31e577e9f99700d34cbca5584e3af8fc44c1bbb772a1b36a6e2e80bf60",
+      "reader": 2
     },
     "347": {
       "id": "chasing-daylight",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/chasing-daylight-small.mp3",
-      "bodyHash": "591d936252216e2b0a919f66a043013aa0435df5098d279ad05ad4e354108a57"
+      "bodyHash": "591d936252216e2b0a919f66a043013aa0435df5098d279ad05ad4e354108a57",
+      "reader": 2
     },
     "348": {
       "id": "where-stars-fall",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/where-stars-fall-small.mp3",
-      "bodyHash": "0911271cc023120b37d7f9f02606cb663bbb816c77a84ac9c540b9c261dafa57"
+      "bodyHash": "0911271cc023120b37d7f9f02606cb663bbb816c77a84ac9c540b9c261dafa57",
+      "reader": 2
     },
     "349": {
       "id": "the-climb",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-climb-small.mp3",
-      "bodyHash": "ca390674f395c7063707e4645116c18dd8838a5d9e4b3e7e55d60232368bc6b1"
+      "bodyHash": "ca390674f395c7063707e4645116c18dd8838a5d9e4b3e7e55d60232368bc6b1",
+      "reader": 2
     },
     "350": {
       "id": "precipice",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/precipice-small.mp3",
-      "bodyHash": "1c20a786f1e67884044664982db9d3a53c0f8267886a3174b032785b06232e3a"
+      "bodyHash": "1c20a786f1e67884044664982db9d3a53c0f8267886a3174b032785b06232e3a",
+      "reader": 2
     },
     "351": {
       "id": "this-too-shall-pass",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/this-too-shall-pass-small.mp3",
-      "bodyHash": "950a95a3509c63b906517a25710a2b1c29e5a49d9f9f6dc5d12dbe978a29731f"
+      "bodyHash": "950a95a3509c63b906517a25710a2b1c29e5a49d9f9f6dc5d12dbe978a29731f",
+      "reader": 2
     },
     "352": {
       "id": "jul",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jul-small.mp3",
-      "bodyHash": "535b736360963376f22c7c62bdb7415a7be04f2ece637004459e9270ca1075f3"
+      "bodyHash": "535b736360963376f22c7c62bdb7415a7be04f2ece637004459e9270ca1075f3",
+      "reader": 2
     },
     "353": {
       "id": "solecism",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solecism-small.mp3",
-      "bodyHash": "f2559ec6558b00d77873d6248ee5d5ee2e21be914a5a050e26ae10660131cde3"
+      "bodyHash": "f2559ec6558b00d77873d6248ee5d5ee2e21be914a5a050e26ae10660131cde3",
+      "reader": 2
     },
     "354": {
       "id": "in-dreams",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/in-dreams-small.mp3",
-      "bodyHash": "1060af78e77a3a2a8647de6f9a30063ef9010d16d999b30cd7292a056fe924f1"
+      "bodyHash": "1060af78e77a3a2a8647de6f9a30063ef9010d16d999b30cd7292a056fe924f1",
+      "reader": 2
     },
     "355": {
       "id": "the-summoning",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-summoning-small.mp3",
-      "bodyHash": "ad35df90d3ae33178c2d82cfe027a73edc645f4a80eff0451e11f854d4988b77"
+      "bodyHash": "ad35df90d3ae33178c2d82cfe027a73edc645f4a80eff0451e11f854d4988b77",
+      "reader": 2
     },
     "356": {
       "id": "beautiful-oblivion",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/beautiful-oblivion-small.mp3",
-      "bodyHash": "6532429a4404f9fbf9d4a8d7c1357f505bdb07244b6d60ccbcb1d357043bc042"
+      "bodyHash": "6532429a4404f9fbf9d4a8d7c1357f505bdb07244b6d60ccbcb1d357043bc042",
+      "reader": 2
     },
     "357": {
       "id": "electric-dreams",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/electric-dreams-small.mp3",
-      "bodyHash": "a386b3e7000a7ca64dcd635257b13c3fd6457d405049bd9e8fd93988150e1f00"
+      "bodyHash": "a386b3e7000a7ca64dcd635257b13c3fd6457d405049bd9e8fd93988150e1f00",
+      "reader": 2
     },
     "358": {
       "id": "wanderlust",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/wanderlust-small.mp3",
-      "bodyHash": "f679c35d8a805a1d4ef00800dc0b8284d22cb96e1728e8396ccdfe407ad78557"
+      "bodyHash": "f679c35d8a805a1d4ef00800dc0b8284d22cb96e1728e8396ccdfe407ad78557",
+      "reader": 2
     },
     "359": {
       "id": "the-miracle-of-flight",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-miracle-of-flight-small.mp3",
-      "bodyHash": "cc2d6629f9643d75dd816efdf66f9ee160a880f7f3aea9270296f095205a7af6"
+      "bodyHash": "cc2d6629f9643d75dd816efdf66f9ee160a880f7f3aea9270296f095205a7af6",
+      "reader": 2
     },
     "360": {
       "id": "midsommar",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/midsommar-small.mp3",
-      "bodyHash": "911c4c817c7db0261cc4033f50f62b08e770bfdd8dee742437340f9db119fb6b"
+      "bodyHash": "911c4c817c7db0261cc4033f50f62b08e770bfdd8dee742437340f9db119fb6b",
+      "reader": 2
     },
     "361": {
       "id": "inflection",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/inflection-small.mp3",
-      "bodyHash": "c1bc5872398084efec021f53cc798849f59900fc3b61c8eef86c74e75d9672b7"
+      "bodyHash": "c1bc5872398084efec021f53cc798849f59900fc3b61c8eef86c74e75d9672b7",
+      "reader": 2
     },
     "362": {
       "id": "catalyst",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/catalyst-small.mp3",
-      "bodyHash": "174ac917f0e00068dd6a28dfb1d270f96bb79af09dc73604d05888f8795d7ca8"
+      "bodyHash": "174ac917f0e00068dd6a28dfb1d270f96bb79af09dc73604d05888f8795d7ca8",
+      "reader": 2
     },
     "363": {
       "id": "hiraeth",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hiraeth-small.mp3",
-      "bodyHash": "abf1bddd63445c24f3bf884fbee0ab5d76cee76a54d7f6233c626a4a037f70e1"
+      "bodyHash": "abf1bddd63445c24f3bf884fbee0ab5d76cee76a54d7f6233c626a4a037f70e1",
+      "reader": 2
     },
     "364": {
       "id": "solace",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solace-small.mp3",
-      "bodyHash": "f62705495b446a526d2ba232f97ba45facacfedecdcdf42c848894a48284ff98"
+      "bodyHash": "f62705495b446a526d2ba232f97ba45facacfedecdcdf42c848894a48284ff98",
+      "reader": 2
     },
     "365": {
       "id": "helios",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/helios-small.mp3",
-      "bodyHash": "d196c8887bcd5f2c523094dd3fef311ccaabb96a63dd4b5efe4966e78538f5a7"
+      "bodyHash": "d196c8887bcd5f2c523094dd3fef311ccaabb96a63dd4b5efe4966e78538f5a7",
+      "reader": 2
     },
     "366": {
       "id": "signal-to-noise",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/signal-to-noise-small.mp3",
-      "bodyHash": "26aed25e46c1bb2591b924914dbbafe1db4de30174d0b0fe0c50ae0f861f1375"
+      "bodyHash": "26aed25e46c1bb2591b924914dbbafe1db4de30174d0b0fe0c50ae0f861f1375",
+      "reader": 2
     },
     "367": {
       "id": "twilight-echo",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/twilight-echo-small.mp3",
-      "bodyHash": "be9fa9d8f810125a19b47937465e31740bc0d0adef748982d91ea85f7a4f4b97"
+      "bodyHash": "be9fa9d8f810125a19b47937465e31740bc0d0adef748982d91ea85f7a4f4b97",
+      "reader": 2
     },
     "368": {
       "id": "reverie",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/reverie-small.mp3",
-      "bodyHash": "03bf00571e60fa0b627e20401ae1ff636c5ced84f90da370109523eca0f5a35d"
+      "bodyHash": "03bf00571e60fa0b627e20401ae1ff636c5ced84f90da370109523eca0f5a35d",
+      "reader": 2
     },
     "369": {
       "id": "fate-and-fortune",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/fate-and-fortune-small.mp3",
-      "bodyHash": "0745259ca168fe03287d4d719e392c35464019bd6a7914940b00a83471de2634"
+      "bodyHash": "0745259ca168fe03287d4d719e392c35464019bd6a7914940b00a83471de2634",
+      "reader": 2
     },
     "370": {
       "id": "horizons",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/horizons-small.mp3",
-      "bodyHash": "b578897bbebd79a3dbebf5be523ac482227a6d9040f95e310cd139b8b6c9117b"
+      "bodyHash": "b578897bbebd79a3dbebf5be523ac482227a6d9040f95e310cd139b8b6c9117b",
+      "reader": 2
     },
     "371": {
       "id": "absolution",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/absolution-small.mp3",
-      "bodyHash": "d1416589c8abc62d8daf475969c9c14d1abfaa7aa691c605fbaed1d84e5c16c7"
+      "bodyHash": "d1416589c8abc62d8daf475969c9c14d1abfaa7aa691c605fbaed1d84e5c16c7",
+      "reader": 2
     },
     "372": {
       "id": "discovery",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/discovery-small.mp3",
-      "bodyHash": "95546356010fce9955354d39fb259f3ff214c5044e367651808859522bd5e7ae"
+      "bodyHash": "95546356010fce9955354d39fb259f3ff214c5044e367651808859522bd5e7ae",
+      "reader": 2
     },
     "373": {
       "id": "soar",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/soar-small.mp3",
-      "bodyHash": "7f2b11ee429db0e18ac93869bb96f354ee0d03f2c2204abf62237d93b16fefe3"
+      "bodyHash": "7f2b11ee429db0e18ac93869bb96f354ee0d03f2c2204abf62237d93b16fefe3",
+      "reader": 2
     },
     "374": {
       "id": "machina",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/machina-small.mp3",
-      "bodyHash": "a9dccbb03aff9529015f4667ebaa56b646b11e52dfa36bb03eeb937072af991b"
+      "bodyHash": "a9dccbb03aff9529015f4667ebaa56b646b11e52dfa36bb03eeb937072af991b",
+      "reader": 2
     },
     "375": {
       "id": "undertow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/undertow-small.mp3",
-      "bodyHash": "5141a32731dcb6d6da60f6cde84075fc79b7704a527b94dff4567730df8cdd0f"
+      "bodyHash": "5141a32731dcb6d6da60f6cde84075fc79b7704a527b94dff4567730df8cdd0f",
+      "reader": 2
     },
     "376": {
       "id": "emergent",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/emergent-small.mp3",
-      "bodyHash": "98d5dcf50721241288c368d9c9653b610e382f381cdddc11e88b43a2fd4b1277"
+      "bodyHash": "98d5dcf50721241288c368d9c9653b610e382f381cdddc11e88b43a2fd4b1277",
+      "reader": 2
     },
     "377": {
       "id": "inbound",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/inbound-small.mp3",
-      "bodyHash": "31b28b21bf4e1897d03ffc37ce84088d5003ea6783df79b887d7110e46d23741"
+      "bodyHash": "31b28b21bf4e1897d03ffc37ce84088d5003ea6783df79b887d7110e46d23741",
+      "reader": 2
     },
     "378": {
       "id": "filaments",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/filaments-small.mp3",
-      "bodyHash": "f13d29b8329565524ebb20ee0a0b88fb81af3a8095014ff77d1b940337fa1bb4"
+      "bodyHash": "f13d29b8329565524ebb20ee0a0b88fb81af3a8095014ff77d1b940337fa1bb4",
+      "reader": 2
     },
     "379": {
       "id": "march-of-midnight",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/march-of-midnight-small.mp3",
-      "bodyHash": "58386beef7c1a5fed84fb4df90c19770407dca6c8d02c4cdf6e60a9dc37e12af"
+      "bodyHash": "58386beef7c1a5fed84fb4df90c19770407dca6c8d02c4cdf6e60a9dc37e12af",
+      "reader": 2
     },
     "380": {
       "id": "neon",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/neon-small.mp3",
-      "bodyHash": "80f025eca4e941aacf0ec60bd189ccb32083c88eb7c8f8ccc14f2c18dd7c9eec"
+      "bodyHash": "80f025eca4e941aacf0ec60bd189ccb32083c88eb7c8f8ccc14f2c18dd7c9eec",
+      "reader": 2
     },
     "381": {
       "id": "borealis",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/borealis-small.mp3",
-      "bodyHash": "a84b324b4d1173b64045037c2573b72b60dc0b563a007a731c55bb2b0ad329bb"
+      "bodyHash": "a84b324b4d1173b64045037c2573b72b60dc0b563a007a731c55bb2b0ad329bb",
+      "reader": 2
     },
     "382": {
       "id": "omega",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/omega-small.mp3",
-      "bodyHash": "83e3d2cccef45f9163c393f42a55eecbbaa46005bf5c3e42547c3e470d03058f"
+      "bodyHash": "83e3d2cccef45f9163c393f42a55eecbbaa46005bf5c3e42547c3e470d03058f",
+      "reader": 2
     },
     "383": {
       "id": "sleep",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sleep-small.mp3",
-      "bodyHash": "3e07729e28bdcc861f464ba8020366cdb6ec079c0214ce1b220498b99b7aa842"
+      "bodyHash": "3e07729e28bdcc861f464ba8020366cdb6ec079c0214ce1b220498b99b7aa842",
+      "reader": 2
     },
     "384": {
       "id": "the-illusionist",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-illusionist-small.mp3",
-      "bodyHash": "5ace992fa40a75691e7d72e610e424e4a6ea8a5203a4a7ac3aaacfc3cf3fef8d"
+      "bodyHash": "5ace992fa40a75691e7d72e610e424e4a6ea8a5203a4a7ac3aaacfc3cf3fef8d",
+      "reader": 2
     },
     "385": {
       "id": "tears-in-rain",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tears-in-rain-small.mp3",
-      "bodyHash": "3ef0cebc5e4c6557f3252a6828789f41914a58bdbb6cceac9063891baf099af3"
+      "bodyHash": "3ef0cebc5e4c6557f3252a6828789f41914a58bdbb6cceac9063891baf099af3",
+      "reader": 2
     },
     "386": {
       "id": "the-distant-sun",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-distant-sun-small.mp3",
-      "bodyHash": "ac154191266013b3ee263f5bd355962962576b357912290dd940ae9ff5b7d418"
+      "bodyHash": "ac154191266013b3ee263f5bd355962962576b357912290dd940ae9ff5b7d418",
+      "reader": 2
     },
     "387": {
       "id": "the-call",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-call-small.mp3",
-      "bodyHash": "a5f26c5239d5da73766398a4ed11cadbf132894c5953576b80273aac67de8a61"
+      "bodyHash": "a5f26c5239d5da73766398a4ed11cadbf132894c5953576b80273aac67de8a61",
+      "reader": 2
     },
     "388": {
       "id": "the-things-that-keep-us-here",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-things-that-keep-us-here-small.mp3",
-      "bodyHash": "5dfe9dd58abd51c235361efb0e108337f5cfb860b1e3b0f57ad1da6e7c83e2ee"
+      "bodyHash": "5dfe9dd58abd51c235361efb0e108337f5cfb860b1e3b0f57ad1da6e7c83e2ee",
+      "reader": 2
     },
     "389": {
       "id": "the-vision",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-vision-small.mp3",
-      "bodyHash": "66e7806c3ca2840cb0f2d665a3f4997ff6fe5f93bc3c80861863861c3578f226"
+      "bodyHash": "66e7806c3ca2840cb0f2d665a3f4997ff6fe5f93bc3c80861863861c3578f226",
+      "reader": 2
     },
     "390": {
       "id": "the-exodus",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-exodus-small.mp3",
-      "bodyHash": "5609cfd173a753b6af3d479c5d28ab8bab725ba4ee6242ecbb351928604e80b4"
+      "bodyHash": "5609cfd173a753b6af3d479c5d28ab8bab725ba4ee6242ecbb351928604e80b4",
+      "reader": 2
     },
     "391": {
       "id": "the-spaces-between",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-spaces-between-small.mp3",
-      "bodyHash": "c7969ebdedad02d7951b17cc4ec2793dbec509210b9ca3c68c293a72e4fae5b6"
+      "bodyHash": "c7969ebdedad02d7951b17cc4ec2793dbec509210b9ca3c68c293a72e4fae5b6",
+      "reader": 2
     },
     "392": {
       "id": "the-encounter",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-encounter-small.mp3",
-      "bodyHash": "8beba16d663131d751203099aac80e5a8522bb622f5a4e31a0e6b7f31b80c46b"
+      "bodyHash": "8beba16d663131d751203099aac80e5a8522bb622f5a4e31a0e6b7f31b80c46b",
+      "reader": 2
     },
     "393": {
       "id": "the-endurance",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-endurance-small.mp3",
-      "bodyHash": "5470cf7ba5831ab99072c7c19a8554c54caf8d6a8ede4f7bcbfea3593ec8280c"
+      "bodyHash": "5470cf7ba5831ab99072c7c19a8554c54caf8d6a8ede4f7bcbfea3593ec8280c",
+      "reader": 2
     },
     "394": {
       "id": "the-fall",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-fall-small.mp3",
-      "bodyHash": "c652a4be421f18ba242823dc0498f2eb074b4ee22f23f40d3ba4d72f405ac648"
+      "bodyHash": "c652a4be421f18ba242823dc0498f2eb074b4ee22f23f40d3ba4d72f405ac648",
+      "reader": 2
     },
     "395": {
       "id": "the-rise",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-rise-small.mp3",
-      "bodyHash": "6a6e7a10356ad23550f6345cab0af499ceba3e5fdd5b70d14c88bbcf9ff5b58c"
+      "bodyHash": "6a6e7a10356ad23550f6345cab0af499ceba3e5fdd5b70d14c88bbcf9ff5b58c",
+      "reader": 2
     },
     "396": {
       "id": "the-fury",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-fury-small.mp3",
-      "bodyHash": "ca9bc68ad8fa98b0499a644af4c9c03c49a2897589be2fd0dae7991bb94ec8a4"
+      "bodyHash": "ca9bc68ad8fa98b0499a644af4c9c03c49a2897589be2fd0dae7991bb94ec8a4",
+      "reader": 2
     },
     "397": {
       "id": "the-restoration",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-restoration-small.mp3",
-      "bodyHash": "7bdce11d1e94b04fed571300e67d6df7a1f0ce58efbc25a28fe3217f729ab4a3"
+      "bodyHash": "7bdce11d1e94b04fed571300e67d6df7a1f0ce58efbc25a28fe3217f729ab4a3",
+      "reader": 2
     },
     "398": {
       "id": "petrichor",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/petrichor-small.mp3",
-      "bodyHash": "1e68806de58bd58d78f85458fc7e89f0acf9276a83a819a47b5ba532281959ef"
+      "bodyHash": "1e68806de58bd58d78f85458fc7e89f0acf9276a83a819a47b5ba532281959ef",
+      "reader": 2
     },
     "399": {
       "id": "nightfall",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/nightfall-small.mp3",
-      "bodyHash": "88d5e18e11e54d05779879e03fbf3dab5f78ea81b5ff0c51bb05f4e5546f5d99"
+      "bodyHash": "88d5e18e11e54d05779879e03fbf3dab5f78ea81b5ff0c51bb05f4e5546f5d99",
+      "reader": 2
     },
     "400": {
       "id": "icarus-2019",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/icarus-2019-small.mp3",
-      "bodyHash": "a3fe53ba8566ba22f57bea294305e56d48552a5f5da8e4105f34de8ddc1f86b0"
+      "bodyHash": "a3fe53ba8566ba22f57bea294305e56d48552a5f5da8e4105f34de8ddc1f86b0",
+      "reader": 2
     },
     "401": {
       "id": "light-in-dark-places-2019-remaster",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/light-in-dark-places-2019-remaster-small.mp3",
-      "bodyHash": "ed02d96c1483b76d51d36105b36dad7ef763412570be71992792f85c0c950587"
+      "bodyHash": "ed02d96c1483b76d51d36105b36dad7ef763412570be71992792f85c0c950587",
+      "reader": 2
     },
     "402": {
       "id": "there-is-a-place",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/there-is-a-place-small.mp3",
-      "bodyHash": "d59c2d585d52fa60c826517f12c8c543e40d35734043bbe3406ae528416a271f"
+      "bodyHash": "d59c2d585d52fa60c826517f12c8c543e40d35734043bbe3406ae528416a271f",
+      "reader": 2
     },
     "403": {
       "id": "she-moved-mountains",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/she-moved-mountains-small.mp3",
-      "bodyHash": "b16bc68e48379830e3940ea34fca7668299d2f7e167ed207d98947cc4afc9f32"
+      "bodyHash": "b16bc68e48379830e3940ea34fca7668299d2f7e167ed207d98947cc4afc9f32",
+      "reader": 2
     },
     "404": {
       "id": "ashes-of-a-fallen-year-2019-remaster",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ashes-of-a-fallen-year-2019-remaster-small.mp3",
-      "bodyHash": "6734e6c8a57271a999b82cc80c6cb3b210fea6977997daebb595d60afeb4deb8"
+      "bodyHash": "6734e6c8a57271a999b82cc80c6cb3b210fea6977997daebb595d60afeb4deb8",
+      "reader": 2
     },
     "405": {
       "id": "skyscraper-samba",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/skyscraper-samba-small.mp3",
-      "bodyHash": "a70093ef514cc029eee1c759c74f8590f1cf9f69738affe6c86f58e9731e427e"
+      "bodyHash": "a70093ef514cc029eee1c759c74f8590f1cf9f69738affe6c86f58e9731e427e",
+      "reader": 2
     },
     "406": {
       "id": "freedom",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/freedom-small.mp3",
-      "bodyHash": "25ca086a7c21ff69267fd2dfa8894d3d2dbc7a9c16053a8e97219ef4336d5bfd"
+      "bodyHash": "25ca086a7c21ff69267fd2dfa8894d3d2dbc7a9c16053a8e97219ef4336d5bfd",
+      "reader": 2
     },
     "407": {
       "id": "ascension",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ascension-small.mp3",
-      "bodyHash": "ad9a471fb9389a387c0de8cb86ba77539b9f632dfa2877ba2241dbf6e4ec7d09"
+      "bodyHash": "ad9a471fb9389a387c0de8cb86ba77539b9f632dfa2877ba2241dbf6e4ec7d09",
+      "reader": 2
     },
     "408": {
       "id": "childhood",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/childhood-small.mp3",
-      "bodyHash": "984a38837354a8c48f36a07f5657d3cfb46e00e95ee7bb2dbe1eebd941ac5c50"
+      "bodyHash": "984a38837354a8c48f36a07f5657d3cfb46e00e95ee7bb2dbe1eebd941ac5c50",
+      "reader": 2
     },
     "409": {
       "id": "computations",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/computations-small.mp3",
-      "bodyHash": "9cf2c55a8f683a51668babc196d1423e5429e92cdfae3a1dd4baa4bd58cf1626"
+      "bodyHash": "9cf2c55a8f683a51668babc196d1423e5429e92cdfae3a1dd4baa4bd58cf1626",
+      "reader": 2
     },
     "410": {
       "id": "intervention",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/intervention-small.mp3",
-      "bodyHash": "946c62aeb43fffa285294d09591ad7ef722a0a732472d4841f5b81d84082ae03"
+      "bodyHash": "946c62aeb43fffa285294d09591ad7ef722a0a732472d4841f5b81d84082ae03",
+      "reader": 2
     },
     "411": {
       "id": "o-come-all-ye-faithful",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/o-come-all-ye-faithful-small.mp3",
-      "bodyHash": "6d8204355960cc0495adf14f98bded2d9f6f2b14cca84336b42bdaa89e57f785"
+      "bodyHash": "6d8204355960cc0495adf14f98bded2d9f6f2b14cca84336b42bdaa89e57f785",
+      "reader": 2
     },
     "412": {
       "id": "snowfall",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/snowfall-small.mp3",
-      "bodyHash": "63f0c94867b30ca6f966c66f1a0be3eec580c7b43d893dc7e6163d5d382a5b77"
+      "bodyHash": "63f0c94867b30ca6f966c66f1a0be3eec580c7b43d893dc7e6163d5d382a5b77",
+      "reader": 2
     },
     "413": {
       "id": "extrapolation",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/extrapolation-small.mp3",
-      "bodyHash": "755e6994a0bedce2cdc3211d18dcdf5ea91e35afdf2ae4d98d03f41bc6f4197b"
+      "bodyHash": "755e6994a0bedce2cdc3211d18dcdf5ea91e35afdf2ae4d98d03f41bc6f4197b",
+      "reader": 2
     },
     "414": {
       "id": "the-black-waltz",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-black-waltz-small.mp3",
-      "bodyHash": "1ba424df40c7418e71b1bbeaccfa3767c0334101e61b907deb63026656c310ef"
+      "bodyHash": "1ba424df40c7418e71b1bbeaccfa3767c0334101e61b907deb63026656c310ef",
+      "reader": 2
     },
     "415": {
       "id": "the-old-ones",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-old-ones-small.mp3",
-      "bodyHash": "a323b7b1c98162bef5c8dd70b7ba3436c151d27fd94852e7c6ec042c92f9084a"
+      "bodyHash": "a323b7b1c98162bef5c8dd70b7ba3436c151d27fd94852e7c6ec042c92f9084a",
+      "reader": 2
     },
     "416": {
       "id": "red",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/red-small.mp3",
-      "bodyHash": "e44daf4dc2a58afd649ff115879a716a05bc677db9c6865068da3f446cf0c4ef"
+      "bodyHash": "e44daf4dc2a58afd649ff115879a716a05bc677db9c6865068da3f446cf0c4ef",
+      "reader": 2
     },
     "417": {
       "id": "static",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/static-small.mp3",
-      "bodyHash": "1bface0f092961a704d7a5d5e5e30e2868ee948c510a1b0e5ae1a8c33b639379"
+      "bodyHash": "1bface0f092961a704d7a5d5e5e30e2868ee948c510a1b0e5ae1a8c33b639379",
+      "reader": 2
     },
     "418": {
       "id": "titan",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/titan-small.mp3",
-      "bodyHash": "a3eb2b11e1741ab7b01835b63e98add754f3cfd9be242885c43f1a4d5ca17dad"
+      "bodyHash": "a3eb2b11e1741ab7b01835b63e98add754f3cfd9be242885c43f1a4d5ca17dad",
+      "reader": 2
     },
     "419": {
       "id": "skyward",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/skyward-small.mp3",
-      "bodyHash": "bd9f7a26821e6aa59e7c3baad49a2c602cc213080e625d4319ea4588bed0496f"
+      "bodyHash": "bd9f7a26821e6aa59e7c3baad49a2c602cc213080e625d4319ea4588bed0496f",
+      "reader": 2
     },
     "420": {
       "id": "growing-up",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/growing-up-small.mp3",
-      "bodyHash": "92a35776e7265a4f817f6198a113e2c67b60688520ebef987eebab8e8a2f34a8"
+      "bodyHash": "92a35776e7265a4f817f6198a113e2c67b60688520ebef987eebab8e8a2f34a8",
+      "reader": 2
     },
     "421": {
       "id": "resonance",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/resonance-small.mp3",
-      "bodyHash": "8ef9c399ca99fef9fae2ea526f04bed39b2c0d8b257800c42481f39f32a7eac6"
+      "bodyHash": "8ef9c399ca99fef9fae2ea526f04bed39b2c0d8b257800c42481f39f32a7eac6",
+      "reader": 2
     },
     "422": {
       "id": "descent",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/descent-small.mp3",
-      "bodyHash": "1595b891abc513b10d6a8c1b4112ceed46d69c336c143b418bef2ee9b5cc1cb9"
+      "bodyHash": "1595b891abc513b10d6a8c1b4112ceed46d69c336c143b418bef2ee9b5cc1cb9",
+      "reader": 2
     },
     "423": {
       "id": "chronicle",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/chronicle-small.mp3",
-      "bodyHash": "918589723a34016a56ce814f502c478522cab8873c6e927c1903cbb9e6bb131e"
+      "bodyHash": "918589723a34016a56ce814f502c478522cab8873c6e927c1903cbb9e6bb131e",
+      "reader": 2
     },
     "424": {
       "id": "hymn",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hymn-small.mp3",
-      "bodyHash": "d91a9b1c65357e55230dd4fd7ecf8f894c3c2dd8a08a81e75af21cb7aab0a1f1"
+      "bodyHash": "d91a9b1c65357e55230dd4fd7ecf8f894c3c2dd8a08a81e75af21cb7aab0a1f1",
+      "reader": 2
     },
     "425": {
       "id": "time-and-space",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/time-and-space-small.mp3",
-      "bodyHash": "5a7ac75c60bd478af9c342fbeb8af5e14ebe53c97848d831e16e79635b26302c"
+      "bodyHash": "5a7ac75c60bd478af9c342fbeb8af5e14ebe53c97848d831e16e79635b26302c",
+      "reader": 2
     },
     "426": {
       "id": "phoenix",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/phoenix-small.mp3",
-      "bodyHash": "2a94a14fbd773034f7987e9d1f690f4fe59a2e5dfec8258ee81f51dfdbcf7d64"
+      "bodyHash": "2a94a14fbd773034f7987e9d1f690f4fe59a2e5dfec8258ee81f51dfdbcf7d64",
+      "reader": 2
     },
     "427": {
       "id": "a-new-year",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-new-year-small.mp3",
-      "bodyHash": "1a2f5a7381dfabe11a3ad548719bcdd7b7b6ada69db3458f14969b8ac6984dbb"
+      "bodyHash": "1a2f5a7381dfabe11a3ad548719bcdd7b7b6ada69db3458f14969b8ac6984dbb",
+      "reader": 2
     },
     "428": {
       "id": "cobalt",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cobalt-small.mp3",
-      "bodyHash": "6e4cf140568d7c62337a59813119287f49dfec881216e0d418d50937c9f11838"
+      "bodyHash": "6e4cf140568d7c62337a59813119287f49dfec881216e0d418d50937c9f11838",
+      "reader": 2
     },
     "429": {
       "id": "genesis",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/genesis-small.mp3",
-      "bodyHash": "abe9c5aa7e35b0cbdf22525376e5530718becb9aaeac664caf9d5956bc3f5e85"
+      "bodyHash": "abe9c5aa7e35b0cbdf22525376e5530718becb9aaeac664caf9d5956bc3f5e85",
+      "reader": 2
     },
     "430": {
       "id": "life-is",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/life-is-small.mp3",
-      "bodyHash": "d1e35c2d41383eabf3a48c9162c6cf8a73442a1e9d74b90c95cd14891fc0a819"
+      "bodyHash": "d1e35c2d41383eabf3a48c9162c6cf8a73442a1e9d74b90c95cd14891fc0a819",
+      "reader": 2
     },
     "431": {
       "id": "cassini",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/cassini-small.mp3",
-      "bodyHash": "16d29164a9da6c81199ccf26fb3e912093364f38ac7ea24f764104b7250d0414"
+      "bodyHash": "16d29164a9da6c81199ccf26fb3e912093364f38ac7ea24f764104b7250d0414",
+      "reader": 2
     },
     "432": {
       "id": "solstice",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/solstice-small.mp3",
-      "bodyHash": "ba3e9f98ccbf8980a95a01b522d8eaefe1bc2294cedd7c4bbf5c156260194a1d"
+      "bodyHash": "ba3e9f98ccbf8980a95a01b522d8eaefe1bc2294cedd7c4bbf5c156260194a1d",
+      "reader": 2
     },
     "433": {
       "id": "elementary",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/elementary-small.mp3",
-      "bodyHash": "c83dd9535627ec1cf3fd1df6a6c7ccc299d16078d83d31b47be93c93f43f8765"
+      "bodyHash": "c83dd9535627ec1cf3fd1df6a6c7ccc299d16078d83d31b47be93c93f43f8765",
+      "reader": 2
     },
     "434": {
       "id": "pursuit",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/pursuit-small.mp3",
-      "bodyHash": "6e960c9e77d89c0de9921920d52a4b63b3006434b0d242e367d9a6940832aaec"
+      "bodyHash": "6e960c9e77d89c0de9921920d52a4b63b3006434b0d242e367d9a6940832aaec",
+      "reader": 2
     },
     "435": {
       "id": "theory-of-machines",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/theory-of-machines-small.mp3",
-      "bodyHash": "284176af2b857803aea6ac0297dfbd7ea5ac80d622b3d93dd33ef1e1ae1d8a53"
+      "bodyHash": "284176af2b857803aea6ac0297dfbd7ea5ac80d622b3d93dd33ef1e1ae1d8a53",
+      "reader": 2
     },
     "436": {
       "id": "journeys",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/journeys-small.mp3",
-      "bodyHash": "013819f70a4e6ec6f3582b1d297eea3a57dad834cb79e0091adae49ba29c1cd3"
+      "bodyHash": "013819f70a4e6ec6f3582b1d297eea3a57dad834cb79e0091adae49ba29c1cd3",
+      "reader": 2
     },
     "437": {
       "id": "the-legend-of-kvothe",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-legend-of-kvothe-small.mp3",
-      "bodyHash": "c7c1c811c98d0046865c0f41e1db0876987f4c9f7e250cd52822f94e07b9bcb6"
+      "bodyHash": "c7c1c811c98d0046865c0f41e1db0876987f4c9f7e250cd52822f94e07b9bcb6",
+      "reader": 2
     },
     "438": {
       "id": "jade",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jade-small.mp3",
-      "bodyHash": "5dd1e1a8b1bafe55c83ee92ff1a0367fa3a4c2ead1505c35ed52602fb03a76b8"
+      "bodyHash": "5dd1e1a8b1bafe55c83ee92ff1a0367fa3a4c2ead1505c35ed52602fb03a76b8",
+      "reader": 2
     },
     "439": {
       "id": "stars-in-her-skies",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/stars-in-her-skies-small.mp3",
-      "bodyHash": "eb8b8da0feb040df2cae7be67d9ecc8fff5e3b6df99964af7da33bf0362900b5"
+      "bodyHash": "eb8b8da0feb040df2cae7be67d9ecc8fff5e3b6df99964af7da33bf0362900b5",
+      "reader": 2
     },
     "440": {
       "id": "eidolon",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/eidolon-small.mp3",
-      "bodyHash": "2931c36f03ce89a1552be9700306bbff6563e3f2385ad11b78f336cbf6acc70a"
+      "bodyHash": "2931c36f03ce89a1552be9700306bbff6563e3f2385ad11b78f336cbf6acc70a",
+      "reader": 2
     },
     "441": {
       "id": "patagonia",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/patagonia-small.mp3",
-      "bodyHash": "b702f6a6ac91fa7404e9be3dc93feccd6524a02ddcbea5af023d98d5cbd80c3c"
+      "bodyHash": "b702f6a6ac91fa7404e9be3dc93feccd6524a02ddcbea5af023d98d5cbd80c3c",
+      "reader": 2
     },
     "442": {
       "id": "passage",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/passage-small.mp3",
-      "bodyHash": "850175e401964c1a10482597d57bf43363179cf8a0e4102279ace6e5d28b337e"
+      "bodyHash": "850175e401964c1a10482597d57bf43363179cf8a0e4102279ace6e5d28b337e",
+      "reader": 2
     },
     "443": {
       "id": "never-dying",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/never-dying-small.mp3",
-      "bodyHash": "bf932701772f0f9ea328a3d5751abe1a909ae9e622c31d0582e8aa0d0cdb7879"
+      "bodyHash": "bf932701772f0f9ea328a3d5751abe1a909ae9e622c31d0582e8aa0d0cdb7879",
+      "reader": 2
     },
     "444": {
       "id": "tomorrow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tomorrow-small.mp3",
-      "bodyHash": "46e80affe7d211296c52a177a01f690b1b1e849e58eebb5e48c4dd7fdf5af58c"
+      "bodyHash": "46e80affe7d211296c52a177a01f690b1b1e849e58eebb5e48c4dd7fdf5af58c",
+      "reader": 2
     },
     "445": {
       "id": "rainbows",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/rainbows-small.mp3",
-      "bodyHash": "753ae4da599a5383b4cd2d65097d2d4432097a878f894afaf415fcee78e85b5e"
+      "bodyHash": "753ae4da599a5383b4cd2d65097d2d4432097a878f894afaf415fcee78e85b5e",
+      "reader": 2
     },
     "446": {
       "id": "wonderful",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/wonderful-small.mp3",
-      "bodyHash": "e6eb6ce7a18a4940a0e4bf4522329996c330faf9f858ef9c17d9065f88da0659"
+      "bodyHash": "e6eb6ce7a18a4940a0e4bf4522329996c330faf9f858ef9c17d9065f88da0659",
+      "reader": 2
     },
     "447": {
       "id": "happiness",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/happiness-small.mp3",
-      "bodyHash": "3bfd3fab5fc1db2ef815fcc1d5d403ea8272c9304f53611733315dbfd0886d9d"
+      "bodyHash": "3bfd3fab5fc1db2ef815fcc1d5d403ea8272c9304f53611733315dbfd0886d9d",
+      "reader": 2
     },
     "448": {
       "id": "supernova",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/supernova-small.mp3",
-      "bodyHash": "aadff7d12192d28a8456ec7125f3d55df307fb83e12e070d8be41a381b4ee179"
+      "bodyHash": "aadff7d12192d28a8456ec7125f3d55df307fb83e12e070d8be41a381b4ee179",
+      "reader": 2
     },
     "449": {
       "id": "drift",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/drift-small.mp3",
-      "bodyHash": "a64d4c6ce9fefdfc72b2866335bb6be2ba43f99a2af383ad90f6ad99a65eedd5"
+      "bodyHash": "a64d4c6ce9fefdfc72b2866335bb6be2ba43f99a2af383ad90f6ad99a65eedd5",
+      "reader": 2
     },
     "450": {
       "id": "invocation",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/invocation-small.mp3",
-      "bodyHash": "a567caf1e5199f9f3d5efb133ec3083ad01029c704e49374d1d75675d5fef8af"
+      "bodyHash": "a567caf1e5199f9f3d5efb133ec3083ad01029c704e49374d1d75675d5fef8af",
+      "reader": 2
     },
     "451": {
       "id": "jubilee",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/jubilee-small.mp3",
-      "bodyHash": "cd75a83fd79a8e42053b48ebe76c3d0c771db6c3913c64b10b17cd209a77655a"
+      "bodyHash": "cd75a83fd79a8e42053b48ebe76c3d0c771db6c3913c64b10b17cd209a77655a",
+      "reader": 2
     },
     "452": {
       "id": "dreamt-of-flying",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/dreamt-of-flying-small.mp3",
-      "bodyHash": "45fdc1bda68cd4a07cf7243bb7980a0ea2d94d39ecccf20f6cc56b219d9c6af3"
+      "bodyHash": "45fdc1bda68cd4a07cf7243bb7980a0ea2d94d39ecccf20f6cc56b219d9c6af3",
+      "reader": 2
     },
     "453": {
       "id": "venom",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/venom-small.mp3",
-      "bodyHash": "6aa29fdea7c62847e974168a184adf3a3e7391d38644b5e1b75a54e052453377"
+      "bodyHash": "6aa29fdea7c62847e974168a184adf3a3e7391d38644b5e1b75a54e052453377",
+      "reader": 2
     },
     "454": {
       "id": "reparateur",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/reparateur.mp3",
-      "bodyHash": "a99a458af8b2867adcbb1f6e69698d000abc5fd4f2cc1fcee332950a1b741ca9"
+      "bodyHash": "a99a458af8b2867adcbb1f6e69698d000abc5fd4f2cc1fcee332950a1b741ca9",
+      "reader": 2
     },
     "455": {
       "id": "firefly",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/firefly-small.mp3",
-      "bodyHash": "0c707ff8339c0ecd1edd297181c2c368e26c0a6c911402498b99fc2766d988cd"
+      "bodyHash": "0c707ff8339c0ecd1edd297181c2c368e26c0a6c911402498b99fc2766d988cd",
+      "reader": 2
     },
     "456": {
       "id": "tears-of-a-distant-sun",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tears-of-a-distant-sun-small.mp3",
-      "bodyHash": "7e6453a280c3770501c3307d695897ba5ef81d8f9f48d8f72e2ff4822fff6411"
+      "bodyHash": "7e6453a280c3770501c3307d695897ba5ef81d8f9f48d8f72e2ff4822fff6411",
+      "reader": 2
     },
     "457": {
       "id": "soldier-of-fortune",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/soldier-of-fortune-small.mp3",
-      "bodyHash": "5c07c890ca8e1f2472cf8c321bc4c2c6638fda0bd51f42ae1530c779c5179b6c"
+      "bodyHash": "5c07c890ca8e1f2472cf8c321bc4c2c6638fda0bd51f42ae1530c779c5179b6c",
+      "reader": 2
     },
     "458": {
       "id": "ashes-of-a-fallen-year",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/ashes-of-a-fallen-year-small.mp3",
-      "bodyHash": "f261cebb84654e9dec6594258a07b568020fd7dec3c5dcad1edb1585657cd37f"
+      "bodyHash": "f261cebb84654e9dec6594258a07b568020fd7dec3c5dcad1edb1585657cd37f",
+      "reader": 2
     },
     "459": {
       "id": "blood",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/blood-small.mp3",
-      "bodyHash": "5ca3498fa393e0c44f2da6529426474611cf2ebf9f022c699e1d7c701dd29eb9"
+      "bodyHash": "5ca3498fa393e0c44f2da6529426474611cf2ebf9f022c699e1d7c701dd29eb9",
+      "reader": 2
     },
     "460": {
       "id": "your-numbers-up-ost",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/your-numbers-up-ost-small.mp3",
-      "bodyHash": "fb4ce2cad116692886c3e610f7782d8c1da1cbee4f95dfd9779d199d3646ecd0"
+      "bodyHash": "fb4ce2cad116692886c3e610f7782d8c1da1cbee4f95dfd9779d199d3646ecd0",
+      "reader": 2
     },
     "461": {
       "id": "love-conquers",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/love-conquers-small.mp3",
-      "bodyHash": "8c122b490be64107a65fc131fb57f4388ca403af4b74e374419582d777a97df7"
+      "bodyHash": "8c122b490be64107a65fc131fb57f4388ca403af4b74e374419582d777a97df7",
+      "reader": 2
     },
     "462": {
       "id": "latin-dish-pigs",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/latin-dish-pigs-small.mp3",
-      "bodyHash": "1f82704c1cba95cfff61381732bb1379c9195a10715ddb622e9b7624be1366a7"
+      "bodyHash": "1f82704c1cba95cfff61381732bb1379c9195a10715ddb622e9b7624be1366a7",
+      "reader": 2
     },
     "463": {
       "id": "crusader",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/crusader-small.mp3",
-      "bodyHash": "dbd3fdd7b2d228e6c0fe8593f676b4eaec8d0b6125169feadfd5719d3dc52dfe"
+      "bodyHash": "dbd3fdd7b2d228e6c0fe8593f676b4eaec8d0b6125169feadfd5719d3dc52dfe",
+      "reader": 2
     },
     "464": {
       "id": "the-spirit",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-spirit-small.mp3",
-      "bodyHash": "39ee43ba89fdb871ea17dffae5faeb9d18f9c7c24d51109eba75a21ca91d04d0"
+      "bodyHash": "39ee43ba89fdb871ea17dffae5faeb9d18f9c7c24d51109eba75a21ca91d04d0",
+      "reader": 2
     },
     "465": {
       "id": "an-unexpected-party",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/an-unexpected-party-small.mp3",
-      "bodyHash": "3ef7fd9085f25cb814d74e37d9a4fb4df1ccd46a033c1847b6a9690a996cd941"
+      "bodyHash": "3ef7fd9085f25cb814d74e37d9a4fb4df1ccd46a033c1847b6a9690a996cd941",
+      "reader": 2
     },
     "466": {
       "id": "concerning-hobbits",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/concerning-hobbits-small.mp3",
-      "bodyHash": "ed5a090d76d693cacc57448b163cea39d6dcc5bf6f2f1e2fb35b3e6457a42b78"
+      "bodyHash": "ed5a090d76d693cacc57448b163cea39d6dcc5bf6f2f1e2fb35b3e6457a42b78",
+      "reader": 2
     },
     "467": {
       "id": "awakening",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/awakening-small.mp3",
-      "bodyHash": "54ab59572c2deeae945bf3d6ea65c8e3e436d3edbcbb695626698e0ac49ce8ab"
+      "bodyHash": "54ab59572c2deeae945bf3d6ea65c8e3e436d3edbcbb695626698e0ac49ce8ab",
+      "reader": 2
     },
     "468": {
       "id": "helsinki",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/helsinki.mp3",
-      "bodyHash": "458fb8456bcf27cb408890807f2acb17958555c185ea9d6100832754d2ade1d9"
+      "bodyHash": "458fb8456bcf27cb408890807f2acb17958555c185ea9d6100832754d2ade1d9",
+      "reader": 2
     },
     "469": {
       "id": "one-falls-to-the-fire",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/one-falls-to-the-fire.mp3",
-      "bodyHash": "c4d4f73463ab46c41fcb0fb1342c71e69e54df96139771196b722330069539bd"
+      "bodyHash": "c4d4f73463ab46c41fcb0fb1342c71e69e54df96139771196b722330069539bd",
+      "reader": 2
     },
     "470": {
       "id": "oblivion-overture",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/oblivion-overture.mp3",
-      "bodyHash": "4456a1841da2451d12fa31c44d75a04f20e3ed89273df413d023eeb002c3e695"
+      "bodyHash": "4456a1841da2451d12fa31c44d75a04f20e3ed89273df413d023eeb002c3e695",
+      "reader": 2
     },
     "471": {
       "id": "edge-of-remorse",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/edge-of-remorse.mp3",
-      "bodyHash": "cff2a31e15967f257b7acfaa764af4090e77926b1598b3922425bc0f4c76f779"
+      "bodyHash": "cff2a31e15967f257b7acfaa764af4090e77926b1598b3922425bc0f4c76f779",
+      "reader": 2
     },
     "472": {
       "id": "vengeance",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/vengeance.mp3",
-      "bodyHash": "708e75356d8a57b36f7be277c02976a17e153a35d1b91d908cc93e9cfa1f2439"
+      "bodyHash": "708e75356d8a57b36f7be277c02976a17e153a35d1b91d908cc93e9cfa1f2439",
+      "reader": 2
     },
     "473": {
       "id": "utopia",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/utopia.mp3",
-      "bodyHash": "b281cacb26474e4e67a7607489f1c91ad8ab624b03b3853153ce2e0d17a07373"
+      "bodyHash": "b281cacb26474e4e67a7607489f1c91ad8ab624b03b3853153ce2e0d17a07373",
+      "reader": 2
     },
     "474": {
       "id": "white-dawn",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/white-dawn.mp3",
-      "bodyHash": "6433e60edd1ede1cd18af909b3a31c849536f24e5fc0d38471ba76ca0db386f3"
+      "bodyHash": "6433e60edd1ede1cd18af909b3a31c849536f24e5fc0d38471ba76ca0db386f3",
+      "reader": 2
     },
     "475": {
       "id": "machinery-of-the-stars",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/machinery-of-the-stars.mp3",
-      "bodyHash": "d7d12bf3412c52422cee398a8a143a2303bfdd2e9bcc2435fa172ddceb8a9ba5"
+      "bodyHash": "d7d12bf3412c52422cee398a8a143a2303bfdd2e9bcc2435fa172ddceb8a9ba5",
+      "reader": 2
     },
     "476": {
       "id": "light-in-dark-places",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/light-in-dark-places.mp3",
-      "bodyHash": "9e7b070b4a3d05ef0d73782812cca8e9fca9174fb4487ceee62b5b955ac60a61"
+      "bodyHash": "9e7b070b4a3d05ef0d73782812cca8e9fca9174fb4487ceee62b5b955ac60a61",
+      "reader": 2
     },
     "477": {
       "id": "sanctum",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sanctum.mp3",
-      "bodyHash": "fe484c8c825cdba7f23253135301d98203f9d8add3a358c440af3615564dc4d9"
+      "bodyHash": "fe484c8c825cdba7f23253135301d98203f9d8add3a358c440af3615564dc4d9",
+      "reader": 2
     },
     "478": {
       "id": "icarus",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/icarus.mp3",
-      "bodyHash": "8c9c4bc667950466c87ee0f384ad8bf97785885c16e34ea0b37ee323bd010211"
+      "bodyHash": "8c9c4bc667950466c87ee0f384ad8bf97785885c16e34ea0b37ee323bd010211",
+      "reader": 2
     },
     "479": {
       "id": "sunday-smooth",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sunday-smooth.mp3",
-      "bodyHash": "da7f915620b99c94c7bca18862675f270e0705824787283d1ba73d96f340c2f3"
+      "bodyHash": "da7f915620b99c94c7bca18862675f270e0705824787283d1ba73d96f340c2f3",
+      "reader": 2
     },
     "480": {
       "id": "forever-sky",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/forever-sky.mp3",
-      "bodyHash": "dccffa680784cc6c622caa9123623f1008385b946ed6c371b5fb5f9a1e702c9a"
+      "bodyHash": "dccffa680784cc6c622caa9123623f1008385b946ed6c371b5fb5f9a1e702c9a",
+      "reader": 2
     },
     "481": {
       "id": "air",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/air.mp3",
-      "bodyHash": "357006467aad9eab68411fdd810944960000d63d38ee16dc99ab2946e2ef4d9c"
+      "bodyHash": "357006467aad9eab68411fdd810944960000d63d38ee16dc99ab2946e2ef4d9c",
+      "reader": 2
     },
     "482": {
       "id": "homeward",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/homeward.mp3",
-      "bodyHash": "8f4ac4ff46b88635a217e99fe23ca6e53b5937277d23fd8dab5ec12bcbabe97c"
+      "bodyHash": "8f4ac4ff46b88635a217e99fe23ca6e53b5937277d23fd8dab5ec12bcbabe97c",
+      "reader": 2
     },
     "483": {
       "id": "prelude-to-chemistry",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/prelude-to-chemistry.mp3",
-      "bodyHash": "1ca5ca118e36bec1bb283276acf70f6553d3df7a509950921f6eb224bdffc2ff"
+      "bodyHash": "1ca5ca118e36bec1bb283276acf70f6553d3df7a509950921f6eb224bdffc2ff",
+      "reader": 2
     },
     "484": {
       "id": "sarsaparilla",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/sarsaparilla.mp3",
-      "bodyHash": "96889fa4808e6c789287c0fde4bdb4b3da84e87e2043ce9a429ab8dcb3282358"
+      "bodyHash": "96889fa4808e6c789287c0fde4bdb4b3da84e87e2043ce9a429ab8dcb3282358",
+      "reader": 2
     },
     "485": {
       "id": "special-ops",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/special-ops.mp3",
-      "bodyHash": "be80a81fb336ed6c211f13750f96bb4b4fa3669d0b6088fcda8adaf615707ec6"
+      "bodyHash": "be80a81fb336ed6c211f13750f96bb4b4fa3669d0b6088fcda8adaf615707ec6",
+      "reader": 2
     },
     "486": {
       "id": "high-games",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/high-games.mp3",
-      "bodyHash": "039f3ab9c6a82c9dccc79da346f53d5620209d0c475485d34c7a1e5f5caaaf37"
+      "bodyHash": "039f3ab9c6a82c9dccc79da346f53d5620209d0c475485d34c7a1e5f5caaaf37",
+      "reader": 2
     },
     "487": {
       "id": "quirky-lane",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/quirky-lane.mp3",
-      "bodyHash": "5d20243fdcf0e028f8b66f41be81e9f7d92932fed2cb7c016ba43a58a3781c79"
+      "bodyHash": "5d20243fdcf0e028f8b66f41be81e9f7d92932fed2cb7c016ba43a58a3781c79",
+      "reader": 2
     },
     "488": {
       "id": "mr-lonogan",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/mr-lonogan.mp3",
-      "bodyHash": "2dc5714ef090fa69722edcfc611f36c20ac208e2afcf3e84eea21fddf8a4800e"
+      "bodyHash": "2dc5714ef090fa69722edcfc611f36c20ac208e2afcf3e84eea21fddf8a4800e",
+      "reader": 2
     },
     "489": {
       "id": "yellow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/yellow.mp3",
-      "bodyHash": "263cbc5cd6d7311884de290f9d1f206cb994752c61d7cebee782915ad2623ef2"
+      "bodyHash": "263cbc5cd6d7311884de290f9d1f206cb994752c61d7cebee782915ad2623ef2",
+      "reader": 2
     },
     "490": {
       "id": "new-beginnings",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/new-beginnings.mp3",
-      "bodyHash": "ce25996bc9b1f6229720343c000b67ac18784b2b3cafb6b149882f1d5bfdcb91"
+      "bodyHash": "ce25996bc9b1f6229720343c000b67ac18784b2b3cafb6b149882f1d5bfdcb91",
+      "reader": 2
     },
     "491": {
       "id": "desperation",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/desperation.mp3",
-      "bodyHash": "a5f8e39c58bf8491f1f68a37201c885bef6fcf2f561f8e860a136921f3196df6"
+      "bodyHash": "a5f8e39c58bf8491f1f68a37201c885bef6fcf2f561f8e860a136921f3196df6",
+      "reader": 2
     },
     "492": {
       "id": "confessions",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/confessions.mp3",
-      "bodyHash": "8b29fdadbc7f3bfa0a5807bffd5d97cf34424655b853b8d2fc7b106f7b11517f"
+      "bodyHash": "8b29fdadbc7f3bfa0a5807bffd5d97cf34424655b853b8d2fc7b106f7b11517f",
+      "reader": 2
     },
     "493": {
       "id": "welcome-to-my-junkyard",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/welcome-to-my-junkyard.mp3",
-      "bodyHash": "8e098e28705737b23830253da1cec59ca14206373651ae91d02249fd68eb6050"
+      "bodyHash": "8e098e28705737b23830253da1cec59ca14206373651ae91d02249fd68eb6050",
+      "reader": 2
     },
     "494": {
       "id": "annas-theme",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/annas-theme.mp3",
-      "bodyHash": "2990e66fad143f778c0e8c55ef83642ac3f6078b5374affaeb226a2cb41deff9"
+      "bodyHash": "2990e66fad143f778c0e8c55ef83642ac3f6078b5374affaeb226a2cb41deff9",
+      "reader": 2
     },
     "495": {
       "id": "fading",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/fading.mp3",
-      "bodyHash": "4f2ff24547b6b4649661763661ea25b359c27152ec9b46fb7afdc1af4fc05279"
+      "bodyHash": "4f2ff24547b6b4649661763661ea25b359c27152ec9b46fb7afdc1af4fc05279",
+      "reader": 2
     },
     "496": {
       "id": "a-dragons-lullabye",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-dragons-lullabye.mp3",
-      "bodyHash": "d92c22402a080b933490452d8d856dbd85ab78c50eaa2d7653f3cd32bd91d0e2"
+      "bodyHash": "4827036d6d61e82d559a0d87480feed2a7af54c20f9ea1825dc2534406764429",
+      "reader": 2
     },
     "497": {
       "id": "hunted",

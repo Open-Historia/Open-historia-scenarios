@@ -6,7 +6,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits | Genre | Mood |
 |---|---|---|---|---|---|---|---|---|
-| [A Dragon’s Lullaby](https://github.com/Open-Historia/Open-historia-scenarios/issues/496) | `a-dragons-lullabye` | Scott Buckley | CC BY 4.0 | 2:36 | 2.4 MB | — | — | — |
+| [A Dragon’s Lullaby](https://github.com/Open-Historia/Open-historia-scenarios/issues/496) | `a-dragons-lullabye` | Scott Buckley | CC BY 4.0 | 2:36 | 2.4 MB | — | Orchestral | Bittersweet, Dark, Emotional, Lonely, Melancholy, Mysterious, Sombre |
 | [A Dragon’s Lullaby (2023 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) | `a-dragons-lullaby-2023` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — | Orchestral | Bittersweet, Brooding, Dark, Peaceful, Sinister |
 | [A Kind Of Hope](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) | `a-kind-of-hope` | Scott Buckley | CC BY 4.0 | 5:43 | 5.4 MB | — | Neoclassical | Bittersweet, Melancholy, Thoughtful, Uplifting |
 | [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 4.5 MB | — | — | — |
@@ -280,6 +280,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/a-dragons-lullabye/>
+- **Genre:** Orchestral
+- **Mood:** Bittersweet, Dark, Emotional, Lonely, Melancholy, Mysterious, Sombre
+- **Instruments:** Harp, Orchestra, Strings
 - **Credit:**
 
 > 'A Dragon's Lullaby (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
