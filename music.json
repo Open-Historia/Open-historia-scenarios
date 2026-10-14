@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:31:43.868Z",
+  "updated": "2026-10-14T04:31:46.911Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -735,9 +735,21 @@
       "source": "https://www.scottbuckley.com.au/library/beautiful-oblivion/",
       "credit": "'Beautiful Oblivion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Melancholy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Pad)",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beautiful-oblivion-v2-6d057b66.mp3",
       "type": "mp3",
