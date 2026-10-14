@@ -136,7 +136,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Love Conquers](https://github.com/Open-Historia/Open-historia-scenarios/issues/461) | `love-conquers` | Scott Buckley | CC BY 4.0 | 3:06 | 3.3 MB | — | Orchestral | Inspirational, Romantic, Uplifting |
 | [Luminance](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) | `luminance` | Scott Buckley | CC BY 4.0 | 4:53 | 4.9 MB | — | Neoclassical, Pop | Bittersweet, Happy, Uplifting |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 5.0 MB | — | Ambient, Electronica | Brooding, Mysterious, Ominous |
-| [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — | — | — |
+| [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — | Electronica, Orchestral | Emotional, Happy, Inspirational, Romantic, Uplifting |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 6.7 MB | — | — | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 2.9 MB | — | Halloween, Orchestral | Comedic, Dark, Sinister |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 5.8 MB | — | Ambient, Neoclassical | Bittersweet, Blissful, Peaceful, Thoughtful |
@@ -2090,6 +2090,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/machinery-of-the-stars/>
+- **Genre:** Electronica, Orchestral
+- **Mood:** Emotional, Happy, Inspirational, Romantic, Uplifting
+- **Instruments:** Choir, Drums (Electronic), Orchestra, Percussion, Strings, Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Machinery of the Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au

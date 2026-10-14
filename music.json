@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:49:37.324Z",
+  "updated": "2026-10-14T04:49:40.605Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4206,9 +4206,26 @@
       "source": "https://www.scottbuckley.com.au/library/machinery-of-the-stars/",
       "credit": "'Machinery of the Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Orchestral"
+      ],
+      "moods": [
+        "Emotional",
+        "Happy",
+        "Inspirational",
+        "Romantic",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Choir",
+        "Drums (Electronic)",
+        "Orchestra",
+        "Percussion",
+        "Strings",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/machinery-of-the-stars-v1-3632834c.mp3",
       "type": "mp3",
