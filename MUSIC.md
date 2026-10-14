@@ -118,7 +118,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 4.7 MB | — | Orchestral | Adventurous, Driving, Epic |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 4.5 MB | — | Orchestral | Adventurous, Heroic |
 | [Invocation](https://github.com/Open-Historia/Open-historia-scenarios/issues/450) | `invocation` | Scott Buckley | CC BY 4.0 | 3:34 | 3.8 MB | — | — | — |
-| [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — | — | — |
+| [Jade](https://github.com/Open-Historia/Open-historia-scenarios/issues/438) | `jade` | Scott Buckley | CC BY 4.0 | 2:07 | 2.3 MB | — | Orchestral | Adventurous, Emotional, Epic |
 | [Journeys](https://github.com/Open-Historia/Open-historia-scenarios/issues/436) | `journeys` | Scott Buckley | CC BY 4.0 | 1:56 | 2.1 MB | — | Folk, Pop | Happy, Relaxed, Uplifting |
 | [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 2.3 MB | — | — | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — | — | — |
@@ -1839,6 +1839,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/jade/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Emotional, Epic
+- **Instruments:** Brass, Orchestra, Strings
 - **Credit:**
 
 > 'Jade' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
