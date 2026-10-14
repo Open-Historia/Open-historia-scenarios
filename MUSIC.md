@@ -124,7 +124,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 3.6 MB | — |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
 | [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 2.6 MB | — |
-| [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 14.9 MB | — |
+| [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 7.1 MB | — |
 | [Legionnaire](https://github.com/Open-Historia/Open-historia-scenarios/issues/516) | `legionnaire-scott-buckley` | Scott Buckley | CC BY 4.0 | 3:04 | 3.5 MB | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 3.4 MB | At war, In the war room |
 | [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 14.6 MB | — |
@@ -1577,9 +1577,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/legacy/>
 - **Credit:**
 
-> 'Legacy' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Legacy' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legacy-v1-6cf8094c.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legacy-v2-02e27afc.mp3) (version 2, posted by @Arkniem)
 
 ### Legionnaire (`legionnaire-scott-buckley`)
 
