@@ -9,7 +9,8 @@ import { PROBLEM_LABEL, PassingError, STATE_FILE, downloadMap } from "../detaile
 import { MAX_TRACK_BYTES, inspectAudio } from "../music/audio.mjs";
 import { checkForm, parseForm } from "../music/form.mjs";
 import { ALLOWED_ASSOCIATIONS, DATA_BRANCH, FITS, LABEL, LICENCES, LIST_FILE, PAGE_FILE, downloadTrack, emptyList, findTrack, mayPostMusic } from "../music/music.mjs";
-import { MARKER, syncMusic } from "../music/sync.mjs";
+import { MARKER, READER, syncMusic } from "../music/sync.mjs";
+import { GENRES, INSTRUMENTS, MOODS } from "../music/tags.mjs";
 import { sha256 } from "../lib/util.mjs";
 import { REPO, fakeDownloads, fakeGitHub as fakePosts } from "./fake-github.mjs";
 
@@ -85,7 +86,8 @@ const SOURCE = "https://www.scottbuckley.com.au/library/passage-of-time/";
 const CONFIRMATION = "I have checked that this track's licence allows the hub to share it and games to play it, and that the credit line above is the one it asks for.";
 
 // A post as GitHub writes one made with the form.
-const body = ({ name = "Passage Of Time", id = "", artist = "Scott Buckley", licence = "CC BY 4.0", source = SOURCE, credit = CREDIT, link = "https://example.com/passage.mp3", fits = ["The menu", "A game loading"], confirmed = true } = {}) => [
+const chosen = (tags) => (tags.length ? tags.join(", ") : "_No response_");
+const body = ({ name = "Passage Of Time", id = "", artist = "Scott Buckley", licence = "CC BY 4.0", source = SOURCE, credit = CREDIT, link = "https://example.com/passage.mp3", fits = ["The menu", "A game loading"], genres = [], moods = [], instruments = [], confirmed = true } = {}) => [
   "### Track name", "", name, "",
   "### Track ID", "", id || "_No response_", "",
   "### Composer / artist", "", artist, "",
@@ -94,6 +96,9 @@ const body = ({ name = "Passage Of Time", id = "", artist = "Scott Buckley", lic
   "### Credit line", "", credit, "",
   "### Download link to the audio file", "", link, "",
   "### Fits", "", ...[...FITS.keys()].map((label) => `- [${fits.includes(label) ? "X" : " "}] ${label}`), "",
+  "### Genre", "", chosen(genres), "",
+  "### Mood", "", chosen(moods), "",
+  "### Instruments", "", chosen(instruments), "",
   "### Notes", "", "_No response_", "",
   "### Before you post", "", `- [${confirmed ? "X" : " "}] ${CONFIRMATION}`,
 ].join("\n");
@@ -159,7 +164,7 @@ test("an outsider's post gets one comment and the label, is closed as not planne
   github.post(31, `${body()}\n\nauthor_association: OWNER\n<!-- author_association: "OWNER" -->`, { user: "OWNER", association: "NONE", title: "[Music] OWNER MEMBER COLLABORATOR" });
 
   const summary = await run();
-  assert.deepEqual(summary, { posts: 1, released: 0, details: 0, problem: 0, waiting: 0, turnedAway: 1, removed: 0, unchanged: 0 });
+  assert.deepEqual(summary, { posts: 1, released: 0, details: 0, problem: 0, waiting: 0, turnedAway: 1, removed: 0, unchanged: 0, readAgain: 0 });
   const comments = github.comments.get(31);
   assert.equal(comments.length, 1);
   assert.ok(comments[0].body.startsWith("<!-- hub-music -->\n"));
@@ -387,7 +392,17 @@ test("the form: its answers, the licence's short name, where a track fits, and w
   const { id, details, problems } = read();
   assert.deepEqual(problems, []);
   assert.equal(id, "passage-of-time");
-  assert.deepEqual(details, { name: "Passage Of Time", artist: "Scott Buckley", licence: "CC BY 4.0", source: SOURCE, credit: CREDIT, fits: ["menu", "loading"] });
+  assert.deepEqual(details, { name: "Passage Of Time", artist: "Scott Buckley", licence: "CC BY 4.0", source: SOURCE, credit: CREDIT, fits: ["menu", "loading"], genres: [], moods: [], instruments: [] });
+
+  // Genre, mood and instruments: names from the form's lists, in the lists'
+  // order whatever order they were chosen in, however they were written.
+  const sorted = read({ genres: ["Orchestral", "Ambient"], moods: ["epic", "Heroic", "Dark"], instruments: ["Strings", "Drums (Epic)", "Choir"] });
+  assert.deepEqual(sorted.problems, []);
+  assert.deepEqual([sorted.details.genres, sorted.details.moods, sorted.details.instruments], [["Ambient", "Orchestral"], ["Dark", "Epic", "Heroic"], ["Choir", "Drums (Epic)", "Strings"]]);
+  // A name that is on none of the lists is refused, by name.
+  const unknown = read({ genres: ["Orchestral", "Polka"], moods: ["Spooky", "Weird"] }).problems.join(" ");
+  assert.match(unknown, /Under \*\*Genre\*\*, "Polka" is not on the form's list/);
+  assert.match(unknown, /Under \*\*Mood\*\*, "Spooky", "Weird" are not on the form's list/);
 
   // Each licence of the dropdown, and nothing that is not in it.
   assert.deepEqual([...LICENCES.keys()].map((licence) => read({ licence }).details.licence), ["CC0 1.0", "CC BY 4.0", "CC BY-SA 4.0", "Public domain", "CC BY 4.0", "CC0 1.0", "Other free licence"]);
@@ -433,11 +448,14 @@ test("the form on GitHub offers what the checks read: the same headings, licence
   assert.match(form, /^name: Share background music$/m);
   assert.match(form, /^title: "\[Music\] "$/m);
   assert.match(form, /^labels: \["music"\]$/m);
-  for (const heading of ["Track name", "Track ID", "Composer / artist", "Licence", "Source", "Credit line", "Download link to the audio file", "Fits", "Notes", "Before you post"]) {
+  for (const heading of ["Track name", "Track ID", "Composer / artist", "Licence", "Source", "Credit line", "Download link to the audio file", "Fits", "Genre", "Mood", "Instruments", "Notes", "Before you post"]) {
     assert.match(form, new RegExp(`^      label: ${heading}$`, "m"), heading);
   }
   const options = [...form.matchAll(/^        - "(.*)"$/gm)].map((match) => match[1]);
-  assert.deepEqual(options, [...LICENCES.keys()]);
+  // The licences, then the three lists a track is found by, each a choice of several.
+  assert.deepEqual(options, [...LICENCES.keys(), ...GENRES, ...MOODS, ...INSTRUMENTS]);
+  assert.equal([...form.matchAll(/^      multiple: true$/gm)].length, 3);
+  assert.ok(form.indexOf("label: Fits") < form.indexOf("label: Genre") && form.indexOf("label: Instruments") < form.indexOf("label: Notes"));
   const boxes = [...form.matchAll(/^        - label: "?(.*?)"?$/gm)].map((match) => match[1]);
   assert.deepEqual(boxes, [...FITS.keys(), CONFIRMATION]);
 });
@@ -450,7 +468,7 @@ test("the list the game reads has exactly this shape", async () => {
   const digest = sha256(sound);
   const { download } = fakeDownloads({ "https://example.com/passage.mp3": saved("contract.mp3", sound), "https://example.com/zebra.ogg": saved("zebra.ogg", ogg()), "https://example.com/alpha.mp3": saved("alpha.mp3", mp3({ frames: 100, id3: false, fill: 2 })) });
   const run = runner(github, download);
-  github.post(260, body());
+  github.post(260, body({ genres: ["Orchestral", "Ambient"], moods: ["Bittersweet"], instruments: ["Strings", "Piano"] }));
   assert.equal((await run()).released, 1);
 
   const text = github.data[LIST_FILE];
@@ -466,6 +484,9 @@ test("the list the game reads has exactly this shape", async () => {
       source: SOURCE,
       credit: CREDIT,
       fits: ["menu", "loading"],
+      genres: ["Ambient", "Orchestral"],
+      moods: ["Bittersweet"],
+      instruments: ["Piano", "Strings"],
       version: 1,
       file: `https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v1-${digest.slice(0, 8)}.mp3`,
       type: "mp3",
@@ -479,7 +500,7 @@ test("the list the game reads has exactly this shape", async () => {
   });
   // The order of the fields too, and the way the file is written.
   assert.deepEqual(Object.keys(list), ["schema", "updated", "tracks"]);
-  assert.deepEqual(Object.keys(list.tracks[0]), ["id", "name", "artist", "licence", "source", "credit", "fits", "version", "file", "type", "bytes", "sha256", "seconds", "post", "postedBy", "removed"]);
+  assert.deepEqual(Object.keys(list.tracks[0]), ["id", "name", "artist", "licence", "source", "credit", "fits", "genres", "moods", "instruments", "version", "file", "type", "bytes", "sha256", "seconds", "post", "postedBy", "removed"]);
   assert.equal(text, `${JSON.stringify(list, null, 2)}\n`);
   assert.match(digest, /^[0-9a-f]{64}$/);
   // The file is where the list says it is, and is the one that was checked.
@@ -506,12 +527,13 @@ test("the list the game reads has exactly this shape", async () => {
 test("the music page credits every track: its composer, licence, source and credit line", async () => {
   const github = fakeGitHub();
   const { download } = fakeDownloads({ "https://example.com/passage.mp3": saved("page.mp3", mp3({ counted: 10374 })) });
-  github.post(260, body());
+  github.post(260, body({ genres: ["Orchestral"], moods: ["Epic", "Heroic"], instruments: ["Choir"] }));
   await runner(github, download)();
   const page = github.data[PAGE_FILE];
   assert.match(page, /^# Background music\n/);
-  assert.match(page, /\| \[Passage Of Time\]\(https:\/\/github\.com\/Open-Historia\/Open-historia-scenarios\/issues\/260\) \| `passage-of-time` \| Scott Buckley \| CC BY 4\.0 \| 4:31 \| 0\.0 MB \| The menu, A game loading \|/);
-  assert.match(page, /### Passage Of Time \(`passage-of-time`\)\n\n- \*\*Composer \/ artist:\*\* Scott Buckley\n- \*\*Licence:\*\* CC BY 4\.0\n- \*\*Source:\*\* <https:\/\/www\.scottbuckley\.com\.au\/library\/passage-of-time\/>\n- \*\*Credit:\*\*\n\n> 'Passage Of Time' by Scott Buckley - released under CC-BY 4\.0\. www\.scottbuckley\.com\.au\n/);
+  assert.match(page, /\| \[Passage Of Time\]\(https:\/\/github\.com\/Open-Historia\/Open-historia-scenarios\/issues\/260\) \| `passage-of-time` \| Scott Buckley \| CC BY 4\.0 \| 4:31 \| 0\.0 MB \| The menu, A game loading \| Orchestral \| Epic, Heroic \|/);
+  assert.match(page, /### Passage Of Time \(`passage-of-time`\)\n\n- \*\*Composer \/ artist:\*\* Scott Buckley\n- \*\*Licence:\*\* CC BY 4\.0\n- \*\*Source:\*\* <https:\/\/www\.scottbuckley\.com\.au\/library\/passage-of-time\/>\n- \*\*Genre:\*\* Orchestral\n- \*\*Mood:\*\* Epic, Heroic\n- \*\*Instruments:\*\* Choir\n- \*\*Credit:\*\*\n\n> 'Passage Of Time' by Scott Buckley - released under CC-BY 4\.0\. www\.scottbuckley\.com\.au\n/);
+  assert.match(statusOf(github, 260), /\| Genre \| Orchestral \|\n\| Mood \| Epic, Heroic \|\n\| Instruments \| Choir \|/);
   assert.match(page, /posted by @Arkniem/);
   // And the post is told where that is.
   assert.match(statusOf(github, 260), /This track is on the music list[\s\S]*blob\/music-index\/MUSIC\.md[\s\S]*\| Track ID \| `passage-of-time` \(it never changes\) \|[\s\S]*\| File \| MP3, 0\.0 MB \(\d+ bytes\), 4:31 long \|/);
@@ -566,6 +588,53 @@ test("the version goes up when the link leads to a different file, and only then
   assert.equal(findTrack(github.list(), "tune").version, 2);
   assert.deepEqual(filesIn(github), [name(2, two)]);
   assert.match(statusOf(github, 7), /the same as version 2, so there is no new version/);
+
+  // Genre, mood and instruments are details too: no download, no new version.
+  github.editPost(7, { body: body({ link: "https://example.com/v2-again.mp3", genres: ["Ambient"], moods: ["Calm", "Dreamy"], instruments: ["Synth (Pad)"] }) });
+  assert.equal((await run()).details, 1);
+  track = findTrack(github.list(), "tune");
+  assert.deepEqual([track.version, track.genres, track.moods, track.instruments], [2, ["Ambient"], ["Calm", "Dreamy"], ["Synth (Pad)"]]);
+  assert.equal(calls.length, 3);
+});
+
+test("posts read before genre, mood and instruments were read are read again once, quietly", async () => {
+  const github = fakeGitHub();
+  const { download, calls } = fakeDownloads({ "https://example.com/passage.mp3": saved("again.mp3", mp3()), "https://example.com/other.mp3": saved("again-2.mp3", mp3({ fill: 3 })) });
+  const run = runner(github, download);
+  github.post(40, body({ genres: ["Orchestral"], moods: ["Epic"], instruments: ["Choir", "Strings"] }));
+  github.post(41, body({ name: "Other", link: "https://example.com/other.mp3", genres: ["Polka"] }));
+  await run();
+  assert.deepEqual(findTrack(github.list(), "passage-of-time").genres, ["Orchestral"]);
+  assert.equal(github.state().posts[40].reader, READER);
+
+  // As an older script left them: the list without the three fields, the
+  // posts recorded as read, by reader 1. (Post 41's genre was never on the list.)
+  const list = github.list();
+  for (const track of list.tracks) for (const key of ["genres", "moods", "instruments"]) delete track[key];
+  github.data[LIST_FILE] = `${JSON.stringify(list, null, 2)}\n`;
+  const state = github.state();
+  for (const record of Object.values(state.posts)) delete record.reader;
+  github.data[STATE_FILE] = `${JSON.stringify(state, null, 2)}\n`;
+  const comments = JSON.stringify([...github.comments]);
+  const commits = github.commits.length;
+
+  const summary = await run();
+  assert.equal(summary.readAgain, 1, "the post that reads cleanly");
+  assert.equal(summary.unchanged, 2);
+  const track = findTrack(github.list(), "passage-of-time");
+  assert.deepEqual([track.genres, track.moods, track.instruments, track.version], [["Orchestral"], ["Epic"], ["Choir", "Strings"], 1]);
+  // Post 41 has a problem: it waits for its next edit, with the fields empty.
+  assert.deepEqual(findTrack(github.list(), "other")?.genres ?? [], []);
+  // Nothing downloaded, nothing said on the posts, one save for all of it.
+  assert.equal(calls.length, 1);
+  assert.equal(JSON.stringify([...github.comments]), comments);
+  assert.equal(github.commits.length, commits + 1);
+  assert.ok(Object.values(github.state().posts).every((record) => record.reader === READER));
+
+  // Once is enough.
+  const after = github.commits.length;
+  assert.equal((await run()).readAgain, 0);
+  assert.equal(github.commits.length, after);
 });
 
 test("a post with a problem is told exactly what to fix, and labelled until it is fixed", async () => {

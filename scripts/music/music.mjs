@@ -4,8 +4,12 @@
 // its shape stays exactly this:
 //
 //   { schema: "open-historia-music-index/1", updated: <ISO time>,
-//     tracks: [{ id, name, artist, licence, source, credit, fits, version,
-//                file, type, bytes, sha256, seconds, post, postedBy, removed }] }
+//     tracks: [{ id, name, artist, licence, source, credit, fits, genres,
+//                moods, instruments, version, file, type, bytes, sha256,
+//                seconds, post, postedBy, removed }] }
+//
+// `genres`, `moods` and `instruments` are names from tags.mjs, what scenario
+// makers find tracks by; a game that does not know them reads past them.
 //
 // A track's ID never changes and is never used again: a track that is taken
 // down stays in the list with `removed: true`, no file, and null for its
@@ -90,9 +94,13 @@ export const idProblem = (list, id, name = "") => {
 };
 
 // One track as the list holds it, its fields always in the same order.
-const trackOf = ({ id, name, artist, licence, source, credit, fits, version, file, type, bytes, sha256, seconds, post, postedBy, removed = false }) => ({
-  id, name, artist, licence, source, credit, fits, version, file, type, bytes, sha256, seconds, post, postedBy, removed,
+const trackOf = ({ id, name, artist, licence, source, credit, fits, genres = [], moods = [], instruments = [], version, file, type, bytes, sha256, seconds, post, postedBy, removed = false }) => ({
+  id, name, artist, licence, source, credit, fits, genres, moods, instruments, version, file, type, bytes, sha256, seconds, post, postedBy, removed,
 });
+
+// A list read back from the branch, its tracks in that same shape: a track
+// listed before a field existed gets it, empty.
+export const shapeTracks = (tracks) => tracks.map((track) => trackOf(track));
 
 // Puts one checked file on the list: a new track, or the next version of one
 // that is there, in its place.
@@ -107,7 +115,7 @@ export const publish = (list, track) => {
 };
 
 // What a post's edit can change without a new file: everything but the file.
-export const DETAILS = ["name", "artist", "licence", "source", "credit", "fits"];
+export const DETAILS = ["name", "artist", "licence", "source", "credit", "fits", "genres", "moods", "instruments"];
 export const updateDetails = (track, details) => {
   for (const key of DETAILS) track[key] = details[key];
 };

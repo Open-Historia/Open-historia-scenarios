@@ -38,7 +38,7 @@ import { pipeline } from "node:stream/promises";
 import { MAX_TRACK_BYTES, inspectAudio, megabytesText } from "./music/audio.mjs";
 import { parseForm } from "./music/form.mjs";
 import { DATA_BRANCH, LABEL, LIST_FILE } from "./music/music.mjs";
-import { LIBRARY_API, planImport } from "./music/importers/scott-buckley.mjs";
+import { LIBRARY_API, LIBRARY_FIELDS, planImport } from "./music/importers/scott-buckley.mjs";
 import { postBodyOf, postTitleOf } from "./music/post-body.mjs";
 
 const REPO = process.env.GITHUB_REPOSITORY || "Open-Historia/Open-historia-scenarios";
@@ -62,7 +62,7 @@ const getJson = async (address) => {
 
 // Every post of the library, a hundred at a time.
 const readLibrary = async () => {
-  const fields = "id,slug,link,title,content";
+  const fields = LIBRARY_FIELDS;
   const first = await getJson(`${LIBRARY_API}?per_page=100&page=1&_fields=${fields}`);
   const posts = [...first.json];
   for (let page = 2; page <= first.pages; page += 1) {
@@ -131,6 +131,9 @@ const alreadyThere = skipped.filter((entry) => entry.skipped === "already on the
 const leftOut = skipped.filter((entry) => entry.skipped !== "already on the hub");
 console.log(`${posts.length} track(s) in the library: ${tracks.length} to post, ${alreadyThere.length} already on the hub, ${leftOut.length} left out.`);
 for (const entry of leftOut) console.log(`  left out: ${entry.name || "(no name)"} — ${entry.skipped} (${entry.source})`);
+// A genre, mood or instrument the hub's lists (scripts/music/tags.mjs) do not
+// know yet is left out of the post: add it to the lists and the form.
+for (const track of tracks) if (track.unknownTags?.length) console.log(`  not on the hub's lists, left out of ${track.id}: ${track.unknownTags.join(", ")}`);
 
 if (!go) {
   for (const track of tracks.slice(0, 12)) console.log(`  would post: ${track.id} — ${track.name}`);

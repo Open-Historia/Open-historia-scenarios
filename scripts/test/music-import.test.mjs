@@ -9,14 +9,15 @@ import assert from "node:assert/strict";
 
 import { checkForm, parseForm } from "../music/form.mjs";
 import { emptyList } from "../music/music.mjs";
-import { creditOf, decodeEntities, idOf, mainMixOf, mp3LinksOf, planImport, readPost } from "../music/importers/scott-buckley.mjs";
+import { LIBRARY_FIELDS, creditOf, decodeEntities, idOf, mainMixOf, mp3LinksOf, planImport, readPost } from "../music/importers/scott-buckley.mjs";
 import { postBodyOf, postTitleOf } from "../music/post-body.mjs";
 
 // A post shaped as the library's posts list gives them (the wording is made up).
 const LICENCE = `<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>; meaning it&#8217;s free for use in any project as long as I&#8217;m credited.</p>`;
-const post = ({ slug, title, links, credit = undefined, licence = LICENCE }) => ({
+const post = ({ slug, title, links, credit = undefined, licence = LICENCE, classes = ["post-6082", "post", "type-post", "status-publish", "format-audio", "hentry", "category-music"] }) => ({
   id: 1,
   slug,
+  class_list: classes,
   link: `https://www.scottbuckley.com.au/library/${slug}/`,
   title: { rendered: title },
   content: {
@@ -37,9 +38,23 @@ test("a post is read for its name, its page, its file and the credit it asks for
     credit: "'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
     original: "https://www.scottbuckley.com.au/library/wp-content/uploads/2026/01/Katabasis_II.mp3",
     fits: [],
+    genres: [],
+    moods: [],
+    instruments: [],
+    unknownTags: [],
   });
   assert.equal(decodeEntities("it&#8217;s &amp; &#x2014; &ndash;"), "it’s & — –");
   assert.equal(idOf("Light_in Dark--Places"), "light-in-dark-places");
+});
+
+test("a post's genre, mood and instruments are the site's own sorting of it, read from its classes", () => {
+  // As the library writes them: "pop-2" is its Pop, "synth-pad" its Synth (Pad).
+  const { track } = readPost(post({ slug: "neon", title: "Neon", links: [["neon.mp3", "MP3"]], classes: ["post-1", "category-music", "post_format-post-format-audio", "genre-pop-2", "genre-electronica-2", "mood-driving", "mood-somber", "instrumentation-synth-pad", "instrumentation-drums-electronic", "instrumentation-mandolin", "instrumentation-orchestral", "album-library-songs-1", "genre-vaporwave"] }));
+  assert.deepEqual([track.genres, track.moods, track.instruments], [["Electronica", "Pop"], ["Driving", "Sombre"], ["Drums (Electronic)", "Mandolin", "Orchestra", "Synth (Pad)"]]);
+  // One the hub's lists do not know is left out, and said.
+  assert.deepEqual(track.unknownTags, ["genre-vaporwave"]);
+  // The tool asks the library for the classes.
+  assert.match(LIBRARY_FIELDS, /(^|,)class_list(,|$)/);
 });
 
 test("of several mixes the full one is taken, wherever it stands", () => {
@@ -87,7 +102,7 @@ test("what is already on the hub is not posted again, and an ID that is taken is
 });
 
 test("the post the tool writes is read by the workflow as a form post with nothing to fix", () => {
-  const { track } = readPost(post({ slug: "katabasis-ii", title: "The Weight of Air &#8211; Katabasis II", links: [["Katabasis_II.mp3", "MP3 (Full Mix)"]] }));
+  const { track } = readPost(post({ slug: "katabasis-ii", title: "The Weight of Air &#8211; Katabasis II", links: [["Katabasis_II.mp3", "MP3 (Full Mix)"]], classes: ["genre-neoclassical", "mood-bittersweet", "mood-playful", "instrumentation-piano", "instrumentation-strings"] }));
   const body = postBodyOf({ ...track, download: "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/katabasis-ii.mp3", fits: ["game", "battle"], notes: "From the composer's library." });
   assert.equal(postTitleOf(track), "[Music] The Weight of Air – Katabasis II");
   const form = parseForm(body);
@@ -101,7 +116,12 @@ test("the post the tool writes is read by the workflow as a form post with nothi
     source: "https://www.scottbuckley.com.au/library/katabasis-ii/",
     credit: track.credit,
     fits: ["game", "battle"],
+    genres: ["Neoclassical"],
+    moods: ["Bittersweet", "Playful"],
+    instruments: ["Piano", "Strings"],
   });
+  // And with none chosen, the form's own "no response".
+  assert.match(postBodyOf({ ...track, genres: [], moods: [], instruments: [], download: "https://example.com/a.mp3" }), /### Genre\n\n_No response_\n\n### Mood\n\n_No response_\n\n### Instruments\n\n_No response_\n\n### Notes/);
   assert.equal(form.download, "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/katabasis-ii.mp3");
   assert.throws(() => postBodyOf({ ...track, licence: "All rights reserved" }), /not a licence a tool may post under/);
 });

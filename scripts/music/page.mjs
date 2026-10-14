@@ -13,6 +13,8 @@ export const lengthText = (seconds) => (Number.isInteger(seconds) ? `${Math.floo
 // "The menu, A game loading": the form's own words for where a track fits.
 const FIT_LABELS = new Map([...FITS].map(([label, fit]) => [fit, label]));
 export const fitsText = (fits) => (fits ?? []).map((fit) => FIT_LABELS.get(fit) ?? fit).join(", ");
+// "Orchestral, Ambient", or "" for none.
+export const tagsText = (tags) => (tags ?? []).join(", ");
 
 export const buildPage = (list, state, { repo }) => {
   const postUrl = (number) => `https://github.com/${repo}/issues/${number}`;
@@ -29,10 +31,10 @@ export const buildPage = (list, state, { repo }) => {
   if (!shown.length) {
     lines.push("_No music yet._", "");
   } else {
-    lines.push("| Track | ID | Composer / artist | Licence | Length | Size | Fits |", "|---|---|---|---|---|---|---|");
+    lines.push("| Track | ID | Composer / artist | Licence | Length | Size | Fits | Genre | Mood |", "|---|---|---|---|---|---|---|---|---|");
     for (const track of shown) {
       const name = track.post ? `[${cell(track.name)}](${postUrl(track.post)})` : cell(track.name);
-      lines.push(`| ${name} | \`${cell(track.id)}\` | ${cell(track.artist)} | ${cell(track.licence)} | ${lengthText(track.seconds)} | ${megabytesText(track.bytes)} MB | ${cell(fitsText(track.fits)) || "—"} |`);
+      lines.push(`| ${name} | \`${cell(track.id)}\` | ${cell(track.artist)} | ${cell(track.licence)} | ${lengthText(track.seconds)} | ${megabytesText(track.bytes)} MB | ${cell(fitsText(track.fits)) || "—"} | ${cell(tagsText(track.genres)) || "—"} | ${cell(tagsText(track.moods)) || "—"} |`);
     }
     lines.push("", "## Credits and licences", "");
     for (const track of shown) {
@@ -42,6 +44,9 @@ export const buildPage = (list, state, { repo }) => {
         `- **Composer / artist:** ${cell(track.artist)}`,
         `- **Licence:** ${cell(track.licence)}`,
         `- **Source:** <${track.source}>`,
+        ...(track.genres?.length ? [`- **Genre:** ${cell(tagsText(track.genres))}`] : []),
+        ...(track.moods?.length ? [`- **Mood:** ${cell(tagsText(track.moods))}`] : []),
+        ...(track.instruments?.length ? [`- **Instruments:** ${cell(tagsText(track.instruments))}`] : []),
         "- **Credit:**",
         "",
         quoted(track.credit),

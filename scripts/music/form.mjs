@@ -5,6 +5,7 @@
 import { linkOf, readAnswers, tickedIn } from "../detailed-maps/form.mjs";
 import { plain, slugify } from "../detailed-maps/maps.mjs";
 import { FITS, LICENCES, idProblem } from "./music.mjs";
+import { GENRES, INSTRUMENTS, MOODS, tagsOf } from "./tags.mjs";
 
 // The form's headings: the answers are read from under them.
 const FIELDS = {
@@ -16,8 +17,18 @@ const FIELDS = {
   credit: "Credit line",
   download: "Download link to the audio file",
   fits: "Fits",
+  genres: "Genre",
+  moods: "Mood",
+  instruments: "Instruments",
   checks: "Before you post",
 };
+
+// The three lists a track can be found by, under the form's headings.
+const TAG_FIELDS = [
+  ["genres", "Genre", GENRES],
+  ["moods", "Mood", MOODS],
+  ["instruments", "Instruments", INSTRUMENTS],
+];
 
 // One line of text as it was written. Not `plain`, which reads Markdown and
 // would take the underscores out of an address: a credit line is shown as it
@@ -31,6 +42,8 @@ export const parseForm = (body) => {
   const ticked = new Set(tickedIn(form.fits));
   form.fits = [...FITS].filter(([label]) => ticked.has(label)).map(([, fit]) => fit);
   form.ticked = tickedIn(form.checks).length;
+  // { tags, unknown } for each: the names chosen, and what named none.
+  for (const [key, , names] of TAG_FIELDS) form[key] = tagsOf(form[key], names);
   return form;
 };
 
@@ -46,7 +59,8 @@ const pageOf = (text) => {
 };
 
 // { id, details, problems }. `details` is what the list says of the track
-// apart from its file: { name, artist, licence, source, credit, fits }.
+// apart from its file: { name, artist, licence, source, credit, fits, genres,
+// moods, instruments }.
 // `ownId` is the ID this post's track already has, which can't change; a new
 // post's ID is the one asked for, or one made from the name.
 export const checkForm = (form, list, { ownId = "" } = {}) => {
@@ -67,6 +81,9 @@ export const checkForm = (form, list, { ownId = "" } = {}) => {
     source: pageOf(form.source),
     credit: line(form.credit).slice(0, 500),
     fits: form.fits,
+    genres: form.genres.tags,
+    moods: form.moods.tags,
+    instruments: form.instruments.tags,
   };
   if (!details.name) problems.push("The track needs a name.");
   if (!details.artist) problems.push("Say who composed or performs the track, under **Composer / artist**.");
@@ -74,6 +91,10 @@ export const checkForm = (form, list, { ownId = "" } = {}) => {
   if (!details.source) problems.push("Under **Source**, give the page where the track and its licence can be seen, as a link starting with https:// (or http://).");
   if (!details.credit) problems.push("Give the credit to show for the track, under **Credit line**: the one its licence asks for.");
   if (!/^https:\/\//i.test(form.download)) problems.push("The download link must start with https://.");
+  for (const [key, heading] of TAG_FIELDS) {
+    const { unknown } = form[key];
+    if (unknown.length) problems.push(`Under **${heading}**, ${unknown.map((word) => `"${word}"`).join(", ")} ${unknown.length === 1 ? "is" : "are"} not on the form's list. Choose from the list (edit the post, and pick from the menu under **${heading}**), or leave it empty.`);
+  }
   if (form.ticked < 1) problems.push("Tick the box under **Before you post**.");
   return { id, details, problems };
 };

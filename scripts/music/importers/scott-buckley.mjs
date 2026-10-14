@@ -6,13 +6,20 @@
 // a post is taken only if it carries that sentence, and its credit line is the
 // one the post gives. A post that does not say it is left out and reported.
 //
+// A post's genre, mood and instruments are the site's own sorting of it, read
+// from the classes WordPress gives the post (tags.mjs).
+//
 // Pure functions over the posts' JSON, so the tests can feed them saved posts.
 // The fetching, the uploads and the posts on the hub are in
 // scripts/import-scott-buckley.mjs.
 
+import { siteTagsOf } from "../tags.mjs";
+
 export const LIBRARY_API = "https://www.scottbuckley.com.au/library/wp-json/wp/v2/posts";
 export const ARTIST = "Scott Buckley";
 export const LICENCE = "CC BY 4.0";
+// What the posts list is asked for.
+export const LIBRARY_FIELDS = "id,slug,link,title,content,class_list";
 // The sentence each post carries. Read without its markup.
 const LICENCE_SENTENCE = /Creative Commons Attribution 4\.0 International/i;
 // Any other Creative Commons licence linked from a post would contradict it.
@@ -51,7 +58,9 @@ export const creditOf = (html) => {
 export const idOf = (slug) => String(slug ?? "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 64);
 
 // One post → { track } or { skipped: why }. `track` is what a music post on
-// the hub needs, with `original` the address of the file on the composer's site.
+// the hub needs, with `original` the address of the file on the composer's
+// site, and `unknownTags` the site's classes for a genre, mood or instrument
+// the hub's lists do not know yet (left out of the post).
 export const readPost = (post) => {
   const html = post?.content?.rendered ?? "";
   const name = decodeEntities(post?.title?.rendered ?? "").replace(/\s+/g, " ").trim();
@@ -64,7 +73,8 @@ export const readPost = (post) => {
   if (!mix) return { skipped: "the post has no MP3 link", name, source };
   // The one post without a credit line of its own gets the form the others use.
   const credit = creditOf(html) || `'${name}' by ${ARTIST} - released under CC-BY 4.0. www.scottbuckley.com.au`;
-  return { track: { id, name: name.slice(0, 80), artist: ARTIST, licence: LICENCE, source, credit, original: mix.address, fits: [] } };
+  const { genres, moods, instruments, unknown } = siteTagsOf(post?.class_list);
+  return { track: { id, name: name.slice(0, 80), artist: ARTIST, licence: LICENCE, source, credit, original: mix.address, fits: [], genres, moods, instruments, unknownTags: unknown } };
 };
 
 // Every post → what to import and what was left out. Tracks already on the

@@ -15,6 +15,9 @@
 //   - a post closed as "not planned" (by its author or a maintainer) has its
 //     track removed for good: its file is deleted, and the list keeps the
 //     track as removed, so its ID is never used again.
+//   - a post last read by an older version of this script (READER) is read
+//     again once, quietly, for what this version reads that the older one did
+//     not: its words only, never its file, and with no comment.
 //
 // The file is downloaded only when the post's link changed, never again on
 // every run. This follows the detailed maps' run (scripts/detailed-maps/sync.mjs)
@@ -40,13 +43,18 @@ import {
   findTrack,
   mayPostMusic,
   publish,
+  shapeTracks,
   sortTracks,
   takeDown,
   updateDetails,
 } from "./music.mjs";
-import { buildPage, fitsText, lengthText } from "./page.mjs";
+import { buildPage, fitsText, lengthText, tagsText } from "./page.mjs";
 
 export const MARKER = "<!-- hub-music -->";
+
+// What this script reads from a post. 1: the first form; 2: genre, mood and
+// instruments too. A post read by an older one is read again once (readAgain).
+export const READER = 2;
 
 const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
 
@@ -55,7 +63,7 @@ const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
 export const openStore = async ({ client, now = () => new Date(), log = console.log }) => {
   const read = (await client.readData(LIST_FILE)) ?? emptyList();
   // Written back with its fields in the list's own order, whatever it was read with.
-  const list = { schema: SCHEMA, updated: String(read.updated ?? ""), tracks: Array.isArray(read.tracks) ? read.tracks : [] };
+  const list = { schema: SCHEMA, updated: String(read.updated ?? ""), tracks: Array.isArray(read.tracks) ? shapeTracks(read.tracks) : [] };
   const state = (await client.readData(STATE_FILE)) ?? { version: 1, posts: {} };
   let tracksSaved = JSON.stringify(list.tracks);
 
@@ -123,7 +131,7 @@ export const openStore = async ({ client, now = () => new Date(), log = console.
 // ---- comments ---------------------------------------------------------------------
 
 const row = (label, value) => `| ${label} | ${value} |`;
-const detailsTable = ({ id, version, name, artist, licence, fits, type, bytes, sha256, seconds }) => [
+const detailsTable = ({ id, version, name, artist, licence, fits, genres, moods, instruments, type, bytes, sha256, seconds }) => [
   "| | |",
   "|---|---|",
   // (An ID is the track's for good only once the track is on the list.)
@@ -135,6 +143,9 @@ const detailsTable = ({ id, version, name, artist, licence, fits, type, bytes, s
   row("SHA-256", sha256 ? `\`${sha256}\`` : "—"),
   row("Licence", licence || "—"),
   row("Fits", fitsText(fits) || "—"),
+  row("Genre", tagsText(genres) || "—"),
+  row("Mood", tagsText(moods) || "—"),
+  row("Instruments", tagsText(instruments) || "—"),
 ].join("\n");
 
 const listedComment = ({ track, repo, note = "" }) => [
@@ -268,6 +279,21 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
   }
 };
 
+// A listed track's post, unchanged since it was last read, read again for what
+// a newer READER reads: its details only, from words that read cleanly and
+// with the link of the file on the list. Anything else waits for the post's
+// next edit, which is read in full. Nothing is said on the post. True when the
+// track's details were read.
+const readAgain = ({ store, issue, record }) => {
+  const track = record.id ? findTrack(store.list, record.id) : null;
+  if (!track || track.removed) return false;
+  const form = parseForm(issue.body);
+  const { details, problems } = checkForm(form, store.list, { ownId: track.id });
+  if (problems.length || record.link !== form.download) return false;
+  updateDetails(track, details);
+  return true;
+};
+
 // ---- a run ------------------------------------------------------------------------
 
 export const syncMusic = async ({
@@ -283,7 +309,9 @@ export const syncMusic = async ({
   const store = await openStore({ client, now, log });
   const { list, state } = store;
   const today = now().toISOString().slice(0, 10);
-  const summary = { posts: 0, released: 0, details: 0, problem: 0, waiting: 0, turnedAway: 0, removed: 0, unchanged: 0 };
+  const summary = { posts: 0, released: 0, details: 0, problem: 0, waiting: 0, turnedAway: 0, removed: 0, unchanged: 0, readAgain: 0 };
+  // Posts read again by a newer READER this run: saved once, at the end.
+  let readersMoved = false;
 
   for (const issue of await client.listPosts()) {
     summary.posts += 1;
@@ -364,6 +392,12 @@ export const syncMusic = async ({
     }
 
     if (record.bodyHash === bodyHash) {
+      if ((record.reader ?? 1) < READER) {
+        if (readAgain({ store, issue, record })) summary.readAgain += 1;
+        record.reader = READER;
+        state.posts[number] = record;
+        readersMoved = true;
+      }
       summary.unchanged += 1;
       continue;
     }
@@ -379,11 +413,15 @@ export const syncMusic = async ({
     }
     summary[outcome] += 1;
     // A post that is waiting is looked at again on the next run.
-    if (outcome !== "waiting") record.bodyHash = bodyHash;
+    if (outcome !== "waiting") {
+      record.bodyHash = bodyHash;
+      record.reader = READER;
+    }
     state.posts[number] = record;
     if (outcome === "problem") await client.addLabel(number, PROBLEM_LABEL).catch(() => {});
     else if (outcome !== "waiting" && (issue.labels ?? []).some((label) => (label?.name ?? label) === PROBLEM_LABEL)) await client.removeLabel(number, PROBLEM_LABEL).catch(() => {});
     await store.save(outcome === "released" ? `Publish ${record.id} version ${findTrack(list, record.id).version} (#${number})` : `Check #${number}`);
   }
+  if (readersMoved) await store.save(`Read the music posts again for their genre, mood and instruments (${summary.readAgain} tracks)`);
   return summary;
 };

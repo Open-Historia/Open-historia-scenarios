@@ -14,11 +14,14 @@ const FORM_LICENCE = { "CC0 1.0": "CC0 1.0 (public domain)", "CC BY 4.0": "CC BY
 
 export const postTitleOf = (track) => `[Music] ${track.name}`;
 
-// track: { id, name, artist, licence (the list's short name), source, credit, download, fits, notes }
+// track: { id, name, artist, licence (the list's short name), source, credit,
+//         download, fits, genres, moods, instruments, notes }
 export const postBodyOf = (track) => {
   const licence = FORM_LICENCE[track.licence];
   if (!licence) throw new Error(`"${track.licence}" is not a licence a tool may post under`);
   const fits = new Set(track.fits ?? []);
+  // As GitHub writes a choice of several from a list.
+  const chosen = (tags) => (tags?.length ? tags.join(", ") : "_No response_");
   return [
     "### Track name", "", track.name, "",
     "### Track ID", "", track.id || "_No response_", "",
@@ -28,6 +31,9 @@ export const postBodyOf = (track) => {
     "### Credit line", "", track.credit, "",
     "### Download link to the audio file", "", track.download, "",
     "### Fits", "", ...[...FITS].map(([label, fit]) => `- [${fits.has(fit) ? "x" : " "}] ${label}`), "",
+    "### Genre", "", chosen(track.genres), "",
+    "### Mood", "", chosen(track.moods), "",
+    "### Instruments", "", chosen(track.instruments), "",
     "### Notes", "", track.notes || "_No response_", "",
     "### Before you post", "", `- [x] ${CONFIRMED}`, "",
   ].join("\n");
