@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:10:49.409Z",
+  "updated": "2026-10-14T02:11:17.517Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -386,13 +386,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/balefire/",
-      "credit": "'Balefire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Balefire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/balefire-v1-1546693f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/balefire-v2-bfaf9681.mp3",
       "type": "mp3",
-      "bytes": 13601666,
-      "sha256": "1546693f6381dc44c2cc90e8934aad32fd325bbc7ee26419ca3f2fb78f0809ad",
+      "bytes": 6296252,
+      "sha256": "bfaf9681c549ef9e02ab329c62d29b09ef2f3737ba66bd4da06058d2204e0fbe",
       "seconds": 340,
       "post": 299,
       "postedBy": "Arkniem",
