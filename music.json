@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:41:20.682Z",
+  "updated": "2026-10-14T04:41:24.179Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2751,9 +2751,20 @@
       "source": "https://www.scottbuckley.com.au/library/high-games/",
       "credit": "'High Games' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Comedic",
+        "Happy",
+        "Playful"
+      ],
+      "instruments": [
+        "Brass",
+        "Strings",
+        "Vibes",
+        "Woodwinds"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/high-games-v1-b5d8cf65.mp3",
       "type": "mp3",
