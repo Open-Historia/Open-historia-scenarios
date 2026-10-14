@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:23:05.384Z",
+  "updated": "2026-10-14T02:23:11.106Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1430,13 +1430,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/growing-up/",
-      "credit": "'Growing Up' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Growing Up' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/growing-up-v1-3e2ae6d6.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/growing-up-v2-0c0120ec.mp3",
       "type": "mp3",
-      "bytes": 4611322,
-      "sha256": "3e2ae6d6eaf813d2a1fcc48c461a9287f4bf23b25af73429425e219a7ea19dd7",
+      "bytes": 1953630,
+      "sha256": "0c0120ecef02317549122c3b94ef9d5ae35115592b1b1a99dadee03b78dc3bb9",
       "seconds": 115,
       "post": 420,
       "postedBy": "Arkniem",
