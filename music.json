@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:41:40.328Z",
+  "updated": "2026-10-14T04:42:08.611Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2870,9 +2870,20 @@
       "source": "https://www.scottbuckley.com.au/library/honour-among-thieves/",
       "credit": "'Honour Among Thieves' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Folk",
+        "Rock"
+      ],
+      "moods": [
+        "Adventurous",
+        "Driving",
+        "Playful"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Guitar (Acoustic)",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/honour-among-thieves-v2-1b65d01c.mp3",
       "type": "mp3",
