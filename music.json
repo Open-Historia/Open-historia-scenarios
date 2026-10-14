@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:53:30.887Z",
+  "updated": "2026-10-14T04:53:34.090Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4742,9 +4742,21 @@
       "source": "https://www.scottbuckley.com.au/library/the-things-that-keep-us-here/",
       "credit": "'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Peaceful",
+        "Reflective",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Synth (Atmospherics)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-things-that-keep-us-here-v2-271719ae.mp3",
       "type": "mp3",

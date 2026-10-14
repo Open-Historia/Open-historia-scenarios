@@ -153,7 +153,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Restoration](https://github.com/Open-Historia/Open-historia-scenarios/issues/397) | `the-restoration` | Scott Buckley | CC BY 4.0 | 3:08 | 2.5 MB | — | Ambient | Peaceful, Reflective, Thoughtful |
 | [Monomyth – The Rise](https://github.com/Open-Historia/Open-historia-scenarios/issues/395) | `the-rise` | Scott Buckley | CC BY 4.0 | 2:50 | 3.0 MB | — | Orchestral | Adventurous, Driving, Epic |
 | [Monomyth – The Spaces Between](https://github.com/Open-Historia/Open-historia-scenarios/issues/391) | `the-spaces-between` | Scott Buckley | CC BY 4.0 | 4:21 | 4.4 MB | — | Ambient, Neoclassical | Bittersweet, Brooding, Mysterious, Reflective |
-| [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 3.9 MB | — | — | — |
+| [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 3.9 MB | — | Ambient | Bittersweet, Emotional, Peaceful, Reflective, Thoughtful |
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 4.1 MB | — | — | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 4.2 MB | — | Ambient, Pop | Peaceful, Relaxed, Romantic, Thoughtful |
 | [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — | — | — |
@@ -2325,6 +2325,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/the-things-that-keep-us-here/>
+- **Genre:** Ambient
+- **Mood:** Bittersweet, Emotional, Peaceful, Reflective, Thoughtful
+- **Instruments:** Piano, Synth (Atmospherics), Synth (Pad)
 - **Credit:**
 
 > 'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
