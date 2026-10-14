@@ -184,7 +184,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 2.8 MB | — |
 | [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — |
-| [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 4.5 MB | — |
+| [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — |
@@ -2237,9 +2237,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/rainbows/>
 - **Credit:**
 
-> 'Rainbows' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Rainbows' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rainbows-v1-6e52ecb4.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rainbows-v2-40a580e0.mp3) (version 2, posted by @Arkniem)
 
 ### Reawakening (`reawakening`)
 

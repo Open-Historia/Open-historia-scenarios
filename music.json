@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:48:23.204Z",
+  "updated": "2026-10-14T02:48:28.062Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3218,13 +3218,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/rainbows/",
-      "credit": "'Rainbows' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Rainbows' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rainbows-v1-6e52ecb4.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rainbows-v2-40a580e0.mp3",
       "type": "mp3",
-      "bytes": 4720970,
-      "sha256": "6e52ecb49e89c584c9714915aa947cd8a473f0524d59bf4e5af6626cdf5a6fab",
+      "bytes": 2112089,
+      "sha256": "40a580e0fe7c5d2c524fc137a37bc5d4a00e8a9384a3cb2cda20fc80762b46a8",
       "seconds": 118,
       "post": 445,
       "postedBy": "Arkniem",
