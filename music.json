@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:35:14.062Z",
+  "updated": "2026-10-14T04:35:16.634Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1441,9 +1441,20 @@
       "source": "https://www.scottbuckley.com.au/library/contagion/",
       "credit": "'Contagion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Rock"
+      ],
+      "moods": [
+        "Brooding",
+        "Intense",
+        "Sinister"
+      ],
+      "instruments": [
+        "Bass",
+        "Drums (Acoustic)",
+        "Guitar (Electric)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/contagion-v1-c2283082.mp3",
       "type": "mp3",

@@ -50,7 +50,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — | Ambient, Electronica | Dreamy, Mysterious, Ominous |
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 3.0 MB | — | Orchestral | Excited, Fun, Happy, Playful |
 | [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — | Orchestral, Pop | Melancholy, Peaceful, Reflective, Sombre, Thoughtful |
-| [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — | — | — |
+| [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — | Rock | Brooding, Intense, Sinister |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — | Neoclassical | Emotional, Melancholy, Uplifting |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 1.4 MB | — | Orchestral | Driving, Epic, Militaristic, Uplifting |
 | [Decoherence](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) | `decoherence` | Scott Buckley | CC BY 4.0 | 10:18 | 9.7 MB | — | — | — |
@@ -894,6 +894,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/contagion/>
+- **Genre:** Rock
+- **Mood:** Brooding, Intense, Sinister
+- **Instruments:** Bass, Drums (Acoustic), Guitar (Electric), Synth (Pad)
 - **Credit:**
 
 > 'Contagion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
