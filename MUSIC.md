@@ -13,7 +13,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Absolution](https://github.com/Open-Historia/Open-historia-scenarios/issues/371) | `absolution` | Scott Buckley | CC BY 4.0 | 5:29 | 5.8 MB | — |
 | [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 15.5 MB | — |
 | [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
-| [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 13.4 MB | — |
+| [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 6.3 MB | — |
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
 | [Ambush](https://github.com/Open-Historia/Open-historia-scenarios/issues/501) | `ambush` | Scott Buckley | CC BY 4.0 | 7:06 | 6.5 MB | — |
@@ -356,9 +356,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/age-of-wonder/>
 - **Credit:**
 
-> 'Age of Wonder' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Age of Wonder' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/age-of-wonder-v1-fc22227a.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/age-of-wonder-v2-886ff84b.mp3) (version 2, posted by @Arkniem)
 
 ### Air (`air`)
 
