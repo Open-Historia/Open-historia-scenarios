@@ -223,7 +223,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Sunday Smooth](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) | `sunday-smooth` | Scott Buckley | CC BY 4.0 | 2:35 | 2.4 MB | — | Jazz | Brooding, Playful |
 | [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 4.8 MB | — | Electronica, Pop | Dark, Driving, Epic |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | Electronica | Driving, Lonely, Mysterious, Reflective, Thoughtful |
-| [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 3.8 MB | — | — | — |
+| [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 3.8 MB | — | Electronica, Orchestral | Bittersweet, Epic, Melancholy, Uplifting |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 4.8 MB | — | Orchestral | Adventurous, Driving, Epic, Heroic |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 3.3 MB | — | Halloween, Orchestral | Comedic, Dark, Playful, Sinister |
 | [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 6.3 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
@@ -3303,6 +3303,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/tears-of-a-distant-sun/>
+- **Genre:** Electronica, Orchestral
+- **Mood:** Bittersweet, Epic, Melancholy, Uplifting
+- **Instruments:** Brass, Cello, Drums (Electronic), Drums (Epic), Orchestra, Percussion, Strings
 - **Credit:**
 
 > 'Tears of a Distant Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
