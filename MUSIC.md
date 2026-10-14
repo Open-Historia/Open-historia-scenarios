@@ -57,7 +57,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — |
 | [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 8.3 MB | — |
-| [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 9.4 MB | — |
+| [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 9.0 MB | — |
@@ -840,9 +840,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/drift/>
 - **Credit:**
 
-> 'Drift' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Drift' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/drift-v1-1baea403.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/drift-v2-947da398.mp3) (version 2, posted by @Arkniem)
 
 ### Echoes (`echoes`)
 
