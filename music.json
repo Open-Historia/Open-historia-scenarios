@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:12:25.424Z",
+  "updated": "2026-10-14T05:12:54.295Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8381,9 +8381,21 @@
       "source": "https://www.scottbuckley.com.au/library/with-these-hands/",
       "credit": "'With These Hands' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Dreamy",
+        "Emotional",
+        "Peaceful",
+        "Reflective",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/with-these-hands-v2-8dd608d3.mp3",
       "type": "mp3",
