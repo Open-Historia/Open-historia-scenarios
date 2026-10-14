@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:00:35.639Z",
+  "updated": "2026-10-14T05:01:01.271Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6017,9 +6017,20 @@
       "source": "https://www.scottbuckley.com.au/library/ride-the-wind/",
       "credit": "'Ride The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Epic",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra",
+        "Synth (Atmospherics)",
+        "Vocals (Female)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ride-the-wind-v2-f165b0e5.mp3",
       "type": "mp3",
