@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:32:59.966Z",
+  "updated": "2026-10-14T04:33:03.407Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -957,9 +957,19 @@
       "source": "https://www.scottbuckley.com.au/library/cassini/",
       "credit": "'Cassini' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Emotional",
+        "Inspirational",
+        "Melancholy",
+        "Thoughtful",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cassini-v2-6ecc7dfe.mp3",
       "type": "mp3",
