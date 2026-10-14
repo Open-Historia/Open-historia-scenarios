@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:41:48.728Z",
+  "updated": "2026-10-14T02:41:54.487Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2657,13 +2657,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-vision/",
-      "credit": "'The Vision' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Vision' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-vision-v1-d977b626.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-vision-v2-9616f260.mp3",
       "type": "mp3",
-      "bytes": 10334200,
-      "sha256": "d977b626880db284b45c50c38e1a48a4bcef0400db6557f80f5685badea86032",
+      "bytes": 4258945,
+      "sha256": "9616f2604c8974f8c16e835f492307767a6a3e3042c4f89ced973651de445c00",
       "seconds": 258,
       "post": 389,
       "postedBy": "Arkniem",
