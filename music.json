@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:52:39.285Z",
+  "updated": "2026-10-14T02:52:44.087Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3614,13 +3614,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/sleep/",
-      "credit": "'Sleep' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Sleep' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sleep-v1-575bd0de.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sleep-v2-530d8831.mp3",
       "type": "mp3",
-      "bytes": 7374013,
-      "sha256": "575bd0de1a5299f65d8a96b64192464d33c2b583d51d8638e488cbe32134d956",
+      "bytes": 3170781,
+      "sha256": "530d8831c9c9156b75013c8257fa96be8a698673042c4bb3317f2b97ef5803e0",
       "seconds": 184,
       "post": 383,
       "postedBy": "Arkniem",
