@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:56:17.452Z",
+  "updated": "2026-10-14T04:56:20.294Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5208,9 +5208,26 @@
       "source": "https://www.scottbuckley.com.au/library/pariah/",
       "credit": "'Pariah' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Rock",
+        "Techno"
+      ],
+      "moods": [
+        "Angry",
+        "Dark",
+        "Driving",
+        "Intense",
+        "Sinister"
+      ],
+      "instruments": [
+        "Bass",
+        "Brass",
+        "Drums (Electronic)",
+        "Guitar (Electric)",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pariah-v1-1e7dd385.mp3",
       "type": "mp3",
