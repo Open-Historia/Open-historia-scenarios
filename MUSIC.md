@@ -183,7 +183,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Primal Carnage](https://github.com/Open-Historia/Open-historia-scenarios/issues/499) | `primal-carnage` | Scott Buckley | CC BY 4.0 | 2:39 | 2.6 MB | — |
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 2.8 MB | — |
 | [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — |
-| [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
+| [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 4.5 MB | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
@@ -2226,9 +2226,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/race-the-sun/>
 - **Credit:**
 
-> 'Race The Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Race The Sun' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/race-the-sun-v1-b970c977.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/race-the-sun-v2-285fc948.mp3) (version 2, posted by @Arkniem)
 
 ### Rainbows (`rainbows`)
 
