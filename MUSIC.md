@@ -62,7 +62,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — | Ambient, Neoclassical | Bittersweet, Emotional, Melancholy, Mysterious, Spiritual |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | Orchestral | Bittersweet, Emotional, Innocent, Peaceful |
 | [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 4.3 MB | — | Ambient, Electronica, Orchestral | Bittersweet, Emotional, Melancholy, Mysterious, Sombre |
-| [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — | — | — |
+| [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — | Orchestral | Dark, Epic, Inspirational, Melancholy |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — | Ambient, Electronica, Neoclassical | Bittersweet, Calm, Peaceful, Uplifting |
 | [Eidolon](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) | `eidolon` | Scott Buckley | CC BY 4.0 | 3:11 | 3.5 MB | — | Neoclassical, Orchestral | Happy, Playful, Reflective, Relaxed, Thoughtful |
 | [Electric Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) | `electric-dreams` | Scott Buckley | CC BY 4.0 | 4:52 | 5.1 MB | — | Electronica, Pop | Driving, Mysterious |
@@ -1062,6 +1062,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/edge-of-remorse/>
+- **Genre:** Orchestral
+- **Mood:** Dark, Epic, Inspirational, Melancholy
+- **Instruments:** Brass, Choir, Flute (Ethnic), Orchestra, Strings
 - **Credit:**
 
 > 'Edge of Remorse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
