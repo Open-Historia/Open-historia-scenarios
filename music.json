@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:49:40.605Z",
+  "updated": "2026-10-14T04:50:05.837Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4329,9 +4329,19 @@
       "source": "https://www.scottbuckley.com.au/library/memories-of-stone/",
       "credit": "'Memories Of Stone' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Peaceful"
+      ],
+      "instruments": [
+        "Cello",
+        "Strings",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/memories-of-stone-v2-bd11a2a2.mp3",
       "type": "mp3",
