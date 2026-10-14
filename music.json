@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:59:49.771Z",
+  "updated": "2026-10-14T04:59:52.361Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5892,9 +5892,21 @@
       "source": "https://www.scottbuckley.com.au/library/reparateur/",
       "credit": "'Reparateur' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Pop"
+      ],
+      "moods": [
+        "Blissful",
+        "Dreamy",
+        "Happy",
+        "Sleepy"
+      ],
+      "instruments": [
+        "Drums (Electronic)",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reparateur-v1-64133439.mp3",
       "type": "mp3",

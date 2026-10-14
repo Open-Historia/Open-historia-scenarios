@@ -188,7 +188,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — | Pop, Rock | Comedic, Cute, Excited, Fun, Happy, Uplifting |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | Neoclassical | Bittersweet, Innocent |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | Electronica, Orchestral | Dark, Driving, Industrial, Intense, Mysterious |
-| [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | — | — |
+| [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | Electronica, Pop | Blissful, Dreamy, Happy, Sleepy |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — | — | — |
 | [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 4.8 MB | — | — | — |
 | [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 4.0 MB | — | — | — |
@@ -2815,6 +2815,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/reparateur/>
+- **Genre:** Electronica, Pop
+- **Mood:** Blissful, Dreamy, Happy, Sleepy
+- **Instruments:** Drums (Electronic), Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Reparateur' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
