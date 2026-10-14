@@ -201,7 +201,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 3.6 MB | — | Orchestral | Adventurous, Emotional, Epic, Heroic |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 6.3 MB | — | — | — |
 | [She Moved Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/403) | `she-moved-mountains` | Scott Buckley | CC BY 4.0 | 5:13 | 4.7 MB | — | — | — |
-| [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 7.6 MB | — | — | — |
+| [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 7.6 MB | — | Neoclassical, Orchestral | Bittersweet, Emotional, Epic |
 | [Signal to Noise](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) | `signal-to-noise` | Scott Buckley | CC BY 4.0 | 5:54 | 6.2 MB | — | — | — |
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 3.4 MB | — | — | — |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — | — | — |
@@ -2989,6 +2989,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/shoulders-of-giants/>
+- **Genre:** Neoclassical, Orchestral
+- **Mood:** Bittersweet, Emotional, Epic
+- **Instruments:** Clarinet, Orchestra, Synth (Atmospherics), Synth (Pad)
 - **Credit:**
 
 > 'Shoulders Of Giants' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
