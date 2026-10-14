@@ -953,8 +953,8 @@
     },
     "444": {
       "id": "tomorrow",
-      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tomorrow.mp3",
-      "bodyHash": "9df059362665f8bbb8ecb41d051791c0388d535697fe932ec0ab0cd176fb6105"
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/tomorrow-small.mp3",
+      "bodyHash": "46e80affe7d211296c52a177a01f690b1b1e849e58eebb5e48c4dd7fdf5af58c"
     },
     "445": {
       "id": "rainbows",
