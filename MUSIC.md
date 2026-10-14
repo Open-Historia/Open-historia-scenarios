@@ -79,7 +79,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Filaments](https://github.com/Open-Historia/Open-historia-scenarios/issues/378) | `filaments` | Scott Buckley | CC BY 4.0 | 5:40 | 5.8 MB | — | Neoclassical | Bittersweet, Emotional, Sombre, Thoughtful |
 | [Firefly](https://github.com/Open-Historia/Open-historia-scenarios/issues/455) | `firefly` | Scott Buckley | CC BY 4.0 | 2:37 | 2.8 MB | — | Pop | Calm, Happy, Relaxed |
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 3.8 MB | — | Ambient, Christmas, Neoclassical | Calm, Peaceful, Uplifting |
-| [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — | — | — |
+| [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — | Ambient, Pop, Rock | Driving, Happy, Inspirational, Uplifting |
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — | Christmas, Orchestral | Christmas, Inspirational, Uplifting |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — | — | — |
@@ -1300,6 +1300,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/forever-sky/>
+- **Genre:** Ambient, Pop, Rock
+- **Mood:** Driving, Happy, Inspirational, Uplifting
+- **Instruments:** Bass, Drums (Acoustic), Guitar (Electric)
 - **Credit:**
 
 > 'Forever Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
