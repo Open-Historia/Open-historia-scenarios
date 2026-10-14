@@ -196,7 +196,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 4.5 MB | — | Orchestral | Bittersweet, Epic, Inspirational, Uplifting |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 6.1 MB | — | Orchestral | Adventurous, Epic |
 | [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 4.2 MB | — | Ambient, Pop | Brooding, Mysterious, Thoughtful |
-| [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — | — | — |
+| [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — | Orchestral | Inspirational, Passionate, Uplifting |
 | [Sarsaparilla](https://github.com/Open-Historia/Open-historia-scenarios/issues/484) | `sarsaparilla` | Scott Buckley | CC BY 4.0 | 4:16 | 5.7 MB | — | — | — |
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 3.6 MB | — | Orchestral | Adventurous, Emotional, Epic, Heroic |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 6.3 MB | — | — | — |
@@ -2925,6 +2925,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/sanctum/>
+- **Genre:** Orchestral
+- **Mood:** Inspirational, Passionate, Uplifting
+- **Instruments:** Flute (Ethnic), Orchestra, Strings, Vocals (Male), Woodwinds
 - **Credit:**
 
 > 'Sanctum' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
