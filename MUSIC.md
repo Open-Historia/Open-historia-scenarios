@@ -161,7 +161,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 7.0 MB | — | Ambient, Electronica, Neoclassical, Orchestral | Bittersweet, Brooding, Calm, Dark, Intense, Melancholy |
 | [New Beginnings](https://github.com/Open-Historia/Open-historia-scenarios/issues/490) | `new-beginnings` | Scott Buckley | CC BY 4.0 | 1:43 | 1.6 MB | — | Orchestral | Happy, Inspirational, Peaceful, Uplifting |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 4.7 MB | — | Electronica, Neoclassical | Brooding, Dark, Driving, Intense |
-| [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 2.7 MB | — | — | — |
+| [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 2.7 MB | — | Christmas, Orchestral | Adventurous, Inspirational, Uplifting |
 | [Oblivion Overture](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) | `oblivion-overture` | Scott Buckley | CC BY 4.0 | 1:56 | 2.7 MB | — | — | — |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 4.2 MB | — | — | — |
 | [One Falls to the Fire](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) | `one-falls-to-the-fire` | Scott Buckley | CC BY 4.0 | 3:50 | 5.3 MB | — | — | — |
@@ -2437,6 +2437,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/o-come-all-ye-faithful/>
+- **Genre:** Christmas, Orchestral
+- **Mood:** Adventurous, Inspirational, Uplifting
+- **Instruments:** Drums (Epic), Orchestra
 - **Credit:**
 
 > 'Oh Come All Ye Faithful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
