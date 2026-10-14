@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:19:05.652Z",
+  "updated": "2026-10-14T02:19:35.935Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1088,13 +1088,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/emergent/",
-      "credit": "'Emergent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Emergent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/emergent-v1-653e6a1e.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/emergent-v2-76b0b363.mp3",
       "type": "mp3",
-      "bytes": 9247535,
-      "sha256": "653e6a1e22ae7a122d7d2db87ddb3183f7bd30fe9a9ff709e93647a8f71c48e5",
+      "bytes": 4153129,
+      "sha256": "76b0b36380ef75b0a3c32bd3c5a7dcd94cfc76b29b6bff1ffb7dc2df196e49e1",
       "seconds": 231,
       "post": 376,
       "postedBy": "Arkniem",
