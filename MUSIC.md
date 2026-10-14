@@ -190,7 +190,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — |
 | [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 4.8 MB | — |
-| [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 8.5 MB | — |
+| [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 4.0 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 4.8 MB | — |
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 4.5 MB | — |
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
@@ -2303,9 +2303,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/reverie/>
 - **Credit:**
 
-> 'Reverie' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Reverie' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reverie-v1-ca1e7194.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reverie-v2-829c0ba3.mp3) (version 2, posted by @Arkniem)
 
 ### Ride The Wind (`ride-the-wind`)
 
