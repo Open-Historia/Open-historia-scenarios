@@ -197,7 +197,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 9.4 MB | — |
 | [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — |
 | [Sarsaparilla](https://github.com/Open-Historia/Open-historia-scenarios/issues/484) | `sarsaparilla` | Scott Buckley | CC BY 4.0 | 4:16 | 5.7 MB | — |
-| [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 7.8 MB | — |
+| [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 3.6 MB | — |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 15.6 MB | — |
 | [She Moved Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/403) | `she-moved-mountains` | Scott Buckley | CC BY 4.0 | 5:13 | 11.9 MB | — |
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 16.9 MB | — |
@@ -2380,9 +2380,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/sentinel/>
 - **Credit:**
 
-> 'Sentinel' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Sentinel' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sentinel-v1-ca19618b.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sentinel-v2-f51ea8b4.mp3) (version 2, posted by @Arkniem)
 
 ### Shadows and Dust (`shadows-and-dust`)
 
