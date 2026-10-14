@@ -34,7 +34,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Borealis](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) | `borealis` | Scott Buckley | CC BY 4.0 | 6:32 | 5.8 MB | — | — | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 3.2 MB | — | Orchestral, Rock | Heroic, Uplifting |
 | [Bring Me The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) | `bring-me-the-sky` | Scott Buckley | CC BY 4.0 | 3:52 | 4.0 MB | — | — | — |
-| [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 4.8 MB | — | — | — |
+| [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 4.8 MB | — | Orchestral | Adventurous, Fun, Heroic |
 | [Cassini](https://github.com/Open-Historia/Open-historia-scenarios/issues/431) | `cassini` | Scott Buckley | CC BY 4.0 | 4:51 | 5.1 MB | — | — | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 4.0 MB | — | — | — |
 | [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 5.1 MB | — | — | — |
@@ -665,6 +665,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/call-to-adventure/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Fun, Heroic
+- **Instruments:** Orchestra
 - **Credit:**
 
 > 'Call To Adventure' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
