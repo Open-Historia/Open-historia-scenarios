@@ -188,7 +188,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — |
-| [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
+| [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — |
 | [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 10.2 MB | — |
 | [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 8.5 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 10.3 MB | — |
@@ -2281,9 +2281,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/resolutions/>
 - **Credit:**
 
-> 'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resolutions-v1-d61702c3.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resolutions-v2-a91222b3.mp3) (version 2, posted by @Arkniem)
 
 ### Resonance (`resonance`)
 

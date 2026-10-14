@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:48:28.062Z",
+  "updated": "2026-10-14T02:48:56.545Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3290,13 +3290,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/resolutions/",
-      "credit": "'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Resolutions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resolutions-v1-d61702c3.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resolutions-v2-a91222b3.mp3",
       "type": "mp3",
-      "bytes": 13119956,
-      "sha256": "d61702c3b378662a3dd07d6207d9ac2cfedd405a4746c273db890afa644c7015",
+      "bytes": 5564150,
+      "sha256": "a91222b3dc36868361469aef5cb1ba0c146de3e81e7d262edb326731b8c3b624",
       "seconds": 328,
       "post": 326,
       "postedBy": "Arkniem",
