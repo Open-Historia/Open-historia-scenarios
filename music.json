@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:02:15.001Z",
+  "updated": "2026-10-14T03:02:21.143Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4622,13 +4622,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/winter-waltz/",
-      "credit": "'Winter Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Winter Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/winter-waltz-v1-d8e91a13.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/winter-waltz-v2-423d8465.mp3",
       "type": "mp3",
-      "bytes": 8003108,
-      "sha256": "d8e91a139e54a800270289b4c2f6b663c3c10cf5e71e082e9c11933187cce88f",
+      "bytes": 3775587,
+      "sha256": "423d8465fc828c28c06d1d1cf702a7f9ef7d479b1c6ac787684a5120797ebc3a",
       "seconds": 200,
       "post": 280,
       "postedBy": "Arkniem",

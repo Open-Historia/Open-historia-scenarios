@@ -262,7 +262,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Where Stars Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) | `where-stars-fall` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [White Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/474) | `white-dawn` | Scott Buckley | CC BY 4.0 | 6:30 | 8.9 MB | — |
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 5.7 MB | — |
-| [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 7.6 MB | — |
+| [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 3.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 11.7 MB | — |
 | [Within Our Nature](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) | `within-our-nature` | Scott Buckley | CC BY 4.0 | 6:39 | 15.2 MB | — |
 | [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 5.1 MB | — |
@@ -3095,9 +3095,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/winter-waltz/>
 - **Credit:**
 
-> 'Winter Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Winter Waltz' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/winter-waltz-v1-d8e91a13.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/winter-waltz-v2-423d8465.mp3) (version 2, posted by @Arkniem)
 
 ### With These Hands (`with-these-hands`)
 
