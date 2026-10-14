@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:14:55.259Z",
+  "updated": "2026-10-14T02:15:25.924Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -710,13 +710,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/clear-skies/",
-      "credit": "'Clear Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Clear Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clear-skies-v1-0b71c446.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clear-skies-v2-16666074.mp3",
       "type": "mp3",
-      "bytes": 7803533,
-      "sha256": "0b71c4460054e26f3a98cfe3477f3f967b8d5e4df0da1440ccc40d2a01eb31ab",
+      "bytes": 3658536,
+      "sha256": "1666607481c1862c132ca8d1b3b8334ea558aa203b9964f3d0105630e7912ccb",
       "seconds": 195,
       "post": 289,
       "postedBy": "Arkniem",

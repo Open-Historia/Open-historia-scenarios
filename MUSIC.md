@@ -45,7 +45,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 7.1 MB | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 7.5 MB | — |
-| [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
+| [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 3.5 MB | — |
 | [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 8.8 MB | — |
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 13.8 MB | — |
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 6.0 MB | — |
@@ -708,9 +708,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/clear-skies/>
 - **Credit:**
 
-> 'Clear Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Clear Skies' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clear-skies-v1-0b71c446.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clear-skies-v2-16666074.mp3) (version 2, posted by @Arkniem)
 
 ### Cobalt (`cobalt`)
 
