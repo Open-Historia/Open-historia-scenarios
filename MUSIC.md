@@ -155,7 +155,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Spaces Between](https://github.com/Open-Historia/Open-historia-scenarios/issues/391) | `the-spaces-between` | Scott Buckley | CC BY 4.0 | 4:21 | 4.4 MB | — | Ambient, Neoclassical | Bittersweet, Brooding, Mysterious, Reflective |
 | [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 3.9 MB | — | — | — |
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 4.1 MB | — | — | — |
-| [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 4.2 MB | — | — | — |
+| [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 4.2 MB | — | Ambient, Pop | Peaceful, Relaxed, Romantic, Thoughtful |
 | [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — | — | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 4.7 MB | — | — | — |
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 7.0 MB | — | — | — |
@@ -2347,6 +2347,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/moonlight/>
+- **Genre:** Ambient, Pop
+- **Mood:** Peaceful, Relaxed, Romantic, Thoughtful
+- **Instruments:** Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Moonlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
