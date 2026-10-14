@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:19:43.550Z",
+  "updated": "2026-10-14T02:19:49.989Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1106,13 +1106,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/ephemera/",
-      "credit": "'Ephemera' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Ephemera' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ephemera-v1-e38cf3ae.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ephemera-v2-5af026e3.mp3",
       "type": "mp3",
-      "bytes": 13537886,
-      "sha256": "e38cf3aea1a9fbcc9237cc21c8fc95cdc0fdcf5fc73fc45807b46775039e77c0",
+      "bytes": 6257032,
+      "sha256": "5af026e326c3766d23f2e7b9dcc5234af2bf1b949a795893eae827c43a082afe",
       "seconds": 338,
       "post": 513,
       "postedBy": "Arkniem",
