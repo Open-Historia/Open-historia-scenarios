@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:34:06.483Z",
+  "updated": "2026-10-14T04:34:09.726Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1215,9 +1215,22 @@
       "source": "https://www.scottbuckley.com.au/library/cirrus/",
       "credit": "'Cirrus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Blissful",
+        "Peaceful"
+      ],
+      "instruments": [
+        "Choir",
+        "Strings",
+        "Synth (Atmospherics)",
+        "Synth (Pad)",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cirrus-v2-c10aa7a2.mp3",
       "type": "mp3",
