@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:38:46.335Z",
+  "updated": "2026-10-14T04:38:48.990Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2172,9 +2172,20 @@
       "source": "https://www.scottbuckley.com.au/library/fading/",
       "credit": "'Fading' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Orchestral"
+      ],
+      "moods": [
+        "Brooding",
+        "Epic",
+        "Mysterious",
+        "Ominous",
+        "Sinister"
+      ],
+      "instruments": [
+        "Strings"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/fading-v1-3098ccaf.mp3",
       "type": "mp3",

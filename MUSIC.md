@@ -72,7 +72,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 4.9 MB | — | Electronica, Orchestral | Adventurous, Driving, Epic, Inspirational |
 | [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 6.5 MB | — | Ambient, Neoclassical, Pop | Bittersweet, Melancholy, Peaceful, Thoughtful, Uplifting |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 4.8 MB | — | Ambient, Halloween, Orchestral | Brooding, Dark, Intense, Sinister |
-| [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — | — | — |
+| [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — | Ambient, Orchestral | Brooding, Epic, Mysterious, Ominous, Sinister |
 | [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 5.3 MB | — | Ambient, Neoclassical | Bittersweet, Sad, Thoughtful |
 | [Fate and Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) | `fate-and-fortune` | Scott Buckley | CC BY 4.0 | 1:23 | 1.5 MB | — | Orchestral | Comedic, Epic, Intense, Sinister |
 | [Felicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/346) | `felicity` | Scott Buckley | CC BY 4.0 | 3:31 | 3.7 MB | — | — | — |
@@ -1202,6 +1202,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/fading/>
+- **Genre:** Ambient, Orchestral
+- **Mood:** Brooding, Epic, Mysterious, Ominous, Sinister
+- **Instruments:** Strings
 - **Credit:**
 
 > 'Fading' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
