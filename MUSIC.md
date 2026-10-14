@@ -142,7 +142,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 5.8 MB | — | Ambient, Neoclassical | Bittersweet, Blissful, Peaceful, Thoughtful |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 6.1 MB | — | Ambient, Neoclassical | Bittersweet, Peaceful |
 | [Midsommar](https://github.com/Open-Historia/Open-historia-scenarios/issues/360) | `midsommar` | Scott Buckley | CC BY 4.0 | 3:54 | 4.1 MB | — | — | — |
-| [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 4.9 MB | — | — | — |
+| [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 4.9 MB | — | Pop | Bittersweet, Peaceful, Thoughtful |
 | [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 4.2 MB | — | — | — |
 | [Monomyth – The Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) | `the-distant-sun` | Scott Buckley | CC BY 4.0 | 3:44 | 3.6 MB | — | — | — |
 | [Monomyth – The Encounter](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) | `the-encounter` | Scott Buckley | CC BY 4.0 | 5:07 | 5.3 MB | — | — | — |
@@ -2168,6 +2168,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/midvinter/>
+- **Genre:** Pop
+- **Mood:** Bittersweet, Peaceful, Thoughtful
+- **Instruments:** Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Midvinter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
