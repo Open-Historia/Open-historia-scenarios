@@ -168,7 +168,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 3.6 MB | — | Electronica, Jazz | Dreamy, Mysterious, Playful, Thoughtful |
 | [Parasite](https://github.com/Open-Historia/Open-historia-scenarios/issues/503) | `parasite` | Scott Buckley | CC BY 4.0 | 4:04 | 5.7 MB | — | Ambient, Electronica, Rock | Bittersweet, Brooding, Dark, Intense, Mysterious, Sombre |
 | [Pariah](https://github.com/Open-Historia/Open-historia-scenarios/issues/504) | `pariah` | Scott Buckley | CC BY 4.0 | 2:35 | 3.4 MB | — | — | — |
-| [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 5.9 MB | — | — | — |
+| [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 5.9 MB | — | Orchestral | Bittersweet, Emotional, Intense, Passionate |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 5.0 MB | The menu, A game loading | — | — |
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 2.8 MB | — | — | — |
 | [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — | — | — |
@@ -2532,6 +2532,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/passage/>
+- **Genre:** Orchestral
+- **Mood:** Bittersweet, Emotional, Intense, Passionate
+- **Instruments:** Percussion, Strings
 - **Credit:**
 
 > 'Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
