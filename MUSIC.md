@@ -53,6 +53,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 1.4 MB | — |
+| [Decoherence](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) | `decoherence` | Scott Buckley | CC BY 4.0 | 10:18 | 9.7 MB | — |
 | [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 2.4 MB | — |
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — |
@@ -790,6 +791,17 @@ Music can be posted only by the hub's contributors, because every track must be 
 > 'Crusader' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
 [The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/crusader-v2-80445711.mp3) (version 2, posted by @Arkniem)
+
+### Decoherence (`decoherence`)
+
+- **Composer / artist:** Scott Buckley
+- **Licence:** CC BY 4.0
+- **Source:** <https://www.scottbuckley.com.au/library/decoherence/>
+- **Credit:**
+
+> 'Decoherence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
+
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/decoherence-v1-94394c8e.mp3) (version 1, posted by @Arkniem)
 
 ### Descent (`descent`)
 
