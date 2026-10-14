@@ -197,7 +197,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 6.1 MB | — | Orchestral | Adventurous, Epic |
 | [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 4.2 MB | — | Ambient, Pop | Brooding, Mysterious, Thoughtful |
 | [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — | Orchestral | Inspirational, Passionate, Uplifting |
-| [Sarsaparilla](https://github.com/Open-Historia/Open-historia-scenarios/issues/484) | `sarsaparilla` | Scott Buckley | CC BY 4.0 | 4:16 | 5.7 MB | — | — | — |
+| [Sarsaparilla](https://github.com/Open-Historia/Open-historia-scenarios/issues/484) | `sarsaparilla` | Scott Buckley | CC BY 4.0 | 4:16 | 5.7 MB | — | Pop, Rock | Driving, Happy, Inspirational, Uplifting |
 | [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 3.6 MB | — | Orchestral | Adventurous, Emotional, Epic, Heroic |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 6.3 MB | — | — | — |
 | [She Moved Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/403) | `she-moved-mountains` | Scott Buckley | CC BY 4.0 | 5:13 | 4.7 MB | — | — | — |
@@ -2939,6 +2939,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/sarsaparilla/>
+- **Genre:** Pop, Rock
+- **Mood:** Driving, Happy, Inspirational, Uplifting
+- **Instruments:** Accordion, Bass, Drums (Acoustic), Guitar (Electric), Percussion, Piano, Synth (Lead), Synth (Pad), Ukulele
 - **Credit:**
 
 > 'Sarsaparilla' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
