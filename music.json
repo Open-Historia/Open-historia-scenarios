@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:34:53.234Z",
+  "updated": "2026-10-14T02:34:59.641Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2567,13 +2567,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-fury/",
-      "credit": "'The Fury' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Fury' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-fury-v1-c0d266b8.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-fury-v2-cd4fe049.mp3",
       "type": "mp3",
-      "bytes": 17037217,
-      "sha256": "c0d266b8af8c2d11f102c79fbdbd3d0156e65b3e0231ebe790ca00eecab1cbe5",
+      "bytes": 8211337,
+      "sha256": "cd4fe049ef0900d39551622d0a9f4ddee527a8f9bfa87337b717a20d499862e5",
       "seconds": 426,
       "post": 396,
       "postedBy": "Arkniem",
