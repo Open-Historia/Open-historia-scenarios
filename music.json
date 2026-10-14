@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:11:17.517Z",
+  "updated": "2026-10-14T02:11:22.778Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -350,13 +350,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/aurora/",
-      "credit": "'Aurora' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Aurora' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aurora-v1-311ae35b.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/aurora-v2-4531b24f.mp3",
       "type": "mp3",
-      "bytes": 19954645,
-      "sha256": "311ae35bf827be51372da47693357f79b8022b704d833cd26d547bbf67c117ed",
+      "bytes": 9115161,
+      "sha256": "4531b24fed455ed825929f042db5385e8c83b103557b749ceb746aea73b686e2",
       "seconds": 499,
       "post": 330,
       "postedBy": "Arkniem",
