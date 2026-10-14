@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:56:56.146Z",
+  "updated": "2026-10-14T02:57:00.753Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4064,13 +4064,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-miracle-of-flight/",
-      "credit": "'The Miracle of Flight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Miracle of Flight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-miracle-of-flight-v1-b5f9b2e1.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-miracle-of-flight-v2-49734a6a.mp3",
       "type": "mp3",
-      "bytes": 8475381,
-      "sha256": "b5f9b2e110ccfb52c7dd0c810d06ac2cbbfefb85262afa8bad56f068959f56e0",
+      "bytes": 3968018,
+      "sha256": "49734a6a14367d399dfa8a19cf68f9c178ec9ca36017cb199ea737d4cf85eef8",
       "seconds": 212,
       "post": 359,
       "postedBy": "Arkniem",

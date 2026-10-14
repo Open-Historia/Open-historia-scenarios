@@ -231,7 +231,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 6.0 MB | — |
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 7.5 MB | — |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 2.9 MB | — |
-| [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 8.1 MB | — |
+| [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 3.8 MB | — |
 | [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
 | [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 1.6 MB | — |
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 7.8 MB | — |
@@ -2754,9 +2754,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-miracle-of-flight/>
 - **Credit:**
 
-> 'The Miracle of Flight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Miracle of Flight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-miracle-of-flight-v1-b5f9b2e1.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-miracle-of-flight-v2-49734a6a.mp3) (version 2, posted by @Arkniem)
 
 ### The Old Ones (`the-old-ones`)
 
