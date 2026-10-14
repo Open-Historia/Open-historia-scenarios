@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:05:21.873Z",
+  "updated": "2026-10-14T05:05:24.251Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6798,9 +6798,21 @@
       "source": "https://www.scottbuckley.com.au/library/special-ops/",
       "credit": "'Special Ops' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Comedic",
+        "Mysterious",
+        "Playful"
+      ],
+      "instruments": [
+        "Brass",
+        "Orchestra",
+        "Strings",
+        "Vibes",
+        "Woodwinds"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/special-ops-v1-232493b6.mp3",
       "type": "mp3",
