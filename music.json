@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:50:22.157Z",
+  "updated": "2026-10-14T02:50:28.430Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3398,13 +3398,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/sanctuary/",
-      "credit": "'Sanctuary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Sanctuary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctuary-v1-1119b63d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctuary-v2-9f968215.mp3",
       "type": "mp3",
-      "bytes": 9844159,
-      "sha256": "1119b63d91012466e5ff8486fa2f9ad036eab9ebaf2ebf7f2af2a23dc5769f3c",
+      "bytes": 4360983,
+      "sha256": "9f968215ad0e2a6c62a1c0b8901d226cc53c48ab72d7781514c31bac488e784b",
       "seconds": 246,
       "post": 338,
       "postedBy": "Arkniem",
