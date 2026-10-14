@@ -59,7 +59,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 4.1 MB | — |
 | [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — |
-| [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
+| [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — |
 | [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 9.0 MB | — |
 | [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
@@ -862,9 +862,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/echoes-of-home/>
 - **Credit:**
 
-> 'Echoes Of Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Echoes Of Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-of-home-v1-b980963a.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/echoes-of-home-v2-cd19ec10.mp3) (version 2, posted by @Arkniem)
 
 ### Eclipse (`eclipse`)
 
