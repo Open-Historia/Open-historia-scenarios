@@ -207,7 +207,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — | Electronica, Orchestral | Driving, Energetic, Epic |
 | [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 1.5 MB | — | — | — |
 | [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 4.1 MB | — | — | — |
-| [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 3.0 MB | — | — | — |
+| [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 3.0 MB | — | Ambient, Neoclassical, Pop | Dreamy, Peaceful, Thoughtful |
 | [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 4.3 MB | — | — | — |
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | — | — |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 6.1 MB | — | — | — |
@@ -3073,6 +3073,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/sleep/>
+- **Genre:** Ambient, Neoclassical, Pop
+- **Mood:** Dreamy, Peaceful, Thoughtful
+- **Instruments:** Piano, Strings
 - **Credit:**
 
 > 'Sleep' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
