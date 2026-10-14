@@ -22,7 +22,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 7.4 MB | — |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 6.6 MB | — |
 | [Ascension](https://github.com/Open-Historia/Open-historia-scenarios/issues/407) | `ascension` | Scott Buckley | CC BY 4.0 | 6:11 | 6.6 MB | — |
-| [Ashes of a Fallen Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) | `ashes-of-a-fallen-year` | Scott Buckley | CC BY 4.0 | 5:37 | 12.1 MB | — |
+| [Ashes of a Fallen Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) | `ashes-of-a-fallen-year` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — |
 | [Ashes of a Fallen Year (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) | `ashes-of-a-fallen-year-2019-remaster` | Scott Buckley | CC BY 4.0 | 5:10 | 5.3 MB | — |
 | [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 5.6 MB | — |
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 19.0 MB | — |
@@ -455,9 +455,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/ashes-of-a-fallen-year/>
 - **Credit:**
 
-> 'Ashes of a Fallen Year (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Ashes of a Fallen Year (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ashes-of-a-fallen-year-v1-4e499ea2.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ashes-of-a-fallen-year-v2-68f8ce39.mp3) (version 2, posted by @Arkniem)
 
 ### Ashes of a Fallen Year (2019 Remaster) (`ashes-of-a-fallen-year-2019-remaster`)
 

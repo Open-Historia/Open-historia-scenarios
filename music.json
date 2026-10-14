@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:10:43.812Z",
+  "updated": "2026-10-14T02:10:49.409Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -296,13 +296,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/ashes-of-a-fallen-year/",
-      "credit": "'Ashes of a Fallen Year (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Ashes of a Fallen Year (Original)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ashes-of-a-fallen-year-v1-4e499ea2.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ashes-of-a-fallen-year-v2-68f8ce39.mp3",
       "type": "mp3",
-      "bytes": 12653387,
-      "sha256": "4e499ea2060f42e7b006a043d6a5984ae3ac1332e79b897e7a0165256d02a7b6",
+      "bytes": 6011066,
+      "sha256": "68f8ce39b395c4fe94c125fec7764a64d069cec0cd10a3090ebaf3c99e2a52be",
       "seconds": 337,
       "post": 458,
       "postedBy": "Arkniem",
