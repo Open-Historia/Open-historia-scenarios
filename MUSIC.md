@@ -51,7 +51,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 3.0 MB | — |
 | [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — |
 | [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — |
-| [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 8.4 MB | — |
+| [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 2.9 MB | — |
 | [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 5.3 MB | — |
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — |
@@ -774,9 +774,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/convergence/>
 - **Credit:**
 
-> 'Convergence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Convergence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/convergence-v1-c7fd63d6.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/convergence-v2-7ee3c391.mp3) (version 2, posted by @Arkniem)
 
 ### Crusader (`crusader`)
 

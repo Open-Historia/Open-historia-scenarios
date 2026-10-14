@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:16:19.552Z",
+  "updated": "2026-10-14T02:16:50.707Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -818,13 +818,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/convergence/",
-      "credit": "'Convergence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Convergence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/convergence-v1-c7fd63d6.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/convergence-v2-7ee3c391.mp3",
       "type": "mp3",
-      "bytes": 8786703,
-      "sha256": "c7fd63d6ad0e8902dbedbb08e7be1770902efb440f8e3896b1beb992ac18c0ae",
+      "bytes": 4127848,
+      "sha256": "7ee3c391a478910c6d1f5a99790d6679326b6625d3ba2d3e970779b60a8f7190",
       "seconds": 220,
       "post": 263,
       "postedBy": "Arkniem",
