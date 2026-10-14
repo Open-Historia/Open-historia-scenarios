@@ -204,7 +204,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 7.6 MB | — | Neoclassical, Orchestral | Bittersweet, Emotional, Epic |
 | [Signal to Noise](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) | `signal-to-noise` | Scott Buckley | CC BY 4.0 | 5:54 | 6.2 MB | — | — | — |
 | [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 3.4 MB | — | — | — |
-| [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — | — | — |
+| [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — | Electronica, Orchestral | Driving, Energetic, Epic |
 | [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 1.5 MB | — | — | — |
 | [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 4.1 MB | — | — | — |
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 3.0 MB | — | — | — |
@@ -3031,6 +3031,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/simulacra/>
+- **Genre:** Electronica, Orchestral
+- **Mood:** Driving, Energetic, Epic
+- **Instruments:** Guitar (Electric), Orchestra, Strings, Synth (Lead)
 - **Credit:**
 
 > 'Simulacra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

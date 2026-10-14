@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:02:37.837Z",
+  "updated": "2026-10-14T05:03:03.030Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6383,9 +6383,21 @@
       "source": "https://www.scottbuckley.com.au/library/simulacra/",
       "credit": "'Simulacra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Orchestral"
+      ],
+      "moods": [
+        "Driving",
+        "Energetic",
+        "Epic"
+      ],
+      "instruments": [
+        "Guitar (Electric)",
+        "Orchestra",
+        "Strings",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/simulacra-v2-fb9b5eff.mp3",
       "type": "mp3",
