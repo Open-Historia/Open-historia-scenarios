@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:41:17.432Z",
+  "updated": "2026-10-14T04:41:20.682Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2720,9 +2720,19 @@
       "source": "https://www.scottbuckley.com.au/library/helsinki/",
       "credit": "'Helsinki' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Pop"
+      ],
+      "moods": [
+        "Happy",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Percussion",
+        "Piano",
+        "Strings",
+        "Vocals (Male)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helsinki-v1-4c5e4df7.mp3",
       "type": "mp3",

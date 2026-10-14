@@ -89,7 +89,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 1.9 MB | — | Ambient, Neoclassical, Pop | Peaceful, Reflective, Relaxed, Thoughtful |
 | [Happiness](https://github.com/Open-Historia/Open-historia-scenarios/issues/447) | `happiness` | Scott Buckley | CC BY 4.0 | 1:47 | 1.9 MB | — | Pop | Bittersweet, Relaxed, Uplifting |
 | [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 6.5 MB | — | Orchestral | Adventurous, Driving, Emotional, Inspirational |
-| [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — | — | — |
+| [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — | Pop | Happy, Uplifting |
 | [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — | — | — |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 6.0 MB | — | Ambient, Neoclassical | Bittersweet, Emotional, Sombre |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — | — | — |
@@ -1440,6 +1440,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/helsinki/>
+- **Genre:** Pop
+- **Mood:** Happy, Uplifting
+- **Instruments:** Percussion, Piano, Strings, Vocals (Male)
 - **Credit:**
 
 > 'Helsinki' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
