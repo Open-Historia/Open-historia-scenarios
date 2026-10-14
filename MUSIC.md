@@ -261,7 +261,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Wanderlust](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) | `wanderlust` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — | Folk, Pop | Happy, Peaceful |
 | [Wayfarer](https://github.com/Open-Historia/Open-historia-scenarios/issues/334) | `wayfarer` | Scott Buckley | CC BY 4.0 | 3:42 | 3.9 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Welcome to my Junkyard](https://github.com/Open-Historia/Open-historia-scenarios/issues/493) | `welcome-to-my-junkyard` | Scott Buckley | CC BY 4.0 | 1:51 | 1.7 MB | — | — | — |
-| [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 6.6 MB | — | — | — |
+| [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 6.6 MB | — | Neoclassical | Bittersweet, Melancholy, Reflective, Sad |
 | [Where Stars Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) | `where-stars-fall` | Scott Buckley | CC BY 4.0 | 4:31 | 4.8 MB | — | — | — |
 | [White Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/474) | `white-dawn` | Scott Buckley | CC BY 4.0 | 6:30 | 8.9 MB | — | — | — |
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 5.7 MB | — | — | — |
@@ -3831,6 +3831,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/what-we-dont-say/>
+- **Genre:** Neoclassical
+- **Mood:** Bittersweet, Melancholy, Reflective, Sad
+- **Instruments:** Choir, Piano, Strings
 - **Credit:**
 
 > 'What We Don't Say' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:11:47.980Z",
+  "updated": "2026-10-14T05:12:14.992Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8231,9 +8231,20 @@
       "source": "https://www.scottbuckley.com.au/library/what-we-dont-say/",
       "credit": "'What We Don't Say' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Melancholy",
+        "Reflective",
+        "Sad"
+      ],
+      "instruments": [
+        "Choir",
+        "Piano",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/what-we-dont-say-v2-cf42078d.mp3",
       "type": "mp3",
