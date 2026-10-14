@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:50:16.035Z",
+  "updated": "2026-10-14T02:50:22.157Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3380,13 +3380,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/rites-of-passage/",
-      "credit": "'Rites of Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Rites of Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rites-of-passage-v1-b7c05f20.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rites-of-passage-v2-8113c374.mp3",
       "type": "mp3",
-      "bytes": 13452261,
-      "sha256": "b7c05f20329781f947ba8fdf1ca00fb2b4c91a3b8da12d527d5dca866d406059",
+      "bytes": 6445101,
+      "sha256": "8113c37480eea4aac00e7db38218a9733da88a53b5b5044500fa0f8e3d52f099",
       "seconds": 336,
       "post": 294,
       "postedBy": "Arkniem",

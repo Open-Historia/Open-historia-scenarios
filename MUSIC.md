@@ -193,7 +193,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 4.0 MB | — |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 4.8 MB | — |
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 4.5 MB | — |
-| [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 12.8 MB | — |
+| [Rites of Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) | `rites-of-passage` | Scott Buckley | CC BY 4.0 | 5:36 | 6.1 MB | — |
 | [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 9.4 MB | — |
 | [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — |
 | [Sarsaparilla](https://github.com/Open-Historia/Open-historia-scenarios/issues/484) | `sarsaparilla` | Scott Buckley | CC BY 4.0 | 4:16 | 5.7 MB | — |
@@ -2336,9 +2336,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/rites-of-passage/>
 - **Credit:**
 
-> 'Rites of Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Rites of Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rites-of-passage-v1-b7c05f20.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/294) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rites-of-passage-v2-8113c374.mp3) (version 2, posted by @Arkniem)
 
 ### Sanctuary (`sanctuary`)
 
