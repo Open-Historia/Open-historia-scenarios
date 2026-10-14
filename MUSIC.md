@@ -31,7 +31,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Beautiful Oblivion](https://github.com/Open-Historia/Open-historia-scenarios/issues/356) | `beautiful-oblivion` | Scott Buckley | CC BY 4.0 | 7:06 | 7.3 MB | — |
 | [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 7.3 MB | — |
 | [Blood](https://github.com/Open-Historia/Open-historia-scenarios/issues/459) | `blood` | Scott Buckley | CC BY 4.0 | 5:48 | 12.6 MB | — |
-| [Borealis](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) | `borealis` | Scott Buckley | CC BY 4.0 | 6:32 | 14.9 MB | — |
+| [Borealis](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) | `borealis` | Scott Buckley | CC BY 4.0 | 6:32 | 5.8 MB | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 3.2 MB | — |
 | [Bring Me The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/332) | `bring-me-the-sky` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 9.9 MB | — |
@@ -554,9 +554,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/borealis/>
 - **Credit:**
 
-> 'Borealis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Borealis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/borealis-v1-1057bd27.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/borealis-v2-b2587aea.mp3) (version 2, posted by @Arkniem)
 
 ### Born Of The Sky (`born-of-the-sky`)
 

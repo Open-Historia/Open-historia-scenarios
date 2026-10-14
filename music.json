@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:12:33.279Z",
+  "updated": "2026-10-14T02:12:38.999Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -458,13 +458,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/borealis/",
-      "credit": "'Borealis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Borealis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/borealis-v1-1057bd27.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/borealis-v2-b2587aea.mp3",
       "type": "mp3",
-      "bytes": 15674696,
-      "sha256": "1057bd271315aaf4267b9c09ef18ac7609a6f701b6d2bff07f40d029adaa85ea",
+      "bytes": 6125386,
+      "sha256": "b2587aea05fb370054436ea789ee47e4bd35d3d20f5b7140f32283079051fbf7",
       "seconds": 392,
       "post": 381,
       "postedBy": "Arkniem",
