@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:55:15.868Z",
+  "updated": "2026-10-14T04:55:48.642Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5170,9 +5170,26 @@
       "source": "https://www.scottbuckley.com.au/library/parasite/",
       "credit": "'Parasite' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Electronica",
+        "Rock"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Brooding",
+        "Dark",
+        "Intense",
+        "Mysterious",
+        "Sombre"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Drums (Electronic)",
+        "Guitar (Electric)",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/parasite-v1-1dc013ac.mp3",
       "type": "mp3",
