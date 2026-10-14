@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:30:02.161Z",
+  "updated": "2026-10-14T02:30:32.675Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2168,16 +2168,16 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/legionnaire-2022/",
-      "credit": "'Legionnaire (2022 Remaster)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Legionnaire (2022 Remaster)' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [
         "atWar",
         "battle"
       ],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-v1-1e18197d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/legionnaire-v2-9715294c.mp3",
       "type": "mp3",
-      "bytes": 7486961,
-      "sha256": "1e18197d21268fe9467f4f31c8c35ebd3b73a97479ebff486e07ca0c2757d44f",
+      "bytes": 3555215,
+      "sha256": "9715294c474d11e2e1e9f3d51af08f2d646ac1d689fbc40060f861af6b0f4db4",
       "seconds": 187,
       "post": 254,
       "postedBy": "Arkniem",
