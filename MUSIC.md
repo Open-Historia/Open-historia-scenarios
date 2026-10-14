@@ -263,7 +263,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Welcome to my Junkyard](https://github.com/Open-Historia/Open-historia-scenarios/issues/493) | `welcome-to-my-junkyard` | Scott Buckley | CC BY 4.0 | 1:51 | 1.7 MB | — | — | — |
 | [What We Don’t Say](https://github.com/Open-Historia/Open-historia-scenarios/issues/333) | `what-we-dont-say` | Scott Buckley | CC BY 4.0 | 6:50 | 6.6 MB | — | Neoclassical | Bittersweet, Melancholy, Reflective, Sad |
 | [Where Stars Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/348) | `where-stars-fall` | Scott Buckley | CC BY 4.0 | 4:31 | 4.8 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
-| [White Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/474) | `white-dawn` | Scott Buckley | CC BY 4.0 | 6:30 | 8.9 MB | — | — | — |
+| [White Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/474) | `white-dawn` | Scott Buckley | CC BY 4.0 | 6:30 | 8.9 MB | — | Electronica, Orchestral | Emotional, Epic, Happy, Inspirational, Uplifting |
 | [Wildflowers](https://github.com/Open-Historia/Open-historia-scenarios/issues/267) | `wildflowers` | Scott Buckley | CC BY 4.0 | 5:22 | 5.7 MB | — | — | — |
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 3.6 MB | — | — | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 5.3 MB | — | — | — |
@@ -3859,6 +3859,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/white-dawn/>
+- **Genre:** Electronica, Orchestral
+- **Mood:** Emotional, Epic, Happy, Inspirational, Uplifting
+- **Instruments:** Brass, Choir, Orchestra, Strings
 - **Credit:**
 
 > 'White Dawn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
