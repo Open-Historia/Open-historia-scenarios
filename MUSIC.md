@@ -190,7 +190,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | Electronica, Orchestral | Dark, Driving, Industrial, Intense, Mysterious |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | Electronica, Pop | Blissful, Dreamy, Happy, Sleepy |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — | Neoclassical, Pop | Bittersweet, Emotional, Uplifting |
-| [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 4.8 MB | — | — | — |
+| [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 4.8 MB | — | Electronica | Dark, Driving, Epic, Ominous |
 | [Reverie](https://github.com/Open-Historia/Open-historia-scenarios/issues/368) | `reverie` | Scott Buckley | CC BY 4.0 | 3:44 | 4.0 MB | — | Ambient, Pop | Calm, Dreamy, Melancholy, Reflective, Relaxed, Thoughtful |
 | [Ride The Wind](https://github.com/Open-Historia/Open-historia-scenarios/issues/278) | `ride-the-wind` | Scott Buckley | CC BY 4.0 | 4:30 | 4.8 MB | — | — | — |
 | [Rise Above](https://github.com/Open-Historia/Open-historia-scenarios/issues/295) | `rise-above` | Scott Buckley | CC BY 4.0 | 4:28 | 4.5 MB | — | — | — |
@@ -2842,6 +2842,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/resonance/>
+- **Genre:** Electronica
+- **Mood:** Dark, Driving, Epic, Ominous
+- **Instruments:** Drums (Electronic), Guitar (Electric), Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Resonance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:00:32.670Z",
+  "updated": "2026-10-14T05:00:35.639Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5953,9 +5953,21 @@
       "source": "https://www.scottbuckley.com.au/library/resonance/",
       "credit": "'Resonance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica"
+      ],
+      "moods": [
+        "Dark",
+        "Driving",
+        "Epic",
+        "Ominous"
+      ],
+      "instruments": [
+        "Drums (Electronic)",
+        "Guitar (Electric)",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/resonance-v2-82fc61fb.mp3",
       "type": "mp3",
