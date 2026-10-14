@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:09:10.093Z",
+  "updated": "2026-10-14T05:09:12.832Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7619,9 +7619,19 @@
       "source": "https://www.scottbuckley.com.au/library/there-is-a-place/",
       "credit": "'There is a Place' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Melancholy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-is-a-place-v2-3c541b34.mp3",
       "type": "mp3",
