@@ -211,7 +211,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 4.3 MB | — | Ambient, Neoclassical, Pop | Bittersweet, Calm, Happy, Reflective, Thoughtful |
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | Orchestral | Adventurous, Christmas, Inspirational, Uplifting |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 6.1 MB | — | Ambient, Neoclassical | Melancholy, Relaxed, Thoughtful |
-| [Soldier of Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/457) | `soldier-of-fortune` | Scott Buckley | CC BY 4.0 | 2:44 | 2.8 MB | — | — | — |
+| [Soldier of Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/457) | `soldier-of-fortune` | Scott Buckley | CC BY 4.0 | 2:44 | 2.8 MB | — | Orchestral | Adventurous, Driving, Epic, Intense |
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 3.9 MB | — | — | — |
 | [Solstice](https://github.com/Open-Historia/Open-historia-scenarios/issues/432) | `solstice` | Scott Buckley | CC BY 4.0 | 3:09 | 3.5 MB | — | — | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 3.6 MB | — | — | — |
@@ -3135,6 +3135,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/soldier-of-fortune/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Driving, Epic, Intense
+- **Instruments:** Brass, Orchestra, Percussion, Strings
 - **Credit:**
 
 > 'Soldier of Fortune' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

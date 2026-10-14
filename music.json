@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:04:13.680Z",
+  "updated": "2026-10-14T05:04:16.782Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6634,9 +6634,21 @@
       "source": "https://www.scottbuckley.com.au/library/soldier-of-fortune/",
       "credit": "'Soldier of Fortune' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Driving",
+        "Epic",
+        "Intense"
+      ],
+      "instruments": [
+        "Brass",
+        "Orchestra",
+        "Percussion",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/soldier-of-fortune-v2-3e4ddaf7.mp3",
       "type": "mp3",
