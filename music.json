@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:09:23.165Z",
+  "updated": "2026-10-14T02:09:29.105Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -170,13 +170,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/amberlight/",
-      "credit": "'Amberlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Amberlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/amberlight-v1-3cce8ecd.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/amberlight-v2-ebe0181a.mp3",
       "type": "mp3",
-      "bytes": 11319612,
-      "sha256": "3cce8ecd622a870c833b3688658b10f8ebab4f621e7953b57f6d69e6e4bcf023",
+      "bytes": 5385963,
+      "sha256": "ebe0181adc2a2469ecf521cea5ea0fd93e01ffacdac075c3c5979c28c62b9e0e",
       "seconds": 283,
       "post": 276,
       "postedBy": "Arkniem",

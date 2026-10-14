@@ -15,7 +15,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — |
 | [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 6.3 MB | — |
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — |
-| [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
+| [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 5.1 MB | — |
 | [Ambush](https://github.com/Open-Historia/Open-historia-scenarios/issues/501) | `ambush` | Scott Buckley | CC BY 4.0 | 7:06 | 6.5 MB | — |
 | [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 2.4 MB | — |
 | [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — |
@@ -378,9 +378,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/amberlight/>
 - **Credit:**
 
-> 'Amberlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Amberlight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/amberlight-v1-3cce8ecd.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/amberlight-v2-ebe0181a.mp3) (version 2, posted by @Arkniem)
 
 ### Ambush (`ambush`)
 
