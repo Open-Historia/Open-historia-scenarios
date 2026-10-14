@@ -147,7 +147,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Encounter](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) | `the-encounter` | Scott Buckley | CC BY 4.0 | 5:07 | 5.3 MB | — |
 | [Monomyth – The Endurance](https://github.com/Open-Historia/Open-historia-scenarios/issues/393) | `the-endurance` | Scott Buckley | CC BY 4.0 | 4:13 | 4.7 MB | — |
 | [Monomyth – The Exodus](https://github.com/Open-Historia/Open-historia-scenarios/issues/390) | `the-exodus` | Scott Buckley | CC BY 4.0 | 3:50 | 3.9 MB | — |
-| [Monomyth – The Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/394) | `the-fall` | Scott Buckley | CC BY 4.0 | 6:23 | 14.6 MB | — |
+| [Monomyth – The Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/394) | `the-fall` | Scott Buckley | CC BY 4.0 | 6:23 | 6.6 MB | — |
 | [Monomyth – The Fury](https://github.com/Open-Historia/Open-historia-scenarios/issues/396) | `the-fury` | Scott Buckley | CC BY 4.0 | 7:06 | 16.2 MB | — |
 | [Monomyth – The Restoration](https://github.com/Open-Historia/Open-historia-scenarios/issues/397) | `the-restoration` | Scott Buckley | CC BY 4.0 | 3:08 | 7.2 MB | — |
 | [Monomyth – The Rise](https://github.com/Open-Historia/Open-historia-scenarios/issues/395) | `the-rise` | Scott Buckley | CC BY 4.0 | 2:50 | 6.5 MB | — |
@@ -1830,9 +1830,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-fall/>
 - **Credit:**
 
-> 'The Fall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Fall' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/394) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-fall-v1-8434fdb8.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/394) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-fall-v2-9d0a0a6a.mp3) (version 2, posted by @Arkniem)
 
 ### Monomyth – The Fury (`the-fury`)
 
