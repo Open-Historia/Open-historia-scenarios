@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:00:05.953Z",
+  "updated": "2026-10-14T03:00:37.195Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4370,13 +4370,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/unraveling/",
-      "credit": "'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/unraveling-v1-82ed1057.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/unraveling-v2-340433d8.mp3",
       "type": "mp3",
-      "bytes": 17764541,
-      "sha256": "82ed105724e6ee31d2007615472cb4e3621000edbff9a4aaf6a64789c32bece5",
+      "bytes": 8160276,
+      "sha256": "340433d8634ad1273993da9493edcb888b77f13857f9a60f740ab52b325b0f8d",
       "seconds": 444,
       "post": 261,
       "postedBy": "Arkniem",
