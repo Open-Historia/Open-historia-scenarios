@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:42:59.908Z",
+  "updated": "2026-10-14T02:43:05.880Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2783,13 +2783,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/o-come-all-ye-faithful/",
-      "credit": "'Oh Come All Ye Faithful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Oh Come All Ye Faithful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/o-come-all-ye-faithful-v1-c03c0d8f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/o-come-all-ye-faithful-v2-8b569e67.mp3",
       "type": "mp3",
-      "bytes": 5827577,
-      "sha256": "c03c0d8fdcb94a8c93b32b072e30364d18cae2f4bfff3555208cb7fcfcc7fe61",
+      "bytes": 2805747,
+      "sha256": "8b569e67c8463f84854f3c04771b2732fd3df5a718a1bf94349061a5d617fa3d",
       "seconds": 146,
       "post": 411,
       "postedBy": "Arkniem",
