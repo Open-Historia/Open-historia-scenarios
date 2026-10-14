@@ -265,7 +265,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Winter Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/280) | `winter-waltz` | Scott Buckley | CC BY 4.0 | 3:20 | 3.6 MB | — |
 | [With These Hands](https://github.com/Open-Historia/Open-historia-scenarios/issues/260) | `with-these-hands` | Scott Buckley | CC BY 4.0 | 5:06 | 5.3 MB | — |
 | [Within Our Nature](https://github.com/Open-Historia/Open-historia-scenarios/issues/302) | `within-our-nature` | Scott Buckley | CC BY 4.0 | 6:39 | 6.9 MB | — |
-| [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 5.1 MB | — |
+| [Wonderful](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) | `wonderful` | Scott Buckley | CC BY 4.0 | 2:14 | 2.2 MB | — |
 | [World of Magic](https://github.com/Open-Historia/Open-historia-scenarios/issues/498) | `world-of-magic` | Scott Buckley | CC BY 4.0 | 1:37 | 1.5 MB | — |
 | [Yellow](https://github.com/Open-Historia/Open-historia-scenarios/issues/489) | `yellow` | Scott Buckley | CC BY 4.0 | 1:23 | 1.9 MB | — |
 | [Your Number’s Up (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/460) | `your-numbers-up-ost` | Scott Buckley | CC BY 4.0 | 6:23 | 13.8 MB | — |
@@ -3128,9 +3128,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/wonderful/>
 - **Credit:**
 
-> 'Wonderful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Wonderful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wonderful-v1-b1ae020d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/446) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wonderful-v2-e4739d50.mp3) (version 2, posted by @Arkniem)
 
 ### World of Magic (`world-of-magic`)
 
