@@ -198,7 +198,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Sanctuary](https://github.com/Open-Historia/Open-historia-scenarios/issues/338) | `sanctuary` | Scott Buckley | CC BY 4.0 | 4:06 | 4.2 MB | — | — | — |
 | [Sanctum](https://github.com/Open-Historia/Open-historia-scenarios/issues/477) | `sanctum` | Scott Buckley | CC BY 4.0 | 4:14 | 5.7 MB | — | — | — |
 | [Sarsaparilla](https://github.com/Open-Historia/Open-historia-scenarios/issues/484) | `sarsaparilla` | Scott Buckley | CC BY 4.0 | 4:16 | 5.7 MB | — | — | — |
-| [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 3.6 MB | — | — | — |
+| [Sentinel](https://github.com/Open-Historia/Open-historia-scenarios/issues/286) | `sentinel` | Scott Buckley | CC BY 4.0 | 3:23 | 3.6 MB | — | Orchestral | Adventurous, Emotional, Epic, Heroic |
 | [Shadows and Dust](https://github.com/Open-Historia/Open-historia-scenarios/issues/293) | `shadows-and-dust` | Scott Buckley | CC BY 4.0 | 6:48 | 6.3 MB | — | — | — |
 | [She Moved Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/403) | `she-moved-mountains` | Scott Buckley | CC BY 4.0 | 5:13 | 4.7 MB | — | — | — |
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 7.6 MB | — | — | — |
@@ -2944,6 +2944,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/sentinel/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Emotional, Epic, Heroic
+- **Instruments:** Drums (Epic), Orchestra, Synth (Atmospherics), Vocals (Female)
 - **Credit:**
 
 > 'Sentinel' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

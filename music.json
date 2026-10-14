@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:01:30.111Z",
+  "updated": "2026-10-14T05:01:58.069Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6171,9 +6171,21 @@
       "source": "https://www.scottbuckley.com.au/library/sentinel/",
       "credit": "'Sentinel' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Emotional",
+        "Epic",
+        "Heroic"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra",
+        "Synth (Atmospherics)",
+        "Vocals (Female)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sentinel-v2-f51ea8b4.mp3",
       "type": "mp3",
