@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:40:23.785Z",
+  "updated": "2026-10-14T04:40:27.553Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2493,9 +2493,22 @@
       "source": "https://www.scottbuckley.com.au/library/genesis/",
       "credit": "'Genesis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Orchestral"
+      ],
+      "moods": [
+        "Calm",
+        "Melancholy",
+        "Reflective",
+        "Sombre",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Strings",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/genesis-v2-ea79cee0.mp3",
       "type": "mp3",

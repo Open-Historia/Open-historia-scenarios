@@ -82,7 +82,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — | Ambient, Pop, Rock | Driving, Happy, Inspirational, Uplifting |
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — | Christmas, Orchestral | Christmas, Inspirational, Uplifting |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
-| [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — | — | — |
+| [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — | Ambient, Orchestral | Calm, Melancholy, Reflective, Sombre, Thoughtful |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — | Folk, Pop | Happy, Relaxed |
 | [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 5.7 MB | — | — | — |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 7.0 MB | — | Orchestral | Adventurous, Driving |
@@ -1342,6 +1342,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/genesis/>
+- **Genre:** Ambient, Orchestral
+- **Mood:** Calm, Melancholy, Reflective, Sombre, Thoughtful
+- **Instruments:** Strings, Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Genesis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
