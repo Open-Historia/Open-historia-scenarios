@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:01:58.069Z",
+  "updated": "2026-10-14T05:02:00.976Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6108,9 +6108,19 @@
       "source": "https://www.scottbuckley.com.au/library/sanctuary/",
       "credit": "'Sanctuary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Pop"
+      ],
+      "moods": [
+        "Brooding",
+        "Mysterious",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Piano"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/sanctuary-v2-9f968215.mp3",
       "type": "mp3",
