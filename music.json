@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:54:02.732Z",
+  "updated": "2026-10-14T04:54:05.723Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4894,9 +4894,24 @@
       "source": "https://www.scottbuckley.com.au/library/never-dying/",
       "credit": "'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Electronica",
+        "Neoclassical",
+        "Orchestral"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Brooding",
+        "Calm",
+        "Dark",
+        "Intense",
+        "Melancholy"
+      ],
+      "instruments": [
+        "Strings",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v2-d1298995.mp3",
       "type": "mp3",
