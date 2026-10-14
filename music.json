@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:13:36.354Z",
+  "updated": "2026-10-14T05:13:39.698Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8520,9 +8520,24 @@
       "source": "https://www.scottbuckley.com.au/library/yellow/",
       "credit": "'Yellow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "moods": [
+        "Blissful",
+        "Excited",
+        "Fun",
+        "Happy"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Guitar (Acoustic)",
+        "Guitar (Electric)",
+        "Piano",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/yellow-v1-c5d3c608.mp3",
       "type": "mp3",
