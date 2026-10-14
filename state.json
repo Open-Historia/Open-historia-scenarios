@@ -322,32 +322,38 @@
     "307": {
       "id": "the-long-dark",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/the-long-dark-small.mp3",
-      "bodyHash": "dd9c51d82739892f13fa86f6051c0013c5069e09c1e73dee943392e024ffafcd"
+      "bodyHash": "dd9c51d82739892f13fa86f6051c0013c5069e09c1e73dee943392e024ffafcd",
+      "reader": 2
     },
     "308": {
       "id": "call-to-adventure",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/call-to-adventure-small.mp3",
-      "bodyHash": "56a4f83e3417092856a5cc2f77fc8d95438083258c18a513720d93c4a155924a"
+      "bodyHash": "56a4f83e3417092856a5cc2f77fc8d95438083258c18a513720d93c4a155924a",
+      "reader": 2
     },
     "309": {
       "id": "legacy",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/legacy-small.mp3",
-      "bodyHash": "764ff00f6ec1e8d3b356bfbc4e65172a4a065e66694da197a45bb719dab2438e"
+      "bodyHash": "764ff00f6ec1e8d3b356bfbc4e65172a4a065e66694da197a45bb719dab2438e",
+      "reader": 2
     },
     "310": {
       "id": "first-snow",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/first-snow-small.mp3",
-      "bodyHash": "8135db5f8af592c2ad6dc4ad2f1d064a7af4bcc98dcf3f566e7700ab90d15a40"
+      "bodyHash": "8135db5f8af592c2ad6dc4ad2f1d064a7af4bcc98dcf3f566e7700ab90d15a40",
+      "reader": 2
     },
     "311": {
       "id": "hymn-to-the-dawn",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/hymn-to-the-dawn-small.mp3",
-      "bodyHash": "23991e4e47f977fb22db1591031c9ca0a04b5a8c7670b137cc995b31fb1e4ec3"
+      "bodyHash": "23991e4e47f977fb22db1591031c9ca0a04b5a8c7670b137cc995b31fb1e4ec3",
+      "reader": 2
     },
     "312": {
       "id": "a-kind-of-hope",
       "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/a-kind-of-hope-small.mp3",
-      "bodyHash": "62955beed38351fb635f347aadc92f0f8f8705e9b9b1442ee8a452fe1ac90d43"
+      "bodyHash": "4b3961405943afc4b437ca0f11c684e7c7aaf2f3a14f3cf47ab635be61359179",
+      "reader": 2
     },
     "313": {
       "id": "hour-of-the-witch",
