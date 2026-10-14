@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:33:32.144Z",
+  "updated": "2026-10-14T04:33:35.773Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1148,9 +1148,20 @@
       "source": "https://www.scottbuckley.com.au/library/chronicle/",
       "credit": "'Chronicle' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Orchestral"
+      ],
+      "moods": [
+        "Emotional",
+        "Mysterious",
+        "Sombre",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Flute (Ethnic)",
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chronicle-v2-920ee0e2.mp3",
       "type": "mp3",

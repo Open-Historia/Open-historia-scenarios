@@ -41,7 +41,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — | Neoclassical, Orchestral | Emotional, Mysterious, Peaceful, Thoughtful |
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 4.8 MB | — | Neoclassical | Adventurous, Bittersweet, Emotional, Thoughtful |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 2.3 MB | — | Pop | Calm, Peaceful, Thoughtful |
-| [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 4.4 MB | — | — | — |
+| [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 4.4 MB | — | Ambient, Orchestral | Emotional, Mysterious, Sombre, Thoughtful |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 7.1 MB | — | — | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 7.8 MB | — | — | — |
 | [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 3.6 MB | — | — | — |
@@ -768,6 +768,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/chronicle/>
+- **Genre:** Ambient, Orchestral
+- **Mood:** Emotional, Mysterious, Sombre, Thoughtful
+- **Instruments:** Flute (Ethnic), Orchestra
 - **Credit:**
 
 > 'Chronicle' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
