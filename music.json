@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:34:59.641Z",
+  "updated": "2026-10-14T02:35:31.099Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2585,13 +2585,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-restoration/",
-      "credit": "'The Restoration' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Restoration' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-restoration-v1-00d343a7.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-restoration-v2-7c30107e.mp3",
       "type": "mp3",
-      "bytes": 7509851,
-      "sha256": "00d343a7ac4b94d41cd7dffdc38bbcf95ce2684047cb312c676e15a55a85a55e",
+      "bytes": 2666702,
+      "sha256": "7c30107e8248eef88c86ba74881494d3083a0050b32205d46f930ebf7b4d2855",
       "seconds": 188,
       "post": 397,
       "postedBy": "Arkniem",
