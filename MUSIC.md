@@ -29,7 +29,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Awakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/467) | `awakening` | Scott Buckley | CC BY 4.0 | 1:38 | 1.7 MB | — | Orchestral | Bittersweet, Calm, Emotional, Lonely, Melancholy |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | Ambient, Folk, Halloween, Orchestral | Brooding, Dark, Sinister |
 | [Beautiful Oblivion](https://github.com/Open-Historia/Open-historia-scenarios/issues/356) | `beautiful-oblivion` | Scott Buckley | CC BY 4.0 | 7:06 | 7.3 MB | — | — | — |
-| [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 7.3 MB | — | — | — |
+| [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 7.3 MB | — | Ambient, Neoclassical | Mysterious, Peaceful, Reflective, Thoughtful |
 | [Blood](https://github.com/Open-Historia/Open-historia-scenarios/issues/459) | `blood` | Scott Buckley | CC BY 4.0 | 5:48 | 6.0 MB | — | — | — |
 | [Borealis](https://github.com/Open-Historia/Open-historia-scenarios/issues/381) | `borealis` | Scott Buckley | CC BY 4.0 | 6:32 | 5.8 MB | — | — | — |
 | [Born Of The Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/270) | `born-of-the-sky` | Scott Buckley | CC BY 4.0 | 3:08 | 3.2 MB | — | — | — |
@@ -598,6 +598,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/beyond-these-walls/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Mysterious, Peaceful, Reflective, Thoughtful
+- **Instruments:** Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Beyond These Walls' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
