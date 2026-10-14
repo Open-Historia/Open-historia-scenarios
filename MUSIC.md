@@ -187,7 +187,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | Orchestral | Adventurous, Driving |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — | — | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | Neoclassical | Bittersweet, Innocent |
-| [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | — | — |
+| [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | Electronica, Orchestral | Dark, Driving, Industrial, Intense, Mysterious |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | — | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — | — | — |
 | [Resonance](https://github.com/Open-Historia/Open-historia-scenarios/issues/421) | `resonance` | Scott Buckley | CC BY 4.0 | 4:26 | 4.8 MB | — | — | — |
@@ -2798,6 +2798,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/red/>
+- **Genre:** Electronica, Orchestral
+- **Mood:** Dark, Driving, Industrial, Intense, Mysterious
+- **Instruments:** Orchestra, Synth (Lead), Synth (Pad), Vocals (Female)
 - **Credit:**
 
 > 'Red' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
