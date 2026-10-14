@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:28:56.251Z",
+  "updated": "2026-10-14T02:29:02.744Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1952,13 +1952,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/into-the-unknown/",
-      "credit": "'Into The Unknown' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Into The Unknown' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-unknown-v1-94ff76f8.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/into-the-unknown-v2-fc38fa59.mp3",
       "type": "mp3",
-      "bytes": 10479526,
-      "sha256": "94ff76f82df2a40556355571cd497e32cf0fe471f324ddd2bc526811b79de6fb",
+      "bytes": 4879879,
+      "sha256": "fc38fa5902c2aaf18d0d9e7095193cb4d543086943472b65d616d9c590340155",
       "seconds": 262,
       "post": 319,
       "postedBy": "Arkniem",
