@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:00:42.662Z",
+  "updated": "2026-10-14T03:00:48.419Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4352,13 +4352,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/undertow/",
-      "credit": "'Undertow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Undertow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/undertow-v1-4652007d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/undertow-v2-f59cbdbb.mp3",
       "type": "mp3",
-      "bytes": 10000906,
-      "sha256": "4652007dad67295f1f5c87c8cbc8e2df1a530e7671266a29f693a084375d3910",
+      "bytes": 4110131,
+      "sha256": "f59cbdbb0076fa420fb1365fea439ed70b2f709264722f3bc6fccd2e8044dd91",
       "seconds": 250,
       "post": 375,
       "postedBy": "Arkniem",

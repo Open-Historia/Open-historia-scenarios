@@ -247,7 +247,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Titan](https://github.com/Open-Historia/Open-historia-scenarios/issues/418) | `titan` | Scott Buckley | CC BY 4.0 | 2:56 | 3.1 MB | — |
 | [Tomorrow](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) | `tomorrow` | Scott Buckley | CC BY 4.0 | 2:33 | 2.8 MB | — |
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 5.2 MB | — |
-| [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 9.5 MB | — |
+| [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 3.9 MB | — |
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 7.8 MB | — |
 | [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 7.8 MB | — |
 | [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — |
@@ -2930,9 +2930,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/undertow/>
 - **Credit:**
 
-> 'Undertow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Undertow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/undertow-v1-4652007d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/undertow-v2-f59cbdbb.mp3) (version 2, posted by @Arkniem)
 
 ### Unraveling (`unraveling`)
 
