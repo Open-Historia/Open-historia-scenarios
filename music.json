@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:07:35.988Z",
+  "updated": "2026-10-14T05:07:39.330Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7320,9 +7320,17 @@
       "source": "https://www.scottbuckley.com.au/library/the-miracle-of-flight/",
       "credit": "'The Miracle of Flight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Inspirational"
+      ],
+      "instruments": [
+        "Orchestra",
+        "Vocals (Female)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-miracle-of-flight-v2-49734a6a.mp3",
       "type": "mp3",
