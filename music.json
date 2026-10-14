@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:26:15.280Z",
+  "updated": "2026-10-14T02:26:43.590Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1772,13 +1772,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/ignis/",
-      "credit": "'Ignis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Ignis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ignis-v1-cbee0a34.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ignis-v2-e6123f08.mp3",
       "type": "mp3",
-      "bytes": 7676027,
-      "sha256": "cbee0a34d35bd77f14f6f01790a6b0bb4891645433fa433d1ba645e420b2a26b",
+      "bytes": 3674114,
+      "sha256": "e6123f084d9b22aa411e84e18213d766b9814407bedc96629cd621c08f12bbab",
       "seconds": 192,
       "post": 291,
       "postedBy": "Arkniem",
