@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:13:01.359Z",
+  "updated": "2026-10-14T05:13:05.037Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8431,9 +8431,19 @@
       "source": "https://www.scottbuckley.com.au/library/within-our-nature/",
       "credit": "'Within Our Nature' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Melancholy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/within-our-nature-v2-9d9f4bb7.mp3",
       "type": "mp3",
