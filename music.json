@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:14:01.437Z",
+  "updated": "2026-10-14T02:14:06.996Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -602,13 +602,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/chasing-daylight/",
-      "credit": "'Chasing Daylight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Chasing Daylight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chasing-daylight-v1-f8581d15.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/chasing-daylight-v2-1347861f.mp3",
       "type": "mp3",
-      "bytes": 10958088,
-      "sha256": "f8581d155e0a05ea2e0a58ca430917587d308157ac5551f441ea8745b875feee",
+      "bytes": 5009373,
+      "sha256": "1347861f8ec81b68b14f8468e04f1f8da5c55437e3f125e0d718548b62ee6195",
       "seconds": 274,
       "post": 347,
       "postedBy": "Arkniem",
