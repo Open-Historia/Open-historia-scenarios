@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:34:02.985Z",
+  "updated": "2026-10-14T04:34:06.483Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1180,9 +1180,23 @@
       "source": "https://www.scottbuckley.com.au/library/cicadas/",
       "credit": "'Cicadas' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Blissful",
+        "Calm",
+        "Dreamy",
+        "Peaceful",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cicadas-v2-15d98d89.mp3",
       "type": "mp3",
