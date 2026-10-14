@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:42:25.599Z",
+  "updated": "2026-10-14T02:42:30.191Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2729,13 +2729,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/never-dying/",
-      "credit": "'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v1-4058afd7.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v2-d1298995.mp3",
       "type": "mp3",
-      "bytes": 16076978,
-      "sha256": "4058afd709b398a4eaa38252dc47397ee00a67eb6a80553795deb211a1c9f4c2",
+      "bytes": 7324696,
+      "sha256": "d1298995caa8171748792a9cda0485fdc6c8d5ae5a0f9c52b7757b9a5e2bc823",
       "seconds": 402,
       "post": 443,
       "postedBy": "Arkniem",

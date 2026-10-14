@@ -157,7 +157,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 4.2 MB | — |
 | [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 4.7 MB | — |
-| [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 15.3 MB | — |
+| [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 7.0 MB | — |
 | [New Beginnings](https://github.com/Open-Historia/Open-historia-scenarios/issues/490) | `new-beginnings` | Scott Buckley | CC BY 4.0 | 1:43 | 1.6 MB | — |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 10.1 MB | — |
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 5.6 MB | — |
@@ -1940,9 +1940,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/never-dying/>
 - **Credit:**
 
-> 'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Never Dying' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v1-4058afd7.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/never-dying-v2-d1298995.mp3) (version 2, posted by @Arkniem)
 
 ### New Beginnings (`new-beginnings`)
 
