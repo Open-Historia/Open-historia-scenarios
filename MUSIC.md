@@ -37,7 +37,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 4.8 MB | — | Orchestral | Adventurous, Fun, Heroic |
 | [Cassini](https://github.com/Open-Historia/Open-historia-scenarios/issues/431) | `cassini` | Scott Buckley | CC BY 4.0 | 4:51 | 5.1 MB | — | — | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 4.0 MB | — | Folk, Pop | Calm, Happy, Peaceful, Relaxed, Thoughtful |
-| [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 5.1 MB | — | — | — |
+| [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 5.1 MB | — | Orchestral | Adventurous, Driving, Inspirational |
 | [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — | Neoclassical, Orchestral | Emotional, Mysterious, Peaceful, Thoughtful |
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 4.8 MB | — | — | — |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 2.3 MB | — | — | — |
@@ -709,6 +709,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/catalyst/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Driving, Inspirational
+- **Instruments:** Drums (Epic), Orchestra, Synth (Atmospherics)
 - **Credit:**
 
 > 'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

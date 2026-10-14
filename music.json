@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:32:57.411Z",
+  "updated": "2026-10-14T04:32:59.966Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1013,9 +1013,19 @@
       "source": "https://www.scottbuckley.com.au/library/catalyst/",
       "credit": "'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Driving",
+        "Inspirational"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/catalyst-v2-2b58ede9.mp3",
       "type": "mp3",
