@@ -92,7 +92,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — | Pop | Happy, Uplifting |
 | [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — | Orchestral | Comedic, Happy, Playful |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 6.0 MB | — | Ambient, Neoclassical | Bittersweet, Emotional, Sombre |
-| [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — | — | — |
+| [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — | Folk, Neoclassical, Pop | Bittersweet, Dreamy, Peaceful |
 | [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — | — | — |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 4.5 MB | — | — | — |
 | [Horizons](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) | `horizons` | Scott Buckley | CC BY 4.0 | 4:53 | 5.1 MB | — | — | — |
@@ -1482,6 +1482,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/home-was-you/>
+- **Genre:** Folk, Neoclassical, Pop
+- **Mood:** Bittersweet, Dreamy, Peaceful
+- **Instruments:** Accordion, Piano, Strings, Synth (Pad)
 - **Credit:**
 
 > 'Home Was You' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
