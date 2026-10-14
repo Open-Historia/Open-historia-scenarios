@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:34:42.169Z",
+  "updated": "2026-10-14T04:34:44.894Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1374,9 +1374,20 @@
       "source": "https://www.scottbuckley.com.au/library/concerning-hobbits/",
       "credit": "'Concerning Hobbits' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Excited",
+        "Fun",
+        "Happy",
+        "Playful"
+      ],
+      "instruments": [
+        "Brass",
+        "Orchestra",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/concerning-hobbits-v2-50e21fd8.mp3",
       "type": "mp3",

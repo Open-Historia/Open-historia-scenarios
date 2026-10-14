@@ -48,7 +48,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 3.5 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | Ambient | Calm, Melancholy, Mysterious, Peaceful, Thoughtful |
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — | Ambient, Electronica | Dreamy, Mysterious, Ominous |
-| [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 3.0 MB | — | — | — |
+| [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 3.0 MB | — | Orchestral | Excited, Fun, Happy, Playful |
 | [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — | — | — |
 | [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — | — | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — | — | — |
@@ -866,6 +866,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/concerning-hobbits/>
+- **Genre:** Orchestral
+- **Mood:** Excited, Fun, Happy, Playful
+- **Instruments:** Brass, Orchestra, Strings
 - **Credit:**
 
 > 'Concerning Hobbits' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
