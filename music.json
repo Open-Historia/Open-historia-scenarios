@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:03:45.088Z",
+  "updated": "2026-10-14T05:04:10.873Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6593,9 +6593,20 @@
       "source": "https://www.scottbuckley.com.au/library/solace/",
       "credit": "'Solace' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Melancholy",
+        "Relaxed",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solace-v2-557d1f0d.mp3",
       "type": "mp3",
