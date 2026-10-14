@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:52:48.417Z",
+  "updated": "2026-10-14T02:53:18.014Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3704,13 +3704,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/solecism/",
-      "credit": "'Solecism' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Solecism' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solecism-v1-7940c698.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solecism-v2-87d05a03.mp3",
       "type": "mp3",
-      "bytes": 9298764,
-      "sha256": "7940c69805ea073c2d5d233cf60ba6d3be4ff2e2a47ced0b048321f2971fcd75",
+      "bytes": 4138756,
+      "sha256": "87d05a038904be20f32b5eb6d6478d1c3950da8b38504d1ef66a570d84d34852",
       "seconds": 232,
       "post": 353,
       "postedBy": "Arkniem",

@@ -211,7 +211,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — |
 | [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
 | [Soldier of Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/457) | `soldier-of-fortune` | Scott Buckley | CC BY 4.0 | 2:44 | 5.9 MB | — |
-| [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 8.9 MB | — |
+| [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 3.9 MB | — |
 | [Solstice](https://github.com/Open-Historia/Open-historia-scenarios/issues/432) | `solstice` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
 | [Song Of The Forge](https://github.com/Open-Historia/Open-historia-scenarios/issues/268) | `song-of-the-forge` | Scott Buckley | CC BY 4.0 | 3:26 | 7.9 MB | — |
 | [Soul Searcher](https://github.com/Open-Historia/Open-historia-scenarios/issues/500) | `soul-searcher` | Scott Buckley | CC BY 4.0 | 5:17 | 4.8 MB | — |
@@ -2534,9 +2534,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/solecism/>
 - **Credit:**
 
-> 'Solecism' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Solecism' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solecism-v1-7940c698.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solecism-v2-87d05a03.mp3) (version 2, posted by @Arkniem)
 
 ### Solstice (`solstice`)
 
