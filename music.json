@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:15:25.924Z",
+  "updated": "2026-10-14T02:15:31.602Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -674,13 +674,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/cirrus/",
-      "credit": "'Cirrus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Cirrus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cirrus-v1-020b1e91.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cirrus-v2-c10aa7a2.mp3",
       "type": "mp3",
-      "bytes": 16739494,
-      "sha256": "020b1e913bfc263cb9ce732fb277fa777afba5e755e7165023a559068171d04b",
+      "bytes": 8169865,
+      "sha256": "c10aa7a20786c8ad335e609d0d35b0f35074a9c775559a34bd01b760dd414fb2",
       "seconds": 418,
       "post": 304,
       "postedBy": "Arkniem",
