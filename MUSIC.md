@@ -14,7 +14,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 6.4 MB | — | Neoclassical | Emotional, Peaceful, Thoughtful |
 | [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — | Neoclassical, Pop | Bittersweet, Peaceful, Thoughtful, Uplifting |
 | [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 6.3 MB | — | Orchestral | Adventurous, Epic, Inspirational |
-| [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — | — | — |
+| [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — | Pop | Driving, Happy, Inspirational, Uplifting |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 5.1 MB | — | Orchestral | Peaceful, Thoughtful, Uplifting |
 | [Ambush](https://github.com/Open-Historia/Open-historia-scenarios/issues/501) | `ambush` | Scott Buckley | CC BY 4.0 | 7:06 | 6.5 MB | — | — | — |
 | [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 1.1 MB | — | Orchestral | Excited, Happy, Playful |
@@ -392,6 +392,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/air/>
+- **Genre:** Pop
+- **Mood:** Driving, Happy, Inspirational, Uplifting
+- **Instruments:** Piano, Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Air' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
