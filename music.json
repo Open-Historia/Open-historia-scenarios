@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:45:20.194Z",
+  "updated": "2026-10-14T04:45:23.292Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3418,9 +3418,19 @@
       "source": "https://www.scottbuckley.com.au/library/incantation/",
       "credit": "'Incantation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Halloween"
+      ],
+      "moods": [
+        "Dark",
+        "Mysterious"
+      ],
+      "instruments": [
+        "Choir",
+        "Synth (Atmospherics)",
+        "Vocals (Male)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incantation-v2-dafa56d0.mp3",
       "type": "mp3",
