@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:32:48.558Z",
+  "updated": "2026-10-14T02:32:54.724Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2387,13 +2387,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/meanwhile/",
-      "credit": "'Meanwhile' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Meanwhile' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/meanwhile-v1-39fd49bf.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/meanwhile-v2-14c7d97e.mp3",
       "type": "mp3",
-      "bytes": 13036146,
-      "sha256": "39fd49bfb138bcee806fb99d8f2c9b7bf89fc72bb7b730125ef20f0c6b2635b7",
+      "bytes": 6036055,
+      "sha256": "14c7d97e5a215236d054867ce75fbffeda828ccd9cf760e60bbeb1c94cc1d4d7",
       "seconds": 326,
       "post": 279,
       "postedBy": "Arkniem",
