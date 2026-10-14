@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:24:55.127Z",
+  "updated": "2026-10-14T02:25:03.031Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1646,13 +1646,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/hymn/",
-      "credit": "'Hymn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Hymn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-v1-65a0b4ee.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-v2-c3a60011.mp3",
       "type": "mp3",
-      "bytes": 4855797,
-      "sha256": "65a0b4ee666c26d72cb6faeaaf2215f9516924a9bdbf01008cd642cbad4ba125",
+      "bytes": 2175114,
+      "sha256": "c3a600112adb12529388f1acafbfbfc33902f2d2dcbedd9c5a0ea855ec1ecd4b",
       "seconds": 121,
       "post": 424,
       "postedBy": "Arkniem",
