@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:08:41.934Z",
+  "updated": "2026-10-14T05:09:06.944Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7569,9 +7569,17 @@
       "source": "https://www.scottbuckley.com.au/library/katabasis-ii/",
       "credit": "'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Playful",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v2-690ba01b.mp3",
       "type": "mp3",
