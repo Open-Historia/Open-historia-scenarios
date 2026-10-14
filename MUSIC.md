@@ -235,7 +235,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 4.6 MB | — |
 | [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 0.7 MB | — |
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 3.6 MB | — |
-| [The Waster (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) | `the-waster-ost` | Scott Buckley | CC BY 4.0 | 3:52 | 8.4 MB | — |
+| [The Waster (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) | `the-waster-ost` | Scott Buckley | CC BY 4.0 | 3:52 | 4.1 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
 | [Theory of Machines](https://github.com/Open-Historia/Open-historia-scenarios/issues/435) | `theory-of-machines` | Scott Buckley | CC BY 4.0 | 3:21 | 7.7 MB | — |
@@ -2798,9 +2798,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-waster-ost/>
 - **Credit:**
 
-> 'The Waster' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Waster' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-waster-ost-v1-38f2aa8f.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-waster-ost-v2-57bd6cd2.mp3) (version 2, posted by @Arkniem)
 
 ### The Weight of Air – Anabasis II (`anabasis-ii`)
 
