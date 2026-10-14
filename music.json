@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:06:32.371Z",
+  "updated": "2026-10-14T02:08:11.748Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -80,13 +80,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/absolution/",
-      "credit": "'Absolution' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Absolution' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/absolution-v1-4ce96177.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/absolution-v2-a1a5e176.mp3",
       "type": "mp3",
-      "bytes": 13158590,
-      "sha256": "4ce9617736bb1342ee697d4eba9286744f850b3b41d427707aee373fcbe75f95",
+      "bytes": 6103284,
+      "sha256": "a1a5e1760659409e984e3bd21940e51a3978915e9dbcd5fe1bfd8e4046654c59",
       "seconds": 329,
       "post": 371,
       "postedBy": "Arkniem",
