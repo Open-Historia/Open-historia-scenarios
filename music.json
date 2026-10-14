@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:08:50.861Z",
+  "updated": "2026-10-14T02:08:55.637Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -116,13 +116,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/affirmations/",
-      "credit": "'Affirmations' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Affirmations' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/affirmations-v1-1e149a84.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/affirmations-v2-d122a0f3.mp3",
       "type": "mp3",
-      "bytes": 12072986,
-      "sha256": "1e149a846f68407cf3a6f4afa16624244be718430f250ff0ada51a0ca2e2621b",
+      "bytes": 5468546,
+      "sha256": "d122a0f362b84b402da64e08f46098789942b2601a7c19fce8643bfc2549d9ad",
       "seconds": 302,
       "post": 339,
       "postedBy": "Arkniem",

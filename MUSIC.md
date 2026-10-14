@@ -12,7 +12,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 4.5 MB | — |
 | [Absolution](https://github.com/Open-Historia/Open-historia-scenarios/issues/371) | `absolution` | Scott Buckley | CC BY 4.0 | 5:29 | 5.8 MB | — |
 | [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 6.4 MB | — |
-| [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
+| [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — |
 | [Age of Wonder](https://github.com/Open-Historia/Open-historia-scenarios/issues/323) | `age-of-wonder` | Scott Buckley | CC BY 4.0 | 5:51 | 6.3 MB | — |
 | [Air](https://github.com/Open-Historia/Open-historia-scenarios/issues/481) | `air` | Scott Buckley | CC BY 4.0 | 2:25 | 3.2 MB | — |
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 10.8 MB | — |
@@ -345,9 +345,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/affirmations/>
 - **Credit:**
 
-> 'Affirmations' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Affirmations' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/affirmations-v1-1e149a84.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/affirmations-v2-d122a0f3.mp3) (version 2, posted by @Arkniem)
 
 ### Age of Wonder (`age-of-wonder`)
 
