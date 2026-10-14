@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:47:04.839Z",
+  "updated": "2026-10-14T04:47:07.569Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3700,9 +3700,23 @@
       "source": "https://www.scottbuckley.com.au/library/jubilee/",
       "credit": "'Jubilee' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Epic",
+        "Inspirational",
+        "Playful",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Brass",
+        "Choir",
+        "Orchestra",
+        "Percussion",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jubilee-v2-60a0db42.mp3",
       "type": "mp3",
