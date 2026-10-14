@@ -18,7 +18,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Amberlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/276) | `amberlight` | Scott Buckley | CC BY 4.0 | 4:43 | 5.1 MB | — | Orchestral | Peaceful, Thoughtful, Uplifting |
 | [Ambush](https://github.com/Open-Historia/Open-historia-scenarios/issues/501) | `ambush` | Scott Buckley | CC BY 4.0 | 7:06 | 6.5 MB | — | Ambient, Electronica, Orchestral, Techno | Dark, Depressed, Driving, Emotional, Epic, Intense, Mysterious |
 | [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 1.1 MB | — | Orchestral | Excited, Happy, Playful |
-| [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — | — | — |
+| [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — | Orchestral, Pop | Calm, Depressed, Intense, Melancholy, Sad |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 7.4 MB | — | Orchestral | Adventurous, Epic |
 | [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 6.6 MB | — | Neoclassical, Orchestral | Adventurous, Brooding, Emotional |
 | [Ascension](https://github.com/Open-Historia/Open-historia-scenarios/issues/407) | `ascension` | Scott Buckley | CC BY 4.0 | 6:11 | 6.6 MB | — | Neoclassical, Orchestral | Bittersweet, Driving, Emotional, Epic, Melancholy |
@@ -448,6 +448,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/annas-theme/>
+- **Genre:** Orchestral, Pop
+- **Mood:** Calm, Depressed, Intense, Melancholy, Sad
+- **Instruments:** Piano, Strings, Woodwinds
 - **Credit:**
 
 > 'Anna's Theme' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
