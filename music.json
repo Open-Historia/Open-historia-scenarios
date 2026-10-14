@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:32:54.724Z",
+  "updated": "2026-10-14T02:33:00.533Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2369,13 +2369,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/march-of-midnight/",
-      "credit": "'March of Midnight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'March of Midnight' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/march-of-midnight-v1-da2f660d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/march-of-midnight-v2-3f329116.mp3",
       "type": "mp3",
-      "bytes": 6593512,
-      "sha256": "da2f660dd7673c0470ac7ea9e7ee4d42d9cad0c39a5322160f32e671b5068315",
+      "bytes": 3037778,
+      "sha256": "3f3291169d50c3e19479d5dc60e86a2dac7059f57bc57324700b58b040644fee",
       "seconds": 165,
       "post": 379,
       "postedBy": "Arkniem",
