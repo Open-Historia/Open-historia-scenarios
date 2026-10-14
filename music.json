@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:58:46.232Z",
+  "updated": "2026-10-14T02:59:13.528Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4262,13 +4262,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/three-sheets-to-the-wind/",
-      "credit": "'Three Sheets To The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Three Sheets To The Wind' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/three-sheets-to-the-wind-v1-bace0727.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/three-sheets-to-the-wind-v2-595fbffb.mp3",
       "type": "mp3",
-      "bytes": 8016677,
-      "sha256": "bace0727baafbd9274a58ce08c2b07b04e53c85265c3993d990f37792cd11401",
+      "bytes": 3749537,
+      "sha256": "595fbffb436d015ea4d67a94e09893a26027d8948facbefec83846f30dae4b45",
       "seconds": 200,
       "post": 305,
       "postedBy": "Arkniem",
