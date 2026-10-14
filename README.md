@@ -18,20 +18,17 @@ tabs show what's posted here for everyone:
 
 **🎵 [Every music track, with its credit and licence](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md)**
 
-## Every scenario here is public domain
+## Every scenario here is released under CC BY 4.0
 
-**Every scenario made in Open Historia that is posted here, or shared anywhere else, is public domain.**
+**Every scenario made in Open Historia that is posted here, or shared anywhere else, is released
+under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+licence (CC BY 4.0).** [`LICENSE-SCENARIOS.txt`](LICENSE-SCENARIOS.txt) says the same.
 
-- By posting a scenario you give up all copyright and related rights in it, everywhere in the world,
-  under the [Creative Commons CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)
-  (the full text is in [`LICENSE-SCENARIOS.txt`](LICENSE-SCENARIOS.txt)).
-- Anyone may copy, change, publish and use it, for any purpose, without asking and without giving
-  credit. That includes putting it in another scenario, selling it, and using it outside the game.
 - The same goes for **changes you suggest** to somebody's scenario in a comment.
-- **Only post what you made yourself, or what is already free to give away like this.** A picture,
-  a map or a text you found somewhere is usually not yours to give: leave it out.
+- **Only post what you made yourself, or what you may share under this licence.** A picture, a map
+  or a text you found somewhere is usually not yours to license: leave it out.
 - This cannot be taken back. Closing or deleting a post stops the hub from offering the file; it
-  does not undo the dedication for copies people already have.
+  does not undo the licence for copies people already have.
 
 What it does not cover:
 
@@ -39,14 +36,15 @@ What it does not cover:
   own post ([the list](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md)).
 - **Music** a scenario names. Each track is its own post, made by the hub's contributors only, with
   its credit and licence written on it ([the list](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md)).
-- Anything in a file that was never its poster's to give. If your work was posted here without your
-  permission, open an issue or write to the address in the game's privacy policy and it is taken down.
+- Anything in a file that was never its poster's to license. If your work was posted here without
+  your permission, open an issue or write to the address in the game's privacy policy and it is taken down.
 - The game itself, which is under the AGPL, and the code in this repository.
 
 The game says the same on the screens a scenario leaves it from, the post form asks you to confirm
-it, and every exported file carries it (`PUBLIC-DOMAIN.txt` in a `.zip`, a `license` record in the
+it, and every exported file carries it (`LICENSE.txt` in a `.zip`, a `license` record in the
 scenario's JSON). It has applied to every new post, and every new version of a post, since
-13 October 2026.
+14 October 2026. On 13 and 14 October 2026 this page said scenarios were public domain (CC0 1.0):
+a scenario posted in that time, under that wording, was given under CC0 1.0.
 
 ## Post a scenario
 
