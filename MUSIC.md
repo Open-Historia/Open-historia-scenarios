@@ -226,7 +226,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 3.8 MB | — | — | — |
 | [Terminus](https://github.com/Open-Historia/Open-historia-scenarios/issues/342) | `terminus` | Scott Buckley | CC BY 4.0 | 4:23 | 4.8 MB | — | Orchestral | Adventurous, Driving, Epic, Heroic |
 | [The Black Waltz](https://github.com/Open-Historia/Open-historia-scenarios/issues/414) | `the-black-waltz` | Scott Buckley | CC BY 4.0 | 2:57 | 3.3 MB | — | — | — |
-| [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 6.3 MB | — | — | — |
+| [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 6.3 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 5.0 MB | — | — | — |
 | [The Illusionist](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) | `the-illusionist` | Scott Buckley | CC BY 4.0 | 3:35 | 3.7 MB | — | — | — |
 | [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 6.0 MB | — | — | — |
@@ -3339,6 +3339,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/the-climb/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Inspirational, Uplifting
+- **Instruments:** Orchestra, Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'The Climb' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
