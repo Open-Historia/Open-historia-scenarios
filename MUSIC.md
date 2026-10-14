@@ -79,7 +79,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Firefly](https://github.com/Open-Historia/Open-historia-scenarios/issues/455) | `firefly` | Scott Buckley | CC BY 4.0 | 2:37 | 5.6 MB | — |
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 3.8 MB | — |
 | [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — |
-| [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 7.3 MB | — |
+| [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 7.0 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
@@ -1082,9 +1082,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/frankincense-and-myrrh/>
 - **Credit:**
 
-> 'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/frankincense-and-myrrh-v1-378c3617.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/frankincense-and-myrrh-v2-028053eb.mp3) (version 2, posted by @Arkniem)
 
 ### Freedom (`freedom`)
 

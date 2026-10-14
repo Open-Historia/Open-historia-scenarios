@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:22:01.395Z",
+  "updated": "2026-10-14T02:22:07.916Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1322,13 +1322,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/frankincense-and-myrrh/",
-      "credit": "'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Frankincense and Myrrh' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/frankincense-and-myrrh-v1-378c3617.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/frankincense-and-myrrh-v2-028053eb.mp3",
       "type": "mp3",
-      "bytes": 7691749,
-      "sha256": "378c3617660c4ca5e904274003a3c10ffd85cd28b604054c4e459244997f9da3",
+      "bytes": 3596028,
+      "sha256": "028053eb0283c4e22c800da68343ceb418c405c9862f36f3ed7a12e1f37eff87",
       "seconds": 192,
       "post": 328,
       "postedBy": "Arkniem",
