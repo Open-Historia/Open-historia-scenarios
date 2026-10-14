@@ -228,7 +228,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Climb](https://github.com/Open-Historia/Open-historia-scenarios/issues/349) | `the-climb` | Scott Buckley | CC BY 4.0 | 5:47 | 6.3 MB | — |
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 5.0 MB | — |
 | [The Illusionist](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) | `the-illusionist` | Scott Buckley | CC BY 4.0 | 3:35 | 3.7 MB | — |
-| [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 12.9 MB | — |
+| [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 6.0 MB | — |
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 16.8 MB | — |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 6.6 MB | — |
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 8.1 MB | — |
@@ -2721,9 +2721,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-legend-of-kvothe/>
 - **Credit:**
 
-> 'The Legend of Kvothe' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Legend of Kvothe' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-legend-of-kvothe-v1-d614af44.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-legend-of-kvothe-v2-1024f109.mp3) (version 2, posted by @Arkniem)
 
 ### The Long Dark (`the-long-dark`)
 
