@@ -38,7 +38,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Cassini](https://github.com/Open-Historia/Open-historia-scenarios/issues/431) | `cassini` | Scott Buckley | CC BY 4.0 | 4:51 | 5.1 MB | — | — | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 4.0 MB | — | Folk, Pop | Calm, Happy, Peaceful, Relaxed, Thoughtful |
 | [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 5.1 MB | — | — | — |
-| [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — | — | — |
+| [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — | Neoclassical, Orchestral | Emotional, Mysterious, Peaceful, Thoughtful |
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 4.8 MB | — | — | — |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 2.3 MB | — | — | — |
 | [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 4.4 MB | — | — | — |
@@ -720,6 +720,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/celestial/>
+- **Genre:** Neoclassical, Orchestral
+- **Mood:** Emotional, Mysterious, Peaceful, Thoughtful
+- **Instruments:** Orchestra, Synth (Atmospherics)
 - **Credit:**
 
 > 'Celestial' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
