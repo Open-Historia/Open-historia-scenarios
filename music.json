@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:58:14.549Z",
+  "updated": "2026-10-14T02:58:19.935Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4190,13 +4190,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/theory-of-machines/",
-      "credit": "'Theory of Machines' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Theory of Machines' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/theory-of-machines-v1-65a901b3.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/theory-of-machines-v2-d73550b0.mp3",
       "type": "mp3",
-      "bytes": 8043765,
-      "sha256": "65a901b37fc9ee8e6218ede11ca3bc90c9b31eee44e54fa850c0bc04ded12a35",
+      "bytes": 3858318,
+      "sha256": "d73550b07a6d0cc3e92edf86f4145b0dc7a79a2f220901762fc2f21cb2c7a2fe",
       "seconds": 201,
       "post": 435,
       "postedBy": "Arkniem",
