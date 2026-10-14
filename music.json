@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:14:06.996Z",
+  "updated": "2026-10-14T02:14:12.262Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -566,13 +566,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/catalyst/",
-      "credit": "'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/catalyst-v1-8dabdc65.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/catalyst-v2-2b58ede9.mp3",
       "type": "mp3",
-      "bytes": 11106408,
-      "sha256": "8dabdc650ed2db00c9b5b685e5c9ddbc9e14e5d9f4a8dcd3f87db3ccf139e41e",
+      "bytes": 5362072,
+      "sha256": "2b58ede9e95c67241f84f0e893814595c9d6a9c418b4fcf2abf43d211bd07566",
       "seconds": 278,
       "post": 362,
       "postedBy": "Arkniem",

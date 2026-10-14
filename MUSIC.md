@@ -37,7 +37,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Call To Adventure](https://github.com/Open-Historia/Open-historia-scenarios/issues/308) | `call-to-adventure` | Scott Buckley | CC BY 4.0 | 4:20 | 4.8 MB | — |
 | [Cassini](https://github.com/Open-Historia/Open-historia-scenarios/issues/431) | `cassini` | Scott Buckley | CC BY 4.0 | 4:51 | 5.1 MB | — |
 | [Castles in the Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/329) | `castles-in-the-sky` | Scott Buckley | CC BY 4.0 | 3:47 | 4.0 MB | — |
-| [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 10.6 MB | — |
+| [Catalyst](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) | `catalyst` | Scott Buckley | CC BY 4.0 | 4:38 | 5.1 MB | — |
 | [Celestial](https://github.com/Open-Historia/Open-historia-scenarios/issues/340) | `celestial` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — |
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 4.8 MB | — |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
@@ -620,9 +620,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/catalyst/>
 - **Credit:**
 
-> 'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Catalyst' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/catalyst-v1-8dabdc65.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/362) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/catalyst-v2-2b58ede9.mp3) (version 2, posted by @Arkniem)
 
 ### Celestial (`celestial`)
 
