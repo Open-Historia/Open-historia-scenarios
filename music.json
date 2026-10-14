@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:25:38.680Z",
+  "updated": "2026-10-14T02:26:09.015Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1700,13 +1700,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/i-walk-with-ghosts/",
-      "credit": "'I Walk With Ghosts' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'I Walk With Ghosts' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/i-walk-with-ghosts-v1-312c41b1.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/i-walk-with-ghosts-v2-2c1b4cb1.mp3",
       "type": "mp3",
-      "bytes": 19369485,
-      "sha256": "312c41b1beefcf60f37ac90e4fc64635ff39303129852d7389dd57a25e09fa18",
+      "bytes": 8596377,
+      "sha256": "2c1b4cb19e5812bb60976f7ef6f94c4c0364cd99da5848b2a0d1c6ce4a56b28f",
       "seconds": 484,
       "post": 344,
       "postedBy": "Arkniem",
