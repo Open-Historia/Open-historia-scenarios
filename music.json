@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:45:39.510Z",
+  "updated": "2026-10-14T02:45:45.884Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3020,13 +3020,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/permafrost/",
-      "credit": "'Permafrost' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Permafrost' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/permafrost-v1-9585b982.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/permafrost-v2-c3ce15c8.mp3",
       "type": "mp3",
-      "bytes": 17939045,
-      "sha256": "9585b9825339e7bd421db06368695bab7bc726e98611c7e15cd7d4dfc0c539ab",
+      "bytes": 8111236,
+      "sha256": "c3ce15c822419f084efae7d397b812e693b8c44fb0f6964cc670124ade9c8b20",
       "seconds": 448,
       "post": 315,
       "postedBy": "Arkniem",
