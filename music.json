@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:10:05.334Z",
+  "updated": "2026-10-14T05:10:08.653Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7822,9 +7822,21 @@
       "source": "https://www.scottbuckley.com.au/library/tomorrow/",
       "credit": "'Tomorrow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Excited",
+        "Happy",
+        "Playful",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Orchestra",
+        "Strings",
+        "Xylophone"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tomorrow-v2-734b3e7c.mp3",
       "type": "mp3",
