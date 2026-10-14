@@ -220,7 +220,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 6.1 MB | — | Orchestral | Adventurous, Epic, Hopeful |
 | [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 4.9 MB | — | Ambient, Electronica, Neoclassical, Orchestral | Bittersweet, Driving, Emotional, Epic, Melancholy, Uplifting |
 | [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 4.4 MB | — | Neoclassical | Bittersweet, Melancholy, Sombre, Thoughtful |
-| [Sunday Smooth](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) | `sunday-smooth` | Scott Buckley | CC BY 4.0 | 2:35 | 2.4 MB | — | — | — |
+| [Sunday Smooth](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) | `sunday-smooth` | Scott Buckley | CC BY 4.0 | 2:35 | 2.4 MB | — | Jazz | Brooding, Playful |
 | [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 4.8 MB | — | Electronica, Pop | Dark, Driving, Epic |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | Electronica | Driving, Lonely, Mysterious, Reflective, Thoughtful |
 | [Tears of a Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/456) | `tears-of-a-distant-sun` | Scott Buckley | CC BY 4.0 | 3:35 | 3.8 MB | — | — | — |
@@ -3261,6 +3261,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/sunday-smooth/>
+- **Genre:** Jazz
+- **Mood:** Brooding, Playful
+- **Instruments:** Bass (Acoustic), Drums (Acoustic), Organ, Piano (Electric)
 - **Credit:**
 
 > 'Sunday Smooth' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
