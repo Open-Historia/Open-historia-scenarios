@@ -9,7 +9,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [A Dragon’s Lullaby](https://github.com/Open-Historia/Open-historia-scenarios/issues/496) | `a-dragons-lullabye` | Scott Buckley | CC BY 4.0 | 2:36 | 2.4 MB | — | Orchestral | Bittersweet, Dark, Emotional, Lonely, Melancholy, Mysterious, Sombre |
 | [A Dragon’s Lullaby (2023 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) | `a-dragons-lullaby-2023` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — | Orchestral | Bittersweet, Brooding, Dark, Peaceful, Sinister |
 | [A Kind Of Hope](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) | `a-kind-of-hope` | Scott Buckley | CC BY 4.0 | 5:43 | 5.4 MB | — | Neoclassical | Bittersweet, Melancholy, Thoughtful, Uplifting |
-| [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 4.5 MB | — | — | — |
+| [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 4.5 MB | — | Neoclassical, Orchestral | Inspirational, Reflective, Thoughtful, Uplifting |
 | [Absolution](https://github.com/Open-Historia/Open-historia-scenarios/issues/371) | `absolution` | Scott Buckley | CC BY 4.0 | 5:29 | 5.8 MB | — | Neoclassical | Bittersweet, Emotional |
 | [Adrift Among Infinite Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/325) | `adrift-among-infinite-stars` | Scott Buckley | CC BY 4.0 | 6:45 | 6.4 MB | — | Neoclassical | Emotional, Peaceful, Thoughtful |
 | [Affirmations](https://github.com/Open-Historia/Open-historia-scenarios/issues/339) | `affirmations` | Scott Buckley | CC BY 4.0 | 5:02 | 5.2 MB | — | Neoclassical, Pop | Bittersweet, Peaceful, Thoughtful, Uplifting |
@@ -322,6 +322,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/a-new-year/>
+- **Genre:** Neoclassical, Orchestral
+- **Mood:** Inspirational, Reflective, Thoughtful, Uplifting
+- **Instruments:** Piano, Strings, Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'A New Year' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
