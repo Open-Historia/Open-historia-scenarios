@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:21:01.393Z",
+  "updated": "2026-10-14T02:21:18.153Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1232,13 +1232,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/felicity/",
-      "credit": "'Felicity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Felicity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/felicity-v1-054dcaaf.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/felicity-v2-c6462b9b.mp3",
       "type": "mp3",
-      "bytes": 8427286,
-      "sha256": "054dcaafd60653b9b562941c478f762ace27d7620e11f1b83f95271756aedb4a",
+      "bytes": 3840317,
+      "sha256": "c6462b9b28da23753d2192ab121e8d5ae006348cfaabdd3051228fa2e2722705",
       "seconds": 211,
       "post": 346,
       "postedBy": "Arkniem",
