@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:12:44.996Z",
+  "updated": "2026-10-14T02:13:15.093Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -512,13 +512,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/call-to-adventure/",
-      "credit": "'Call To Adventure' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Call To Adventure' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/call-to-adventure-v1-ed871ff6.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/call-to-adventure-v2-58627084.mp3",
       "type": "mp3",
-      "bytes": 10398026,
-      "sha256": "ed871ff603184cd40a995f15150237e35f95aeb6257a686a5af9a1abd3b5350f",
+      "bytes": 4986945,
+      "sha256": "5862708457fb93c7cd837afaecc1c9395f3847d1d4ed0e8fdaeaa616b24b9aa7",
       "seconds": 260,
       "post": 308,
       "postedBy": "Arkniem",
