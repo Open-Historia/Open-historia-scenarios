@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:24:06.312Z",
+  "updated": "2026-10-14T02:24:12.105Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1466,13 +1466,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/helios/",
-      "credit": "'Helios' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Helios' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helios-v1-43f7396f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helios-v2-48a0f589.mp3",
       "type": "mp3",
-      "bytes": 14327825,
-      "sha256": "43f7396f067cf3f2c9a5c6822ef5de800121140cdde91576e6dfc5562ea34b63",
+      "bytes": 6867202,
+      "sha256": "48a0f589d176af665b083c53759334a7b652c23ede07542af26e99067736926f",
       "seconds": 358,
       "post": 365,
       "postedBy": "Arkniem",

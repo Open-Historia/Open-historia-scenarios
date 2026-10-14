@@ -87,7 +87,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 7.0 MB | — |
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 1.9 MB | — |
 | [Happiness](https://github.com/Open-Historia/Open-historia-scenarios/issues/447) | `happiness` | Scott Buckley | CC BY 4.0 | 1:47 | 1.9 MB | — |
-| [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 13.7 MB | — |
+| [Helios](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) | `helios` | Scott Buckley | CC BY 4.0 | 5:58 | 6.5 MB | — |
 | [Helsinki](https://github.com/Open-Historia/Open-historia-scenarios/issues/468) | `helsinki` | Scott Buckley | CC BY 4.0 | 4:32 | 4.2 MB | — |
 | [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 6.0 MB | — |
@@ -1170,9 +1170,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/helios/>
 - **Credit:**
 
-> 'Helios' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Helios' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helios-v1-43f7396f.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/365) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/helios-v2-48a0f589.mp3) (version 2, posted by @Arkniem)
 
 ### Helsinki (`helsinki`)
 
