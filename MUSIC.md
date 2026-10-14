@@ -62,7 +62,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — |
 | [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 4.3 MB | — |
 | [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — |
-| [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
+| [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 7.4 MB | — |
 | [Eidolon](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) | `eidolon` | Scott Buckley | CC BY 4.0 | 3:11 | 6.8 MB | — |
 | [Electric Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) | `electric-dreams` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Elementary](https://github.com/Open-Historia/Open-historia-scenarios/issues/433) | `elementary` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
@@ -895,9 +895,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/effervescence/>
 - **Credit:**
 
-> 'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v1-215ff6ec.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v2-1e80f3ab.mp3) (version 2, posted by @Arkniem)
 
 ### Eidolon (`eidolon`)
 

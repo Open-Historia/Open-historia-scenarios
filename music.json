@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:18:24.061Z",
+  "updated": "2026-10-14T02:18:54.847Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1016,13 +1016,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/effervescence/",
-      "credit": "'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Effervescence' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v1-215ff6ec.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/effervescence-v2-1e80f3ab.mp3",
       "type": "mp3",
-      "bytes": 16524218,
-      "sha256": "215ff6ec113abbcfa3258028af322f651a40cf1102996b347dde873379b42674",
+      "bytes": 7739507,
+      "sha256": "1e80f3ab0cccb838239584632b4675d65acc638a21160fad7d18d35d26611060",
       "seconds": 413,
       "post": 297,
       "postedBy": "Arkniem",
