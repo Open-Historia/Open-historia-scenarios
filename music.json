@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:30:49.792Z",
+  "updated": "2026-10-14T02:31:17.992Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2189,13 +2189,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/life-in-motion/",
-      "credit": "'Life In Motion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Life In Motion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-motion-v1-e72d7160.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-motion-v2-1c543b49.mp3",
       "type": "mp3",
-      "bytes": 15260979,
-      "sha256": "e72d716034afe99b9653670f1b695b3ffec9f9d25945cdd60186ac6d35216beb",
+      "bytes": 7422989,
+      "sha256": "1c543b4937aacd29418f51a1cba1a0459937f806e7ddf8eeb902befe220ee10c",
       "seconds": 381,
       "post": 287,
       "postedBy": "Arkniem",
