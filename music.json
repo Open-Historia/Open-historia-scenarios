@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:19:35.935Z",
+  "updated": "2026-10-14T02:19:43.550Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1070,13 +1070,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/elementary/",
-      "credit": "'Elementary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Elementary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/elementary-v1-4fbdcb27.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/elementary-v2-90bb11e4.mp3",
       "type": "mp3",
-      "bytes": 5472312,
-      "sha256": "4fbdcb27a1412782f6422d1bf6f3544cf88d751c35387daf4b44dff50856cae4",
+      "bytes": 2151038,
+      "sha256": "90bb11e4f0d40ca401936bb7743e12510209886c40fc8454b2197a73a9739014",
       "seconds": 137,
       "post": 433,
       "postedBy": "Arkniem",
