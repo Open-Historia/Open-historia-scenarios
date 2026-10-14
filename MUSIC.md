@@ -97,7 +97,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 4.5 MB | — | Folk, Rock | Adventurous, Driving, Playful |
 | [Horizons](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) | `horizons` | Scott Buckley | CC BY 4.0 | 4:53 | 5.1 MB | — | — | — |
 | [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 3.8 MB | — | Ambient, Halloween, Orchestral | Dark, Driving, Mysterious, Sinister |
-| [Hunted](https://github.com/Open-Historia/Open-historia-scenarios/issues/497) | `hunted` | Scott Buckley | CC BY 4.0 | 1:47 | 1.6 MB | — | — | — |
+| [Hunted](https://github.com/Open-Historia/Open-historia-scenarios/issues/497) | `hunted` | Scott Buckley | CC BY 4.0 | 1:47 | 1.6 MB | — | Orchestral | Driving, Militaristic |
 | [Hymn](https://github.com/Open-Historia/Open-historia-scenarios/issues/424) | `hymn` | Scott Buckley | CC BY 4.0 | 2:01 | 2.1 MB | — | — | — |
 | [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 7.0 MB | — | — | — |
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 4.3 MB | — | — | — |
@@ -1549,6 +1549,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/hunted/>
+- **Genre:** Orchestral
+- **Mood:** Driving, Militaristic
+- **Instruments:** Brass, Drums (Epic), Orchestra, Strings
 - **Credit:**
 
 > 'Hunted' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au

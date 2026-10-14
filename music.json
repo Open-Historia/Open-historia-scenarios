@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:42:38.816Z",
+  "updated": "2026-10-14T04:42:55.987Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2971,9 +2971,19 @@
       "source": "https://www.scottbuckley.com.au/library/hunted/",
       "credit": "'Hunted' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Driving",
+        "Militaristic"
+      ],
+      "instruments": [
+        "Brass",
+        "Drums (Epic)",
+        "Orchestra",
+        "Strings"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hunted-v1-899d26ad.mp3",
       "type": "mp3",
