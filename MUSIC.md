@@ -124,7 +124,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — | Orchestral | Adventurous, Dark, Epic, Militaristic |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 3.6 MB | — | Ambient, Christmas, Pop | Peaceful, Reflective, Thoughtful |
 | [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 8.2 MB | — | Neoclassical, Orchestral | Bittersweet, Emotional, Peaceful |
-| [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 1.2 MB | — | — | — |
+| [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 1.2 MB | — | Jazz, Pop | Comedic, Cute, Happy |
 | [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 7.1 MB | — | Orchestral | Adventurous, Epic |
 | [Legionnaire](https://github.com/Open-Historia/Open-historia-scenarios/issues/516) | `legionnaire-scott-buckley` | Scott Buckley | CC BY 4.0 | 3:04 | 3.5 MB | — | — | — |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 3.4 MB | At war, In the war room | — | — |
@@ -1925,6 +1925,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/latin-dish-pigs/>
+- **Genre:** Jazz, Pop
+- **Mood:** Comedic, Cute, Happy
+- **Instruments:** Bass, Guitar (Electric), Percussion, Piano
 - **Credit:**
 
 > 'Latin Dish Pigs' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:47:34.445Z",
+  "updated": "2026-10-14T04:47:37.392Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3826,9 +3826,21 @@
       "source": "https://www.scottbuckley.com.au/library/latin-dish-pigs/",
       "credit": "'Latin Dish Pigs' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Jazz",
+        "Pop"
+      ],
+      "moods": [
+        "Comedic",
+        "Cute",
+        "Happy"
+      ],
+      "instruments": [
+        "Bass",
+        "Guitar (Electric)",
+        "Percussion",
+        "Piano"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/latin-dish-pigs-v2-c51f45e6.mp3",
       "type": "mp3",
