@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:37:40.291Z",
+  "updated": "2026-10-14T04:37:43.143Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1975,9 +1975,19 @@
       "source": "https://www.scottbuckley.com.au/library/elementary/",
       "credit": "'Elementary' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Reflective",
+        "Relaxed",
+        "Sleepy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/elementary-v2-90bb11e4.mp3",
       "type": "mp3",
