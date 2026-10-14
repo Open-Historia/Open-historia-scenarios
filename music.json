@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:26:48.316Z",
+  "updated": "2026-10-14T02:26:53.995Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1808,13 +1808,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/in-dreams/",
-      "credit": "'In Dreams' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'In Dreams' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/in-dreams-v1-1b965449.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/in-dreams-v2-cfa513d6.mp3",
       "type": "mp3",
-      "bytes": 9944525,
-      "sha256": "1b965449fe168690c5ad808eea28408214fc75de3ecc6f547a2942be1a3c36b9",
+      "bytes": 4676089,
+      "sha256": "cfa513d65cfa3b3fdfd1d2df6a20c024cac0a9a0b67bc6c5b519fd926319f84f",
       "seconds": 249,
       "post": 354,
       "postedBy": "Arkniem",
