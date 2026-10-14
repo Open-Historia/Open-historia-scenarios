@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:59:06.236Z",
+  "updated": "2026-10-14T04:59:09.622Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5680,9 +5680,23 @@
       "source": "https://www.scottbuckley.com.au/library/pursuit/",
       "credit": "'Pursuit' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Orchestral"
+      ],
+      "moods": [
+        "Angry",
+        "Dark",
+        "Driving",
+        "Epic",
+        "Intense",
+        "Ominous"
+      ],
+      "instruments": [
+        "Drums (Electronic)",
+        "Orchestra",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/pursuit-v2-bd9ae974.mp3",
       "type": "mp3",
