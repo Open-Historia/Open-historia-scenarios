@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:59:20.516Z",
+  "updated": "2026-10-14T02:59:26.496Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4280,13 +4280,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/time-and-space/",
-      "credit": "'Time and Space' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Time and Space' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/time-and-space-v1-e8b26a4b.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/time-and-space-v2-23359107.mp3",
       "type": "mp3",
-      "bytes": 9277833,
-      "sha256": "e8b26a4b9d895f4b19f00935a525d4079e3bad5a1938616f0aea31ca1a663992",
+      "bytes": 3831239,
+      "sha256": "23359107373cd659490891f10564c2d55aa1e3e3111fb68bb5f81a02f6b12fcf",
       "seconds": 232,
       "post": 425,
       "postedBy": "Arkniem",
