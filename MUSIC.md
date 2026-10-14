@@ -165,7 +165,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Oblivion Overture](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) | `oblivion-overture` | Scott Buckley | CC BY 4.0 | 1:56 | 2.7 MB | — | Orchestral | Adventurous, Epic |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 4.2 MB | — | Orchestral | Bittersweet, Emotional, Epic |
 | [One Falls to the Fire](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) | `one-falls-to-the-fire` | Scott Buckley | CC BY 4.0 | 3:50 | 5.3 MB | — | Orchestral, Pop | Inspirational, Uplifting |
-| [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 3.6 MB | — | — | — |
+| [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 3.6 MB | — | Electronica, Jazz | Dreamy, Mysterious, Playful, Thoughtful |
 | [Parasite](https://github.com/Open-Historia/Open-historia-scenarios/issues/503) | `parasite` | Scott Buckley | CC BY 4.0 | 4:04 | 5.7 MB | — | — | — |
 | [Pariah](https://github.com/Open-Historia/Open-historia-scenarios/issues/504) | `pariah` | Scott Buckley | CC BY 4.0 | 2:35 | 3.4 MB | — | — | — |
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 5.9 MB | — | — | — |
@@ -2493,6 +2493,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/origami/>
+- **Genre:** Electronica, Jazz
+- **Mood:** Dreamy, Mysterious, Playful, Thoughtful
+- **Instruments:** Bass (Acoustic), Drums (Acoustic), Drums (Electronic), Piano
 - **Credit:**
 
 > 'Origami' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
