@@ -251,7 +251,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 7.8 MB | — |
 | [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 7.8 MB | — |
 | [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — |
-| [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 9.0 MB | — |
+| [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — |
 | [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — |
 | [Venom](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) | `venom` | Scott Buckley | CC BY 4.0 | 1:12 | 2.6 MB | — |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 7.7 MB | — |
@@ -2974,9 +2974,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/vanguard/>
 - **Credit:**
 
-> 'Vanguard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Vanguard' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/vanguard-v1-e3eaf7e0.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/vanguard-v2-671bcbcb.mp3) (version 2, posted by @Arkniem)
 
 ### Vengeance (`vengeance`)
 
