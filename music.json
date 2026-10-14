@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:47:31.606Z",
+  "updated": "2026-10-14T04:47:34.445Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3798,8 +3798,15 @@
       "source": "https://www.scottbuckley.com.au/library/last-and-first-light/",
       "credit": "'Last And First Light' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
+      "genres": [
+        "Neoclassical",
+        "Orchestral"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Peaceful"
+      ],
       "instruments": [],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/last-and-first-light-v2-cd9a96c6.mp3",
