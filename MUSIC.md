@@ -80,7 +80,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 3.8 MB | — |
 | [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — |
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — |
-| [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 9.3 MB | — |
+| [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 7.0 MB | — |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
 | [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 12.4 MB | — |
@@ -1093,9 +1093,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/freedom/>
 - **Credit:**
 
-> 'Freedom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Freedom' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/freedom-v1-3ede5306.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/freedom-v2-8d3f24fb.mp3) (version 2, posted by @Arkniem)
 
 ### Genesis (`genesis`)
 
