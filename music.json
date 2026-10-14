@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:26:43.590Z",
+  "updated": "2026-10-14T02:26:48.316Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1754,13 +1754,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/ice-cream/",
-      "credit": "'Ice Cream' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Ice Cream' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ice-cream-v1-8cc1fc2e.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ice-cream-v2-0817fb6a.mp3",
       "type": "mp3",
-      "bytes": 10144088,
-      "sha256": "8cc1fc2e6547e7f4a6ae850924c8a7bf0baabd000ce12ec7710b0ea858db1dd4",
+      "bytes": 4836919,
+      "sha256": "0817fb6a529a6277da296d42964d8adea3070e2035e379b5b00ea7c6b1acf3d7",
       "seconds": 254,
       "post": 296,
       "postedBy": "Arkniem",
