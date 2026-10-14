@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:10:32.908Z",
+  "updated": "2026-10-14T05:10:35.053Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7886,9 +7886,19 @@
       "source": "https://www.scottbuckley.com.au/library/undertow/",
       "credit": "'Undertow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Melancholy"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/undertow-v2-f59cbdbb.mp3",
       "type": "mp3",
