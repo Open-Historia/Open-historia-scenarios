@@ -25,7 +25,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ashes of a Fallen Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) | `ashes-of-a-fallen-year` | Scott Buckley | CC BY 4.0 | 5:37 | 5.7 MB | — | — | — |
 | [Ashes of a Fallen Year (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) | `ashes-of-a-fallen-year-2019-remaster` | Scott Buckley | CC BY 4.0 | 5:10 | 5.3 MB | — | — | — |
 | [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 5.6 MB | — | Neoclassical | Bittersweet, Blissful, Peaceful, Thoughtful |
-| [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 8.7 MB | — | — | — |
+| [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 8.7 MB | — | Ambient, Neoclassical | Bittersweet, Emotional, Melancholy, Peaceful, Thoughtful |
 | [Awakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/467) | `awakening` | Scott Buckley | CC BY 4.0 | 1:38 | 1.7 MB | — | — | — |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | — | — |
 | [Beautiful Oblivion](https://github.com/Open-Historia/Open-historia-scenarios/issues/356) | `beautiful-oblivion` | Scott Buckley | CC BY 4.0 | 7:06 | 7.3 MB | — | — | — |
@@ -539,6 +539,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/aurora/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Bittersweet, Emotional, Melancholy, Peaceful, Thoughtful
+- **Instruments:** Strings, Synth (Atmospherics), Synth (Pad)
 - **Credit:**
 
 > 'Aurora' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
