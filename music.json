@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:15:31.602Z",
+  "updated": "2026-10-14T02:15:36.305Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -692,13 +692,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/clarion/",
-      "credit": "'Clarion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Clarion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clarion-v1-eb21068f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clarion-v2-59a321bd.mp3",
       "type": "mp3",
-      "bytes": 7834831,
-      "sha256": "eb21068fe392e86958051c4a58bcd3ea90c517b6f7533f1349ce62cb20165bbb",
+      "bytes": 3730815,
+      "sha256": "59a321bd77ab16724b15fac5dedf6953516e362f1d6004df21c601c06c8d9b3d",
       "seconds": 196,
       "post": 511,
       "postedBy": "Arkniem",
