@@ -255,7 +255,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 3.6 MB | — | Orchestral | Dark, Driving, Epic, Heroic |
 | [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — | — | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | Orchestral | Driving, Epic, Heroic |
-| [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — | — | — |
+| [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — | Electronica, Rock | Angry, Brooding, Dark, Driving, Ominous |
 | [Venom](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) | `venom` | Scott Buckley | CC BY 4.0 | 1:12 | 1.3 MB | — | Electronica, Orchestral | Dark, Driving, Epic, Industrial, Intense |
 | [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 3.7 MB | — | — | — |
 | [Wanderlust](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) | `wanderlust` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — | — | — |
@@ -3747,6 +3747,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/vengeance/>
+- **Genre:** Electronica, Rock
+- **Mood:** Angry, Brooding, Dark, Driving, Ominous
+- **Instruments:** Bass, Drums (Acoustic), Drums (Electronic), Guitar (Electric), Synth (Pad)
 - **Credit:**
 
 > 'Vengeance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
