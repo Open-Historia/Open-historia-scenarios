@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:31:17.992Z",
+  "updated": "2026-10-14T02:31:23.067Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2207,13 +2207,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/life-in-silico/",
-      "credit": "'Life in Silico' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Life in Silico' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-silico-v1-63c98d71.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/life-in-silico-v2-8f486cc6.mp3",
       "type": "mp3",
-      "bytes": 9456567,
-      "sha256": "63c98d71edb0071e143fc68b529cedac43b3f3eb9ebf9737b9f701d610db8f86",
+      "bytes": 4364012,
+      "sha256": "8f486cc6b68b78d48a3d7d1889a29b7d51461a41014b268a81bf60e2e1d2f3e2",
       "seconds": 236,
       "post": 337,
       "postedBy": "Arkniem",
