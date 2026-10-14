@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:09:06.944Z",
+  "updated": "2026-10-14T05:09:10.093Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7640,9 +7640,19 @@
       "source": "https://www.scottbuckley.com.au/library/there-was-a-time/",
       "credit": "'There Was A Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Emotional",
+        "Melancholy",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Strings",
+        "Synth (Atmospherics)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-was-a-time-v2-6c437594.mp3",
       "type": "mp3",
