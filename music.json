@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:29:44.409Z",
+  "updated": "2026-10-14T04:29:47.890Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -332,9 +332,30 @@
       "source": "https://www.scottbuckley.com.au/library/ambush/",
       "credit": "'Ambush' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Electronica",
+        "Orchestral",
+        "Techno"
+      ],
+      "moods": [
+        "Dark",
+        "Depressed",
+        "Driving",
+        "Emotional",
+        "Epic",
+        "Intense",
+        "Mysterious"
+      ],
+      "instruments": [
+        "Brass",
+        "Drums (Electronic)",
+        "Drums (Epic)",
+        "Orchestra",
+        "Strings",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/ambush-v1-f08f2137.mp3",
       "type": "mp3",
