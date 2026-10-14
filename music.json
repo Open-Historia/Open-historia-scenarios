@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:45:04.596Z",
+  "updated": "2026-10-14T02:45:09.255Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2966,13 +2966,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/path-through-the-mountains/",
-      "credit": "'Path Through The Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Path Through The Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/path-through-the-mountains-v1-9ecf09fa.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/path-through-the-mountains-v2-dc65ff31.mp3",
       "type": "mp3",
-      "bytes": 12843106,
-      "sha256": "9ecf09fa119a52050961dd1fa2714934583b06356be164d4d2686387d7dd0096",
+      "bytes": 5963297,
+      "sha256": "dc65ff3190e92bbb56f3661fd85203897b9c9086cbdb235d0f92b5be9aa37c76",
       "seconds": 321,
       "post": 510,
       "postedBy": "Arkniem",

@@ -170,7 +170,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 5.9 MB | — |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 5.0 MB | The menu, A game loading |
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 2.8 MB | — |
-| [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 12.2 MB | — |
+| [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 3.8 MB | — |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
 | [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 17.1 MB | — |
@@ -2083,9 +2083,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/path-through-the-mountains/>
 - **Credit:**
 
-> 'Path Through The Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Path Through The Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/path-through-the-mountains-v1-9ecf09fa.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/path-through-the-mountains-v2-dc65ff31.mp3) (version 2, posted by @Arkniem)
 
 ### Pathfinder (`pathfinder`)
 
