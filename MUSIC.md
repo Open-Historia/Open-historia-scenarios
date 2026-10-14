@@ -185,7 +185,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 11.1 MB | — |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 4.5 MB | — |
-| [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
+| [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 8.1 MB | — |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 12.5 MB | — |
@@ -2248,9 +2248,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/reawakening/>
 - **Credit:**
 
-> 'Reawakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Reawakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reawakening-v1-59923ffa.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/reawakening-v2-0e472168.mp3) (version 2, posted by @Arkniem)
 
 ### Red (`red`)
 
