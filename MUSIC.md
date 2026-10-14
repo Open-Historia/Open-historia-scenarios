@@ -108,7 +108,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ignis](https://github.com/Open-Historia/Open-historia-scenarios/issues/291) | `ignis` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — | Orchestral | Adventurous, Epic, Inspirational |
 | [In Development](https://github.com/Open-Historia/Open-historia-scenarios/issues/502) | `in-development` | Scott Buckley | CC BY 4.0 | 2:15 | 3.1 MB | — | Electronica, Hip Hop, Orchestral | Bittersweet, Brooding, Driving, Melancholy, Mysterious |
 | [In Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/354) | `in-dreams` | Scott Buckley | CC BY 4.0 | 4:09 | 4.5 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
-| [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 7.6 MB | — | — | — |
+| [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 7.6 MB | — | Ambient, Neoclassical | Bittersweet, Mysterious, Thoughtful |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 3.5 MB | — | Ambient, Neoclassical | Bittersweet, Peaceful |
 | [Inbound](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) | `inbound` | Scott Buckley | CC BY 4.0 | 4:04 | 4.3 MB | — | — | — |
 | [Incantation](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) | `incantation` | Scott Buckley | CC BY 4.0 | 7:13 | 7.1 MB | — | — | — |
@@ -1702,6 +1702,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/in-search-of-solitude/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Bittersweet, Mysterious, Thoughtful
+- **Instruments:** Cello, Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'In Search Of Solitude' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
