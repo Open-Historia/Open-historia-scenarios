@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:30:38.334Z",
+  "updated": "2026-10-14T02:30:44.339Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2096,13 +2096,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/last-and-first-light/",
-      "credit": "'Last And First Light' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Last And First Light' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/last-and-first-light-v1-5137f8f8.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/last-and-first-light-v2-cd9a96c6.mp3",
       "type": "mp3",
-      "bytes": 18756175,
-      "sha256": "5137f8f848c4b1d20939bd0061bd5798face73513b7ea44ca33c975427b152c9",
+      "bytes": 8573183,
+      "sha256": "cd9a96c6244e9f03501700b14dcba49e613ed65d0a89c1d14d477f18f8a3cdaa",
       "seconds": 469,
       "post": 318,
       "postedBy": "Arkniem",

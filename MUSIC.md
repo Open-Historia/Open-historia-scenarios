@@ -122,7 +122,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Jubilee](https://github.com/Open-Historia/Open-historia-scenarios/issues/451) | `jubilee` | Scott Buckley | CC BY 4.0 | 2:14 | 2.3 MB | — |
 | [Juggernaut](https://github.com/Open-Historia/Open-historia-scenarios/issues/316) | `juggernaut` | Scott Buckley | CC BY 4.0 | 3:42 | 4.0 MB | — |
 | [Jul](https://github.com/Open-Historia/Open-historia-scenarios/issues/352) | `jul` | Scott Buckley | CC BY 4.0 | 3:28 | 3.6 MB | — |
-| [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 17.9 MB | — |
+| [Last and First Light](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) | `last-and-first-light` | Scott Buckley | CC BY 4.0 | 7:49 | 8.2 MB | — |
 | [Latin Dish Pigs](https://github.com/Open-Historia/Open-historia-scenarios/issues/462) | `latin-dish-pigs` | Scott Buckley | CC BY 4.0 | 1:07 | 2.6 MB | — |
 | [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 7.1 MB | — |
 | [Legionnaire](https://github.com/Open-Historia/Open-historia-scenarios/issues/516) | `legionnaire-scott-buckley` | Scott Buckley | CC BY 4.0 | 3:04 | 3.5 MB | — |
@@ -1555,9 +1555,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/last-and-first-light/>
 - **Credit:**
 
-> 'Last And First Light' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Last And First Light' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/last-and-first-light-v1-5137f8f8.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/318) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/last-and-first-light-v2-cd9a96c6.mp3) (version 2, posted by @Arkniem)
 
 ### Latin Dish Pigs (`latin-dish-pigs`)
 
