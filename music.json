@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:33:39.216Z",
+  "updated": "2026-10-14T02:33:44.978Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2459,13 +2459,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-call/",
-      "credit": "'The Call' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Call' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-call-v1-ee54a5b6.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-call-v2-32240eb6.mp3",
       "type": "mp3",
-      "bytes": 9477379,
-      "sha256": "ee54a5b6c710ff4424ed3f8d7880736cefb74c147b810b087e3c778b5ef8138e",
+      "bytes": 4386914,
+      "sha256": "32240eb6ba8b454a79cbdaa0543eb686a9335c96b56c3d7a17fb1903d08390a3",
       "seconds": 237,
       "post": 387,
       "postedBy": "Arkniem",

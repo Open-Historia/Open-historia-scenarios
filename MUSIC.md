@@ -142,7 +142,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 6.1 MB | — |
 | [Midsommar](https://github.com/Open-Historia/Open-historia-scenarios/issues/360) | `midsommar` | Scott Buckley | CC BY 4.0 | 3:54 | 4.1 MB | — |
 | [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 4.9 MB | — |
-| [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 9.0 MB | — |
+| [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 4.2 MB | — |
 | [Monomyth – The Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) | `the-distant-sun` | Scott Buckley | CC BY 4.0 | 3:44 | 3.6 MB | — |
 | [Monomyth – The Encounter](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) | `the-encounter` | Scott Buckley | CC BY 4.0 | 5:07 | 11.7 MB | — |
 | [Monomyth – The Endurance](https://github.com/Open-Historia/Open-historia-scenarios/issues/393) | `the-endurance` | Scott Buckley | CC BY 4.0 | 4:13 | 9.7 MB | — |
@@ -1775,9 +1775,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-call/>
 - **Credit:**
 
-> 'The Call' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Call' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-call-v1-ee54a5b6.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-call-v2-32240eb6.mp3) (version 2, posted by @Arkniem)
 
 ### Monomyth – The Distant Sun (`the-distant-sun`)
 
