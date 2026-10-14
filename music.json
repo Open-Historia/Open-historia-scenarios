@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:21:30.663Z",
+  "updated": "2026-10-14T02:22:01.395Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1286,13 +1286,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/first-snow/",
-      "credit": "'First Snow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'First Snow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/first-snow-v1-47650ff7.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/first-snow-v2-d7b535df.mp3",
       "type": "mp3",
-      "bytes": 8538080,
-      "sha256": "47650ff7ccc573df011a11d8440eb8c79e30fae31f61fc72750545efd41f6686",
+      "bytes": 3942724,
+      "sha256": "d7b535dffb2f0f35c88e52d7a20abe9a3078d4934a70319eed1436fefe3401cd",
       "seconds": 213,
       "post": 310,
       "postedBy": "Arkniem",
