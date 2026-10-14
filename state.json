@@ -533,8 +533,8 @@
     },
     "360": {
       "id": "midsommar",
-      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/midsommar.mp3",
-      "bodyHash": "9ac4b36f12ba24927fc547ef94658442c0fb06fd8490833132c32e3313f36175"
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/midsommar-small.mp3",
+      "bodyHash": "911c4c817c7db0261cc4033f50f62b08e770bfdd8dee742437340f9db119fb6b"
     },
     "361": {
       "id": "inflection",
