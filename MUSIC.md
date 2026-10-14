@@ -203,7 +203,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [She Moved Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/403) | `she-moved-mountains` | Scott Buckley | CC BY 4.0 | 5:13 | 4.7 MB | — | Ambient, Neoclassical | Calm, Lonely, Melancholy, Peaceful, Sombre |
 | [Shoulders Of Giants](https://github.com/Open-Historia/Open-historia-scenarios/issues/282) | `shoulders-of-giants` | Scott Buckley | CC BY 4.0 | 7:23 | 7.6 MB | — | Neoclassical, Orchestral | Bittersweet, Emotional, Epic |
 | [Signal to Noise](https://github.com/Open-Historia/Open-historia-scenarios/issues/366) | `signal-to-noise` | Scott Buckley | CC BY 4.0 | 5:54 | 6.2 MB | — | — | — |
-| [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 3.4 MB | — | — | — |
+| [Simplicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/288) | `simplicity` | Scott Buckley | CC BY 4.0 | 3:05 | 3.4 MB | — | Folk, Pop | Happy, Peaceful, Romantic, Uplifting |
 | [Simulacra](https://github.com/Open-Historia/Open-historia-scenarios/issues/277) | `simulacra` | Scott Buckley | CC BY 4.0 | 3:54 | 4.2 MB | — | Electronica, Orchestral | Driving, Energetic, Epic |
 | [Skyscraper Samba](https://github.com/Open-Historia/Open-historia-scenarios/issues/405) | `skyscraper-samba` | Scott Buckley | CC BY 4.0 | 1:29 | 1.5 MB | — | — | — |
 | [Skyward](https://github.com/Open-Historia/Open-historia-scenarios/issues/419) | `skyward` | Scott Buckley | CC BY 4.0 | 4:20 | 4.1 MB | — | — | — |
@@ -3020,6 +3020,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/simplicity/>
+- **Genre:** Folk, Pop
+- **Mood:** Happy, Peaceful, Romantic, Uplifting
+- **Instruments:** Bass (Acoustic), Drums (Acoustic), Guitar (Acoustic), Mandolin, Piano, Violin
 - **Credit:**
 
 > 'Simplicity' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
