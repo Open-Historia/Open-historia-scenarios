@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:49:32.100Z",
+  "updated": "2026-10-14T02:49:38.885Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3362,13 +3362,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/rise-above/",
-      "credit": "'Rise Above' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Rise Above' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rise-above-v1-5c284b7f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rise-above-v2-0f595b1d.mp3",
       "type": "mp3",
-      "bytes": 10718796,
-      "sha256": "5c284b7f6fbce91dba8ad5299974edfdf8c4354c5d9c3ea60c5a3bed9e809ea0",
+      "bytes": 4721945,
+      "sha256": "0f595b1dbf39f063a1484e56357317f35ac970a691dc3e45e9ca3029eab60f4a",
       "seconds": 268,
       "post": 295,
       "postedBy": "Arkniem",
