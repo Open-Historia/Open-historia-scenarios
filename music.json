@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:10:07.979Z",
+  "updated": "2026-10-14T02:10:38.098Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -332,13 +332,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/at-the-end-of-all-things/",
-      "credit": "'At The End Of All Things' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'At The End Of All Things' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/at-the-end-of-all-things-v1-57028e3d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/at-the-end-of-all-things-v2-7bf9188a.mp3",
       "type": "mp3",
-      "bytes": 12683236,
-      "sha256": "57028e3de133aa9beba2f9540ffea3bb7822cbdb8f899de16b6b44389879ba91",
+      "bytes": 5924406,
+      "sha256": "7bf9188a884b51c4b1d3540c6d4d4eb4850874b432d598b46f06e6930c63674e",
       "seconds": 317,
       "post": 283,
       "postedBy": "Arkniem",

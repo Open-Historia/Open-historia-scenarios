@@ -24,7 +24,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Ascension](https://github.com/Open-Historia/Open-historia-scenarios/issues/407) | `ascension` | Scott Buckley | CC BY 4.0 | 6:11 | 6.6 MB | — |
 | [Ashes of a Fallen Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) | `ashes-of-a-fallen-year` | Scott Buckley | CC BY 4.0 | 5:37 | 12.1 MB | — |
 | [Ashes of a Fallen Year (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) | `ashes-of-a-fallen-year-2019-remaster` | Scott Buckley | CC BY 4.0 | 5:10 | 11.8 MB | — |
-| [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 12.1 MB | — |
+| [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 5.6 MB | — |
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 19.0 MB | — |
 | [Awakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/467) | `awakening` | Scott Buckley | CC BY 4.0 | 1:38 | 3.8 MB | — |
 | [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
@@ -477,9 +477,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/at-the-end-of-all-things/>
 - **Credit:**
 
-> 'At The End Of All Things' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'At The End Of All Things' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/at-the-end-of-all-things-v1-57028e3d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/at-the-end-of-all-things-v2-7bf9188a.mp3) (version 2, posted by @Arkniem)
 
 ### Aurora (`aurora`)
 
