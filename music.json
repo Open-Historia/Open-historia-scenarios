@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:08:11.748Z",
+  "updated": "2026-10-14T02:08:16.881Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -62,13 +62,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/a-new-year/",
-      "credit": "'A New Year' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'A New Year' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-new-year-v1-f206321a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-new-year-v2-b36df888.mp3",
       "type": "mp3",
-      "bytes": 10894231,
-      "sha256": "f206321a353d0fd1b6291e49cc7d8904f1b2e2e6c758b069d6ebcf6c90919c3c",
+      "bytes": 4753580,
+      "sha256": "b36df888a9f0d4afeaa10f1d9f818c1589951a0ae9179c9a160bcb08d01bf603",
       "seconds": 272,
       "post": 427,
       "postedBy": "Arkniem",
