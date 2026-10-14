@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:24:12.105Z",
+  "updated": "2026-10-14T02:24:45.719Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1610,13 +1610,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/hour-of-the-witch/",
-      "credit": "'Hour Of The Witch' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Hour Of The Witch' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hour-of-the-witch-v1-bf0d8209.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hour-of-the-witch-v2-a12c7f1e.mp3",
       "type": "mp3",
-      "bytes": 8686460,
-      "sha256": "bf0d82097af63ccf8d3660b0541de873810f23ee45d5c424b44e328a87625cbc",
+      "bytes": 4025164,
+      "sha256": "a12c7f1e600854072a6ab47735c8bef64b00fb207c5fa6fe491066a6c4799e22",
       "seconds": 217,
       "post": 313,
       "postedBy": "Arkniem",
