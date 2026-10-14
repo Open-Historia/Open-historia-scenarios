@@ -49,7 +49,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | Ambient | Calm, Melancholy, Mysterious, Peaceful, Thoughtful |
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — | Ambient, Electronica | Dreamy, Mysterious, Ominous |
 | [Concerning Hobbits](https://github.com/Open-Historia/Open-historia-scenarios/issues/466) | `concerning-hobbits` | Scott Buckley | CC BY 4.0 | 2:38 | 3.0 MB | — | Orchestral | Excited, Fun, Happy, Playful |
-| [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — | — | — |
+| [Confessions](https://github.com/Open-Historia/Open-historia-scenarios/issues/492) | `confessions` | Scott Buckley | CC BY 4.0 | 2:04 | 1.9 MB | — | Orchestral, Pop | Melancholy, Peaceful, Reflective, Sombre, Thoughtful |
 | [Contagion](https://github.com/Open-Historia/Open-historia-scenarios/issues/505) | `contagion` | Scott Buckley | CC BY 4.0 | 2:11 | 2.9 MB | — | — | — |
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — | — | — |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 1.4 MB | — | — | — |
@@ -880,6 +880,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/confessions/>
+- **Genre:** Orchestral, Pop
+- **Mood:** Melancholy, Peaceful, Reflective, Sombre, Thoughtful
+- **Instruments:** Clarinet, Guitar (Acoustic), Recorder, Strings
 - **Credit:**
 
 > 'Confessions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au

@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:34:44.894Z",
+  "updated": "2026-10-14T04:34:47.637Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1406,9 +1406,23 @@
       "source": "https://www.scottbuckley.com.au/library/confessions/",
       "credit": "'Confessions' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral",
+        "Pop"
+      ],
+      "moods": [
+        "Melancholy",
+        "Peaceful",
+        "Reflective",
+        "Sombre",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Clarinet",
+        "Guitar (Acoustic)",
+        "Recorder",
+        "Strings"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/confessions-v1-3c856125.mp3",
       "type": "mp3",
