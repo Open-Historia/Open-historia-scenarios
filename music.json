@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:35:47.817Z",
+  "updated": "2026-10-14T04:36:07.104Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1637,9 +1637,18 @@
       "source": "https://www.scottbuckley.com.au/library/discovery/",
       "credit": "'Discovery' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Driving",
+        "Epic"
+      ],
+      "instruments": [
+        "Orchestra",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/discovery-v2-6d022aa8.mp3",
       "type": "mp3",

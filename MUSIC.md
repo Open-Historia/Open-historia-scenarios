@@ -56,7 +56,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Decoherence](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) | `decoherence` | Scott Buckley | CC BY 4.0 | 10:18 | 9.7 MB | — | Ambient, Neoclassical | Bittersweet, Brooding, Mysterious |
 | [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 2.4 MB | — | Ambient, Electronica | Dark, Industrial, Mysterious, Sinister |
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — | Orchestral | Brooding, Dark, Emotional, Reflective, Sombre |
-| [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | — | — |
+| [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | Orchestral | Adventurous, Driving, Epic |
 | [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 4.1 MB | — | — | — |
 | [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — | — | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — | — | — |
@@ -978,6 +978,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/discovery/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Driving, Epic
+- **Instruments:** Orchestra, Synth (Lead)
 - **Credit:**
 
 > 'Discovery' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
