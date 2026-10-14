@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:04:48.707Z",
+  "updated": "2026-10-14T05:04:51.626Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6766,9 +6766,20 @@
       "source": "https://www.scottbuckley.com.au/library/soul-searcher/",
       "credit": "'Soul Searcher' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient"
+      ],
+      "moods": [
+        "Dreamy",
+        "Emotional",
+        "Intense",
+        "Mysterious",
+        "Spiritual"
+      ],
+      "instruments": [
+        "Synth (Pad)",
+        "Vocals (Male)"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/soul-searcher-v1-df90d080.mp3",
       "type": "mp3",
