@@ -60,7 +60,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — |
-| [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 9.0 MB | — |
+| [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 4.3 MB | — |
 | [Edge of Remorse](https://github.com/Open-Historia/Open-historia-scenarios/issues/471) | `edge-of-remorse` | Scott Buckley | CC BY 4.0 | 7:47 | 7.1 MB | — |
 | [Effervescence](https://github.com/Open-Historia/Open-historia-scenarios/issues/297) | `effervescence` | Scott Buckley | CC BY 4.0 | 6:53 | 15.8 MB | — |
 | [Eidolon](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) | `eidolon` | Scott Buckley | CC BY 4.0 | 3:11 | 6.8 MB | — |
@@ -873,9 +873,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/eclipse/>
 - **Credit:**
 
-> 'Eclipse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Eclipse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eclipse-v1-a6af3d9a.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eclipse-v2-0355736c.mp3) (version 2, posted by @Arkniem)
 
 ### Edge of Remorse (`edge-of-remorse`)
 

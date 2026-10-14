@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:18:18.788Z",
+  "updated": "2026-10-14T02:18:24.061Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -980,13 +980,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/eclipse/",
-      "credit": "'Eclipse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Eclipse' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eclipse-v1-a6af3d9a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/eclipse-v2-0355736c.mp3",
       "type": "mp3",
-      "bytes": 9387589,
-      "sha256": "a6af3d9ae2e0ea40cb18ed1e2835f222d2fed4aa411765a649b5de7f0c0a8470",
+      "bytes": 4525609,
+      "sha256": "0355736cd51a502565502cedba96967244e22fe998579de2b8749620aa6d5d8c",
       "seconds": 253,
       "post": 514,
       "postedBy": "Arkniem",
