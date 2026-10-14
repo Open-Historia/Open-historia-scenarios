@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:47:01.973Z",
+  "updated": "2026-10-14T04:47:04.839Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3752,9 +3752,20 @@
       "source": "https://www.scottbuckley.com.au/library/jul/",
       "credit": "'Jul' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Christmas",
+        "Pop"
+      ],
+      "moods": [
+        "Peaceful",
+        "Reflective",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/jul-v2-3b3a9668.mp3",
       "type": "mp3",
