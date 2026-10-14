@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:33:00.533Z",
+  "updated": "2026-10-14T02:33:28.207Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2441,13 +2441,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/midvinter/",
-      "credit": "'Midvinter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Midvinter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/midvinter-v1-1ef5ddef.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/midvinter-v2-3b0a2cfb.mp3",
       "type": "mp3",
-      "bytes": 10963286,
-      "sha256": "1ef5ddefcce9f9dbf1725dcbb3f46bce7f46cd7ddc92e348cc62b63e6fc64641",
+      "bytes": 5103902,
+      "sha256": "3b0a2cfb69d2c2152491b0ae4f65e9f6123c832cc89ba6dd63dce302c37ed0f7",
       "seconds": 274,
       "post": 327,
       "postedBy": "Arkniem",
