@@ -54,7 +54,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Convergence](https://github.com/Open-Historia/Open-historia-scenarios/issues/263) | `convergence` | Scott Buckley | CC BY 4.0 | 3:40 | 3.9 MB | — | Neoclassical | Emotional, Melancholy, Uplifting |
 | [Crusader](https://github.com/Open-Historia/Open-historia-scenarios/issues/463) | `crusader` | Scott Buckley | CC BY 4.0 | 1:17 | 1.4 MB | — | Orchestral | Driving, Epic, Militaristic, Uplifting |
 | [Decoherence](https://github.com/Open-Historia/Open-historia-scenarios/issues/521) | `decoherence` | Scott Buckley | CC BY 4.0 | 10:18 | 9.7 MB | — | — | — |
-| [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 2.4 MB | — | — | — |
+| [Descent](https://github.com/Open-Historia/Open-historia-scenarios/issues/422) | `descent` | Scott Buckley | CC BY 4.0 | 2:18 | 2.4 MB | — | Ambient, Electronica | Dark, Industrial, Mysterious, Sinister |
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — | — | — |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | — | — |
 | [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 4.1 MB | — | — | — |
@@ -947,6 +947,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/descent/>
+- **Genre:** Ambient, Electronica
+- **Mood:** Dark, Industrial, Mysterious, Sinister
+- **Instruments:** Drums (Electronic), Flute (Ethnic), Synth (Atmospherics), Synth (Pad), Vocals (Male)
 - **Credit:**
 
 > 'Descent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
