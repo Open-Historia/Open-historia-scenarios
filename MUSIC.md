@@ -20,7 +20,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [An Unexpected Party](https://github.com/Open-Historia/Open-historia-scenarios/issues/465) | `an-unexpected-party` | Scott Buckley | CC BY 4.0 | 1:03 | 1.1 MB | — |
 | [Anna’s Theme](https://github.com/Open-Historia/Open-historia-scenarios/issues/494) | `annas-theme` | Scott Buckley | CC BY 4.0 | 2:08 | 2.0 MB | — |
 | [Aphelion](https://github.com/Open-Historia/Open-historia-scenarios/issues/262) | `aphelion` | Scott Buckley | CC BY 4.0 | 7:02 | 7.4 MB | — |
-| [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 14.3 MB | — |
+| [Artemis](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) | `artemis` | Scott Buckley | CC BY 4.0 | 6:16 | 6.6 MB | — |
 | [Ascension](https://github.com/Open-Historia/Open-historia-scenarios/issues/407) | `ascension` | Scott Buckley | CC BY 4.0 | 6:11 | 14.2 MB | — |
 | [Ashes of a Fallen Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/458) | `ashes-of-a-fallen-year` | Scott Buckley | CC BY 4.0 | 5:37 | 12.1 MB | — |
 | [Ashes of a Fallen Year (2019 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/404) | `ashes-of-a-fallen-year-2019-remaster` | Scott Buckley | CC BY 4.0 | 5:10 | 11.8 MB | — |
@@ -433,9 +433,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/artemis/>
 - **Credit:**
 
-> 'Artemis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Artemis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/artemis-v1-e46316b6.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/314) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/artemis-v2-a77eca20.mp3) (version 2, posted by @Arkniem)
 
 ### Ascension (`ascension`)
 
