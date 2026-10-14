@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:54:05.723Z",
+  "updated": "2026-10-14T04:54:08.487Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4842,9 +4842,22 @@
       "source": "https://www.scottbuckley.com.au/library/mr-lonogan/",
       "credit": "'Mr Lonogan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Comedic",
+        "Excited",
+        "Happy",
+        "Playful"
+      ],
+      "instruments": [
+        "Clarinet",
+        "Orchestra",
+        "Strings",
+        "Vibes",
+        "Woodwinds"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/mr-lonogan-v1-b59a981c.mp3",
       "type": "mp3",

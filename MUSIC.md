@@ -156,7 +156,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 3.9 MB | — | Ambient | Bittersweet, Emotional, Peaceful, Reflective, Thoughtful |
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 4.1 MB | — | Ambient, Orchestral | Brooding, Mysterious, Ominous, Reflective |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 4.2 MB | — | Ambient, Pop | Peaceful, Relaxed, Romantic, Thoughtful |
-| [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — | — | — |
+| [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — | Orchestral | Comedic, Excited, Happy, Playful |
 | [Neon](https://github.com/Open-Historia/Open-historia-scenarios/issues/380) | `neon` | Scott Buckley | CC BY 4.0 | 4:19 | 4.7 MB | — | Electronica | Driving, Mysterious |
 | [Never Dying](https://github.com/Open-Historia/Open-historia-scenarios/issues/443) | `never-dying` | Scott Buckley | CC BY 4.0 | 6:42 | 7.0 MB | — | Ambient, Electronica, Neoclassical, Orchestral | Bittersweet, Brooding, Calm, Dark, Intense, Melancholy |
 | [New Beginnings](https://github.com/Open-Historia/Open-historia-scenarios/issues/490) | `new-beginnings` | Scott Buckley | CC BY 4.0 | 1:43 | 1.6 MB | — | — | — |
@@ -2367,6 +2367,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/mr-lonogan/>
+- **Genre:** Orchestral
+- **Mood:** Comedic, Excited, Happy, Playful
+- **Instruments:** Clarinet, Orchestra, Strings, Vibes, Woodwinds
 - **Credit:**
 
 > 'Mr Lonogan' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
