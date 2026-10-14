@@ -183,7 +183,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Prelude to Chemistry](https://github.com/Open-Historia/Open-historia-scenarios/issues/483) | `prelude-to-chemistry` | Scott Buckley | CC BY 4.0 | 4:02 | 5.4 MB | — | Pop | Bittersweet, Calm, Melancholy, Peaceful, Thoughtful |
 | [Primal Carnage](https://github.com/Open-Historia/Open-historia-scenarios/issues/499) | `primal-carnage` | Scott Buckley | CC BY 4.0 | 2:39 | 2.6 MB | — | — | — |
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 2.8 MB | — | Electronica, Orchestral | Angry, Dark, Driving, Epic, Intense, Ominous |
-| [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — | — | — |
+| [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — | Orchestral | Comedic, Happy, Playful, Reflective |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | Orchestral | Adventurous, Driving |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — | — | — |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | — | — |
@@ -2742,6 +2742,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/quirky-lane/>
+- **Genre:** Orchestral
+- **Mood:** Comedic, Happy, Playful, Reflective
+- **Instruments:** Orchestra, Strings, Vibes, Woodwinds
 - **Credit:**
 
 > 'Quirky Lane' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
