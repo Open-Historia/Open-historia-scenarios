@@ -7,7 +7,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits |
 |---|---|---|---|---|---|---|
 | [A Dragon’s Lullaby](https://github.com/Open-Historia/Open-historia-scenarios/issues/496) | `a-dragons-lullabye` | Scott Buckley | CC BY 4.0 | 2:36 | 2.4 MB | — |
-| [A Dragon’s Lullaby (2023 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) | `a-dragons-lullaby-2023` | Scott Buckley | CC BY 4.0 | 2:48 | 6.4 MB | — |
+| [A Dragon’s Lullaby (2023 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) | `a-dragons-lullaby-2023` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — |
 | [A Kind Of Hope](https://github.com/Open-Historia/Open-historia-scenarios/issues/312) | `a-kind-of-hope` | Scott Buckley | CC BY 4.0 | 5:43 | 13.1 MB | — |
 | [A New Year](https://github.com/Open-Historia/Open-historia-scenarios/issues/427) | `a-new-year` | Scott Buckley | CC BY 4.0 | 4:32 | 10.4 MB | — |
 | [Absolution](https://github.com/Open-Historia/Open-historia-scenarios/issues/371) | `absolution` | Scott Buckley | CC BY 4.0 | 5:29 | 12.5 MB | — |
@@ -290,9 +290,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/a-dragons-lullaby-2023/>
 - **Credit:**
 
-> 'A Dragon's Lullaby' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'A Dragon's Lullaby' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-dragons-lullaby-2023-v1-fe07f1c8.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/306) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/a-dragons-lullaby-2023-v2-0c635b4e.mp3) (version 2, posted by @Arkniem)
 
 ### A Kind Of Hope (`a-kind-of-hope`)
 
