@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:23:11.106Z",
+  "updated": "2026-10-14T02:23:16.352Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1448,13 +1448,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/happiness/",
-      "credit": "'Happiness' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Happiness' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/happiness-v1-8383bbe1.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/happiness-v2-6627dac3.mp3",
       "type": "mp3",
-      "bytes": 4301968,
-      "sha256": "8383bbe1a6887c4f3ba015e55c4bf018d94102563e1aa0a8e0650e9cd786de97",
+      "bytes": 1998622,
+      "sha256": "6627dac385eac0574fb0a0ae61b230000f47bb584f413fe1b7a0011ba44d0ba4",
       "seconds": 107,
       "post": 447,
       "postedBy": "Arkniem",
