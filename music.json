@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:25:34.316Z",
+  "updated": "2026-10-14T02:25:38.680Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1664,13 +1664,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/hymn-to-the-dawn/",
-      "credit": "'Hymn To The Dawn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Hymn To The Dawn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-to-the-dawn-v1-a7797ccc.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-to-the-dawn-v2-04dec699.mp3",
       "type": "mp3",
-      "bytes": 16737414,
-      "sha256": "a7797ccc8cae700d9b0f07fc31e13424da00e406a154e308afe5d272c29aec6b",
+      "bytes": 7324346,
+      "sha256": "04dec699c0f7715f56564efd096ab346097ee360ad55583ed5ce44faf3c2474a",
       "seconds": 418,
       "post": 311,
       "postedBy": "Arkniem",

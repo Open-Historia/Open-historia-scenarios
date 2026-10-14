@@ -98,7 +98,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 3.8 MB | — |
 | [Hunted](https://github.com/Open-Historia/Open-historia-scenarios/issues/497) | `hunted` | Scott Buckley | CC BY 4.0 | 1:47 | 1.6 MB | — |
 | [Hymn](https://github.com/Open-Historia/Open-historia-scenarios/issues/424) | `hymn` | Scott Buckley | CC BY 4.0 | 2:01 | 2.1 MB | — |
-| [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
+| [Hymn to the Dawn](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) | `hymn-to-the-dawn` | Scott Buckley | CC BY 4.0 | 6:58 | 7.0 MB | — |
 | [Hyperion](https://github.com/Open-Historia/Open-historia-scenarios/issues/284) | `hyperion` | Scott Buckley | CC BY 4.0 | 4:12 | 4.3 MB | — |
 | [I Walk With Ghosts](https://github.com/Open-Historia/Open-historia-scenarios/issues/344) | `i-walk-with-ghosts` | Scott Buckley | CC BY 4.0 | 8:04 | 18.5 MB | — |
 | [Icarus](https://github.com/Open-Historia/Open-historia-scenarios/issues/478) | `icarus` | Scott Buckley | CC BY 4.0 | 3:30 | 4.8 MB | — |
@@ -1291,9 +1291,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/hymn-to-the-dawn/>
 - **Credit:**
 
-> 'Hymn To The Dawn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Hymn To The Dawn' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-to-the-dawn-v1-a7797ccc.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/311) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/hymn-to-the-dawn-v2-04dec699.mp3) (version 2, posted by @Arkniem)
 
 ### Hyperion (`hyperion`)
 
