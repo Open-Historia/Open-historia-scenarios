@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:31:14.032Z",
+  "updated": "2026-10-14T04:31:40.440Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -700,9 +700,23 @@
       "source": "https://www.scottbuckley.com.au/library/balefire/",
       "credit": "'Balefire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Folk",
+        "Halloween",
+        "Orchestral"
+      ],
+      "moods": [
+        "Brooding",
+        "Dark",
+        "Sinister"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Strings",
+        "Violin",
+        "Vocals (Male)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/balefire-v2-bfaf9681.mp3",
       "type": "mp3",

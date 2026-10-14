@@ -27,7 +27,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [At The End Of All Things](https://github.com/Open-Historia/Open-historia-scenarios/issues/283) | `at-the-end-of-all-things` | Scott Buckley | CC BY 4.0 | 5:17 | 5.6 MB | — | Neoclassical | Bittersweet, Blissful, Peaceful, Thoughtful |
 | [Aurora](https://github.com/Open-Historia/Open-historia-scenarios/issues/330) | `aurora` | Scott Buckley | CC BY 4.0 | 8:19 | 8.7 MB | — | Ambient, Neoclassical | Bittersweet, Emotional, Melancholy, Peaceful, Thoughtful |
 | [Awakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/467) | `awakening` | Scott Buckley | CC BY 4.0 | 1:38 | 1.7 MB | — | Orchestral | Bittersweet, Calm, Emotional, Lonely, Melancholy |
-| [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | — | — |
+| [Balefire](https://github.com/Open-Historia/Open-historia-scenarios/issues/299) | `balefire` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | Ambient, Folk, Halloween, Orchestral | Brooding, Dark, Sinister |
 | [Beautiful Oblivion](https://github.com/Open-Historia/Open-historia-scenarios/issues/356) | `beautiful-oblivion` | Scott Buckley | CC BY 4.0 | 7:06 | 7.3 MB | — | — | — |
 | [Beyond These Walls](https://github.com/Open-Historia/Open-historia-scenarios/issues/343) | `beyond-these-walls` | Scott Buckley | CC BY 4.0 | 6:57 | 7.3 MB | — | — | — |
 | [Blood](https://github.com/Open-Historia/Open-historia-scenarios/issues/459) | `blood` | Scott Buckley | CC BY 4.0 | 5:48 | 6.0 MB | — | — | — |
@@ -573,6 +573,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/balefire/>
+- **Genre:** Ambient, Folk, Halloween, Orchestral
+- **Mood:** Brooding, Dark, Sinister
+- **Instruments:** Drums (Epic), Strings, Violin, Vocals (Male)
 - **Credit:**
 
 > 'Balefire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
