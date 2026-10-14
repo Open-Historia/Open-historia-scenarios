@@ -73,7 +73,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 4.8 MB | — |
 | [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — |
 | [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 5.3 MB | — |
-| [Fate and Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) | `fate-and-fortune` | Scott Buckley | CC BY 4.0 | 1:23 | 3.2 MB | — |
+| [Fate and Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) | `fate-and-fortune` | Scott Buckley | CC BY 4.0 | 1:23 | 1.5 MB | — |
 | [Felicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/346) | `felicity` | Scott Buckley | CC BY 4.0 | 3:31 | 3.7 MB | — |
 | [Filaments](https://github.com/Open-Historia/Open-historia-scenarios/issues/378) | `filaments` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
 | [Firefly](https://github.com/Open-Historia/Open-historia-scenarios/issues/455) | `firefly` | Scott Buckley | CC BY 4.0 | 2:37 | 5.6 MB | — |
@@ -1016,9 +1016,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/fate-and-fortune/>
 - **Credit:**
 
-> 'Fate and Fortune' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Fate and Fortune' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/fate-and-fortune-v1-a213071b.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/fate-and-fortune-v2-d7005832.mp3) (version 2, posted by @Arkniem)
 
 ### Felicity (`felicity`)
 
