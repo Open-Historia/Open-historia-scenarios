@@ -8,6 +8,12 @@
 //   { loading: [...], game: [...], atWar: [...], battle: [...] }
 //   each a list of at most 12 entries { id, version }
 //
+// and it may say how loud each situation's music is, as a share of the volume
+// the player set:
+//
+//   volume: { game: 35, battle: 100 }
+//   whole numbers from 0 to 100, for those same four situations
+//
 // Anything else in it is refused. An address there would have every player's
 // game fetch a file from wherever the scenario's author liked, and would get
 // round the one thing the music list is for: that every track is one the hub
@@ -26,6 +32,25 @@ export const MAX_TRACKS_PER_SITUATION = 12;
 
 const SITUATION_NAMES = MUSIC_SITUATIONS.map((name) => `\`${name}\``).join(", ");
 
+// How loud each situation is: a record of whole numbers from 0 to 100, for
+// the four situations and nothing else. A number is all it can be: there is
+// no way to name a file or an address here.
+const checkVolume = (volume, { label, findings }) => {
+  if (!isRecord(volume)) {
+    findings.problem(`The music volume of ${label} is not what the game writes there: it is a number from 0 to 100 for each situation`);
+    return;
+  }
+  for (const [situation, value] of Object.entries(volume)) {
+    if (!MUSIC_SITUATIONS.includes(situation)) {
+      findings.problem(`${label} has a music volume for ${quoted(situation)}, which is not something a scenario can set music for (only ${SITUATION_NAMES})`);
+      continue;
+    }
+    if (!Number.isSafeInteger(value) || value < 0 || value > 100) {
+      findings.problem(`The ${quoted(situation)} music volume of ${label} is not a whole number from 0 to 100`);
+    }
+  }
+};
+
 // Checks the `music` record of a scenario; `label` is how the scenario is named
 // in a sentence. Problems go to `findings`. Nothing is put right here: a
 // record that is not what the game writes is the author's to fix.
@@ -36,6 +61,10 @@ export const checkScenarioMusic = (music, { label, findings }) => {
     return;
   }
   for (const [situation, tracks] of Object.entries(music)) {
+    if (situation === "volume") {
+      checkVolume(tracks, { label, findings });
+      continue;
+    }
     if (!MUSIC_SITUATIONS.includes(situation)) {
       findings.problem(`${label} has music for ${quoted(situation)}, which is not something a scenario can set music for (only ${SITUATION_NAMES})`);
       continue;
