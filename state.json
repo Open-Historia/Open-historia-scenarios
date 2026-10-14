@@ -813,8 +813,8 @@
     },
     "416": {
       "id": "red",
-      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/red.mp3",
-      "bodyHash": "9163858e24f6aef99262b24c3408e9611700ee218c6d73d592f3342102c02be8"
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/red-small.mp3",
+      "bodyHash": "e44daf4dc2a58afd649ff115879a716a05bc677db9c6865068da3f446cf0c4ef"
     },
     "417": {
       "id": "static",
