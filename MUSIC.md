@@ -72,7 +72,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 6.5 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 4.8 MB | — |
 | [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — |
-| [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 11.7 MB | — |
+| [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 5.3 MB | — |
 | [Fate and Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) | `fate-and-fortune` | Scott Buckley | CC BY 4.0 | 1:23 | 3.2 MB | — |
 | [Felicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/346) | `felicity` | Scott Buckley | CC BY 4.0 | 3:31 | 8.0 MB | — |
 | [Filaments](https://github.com/Open-Historia/Open-historia-scenarios/issues/378) | `filaments` | Scott Buckley | CC BY 4.0 | 5:40 | 13.0 MB | — |
@@ -1005,9 +1005,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/falling-together/>
 - **Credit:**
 
-> 'Falling Together' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Falling Together' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/falling-together-v1-909e60d5.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/falling-together-v2-02949a0c.mp3) (version 2, posted by @Arkniem)
 
 ### Fate and Fortune (`fate-and-fortune`)
 
