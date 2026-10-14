@@ -186,7 +186,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — | Orchestral | Comedic, Happy, Playful, Reflective |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | Orchestral | Adventurous, Driving |
 | [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — | — | — |
-| [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | — | — |
+| [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | Neoclassical | Bittersweet, Innocent |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | — | — |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | — | — |
 | [Resolutions](https://github.com/Open-Historia/Open-historia-scenarios/issues/326) | `resolutions` | Scott Buckley | CC BY 4.0 | 5:28 | 5.3 MB | — | — | — |
@@ -2784,6 +2784,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/reawakening/>
+- **Genre:** Neoclassical
+- **Mood:** Bittersweet, Innocent
+- **Instruments:** Piano, Strings, Woodwinds
 - **Credit:**
 
 > 'Reawakening' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
