@@ -154,10 +154,12 @@ export const openStore = async ({ client, workDir, log = console.log }) => {
 // ---- comments ---------------------------------------------------------------------
 
 // The one status comment the workflow keeps on a post, made or updated.
-// Resolves true when it was made (which notifies the post's author).
-const setStatus = async (client, number, body) => {
+// Resolves true when it was made (which notifies the post's author). It is
+// found again by the hidden line it starts with (`marker`, which `body` has to
+// start with: the background music workflow keeps its own the same way).
+export const setStatus = async (client, number, body, marker = MARKER) => {
   const comments = await client.listComments(number);
-  const own = comments.find((comment) => comment.user?.login === BOT && String(comment.body ?? "").startsWith(MARKER));
+  const own = comments.find((comment) => comment.user?.login === BOT && String(comment.body ?? "").startsWith(marker));
   if (own) {
     if (own.body !== body) await client.updateComment(own.id, body);
     return false;

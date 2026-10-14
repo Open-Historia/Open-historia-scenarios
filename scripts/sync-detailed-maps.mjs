@@ -13,7 +13,7 @@
 
 import os from "node:os";
 import path from "node:path";
-import { createClient } from "./detailed-maps/github.mjs";
+import { createClient, dryRunOf } from "./detailed-maps/github.mjs";
 import { syncDetailedMaps } from "./detailed-maps/sync.mjs";
 
 const dryRun = process.argv.includes("--dry-run");
@@ -25,30 +25,7 @@ if (!token && !dryRun) {
 }
 
 let client = createClient({ repo, token });
-if (dryRun) {
-  const would = (what) => console.log(`(dry run) would ${what}`);
-  let fakeId = -1;
-  client = {
-    ...client,
-    createComment: async (number, body) => would(`comment on #${number}:\n${body}\n`),
-    updateComment: async (id, body) => would(`update comment ${id}:\n${body}\n`),
-    addLabel: async (number, name) => would(`label #${number} "${name}"`),
-    removeLabel: async (number, name) => would(`remove the label "${name}" from #${number}`),
-    createRelease: async ({ tag, draft }) => {
-      would(`create the ${draft ? "draft " : ""}release ${tag}`);
-      return { id: fakeId--, tag, draft, assets: [] };
-    },
-    uploadAsset: async (release, name) => {
-      would(`upload ${name} to ${release.tag}`);
-      return { id: fakeId--, name, tag: release.tag, url: `https://github.com/${repo}/releases/download/${release.tag}/${name}` };
-    },
-    deleteAsset: async (id) => would(`delete the release file ${id}`),
-    writeData: async (files, message) => {
-      would(`commit "${message}" to the detailed-maps-index branch`);
-      return true;
-    },
-  };
-}
+if (dryRun) client = dryRunOf(client);
 
 const workDir = path.join(process.env.RUNNER_TEMP || os.tmpdir(), "detailed-maps");
 const summary = await syncDetailedMaps({ client, workDir });

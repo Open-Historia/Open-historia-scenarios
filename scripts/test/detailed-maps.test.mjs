@@ -4,12 +4,12 @@ import os from "node:os";
 import path from "node:path";
 import test from "node:test";
 import { checkForm, parseForm } from "../detailed-maps/form.mjs";
-import { ARCHIVE_RELEASE, LIST_FILE, PAGE_FILE, PROBLEM_LABEL, STATE_FILE, emptyList, findMap } from "../detailed-maps/maps.mjs";
+import { ARCHIVE_RELEASE, LABEL, LIST_FILE, PAGE_FILE, PROBLEM_LABEL, STATE_FILE, emptyList, findMap } from "../detailed-maps/maps.mjs";
 import { inspectMap, zxyToTileId } from "../detailed-maps/pmtiles.mjs";
 import { MARKER, changeMap, openStore, syncDetailedMaps } from "../detailed-maps/sync.mjs";
+import { REPO, fakeDownloads, fakeGitHub as fakePosts } from "./fake-github.mjs";
 import { png } from "./fixtures.mjs";
 
-const REPO = "Open-Historia/Open-historia-scenarios";
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "detailed-maps-test-"));
 test.after(() => fs.rmSync(temp, { recursive: true, force: true }));
 
@@ -55,83 +55,8 @@ const body = ({ name = "Test world", id = "", link = "https://example.com/a.pmti
   ...Array.from({ length: 4 }, (_, i) => `- [${i < ticks ? "X" : " "}] box ${i}`),
 ].join("\n");
 
-// GitHub, in memory: posts, comments, labels, releases and the data branch.
-const fakeGitHub = () => {
-  let nextId = 1;
-  const posts = [];
-  const comments = new Map();
-  const releases = [];
-  const data = {};
-  const commits = [];
-  const attachments = {};
-  const client = {
-    repo: REPO,
-    listPosts: async () => posts.filter((post) => post.labels.some((label) => label.name === "detailed map")).map((post) => ({ ...post })),
-    listComments: async (number) => comments.get(number) ?? [],
-    createComment: async (number, text) => {
-      comments.set(number, [...(comments.get(number) ?? []), { id: nextId++, body: text, user: { login: "github-actions[bot]" } }]);
-    },
-    updateComment: async (id, text) => {
-      for (const list of comments.values()) for (const comment of list) if (comment.id === id) comment.body = text;
-    },
-    addLabel: async (number, name) => {
-      const post = posts.find((entry) => entry.number === number);
-      if (!post.labels.some((label) => label.name === name)) post.labels.push({ name });
-    },
-    removeLabel: async (number, name) => {
-      const post = posts.find((entry) => entry.number === number);
-      post.labels = post.labels.filter((label) => label.name !== name);
-    },
-    listReleases: async () => releases.map((release) => ({ ...release, assets: [...release.assets] })),
-    createRelease: async ({ tag, draft = false }) => {
-      const release = { id: nextId++, tag, draft, assets: [] };
-      releases.push(release);
-      return { ...release, assets: [] };
-    },
-    uploadAsset: async (release, name, file) => {
-      const stored = releases.find((entry) => entry.id === release.id);
-      assert.ok(!stored.assets.some((asset) => asset.name === name), `${name} uploaded twice to ${release.tag}`);
-      const asset = { id: nextId++, name, tag: release.tag, url: `https://github.com/${REPO}/releases/download/${release.tag}/${name}`, bytes: fs.readFileSync(file) };
-      stored.assets.push(asset);
-      return asset;
-    },
-    deleteAsset: async (id) => {
-      for (const release of releases) release.assets = release.assets.filter((asset) => asset.id !== id);
-    },
-    downloadAsset: async (asset, dest) => {
-      const stored = releases.flatMap((release) => release.assets).find((entry) => entry.id === asset.id);
-      fs.writeFileSync(dest, stored.bytes);
-    },
-    // Pictures dragged into posts: served when they are in `attachments`.
-    downloadAttachment: async (url, dest) => {
-      if (!attachments[url]) throw new Error("GitHub answered 404");
-      fs.writeFileSync(dest, attachments[url]);
-    },
-    readData: async (file) => (data[file] ? JSON.parse(data[file]) : null),
-    writeData: async (files, message) => {
-      Object.assign(data, files);
-      commits.push(message);
-      return true;
-    },
-  };
-  const addPost = (number, text, user = "designer") => {
-    posts.push({ number, body: text, state: "open", state_reason: null, user: { login: user }, labels: [{ name: "detailed map" }] });
-  };
-  const editPost = (number, changes) => Object.assign(posts.find((entry) => entry.number === number), changes);
-  return { client, posts, comments, releases, data, commits, attachments, addPost, editPost, list: () => JSON.parse(data[LIST_FILE]), state: () => JSON.parse(data[STATE_FILE]) };
-};
-
-// Downloads served from local files, counted.
-const fakeDownloads = (files) => {
-  const calls = [];
-  const download = async (link, dest) => {
-    calls.push(link);
-    if (!files[link]) throw new Error("The download link answered HTTP 404. Is it public, and still there?");
-    fs.copyFileSync(files[link], dest);
-    return fs.statSync(dest).size;
-  };
-  return { download, calls };
-};
+// GitHub, in memory (fake-github.mjs), listing the detailed map posts.
+const fakeGitHub = () => fakePosts({ label: LABEL, listFile: LIST_FILE, stateFile: STATE_FILE });
 
 const statusOf = (github, number) => (github.comments.get(number) ?? []).find((comment) => comment.body.startsWith(MARKER))?.body ?? "";
 

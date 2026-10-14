@@ -5,10 +5,11 @@
 import { latestVersion, liveVersions } from "./maps.mjs";
 import { megabytes } from "./pmtiles.mjs";
 
-const cell = (text) => String(text ?? "").replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
+// (Both are used for the music page as well: scripts/music/page.mjs.)
+export const cell = (text) => String(text ?? "").replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 
 // A post's credits, shown quoted: its own words and links, no HTML, not too long.
-const quoted = (text) => {
+export const quoted = (text) => {
   const clean = String(text ?? "").replace(/\r\n/g, "\n").replace(/<[^>]*>/g, "").trim().slice(0, 3000);
   return clean ? clean.split("\n").map((line) => `> ${line}`.trimEnd()).join("\n") : "> _No credits given._";
 };

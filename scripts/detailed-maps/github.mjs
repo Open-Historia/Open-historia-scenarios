@@ -3,6 +3,9 @@
 // branch. Kept apart from the hub's own client (scripts/lib/github.mjs): the
 // two workflows share nothing but the repository, and the hub's downloader
 // for pictures dragged into a post.
+//
+// The background music scripts (scripts/music) use it too, with their own
+// label and branch: their posts are handled the same way.
 
 import fs from "node:fs";
 import { Readable } from "node:stream";
@@ -23,7 +26,10 @@ export class GitHubError extends Error {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, fetchImpl = fetch }) => {
+// `label` is the label of the posts to list, `dataBranch` the branch the list
+// is kept on, and `problemNote` what the "needs changes" label says of itself
+// when this is what first makes it.
+export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, label = LABEL, problemNote = "A detailed map post with something to fix", fetchImpl = fetch }) => {
   const headers = {
     Accept: "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
@@ -75,11 +81,15 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, fetchImpl 
 
   return {
     repo,
+    dataBranch,
 
-    // Every detailed map post, open or closed, oldest first: when two posts ask
-    // for the same ID, the older one has it.
-    listPosts: async () => (await paged(`/repos/${repo}/issues?state=all&labels=${encodeURIComponent(LABEL)}&sort=created&direction=asc`))
+    // Every post with the label, open or closed, oldest first: when two posts
+    // ask for the same ID, the older one has it.
+    listPosts: async () => (await paged(`/repos/${repo}/issues?state=all&labels=${encodeURIComponent(label)}&sort=created&direction=asc`))
       .filter((issue) => !issue.pull_request),
+
+    // Closed as "not planned": what turns a post away.
+    closeAsNotPlanned: (number) => api("PATCH", `/repos/${repo}/issues/${number}`, { body: { state: "closed", state_reason: "not_planned" } }),
 
     permissionOf: async (login) => {
       const answer = await api("GET", `/repos/${repo}/collaborators/${encodeURIComponent(login)}/permission`, { okStatuses: [404] });
@@ -93,7 +103,7 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, fetchImpl 
     addLabel: async (number, name) => {
       // The label has to exist, or GitHub answers 422 for the issue.
       await api("POST", `/repos/${repo}/labels`, {
-        body: { name, color: "d93f0b", description: "A detailed map post with something to fix" },
+        body: { name, color: "d93f0b", description: problemNote },
         okStatuses: [422],
       });
       return api("POST", `/repos/${repo}/issues/${number}/labels`, { body: { labels: [name] } });
@@ -117,12 +127,12 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, fetchImpl 
     },
 
     // Streamed from disk: a map is up to 500 MB.
-    uploadAsset: async (release, name, file) => {
+    uploadAsset: async (release, name, file, { contentType = "application/octet-stream" } = {}) => {
       const { size } = fs.statSync(file);
       for (let attempt = 1; ; attempt += 1) {
         const response = await fetchImpl(`${UPLOADS}/repos/${repo}/releases/${release.id}/assets?name=${encodeURIComponent(name)}`, {
           method: "POST",
-          headers: { ...headers, "Content-Type": "application/octet-stream", "Content-Length": String(size) },
+          headers: { ...headers, "Content-Type": contentType, "Content-Length": String(size) },
           body: Readable.toWeb(fs.createReadStream(file)),
           duplex: "half",
         }).catch((error) => ({ ok: false, status: 0, text: async () => String(error?.message || error) }));
@@ -191,6 +201,35 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, fetchImpl 
       });
       if (parent) await api("PATCH", `/repos/${repo}/git/refs/heads/${encodeURIComponent(dataBranch)}`, { body: { sha: commit.sha } });
       else await api("POST", `/repos/${repo}/git/refs`, { body: { ref: `refs/heads/${dataBranch}`, sha: commit.sha } });
+      return true;
+    },
+  };
+};
+
+// The same client, changing nothing (--dry-run): everything is still read,
+// downloaded and checked, and what a real run would have done is printed
+// instead (no release, upload, comment, label, closing or commit).
+export const dryRunOf = (client, { log = console.log } = {}) => {
+  const would = (what) => log(`(dry run) would ${what}`);
+  let fakeId = -1;
+  return {
+    ...client,
+    createComment: async (number, body) => would(`comment on #${number}:\n${body}\n`),
+    updateComment: async (id, body) => would(`update comment ${id}:\n${body}\n`),
+    addLabel: async (number, name) => would(`label #${number} "${name}"`),
+    removeLabel: async (number, name) => would(`remove the label "${name}" from #${number}`),
+    closeAsNotPlanned: async (number) => would(`close #${number} as not planned`),
+    createRelease: async ({ tag, draft }) => {
+      would(`create the ${draft ? "draft " : ""}release ${tag}`);
+      return { id: fakeId--, tag, draft, assets: [] };
+    },
+    uploadAsset: async (release, name) => {
+      would(`upload ${name} to ${release.tag}`);
+      return { id: fakeId--, name, tag: release.tag, url: `https://github.com/${client.repo}/releases/download/${release.tag}/${name}` };
+    },
+    deleteAsset: async (id) => would(`delete the release file ${id}`),
+    writeData: async (files, message) => {
+      would(`commit "${message}" to the ${client.dataBranch} branch`);
       return true;
     },
   };
