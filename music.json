@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:56:20.294Z",
+  "updated": "2026-10-14T04:56:44.745Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5280,9 +5280,18 @@
         "menu",
         "loading"
       ],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Inspirational",
+        "Mysterious",
+        "Reflective",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-of-time-v2-b7a463c3.mp3",
       "type": "mp3",

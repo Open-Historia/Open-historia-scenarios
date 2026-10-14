@@ -169,7 +169,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Parasite](https://github.com/Open-Historia/Open-historia-scenarios/issues/503) | `parasite` | Scott Buckley | CC BY 4.0 | 4:04 | 5.7 MB | — | Ambient, Electronica, Rock | Bittersweet, Brooding, Dark, Intense, Mysterious, Sombre |
 | [Pariah](https://github.com/Open-Historia/Open-historia-scenarios/issues/504) | `pariah` | Scott Buckley | CC BY 4.0 | 2:35 | 3.4 MB | — | Electronica, Rock, Techno | Angry, Dark, Driving, Intense, Sinister |
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 5.9 MB | — | Orchestral | Bittersweet, Emotional, Intense, Passionate |
-| [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 5.0 MB | The menu, A game loading | — | — |
+| [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 5.0 MB | The menu, A game loading | Orchestral | Inspirational, Mysterious, Reflective, Thoughtful |
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 2.8 MB | — | — | — |
 | [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — | — | — |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 3.8 MB | — | — | — |
@@ -2549,6 +2549,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/passage-of-time/>
+- **Genre:** Orchestral
+- **Mood:** Inspirational, Mysterious, Reflective, Thoughtful
+- **Instruments:** Orchestra
 - **Credit:**
 
 > 'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
