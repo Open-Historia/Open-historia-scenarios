@@ -162,7 +162,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [New Beginnings](https://github.com/Open-Historia/Open-historia-scenarios/issues/490) | `new-beginnings` | Scott Buckley | CC BY 4.0 | 1:43 | 1.6 MB | — | Orchestral | Happy, Inspirational, Peaceful, Uplifting |
 | [Nightfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/399) | `nightfall` | Scott Buckley | CC BY 4.0 | 4:23 | 4.7 MB | — | Electronica, Neoclassical | Brooding, Dark, Driving, Intense |
 | [O Come All Ye Faithful](https://github.com/Open-Historia/Open-historia-scenarios/issues/411) | `o-come-all-ye-faithful` | Scott Buckley | CC BY 4.0 | 2:26 | 2.7 MB | — | Christmas, Orchestral | Adventurous, Inspirational, Uplifting |
-| [Oblivion Overture](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) | `oblivion-overture` | Scott Buckley | CC BY 4.0 | 1:56 | 2.7 MB | — | — | — |
+| [Oblivion Overture](https://github.com/Open-Historia/Open-historia-scenarios/issues/470) | `oblivion-overture` | Scott Buckley | CC BY 4.0 | 1:56 | 2.7 MB | — | Orchestral | Adventurous, Epic |
 | [Omega](https://github.com/Open-Historia/Open-historia-scenarios/issues/382) | `omega` | Scott Buckley | CC BY 4.0 | 4:05 | 4.2 MB | — | Orchestral | Bittersweet, Emotional, Epic |
 | [One Falls to the Fire](https://github.com/Open-Historia/Open-historia-scenarios/issues/469) | `one-falls-to-the-fire` | Scott Buckley | CC BY 4.0 | 3:50 | 5.3 MB | — | Orchestral, Pop | Inspirational, Uplifting |
 | [Origami](https://github.com/Open-Historia/Open-historia-scenarios/issues/269) | `origami` | Scott Buckley | CC BY 4.0 | 3:09 | 3.6 MB | — | — | — |
@@ -2451,6 +2451,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/oblivion-overture/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Epic
+- **Instruments:** Brass, Choir, Orchestra, Percussion, Strings, Woodwinds
 - **Credit:**
 
 > 'Oblivion Overture' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
