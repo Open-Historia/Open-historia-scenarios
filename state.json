@@ -618,8 +618,8 @@
     },
     "377": {
       "id": "inbound",
-      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/inbound.mp3",
-      "bodyHash": "5c9547f64db9e5014ed506b769d2eb00788687e1d83ab0f7e1ba32599ec09b39"
+      "link": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music-inbox/inbound-small.mp3",
+      "bodyHash": "31b28b21bf4e1897d03ffc37ce84088d5003ea6783df79b887d7110e46d23741"
     },
     "378": {
       "id": "filaments",
