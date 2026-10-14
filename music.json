@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:36:07.104Z",
+  "updated": "2026-10-14T04:36:10.144Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1688,9 +1688,22 @@
       "source": "https://www.scottbuckley.com.au/library/drift/",
       "credit": "'Drift' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "moods": [
+        "Happy",
+        "Melancholy",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Bass",
+        "Drums (Acoustic)",
+        "Guitar (Electric)",
+        "Synth (Lead)",
+        "Synth (Pad)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/drift-v2-947da398.mp3",
       "type": "mp3",

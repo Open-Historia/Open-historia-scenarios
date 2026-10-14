@@ -58,7 +58,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Desperation](https://github.com/Open-Historia/Open-historia-scenarios/issues/491) | `desperation` | Scott Buckley | CC BY 4.0 | 2:11 | 2.0 MB | — | Orchestral | Brooding, Dark, Emotional, Reflective, Sombre |
 | [Discovery](https://github.com/Open-Historia/Open-historia-scenarios/issues/372) | `discovery` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | Orchestral | Adventurous, Driving, Epic |
 | [Dreamt of Flying](https://github.com/Open-Historia/Open-historia-scenarios/issues/452) | `dreamt-of-flying` | Scott Buckley | CC BY 4.0 | 3:49 | 4.1 MB | — | — | — |
-| [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — | — | — |
+| [Drift](https://github.com/Open-Historia/Open-historia-scenarios/issues/449) | `drift` | Scott Buckley | CC BY 4.0 | 4:18 | 4.2 MB | — | Pop, Rock | Happy, Melancholy, Uplifting |
 | [Echoes](https://github.com/Open-Historia/Open-historia-scenarios/issues/285) | `echoes` | Scott Buckley | CC BY 4.0 | 6:04 | 6.3 MB | — | — | — |
 | [Echoes Of Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/273) | `echoes-of-home` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | — | — |
 | [Eclipse](https://github.com/Open-Historia/Open-historia-scenarios/issues/514) | `eclipse` | Scott Buckley | CC BY 4.0 | 4:13 | 4.3 MB | — | — | — |
@@ -1003,6 +1003,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/drift/>
+- **Genre:** Pop, Rock
+- **Mood:** Happy, Melancholy, Uplifting
+- **Instruments:** Bass, Drums (Acoustic), Guitar (Electric), Synth (Lead), Synth (Pad)
 - **Credit:**
 
 > 'Drift' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
