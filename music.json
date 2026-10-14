@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:53:29.613Z",
+  "updated": "2026-10-14T02:53:56.501Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3794,13 +3794,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/starfire/",
-      "credit": "'Starfire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Starfire' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/starfire-v1-d97bd4c5.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/starfire-v2-c8908080.mp3",
       "type": "mp3",
-      "bytes": 13644506,
-      "sha256": "d97bd4c5256fd4ccceaab1e5660844b92905c66d570c0e40f774b73c711e8c1c",
+      "bytes": 6372031,
+      "sha256": "c89080803e1143894473db74cc3d4c22b025ac40532b4534ddbed96688d90c3e",
       "seconds": 341,
       "post": 266,
       "postedBy": "Arkniem",
