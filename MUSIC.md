@@ -139,7 +139,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 6.7 MB | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
-| [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
+| [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 6.1 MB | — |
 | [Midsommar](https://github.com/Open-Historia/Open-historia-scenarios/issues/360) | `midsommar` | Scott Buckley | CC BY 4.0 | 3:54 | 8.9 MB | — |
 | [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 10.5 MB | — |
 | [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 9.0 MB | — |
@@ -1742,9 +1742,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/memories-of-stone/>
 - **Credit:**
 
-> 'Memories Of Stone' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Memories Of Stone' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/memories-of-stone-v1-1ad908e4.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/memories-of-stone-v2-bd11a2a2.mp3) (version 2, posted by @Arkniem)
 
 ### Midsommar (`midsommar`)
 
