@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:58:41.406Z",
+  "updated": "2026-10-14T02:58:46.232Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4208,13 +4208,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/there-is-a-place/",
-      "credit": "'There is a Place' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'There is a Place' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-is-a-place-v1-2351a903.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/there-is-a-place-v2-3c541b34.mp3",
       "type": "mp3",
-      "bytes": 13023798,
-      "sha256": "2351a90357cc5746957364bceff426f0b817cf9702789ec5910888d8e6c0cb71",
+      "bytes": 5889783,
+      "sha256": "3c541b3482afdf2a78490fe2a26adcb77e3112d8fe7c8189422b9c46dc388597",
       "seconds": 326,
       "post": 402,
       "postedBy": "Arkniem",
