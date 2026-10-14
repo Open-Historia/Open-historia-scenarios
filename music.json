@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:50:28.430Z",
+  "updated": "2026-10-14T02:50:58.222Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3506,13 +3506,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/shoulders-of-giants/",
-      "credit": "'Shoulders Of Giants' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Shoulders Of Giants' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/shoulders-of-giants-v1-a148f8fd.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/shoulders-of-giants-v2-338e2e27.mp3",
       "type": "mp3",
-      "bytes": 17732153,
-      "sha256": "a148f8fd320d4a739da3124053fdc3178dcf9b6902507f2c86a83497f0279674",
+      "bytes": 8001982,
+      "sha256": "338e2e276fe64df6cb0d55e827d2c65549fcba6bd08c0164b1a42b34e9c2cbb2",
       "seconds": 443,
       "post": 282,
       "postedBy": "Arkniem",
