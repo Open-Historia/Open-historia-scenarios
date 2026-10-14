@@ -234,7 +234,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 3.8 MB | — |
 | [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
 | [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 1.6 MB | — |
-| [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 7.8 MB | — |
+| [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 3.6 MB | — |
 | [The Waster (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) | `the-waster-ost` | Scott Buckley | CC BY 4.0 | 3:52 | 8.4 MB | — |
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 12.6 MB | — |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 15.7 MB | — |
@@ -2787,9 +2787,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-summoning/>
 - **Credit:**
 
-> 'The Summoning' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Summoning' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-summoning-v1-76de8cb1.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-summoning-v2-d1430e37.mp3) (version 2, posted by @Arkniem)
 
 ### The Waster (OST) (`the-waster-ost`)
 
