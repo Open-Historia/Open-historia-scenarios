@@ -233,7 +233,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 7.5 MB | — | Neoclassical | Bittersweet, Emotional, Melancholy, Thoughtful |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 2.9 MB | — | Pop | Nostalgic, Peaceful, Reflective |
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 3.8 MB | — | Orchestral | Adventurous, Inspirational |
-| [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 4.6 MB | — | — | — |
+| [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 4.6 MB | — | Ambient, Halloween | Dark, Mysterious, Sinister |
 | [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 0.7 MB | — | — | — |
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 3.6 MB | — | — | — |
 | [The Waster (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) | `the-waster-ost` | Scott Buckley | CC BY 4.0 | 3:52 | 4.1 MB | — | — | — |
@@ -3443,6 +3443,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/the-old-ones/>
+- **Genre:** Ambient, Halloween
+- **Mood:** Dark, Mysterious, Sinister
+- **Instruments:** Strings, Synth (Pad)
 - **Credit:**
 
 > 'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
