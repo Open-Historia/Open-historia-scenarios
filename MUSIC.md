@@ -113,7 +113,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Incantation](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) | `incantation` | Scott Buckley | CC BY 4.0 | 7:13 | 16.5 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 5.9 MB | — |
 | [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 4.2 MB | — |
-| [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
+| [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 4.4 MB | — |
 | [Into The Unknown](https://github.com/Open-Historia/Open-historia-scenarios/issues/319) | `into-the-unknown` | Scott Buckley | CC BY 4.0 | 4:22 | 10.0 MB | — |
 | [Into The Wilds](https://github.com/Open-Historia/Open-historia-scenarios/issues/281) | `into-the-wilds` | Scott Buckley | CC BY 4.0 | 4:07 | 9.4 MB | — |
 | [Invocation](https://github.com/Open-Historia/Open-historia-scenarios/issues/450) | `invocation` | Scott Buckley | CC BY 4.0 | 3:34 | 7.6 MB | — |
@@ -1456,9 +1456,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/intervention/>
 - **Credit:**
 
-> 'Intervention' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Intervention' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/intervention-v1-cc94e417.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/intervention-v2-632a1c53.mp3) (version 2, posted by @Arkniem)
 
 ### Into The Unknown (`into-the-unknown`)
 

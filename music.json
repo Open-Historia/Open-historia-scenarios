@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:28:13.217Z",
+  "updated": "2026-10-14T02:28:19.208Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1934,13 +1934,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/intervention/",
-      "credit": "'Intervention' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Intervention' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/intervention-v1-cc94e417.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/intervention-v2-632a1c53.mp3",
       "type": "mp3",
-      "bytes": 10335282,
-      "sha256": "cc94e41771807cb354347c8a8859d5c3c49dfce44192d16702a13d989425ddf1",
+      "bytes": 4605233,
+      "sha256": "632a1c53abddfa683f18220de1bd08ecb244f283fdaac21705c5f6d1c912872a",
       "seconds": 258,
       "post": 410,
       "postedBy": "Arkniem",
