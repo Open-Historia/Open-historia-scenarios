@@ -82,7 +82,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — |
-| [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 7.3 MB | — |
+| [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — |
 | [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 12.4 MB | — |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 14.6 MB | — |
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 4.4 MB | — |
@@ -1115,9 +1115,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/glow/>
 - **Credit:**
 
-> 'Glow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Glow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/glow-v1-c35662d3.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/glow-v2-741489ef.mp3) (version 2, posted by @Arkniem)
 
 ### Golden Hour (`golden-hour`)
 
