@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T03:00:53.969Z",
+  "updated": "2026-10-14T03:01:27.805Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4478,13 +4478,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/victor-lux/",
-      "credit": "'Victor Lux' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Victor Lux' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/victor-lux-v1-28c6c03f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/victor-lux-v2-ec5e47cb.mp3",
       "type": "mp3",
-      "bytes": 8096102,
-      "sha256": "28c6c03f77c08991f0b10dc0d84aa61e5de6814ea563847cb002cf33cdbeb086",
+      "bytes": 3846872,
+      "sha256": "ec5e47cbed6761d7ec6f1bf083c1deb1ac8ba358898a56e4f6a383ec13390c71",
       "seconds": 202,
       "post": 300,
       "postedBy": "Arkniem",
