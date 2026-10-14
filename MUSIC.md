@@ -209,7 +209,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Sleep](https://github.com/Open-Historia/Open-historia-scenarios/issues/383) | `sleep` | Scott Buckley | CC BY 4.0 | 3:04 | 3.0 MB | — |
 | [Snowfall](https://github.com/Open-Historia/Open-historia-scenarios/issues/412) | `snowfall` | Scott Buckley | CC BY 4.0 | 4:08 | 4.3 MB | — |
 | [Soar](https://github.com/Open-Historia/Open-historia-scenarios/issues/373) | `soar` | Scott Buckley | CC BY 4.0 | 3:12 | 3.5 MB | — |
-| [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 13.6 MB | — |
+| [Solace](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) | `solace` | Scott Buckley | CC BY 4.0 | 5:56 | 6.1 MB | — |
 | [Soldier of Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/457) | `soldier-of-fortune` | Scott Buckley | CC BY 4.0 | 2:44 | 5.9 MB | — |
 | [Solecism](https://github.com/Open-Historia/Open-historia-scenarios/issues/353) | `solecism` | Scott Buckley | CC BY 4.0 | 3:52 | 3.9 MB | — |
 | [Solstice](https://github.com/Open-Historia/Open-historia-scenarios/issues/432) | `solstice` | Scott Buckley | CC BY 4.0 | 3:09 | 7.2 MB | — |
@@ -2512,9 +2512,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/solace/>
 - **Credit:**
 
-> 'Solace' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Solace' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solace-v1-bb54696d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/364) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/solace-v2-557d1f0d.mp3) (version 2, posted by @Arkniem)
 
 ### Soldier of Fortune (`soldier-of-fortune`)
 
