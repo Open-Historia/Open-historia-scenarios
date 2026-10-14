@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:51:30.515Z",
+  "updated": "2026-10-14T02:51:35.657Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3524,13 +3524,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/signal-to-noise/",
-      "credit": "'Signal to Noise' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Signal to Noise' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/signal-to-noise-v1-47a2f15e.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/signal-to-noise-v2-cf31d32d.mp3",
       "type": "mp3",
-      "bytes": 14143939,
-      "sha256": "47a2f15ecd65f1d7ef0418ee17ae31f4e724bdf73b2c2838aaa39ac1703d094e",
+      "bytes": 6474312,
+      "sha256": "cf31d32d9d6a056c3a9e71f95a849efe08f12603bfee3091b42f7d939e529565",
       "seconds": 354,
       "post": 366,
       "postedBy": "Arkniem",
