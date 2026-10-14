@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:08:34.358Z",
+  "updated": "2026-10-14T05:08:39.018Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -7532,9 +7532,17 @@
       "source": "https://www.scottbuckley.com.au/library/katabasis-i/",
       "credit": "'Katabasis I' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Dark",
+        "Melancholy",
+        "Mysterious"
+      ],
+      "instruments": [
+        "Strings"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-i-v1-4c7b60ae.mp3",
       "type": "mp3",
