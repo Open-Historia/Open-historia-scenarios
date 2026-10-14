@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:14:12.262Z",
+  "updated": "2026-10-14T02:14:45.423Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -656,13 +656,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/cicadas/",
-      "credit": "'Cicadas' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Cicadas' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cicadas-v1-6260cfd4.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cicadas-v2-15d98d89.mp3",
       "type": "mp3",
-      "bytes": 15732208,
-      "sha256": "6260cfd4c5bd02b6d124233957ae5ac0f575e2d36fc5f20e939e1727e0cb4c35",
+      "bytes": 7466587,
+      "sha256": "15d98d89f7a42f6acb06f4a135a156b4eef3d3c1ad70ef6c279c8bac6ae3348c",
       "seconds": 393,
       "post": 292,
       "postedBy": "Arkniem",

@@ -42,7 +42,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Chasing Daylight](https://github.com/Open-Historia/Open-historia-scenarios/issues/347) | `chasing-daylight` | Scott Buckley | CC BY 4.0 | 4:34 | 4.8 MB | — |
 | [Childhood](https://github.com/Open-Historia/Open-historia-scenarios/issues/408) | `childhood` | Scott Buckley | CC BY 4.0 | 2:17 | 5.2 MB | — |
 | [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 9.7 MB | — |
-| [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 15.0 MB | — |
+| [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 7.1 MB | — |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 16.0 MB | — |
 | [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 7.5 MB | — |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 7.4 MB | — |
@@ -675,9 +675,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/cicadas/>
 - **Credit:**
 
-> 'Cicadas' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Cicadas' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cicadas-v1-6260cfd4.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/cicadas-v2-15d98d89.mp3) (version 2, posted by @Arkniem)
 
 ### Cirrus (`cirrus`)
 
