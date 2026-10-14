@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:57:40.857Z",
+  "updated": "2026-10-14T02:58:08.732Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4172,13 +4172,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/katabasis-ii/",
-      "credit": "'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Katabasis_II' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v1-a98adeb1.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/katabasis-ii-v2-690ba01b.mp3",
       "type": "mp3",
-      "bytes": 16442513,
-      "sha256": "a98adeb1f2f4271a48a2bf734ec3e0df028a5e4c36f5f34787a6ec5be3607052",
+      "bytes": 7712711,
+      "sha256": "690ba01b1266265f730d9d09161d9b462df5339d7632d0b9c5f12f546494abf0",
       "seconds": 411,
       "post": 256,
       "postedBy": "Arkniem",
