@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:34:09.726Z",
+  "updated": "2026-10-14T04:34:13.300Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1249,9 +1249,18 @@
       "source": "https://www.scottbuckley.com.au/library/clarion/",
       "credit": "'Clarion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Happy",
+        "Inspirational"
+      ],
+      "instruments": [
+        "Clarinet",
+        "Orchestra"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/clarion-v2-59a321bd.mp3",
       "type": "mp3",

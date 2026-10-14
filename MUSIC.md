@@ -44,7 +44,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Chronicle](https://github.com/Open-Historia/Open-historia-scenarios/issues/423) | `chronicle` | Scott Buckley | CC BY 4.0 | 4:15 | 4.4 MB | — | Ambient, Orchestral | Emotional, Mysterious, Sombre, Thoughtful |
 | [Cicadas](https://github.com/Open-Historia/Open-historia-scenarios/issues/292) | `cicadas` | Scott Buckley | CC BY 4.0 | 6:33 | 7.1 MB | — | Ambient, Neoclassical | Blissful, Calm, Dreamy, Peaceful, Thoughtful |
 | [Cirrus](https://github.com/Open-Historia/Open-historia-scenarios/issues/304) | `cirrus` | Scott Buckley | CC BY 4.0 | 6:58 | 7.8 MB | — | Ambient, Neoclassical | Bittersweet, Blissful, Peaceful |
-| [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 3.6 MB | — | — | — |
+| [Clarion](https://github.com/Open-Historia/Open-historia-scenarios/issues/511) | `clarion` | Scott Buckley | CC BY 4.0 | 3:16 | 3.6 MB | — | Orchestral | Adventurous, Happy, Inspirational |
 | [Clear Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/289) | `clear-skies` | Scott Buckley | CC BY 4.0 | 3:15 | 3.5 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Cobalt](https://github.com/Open-Historia/Open-historia-scenarios/issues/428) | `cobalt` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | — | — |
 | [Computations in a Snowstorm](https://github.com/Open-Historia/Open-historia-scenarios/issues/409) | `computations` | Scott Buckley | CC BY 4.0 | 6:02 | 6.6 MB | — | — | — |
@@ -810,6 +810,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/clarion/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Happy, Inspirational
+- **Instruments:** Clarinet, Orchestra
 - **Credit:**
 
 > 'Clarion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
