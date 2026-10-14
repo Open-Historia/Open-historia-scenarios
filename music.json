@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:33:44.978Z",
+  "updated": "2026-10-14T02:34:12.250Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2531,13 +2531,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-exodus/",
-      "credit": "'The Exodus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Exodus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-exodus-v1-234f0487.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-exodus-v2-18d82202.mp3",
       "type": "mp3",
-      "bytes": 9199440,
-      "sha256": "234f048795471c5168d790a3ff4770863757280678f6a7824000c2e45cdda1a7",
+      "bytes": 4070429,
+      "sha256": "18d8220240c1bb7fe2e483cd60d57b1b90439bd1b40ea8bc5e672f9ad667e5f4",
       "seconds": 230,
       "post": 390,
       "postedBy": "Arkniem",
