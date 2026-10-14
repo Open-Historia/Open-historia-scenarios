@@ -76,7 +76,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 5.3 MB | — | Ambient, Neoclassical | Bittersweet, Sad, Thoughtful |
 | [Fate and Fortune](https://github.com/Open-Historia/Open-historia-scenarios/issues/369) | `fate-and-fortune` | Scott Buckley | CC BY 4.0 | 1:23 | 1.5 MB | — | Orchestral | Comedic, Epic, Intense, Sinister |
 | [Felicity](https://github.com/Open-Historia/Open-historia-scenarios/issues/346) | `felicity` | Scott Buckley | CC BY 4.0 | 3:31 | 3.7 MB | — | Folk, Pop | Happy, Romantic, Uplifting |
-| [Filaments](https://github.com/Open-Historia/Open-historia-scenarios/issues/378) | `filaments` | Scott Buckley | CC BY 4.0 | 5:40 | 5.8 MB | — | — | — |
+| [Filaments](https://github.com/Open-Historia/Open-historia-scenarios/issues/378) | `filaments` | Scott Buckley | CC BY 4.0 | 5:40 | 5.8 MB | — | Neoclassical | Bittersweet, Emotional, Sombre, Thoughtful |
 | [Firefly](https://github.com/Open-Historia/Open-historia-scenarios/issues/455) | `firefly` | Scott Buckley | CC BY 4.0 | 2:37 | 2.8 MB | — | — | — |
 | [First Snow](https://github.com/Open-Historia/Open-historia-scenarios/issues/310) | `first-snow` | Scott Buckley | CC BY 4.0 | 3:33 | 3.8 MB | — | Ambient, Christmas, Neoclassical | Calm, Peaceful, Uplifting |
 | [Forever Sky](https://github.com/Open-Historia/Open-historia-scenarios/issues/480) | `forever-sky` | Scott Buckley | CC BY 4.0 | 5:25 | 7.4 MB | — | — | — |
@@ -1258,6 +1258,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/filaments/>
+- **Genre:** Neoclassical
+- **Mood:** Bittersweet, Emotional, Sombre, Thoughtful
+- **Instruments:** Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Filaments' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.

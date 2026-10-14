@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:39:17.370Z",
+  "updated": "2026-10-14T04:39:20.298Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2300,9 +2300,20 @@
       "source": "https://www.scottbuckley.com.au/library/filaments/",
       "credit": "'Filaments' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Emotional",
+        "Sombre",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/filaments-v2-e78a7e9f.mp3",
       "type": "mp3",
