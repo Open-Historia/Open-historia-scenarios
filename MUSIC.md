@@ -229,7 +229,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Great Sea](https://github.com/Open-Historia/Open-historia-scenarios/issues/290) | `the-great-sea` | Scott Buckley | CC BY 4.0 | 4:42 | 5.0 MB | — |
 | [The Illusionist](https://github.com/Open-Historia/Open-historia-scenarios/issues/384) | `the-illusionist` | Scott Buckley | CC BY 4.0 | 3:35 | 3.7 MB | — |
 | [The Legend of Kvothe](https://github.com/Open-Historia/Open-historia-scenarios/issues/437) | `the-legend-of-kvothe` | Scott Buckley | CC BY 4.0 | 5:39 | 6.0 MB | — |
-| [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 16.8 MB | — |
+| [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 7.5 MB | — |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 6.6 MB | — |
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 8.1 MB | — |
 | [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
@@ -2732,9 +2732,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-long-dark/>
 - **Credit:**
 
-> 'The Long Dark' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Long Dark' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-dark-v1-fa5bfe90.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-dark-v2-4a8dafb9.mp3) (version 2, posted by @Arkniem)
 
 ### The Long Way Home (`the-long-way-home`)
 
