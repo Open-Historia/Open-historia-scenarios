@@ -145,7 +145,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 4.9 MB | — | Pop | Bittersweet, Peaceful, Thoughtful |
 | [Monomyth – The Call](https://github.com/Open-Historia/Open-historia-scenarios/issues/387) | `the-call` | Scott Buckley | CC BY 4.0 | 3:57 | 4.2 MB | — | Orchestral | Adventurous, Driving, Emotional |
 | [Monomyth – The Distant Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/386) | `the-distant-sun` | Scott Buckley | CC BY 4.0 | 3:44 | 3.6 MB | — | Ambient, Electronica | Bittersweet, Brooding, Melancholy |
-| [Monomyth – The Encounter](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) | `the-encounter` | Scott Buckley | CC BY 4.0 | 5:07 | 5.3 MB | — | — | — |
+| [Monomyth – The Encounter](https://github.com/Open-Historia/Open-historia-scenarios/issues/392) | `the-encounter` | Scott Buckley | CC BY 4.0 | 5:07 | 5.3 MB | — | Ambient, Electronica, Orchestral | Brooding, Dark, Driving, Sinister |
 | [Monomyth – The Endurance](https://github.com/Open-Historia/Open-historia-scenarios/issues/393) | `the-endurance` | Scott Buckley | CC BY 4.0 | 4:13 | 4.7 MB | — | — | — |
 | [Monomyth – The Exodus](https://github.com/Open-Historia/Open-historia-scenarios/issues/390) | `the-exodus` | Scott Buckley | CC BY 4.0 | 3:50 | 3.9 MB | — | — | — |
 | [Monomyth – The Fall](https://github.com/Open-Historia/Open-historia-scenarios/issues/394) | `the-fall` | Scott Buckley | CC BY 4.0 | 6:23 | 6.6 MB | — | — | — |
@@ -2213,6 +2213,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/the-encounter/>
+- **Genre:** Ambient, Electronica, Orchestral
+- **Mood:** Brooding, Dark, Driving, Sinister
+- **Instruments:** Drums (Epic), Orchestra, Synth (Atmospherics)
 - **Credit:**
 
 > 'The Encounter' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
