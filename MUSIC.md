@@ -241,7 +241,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Weight of Air – Anabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/257) | `anabasis-ii` | Scott Buckley | CC BY 4.0 | 5:29 | 6.1 MB | — | Neoclassical | Bittersweet, Excited, Thoughtful |
 | [The Weight of Air – Katabasis I](https://github.com/Open-Historia/Open-historia-scenarios/issues/519) | `katabasis-i` | Scott Buckley | CC BY 4.0 | 9:50 | 10.7 MB | — | Neoclassical | Dark, Melancholy, Mysterious |
 | [The Weight of Air – Katabasis II](https://github.com/Open-Historia/Open-historia-scenarios/issues/256) | `katabasis-ii` | Scott Buckley | CC BY 4.0 | 6:51 | 7.4 MB | — | Neoclassical | Bittersweet, Playful, Uplifting |
-| [Theory of Machines](https://github.com/Open-Historia/Open-historia-scenarios/issues/435) | `theory-of-machines` | Scott Buckley | CC BY 4.0 | 3:21 | 3.7 MB | — | — | — |
+| [Theory of Machines](https://github.com/Open-Historia/Open-historia-scenarios/issues/435) | `theory-of-machines` | Scott Buckley | CC BY 4.0 | 3:21 | 3.7 MB | — | Neoclassical, Orchestral | Bittersweet, Emotional, Melancholy, Reflective, Thoughtful |
 | [There is a Place](https://github.com/Open-Historia/Open-historia-scenarios/issues/402) | `there-is-a-place` | Scott Buckley | CC BY 4.0 | 5:26 | 5.6 MB | — | Ambient, Neoclassical | Bittersweet, Melancholy, Thoughtful |
 | [There Was A Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/321) | `there-was-a-time` | Scott Buckley | CC BY 4.0 | 5:14 | 5.6 MB | — | Neoclassical | Emotional, Melancholy, Uplifting |
 | [This Too Shall Pass](https://github.com/Open-Historia/Open-historia-scenarios/issues/351) | `this-too-shall-pass` | Scott Buckley | CC BY 4.0 | 7:27 | 7.8 MB | — | — | — |
@@ -3555,6 +3555,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/theory-of-machines/>
+- **Genre:** Neoclassical, Orchestral
+- **Mood:** Bittersweet, Emotional, Melancholy, Reflective, Thoughtful
+- **Instruments:** Strings, Synth (Pad), Vibes
 - **Credit:**
 
 > 'Theory of Machines' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
