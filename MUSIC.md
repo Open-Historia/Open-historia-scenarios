@@ -257,7 +257,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | Orchestral | Driving, Epic, Heroic |
 | [Vengeance](https://github.com/Open-Historia/Open-historia-scenarios/issues/472) | `vengeance` | Scott Buckley | CC BY 4.0 | 2:57 | 4.0 MB | — | Electronica, Rock | Angry, Brooding, Dark, Driving, Ominous |
 | [Venom](https://github.com/Open-Historia/Open-historia-scenarios/issues/453) | `venom` | Scott Buckley | CC BY 4.0 | 1:12 | 1.3 MB | — | Electronica, Orchestral | Dark, Driving, Epic, Industrial, Intense |
-| [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 3.7 MB | — | — | — |
+| [Victor Lux](https://github.com/Open-Historia/Open-historia-scenarios/issues/300) | `victor-lux` | Scott Buckley | CC BY 4.0 | 3:22 | 3.7 MB | — | Orchestral | Adventurous, Grandiose, Inspirational |
 | [Wanderlust](https://github.com/Open-Historia/Open-historia-scenarios/issues/358) | `wanderlust` | Scott Buckley | CC BY 4.0 | 2:48 | 3.0 MB | — | — | — |
 | [Wayfarer](https://github.com/Open-Historia/Open-historia-scenarios/issues/334) | `wayfarer` | Scott Buckley | CC BY 4.0 | 3:42 | 3.9 MB | — | — | — |
 | [Welcome to my Junkyard](https://github.com/Open-Historia/Open-historia-scenarios/issues/493) | `welcome-to-my-junkyard` | Scott Buckley | CC BY 4.0 | 1:51 | 1.7 MB | — | — | — |
@@ -3778,6 +3778,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/victor-lux/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Grandiose, Inspirational
+- **Instruments:** Choir, Orchestra
 - **Credit:**
 
 > 'Victor Lux' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
