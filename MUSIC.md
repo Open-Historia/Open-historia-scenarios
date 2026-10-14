@@ -219,7 +219,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Special Ops](https://github.com/Open-Historia/Open-historia-scenarios/issues/485) | `special-ops` | Scott Buckley | CC BY 4.0 | 3:32 | 3.2 MB | — | — | — |
 | [Starfire](https://github.com/Open-Historia/Open-historia-scenarios/issues/266) | `starfire` | Scott Buckley | CC BY 4.0 | 5:41 | 6.1 MB | — | Orchestral | Adventurous, Epic, Hopeful |
 | [Stars In Her Skies](https://github.com/Open-Historia/Open-historia-scenarios/issues/439) | `stars-in-her-skies` | Scott Buckley | CC BY 4.0 | 4:37 | 4.9 MB | — | — | — |
-| [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 4.4 MB | — | — | — |
+| [Static](https://github.com/Open-Historia/Open-historia-scenarios/issues/417) | `static` | Scott Buckley | CC BY 4.0 | 4:09 | 4.4 MB | — | Neoclassical | Bittersweet, Melancholy, Sombre, Thoughtful |
 | [Sunday Smooth](https://github.com/Open-Historia/Open-historia-scenarios/issues/479) | `sunday-smooth` | Scott Buckley | CC BY 4.0 | 2:35 | 2.4 MB | — | — | — |
 | [Supernova](https://github.com/Open-Historia/Open-historia-scenarios/issues/448) | `supernova` | Scott Buckley | CC BY 4.0 | 4:08 | 4.8 MB | — | — | — |
 | [Tears in Rain](https://github.com/Open-Historia/Open-historia-scenarios/issues/385) | `tears-in-rain` | Scott Buckley | CC BY 4.0 | 5:40 | 6.0 MB | — | — | — |
@@ -3241,6 +3241,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/static/>
+- **Genre:** Neoclassical
+- **Mood:** Bittersweet, Melancholy, Sombre, Thoughtful
+- **Instruments:** Cello, Piano, Strings, Synth (Pad)
 - **Credit:**
 
 > 'Static' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
