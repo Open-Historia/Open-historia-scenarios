@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:40:27.553Z",
+  "updated": "2026-10-14T04:40:31.764Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2560,9 +2560,20 @@
       "source": "https://www.scottbuckley.com.au/library/golden-hour/",
       "credit": "'Golden Hour' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Calm",
+        "Mysterious",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Strings",
+        "Synth (Atmospherics)",
+        "Vocals (Female)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/golden-hour-v2-fa38c3f7.mp3",
       "type": "mp3",

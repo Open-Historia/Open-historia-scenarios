@@ -84,7 +84,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — | Ambient, Orchestral | Calm, Melancholy, Reflective, Sombre, Thoughtful |
 | [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — | Folk, Pop | Happy, Relaxed |
-| [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 5.7 MB | — | — | — |
+| [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 5.7 MB | — | Orchestral | Adventurous, Calm, Mysterious, Uplifting |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 7.0 MB | — | Orchestral | Adventurous, Driving |
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 1.9 MB | — | — | — |
 | [Happiness](https://github.com/Open-Historia/Open-historia-scenarios/issues/447) | `happiness` | Scott Buckley | CC BY 4.0 | 1:47 | 1.9 MB | — | — | — |
@@ -1370,6 +1370,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/golden-hour/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Calm, Mysterious, Uplifting
+- **Instruments:** Strings, Synth (Atmospherics), Vocals (Female)
 - **Credit:**
 
 > 'Golden Hour' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
