@@ -83,7 +83,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Frankincense and Myrrh](https://github.com/Open-Historia/Open-historia-scenarios/issues/328) | `frankincense-and-myrrh` | Scott Buckley | CC BY 4.0 | 3:12 | 3.4 MB | — | Christmas, Orchestral | Christmas, Inspirational, Uplifting |
 | [Freedom](https://github.com/Open-Historia/Open-historia-scenarios/issues/406) | `freedom` | Scott Buckley | CC BY 4.0 | 4:04 | 4.4 MB | — | Orchestral | Adventurous, Inspirational, Uplifting |
 | [Genesis](https://github.com/Open-Historia/Open-historia-scenarios/issues/429) | `genesis` | Scott Buckley | CC BY 4.0 | 3:02 | 3.2 MB | — | — | — |
-| [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — | — | — |
+| [Glow](https://github.com/Open-Historia/Open-historia-scenarios/issues/324) | `glow` | Scott Buckley | CC BY 4.0 | 3:11 | 3.4 MB | — | Folk, Pop | Happy, Relaxed |
 | [Golden Hour](https://github.com/Open-Historia/Open-historia-scenarios/issues/509) | `golden-hour` | Scott Buckley | CC BY 4.0 | 5:24 | 5.7 MB | — | — | — |
 | [Goliath](https://github.com/Open-Historia/Open-historia-scenarios/issues/336) | `goliath` | Scott Buckley | CC BY 4.0 | 6:22 | 7.0 MB | — | — | — |
 | [Growing Up](https://github.com/Open-Historia/Open-historia-scenarios/issues/420) | `growing-up` | Scott Buckley | CC BY 4.0 | 1:55 | 1.9 MB | — | — | — |
@@ -1353,6 +1353,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/glow/>
+- **Genre:** Folk, Pop
+- **Mood:** Happy, Relaxed
+- **Instruments:** Bass, Drums (Acoustic), Guitar (Acoustic), Piano, Vocals (Male)
 - **Credit:**
 
 > 'Glow' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
