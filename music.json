@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:02:30.538Z",
+  "updated": "2026-10-14T05:02:33.456Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -6244,9 +6244,18 @@
       "source": "https://www.scottbuckley.com.au/library/shadows-and-dust/",
       "credit": "'Shadows and Dust' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient"
+      ],
+      "moods": [
+        "Brooding",
+        "Mysterious"
+      ],
+      "instruments": [
+        "Strings",
+        "Synth (Atmospherics)",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/shadows-and-dust-v2-4a4d8d28.mp3",
       "type": "mp3",
