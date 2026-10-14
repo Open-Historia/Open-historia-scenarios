@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:59:47.308Z",
+  "updated": "2026-10-14T04:59:49.771Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5789,9 +5789,26 @@
       "source": "https://www.scottbuckley.com.au/library/rainbows/",
       "credit": "'Rainbows' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "moods": [
+        "Comedic",
+        "Cute",
+        "Excited",
+        "Fun",
+        "Happy",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Bass",
+        "Drums (Acoustic)",
+        "Guitar (Electric)",
+        "Organ",
+        "Piano",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/rainbows-v2-40a580e0.mp3",
       "type": "mp3",

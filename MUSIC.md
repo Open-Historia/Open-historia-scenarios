@@ -185,7 +185,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Pursuit](https://github.com/Open-Historia/Open-historia-scenarios/issues/434) | `pursuit` | Scott Buckley | CC BY 4.0 | 2:45 | 2.8 MB | — | Electronica, Orchestral | Angry, Dark, Driving, Epic, Intense, Ominous |
 | [Quirky Lane](https://github.com/Open-Historia/Open-historia-scenarios/issues/487) | `quirky-lane` | Scott Buckley | CC BY 4.0 | 1:22 | 1.2 MB | — | Orchestral | Comedic, Happy, Playful, Reflective |
 | [Race The Sun](https://github.com/Open-Historia/Open-historia-scenarios/issues/322) | `race-the-sun` | Scott Buckley | CC BY 4.0 | 4:52 | 5.2 MB | — | Orchestral | Adventurous, Driving |
-| [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — | — | — |
+| [Rainbows](https://github.com/Open-Historia/Open-historia-scenarios/issues/445) | `rainbows` | Scott Buckley | CC BY 4.0 | 1:58 | 2.0 MB | — | Pop, Rock | Comedic, Cute, Excited, Fun, Happy, Uplifting |
 | [Reawakening](https://github.com/Open-Historia/Open-historia-scenarios/issues/301) | `reawakening` | Scott Buckley | CC BY 4.0 | 4:15 | 4.5 MB | — | Neoclassical | Bittersweet, Innocent |
 | [Red](https://github.com/Open-Historia/Open-historia-scenarios/issues/416) | `red` | Scott Buckley | CC BY 4.0 | 3:33 | 3.6 MB | — | Electronica, Orchestral | Dark, Driving, Industrial, Intense, Mysterious |
 | [Reparateur](https://github.com/Open-Historia/Open-historia-scenarios/issues/454) | `reparateur` | Scott Buckley | CC BY 4.0 | 5:26 | 7.5 MB | — | — | — |
@@ -2773,6 +2773,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/rainbows/>
+- **Genre:** Pop, Rock
+- **Mood:** Comedic, Cute, Excited, Fun, Happy, Uplifting
+- **Instruments:** Bass, Drums (Acoustic), Guitar (Electric), Organ, Piano, Synth (Lead)
 - **Credit:**
 
 > 'Rainbows' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
