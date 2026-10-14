@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:56:51.349Z",
+  "updated": "2026-10-14T02:56:56.146Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4046,13 +4046,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-long-way-home/",
-      "credit": "'The Long Way Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Long Way Home' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-way-home-v1-ff17b429.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-long-way-home-v2-d783ffef.mp3",
       "type": "mp3",
-      "bytes": 6910102,
-      "sha256": "ff17b42958379dced60facab369e5365a2d6786d651864b32d2d9d1837a6bbd2",
+      "bytes": 3044262,
+      "sha256": "d783ffefaab813e5a274fc3f9d9f46a89523a642683bc97891aa959b7c5fa9ad",
       "seconds": 173,
       "post": 341,
       "postedBy": "Arkniem",
