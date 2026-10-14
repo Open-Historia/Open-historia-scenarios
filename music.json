@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:11:44.642Z",
+  "updated": "2026-10-14T05:11:47.980Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8148,9 +8148,19 @@
       "source": "https://www.scottbuckley.com.au/library/wanderlust/",
       "credit": "'Wanderlust' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Folk",
+        "Pop"
+      ],
+      "moods": [
+        "Happy",
+        "Peaceful"
+      ],
+      "instruments": [
+        "Drums (Acoustic)",
+        "Mandolin",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wanderlust-v2-3adb9b77.mp3",
       "type": "mp3",
