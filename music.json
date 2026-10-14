@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:57:26.834Z",
+  "updated": "2026-10-14T02:57:31.402Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4082,13 +4082,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-old-ones/",
-      "credit": "'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-old-ones-v1-6f933a86.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-old-ones-v2-8d7ac71c.mp3",
       "type": "mp3",
-      "bytes": 12086530,
-      "sha256": "6f933a86122fade9ac69b848edf101a1dd286fac788488466b1b77f0e89721ec",
+      "bytes": 4800645,
+      "sha256": "8d7ac71c57c743cb71ab957ee01403c2386643b9e23703c8ef455919659c4a1d",
       "seconds": 302,
       "post": 415,
       "postedBy": "Arkniem",

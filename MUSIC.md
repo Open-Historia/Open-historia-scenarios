@@ -232,7 +232,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [The Long Dark](https://github.com/Open-Historia/Open-historia-scenarios/issues/307) | `the-long-dark` | Scott Buckley | CC BY 4.0 | 7:20 | 7.5 MB | — |
 | [The Long Way Home](https://github.com/Open-Historia/Open-historia-scenarios/issues/341) | `the-long-way-home` | Scott Buckley | CC BY 4.0 | 2:53 | 2.9 MB | — |
 | [The Miracle of Flight](https://github.com/Open-Historia/Open-historia-scenarios/issues/359) | `the-miracle-of-flight` | Scott Buckley | CC BY 4.0 | 3:32 | 3.8 MB | — |
-| [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 11.5 MB | — |
+| [The Old Ones](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) | `the-old-ones` | Scott Buckley | CC BY 4.0 | 5:02 | 4.6 MB | — |
 | [The Spirit](https://github.com/Open-Historia/Open-historia-scenarios/issues/464) | `the-spirit` | Scott Buckley | CC BY 4.0 | 0:41 | 1.6 MB | — |
 | [The Summoning](https://github.com/Open-Historia/Open-historia-scenarios/issues/355) | `the-summoning` | Scott Buckley | CC BY 4.0 | 3:25 | 3.6 MB | — |
 | [The Waster (OST)](https://github.com/Open-Historia/Open-historia-scenarios/issues/515) | `the-waster-ost` | Scott Buckley | CC BY 4.0 | 3:52 | 8.4 MB | — |
@@ -2765,9 +2765,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-old-ones/>
 - **Credit:**
 
-> 'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Old Ones' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-old-ones-v1-6f933a86.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/415) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-old-ones-v2-8d7ac71c.mp3) (version 2, posted by @Arkniem)
 
 ### The Spirit (`the-spirit`)
 
