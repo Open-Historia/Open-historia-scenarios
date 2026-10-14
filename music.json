@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:28:07.332Z",
+  "updated": "2026-10-14T02:28:13.217Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1916,13 +1916,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/inflection/",
-      "credit": "'Inflection' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Inflection' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inflection-v1-14142d86.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/inflection-v2-367c6a8f.mp3",
       "type": "mp3",
-      "bytes": 9279896,
-      "sha256": "14142d86d2015cd4243111104010fc5411c5b947fa45397f25810e548ea19d69",
+      "bytes": 4357756,
+      "sha256": "367c6a8ff2fbe424b5dd517df76a606fb72a71e9cb8b15b94908813799bd36b3",
       "seconds": 232,
       "post": 361,
       "postedBy": "Arkniem",
