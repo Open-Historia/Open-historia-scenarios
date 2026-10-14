@@ -110,7 +110,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [In Search Of Solitude](https://github.com/Open-Historia/Open-historia-scenarios/issues/320) | `in-search-of-solitude` | Scott Buckley | CC BY 4.0 | 7:25 | 7.6 MB | — |
 | [In This Moment](https://github.com/Open-Historia/Open-historia-scenarios/issues/258) | `in-this-moment` | Scott Buckley | CC BY 4.0 | 3:20 | 3.5 MB | — |
 | [Inbound](https://github.com/Open-Historia/Open-historia-scenarios/issues/377) | `inbound` | Scott Buckley | CC BY 4.0 | 4:04 | 4.3 MB | — |
-| [Incantation](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) | `incantation` | Scott Buckley | CC BY 4.0 | 7:13 | 16.5 MB | — |
+| [Incantation](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) | `incantation` | Scott Buckley | CC BY 4.0 | 7:13 | 7.1 MB | — |
 | [Incredulity](https://github.com/Open-Historia/Open-historia-scenarios/issues/274) | `incredulity` | Scott Buckley | CC BY 4.0 | 6:14 | 5.9 MB | — |
 | [Inflection](https://github.com/Open-Historia/Open-historia-scenarios/issues/361) | `inflection` | Scott Buckley | CC BY 4.0 | 3:52 | 4.2 MB | — |
 | [Intervention](https://github.com/Open-Historia/Open-historia-scenarios/issues/410) | `intervention` | Scott Buckley | CC BY 4.0 | 4:18 | 4.4 MB | — |
@@ -1423,9 +1423,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/incantation/>
 - **Credit:**
 
-> 'Incantation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Incantation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incantation-v1-e50eb62e.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/506) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/incantation-v2-dafa56d0.mp3) (version 2, posted by @Arkniem)
 
 ### Incredulity (`incredulity`)
 
