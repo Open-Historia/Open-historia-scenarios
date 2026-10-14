@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:45:09.255Z",
+  "updated": "2026-10-14T02:45:39.510Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3002,13 +3002,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/penumbra/",
-      "credit": "'Penumbra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Penumbra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/penumbra-v1-bc225a79.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/penumbra-v2-ad878206.mp3",
       "type": "mp3",
-      "bytes": 17994415,
-      "sha256": "bc225a79d41107bce3cb31a177adccf0a7c95933b8263473ca0b7ad00d90bec3",
+      "bytes": 8496322,
+      "sha256": "ad8782067e648659a28cd2d88a3bd7f5fbc5a7fbb90da7252d1a237d23fbc2d5",
       "seconds": 450,
       "post": 271,
       "postedBy": "Arkniem",

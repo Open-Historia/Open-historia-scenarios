@@ -172,7 +172,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 2.8 MB | — |
 | [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 3.8 MB | — |
-| [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 17.2 MB | — |
+| [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 8.1 MB | — |
 | [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 17.1 MB | — |
 | [Petrichor](https://github.com/Open-Historia/Open-historia-scenarios/issues/398) | `petrichor` | Scott Buckley | CC BY 4.0 | 4:31 | 10.3 MB | — |
 | [Phase Shift](https://github.com/Open-Historia/Open-historia-scenarios/issues/508) | `phase-shift` | Scott Buckley | CC BY 4.0 | 6:03 | 13.8 MB | — |
@@ -2105,9 +2105,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/penumbra/>
 - **Credit:**
 
-> 'Penumbra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Penumbra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/penumbra-v1-bc225a79.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/penumbra-v2-ad878206.mp3) (version 2, posted by @Arkniem)
 
 ### Permafrost (`permafrost`)
 
