@@ -136,7 +136,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Luminance](https://github.com/Open-Historia/Open-historia-scenarios/issues/512) | `luminance` | Scott Buckley | CC BY 4.0 | 4:53 | 11.2 MB | — |
 | [Machina](https://github.com/Open-Historia/Open-historia-scenarios/issues/374) | `machina` | Scott Buckley | CC BY 4.0 | 4:51 | 11.1 MB | — |
 | [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — |
-| [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 14.7 MB | — |
+| [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 6.7 MB | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 6.3 MB | — |
 | [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 12.4 MB | — |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 12.6 MB | — |
@@ -1709,9 +1709,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/maleficus/>
 - **Credit:**
 
-> 'Maleficus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Maleficus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/maleficus-v1-6949e9c9.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/maleficus-v2-ebaa6968.mp3) (version 2, posted by @Arkniem)
 
 ### March of Midnight (`march-of-midnight`)
 

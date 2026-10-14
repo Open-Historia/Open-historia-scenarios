@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:31:33.117Z",
+  "updated": "2026-10-14T02:32:02.092Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2351,13 +2351,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/maleficus/",
-      "credit": "'Maleficus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Maleficus' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/maleficus-v1-6949e9c9.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/maleficus-v2-ebaa6968.mp3",
       "type": "mp3",
-      "bytes": 15414549,
-      "sha256": "6949e9c9d45c45f46c58082edc053675bc648f98e94ffbe563be21b1b37a6bd1",
+      "bytes": 7072968,
+      "sha256": "ebaa696863e11481abb5ef6e0e2ff8b560f8c484a152dd3ca361a3cc4156c09b",
       "seconds": 385,
       "post": 331,
       "postedBy": "Arkniem",
