@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:57:14.624Z",
+  "updated": "2026-10-14T04:57:44.451Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -5401,9 +5401,22 @@
       "source": "https://www.scottbuckley.com.au/library/penumbra/",
       "credit": "'Penumbra' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Melancholy",
+        "Thoughtful"
+      ],
+      "instruments": [
+        "Cello",
+        "Choir",
+        "Strings",
+        "Synth (Atmospherics)",
+        "Violin"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/penumbra-v2-ad878206.mp3",
       "type": "mp3",
