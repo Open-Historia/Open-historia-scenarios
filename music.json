@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:22:20.974Z",
+  "updated": "2026-10-14T02:22:26.857Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1268,13 +1268,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/firefly/",
-      "credit": "'Firefly' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Firefly' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/firefly-v1-ba145cfa.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/firefly-v2-1758b5bf.mp3",
       "type": "mp3",
-      "bytes": 5912941,
-      "sha256": "ba145cfa16c6fdf3e587bf11bd3ed929214e689e7f382ab5373daf518b3116f5",
+      "bytes": 2920372,
+      "sha256": "1758b5bf6e565a74fdee3f29b110f81a937458814c15f7a62b1d8361259281d4",
       "seconds": 157,
       "post": 455,
       "postedBy": "Arkniem",
