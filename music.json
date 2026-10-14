@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:36:36.044Z",
+  "updated": "2026-10-14T02:37:58.018Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2639,13 +2639,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/the-things-that-keep-us-here/",
-      "credit": "'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-things-that-keep-us-here-v1-a8ac035d.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-things-that-keep-us-here-v2-271719ae.mp3",
       "type": "mp3",
-      "bytes": 10643525,
-      "sha256": "a8ac035dc83a29dce3924b68debea4c6bd9777ef2de18a303c52fd0267957db9",
+      "bytes": 4073323,
+      "sha256": "271719ae0a79309828c13fa29c12e2f4927c54df129d04cb64bed86cf60c8b23",
       "seconds": 266,
       "post": 388,
       "postedBy": "Arkniem",

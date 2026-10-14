@@ -152,7 +152,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Monomyth – The Restoration](https://github.com/Open-Historia/Open-historia-scenarios/issues/397) | `the-restoration` | Scott Buckley | CC BY 4.0 | 3:08 | 2.5 MB | — |
 | [Monomyth – The Rise](https://github.com/Open-Historia/Open-historia-scenarios/issues/395) | `the-rise` | Scott Buckley | CC BY 4.0 | 2:50 | 3.0 MB | — |
 | [Monomyth – The Spaces Between](https://github.com/Open-Historia/Open-historia-scenarios/issues/391) | `the-spaces-between` | Scott Buckley | CC BY 4.0 | 4:21 | 10.0 MB | — |
-| [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 10.2 MB | — |
+| [Monomyth – The Things That Keep Us Here](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) | `the-things-that-keep-us-here` | Scott Buckley | CC BY 4.0 | 4:26 | 3.9 MB | — |
 | [Monomyth – The Vision](https://github.com/Open-Historia/Open-historia-scenarios/issues/389) | `the-vision` | Scott Buckley | CC BY 4.0 | 4:18 | 9.9 MB | — |
 | [Moonlight](https://github.com/Open-Historia/Open-historia-scenarios/issues/317) | `moonlight` | Scott Buckley | CC BY 4.0 | 4:14 | 9.7 MB | — |
 | [Mr Lonogan](https://github.com/Open-Historia/Open-historia-scenarios/issues/488) | `mr-lonogan` | Scott Buckley | CC BY 4.0 | 1:18 | 1.2 MB | — |
@@ -1885,9 +1885,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/the-things-that-keep-us-here/>
 - **Credit:**
 
-> 'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'The Things That Keep Us Here' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-things-that-keep-us-here-v1-a8ac035d.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/388) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-things-that-keep-us-here-v2-271719ae.mp3) (version 2, posted by @Arkniem)
 
 ### Monomyth – The Vision (`the-vision`)
 
