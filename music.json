@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:11:27.319Z",
+  "updated": "2026-10-14T02:11:55.322Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -422,13 +422,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/beyond-these-walls/",
-      "credit": "'Beyond These Walls' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Beyond These Walls' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beyond-these-walls-v1-a862ae87.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/beyond-these-walls-v2-d3cd5df8.mp3",
       "type": "mp3",
-      "bytes": 16698767,
-      "sha256": "a862ae87b926cbf0ef40f8535acad3174f5eec10658893312452c815dcf61866",
+      "bytes": 7702058,
+      "sha256": "d3cd5df8c4c0bc56d860a8f49d8832456ccb142bb1d33b8f90b08354b75c7def",
       "seconds": 417,
       "post": 343,
       "postedBy": "Arkniem",
