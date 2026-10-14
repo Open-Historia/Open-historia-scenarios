@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:37:21.561Z",
+  "updated": "2026-10-14T04:37:40.291Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1996,9 +1996,22 @@
       "source": "https://www.scottbuckley.com.au/library/emergent/",
       "credit": "'Emergent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Electronica",
+        "Orchestral"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Dark",
+        "Driving",
+        "Mysterious"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra",
+        "Synth (Atmospherics)",
+        "Synth (Lead)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/emergent-v2-76b0b363.mp3",
       "type": "mp3",

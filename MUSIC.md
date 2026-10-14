@@ -67,7 +67,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Eidolon](https://github.com/Open-Historia/Open-historia-scenarios/issues/440) | `eidolon` | Scott Buckley | CC BY 4.0 | 3:11 | 3.5 MB | — | Neoclassical, Orchestral | Happy, Playful, Reflective, Relaxed, Thoughtful |
 | [Electric Dreams](https://github.com/Open-Historia/Open-historia-scenarios/issues/357) | `electric-dreams` | Scott Buckley | CC BY 4.0 | 4:52 | 5.1 MB | — | Electronica, Pop | Driving, Mysterious |
 | [Elementary](https://github.com/Open-Historia/Open-historia-scenarios/issues/433) | `elementary` | Scott Buckley | CC BY 4.0 | 2:17 | 2.1 MB | — | — | — |
-| [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | — | — |
+| [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | Electronica, Orchestral | Bittersweet, Dark, Driving, Mysterious |
 | [Ephemera](https://github.com/Open-Historia/Open-historia-scenarios/issues/513) | `ephemera` | Scott Buckley | CC BY 4.0 | 5:38 | 6.0 MB | — | — | — |
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 4.9 MB | — | — | — |
 | [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 6.5 MB | — | — | — |
@@ -1129,6 +1129,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/emergent/>
+- **Genre:** Electronica, Orchestral
+- **Mood:** Bittersweet, Dark, Driving, Mysterious
+- **Instruments:** Drums (Epic), Orchestra, Synth (Atmospherics), Synth (Lead)
 - **Credit:**
 
 > 'Emergent' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
