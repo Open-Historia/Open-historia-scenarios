@@ -139,7 +139,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Machinery of the Stars](https://github.com/Open-Historia/Open-historia-scenarios/issues/475) | `machinery-of-the-stars` | Scott Buckley | CC BY 4.0 | 4:15 | 5.5 MB | — | — | — |
 | [Maleficus](https://github.com/Open-Historia/Open-historia-scenarios/issues/331) | `maleficus` | Scott Buckley | CC BY 4.0 | 6:25 | 6.7 MB | — | — | — |
 | [March of Midnight](https://github.com/Open-Historia/Open-historia-scenarios/issues/379) | `march-of-midnight` | Scott Buckley | CC BY 4.0 | 2:45 | 2.9 MB | — | — | — |
-| [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 5.8 MB | — | — | — |
+| [Meanwhile](https://github.com/Open-Historia/Open-historia-scenarios/issues/279) | `meanwhile` | Scott Buckley | CC BY 4.0 | 5:26 | 5.8 MB | — | Ambient, Neoclassical | Bittersweet, Blissful, Peaceful, Thoughtful |
 | [Memories Of Stone](https://github.com/Open-Historia/Open-historia-scenarios/issues/265) | `memories-of-stone` | Scott Buckley | CC BY 4.0 | 5:30 | 6.1 MB | — | — | — |
 | [Midsommar](https://github.com/Open-Historia/Open-historia-scenarios/issues/360) | `midsommar` | Scott Buckley | CC BY 4.0 | 3:54 | 4.1 MB | — | — | — |
 | [Midvinter ❄️](https://github.com/Open-Historia/Open-historia-scenarios/issues/327) | `midvinter` | Scott Buckley | CC BY 4.0 | 4:34 | 4.9 MB | — | — | — |
@@ -2123,6 +2123,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/meanwhile/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Bittersweet, Blissful, Peaceful, Thoughtful
+- **Instruments:** Piano, Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Meanwhile' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
