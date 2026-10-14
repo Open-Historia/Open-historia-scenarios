@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:55:18.810Z",
+  "updated": "2026-10-14T02:55:24.963Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -3884,13 +3884,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/tears-in-rain/",
-      "credit": "'Tears In Rain' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Tears In Rain' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tears-in-rain-v1-c56f817a.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/tears-in-rain-v2-27bb6be9.mp3",
       "type": "mp3",
-      "bytes": 13602679,
-      "sha256": "c56f817a5090e17a2def09e3623104a5474f144f81a595eb4ccae5f3ef9ab69f",
+      "bytes": 6267930,
+      "sha256": "27bb6be9274ce6f353e7d7fab4b39e84d83fc41136de8fdbc71b03fe26267b3a",
       "seconds": 340,
       "post": 385,
       "postedBy": "Arkniem",
