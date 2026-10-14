@@ -70,7 +70,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — | Electronica, Orchestral | Bittersweet, Dark, Driving, Mysterious |
 | [Ephemera](https://github.com/Open-Historia/Open-historia-scenarios/issues/513) | `ephemera` | Scott Buckley | CC BY 4.0 | 5:38 | 6.0 MB | — | Ambient, Neoclassical | Mysterious, Peaceful |
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 4.9 MB | — | Electronica, Orchestral | Adventurous, Driving, Epic, Inspirational |
-| [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 6.5 MB | — | — | — |
+| [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 6.5 MB | — | Ambient, Neoclassical, Pop | Bittersweet, Melancholy, Peaceful, Thoughtful, Uplifting |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 4.8 MB | — | Ambient, Halloween, Orchestral | Brooding, Dark, Intense, Sinister |
 | [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — | — | — |
 | [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 5.3 MB | — | — | — |
@@ -1174,6 +1174,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/extrapolation/>
+- **Genre:** Ambient, Neoclassical, Pop
+- **Mood:** Bittersweet, Melancholy, Peaceful, Thoughtful, Uplifting
+- **Instruments:** Piano, Strings
 - **Credit:**
 
 > 'Extrapolation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
