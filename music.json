@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:35:11.629Z",
+  "updated": "2026-10-14T04:35:14.062Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -1493,9 +1493,21 @@
       "source": "https://www.scottbuckley.com.au/library/crusader/",
       "credit": "'Crusader' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Driving",
+        "Epic",
+        "Militaristic",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Brass",
+        "Drums (Epic)",
+        "Orchestra",
+        "Strings"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/crusader-v2-80445711.mp3",
       "type": "mp3",
