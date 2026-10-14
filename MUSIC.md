@@ -69,7 +69,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Emergent](https://github.com/Open-Historia/Open-historia-scenarios/issues/376) | `emergent` | Scott Buckley | CC BY 4.0 | 3:51 | 4.0 MB | — |
 | [Ephemera](https://github.com/Open-Historia/Open-historia-scenarios/issues/513) | `ephemera` | Scott Buckley | CC BY 4.0 | 5:38 | 6.0 MB | — |
 | [Escape Velocity](https://github.com/Open-Historia/Open-historia-scenarios/issues/303) | `escape-velocity` | Scott Buckley | CC BY 4.0 | 4:31 | 4.9 MB | — |
-| [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 14.4 MB | — |
+| [Extrapolation](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) | `extrapolation` | Scott Buckley | CC BY 4.0 | 6:18 | 6.5 MB | — |
 | [Eyes In The Void](https://github.com/Open-Historia/Open-historia-scenarios/issues/272) | `eyes-in-the-void` | Scott Buckley | CC BY 4.0 | 4:24 | 4.8 MB | — |
 | [Fading](https://github.com/Open-Historia/Open-historia-scenarios/issues/495) | `fading` | Scott Buckley | CC BY 4.0 | 7:48 | 7.1 MB | — |
 | [Falling Together](https://github.com/Open-Historia/Open-historia-scenarios/issues/335) | `falling-together` | Scott Buckley | CC BY 4.0 | 5:05 | 11.7 MB | — |
@@ -972,9 +972,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Source:** <https://www.scottbuckley.com.au/library/extrapolation/>
 - **Credit:**
 
-> 'Extrapolation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+> 'Extrapolation' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
 
-[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/extrapolation-v1-d3591b5c.mp3) (version 1, posted by @Arkniem)
+[The track's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/413) · [The file](https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/extrapolation-v2-631de279.mp3) (version 2, posted by @Arkniem)
 
 ### Eyes In The Void (`eyes-in-the-void`)
 
