@@ -251,7 +251,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Tomorrow](https://github.com/Open-Historia/Open-historia-scenarios/issues/444) | `tomorrow` | Scott Buckley | CC BY 4.0 | 2:33 | 2.8 MB | — | Orchestral | Adventurous, Excited, Happy, Playful, Uplifting |
 | [Twilight Echo](https://github.com/Open-Historia/Open-historia-scenarios/issues/367) | `twilight-echo` | Scott Buckley | CC BY 4.0 | 4:47 | 5.2 MB | — | Electronica | Bittersweet, Driving, Emotional |
 | [Undertow](https://github.com/Open-Historia/Open-historia-scenarios/issues/375) | `undertow` | Scott Buckley | CC BY 4.0 | 4:10 | 3.9 MB | — | — | — |
-| [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 7.8 MB | — | — | — |
+| [Unraveling](https://github.com/Open-Historia/Open-historia-scenarios/issues/261) | `unraveling` | Scott Buckley | CC BY 4.0 | 7:24 | 7.8 MB | — | Ambient, Neoclassical | Bittersweet, Sad, Thoughtful |
 | [Uprising](https://github.com/Open-Historia/Open-historia-scenarios/issues/507) | `uprising` | Scott Buckley | CC BY 4.0 | 3:26 | 3.6 MB | — | — | — |
 | [Utopia](https://github.com/Open-Historia/Open-historia-scenarios/issues/473) | `utopia` | Scott Buckley | CC BY 4.0 | 2:59 | 2.7 MB | — | — | — |
 | [Vanguard](https://github.com/Open-Historia/Open-historia-scenarios/issues/298) | `vanguard` | Scott Buckley | CC BY 4.0 | 3:55 | 4.1 MB | — | — | — |
@@ -3691,6 +3691,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/unraveling/>
+- **Genre:** Ambient, Neoclassical
+- **Mood:** Bittersweet, Sad, Thoughtful
+- **Instruments:** Strings, Synth (Atmospherics)
 - **Credit:**
 
 > 'Unraveling-' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
