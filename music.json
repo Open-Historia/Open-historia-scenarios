@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:44:41.851Z",
+  "updated": "2026-10-14T02:44:46.775Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2909,13 +2909,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/passage/",
-      "credit": "'Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Passage' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-v1-2cf2692f.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/passage-v2-923d6aea.mp3",
       "type": "mp3",
-      "bytes": 13138682,
-      "sha256": "2cf2692f9c8759770da7d92f927a1a5321999a97482c0b0d6d499349acede846",
+      "bytes": 6230156,
+      "sha256": "923d6aea7affc3e9298fff511b4055769955e79872c8205af7a04d26813cb794",
       "seconds": 328,
       "post": 442,
       "postedBy": "Arkniem",
