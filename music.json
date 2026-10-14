@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:40:20.011Z",
+  "updated": "2026-10-14T04:40:23.785Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2568,9 +2568,18 @@
       "source": "https://www.scottbuckley.com.au/library/goliath/",
       "credit": "'Goliath' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Orchestral"
+      ],
+      "moods": [
+        "Adventurous",
+        "Driving"
+      ],
+      "instruments": [
+        "Drums (Epic)",
+        "Orchestra",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/goliath-v2-e1c6be48.mp3",
       "type": "mp3",
