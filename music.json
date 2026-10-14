@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T05:13:05.037Z",
+  "updated": "2026-10-14T05:13:32.803Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -8462,9 +8462,25 @@
       "source": "https://www.scottbuckley.com.au/library/wonderful/",
       "credit": "'Wonderful' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Pop"
+      ],
+      "moods": [
+        "Calm",
+        "Fun",
+        "Happy",
+        "Playful",
+        "Reflective",
+        "Relaxed",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Bass",
+        "Drums (Acoustic)",
+        "Organ",
+        "Piano",
+        "Vibes"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/wonderful-v2-e4739d50.mp3",
       "type": "mp3",
