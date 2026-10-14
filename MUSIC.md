@@ -171,7 +171,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Passage](https://github.com/Open-Historia/Open-historia-scenarios/issues/442) | `passage` | Scott Buckley | CC BY 4.0 | 5:28 | 5.9 MB | — | Orchestral | Bittersweet, Emotional, Intense, Passionate |
 | [Passage Of Time](https://github.com/Open-Historia/Open-historia-scenarios/issues/253) | `passage-of-time` | Scott Buckley | CC BY 4.0 | 4:31 | 5.0 MB | The menu, A game loading | Orchestral | Inspirational, Mysterious, Reflective, Thoughtful |
 | [Patagonia](https://github.com/Open-Historia/Open-historia-scenarios/issues/441) | `patagonia` | Scott Buckley | CC BY 4.0 | 2:31 | 2.8 MB | — | Orchestral | Adventurous, Epic, Uplifting |
-| [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — | — | — |
+| [Path Through The Mountains](https://github.com/Open-Historia/Open-historia-scenarios/issues/510) | `path-through-the-mountains` | Scott Buckley | CC BY 4.0 | 5:21 | 5.7 MB | — | Orchestral | Adventurous, Bittersweet, Mysterious |
 | [Pathfinder](https://github.com/Open-Historia/Open-historia-scenarios/issues/345) | `pathfinder` | Scott Buckley | CC BY 4.0 | 3:24 | 3.8 MB | — | Orchestral | Adventurous, Epic, Militaristic |
 | [Penumbra](https://github.com/Open-Historia/Open-historia-scenarios/issues/271) | `penumbra` | Scott Buckley | CC BY 4.0 | 7:30 | 8.1 MB | — | — | — |
 | [Permafrost](https://github.com/Open-Historia/Open-historia-scenarios/issues/315) | `permafrost` | Scott Buckley | CC BY 4.0 | 7:28 | 7.7 MB | — | — | — |
@@ -2577,6 +2577,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/path-through-the-mountains/>
+- **Genre:** Orchestral
+- **Mood:** Adventurous, Bittersweet, Mysterious
+- **Instruments:** Orchestra
 - **Credit:**
 
 > 'Path Through The Mountains' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
