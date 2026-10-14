@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T02:12:00.988Z",
+  "updated": "2026-10-14T02:12:33.279Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -476,13 +476,13 @@
       "artist": "Scott Buckley",
       "licence": "CC BY 4.0",
       "source": "https://www.scottbuckley.com.au/library/born-of-the-sky/",
-      "credit": "'Born Of The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+      "credit": "'Born Of The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "version": 1,
-      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/born-of-the-sky-v1-0d2f6a8b.mp3",
+      "version": 2,
+      "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/born-of-the-sky-v2-64720241.mp3",
       "type": "mp3",
-      "bytes": 7503441,
-      "sha256": "0d2f6a8b048a0f1ae366933de17da1b8c2e1d219eb5fbb8d4b00b9d930e89b26",
+      "bytes": 3327994,
+      "sha256": "64720241e5da67e11d28ba8da3b7166479ad35e0517380a9bc19433220fe61b8",
       "seconds": 188,
       "post": 270,
       "postedBy": "Arkniem",
