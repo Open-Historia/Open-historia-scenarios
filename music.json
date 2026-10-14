@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:42:08.611Z",
+  "updated": "2026-10-14T04:42:11.792Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -2849,9 +2849,22 @@
       "source": "https://www.scottbuckley.com.au/library/homeward/",
       "credit": "'Homeward' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Folk",
+        "Pop"
+      ],
+      "moods": [
+        "Happy",
+        "Inspirational",
+        "Uplifting"
+      ],
+      "instruments": [
+        "Bass",
+        "Glockenspiel",
+        "Guitar (Acoustic)",
+        "Percussion",
+        "Ukulele"
+      ],
       "version": 1,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/homeward-v1-0e72f00a.mp3",
       "type": "mp3",

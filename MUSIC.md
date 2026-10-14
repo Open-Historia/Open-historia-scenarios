@@ -93,7 +93,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [High Games](https://github.com/Open-Historia/Open-historia-scenarios/issues/486) | `high-games` | Scott Buckley | CC BY 4.0 | 1:20 | 1.2 MB | — | Orchestral | Comedic, Happy, Playful |
 | [Hiraeth](https://github.com/Open-Historia/Open-historia-scenarios/issues/363) | `hiraeth` | Scott Buckley | CC BY 4.0 | 5:46 | 6.0 MB | — | Ambient, Neoclassical | Bittersweet, Emotional, Sombre |
 | [Home Was You](https://github.com/Open-Historia/Open-historia-scenarios/issues/259) | `home-was-you` | Scott Buckley | CC BY 4.0 | 4:29 | 4.5 MB | — | Folk, Neoclassical, Pop | Bittersweet, Dreamy, Peaceful |
-| [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — | — | — |
+| [Homeward](https://github.com/Open-Historia/Open-historia-scenarios/issues/482) | `homeward` | Scott Buckley | CC BY 4.0 | 2:39 | 3.5 MB | — | Folk, Pop | Happy, Inspirational, Uplifting |
 | [Honour Among Thieves](https://github.com/Open-Historia/Open-historia-scenarios/issues/275) | `honour-among-thieves` | Scott Buckley | CC BY 4.0 | 4:00 | 4.5 MB | — | Folk, Rock | Adventurous, Driving, Playful |
 | [Horizons](https://github.com/Open-Historia/Open-historia-scenarios/issues/370) | `horizons` | Scott Buckley | CC BY 4.0 | 4:53 | 5.1 MB | — | — | — |
 | [Hour Of The Witch](https://github.com/Open-Historia/Open-historia-scenarios/issues/313) | `hour-of-the-witch` | Scott Buckley | CC BY 4.0 | 3:37 | 3.8 MB | — | — | — |
@@ -1496,6 +1496,9 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/homeward/>
+- **Genre:** Folk, Pop
+- **Mood:** Happy, Inspirational, Uplifting
+- **Instruments:** Bass, Glockenspiel, Guitar (Acoustic), Percussion, Ukulele
 - **Credit:**
 
 > 'Homeward' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
