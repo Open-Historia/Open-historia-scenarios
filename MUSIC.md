@@ -128,7 +128,7 @@ Music can be posted only by the hub's contributors, because every track must be 
 | [Legacy](https://github.com/Open-Historia/Open-historia-scenarios/issues/309) | `legacy` | Scott Buckley | CC BY 4.0 | 6:30 | 7.1 MB | — | Orchestral | Adventurous, Epic |
 | [Legionnaire](https://github.com/Open-Historia/Open-historia-scenarios/issues/516) | `legionnaire-scott-buckley` | Scott Buckley | CC BY 4.0 | 3:04 | 3.5 MB | — | Orchestral | Angry, Epic, Militaristic |
 | [Legionnaire (2022 Remaster)](https://github.com/Open-Historia/Open-historia-scenarios/issues/254) | `legionnaire` | Scott Buckley | CC BY 4.0 | 3:07 | 3.4 MB | At war, In the war room | Orchestral | Adventurous, Epic, Militaristic |
-| [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 7.1 MB | — | — | — |
+| [Life in Motion](https://github.com/Open-Historia/Open-historia-scenarios/issues/287) | `life-in-motion` | Scott Buckley | CC BY 4.0 | 6:21 | 7.1 MB | — | Neoclassical | Bittersweet, Thoughtful |
 | [Life in Silico](https://github.com/Open-Historia/Open-historia-scenarios/issues/337) | `life-in-silico` | Scott Buckley | CC BY 4.0 | 3:56 | 4.2 MB | — | — | — |
 | [Life Is](https://github.com/Open-Historia/Open-historia-scenarios/issues/430) | `life-is` | Scott Buckley | CC BY 4.0 | 5:21 | 5.3 MB | — | — | — |
 | [Light in Dark Places](https://github.com/Open-Historia/Open-historia-scenarios/issues/476) | `light-in-dark-places` | Scott Buckley | CC BY 4.0 | 2:19 | 3.0 MB | — | — | — |
@@ -1980,6 +1980,8 @@ Music can be posted only by the hub's contributors, because every track must be 
 - **Composer / artist:** Scott Buckley
 - **Licence:** CC BY 4.0
 - **Source:** <https://www.scottbuckley.com.au/library/life-in-motion/>
+- **Genre:** Neoclassical
+- **Mood:** Bittersweet, Thoughtful
 - **Credit:**
 
 > 'Life In Motion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.
