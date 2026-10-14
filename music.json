@@ -1,6 +1,6 @@
 {
   "schema": "open-historia-music-index/1",
-  "updated": "2026-10-14T04:52:40.700Z",
+  "updated": "2026-10-14T04:52:59.269Z",
   "tracks": [
     {
       "id": "a-dragons-lullabye",
@@ -4691,9 +4691,21 @@
       "source": "https://www.scottbuckley.com.au/library/the-spaces-between/",
       "credit": "'The Spaces Between' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au Re-encoded at a lower bitrate.",
       "fits": [],
-      "genres": [],
-      "moods": [],
-      "instruments": [],
+      "genres": [
+        "Ambient",
+        "Neoclassical"
+      ],
+      "moods": [
+        "Bittersweet",
+        "Brooding",
+        "Mysterious",
+        "Reflective"
+      ],
+      "instruments": [
+        "Piano",
+        "Strings",
+        "Synth (Atmospherics)"
+      ],
       "version": 2,
       "file": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/music/the-spaces-between-v2-3c085c3e.mp3",
       "type": "mp3",
