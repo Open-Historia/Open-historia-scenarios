@@ -6,7 +6,7 @@ To share one, make a [detailed map post](https://github.com/Open-Historia/Open-h
 
 | Map | ID | Status | Latest | Size | By | Licence |
 |---|---|---|---|---|---|---|
-| [Game of Thrones - 298 AC](https://github.com/Open-Historia/Open-historia-scenarios/issues/248) | `got-world` | Available | v1 | 442 MB | @SeventhDread | CC BY-NC-SA 3.0 |
+| [Game of Thrones - 298 AC](https://github.com/Open-Historia/Open-historia-scenarios/issues/248) | `got-world` | Available | v2 | 442 MB | @SeventhDread | CC BY-NC-SA 3.0 |
 
 ## Credits and licences
 

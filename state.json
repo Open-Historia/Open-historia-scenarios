@@ -3,9 +3,9 @@
   "posts": {
     "248": {
       "credits": "Made by SeventhDread for Open Historia. Based on [GOT-Inspired-Map](https://github.com/mapbox/GOT-Inspired-Map) (A Song of Ice and Fire speculative world map): GIS files by cadaei, based on maps by Tear and theMountainGoat. A Song of Ice and Fire, and every place on this map, are (c) George R. R. Martin. Changed from the original: drawn as a relief map and cut into map tiles, with extra detail added around Winterfell, King's Landing and Dragonstone. Licensed under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/).",
-      "bodyHash": "dc744ab394f1d560ef1b4c4623548321c45684546975348fa9e28c3376f4d479",
+      "bodyHash": "4293c6b712a7d0d587ba656463355928d4836713dd53f5a3859c8d6cd6d37eba",
       "id": "got-world",
-      "link": "https://github.com/SeventhDread/open-historia/releases/download/got-world-upload/got-world-v1.pmtiles",
+      "link": "https://github.com/SeventhDread/open-historia/releases/download/got-world-upload/got-world-v2.pmtiles",
       "check": {
         "tileType": "webp",
         "minzoom": 0,
@@ -16,9 +16,10 @@
           92.8,
           49.4
         ],
-        "bytes": 463431905,
-        "sha256": "42c40f2922bb7d03bf0a72cf34070cd51d3d3c5950bbb87dbf5e101802459822"
-      }
+        "bytes": 463464629,
+        "sha256": "3769b511bd4b646e1eef91bf6554d38eca3f2dcfaf16d8f38e22c549f1c52d38"
+      },
+      "changes": "Adds Lonely Light, the westernmost of the Iron Islands, which version 1 left out: a bare rock with a few skerries and House Farwynd's keep with its beacon tower. The rest of the map is exactly the same as version 1."
     }
   }
 }
