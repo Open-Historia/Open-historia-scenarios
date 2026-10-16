@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Music can be posted only by the hub's contributors** (people the maintainers have given access to this repository), because every track must be one the hub is allowed to share. Anyone else's music post is closed with a note. **To propose a track, ask on [Discord](https://discord.gg/QaqAK7fQAg).**
+        **Music is posted here by the hub's contributors** (people the maintainers have given access to this repository), because every track must be one the hub is allowed to share. **Not a contributor? [Request a song](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=song-request.yml) instead:** a maintainer checks its licence, and then it is added. (A music post from anyone else is made a request.)
 
         A track posted here goes on the hub's music list, where scenario makers choose music for their scenarios: for a game loading, in the game, at war and in the war room. ([More about background music](https://github.com/Open-Historia/Open-historia-scenarios#post-background-music))
 
         **The file is too big to drag in here.** Put the `.mp3` or `.ogg` online somewhere it can be downloaded directly and paste the link below. It is checked automatically and copied into this repository; once the track is on the list you can delete your copy.
 
-        **To change a track later, edit this post:** a new download link replaces the file, and anything else changes the details. **To take a track down, close this post as not planned.** Don't delete or rename the headings below: the bot reads your answers under them.
+        **To change a track later, edit this post:** a new download link replaces the file, and anything else changes the details. Once the track is on the list this post is closed; it is still read when edited. **To take a track down, close this post as not planned.** Don't delete or rename the headings below: the bot reads your answers under them.
   - type: input
     id: name
     attributes:

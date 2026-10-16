@@ -6,6 +6,9 @@
 //   GITHUB_TOKEN=... node scripts/sync-music.mjs
 //   node scripts/sync-music.mjs --dry-run
 //
+// HUB_AUTOCLOSE=1 (the repository variable the hub's other posts close by)
+// closes a post as completed once its track is on the list.
+//
 // --dry-run reads, downloads and checks everything but changes nothing (no
 // release, upload, comment, label, closing or commit), and needs no token for
 // a public repository. It prints what a real run would do.
@@ -28,10 +31,12 @@ let client = createClient({ repo, token, label: LABEL, dataBranch: DATA_BRANCH, 
 if (dryRun) client = dryRunOf(client);
 
 const workDir = path.join(process.env.RUNNER_TEMP || os.tmpdir(), "music");
-const summary = await syncMusic({ client, workDir });
+const autoClose = process.env.HUB_AUTOCLOSE === "1";
+const summary = await syncMusic({ client, workDir, autoClose });
 const lines = [
   `${summary.posts} music post(s); ${summary.unchanged} unchanged.`,
-  `${summary.released} track file(s) published, ${summary.details} post(s) with new details only, ${summary.problem} needing changes, ${summary.waiting} to try again, ${summary.turnedAway} turned away (not from a contributor), ${summary.removed} track(s) removed.`,
+  `${summary.released} track file(s) published, ${summary.details} post(s) with new details only, ${summary.problem} needing changes, ${summary.waiting} to try again, ${summary.requests} waiting for a maintainer (song requests), ${summary.removed} track(s) removed.`,
+  ...(autoClose ? [`${summary.closed} post(s) closed, ${summary.reopened} reopened.`] : []),
   ...(dryRun ? ["A dry run: nothing was changed."] : []),
 ];
 console.log(lines.join("\n"));

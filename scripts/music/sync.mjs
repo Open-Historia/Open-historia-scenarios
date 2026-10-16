@@ -2,16 +2,23 @@
 // post (an issue labelled "music"), so a run that was skipped is made up by
 // the next one, and acts on the ones that changed since it last looked:
 //
-//   - a post whose author is not one of the hub's contributors is turned
-//     away: one comment saying why and how to propose a track, the "needs
-//     changes" label, and closed as "not planned". Nothing of it is downloaded.
-//   - a contributor's new post, or an edited one, is checked: its answers,
+//   - a post whose author is not one of the hub's contributors waits for a
+//     maintainer: it is a song request ("song request" label; the request
+//     form makes them, and a music post by anyone else becomes one, its music
+//     label taken off), and nothing of it is downloaded until someone who may
+//     write to the repository has checked that the hub may share the track
+//     and labelled it music. That label is the approval, of the post as it
+//     stood then: an edit after it waits for the label again.
+//   - a contributor's new post, or an edited one (or an approved request), is checked: its answers,
 //     then the file, downloaded from the link given and looked into (really
 //     an MP3 or an Ogg file, 20 MB or less). If all is well the file is
 //     copied into the "music" release as "<id>-v<version>-<checksum>.<type>"
 //     and the track put on the list; if not, the post gets a comment saying
 //     what to fix. An edit with a different file makes the next version, in
 //     place of the last; an edit to the words only changes the details.
+//   - a post whose track is on the list is closed as completed (autoClose: the
+//     repository's HUB_AUTOCLOSE, as for the hub's other posts), and it is
+//     still read when edited; one that then needs changes is reopened.
 //   - a post closed as "not planned" (by its author or a maintainer) has its
 //     track removed for good: its file is deleted, and the list keeps the
 //     track as removed, so its ID is never used again.
@@ -30,9 +37,12 @@ import { setStatus } from "../detailed-maps/sync.mjs";
 import { inspectAudio, megabytesText } from "./audio.mjs";
 import { checkForm, parseForm } from "./form.mjs";
 import {
+  APPROVING_PERMISSIONS,
   CONTENT_TYPES,
   DATA_BRANCH,
-  DISCORD,
+  LABEL,
+  REQUEST_FORM,
+  REQUEST_LABEL,
   LIST_FILE,
   PAGE_FILE,
   RELEASE_TAG,
@@ -148,12 +158,13 @@ const detailsTable = ({ id, version, name, artist, licence, fits, genres, moods,
   row("Instruments", tagsText(instruments) || "—"),
 ].join("\n");
 
-const listedComment = ({ track, repo, note = "" }) => [
+const listedComment = ({ track, repo, note = "", closing = false }) => [
   MARKER,
   "### ✅ This track is on the music list",
   "",
-  `Scenario makers can choose it for their scenarios, and it is credited on [the music page](https://github.com/${repo}/blob/${DATA_BRANCH}/${PAGE_FILE}).`,
+  `Scenario makers can choose it for their scenarios, and it is credited on [the music page](https://github.com/${repo}/blob/${DATA_BRANCH}/${PAGE_FILE}). Its file is in the [music release](https://github.com/${repo}/releases/tag/${RELEASE_TAG}).`,
   ...(note ? ["", note] : []),
+  ...(closing ? ["", "This post is closed now that its track is on the list, as every finished post on the hub is. It is still read when edited."] : []),
   "",
   "To replace the file, edit this post with the new download link; to change the name, the credit or anything else, edit the words. The checks run again on every edit. To take the track down, close this post as not planned.",
   "",
@@ -181,29 +192,44 @@ const waitingComment = (reason) => [
   "It is tried again automatically; there's nothing to do.",
 ].join("\n");
 
-const turnedAwayComment = () => [
+const requestComment = ({ edited = false } = {}) => [
   MARKER,
-  "### 🔒 Music can only be posted by the hub's contributors",
+  "### 🔎 Waiting for a maintainer to check this track",
   "",
-  "Thank you for wanting to share this. Background music can be posted only by the hub's contributors (people the maintainers have given access to this repository), for copyright reasons: the hub hands a copy of every track to every player, so each one has to be music the hub is allowed to share, checked by someone the maintainers know.",
+  edited
+    ? "This request was edited after a maintainer approved it, so the edit waits for their check like the request did."
+    : "Thank you for this request. Every track on the hub is handed to every player, so before anything is downloaded a maintainer checks that its licence lets the hub share it and games play it: the **Licence**, **Source** and **Credit line** above are what they look at.",
   "",
-  "So this post was closed, and nothing in it was downloaded or put on the list.",
+  "Once it passes, they label it **music**: the track is then checked automatically, copied into the hub's music release and put on the music list, and this post is closed. Until then nothing in it is downloaded. If the licence doesn't allow it, the request is closed as not planned.",
   "",
-  `**To propose a track**, ask on [Discord](${DISCORD}): say where the track can be found and what its licence is, and a contributor can post it.`,
+  `(This post is now a song request. Anyone can [request a track](${REQUEST_FORM}).)`,
 ].join("\n");
 
 const heldComment = (track) => [
   MARKER,
   "### ⏸️ This post's last edit was not read",
   "",
-  `\`${track.id}\` stays on the music list as it was. Music posts are read only while their author is one of the hub's contributors, and GitHub no longer says that of this post's author, so the edit changed nothing.`,
+  `\`${track.id}\` stays on the music list as it was. A music post by someone who is not one of the hub's contributors is read as a maintainer approved it, and this edit came after that, so it changed nothing yet.`,
   "",
-  "A contributor can post the track again in a post of their own. To take this one down, close this post as not planned.",
+  "A maintainer approves the edit by taking the **music** label off this post and putting it back on. To take the track down, close this post as not planned.",
 ].join("\n");
+
+// The latest time someone who may write to the repository put the music label on a post: their approval of the
+// track, its copyright checked. { id, by }, or null for none. (A label the post's own form put on it is its
+// author's, and approves nothing.) `permissions` keeps each person's answer for the run.
+const approvalOf = async (client, number, permissions) => {
+  const events = await client.labelEvents(number);
+  for (const event of [...events].reverse()) {
+    if (event.event !== "labeled" || event.label !== LABEL || !event.by) continue;
+    if (!permissions.has(event.by)) permissions.set(event.by, await client.permissionOf(event.by));
+    if (APPROVING_PERMISSIONS.includes(permissions.get(event.by))) return { id: event.id, by: event.by };
+  }
+  return null;
+};
 
 // ---- one post ---------------------------------------------------------------------
 
-const checkPost = async ({ client, store, issue, record, workDir, download, inspect, hashFile, log }) => {
+const checkPost = async ({ client, store, issue, record, workDir, download, inspect, hashFile, log, autoClose = false }) => {
   const { list, state } = store;
   const number = issue.number;
   const form = parseForm(issue.body);
@@ -222,7 +248,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
   // file is not downloaded again.
   if (track && record.link === form.download) {
     updateDetails(track, details);
-    await say(listedComment({ track, repo: client.repo, note: "Your last edit changed the details only (the download link is the same), so nothing was downloaded and there is no new version." }));
+    await say(listedComment({ track, repo: client.repo, closing: autoClose, note: "Your last edit changed the details only (the download link is the same), so nothing was downloaded and there is no new version." }));
     return "details";
   }
 
@@ -248,7 +274,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     if (track && check.sha256 === track.sha256) {
       updateDetails(track, details);
       record.link = form.download;
-      await say(listedComment({ track, repo: client.repo, note: `The file at the link is the same as version ${track.version}, so there is no new version.` }));
+      await say(listedComment({ track, repo: client.repo, closing: autoClose, note: `The file at the link is the same as version ${track.version}, so there is no new version.` }));
       return "details";
     }
 
@@ -270,7 +296,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     record.link = form.download;
     state.posts[number] = record;
     log(`#${number}: published ${id} version ${version} (${megabytesText(check.bytes)} MB)`);
-    const made = await say(listedComment({ track: published, repo: client.repo }));
+    const made = await say(listedComment({ track: published, repo: client.repo, closing: autoClose }));
     // An edited comment notifies no one, so a new one says it.
     if (!made) await client.createComment(number, version === 1 ? `✅ \`${id}\` is on the music list.` : `✅ Version ${version} of \`${id}\` is on the music list, in place of version ${version - 1}.`);
     return "released";
@@ -299,6 +325,7 @@ const readAgain = ({ store, issue, record }) => {
 export const syncMusic = async ({
   client,
   workDir,
+  autoClose = false,
   download = downloadTrack,
   inspect = inspectAudio,
   hashFile = sha256File,
@@ -309,7 +336,25 @@ export const syncMusic = async ({
   const store = await openStore({ client, now, log });
   const { list, state } = store;
   const today = now().toISOString().slice(0, 10);
-  const summary = { posts: 0, released: 0, details: 0, problem: 0, waiting: 0, turnedAway: 0, removed: 0, unchanged: 0, readAgain: 0 };
+  const summary = { posts: 0, released: 0, details: 0, problem: 0, waiting: 0, requests: 0, removed: 0, unchanged: 0, readAgain: 0, closed: 0, reopened: 0 };
+  // Who may write to the repository, asked once a run for each approver.
+  const permissions = new Map();
+  // Closed this run: kept with the posts' records, saved once at the end.
+  let closedAny = false;
+  // A post whose track is on the list is closed as completed, as the hub's other posts are once released.
+  const closeIfListed = async (issue, record) => {
+    const listed = record.id ? findTrack(list, record.id) : null;
+    if (!autoClose || issue.state !== "open" || !listed || listed.removed) return;
+    try {
+      await client.closeAsCompleted(issue.number);
+      record.closedByUs = true;
+      state.posts[issue.number] = record;
+      summary.closed += 1;
+      closedAny = true;
+    } catch (error) {
+      log(`#${issue.number}: could not be closed (${error?.stack || error})`);
+    }
+  };
   // Posts read again by a newer READER this run: saved once, at the end.
   let readersMoved = false;
 
@@ -360,38 +405,63 @@ export const syncMusic = async ({
 
     const bodyHash = sha256Text(issue.body);
 
-    // Only the hub's contributors post music, by what GitHub says of the
-    // post's author. Before anything in the post is read or followed.
+    // The hub's contributors post music, by what GitHub says of the post's
+    // author; anyone else's post is read once a maintainer has checked its
+    // copyright and approved it by labelling it music, and only as it stood
+    // then. Before anything in the post is read or followed.
     if (!mayPostMusic(issue)) {
-      if (track) {
-        // On the list from when its author was a contributor. The track
-        // stays: who someone is to the repository today does not take down
-        // what was checked then. An edit is not read, and that is said once.
-        if (record.bodyHash !== bodyHash && record.heldHash !== bodyHash) {
-          await setStatus(client, number, heldComment(track), MARKER);
-          record.heldHash = bodyHash;
-          state.posts[number] = record;
-          await store.save(`Hold #${number}: its author is not a contributor`);
-        }
-        summary.unchanged += 1;
+      let approval = null;
+      try {
+        approval = await approvalOf(client, number, permissions);
+      } catch (error) {
+        log(`#${number}: who labelled it could not be read (${error?.stack || error})`);
+        summary.waiting += 1;
         continue;
       }
-      try {
-        await setStatus(client, number, turnedAwayComment(), MARKER);
-        await client.addLabel(number, PROBLEM_LABEL).catch(() => {});
-        await client.closeAsNotPlanned(number);
-        log(`#${number}: turned away (its author is not a contributor)`);
-        summary.turnedAway += 1;
-      } catch (error) {
-        // Something on GitHub's side: the post is still open, so the next run
-        // comes back to it. (The comment is found again, never made twice.)
-        log(`#${number}: could not be turned away (${error?.stack || error})`);
-        summary.waiting += 1;
+      // A new approval is of the post as it stands now.
+      if (approval && record.approvedEvent !== approval.id) {
+        record.approvedEvent = approval.id;
+        record.approvedBy = approval.by;
+        record.approvedHash = bodyHash;
+        state.posts[number] = record;
       }
-      continue;
+      const approved = Boolean(approval) && record.approvedHash === bodyHash;
+      if (!approved) {
+        if (track) {
+          // On the list as it was approved (or from when its author was a
+          // contributor). The track stays; the edit is not read until a
+          // maintainer approves it, and that is said once.
+          if (record.bodyHash !== bodyHash && record.heldHash !== bodyHash) {
+            await setStatus(client, number, heldComment(track), MARKER);
+            await client.addLabel(number, REQUEST_LABEL, { description: "A track someone asks for: a maintainer checks its licence, then labels it music", color: "1d76db" }).catch(() => {});
+            record.heldHash = bodyHash;
+            state.posts[number] = record;
+            await store.save(`Hold #${number}: an edit waiting for a maintainer`);
+          }
+          await closeIfListed(issue, record);
+          summary.unchanged += 1;
+          continue;
+        }
+        try {
+          // A song request now: waiting for a maintainer, without the music label, which is theirs to put on.
+          await setStatus(client, number, requestComment({ edited: Boolean(record.approvedEvent) }), MARKER);
+          await client.addLabel(number, REQUEST_LABEL, { description: "A track someone asks for: a maintainer checks its licence, then labels it music", color: "1d76db" });
+          await client.removeLabel(number, LABEL);
+          if (issue.state === "closed" && issue.state_reason !== "not_planned") await client.reopen(number).catch(() => {});
+          log(`#${number}: a song request, waiting for a maintainer`);
+          summary.requests += 1;
+        } catch (error) {
+          // Something on GitHub's side: the post still has its label, so the next run comes back to it. (The
+          // comment is found again, never made twice.)
+          log(`#${number}: could not be made a request (${error?.stack || error})`);
+          summary.waiting += 1;
+        }
+        continue;
+      }
     }
 
     if (record.bodyHash === bodyHash) {
+      await closeIfListed(issue, record);
       if ((record.reader ?? 1) < READER) {
         if (readAgain({ store, issue, record })) summary.readAgain += 1;
         record.reader = READER;
@@ -404,7 +474,7 @@ export const syncMusic = async ({
 
     let outcome;
     try {
-      outcome = await checkPost({ client, store, issue, record, workDir, download, inspect, hashFile, log });
+      outcome = await checkPost({ client, store, issue, record, workDir, download, inspect, hashFile, log, autoClose });
     } catch (error) {
       // Something on GitHub's side: the post is looked at again next run.
       log(`#${number}: could not be finished (${error?.stack || error})`);
@@ -421,7 +491,16 @@ export const syncMusic = async ({
     if (outcome === "problem") await client.addLabel(number, PROBLEM_LABEL).catch(() => {});
     else if (outcome !== "waiting" && (issue.labels ?? []).some((label) => (label?.name ?? label) === PROBLEM_LABEL)) await client.removeLabel(number, PROBLEM_LABEL).catch(() => {});
     await store.save(outcome === "released" ? `Publish ${record.id} version ${findTrack(list, record.id).version} (#${number})` : `Check #${number}`);
+    if (outcome === "released" || outcome === "details") await closeIfListed(issue, record);
+    // Closed by the hub and now needing changes: open again, where its author sees it (they can't reopen it).
+    if (outcome === "problem" && autoClose && issue.state === "closed" && record.closedByUs) {
+      await client.reopen(number).catch(() => {});
+      record.closedByUs = false;
+      state.posts[number] = record;
+      summary.reopened += 1;
+    }
   }
   if (readersMoved) await store.save(`Read the music posts again for their genre, mood and instruments (${summary.readAgain} tracks)`);
+  if (closedAny) await store.save(`Close ${summary.closed} post(s) whose tracks are on the list`);
   return summary;
 };

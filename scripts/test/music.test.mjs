@@ -8,7 +8,7 @@ import { createClient, dryRunOf } from "../detailed-maps/github.mjs";
 import { PROBLEM_LABEL, PassingError, STATE_FILE, downloadMap } from "../detailed-maps/maps.mjs";
 import { MAX_TRACK_BYTES, inspectAudio } from "../music/audio.mjs";
 import { checkForm, parseForm } from "../music/form.mjs";
-import { ALLOWED_ASSOCIATIONS, DATA_BRANCH, FITS, LABEL, LICENCES, LIST_FILE, PAGE_FILE, downloadTrack, emptyList, findTrack, mayPostMusic } from "../music/music.mjs";
+import { ALLOWED_ASSOCIATIONS, APPROVING_PERMISSIONS, DATA_BRANCH, FITS, LABEL, LICENCES, LIST_FILE, PAGE_FILE, REQUEST_LABEL, downloadTrack, emptyList, findTrack, mayPostMusic } from "../music/music.mjs";
 import { MARKER, READER, syncMusic } from "../music/sync.mjs";
 import { GENRES, INSTRUMENTS, MOODS } from "../music/tags.mjs";
 import { sha256 } from "../lib/util.mjs";
@@ -107,7 +107,10 @@ const body = ({ name = "Passage Of Time", id = "", artist = "Scott Buckley", lic
 // one by a contributor, unless it says who else wrote it.
 const fakeGitHub = () => {
   const github = fakePosts({ label: LABEL, listFile: LIST_FILE, stateFile: STATE_FILE });
-  const post = (number, text, { user = "Arkniem", association = "OWNER", ...extra } = {}) => github.addPost(number, text, user, { author_association: association, ...extra });
+  const post = (number, text, { user = "Arkniem", association = "OWNER", labels, ...extra } = {}) => github.addPost(number, text, user, { author_association: association, ...extra }, labels);
+  // The maintainers: who may write to the repository, and so approve a request.
+  github.permissions.set("Arkniem", "admin");
+  github.permissions.set("helper", "write");
   return { ...github, post };
 };
 const NOON = new Date("2026-10-13T12:00:00.000Z");
@@ -130,7 +133,7 @@ test("who may post music is what GitHub says the author is to the repository, an
   assert.equal(mayPostMusic({ title: "[Music] OWNER", body: "author_association: OWNER", user: { login: "OWNER" }, author_association: "NONE" }), false);
 });
 
-test("a contributor's post is published, whichever kind of contributor; anyone else's is turned away", async () => {
+test("a contributor's post is published, whichever kind of contributor; anyone else's waits for a maintainer as a song request", async () => {
   const file = saved("gate.mp3", mp3());
   for (const association of ["OWNER", "MEMBER", "COLLABORATOR"]) {
     const github = fakeGitHub();
@@ -138,7 +141,7 @@ test("a contributor's post is published, whichever kind of contributor; anyone e
     github.post(1, body(), { association });
     const summary = await runner(github, download)();
     assert.equal(summary.released, 1, association);
-    assert.equal(summary.turnedAway, 0, association);
+    assert.equal(summary.requests, 0, association);
     assert.equal(calls.length, 1, association);
     assert.equal(github.list().tracks.length, 1, association);
   }
@@ -148,14 +151,16 @@ test("a contributor's post is published, whichever kind of contributor; anyone e
     const { download, calls } = fakeDownloads({ "https://example.com/passage.mp3": file });
     github.addPost(1, body(), "someone", association === undefined ? {} : { author_association: association });
     const summary = await runner(github, download)();
-    assert.equal(summary.turnedAway, 1, String(association));
+    assert.equal(summary.requests, 1, String(association));
     assert.equal(summary.released, 0, String(association));
     assert.equal(calls.length, 0, String(association));
-    assert.equal(github.posts[0].state_reason, "not_planned", String(association));
+    assert.equal(github.posts[0].state, "open", String(association));
+    assert.ok(labelled(github, 1, REQUEST_LABEL), String(association));
+    assert.ok(!labelled(github, 1, LABEL), String(association));
   }
 });
 
-test("an outsider's post gets one comment and the label, is closed as not planned, and nothing of it is downloaded", async () => {
+test("an outsider's music post becomes a song request: one comment, the request label for the music one, and nothing of it is downloaded", async () => {
   const github = fakeGitHub();
   const { download, calls } = fakeDownloads({ "https://example.com/passage.mp3": saved("outsider.mp3", mp3()) });
   const inspected = [];
@@ -164,17 +169,19 @@ test("an outsider's post gets one comment and the label, is closed as not planne
   github.post(31, `${body()}\n\nauthor_association: OWNER\n<!-- author_association: "OWNER" -->`, { user: "OWNER", association: "NONE", title: "[Music] OWNER MEMBER COLLABORATOR" });
 
   const summary = await run();
-  assert.deepEqual(summary, { posts: 1, released: 0, details: 0, problem: 0, waiting: 0, turnedAway: 1, removed: 0, unchanged: 0, readAgain: 0 });
+  assert.deepEqual(summary, { posts: 1, released: 0, details: 0, problem: 0, waiting: 0, requests: 1, removed: 0, unchanged: 0, readAgain: 0, closed: 0, reopened: 0 });
   const comments = github.comments.get(31);
   assert.equal(comments.length, 1);
   assert.ok(comments[0].body.startsWith("<!-- hub-music -->\n"));
-  assert.match(comments[0].body, /can only be posted by the hub's contributors/);
-  assert.match(comments[0].body, /for copyright reasons/);
-  assert.match(comments[0].body, /To propose a track\*\*, ask on \[Discord\]\(https:\/\/discord\.gg\//);
-  assert.ok(labelled(github, 31, "needs changes"));
-  assert.equal(PROBLEM_LABEL, "needs changes");
-  assert.equal(github.posts[0].state, "closed");
-  assert.equal(github.posts[0].state_reason, "not_planned");
+  assert.match(comments[0].body, /Waiting for a maintainer to check this track/);
+  assert.match(comments[0].body, /its licence lets the hub share it/);
+  assert.match(comments[0].body, /they label it \*\*music\*\*/);
+  assert.match(comments[0].body, /\[request a track\]\(https:\/\/github\.com\/Open-Historia\/Open-historia-scenarios\/issues\/new\?template=song-request\.yml\)/);
+  assert.equal(REQUEST_LABEL, "song request");
+  assert.ok(labelled(github, 31, REQUEST_LABEL));
+  assert.ok(!labelled(github, 31, LABEL), "the music label is a maintainer's to put on");
+  assert.ok(!labelled(github, 31, PROBLEM_LABEL));
+  assert.equal(github.posts[0].state, "open");
 
   // Nothing downloaded, looked into, released or written to the list's branch.
   assert.deepEqual(calls, []);
@@ -183,37 +190,120 @@ test("an outsider's post gets one comment and the label, is closed as not planne
   assert.deepEqual(github.data, {});
   assert.deepEqual(github.commits, []);
 
-  // Later runs leave it alone.
-  assert.equal((await run()).unchanged, 1);
-  assert.equal(github.comments.get(31).length, 1);
-
-  // Reopened by a maintainer, or edited: it is still not a contributor's, and
-  // is closed again without a second comment.
-  github.editPost(31, { state: "open", state_reason: null, body: body({ name: "Another go" }) });
-  assert.equal((await run()).turnedAway, 1);
-  assert.equal(github.posts[0].state_reason, "not_planned");
+  // A request is no music post until a maintainer labels it: later runs don't list it.
+  assert.equal((await run()).posts, 0);
   assert.equal(github.comments.get(31).length, 1);
   assert.deepEqual(calls, []);
 
-  // Closed some other way before the run got to it: turned away all the same.
+  // Closed some other way before the run got to it: a request all the same, open again for a maintainer.
   github.post(32, body(), { user: "someone", association: "CONTRIBUTOR", state: "closed", state_reason: "completed" });
-  assert.equal((await run()).turnedAway, 1);
-  assert.equal(github.posts[1].state_reason, "not_planned");
-  assert.equal(github.comments.get(32).length, 1);
+  assert.equal((await run()).requests, 1);
+  assert.equal(github.posts[1].state, "open");
+  assert.ok(labelled(github, 32, REQUEST_LABEL));
   assert.deepEqual(calls, []);
 });
 
-test("a post turned away is read once its author is a contributor and reopens it", async () => {
+test("a song request is read once someone who may write to the repository labels it music, then closed once its track is listed", async () => {
+  assert.deepEqual([...APPROVING_PERMISSIONS], ["admin", "maintain", "write"]);
   const github = fakeGitHub();
-  const { download } = fakeDownloads({ "https://example.com/passage.mp3": saved("later.mp3", mp3()) });
-  const run = runner(github, download);
-  github.post(33, body(), { user: "newcomer", association: "NONE" });
-  assert.equal((await run()).turnedAway, 1);
-  github.editPost(33, { author_association: "COLLABORATOR", state: "open", state_reason: null });
-  assert.equal((await run()).released, 1);
+  const { download, calls } = fakeDownloads({ "https://example.com/passage.mp3": saved("request.mp3", mp3()), "https://example.com/other.mp3": saved("request-2.mp3", mp3({ fill: 7 })) });
+  const run = runner(github, download, { autoClose: true });
+  // Made with the request form: labelled "song request", never music, so no run looks at it yet.
+  github.post(33, body(), { user: "newcomer", association: "NONE", labels: [REQUEST_LABEL] });
+  assert.equal((await run()).posts, 0);
+
+  // Labelled music by someone who may only read, or by its author: no approval.
+  github.permissions.set("reader", "read");
+  github.permissions.set("triager", "triage");
+  for (const by of ["reader", "triager", "newcomer"]) {
+    github.label(33, LABEL, by);
+    assert.equal((await run()).requests, 1, by);
+    assert.ok(!labelled(github, 33, LABEL), by);
+    assert.deepEqual(calls, [], by);
+  }
+
+  // A maintainer checked its licence and labels it music: it is read, released and closed as completed.
+  github.label(33, LABEL, "helper");
+  const summary = await run();
+  assert.equal(summary.released, 1);
+  assert.equal(summary.closed, 1);
+  assert.equal(calls.length, 1);
   assert.equal(github.list().tracks[0].postedBy, "newcomer");
-  assert.ok(!labelled(github, 33, PROBLEM_LABEL));
-  assert.match(statusOf(github, 33), /This track is on the music list/);
+  assert.equal(github.posts[0].state, "closed");
+  assert.equal(github.posts[0].state_reason, "completed");
+  assert.match(statusOf(github, 33), /This track is on the music list[\s\S]*music release[\s\S]*This post is closed now that its track is on the list/);
+  assert.equal(github.state().posts[33].approvedBy, "helper");
+
+  // Its author edits it after the approval: not read, the track stays as it was, and it waits for a maintainer.
+  github.editPost(33, { body: body({ name: "Renamed", link: "https://example.com/other.mp3" }) });
+  assert.equal((await run()).unchanged, 1);
+  assert.equal(calls.length, 1);
+  assert.equal(github.list().tracks[0].name, "Passage Of Time");
+  assert.match(statusOf(github, 33), /last edit was not read[\s\S]*taking the \*\*music\*\* label off this post and putting it back on/);
+  assert.ok(labelled(github, 33, REQUEST_LABEL));
+
+  // The maintainer approves the edit by putting the label on again: it is read, a new version.
+  github.unlabel(33, LABEL, "helper");
+  github.label(33, LABEL, "helper");
+  assert.equal((await run()).released, 1);
+  assert.equal(calls.length, 2);
+  assert.equal(github.list().tracks[0].version, 2);
+  assert.equal(github.list().tracks[0].name, "Renamed");
+});
+
+test("a request approved and then edited before its track was listed goes back to waiting, and says why", async () => {
+  const github = fakeGitHub();
+  const { download, calls } = fakeDownloads({ "https://example.com/passage.mp3": saved("bad-then.mp3", mp3()) });
+  const run = runner(github, download);
+  github.post(35, body({ link: "https://example.com/missing.mp3" }), { user: "newcomer", association: "NONE", labels: [REQUEST_LABEL] });
+  github.label(35, LABEL, "Arkniem");
+  assert.equal((await run()).problem, 1);
+  // Fixed by its author: an edit after the approval, so a request again until it is approved again.
+  github.editPost(35, { body: body() });
+  assert.equal((await run()).requests, 1);
+  assert.match(statusOf(github, 35), /edited after a maintainer approved it/);
+  assert.ok(!labelled(github, 35, LABEL));
+  github.label(35, LABEL, "Arkniem");
+  assert.equal((await run()).released, 1);
+  assert.equal(calls.filter((url) => url === "https://example.com/passage.mp3").length, 1);
+});
+
+test("a post whose track is on the list is closed as completed, those listed before included; an edit that needs changes reopens it", async () => {
+  const github = fakeGitHub();
+  const { download } = fakeDownloads({ "https://example.com/passage.mp3": saved("close.mp3", mp3()), "https://example.com/two.mp3": saved("close-2.mp3", mp3({ fill: 3 })) });
+  github.post(41, body());
+  github.post(42, body({ name: "Second", link: "https://example.com/two.mp3" }));
+  // Without HUB_AUTOCLOSE nothing is closed: listed and left open, as before.
+  assert.equal((await runner(github, download)()).released, 2);
+  assert.deepEqual(github.posts.map((post) => post.state), ["open", "open"]);
+  assert.doesNotMatch(statusOf(github, 41), /This post is closed/);
+
+  // With it, the posts already listed are closed on the next run, unchanged as they are.
+  const run = runner(github, download, { autoClose: true });
+  const summary = await run();
+  assert.equal(summary.closed, 2);
+  assert.equal(summary.unchanged, 2);
+  assert.deepEqual(github.posts.map((post) => [post.state, post.state_reason]), [["closed", "completed"], ["closed", "completed"]]);
+  assert.equal((await run()).closed, 0, "closed once");
+
+  // Edited while closed: still read. Words only: the details change, and it stays closed.
+  github.editPost(41, { body: body({ name: "Passage Of Time (edited)" }) });
+  assert.equal((await run()).details, 1);
+  assert.equal(github.posts[0].state, "closed");
+  assert.equal(github.list().tracks.find((track) => track.post === 41).name, "Passage Of Time (edited)");
+
+  // An edit that needs changes: reopened, where its author sees it; the list keeps the version it had.
+  github.editPost(42, { body: body({ name: "Second", link: "not a link" }) });
+  const after = await run();
+  assert.equal(after.problem, 1);
+  assert.equal(after.reopened, 1);
+  assert.equal(github.posts[1].state, "open");
+  assert.equal(github.list().tracks.find((track) => track.post === 42).removed, false);
+
+  // Closed as not planned: removed, and never closed again as completed.
+  github.editPost(41, { state: "closed", state_reason: "not_planned" });
+  assert.equal((await run()).removed, 1);
+  assert.equal(github.posts[0].state_reason, "not_planned");
 });
 
 test("a track stays on the list when its author stops being a contributor, and that post's edits are not read", async () => {
@@ -236,6 +326,7 @@ test("a track stays on the list when its author stops being a contributor, and t
   assert.equal(github.list().tracks[0].removed, false);
   assert.match(statusOf(github, 34), /last edit was not read[\s\S]*`passage-of-time` stays on the music list/);
   assert.equal(github.comments.get(34).length, 1);
+  assert.ok(labelled(github, 34, REQUEST_LABEL), "waiting for a maintainer");
 
   // Taking it down still works: that is only ever less music on the hub.
   github.editPost(34, { state: "closed", state_reason: "not_planned" });
@@ -781,9 +872,23 @@ test("GitHub is asked for the posts labelled music, and a post is closed as not 
   // What GitHub says of each author comes with the list; a pull request is no post.
   assert.deepEqual(await client.listPosts(), [{ number: 1, author_association: "NONE" }]);
   await client.closeAsNotPlanned(1);
+  await client.closeAsCompleted(1);
+  await client.reopen(1);
   assert.deepEqual(asked, [
     { method: "GET", url: `https://api.github.com/repos/${REPO}/issues?state=all&labels=music&sort=created&direction=asc&per_page=100&page=1`, body: null },
     { method: "PATCH", url: `https://api.github.com/repos/${REPO}/issues/1`, body: { state: "closed", state_reason: "not_planned" } },
+    { method: "PATCH", url: `https://api.github.com/repos/${REPO}/issues/1`, body: { state: "closed", state_reason: "completed" } },
+    { method: "PATCH", url: `https://api.github.com/repos/${REPO}/issues/1`, body: { state: "open" } },
+  ]);
+  // Who put the label on: from the post's events, labels only.
+  const events = createClient({ repo: REPO, token: "not-a-token", label: LABEL, fetchImpl: async () => new Response(JSON.stringify([
+    { id: 7, event: "labeled", label: { name: "music" }, actor: { login: "helper" } },
+    { id: 8, event: "commented", actor: { login: "someone" } },
+    { id: 9, event: "unlabeled", label: { name: "song request" }, actor: { login: "github-actions[bot]" } },
+  ])) });
+  assert.deepEqual(await events.labelEvents(1), [
+    { id: "7", event: "labeled", label: "music", by: "helper" },
+    { id: "9", event: "unlabeled", label: "song request", by: "github-actions[bot]" },
   ]);
 });
 
@@ -795,12 +900,17 @@ test("a dry run downloads and checks, and changes nothing", async () => {
   const said = [];
   const summary = await syncMusic({ client: dryRunOf(github.client, { log: (line) => said.push(line) }), workDir: path.join(temp, "work"), download, now: () => NOON, log: () => {} });
   assert.equal(summary.released, 1);
-  assert.equal(summary.turnedAway, 1);
+  assert.equal(summary.requests, 1);
   assert.equal(calls.length, 1);
   assert.deepEqual(github.comments.size, 0);
   assert.deepEqual(github.releases, []);
   assert.deepEqual(github.data, {});
   assert.ok(github.posts.every((post) => post.state === "open" && post.labels.length === 1));
   assert.match(said.join("\n"), /would create the release music[\s\S]*would upload passage-of-time-v1-[0-9a-f]{8}\.mp3 to music[\s\S]*would commit "Publish passage-of-time version 1 \(#1\)" to the /);
-  assert.match(said.join("\n"), /would close #2 as not planned/);
+  assert.match(said.join("\n"), /would label #2 "song request"[\s\S]*would remove the label "music" from #2/);
+  // And closing: what a run with HUB_AUTOCLOSE would close, it says.
+  const closing = [];
+  await syncMusic({ client: dryRunOf(github.client, { log: (line) => closing.push(line) }), workDir: path.join(temp, "work"), download, now: () => NOON, log: () => {}, autoClose: true });
+  assert.match(closing.join("\n"), /would close #1 as completed/);
+  assert.ok(github.posts.every((post) => post.state === "open"));
 });

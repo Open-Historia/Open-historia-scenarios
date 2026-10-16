@@ -34,6 +34,12 @@ export const PAGE_FILE = "MUSIC.md";
 export const RELEASE_TAG = "music";
 // Where someone who is not a contributor proposes a track.
 export const DISCORD = "https://discord.gg/QaqAK7fQAg";
+// A song request: a track anyone may ask for (.github/ISSUE_TEMPLATE/song-request.yml), labelled so while it waits
+// for a maintainer to check that the hub may share it. Approving it is putting the music label on it.
+export const REQUEST_LABEL = "song request";
+export const REQUEST_FORM = "https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=song-request.yml";
+// Who may approve a request by labelling it music: someone GitHub says may write to the repository.
+export const APPROVING_PERMISSIONS = Object.freeze(["admin", "maintain", "write"]);
 
 // Who may post music, by what GitHub itself says the post's author is to this
 // repository (`author_association` on the issue): its owner, a member of the

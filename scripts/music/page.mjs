@@ -5,7 +5,7 @@
 
 import { cell, quoted } from "../detailed-maps/page.mjs";
 import { megabytesText } from "./audio.mjs";
-import { DISCORD, FITS } from "./music.mjs";
+import { FITS, REQUEST_FORM } from "./music.mjs";
 
 // "4:31", or a dash for a length that could not be told.
 export const lengthText = (seconds) => (Number.isInteger(seconds) ? `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}` : "—");
@@ -25,7 +25,7 @@ export const buildPage = (list, state, { repo }) => {
     "",
     "Music that scenario makers can choose for their scenarios: while a game loads, in the game, at war and in the war room. Each track is here with its composer, its licence, where it comes from and the credit its licence asks for: **this page is how the hub credits the music.**",
     "",
-    `Music can be posted only by the hub's contributors, because every track must be one the hub is allowed to share. To propose a track, ask on [Discord](${DISCORD}). This page is written by the **Background music** workflow from the [music posts](https://github.com/${repo}/issues?q=label%3Amusic); don't edit it by hand.`,
+    `Every track here is one the hub is allowed to share: posted by the hub's contributors, or requested by anyone and checked for copyright by a maintainer first. To ask for a track, [request a song](${REQUEST_FORM}). This page is written by the **Background music** workflow from the [music posts](https://github.com/${repo}/issues?q=label%3Amusic); don't edit it by hand.`,
     "",
   ];
   if (!shown.length) {
