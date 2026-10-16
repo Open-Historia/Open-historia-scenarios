@@ -1,0 +1,213 @@
+name: Request a song
+description: Ask for a track to be added to the hub's background music. A maintainer checks its licence first.
+title: "[Song request] "
+labels: ["song request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Anyone can request a track** for the hub's music list, where scenario makers choose music for their scenarios: for a game loading, in the game, at war and in the war room. ([More about background music](https://github.com/Open-Historia/Open-historia-scenarios#post-background-music))
+
+        **Every request is checked by hand for copyright.** The hub hands a copy of every track to every player, so a maintainer first checks that the track's licence lets the hub share it and games play it: give its licence, the page where it and its licence can be seen, and the credit it asks for. Nothing is downloaded until then. If it passes, they label this request **music**: the track is checked automatically, copied into the hub's music release and put on the music list, and this request is closed. If it doesn't, the request is closed as not planned.
+
+        **The file is too big to drag in here.** Put the `.mp3` or `.ogg` online somewhere it can be downloaded directly and paste the link below. **Edit this request** to change anything: an edit made after a maintainer approved it waits for their check again. Don't delete or rename the headings below: the bot reads your answers under them.
+  - type: input
+    id: name
+    attributes:
+      label: Track name
+      description: The name scenario makers and players will see.
+      placeholder: Passage Of Time
+    validations:
+      required: true
+  - type: input
+    id: track-id
+    attributes:
+      label: Track ID
+      description: Lower-case letters, digits and dashes. Leave it empty to make one from the name. It can't change once the track is on the list.
+      placeholder: passage-of-time
+  - type: input
+    id: artist
+    attributes:
+      label: Composer / artist
+      description: Who wrote or performs the track.
+      placeholder: Scott Buckley
+    validations:
+      required: true
+  - type: dropdown
+    id: licence
+    attributes:
+      label: Licence
+      description: The licence the track is released under. It has to let the hub share the track and games play it. Not sure it does? Don't post the track; ask on Discord first.
+      options:
+        - "CC0 1.0 (public domain)"
+        - "CC BY 4.0"
+        - "CC BY-SA 4.0"
+        - "Public domain (expired or dedicated)"
+        - "My own work, released under CC BY 4.0"
+        - "My own work, released under CC0 1.0"
+        - "Other free licence (say which under Credits)"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: The page where the track and its licence can be seen.
+      placeholder: https://www.scottbuckley.com.au/library/passage-of-time/
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Credit line
+      description: The attribution to show for the track, worded the way its licence or its composer asks. For another free licence, name the licence here too.
+      placeholder: "'Passage Of Time' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au"
+    validations:
+      required: true
+  - type: input
+    id: download
+    attributes:
+      label: Download link to the audio file
+      description: A direct link to an .mp3 or .ogg file of 20 MB or less. The file is too big for GitHub to attach.
+      placeholder: https://github.com/you/your-repo/releases/download/v1/passage-of-time.mp3
+    validations:
+      required: true
+  - type: checkboxes
+    id: fits
+    attributes:
+      label: Fits
+      description: Where the track suits. Scenario makers see these as suggestions and can still use it anywhere. Tick any, or none.
+      options:
+        - label: The menu
+        - label: A game loading
+        - label: In the game
+        - label: At war
+        - label: In the war room
+  - type: dropdown
+    id: genres
+    attributes:
+      label: Genre
+      description: What kind of music it is. Scenario makers find tracks by these. Choose any that fit, or none.
+      multiple: true
+      options:
+        - "Ambient"
+        - "Christmas"
+        - "Electronica"
+        - "Folk"
+        - "Funk"
+        - "Halloween"
+        - "Hip Hop"
+        - "Jazz"
+        - "Neoclassical"
+        - "Noir"
+        - "Orchestral"
+        - "Pop"
+        - "Rock"
+        - "Techno"
+  - type: dropdown
+    id: moods
+    attributes:
+      label: Mood
+      description: How it feels. Choose any that fit, or none.
+      multiple: true
+      options:
+        - "Adventurous"
+        - "Angry"
+        - "Bittersweet"
+        - "Blissful"
+        - "Brooding"
+        - "Calm"
+        - "Christmas"
+        - "Comedic"
+        - "Cute"
+        - "Dark"
+        - "Depressed"
+        - "Dreamy"
+        - "Driving"
+        - "Emotional"
+        - "Energetic"
+        - "Epic"
+        - "Excited"
+        - "Fun"
+        - "Grandiose"
+        - "Happy"
+        - "Heroic"
+        - "Hopeful"
+        - "Industrial"
+        - "Innocent"
+        - "Inspirational"
+        - "Intense"
+        - "Lonely"
+        - "Meditative"
+        - "Melancholy"
+        - "Militaristic"
+        - "Mysterious"
+        - "Nostalgic"
+        - "Ominous"
+        - "Passionate"
+        - "Peaceful"
+        - "Playful"
+        - "Reflective"
+        - "Relaxed"
+        - "Romantic"
+        - "Sad"
+        - "Sinister"
+        - "Sleepy"
+        - "Sombre"
+        - "Spiritual"
+        - "Thoughtful"
+        - "Uplifting"
+  - type: dropdown
+    id: instruments
+    attributes:
+      label: Instruments
+      description: What it is played on. Choose any that fit, or none.
+      multiple: true
+      options:
+        - "Accordion"
+        - "Bass"
+        - "Bass (Acoustic)"
+        - "Brass"
+        - "Cello"
+        - "Choir"
+        - "Clarinet"
+        - "Drums (Acoustic)"
+        - "Drums (Electronic)"
+        - "Drums (Epic)"
+        - "Flute (Ethnic)"
+        - "Glockenspiel"
+        - "Guitar (Acoustic)"
+        - "Guitar (Electric)"
+        - "Harp"
+        - "Mandolin"
+        - "Orchestra"
+        - "Organ"
+        - "Percussion"
+        - "Piano"
+        - "Piano (Electric)"
+        - "Recorder"
+        - "Saxophone"
+        - "Strings"
+        - "Synth (Atmospherics)"
+        - "Synth (Lead)"
+        - "Synth (Pad)"
+        - "Trumpet"
+        - "Ukulele"
+        - "Vibes"
+        - "Violin"
+        - "Vocals (Female)"
+        - "Vocals (Male)"
+        - "Woodwinds"
+        - "Xylophone"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else worth knowing about the track (optional).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: "I have checked that this track's licence allows the hub to share it and games to play it, and that the credit line above is the one it asks for."
+          required: true

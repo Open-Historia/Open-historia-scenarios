@@ -12,6 +12,10 @@ export const REPO = "Open-Historia/Open-historia-scenarios";
 export const fakeGitHub = ({ label, listFile, stateFile }) => {
   let nextId = 1;
   const posts = [];
+  // Who put which label on which post, and what each person may do in the repository (none unless said).
+  const events = new Map();
+  const permissions = new Map();
+  const labelled = (number, event, name, by) => events.set(number, [...(events.get(number) ?? []), { id: String(nextId++), event, label: name, by }]);
   const comments = new Map();
   const releases = [];
   const data = {};
@@ -30,15 +34,27 @@ export const fakeGitHub = ({ label, listFile, stateFile }) => {
     },
     addLabel: async (number, name) => {
       const post = posts.find((entry) => entry.number === number);
-      if (!post.labels.some((entry) => entry.name === name)) post.labels.push({ name });
+      if (!post.labels.some((entry) => entry.name === name)) {
+        post.labels.push({ name });
+        labelled(number, "labeled", name, "github-actions[bot]");
+      }
     },
     removeLabel: async (number, name) => {
       const post = posts.find((entry) => entry.number === number);
+      if (post.labels.some((entry) => entry.name === name)) labelled(number, "unlabeled", name, "github-actions[bot]");
       post.labels = post.labels.filter((entry) => entry.name !== name);
     },
     closeAsNotPlanned: async (number) => {
       Object.assign(posts.find((entry) => entry.number === number), { state: "closed", state_reason: "not_planned" });
     },
+    closeAsCompleted: async (number) => {
+      Object.assign(posts.find((entry) => entry.number === number), { state: "closed", state_reason: "completed" });
+    },
+    reopen: async (number) => {
+      Object.assign(posts.find((entry) => entry.number === number), { state: "open", state_reason: null });
+    },
+    labelEvents: async (number) => (events.get(number) ?? []).map((event) => ({ ...event })),
+    permissionOf: async (login) => permissions.get(login) ?? "none",
     listReleases: async () => releases.map((release) => ({ ...release, assets: [...release.assets] })),
     createRelease: async ({ tag, draft = false }) => {
       const release = { id: nextId++, tag, draft, assets: [] };
@@ -73,11 +89,24 @@ export const fakeGitHub = ({ label, listFile, stateFile }) => {
   };
   // `extra` is whatever else GitHub says of the post (its author's
   // `author_association`, a title).
-  const addPost = (number, text, user = "designer", extra = {}) => {
-    posts.push({ number, body: text, state: "open", state_reason: null, user: { login: user }, labels: [{ name: label }], ...extra });
+  // A post, labelled by its own form: the label is its author's doing.
+  const addPost = (number, text, user = "designer", extra = {}, labels = [label]) => {
+    posts.push({ number, body: text, state: "open", state_reason: null, user: { login: user }, labels: labels.map((name) => ({ name })), ...extra });
+    for (const name of labels) labelled(number, "labeled", name, user);
   };
   const editPost = (number, changes) => Object.assign(posts.find((entry) => entry.number === number), changes);
-  return { client, posts, comments, releases, data, commits, attachments, addPost, editPost, list: () => JSON.parse(data[listFile]), state: () => JSON.parse(data[stateFile]) };
+  // Someone (`by`) putting a label on a post, or taking it off.
+  const labelPost = (number, name, by) => {
+    const post = posts.find((entry) => entry.number === number);
+    if (!post.labels.some((entry) => entry.name === name)) post.labels.push({ name });
+    labelled(number, "labeled", name, by);
+  };
+  const unlabelPost = (number, name, by) => {
+    const post = posts.find((entry) => entry.number === number);
+    post.labels = post.labels.filter((entry) => entry.name !== name);
+    labelled(number, "unlabeled", name, by);
+  };
+  return { client, posts, comments, releases, data, commits, attachments, events, permissions, addPost, editPost, label: labelPost, unlabel: unlabelPost, list: () => JSON.parse(data[listFile]), state: () => JSON.parse(data[stateFile]) };
 };
 
 // Downloads served from local files, counted.

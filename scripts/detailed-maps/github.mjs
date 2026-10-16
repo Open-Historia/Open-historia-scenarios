@@ -90,6 +90,14 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, label = LA
 
     // Closed as "not planned": what turns a post away.
     closeAsNotPlanned: (number) => api("PATCH", `/repos/${repo}/issues/${number}`, { body: { state: "closed", state_reason: "not_planned" } }),
+    // Closed as completed: its file is released (the music posts, as the hub's other posts are).
+    closeAsCompleted: (number) => api("PATCH", `/repos/${repo}/issues/${number}`, { body: { state: "closed", state_reason: "completed" } }),
+    reopen: (number) => api("PATCH", `/repos/${repo}/issues/${number}`, { body: { state: "open" } }),
+
+    // Who put which label on a post or took it off, oldest first: { id, event, label, by }.
+    labelEvents: async (number) => (await paged(`/repos/${repo}/issues/${number}/events`))
+      .filter((event) => event.event === "labeled" || event.event === "unlabeled")
+      .map((event) => ({ id: String(event.id), event: event.event, label: String(event.label?.name ?? ""), by: String(event.actor?.login ?? "") })),
 
     permissionOf: async (login) => {
       const answer = await api("GET", `/repos/${repo}/collaborators/${encodeURIComponent(login)}/permission`, { okStatuses: [404] });
@@ -100,10 +108,10 @@ export const createClient = ({ repo, token, dataBranch = DATA_BRANCH, label = LA
     createComment: (number, body) => api("POST", `/repos/${repo}/issues/${number}/comments`, { body: { body } }),
     updateComment: (id, body) => api("PATCH", `/repos/${repo}/issues/comments/${id}`, { body: { body } }),
 
-    addLabel: async (number, name) => {
+    addLabel: async (number, name, { description = problemNote, color = "d93f0b" } = {}) => {
       // The label has to exist, or GitHub answers 422 for the issue.
       await api("POST", `/repos/${repo}/labels`, {
-        body: { name, color: "d93f0b", description: problemNote },
+        body: { name, color, description },
         okStatuses: [422],
       });
       return api("POST", `/repos/${repo}/issues/${number}/labels`, { body: { labels: [name] } });
@@ -219,6 +227,8 @@ export const dryRunOf = (client, { log = console.log } = {}) => {
     addLabel: async (number, name) => would(`label #${number} "${name}"`),
     removeLabel: async (number, name) => would(`remove the label "${name}" from #${number}`),
     closeAsNotPlanned: async (number) => would(`close #${number} as not planned`),
+    closeAsCompleted: async (number) => would(`close #${number} as completed`),
+    reopen: async (number) => would(`reopen #${number}`),
     createRelease: async ({ tag, draft }) => {
       would(`create the ${draft ? "draft " : ""}release ${tag}`);
       return { id: fakeId--, tag, draft, assets: [] };

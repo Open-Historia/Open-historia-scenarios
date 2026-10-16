@@ -34,8 +34,9 @@ What it does not cover:
 
 - A **detailed map** a scenario names. That is a separate download with the licence written on its
   own post ([the list](https://github.com/Open-Historia/Open-historia-scenarios/blob/detailed-maps-index/DETAILED-MAPS.md)).
-- **Music** a scenario names. Each track is its own post, made by the hub's contributors only, with
-  its credit and licence written on it ([the list](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md)).
+- **Music** a scenario names. Each track is its own post, made by the hub's contributors or requested
+  by anyone and checked for copyright by a maintainer first, with its credit and licence written on it
+  ([the list](https://github.com/Open-Historia/Open-historia-scenarios/blob/music-index/MUSIC.md)).
 - Anything in a file that was never its poster's to license. If your work was posted here without
   your permission, open an issue or write to the address in the game's privacy policy and it is taken down.
 - The game itself, which is under the AGPL, and the code in this repository.
@@ -142,14 +143,17 @@ war room. A scenario never carries music. It only **names** tracks from the hub'
 their ID, and the game downloads those from here. It may also say how loud each of those four
 situations is, as a share of the volume the player set (a whole number from 0 to 100).
 
-> **Only the hub's contributors can post music** (people the maintainers have given access to this
-> repository). A flag or a map is usually its author's own to share. A piece of music almost always
-> belongs to someone else, and the hub hands a copy of it to every player, so every track has to be
-> one the hub is allowed to share, checked by someone the maintainers know. A music post from anyone
-> else is closed with a note, and nothing of it is downloaded.
+> **Music is checked for copyright before it is added.** A flag or a map is usually its author's own
+> to share. A piece of music almost always belongs to someone else, and the hub hands a copy of it to
+> every player, so every track has to be one the hub is allowed to share. The hub's contributors
+> (people the maintainers have given access to this repository) post tracks directly.
 >
-> **To propose a track, ask on [Discord](https://discord.gg/QaqAK7fQAg):** say where the track is
-> and what its licence is, and a contributor can post it.
+> **Anyone else: [request a song](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=song-request.yml).**
+> The request has the same questions as a music post. A maintainer checks by hand that the track's
+> licence lets the hub share it; if it does, they label the request **`music`**, and from then on it
+> is handled like any music post: checked, copied into the music release, put on the list, and
+> closed. Nothing in a request is downloaded before that. A request whose licence doesn't allow it is
+> closed as not planned. (A music post from anyone else becomes a request.)
 
 **What can be posted:** an **`.mp3`** or **`.ogg`** file (Vorbis or Opus) of **20 MB or less**, under
 a licence that lets the hub share it and games play it: CC0, CC BY, CC BY-SA, public domain, your
@@ -162,7 +166,9 @@ anything from a streaming service) can't be posted.
 1. Put the file online as a **direct download**. It's too big to drag into a post. A release on
    your own GitHub works best. You can delete your copy once the track is on the list.
 2. Open a [**new music post**](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=music.yml)
-   and fill in:
+   (or, if you are not one of the hub's contributors, a
+   [**song request**](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=song-request.yml),
+   which asks the same) and fill in:
    - **Track name**, and a **Track ID** if you want one (lower-case letters, digits and dashes,
      like `passage-of-time`; empty makes one from the name).
    - **Composer / artist** and **Licence**.
@@ -180,17 +186,21 @@ anything from a streaming service) can't be posted.
    - **Notes** (optional), and the box that says you have checked the licence and the credit.
 
    Don't delete or rename the form's headings: the bot reads your answers under them.
-3. Submit. Within minutes the bot checks the post and either puts the track on the list
-   (✅ **This track is on the music list**) or says exactly what to fix (❌ **This post needs
-   changes**, with the `needs changes` label). To fix something, edit the post: the checks run again.
+3. Submit. Within minutes the bot checks the post (a request: once a maintainer has approved it)
+   and either puts the track on the list (✅ **This track is on the music list**) and closes the
+   post, as every finished post on the hub is closed, or says exactly what to fix (❌ **This post
+   needs changes**, with the `needs changes` label). To fix something, edit the post: the checks
+   run again, closed or not. A post closed by the hub that then needs changes is opened again. An
+   edit to a request after its approval waits for a maintainer again.
 
 **What is checked:** that the post's author is one of the hub's contributors, by what GitHub itself
-reports of them (nothing a post says about its author counts). Then that the composer, licence,
+reports of them (nothing a post says about its author counts), or that someone who may write to the
+repository labelled it `music` after the post was last edited. Then that the composer, licence,
 source (a link) and credit line are filled in and the box is ticked; that the file downloads from
 the link (an `https://` link to a public address); that it is 20 MB or less; and that it really is
 an MP3 or an Ogg Vorbis or Opus file, told by what is in it and not by its name, so a file that was
-only renamed is refused. The bot can't tell whether a licence is true: that is what the box, and the
-rule about who can post, are for.
+only renamed is refused. The bot can't tell whether a licence is true: that is what the box, the
+rule about who can post, and a maintainer's check of every request are for.
 
 **The track ID:** the ID is how scenarios find a track. No two tracks share one, and once a track is
 on the list its ID never changes.
@@ -430,21 +440,32 @@ Both post a comment on the map's post saying what was done, by whom, and why.
 Music posts have a workflow of their own too, [**Background music**](.github/workflows/music.yml),
 which looks at issues labelled `music` and at nothing else. For each new or edited post it:
 
-- **turns the post away unless its author is a contributor**: GitHub has to report the author as
-  the repository's `OWNER`, a `MEMBER` of the organisation or a `COLLABORATOR` (the issue's
-  `author_association`; the list is `ALLOWED_ASSOCIATIONS` in `scripts/music/music.mjs`). Anyone
-  else's post gets one comment, the `needs changes` label, and is closed as not planned, and its
-  link is never followed;
-- checks a contributor's post and its file, copies the file into the **`music`** release as
-  `<id>-v<version>-<start of its checksum>.<mp3|ogg>`, and writes the list the game reads,
+- **reads a post only if its author is a contributor, or a maintainer approved it**: GitHub has to
+  report the author as the repository's `OWNER`, a `MEMBER` of the organisation or a
+  `COLLABORATOR` (the issue's `author_association`; the list is `ALLOWED_ASSOCIATIONS` in
+  `scripts/music/music.mjs`), or the post's `music` label has to have been put on by someone
+  GitHub says may write to the repository (`admin`, `maintain` or `write`;
+  `APPROVING_PERMISSIONS`), after its last edit. Anyone else's post is a **song request**: it gets
+  one comment, the `song request` label in place of `music`, and its link is never followed;
+- checks a contributor's or an approved post and its file, copies the file into the **`music`**
+  release as `<id>-v<version>-<start of its checksum>.<mp3|ogg>`, and writes the list the game reads,
   `music.json`, with `MUSIC.md` for people, to the **`music-index`** branch. Don't edit that branch
-  or that release by hand.
+  or that release by hand;
+- **closes a post as completed once its track is on the list**, with the repository variable
+  `HUB_AUTOCLOSE=1`, as the hub's other posts are closed once released. A closed post is still read
+  when edited, and opened again if the edit needs changes.
 
-There is no approval step: a contributor's track that passes the checks is on the list at once.
-**Giving someone access to this repository therefore also lets them post music**, and they are
-trusted to post only what the hub may share. To take a track down, close its post as not planned
-(anyone with triage access can). A track stays on the list if its author later stops being a
-contributor; only that post's later edits are no longer read.
+**Approving a song request:** read its **Licence**, **Source** and **Credit line**, and check on the
+source page that the licence lets the hub share the track and games play it. If it does, put the
+`music` label on the request; the workflow does the rest within minutes. If it doesn't, close the
+request as not planned. An edit its author makes after the approval is not read until a maintainer
+approves it again: take the `music` label off and put it back on.
+
+A contributor's track that passes the checks is on the list at once. **Giving someone access to
+this repository therefore also lets them post music, and approve requests**, and they are trusted to
+add only what the hub may share. To take a track down, close its post as not planned (anyone with
+triage access can). A track stays on the list if its author later stops being a contributor; only
+that post's later edits wait for a maintainer.
 
 If a contributor's post is turned away, look at what GitHub reports for them: a member whose
 membership of the organisation is private may be reported as not being one.
