@@ -2,7 +2,7 @@
 
 Music that scenario makers can choose for their scenarios: while a game loads, in the game, at war and in the war room. Each track is here with its composer, its licence, where it comes from and the credit its licence asks for: **this page is how the hub credits the music.**
 
-Music can be posted only by the hub's contributors, because every track must be one the hub is allowed to share. To propose a track, ask on [Discord](https://discord.gg/QaqAK7fQAg). This page is written by the **Background music** workflow from the [music posts](https://github.com/Open-Historia/Open-historia-scenarios/issues?q=label%3Amusic); don't edit it by hand.
+Every track here is one the hub is allowed to share: posted by the hub's contributors, or requested by anyone and checked for copyright by a maintainer first. To ask for a track, [request a song](https://github.com/Open-Historia/Open-historia-scenarios/issues/new?template=song-request.yml). This page is written by the **Background music** workflow from the [music posts](https://github.com/Open-Historia/Open-historia-scenarios/issues?q=label%3Amusic); don't edit it by hand.
 
 | Track | ID | Composer / artist | Licence | Length | Size | Fits | Genre | Mood |
 |---|---|---|---|---|---|---|---|---|
