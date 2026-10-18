@@ -45,6 +45,7 @@ export const limitedBody = (body, sources = []) => {
 // how it stands now (state, reactions, comments).
 const listedPost = (number, record) => {
   const { released, live = {} } = record;
+  const startDate = record.kind === "scenario" ? record.files.find((file) => file.primary)?.startDate : "";
   return {
     number,
     kind: record.kind,
@@ -59,6 +60,7 @@ const listedPost = (number, record) => {
     author_association: released.author_association,
     reactions: { "+1": Number(live.upvotes) || 0 },
     comments: Number(live.comments) || 0,
+    ...(startDate ? { scenario_date: startDate } : {}),
   };
 };
 

@@ -106,7 +106,7 @@ export const normalizeState = (raw) => {
       pipeline: Number(record.pipeline) || 1,
       bodyHash: current ? String(record.bodyHash ?? "") : "",
       // The checked copies that are released (for a version 1 post: its unchecked ones).
-      files: list(record.files).filter((file) => file?.asset).map((file) => ({ source: file.source, primary: Boolean(file.primary), asset: file.asset, ...(file.repairs ? { repairs: file.repairs } : {}), ...(file.seen !== undefined ? { seen: file.seen } : {}) })),
+      files: list(record.files).filter((file) => file?.asset).map((file) => ({ source: file.source, primary: Boolean(file.primary), asset: file.asset, ...(file.repairs ? { repairs: file.repairs } : {}), ...(file.seen !== undefined ? { seen: file.seen } : {}), ...(file.dated ? { dated: true } : {}), ...(typeof file.startDate === "string" && file.startDate ? { startDate: file.startDate } : {}) })),
       // Files of this repository's older releases that the post links directly.
       hosted: [...list(record.hosted), ...list(record.files).filter((file) => file?.hosted).map((file) => ({ source: file.source, primary: Boolean(file.primary), ...file.hosted }))],
       released: record.released ?? null,
@@ -193,6 +193,7 @@ export const syncHub = async ({
   now = new Date(),
   log = () => {},
   maxUploads = 400,
+  maxDatings = 25,
   autoClose = false,
   only = null,
   checker = sharedChecker(),
@@ -267,7 +268,7 @@ export const syncHub = async ({
   const hubAddresses = [...postAddresses];
   const hub = () => ({ addresses: hubAddresses, repos: hubRepos, assets: [...assetsByName.keys()] });
 
-  const summary = { posts: onHub.size, copied: 0, kept: 0, deleted: 0, retired: 0, commented: 0, problems: 0, deferred: 0, closed: 0, reopened: 0, tests: tests.size, suggestionsKept: 0, suggestionsDeleted: 0 };
+  const summary = { posts: onHub.size, copied: 0, kept: 0, deleted: 0, retired: 0, commented: 0, problems: 0, deferred: 0, closed: 0, reopened: 0, dated: 0, tests: tests.size, suggestionsKept: 0, suggestionsDeleted: 0 };
   const report = { posts: [], tests: [], suggestions: [] };
 
   // ---- copies in the releases ---------------------------------------------------
@@ -460,7 +461,7 @@ export const syncHub = async ({
           }
           asset = { id: made.id, tag: made.tag, name: made.name, url: made.url, size: checked.bytes.length, sha256: hash };
         }
-        files.push({ source: want.source, primary: want.primary, asset, ...(checked.repairs.length ? { repairs: checked.repairs } : {}) });
+        files.push({ source: want.source, primary: want.primary, asset, ...(checked.repairs.length ? { repairs: checked.repairs } : {}), ...(kind === "scenario" && want.primary ? { dated: true, ...(checked.startDate ? { startDate: checked.startDate } : {}) } : {}) });
         result.outcome = checked.repairs.length ? "repaired" : "as is";
         result.repairs = checked.repairs;
         result.copy = asset.name;
@@ -631,6 +632,28 @@ export const syncHub = async ({
       }
     } catch (error) {
       log(`#${number}: could not be closed or reopened (${error?.message || error})`);
+    }
+  }
+
+  let dating = 0;
+  for (const [key, record] of Object.entries(state.posts)) {
+    if (record.kind !== "scenario" || !record.released || record.pipeline !== PIPELINE) continue;
+    const file = record.files.find((one) => one.primary);
+    if (!file || file.dated || !assetsById.has(file.asset.id)) continue;
+    if (dating >= maxDatings || late()) break;
+    dating += 1;
+    try {
+      const got = await client.download(file.asset.url, { maxBytes: MAX_FILE_BYTES });
+      if (got.tooLarge) {
+        file.dated = true;
+        continue;
+      }
+      const checked = await checker.postFile({ kind: "scenario", primary: true, bytes: got.bytes, label: spoken(file.source, { kind: "scenario", primary: true }), hub: hub(), timeoutMs: postCheckMs });
+      file.dated = true;
+      if (checked.startDate) file.startDate = checked.startDate;
+      summary.dated += 1;
+    } catch (error) {
+      log(`#${key}: its date could not be read just now (${error?.message || error})`);
     }
   }
 

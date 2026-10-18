@@ -268,6 +268,15 @@ const EMBLEM_FIELDS = { logoUrl: "emblem", logo: "emblem", emblemUrl: "emblem", 
 // does not know the hub's posts: something GitHub stores.
 const GITHUB_FILE = /^https:\/\/(?:github\.com|(?:[a-z0-9-]+\.)*githubusercontent\.com)\//i;
 
+export const MAX_DATE_CHARACTERS = 40;
+const scenarioDateOf = (game) => {
+  for (const key of ["startDate", "gameDate"]) {
+    const value = typeof game?.[key] === "string" ? game[key].trim() : "";
+    if (value && value.length <= MAX_DATE_CHARACTERS && !/[\u0000-\u001f]/.test(value)) return value;
+  }
+  return "";
+};
+
 // Checks one scenario document. `archive` is its zip, when it came in one.
 // Returns whether the document itself was changed.
 const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) => {
@@ -296,7 +305,8 @@ const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) =
     return false;
   }
   const world = part(data, "world", "data.world");
-  part(data, "game", "data.game");
+  const game = part(data, "game", "data.game");
+  findings.startDate = scenarioDateOf(game);
   part(data, "prompts", "data.prompts");
   // Its music is tracks of the hub's music list, named by their IDs, and
   // nothing else (scenario-music.mjs).

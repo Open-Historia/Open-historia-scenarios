@@ -191,6 +191,7 @@ export class Checker {
         ...(result.skip ? { skip: true } : {}),
         ...(typeof result.type === "string" ? { type: result.type } : {}),
         ...(Array.isArray(result.pixels) ? { pixels: result.pixels.map(Number) } : {}),
+        ...(typeof result.startDate === "string" && result.startDate ? { startDate: result.startDate.slice(0, 40) } : {}),
         ...(answer.header.has ? { bytes: answer.header.same ? bytes : answer.bytes } : {}),
       };
     } catch (error) {
