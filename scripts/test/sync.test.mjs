@@ -615,3 +615,39 @@ test("what version 1 copied is checked, and no post's count drops on the way", a
   await run(hub, { ...options, now: at(60) });
   assert.deepEqual(hub.index().imports, { 1: 293, 12: 51, 13: 25 });
 });
+
+const dataWith = (game) => ({ actions: [], advisor: [], chat: [], events: [], game, prompts: {}, world: { language: "en" } });
+
+test("a scenario's start date is listed with its post, as its file gives it", async () => {
+  const third = "https://github.com/user-attachments/files/503/third.zip";
+  const hub = fakeHub({
+    issues: [post(12, "scenario", `[file](${FILE})`), post(13, "scenario", `[file](${FILE_V2})`), post(14, "scenario", `[file](${third})`)],
+    files: {
+      [FILE]: scenarioZip({ data: dataWith({ startDate: "-0218-03-01", gameDate: "-0218-04-01" }) }),
+      [FILE_V2]: ZIP,
+      [third]: scenarioZip({ data: dataWith({ startDate: `1914${String.fromCharCode(10)}07`, gameDate: "1914-07-28" }) }),
+    },
+  });
+  await run(hub);
+  const listed = Object.fromEntries(hub.index().posts.map((entry) => [entry.number, entry.scenario_date ?? null]));
+  assert.deepEqual(listed, { 12: "-0218-03-01", 13: null, 14: "1914-07-28" });
+});
+
+test("a scenario released before dates were noted is dated from its released copy, once", async () => {
+  const hub = await installed({ issues: [post(12, "scenario", `[file](${FILE})`)], files: { [FILE]: scenarioZip({ data: dataWith({ gameDate: "1936-01-01" }) }) } });
+  const state = hub.state();
+  const primary = state.posts[12].files.find((file) => file.primary);
+  delete primary.dated;
+  delete primary.startDate;
+  hub.data["state.json"] = JSON.stringify(state);
+  const copy = hub.asset("p12-501-");
+  hub.files.set(copy.url, hub.uploaded.get(copy.name));
+  const { summary } = await run(hub, { now: at(30) });
+  assert.equal(summary.dated, 1);
+  assert.deepEqual(hub.did("download").map(([, url]) => url), [copy.url]);
+  assert.equal(hub.did("uploadAsset").length, 0);
+  assert.equal(hub.index().posts[0].scenario_date, "1936-01-01");
+  hub.calls.length = 0;
+  await run(hub, { now: at(60) });
+  assert.deepEqual(hub.did("download"), []);
+});

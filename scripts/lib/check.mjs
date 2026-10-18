@@ -62,7 +62,7 @@ const dataFile = async (check, bytes, type, ctx) => {
   // A zip is always written again, so that is always said; a .json only says
   // what was put right in it.
   const repairs = releasedType === "zip" ? [`zip rebuilt${phrases.length ? `: ${phrases.join(", ")}` : " from its checked entries"}`] : phrases;
-  return { released: true, type: releasedType, bytes: releasedBytes, problems: [], repairs };
+  return { released: true, type: releasedType, bytes: releasedBytes, problems: [], repairs, ...(findings.startDate ? { startDate: findings.startDate } : {}) };
 };
 
 // Checks one file of a post of `kind`. `primary` is THE file (the one the game
