@@ -29,6 +29,26 @@
           "released": "2026-10-15"
         }
       ]
+    },
+    {
+      "id": "world",
+      "name": "world",
+      "author": "ravencystrategic",
+      "owners": [
+        "ravencystrategic"
+      ],
+      "license": "CC BY-SA 4.0",
+      "post": 582,
+      "versions": [
+        {
+          "version": 1,
+          "url": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/detailed-maps-1/world-v1.pmtiles",
+          "bytes": 178949001,
+          "sha256": "41c0f00e80461ddb950c6a89d983db099516e8d5c0ac0cf879fe17295ecfa570",
+          "preview": "https://github.com/Open-Historia/Open-historia-scenarios/releases/download/detailed-maps-1/world-v1.png",
+          "released": "2026-10-27"
+        }
+      ]
     }
   ]
 }

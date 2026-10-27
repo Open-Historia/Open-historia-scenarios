@@ -7,6 +7,7 @@ To share one, make a [detailed map post](https://github.com/Open-Historia/Open-h
 | Map | ID | Status | Latest | Size | By | Licence |
 |---|---|---|---|---|---|---|
 | [Game of Thrones - 298 AC](https://github.com/Open-Historia/Open-historia-scenarios/issues/248) | `got-world` | Available | v2 | 442 MB | @SeventhDread | CC BY-NC-SA 3.0 |
+| [world](https://github.com/Open-Historia/Open-historia-scenarios/issues/582) | `world` | Available | v1 | 171 MB | @ravencystrategic | CC BY-SA 4.0 |
 
 ## Credits and licences
 
@@ -17,3 +18,13 @@ To share one, make a [detailed map post](https://github.com/Open-Historia/Open-h
 > Made by SeventhDread for Open Historia. Based on [GOT-Inspired-Map](https://github.com/mapbox/GOT-Inspired-Map) (A Song of Ice and Fire speculative world map): GIS files by cadaei, based on maps by Tear and theMountainGoat. A Song of Ice and Fire, and every place on this map, are (c) George R. R. Martin. Changed from the original: drawn as a relief map and cut into map tiles, with extra detail added around Winterfell, King's Landing and Dragonstone. Licensed under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 [The map's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/248)
+
+### world (`world`)
+
+**Licence:** CC BY-SA 4.0
+
+> Ravency
+>
+> Generated via Azgaar's Fantasy Map Generator - for use in fictional scenarios that don't want regular geography.
+
+[The map's post](https://github.com/Open-Historia/Open-historia-scenarios/issues/582)

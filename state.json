@@ -20,6 +20,26 @@
         "sha256": "3769b511bd4b646e1eef91bf6554d38eca3f2dcfaf16d8f38e22c549f1c52d38"
       },
       "changes": "Adds Lonely Light, the westernmost of the Iron Islands, which version 1 left out: a bare rock with a few skerries and House Farwynd's keep with its beacon tower. The rest of the map is exactly the same as version 1."
+    },
+    "582": {
+      "credits": "Ravency\n\nGenerated via Azgaar's Fantasy Map Generator - for use in fictional scenarios that don't want regular geography.",
+      "changes": "",
+      "id": "world",
+      "link": "https://github.com/ravencystrategic/haelth-map/releases/download/v1/world.pmtiles",
+      "check": {
+        "tileType": "png",
+        "minzoom": 0,
+        "maxzoom": 7,
+        "bounds": [
+          -180,
+          -85.051,
+          180,
+          85.051
+        ],
+        "bytes": 178949001,
+        "sha256": "41c0f00e80461ddb950c6a89d983db099516e8d5c0ac0cf879fe17295ecfa570"
+      },
+      "bodyHash": "a575a17842c2cdff3ada5f30f20d4464114ca889065754625d0e1b14bf0f8f46"
     }
   }
 }
