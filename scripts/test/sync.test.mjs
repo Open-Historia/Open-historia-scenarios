@@ -692,3 +692,26 @@ test("a scenario released before there were update copies gets one, and copying 
   assert.deepEqual(hub.index().imports, { 12: 4 });
   assert.deepEqual(hub.did("download"), [], "made once");
 });
+
+test("a passing upload problem on a post whose release stands is cleared, not logged on every run", async () => {
+  const hub = await installed({ issues: [post(12, "scenario", FILE)], files: { [FILE]: ZIP } });
+  // One run sees the releases without their files: it takes the copies for
+  // gone, and GitHub refuses the upload of what is still there.
+  const listReleases = hub.client.listReleases;
+  hub.client.listReleases = async () => (await listReleases()).map((release) => ({ ...release, assets: [] }));
+  await run(hub, { now: at(30) });
+  const stuck = hub.state().posts[12];
+  assert.equal(stuck.problems.length, 1);
+  assert.ok(stuck.problems[0].transient && /could not be put into the hub's releases/.test(stuck.problems[0].text));
+  assert.deepEqual(Object.keys(hub.index().files), [FILE], "the release stood");
+  hub.client.listReleases = listReleases;
+  hub.calls.length = 0;
+  const lines = [];
+  await run(hub, { now: at(60), log: (line) => lines.push(line) });
+  assert.deepEqual(hub.state().posts[12].problems, []);
+  assert.equal(hub.state().posts[12].failures, 0);
+  assert.ok(!lines.some((line) => /could not be put/.test(line)), "nothing logged about it");
+  assert.deepEqual(hub.did("download"), []);
+  assert.deepEqual(hub.did("uploadAsset"), []);
+  assert.deepEqual(hub.did("createComment"), []);
+});
