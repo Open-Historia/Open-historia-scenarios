@@ -608,6 +608,16 @@ export const syncHub = async ({
       // Nothing about its files changed: its title and labels may have (a
       // maintainer pinned it), and those are what is released too.
       record.released = snapshotOf(issue, bodyHash);
+      // A passing problem left by a look that changed nothing (a copy that
+      // could not be uploaded again, when this very text was released and its
+      // copies are all there) is over: the release stands, and a settled post
+      // is not looked at again to clear it. Left in place it was logged on
+      // every run for good.
+      if (record.problems.length && record.problems.every((problem) => problem.transient)) {
+        record.problems = [];
+        record.failures = 0;
+        delete record.retry;
+      }
     }
     const problems = record.problems;
     entry.problems = problems.map((problem) => problem.text);
