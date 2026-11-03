@@ -230,6 +230,12 @@ export const assetName = ({ post, source, type, sha256 = "", test = false }) => 
   const extension = type || extensionOf(original) || "bin";
   return [assetPrefix({ post, source, test }), stem, String(sha256).slice(0, 8)].filter(Boolean).join("-") + `.${extension}`;
 };
+// The name of a copy's update copy: the same, with "-update" before the
+// extension ("p12-ab12cd34-map-1a2b3c4d-update.zip").
+export const updateAssetName = (name) => {
+  const text = String(name ?? "");
+  return EXTENSION.test(text) ? text.replace(EXTENSION, "-update.$1") : `${text}-update`;
+};
 // What every name of one attachment of one post starts with ("t" for a test
 // post's, which live in a release of their own).
 export const assetPrefix = ({ post, source, test = false }) => `${test ? "t" : "p"}${Number(post)}-${sourceKey(source)}`;

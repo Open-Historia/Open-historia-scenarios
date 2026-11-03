@@ -29,7 +29,7 @@ test("a post's file is checked, and its checked copy goes into a release", async
     files: { [FILE]: attached, [COVER]: PNG },
   });
   const { summary } = await run(hub);
-  assert.equal(summary.copied, 2);
+  assert.equal(summary.copied, 3, "the file, its update copy and the cover");
   assert.deepEqual(hub.did("createRelease"), [["createRelease", "scenarios-1"]]);
   const file = hub.asset("p12-501-");
   const cover = hub.asset("p12-aaaaaaaa-");
@@ -37,7 +37,12 @@ test("a post's file is checked, and its checked copy goes into a release", async
   assert.match(file.name, /^p12-501-world-scenario-[0-9a-f]{8}\.zip$/);
   assert.match(cover.name, /^p12-aaaaaaaa-[0-9a-f]{8}\.png$/);
   assert.equal(file.name, `p12-501-world-scenario-${sha256(hub.uploaded.get(file.name)).slice(0, 8)}.zip`);
-  assert.deepEqual(hub.did("uploadAsset").map(([, , type]) => type), ["application/zip", "image/png"]);
+  assert.deepEqual(hub.did("uploadAsset").map(([, , type]) => type), ["application/zip", "application/zip", "image/png"]);
+  // The scenario file's update copy: the same bytes, beside it; a cover has none.
+  const update = hub.assets().find((asset) => asset.name === file.name.replace(/\.zip$/, "-update.zip"));
+  assert.ok(update && update.tag === file.tag);
+  assert.ok(hub.uploaded.get(update.name).equals(hub.uploaded.get(file.name)));
+  assert.deepEqual(hub.index().updates, { [file.url]: update.url });
   // The picture is the attached one. The zip is not: it was written again from
   // its entries, and holds what they held.
   assert.ok(hub.uploaded.get(cover.name).equals(PNG));
@@ -162,7 +167,7 @@ test("a new version replaces the old copy, which is deleted a run later, and no 
   assert.equal(hub.did("deleteAsset").length, 0, "a run a minute later is too soon");
   assert.deepEqual(hub.index().imports, { 12: 10 });
   await run(hub, { now: at(1 + REPLACED_COPY_MINUTES) });
-  assert.equal(hub.did("deleteAsset").length, 1);
+  assert.equal(hub.did("deleteAsset").length, 2, "the old copy and its update copy");
   assert.ok(!hub.asset("p12-501-") && hub.asset("p12-502-"));
   assert.deepEqual(hub.index().imports, { 12: 10 }, "what the old copy had counted is carried");
   hub.downloaded("p12-502-", 5);
@@ -188,10 +193,10 @@ test("a closed post's files are deleted; reopened, it is checked again and keeps
   const closed = await run(hub);
   assert.equal(closed.summary.retired, 1);
   assert.equal(hub.assets().length, 0);
-  assert.deepEqual(hub.index(), { version: 2, files: {}, imports: {}, posts: [], suggestions: {}, generatedAt: at(0).toISOString() });
+  assert.deepEqual(hub.index(), { version: 2, files: {}, imports: {}, posts: [], suggestions: {}, updates: {}, generatedAt: at(0).toISOString() });
   Object.assign(hub.issues.get(12), { state: "open", state_reason: "reopened" });
   await run(hub, { now: at(30) });
-  assert.equal(hub.assets().length, 1);
+  assert.equal(hub.assets().length, 2, "the file and its update copy");
   assert.deepEqual(hub.index().imports, { 12: 4 });
   assert.deepEqual(hub.index().posts.map((entry) => entry.number), [12]);
 });
@@ -211,7 +216,7 @@ test("a post only missing from the list is left alone", async () => {
   hub.client.listPosts = async () => []; // a list that came back short
   await run(hub);
   assert.equal(hub.did("deleteAsset").length, 0);
-  assert.equal(hub.assets().length, 1);
+  assert.equal(hub.assets().length, 2);
   assert.deepEqual(Object.keys(hub.index().files), [FILE]);
   hub.client.getIssue = async () => { throw new Error("GitHub answered 502"); };
   await run(hub);
@@ -374,7 +379,8 @@ test("a copy uploaded by a run that then failed is taken as it is, not uploaded 
     releases: [{ id: 1, tag: "scenarios-1", assets: [{ id: 77, name, url: `https://github.com/${REPO}/releases/download/scenarios-1/${name}`, size: ZIP.length, downloads: 2 }] }],
   });
   await run(hub);
-  assert.equal(hub.did("uploadAsset").length, 0);
+  // Only its update copy, which that run had not made yet, is uploaded.
+  assert.deepEqual(hub.did("uploadAsset").map(([, name]) => name), [name.replace(/\.zip$/, "-update.zip")]);
   assert.deepEqual(hub.index().files, { [FILE]: `https://github.com/${REPO}/releases/download/scenarios-1/${name}` });
   assert.deepEqual(hub.index().imports, { 12: 2 });
 });
@@ -650,4 +656,39 @@ test("a scenario released before dates were noted is dated from its released cop
   hub.calls.length = 0;
   await run(hub, { now: at(60) });
   assert.deepEqual(hub.did("download"), []);
+});
+
+test("an update copy's downloads are not imports", async () => {
+  const hub = await installed({ issues: [post(12, "scenario", FILE)], files: { [FILE]: ZIP } });
+  const copy = hub.asset("p12-501-");
+  const update = hub.assets().find((asset) => asset.name === copy.name.replace(/\.zip$/, "-update.zip"));
+  hub.downloaded(copy.name, 3); // imports
+  hub.downloaded(update.name, 9); // players updating a copy they have
+  await run(hub, { now: at(30) });
+  assert.deepEqual(hub.index().imports, { 12: 3 });
+  assert.deepEqual(hub.index().updates, { [copy.url]: update.url });
+});
+
+test("a scenario released before there were update copies gets one, and copying it is not an import", async () => {
+  const hub = await installed({ issues: [post(12, "scenario", `[file](${FILE})`)], files: { [FILE]: ZIP } });
+  const copy = hub.asset("p12-501-");
+  const updateName = copy.name.replace(/\.zip$/, "-update.zip");
+  for (const release of hub.releases) release.assets = release.assets.filter((asset) => asset.name !== updateName);
+  const state = hub.state();
+  delete state.posts[12].files.find((file) => file.primary).update;
+  hub.data["state.json"] = JSON.stringify(state);
+  hub.files.set(copy.url, hub.uploaded.get(copy.name));
+  hub.downloaded(copy.name, 4);
+  const { summary } = await run(hub, { now: at(30) });
+  assert.equal(summary.updateCopies, 1);
+  assert.deepEqual(hub.did("download").map(([, url]) => url), [copy.url]);
+  assert.deepEqual(hub.did("uploadAsset").map(([, name]) => name), [updateName]);
+  const update = hub.assets().find((asset) => asset.name === updateName);
+  assert.deepEqual(hub.index().updates, { [copy.url]: update.url });
+  // GitHub counts the hub's own download of the copy; it is taken off again.
+  hub.downloaded(copy.name, 1);
+  hub.calls.length = 0;
+  await run(hub, { now: at(60) });
+  assert.deepEqual(hub.index().imports, { 12: 4 });
+  assert.deepEqual(hub.did("download"), [], "made once");
 });

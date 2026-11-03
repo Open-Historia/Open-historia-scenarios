@@ -118,12 +118,12 @@ test("with the switch off, an update with a problem keeps the last good release 
 
 test("a post leaves the hub when it is closed as not planned, or loses its label", async () => {
   const hub = await installed({ issues: [post(12, "scenario", FILE), post(13, "scenario", FILE_V2), post(14, "scenario", FILE)], files: FILES }, on);
-  assert.equal(hub.assets().length, 3);
+  assert.equal(hub.assets().length, 6, "each file and its update copy");
   close(hub, 12, "not_planned");
   hub.issues.get(13).labels = [];
   await run(hub, { ...on, now: at(30) });
   assert.deepEqual(listed(hub), [[14, "closed"]]);
-  assert.deepEqual(hub.assets().map((asset) => asset.name.slice(0, 4)), ["p14-"]);
+  assert.deepEqual(hub.assets().map((asset) => asset.name.slice(0, 4)), ["p14-", "p14-"]);
   assert.deepEqual(Object.keys(hub.state().posts), ["14"]);
   // Closed as not planned while still open to the workflow: the same.
   const open = await installed({ issues: [post(12, "scenario", FILE)], files: FILES });

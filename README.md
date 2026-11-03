@@ -390,6 +390,12 @@ as GitHub counts it. The workflow adds the counts up every half hour and writes 
 `index.json`, and the in-game **⬇ Most Installed** row shows them. A new version of a scenario
 keeps the count of the versions before it.
 
+Updating a scenario a player already has is not an install. Every scenario file has a second copy
+beside it in the release, the same bytes with `-update` before the extension; the game downloads
+that one for its **Update** button, and its downloads are never counted. `index.json` lists each
+copy's update copy under `updates`. A scenario released before update copies existed gets its own
+within a few runs.
+
 Counting used to be done by a counter of the game's own. What it had counted for each post on
 5 October 2026 is kept in [`data/legacy-import-counts.json`](data/legacy-import-counts.json) and
 added in, so no post's number started again from nothing.
