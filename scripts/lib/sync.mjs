@@ -43,6 +43,7 @@ import {
   TEST_RELEASE_TITLE,
   assetName,
   chooseRelease,
+  extensionOf,
   fileNameOf,
   hasLabel,
   isOwnRelease,
@@ -54,6 +55,7 @@ import {
   releaseNotes,
   releaseTitle,
   suggestionZipOf,
+  updateAssetName,
 } from "./posts.mjs";
 import { sha256, sizeText } from "./util.mjs";
 
@@ -106,7 +108,7 @@ export const normalizeState = (raw) => {
       pipeline: Number(record.pipeline) || 1,
       bodyHash: current ? String(record.bodyHash ?? "") : "",
       // The checked copies that are released (for a version 1 post: its unchecked ones).
-      files: list(record.files).filter((file) => file?.asset).map((file) => ({ source: file.source, primary: Boolean(file.primary), asset: file.asset, ...(file.repairs ? { repairs: file.repairs } : {}), ...(file.seen !== undefined ? { seen: file.seen } : {}), ...(file.dated ? { dated: true } : {}), ...(typeof file.startDate === "string" && file.startDate ? { startDate: file.startDate } : {}) })),
+      files: list(record.files).filter((file) => file?.asset).map((file) => ({ source: file.source, primary: Boolean(file.primary), asset: file.asset, ...(file.update?.id ? { update: file.update } : {}), ...(file.repairs ? { repairs: file.repairs } : {}), ...(file.seen !== undefined ? { seen: file.seen } : {}), ...(file.dated ? { dated: true } : {}), ...(typeof file.startDate === "string" && file.startDate ? { startDate: file.startDate } : {}) })),
       // Files of this repository's older releases that the post links directly.
       hosted: [...list(record.hosted), ...list(record.files).filter((file) => file?.hosted).map((file) => ({ source: file.source, primary: Boolean(file.primary), ...file.hosted }))],
       released: record.released ?? null,
@@ -194,6 +196,7 @@ export const syncHub = async ({
   log = () => {},
   maxUploads = 400,
   maxDatings = 25,
+  maxUpdateCopies = 25,
   autoClose = false,
   only = null,
   checker = sharedChecker(),
@@ -268,7 +271,7 @@ export const syncHub = async ({
   const hubAddresses = [...postAddresses];
   const hub = () => ({ addresses: hubAddresses, repos: hubRepos, assets: [...assetsByName.keys()] });
 
-  const summary = { posts: onHub.size, copied: 0, kept: 0, deleted: 0, retired: 0, commented: 0, problems: 0, deferred: 0, closed: 0, reopened: 0, dated: 0, tests: tests.size, suggestionsKept: 0, suggestionsDeleted: 0 };
+  const summary = { posts: onHub.size, copied: 0, kept: 0, deleted: 0, retired: 0, commented: 0, problems: 0, deferred: 0, closed: 0, reopened: 0, dated: 0, updateCopies: 0, tests: tests.size, suggestionsKept: 0, suggestionsDeleted: 0 };
   const report = { posts: [], tests: [], suggestions: [] };
 
   // ---- copies in the releases ---------------------------------------------------
@@ -305,6 +308,8 @@ export const syncHub = async ({
       const seen = countOf(record, file);
       if (assetsById.has(file.asset.id)) record.stale.push({ id: file.asset.id, name: file.asset.name, primary: file.primary, since: now.toISOString(), seen });
       else if (file.primary) record.carried += seen;
+      // Its update copy goes with it, and was never counted.
+      if (file.update && assetsById.has(file.update.id)) record.stale.push({ id: file.update.id, name: file.update.name, primary: false, since: now.toISOString(), seen: 0 });
     }
   };
   // The copies set aside long enough ago are deleted, and their downloads carried.
@@ -358,6 +363,25 @@ export const syncHub = async ({
     assetsByName.set(`${asset.tag}/${asset.name}`, asset);
     summary.copied += 1;
     return asset;
+  };
+
+  // A scenario's file has a second copy beside it, byte for byte the same, that
+  // the game downloads to update a scenario a player already has. Its downloads
+  // are never counted, so an update is not an import. null when it could not be
+  // made this run (the game then updates from the counted copy).
+  const updateCopyFor = async ({ number, asset, type, bytes, had = null }) => {
+    if (had && had.sha256 === asset.sha256 && assetsById.has(had.id)) return had;
+    const name = updateAssetName(asset.name);
+    const left = assetsByName.get(`${asset.tag}/${name}`);
+    if (left) return { id: left.id, tag: left.tag, name: left.name, url: left.url, sha256: asset.sha256 };
+    if (summary.copied >= maxUploads) return null;
+    try {
+      const made = await upload(asset.tag, releaseTitle("scenario", asset.tag), releaseNotes("scenario"), { name, type, bytes });
+      return { id: made.id, tag: made.tag, name: made.name, url: made.url, sha256: asset.sha256 };
+    } catch (error) {
+      log(`#${number}: ${name} could not be uploaded (${error?.message || error})`);
+      return null;
+    }
   };
 
   // ---- one post's files: download, check, release ------------------------------
@@ -461,7 +485,10 @@ export const syncHub = async ({
           }
           asset = { id: made.id, tag: made.tag, name: made.name, url: made.url, size: checked.bytes.length, sha256: hash };
         }
-        files.push({ source: want.source, primary: want.primary, asset, ...(checked.repairs.length ? { repairs: checked.repairs } : {}), ...(kind === "scenario" && want.primary ? { dated: true, ...(checked.startDate ? { startDate: checked.startDate } : {}) } : {}) });
+        const update = kind === "scenario" && want.primary && !test
+          ? await updateCopyFor({ number, asset, type: checked.type, bytes: checked.bytes, had: known.find((file) => file.source === want.source)?.update })
+          : null;
+        files.push({ source: want.source, primary: want.primary, asset, ...(update ? { update } : {}), ...(checked.repairs.length ? { repairs: checked.repairs } : {}), ...(kind === "scenario" && want.primary ? { dated: true, ...(checked.startDate ? { startDate: checked.startDate } : {}) } : {}) });
         result.outcome = checked.repairs.length ? "repaired" : "as is";
         result.repairs = checked.repairs;
         result.copy = asset.name;
@@ -657,6 +684,34 @@ export const syncHub = async ({
     }
   }
 
+  // A scenario file released before there were update copies gets its own, a
+  // few a run. The file is downloaded to be copied, which is no import, so that
+  // download is left out of its count (`skip`).
+  let copying = 0;
+  for (const [key, record] of Object.entries(state.posts)) {
+    if (record.kind !== "scenario" || !record.released || record.pipeline !== PIPELINE) continue;
+    const file = record.files.find((one) => one.primary);
+    if (!file || !assetsById.has(file.asset.id) || (file.update && assetsById.has(file.update.id))) continue;
+    if (copying >= maxUpdateCopies || summary.copied >= maxUploads || late()) break;
+    copying += 1;
+    try {
+      const got = await client.download(file.asset.url, { maxBytes: MAX_FILE_BYTES });
+      if (got.tooLarge) continue;
+      record.skip[file.asset.id] = (Number(record.skip[file.asset.id]) || 0) + 1;
+      if (sha256(got.bytes) !== file.asset.sha256) {
+        log(`#${key}: ${file.asset.name} is not the file it was released as; no update copy made`);
+        continue;
+      }
+      const update = await updateCopyFor({ number: key, asset: file.asset, type: extensionOf(file.asset.name), bytes: got.bytes });
+      if (update) {
+        file.update = update;
+        summary.updateCopies += 1;
+      }
+    } catch (error) {
+      log(`#${key}: its update copy could not be made just now (${error?.message || error})`);
+    }
+  }
+
   // ---- test posts ----------------------------------------------------------------
 
   const dropTestCopies = async (record) => {
@@ -731,6 +786,7 @@ export const syncHub = async ({
     for (const file of record.files) {
       if (file.primary) record.carried += countOf(record, file);
       await removeAsset(file.asset.id);
+      if (file.update) await removeAsset(file.update.id);
     }
     await deleteStale(record, { all: true });
     followHosted(record, number, []);
@@ -889,7 +945,7 @@ export const syncHub = async ({
 
   const index = buildIndex(state, { pipeline: PIPELINE, importsOf });
   const previousIndex = plainObject(await client.readData(INDEX_FILE));
-  const comparable = ({ files, imports, posts, suggestions }) => JSON.stringify({ files, imports, posts, suggestions });
+  const comparable = ({ files, imports, posts, suggestions, updates }) => JSON.stringify({ files, imports, posts, suggestions, updates });
   const sameIndex = Number(previousIndex.version) === index.version && comparable(previousIndex) === comparable(index);
   const sameState = JSON.stringify(state) === before;
   if (!sameIndex || !sameState) {

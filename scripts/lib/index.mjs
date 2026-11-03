@@ -7,6 +7,9 @@
 //                newest first, each in the field names of a GitHub issue so
 //                the game's own parsers read it
 //   suggestions  comment id -> { post, zip } for suggestions that passed
+//   updates      a scenario file's checked copy -> its update copy, the same
+//                bytes, which the game downloads to update a scenario it has:
+//                its downloads are not counted in `imports`
 //
 // Only what was checked is in it: a post is listed once its file has been
 // released, and with the text it had then. A post whose newer version has a
@@ -70,6 +73,7 @@ const listedPost = (number, record) => {
 export const buildIndex = (state, { pipeline, importsOf }) => {
   const files = {};
   const imports = {};
+  const updates = {};
   const posts = [];
   for (const [key, record] of Object.entries(state.posts)) {
     if (record.kind === "scenario") {
@@ -78,7 +82,10 @@ export const buildIndex = (state, { pipeline, importsOf }) => {
     }
     // What an earlier pipeline copied was never checked, and is not offered.
     if (!record.released || record.pipeline !== pipeline) continue;
-    for (const file of record.files) files[file.source] = file.asset.url;
+    for (const file of record.files) {
+      files[file.source] = file.asset.url;
+      if (file.update?.url) updates[file.asset.url] = file.update.url;
+    }
     posts.push(listedPost(Number(key), record));
   }
   posts.sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)) || b.number - a.number);
@@ -87,5 +94,5 @@ export const buildIndex = (state, { pipeline, importsOf }) => {
     // Only on a post that is itself listed; a test post's are never listed.
     if (!suggestion.test && !suggestion.unlisted && state.posts[suggestion.post]?.released) suggestions[id] = { post: suggestion.post, zip: suggestion.zip };
   }
-  return { version: INDEX_VERSION, files, imports, posts, suggestions };
+  return { version: INDEX_VERSION, files, imports, posts, suggestions, updates };
 };
