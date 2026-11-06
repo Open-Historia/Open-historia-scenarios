@@ -28,10 +28,14 @@ let client = createClient({ repo, token });
 if (dryRun) client = dryRunOf(client);
 
 const workDir = path.join(process.env.RUNNER_TEMP || os.tmpdir(), "detailed-maps");
-const summary = await syncDetailedMaps({ client, workDir });
+// HUB_AUTOCLOSE=1 (the repository variable the hub's other posts close by)
+// closes a post whose map is on the list.
+const autoClose = process.env.HUB_AUTOCLOSE === "1";
+const summary = await syncDetailedMaps({ client, workDir, autoClose });
 const lines = [
   `${summary.posts} detailed map post(s); ${summary.unchanged} unchanged.`,
   `${summary.released} version(s) released, ${summary.details} post(s) with new details only, ${summary.problem} needing changes, ${summary.waiting} to try again, ${summary.deleted} map(s) deleted.`,
+  ...(autoClose ? [`${summary.closed} post(s) closed, ${summary.reopened} reopened.`] : []),
   ...(dryRun ? ["A dry run: nothing was changed."] : []),
 ];
 console.log(lines.join("\n"));

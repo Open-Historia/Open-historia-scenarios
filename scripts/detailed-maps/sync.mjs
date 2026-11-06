@@ -11,6 +11,11 @@
 //   - a post closed as "not planned" (by its author or a moderator) has its
 //     map deleted for good: its files go, and the list keeps a tombstone so
 //     its ID is never used again.
+//   - a post whose map is on the list is closed as completed (autoClose: the
+//     repository's HUB_AUTOCLOSE, as for the hub's other posts), and one the
+//     hub closed is opened again when an edit leaves it needing changes, where
+//     its author sees it: they can't reopen a post the hub closed. The game
+//     reads the list, never the posts, so a closed post's map stays offered.
 //
 // The file is downloaded only when the post's link or checksum changed, never
 // again on every run. Archiving, restoring and deleting by hand are the
@@ -182,7 +187,7 @@ const detailsTable = ({ id, version, name, check, license }) => [
   row("Licence", plain(license) || "—"),
 ].join("\n");
 
-const listedComment = ({ note = "", ...details }) => [
+const listedComment = ({ note = "", closing = false, ...details }) => [
   MARKER,
   "### ✅ This map is on the list",
   "",
@@ -190,6 +195,7 @@ const listedComment = ({ note = "", ...details }) => [
   ...(note ? ["", note] : []),
   "",
   "To release an update, edit this post with the new download link. The checks run again on every edit.",
+  ...(closing ? ["", "This post is closed now that its map is on the list, as every finished post on the hub is. It is still read when edited."] : []),
   "",
   detailsTable(details),
 ].join("\n");
@@ -239,7 +245,7 @@ const copyPreview = async ({ client, store, release, form, id, version, workDir,
   }
 };
 
-const checkPost = async ({ client, store, issue, record, workDir, download, inspect, hashFile, today, log }) => {
+const checkPost = async ({ client, store, issue, record, workDir, download, inspect, hashFile, today, log, autoClose = false }) => {
   const { list, state } = store;
   const number = issue.number;
   const form = parseForm(issue.body);
@@ -260,7 +266,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
   // list: only the words changed, and the file is not downloaded again.
   if (map && latest && record.link === form.download && (!asked || asked === latest.sha256)) {
     updateDetails(map, { name, license });
-    await setStatus(client, number, listedComment({ id, version: latest.version, name, license, check: record.check, note: "Your last edit changed the details only (the download link is the same), so there is no new version." }));
+    await setStatus(client, number, listedComment({ id, version: latest.version, name, license, check: record.check, closing: autoClose, note: "Your last edit changed the details only (the download link is the same), so there is no new version." }));
     return "details";
   }
 
@@ -302,7 +308,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
       updateDetails(map, { name, license });
       record.link = form.download;
       record.check = check;
-      await setStatus(client, number, listedComment({ id, version: latest.version, name, license, check, note: `The file at the link is the same as version ${latest.version}, so there is no new version.` }));
+      await setStatus(client, number, listedComment({ id, version: latest.version, name, license, check, closing: autoClose, note: `The file at the link is the same as version ${latest.version}, so there is no new version.` }));
       return "details";
     }
 
@@ -323,7 +329,7 @@ const checkPost = async ({ client, store, issue, record, workDir, download, insp
     record.check = check;
     state.posts[number] = record;
     log(`#${number}: released ${id} version ${version} (${megabytes(check.bytes)} MB)`);
-    const made = await setStatus(client, number, listedComment({ id, version, name, license, check }));
+    const made = await setStatus(client, number, listedComment({ id, version, name, license, check, closing: autoClose }));
     if (!made) {
       await client.createComment(number, version === 1
         ? `✅ \`${id}\` is on the list.`
@@ -386,11 +392,28 @@ export const syncDetailedMaps = async ({
   hashFile = sha256File,
   today = todayText(),
   log = console.log,
+  autoClose = false,
 }) => {
   fs.mkdirSync(workDir, { recursive: true });
   const store = await openStore({ client, workDir, log });
   const { list, state } = store;
-  const summary = { posts: 0, released: 0, details: 0, problem: 0, waiting: 0, deleted: 0, unchanged: 0 };
+  const summary = { posts: 0, released: 0, details: 0, problem: 0, waiting: 0, deleted: 0, unchanged: 0, closed: 0, reopened: 0 };
+  // Closed this run: kept with the posts' records, saved once at the end.
+  let closedAny = false;
+  // A post whose map is on the list is closed as completed, as the hub's other posts are once released.
+  const closeIfListed = async (issue, record) => {
+    const listed = record.id ? findMap(list, record.id) : null;
+    if (!autoClose || issue.state !== "open" || !listed || listed.deleted) return;
+    try {
+      await client.closeAsCompleted(issue.number);
+      record.closedByUs = true;
+      state.posts[issue.number] = record;
+      summary.closed += 1;
+      closedAny = true;
+    } catch (error) {
+      log(`#${issue.number}: could not be closed (${error?.stack || error})`);
+    }
+  };
 
   for (const issue of await client.listPosts()) {
     summary.posts += 1;
@@ -436,13 +459,14 @@ export const syncDetailedMaps = async ({
 
     const bodyHash = sha256Text(issue.body);
     if (record.bodyHash === bodyHash) {
+      await closeIfListed(issue, record);
       summary.unchanged += 1;
       continue;
     }
 
     let outcome;
     try {
-      outcome = await checkPost({ client, store, issue, record, workDir, download, inspect, hashFile, today, log });
+      outcome = await checkPost({ client, store, issue, record, workDir, download, inspect, hashFile, today, log, autoClose });
     } catch (error) {
       // Something on GitHub's side: the post is looked at again next run.
       log(`#${number}: could not be finished (${error?.stack || error})`);
@@ -456,6 +480,16 @@ export const syncDetailedMaps = async ({
     if (outcome === "problem") await client.addLabel(number, PROBLEM_LABEL).catch(() => {});
     else if (outcome !== "waiting" && (issue.labels ?? []).some((label) => (label?.name ?? label) === PROBLEM_LABEL)) await client.removeLabel(number, PROBLEM_LABEL).catch(() => {});
     await store.save(outcome === "released" ? `Release ${record.id} version ${latestVersion(findMap(list, record.id)).version} (#${number})` : `Check #${number}`);
+    if (outcome === "released" || outcome === "details") await closeIfListed(issue, record);
+    // Closed by the hub and now needing changes: open again, where its author sees it (they can't reopen it).
+    if (outcome === "problem" && autoClose && issue.state === "closed" && record.closedByUs) {
+      await client.reopen(number).catch(() => {});
+      record.closedByUs = false;
+      state.posts[number] = record;
+      summary.reopened += 1;
+      closedAny = true;
+    }
   }
+  if (closedAny) await store.save(`Close ${summary.closed} post(s) whose maps are on the list`);
   return summary;
 };

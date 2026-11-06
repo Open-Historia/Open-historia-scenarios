@@ -50,4 +50,6 @@ jobs:
       - name: Check the posts, release the maps and write the list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Closes a post whose map is on the list, as the hub's other posts are.
+          HUB_AUTOCLOSE: ${{ vars.HUB_AUTOCLOSE }}
         run: node scripts/sync-detailed-maps.mjs

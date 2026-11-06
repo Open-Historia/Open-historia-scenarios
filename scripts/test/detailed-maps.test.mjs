@@ -327,3 +327,57 @@ test("a download that fails for a passing reason is tried again on the next run,
   unwell = false;
   assert.equal((await syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {} })).released, 1);
 });
+
+// "make issues for detailed basemaps close when uploaded like with everything else" (the owner, 2026-11-06).
+test("with HUB_AUTOCLOSE a post whose map is on the list is closed, opened again when an edit needs changes, and closed once fixed", async () => {
+  const github = fakeGitHub();
+  const good = makeMap("close.pmtiles", { tile: "CLOSE" });
+  const { download } = fakeDownloads({ "https://example.com/close.pmtiles": good });
+  const run = (autoClose = true) => syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {}, autoClose });
+  const post = () => github.posts.find((entry) => entry.number === 12);
+
+  // Off (the variable unset): released and left open, as before.
+  github.addPost(12, body({ id: "closing-world", link: "https://example.com/close.pmtiles" }));
+  const off = await run(false);
+  assert.equal(off.released, 1);
+  assert.equal(off.closed, 0);
+  assert.equal(post().state, "open");
+  assert.doesNotMatch(statusOf(github, 12), /This post is closed/);
+
+  // On: a map already on the list has its post closed as completed on the next run, with no new check.
+  const on = await run();
+  assert.equal(on.closed, 1);
+  assert.equal(post().state, "closed");
+  assert.equal(post().state_reason, "completed");
+  assert.equal(findMap(github.list(), "closing-world").versions.length, 1, "closing takes nothing off the list");
+
+  // An edit that breaks it: needing changes, so opened again where its author can see it.
+  github.editPost(12, { body: body({ id: "closing-world", link: "https://example.com/missing.pmtiles" }) });
+  const broken = await run();
+  assert.equal(broken.problem, 1);
+  assert.equal(broken.reopened, 1);
+  assert.equal(post().state, "open");
+  assert.ok(findMap(github.list(), "closing-world"), "the version already out stays on the list");
+
+  // Fixed: the same map, closed again, and the post says why.
+  github.editPost(12, { body: body({ id: "closing-world", link: "https://example.com/close.pmtiles" }) });
+  const fixed = await run();
+  assert.equal(fixed.closed, 1);
+  assert.equal(post().state, "closed");
+  assert.match(statusOf(github, 12), /This post is closed now that its map is on the list/);
+  assert.equal((await run()).closed, 0, "a closed post is left as it is");
+});
+
+test("a post closed as not planned is not closed again as completed: its map is deleted", async () => {
+  const github = fakeGitHub();
+  const file = makeMap("gone.pmtiles", { tile: "GONE" });
+  const { download } = fakeDownloads({ "https://example.com/gone.pmtiles": file });
+  const run = () => syncDetailedMaps({ client: github.client, workDir: path.join(temp, "work"), download, log: () => {}, autoClose: true });
+  github.addPost(13, body({ id: "gone-world", link: "https://example.com/gone.pmtiles" }));
+  await run();
+  await github.client.closeAsNotPlanned(13);
+  const summary = await run();
+  assert.equal(summary.deleted, 1);
+  assert.equal(summary.closed, 0);
+  assert.equal(github.posts.find((entry) => entry.number === 13).state_reason, "not_planned");
+});
