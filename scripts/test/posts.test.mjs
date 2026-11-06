@@ -43,8 +43,8 @@ test("a scenario post: its file first, then everything else attached", () => {
 });
 
 test("a scenario's file may be a release or a raw link; the first one in the post is the file", () => {
-  const release = "https://github.com/Arkniem/pax-historia-scenarios/releases/download/bundles/roman-117.json";
-  const raw = "https://raw.githubusercontent.com/Arkniem/pax-historia-scenarios/main/bundles/roman-117.json";
+  const release = "https://github.com/someone/old-scenarios/releases/download/bundles/roman-117.json";
+  const raw = "https://raw.githubusercontent.com/someone/old-scenarios/main/bundles/roman-117.json";
   const files = postFiles(issue("scenario", `Download: ${release}\nMirror: ${raw}`)).files;
   assert.deepEqual(files, [{ source: release, primary: true }]);
 });

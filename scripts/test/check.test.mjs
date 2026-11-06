@@ -141,8 +141,8 @@ test("a scenario that is in order is released byte for byte", async () => {
   assert.equal(result.type, "json");
   assert.equal(sha256(result.bytes), sha256(bytes));
   assert.deepEqual(result.repairs, []);
-  // The schema of files written under the project's earlier name is a scenario's too.
-  await released("scenario", scenarioJson({ schema: "pax-historia-scenario-bundle", version: 1, mode: "light" }));
+  // The schema of files written under another name is a scenario's too.
+  await released("scenario", scenarioJson({ schema: "old-scenario-bundle", version: 1, mode: "light" }));
   await released("scenario", Buffer.concat([Buffer.from([0xef, 0xbb, 0xbf]), scenarioJson()]), {});
 });
 

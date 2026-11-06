@@ -322,15 +322,35 @@ test("something else attached that will not copy is skipped without a word", asy
   assert.deepEqual(hub.index().posts.map((entry) => entry.number), [41]);
 });
 
+test("a repository a post links that GitHub answers as this one is this one", async () => {
+  const old = "https://github.com/someone/old-scenarios/releases/download/bundles/roman-117.json";
+  const foreign = "https://github.com/someone/their-maps/releases/download/v1/big-scenario.zip";
+  const bundle = scenarioJson({ hubOrigin: { postId: 4, bundleUrl: old } });
+  const hub = fakeHub({
+    issues: [post(4, "scenario", `Scenario file: ${old}`), post(5, "scenario", foreign)],
+    releases: [{ id: 1, tag: "bundles", assets: [{ id: 11, name: "roman-117.json", url: `https://github.com/${REPO}/releases/download/bundles/roman-117.json`, size: bundle.length, downloads: 379 }] }],
+    files: { [old]: bundle, [foreign]: ZIP },
+  });
+  const asked = [];
+  hub.client.currentName = async (name) => {
+    asked.push(name);
+    return name === "someone/old-scenarios" ? REPO : name;
+  };
+  await run(hub, { legacy: { 4: 209 } });
+  assert.deepEqual(asked.sort(), ["someone/old-scenarios", "someone/their-maps"]);
+  assert.deepEqual(hub.index().imports, { 4: 209 }, "the old release's downloads count for the post, as with a named alias");
+  assert.ok(hub.asset("roman-117.json"));
+});
+
 test("a file linked from this repository's older releases is checked and copied like any other", async () => {
-  const old = "https://github.com/Arkniem/pax-historia-scenarios/releases/download/bundles/roman-117.json";
+  const old = "https://github.com/someone/old-scenarios/releases/download/bundles/roman-117.json";
   const bundle = scenarioJson({ hubOrigin: { postId: 4, bundleUrl: old } });
   const hub = fakeHub({
     issues: [post(4, "scenario", `Scenario file: ${old}`)],
     releases: [{ id: 1, tag: "bundles", assets: [{ id: 11, name: "roman-117.json", url: `https://github.com/${REPO}/releases/download/bundles/roman-117.json`, size: bundle.length, downloads: 379 }] }],
     files: { [old]: bundle },
   });
-  const options = { aliases: ["Arkniem/pax-historia-scenarios"], legacy: { 4: 209 } };
+  const options = { aliases: ["someone/old-scenarios"], legacy: { 4: 209 } };
   await run(hub, options);
   // Downloaded from where the post links it, checked, put right, and released
   // under the workflow's own name.
@@ -545,7 +565,7 @@ test("a post's text in the index is cut at 20,000 characters, without losing wha
 test("what version 1 copied is checked, and no post's count drops on the way", async () => {
   const flagUrl = "https://github.com/user-attachments/assets/dddddddd-1111-2222-3333-444444444444";
   const badFile = "https://github.com/user-attachments/files/503/broken-scenario.zip";
-  const official = "https://github.com/Arkniem/pax-historia-scenarios/releases/download/bundles/roman-117.json";
+  const official = "https://github.com/someone/old-scenarios/releases/download/bundles/roman-117.json";
   const attached = rawZip([{ name: "assets/" }, { name: "scenario.json", data: JSON.stringify(scenario()), method: 8 }]);
   const broken = scenarioZip({}, { "setup.exe": "MZ" });
   const bundle = scenarioJson();
@@ -579,7 +599,7 @@ test("what version 1 copied is checked, and no post's count drops on the way", a
     ],
     data: { "state.json": JSON.stringify(v1), "index.json": JSON.stringify({ version: 1, files: {}, imports: { 1: 289, 12: 46, 13: 25 } }) },
   });
-  const options = { aliases: ["Arkniem/pax-historia-scenarios"], legacy: { 1: 289 } };
+  const options = { aliases: ["someone/old-scenarios"], legacy: { 1: 289 } };
 
   // The notes of version 1 are read without a count changing.
   const read = normalizeState(v1);

@@ -237,6 +237,22 @@ export const syncHub = async ({
     }
   }
   const ownRepos = new Set([client.repo, ...aliases].map((name) => String(name).toLowerCase()));
+  // Posts made before this repository moved link to its releases under the
+  // name it had then. Each other repository a post's release links name is
+  // looked up once (a few at most), and is this one if GitHub answers it here.
+  if (client.currentName) {
+    const named = new Set();
+    for (const issue of listed.values()) {
+      for (const [url] of String(issue.body ?? "").matchAll(/https:\/\/github\.com\/[^\s)<>"'\]]+/g)) {
+        const link = parseReleaseLink(url);
+        const name = link && `${link.owner}/${link.repo}`.toLowerCase();
+        if (name && !ownRepos.has(name)) named.add(name);
+      }
+    }
+    for (const name of [...named].slice(0, 10)) {
+      if (String(await client.currentName(name)).toLowerCase() === String(client.repo).toLowerCase()) ownRepos.add(name);
+    }
+  }
   const releaseFileOf = (source) => {
     const link = parseReleaseLink(source);
     if (!link || !ownRepos.has(`${link.owner}/${link.repo}`.toLowerCase())) return null;

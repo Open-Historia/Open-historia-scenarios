@@ -48,9 +48,6 @@ if (!token && !dryRun) {
 }
 const autoClose = process.env.HUB_AUTOCLOSE === "1";
 
-// What this repository was called before it moved: posts made then link to its
-// releases under the old name, and GitHub redirects them here.
-const ALIASES = ["Arkniem/pax-historia-scenarios"];
 // What the game's own counter had counted for each scenario post when counting
 // moved to release downloads (2026-10-05), so no post's number started again
 // from nothing. Never updated.
@@ -72,7 +69,7 @@ if (keepFolder) {
 // The workflow gives a run 90 minutes. After 50 it starts nothing new, so
 // that what it has done is written down in time.
 const deadline = started + 50 * 60000;
-const { summary, index, report } = await syncHub({ client, aliases: ALIASES, legacy, log: dryRun ? () => {} : console.log, autoClose, only: only.size ? only : null, deadline });
+const { summary, index, report } = await syncHub({ client, legacy, log: dryRun ? () => {} : console.log, autoClose, only: only.size ? only : null, deadline });
 const checkerMemoryMb = sharedChecker().peakMemoryMb;
 closeSharedChecker();
 

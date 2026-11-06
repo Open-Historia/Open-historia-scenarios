@@ -99,6 +99,19 @@ export const createClient = ({ repo, token, dataBranch = "hub-index", dryRun = f
     // (when the hub closes them), and its author may still update it.
     listPosts: (label) => paged(`/repos/${repo}/issues?state=all&labels=${encodeURIComponent(label)}`),
 
+    // What a repository is called now: GitHub answers a renamed or moved one
+    // under its new name. null when there is no such repository; GitHub being
+    // unwell ends the run, which would otherwise take this one's old name for
+    // somebody else's.
+    currentName: async (fullName) => {
+      try {
+        return (await api("GET", `/repos/${fullName}`))?.full_name ?? null;
+      } catch (error) {
+        if (error.status === 404 || error.status === 451 || error.status === 403 && !error.transient) return null;
+        throw error;
+      }
+    },
+
     // null once the post is gone (deleted, or moved to another repository).
     getIssue: async (number) => {
       try {
