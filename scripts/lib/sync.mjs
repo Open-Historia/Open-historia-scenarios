@@ -34,6 +34,7 @@ import { contentTypeOf } from "./check.mjs";
 import { duration, sharedChecker } from "./checker.mjs";
 import { COMMENT_MARKER, NO_FILE, SLOW_TEXT, TEST_NOTES, problemComment, spoken, suggestionNotice, testComment } from "./comments.mjs";
 import { buildIndex } from "./index.mjs";
+import { languageCodesOf } from "./scenario-languages.mjs";
 import {
   KINDS,
   MAX_FILE_BYTES,
@@ -108,7 +109,7 @@ export const normalizeState = (raw) => {
       pipeline: Number(record.pipeline) || 1,
       bodyHash: current ? String(record.bodyHash ?? "") : "",
       // The checked copies that are released (for a version 1 post: its unchecked ones).
-      files: list(record.files).filter((file) => file?.asset).map((file) => ({ source: file.source, primary: Boolean(file.primary), asset: file.asset, ...(file.update?.id ? { update: file.update } : {}), ...(file.repairs ? { repairs: file.repairs } : {}), ...(file.seen !== undefined ? { seen: file.seen } : {}), ...(file.dated ? { dated: true } : {}), ...(typeof file.startDate === "string" && file.startDate ? { startDate: file.startDate } : {}) })),
+      files: list(record.files).filter((file) => file?.asset).map((file) => ({ source: file.source, primary: Boolean(file.primary), asset: file.asset, ...(file.update?.id ? { update: file.update } : {}), ...(file.repairs ? { repairs: file.repairs } : {}), ...(file.seen !== undefined ? { seen: file.seen } : {}), ...(file.dated ? { dated: true } : {}), ...(typeof file.startDate === "string" && file.startDate ? { startDate: file.startDate } : {}), ...(languageCodesOf(file.languages).length ? { languages: languageCodesOf(file.languages) } : {}) })),
       // Files of this repository's older releases that the post links directly.
       hosted: [...list(record.hosted), ...list(record.files).filter((file) => file?.hosted).map((file) => ({ source: file.source, primary: Boolean(file.primary), ...file.hosted }))],
       released: record.released ?? null,
@@ -504,7 +505,7 @@ export const syncHub = async ({
         const update = kind === "scenario" && want.primary && !test
           ? await updateCopyFor({ number, asset, type: checked.type, bytes: checked.bytes, had: known.find((file) => file.source === want.source)?.update })
           : null;
-        files.push({ source: want.source, primary: want.primary, asset, ...(update ? { update } : {}), ...(checked.repairs.length ? { repairs: checked.repairs } : {}), ...(kind === "scenario" && want.primary ? { dated: true, ...(checked.startDate ? { startDate: checked.startDate } : {}) } : {}) });
+        files.push({ source: want.source, primary: want.primary, asset, ...(update ? { update } : {}), ...(checked.repairs.length ? { repairs: checked.repairs } : {}), ...(kind === "scenario" && want.primary ? { dated: true, ...(checked.startDate ? { startDate: checked.startDate } : {}), ...(checked.languages?.length ? { languages: checked.languages } : {}) } : {}) });
         result.outcome = checked.repairs.length ? "repaired" : "as is";
         result.repairs = checked.repairs;
         result.copy = asset.name;
@@ -704,6 +705,7 @@ export const syncHub = async ({
       const checked = await checker.postFile({ kind: "scenario", primary: true, bytes: got.bytes, label: spoken(file.source, { kind: "scenario", primary: true }), hub: hub(), timeoutMs: postCheckMs });
       file.dated = true;
       if (checked.startDate) file.startDate = checked.startDate;
+      if (checked.languages?.length) file.languages = checked.languages;
       summary.dated += 1;
     } catch (error) {
       log(`#${key}: its date could not be read just now (${error?.message || error})`);

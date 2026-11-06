@@ -26,6 +26,7 @@ import { IMAGE_MIME } from "./images.mjs";
 import { base64Bytes, checkPicture, isDataAddress } from "./pictures.mjs";
 import { Findings, MAX_DEPTH, Slots, checkDocument } from "./rules.mjs";
 import { checkScenarioMusic } from "./scenario-music.mjs";
+import { checkScenarioLanguages } from "./scenario-languages.mjs";
 import { MIB, Problem, count, isRecord, quoted, sizeText, utf8OrNull } from "./util.mjs";
 import { packEntry, readZip, writeZip } from "./zip.mjs";
 
@@ -311,6 +312,9 @@ const checkScenario = async (bundle, { label, findings, ctx, drawn, archive }) =
   // Its music is tracks of the hub's music list, named by their IDs, and
   // nothing else (scenario-music.mjs).
   checkScenarioMusic(scenario?.music, { label, findings });
+  // Its own text in other languages: text keyed by text, per language
+  // (scenario-languages.mjs). The codes go into the hub's index.
+  findings.languages = checkScenarioLanguages(scenario?.languages, { label, findings });
 
   let changed = false;
   const slots = new Slots();

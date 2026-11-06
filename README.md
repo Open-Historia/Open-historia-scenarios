@@ -306,6 +306,12 @@ can use and nothing else.
   and nothing else. It may not hold a sound file, or the address of one: every player's game would
   fetch it from wherever the scenario's author liked, and it would be music nobody checked the hub
   may share. A track that has since been taken down is not a problem: the game skips it.
+- **A scenario's own text in other languages** (`scenario.languages`, made in the game's
+  Workshop under **Languages**) is text keyed by text: for each language code (`de`, `fr`,
+  `zh-Hant`, …, never `en`), the English the scenario shows and its translation, and nothing else.
+  At most 24 languages, 20,000 strings in one, 4,000 characters in a source string and 8,000 in a
+  translation, and 4 MB for all of them together. The game's Community tab says which languages a
+  scenario ships ("Languages: …"), from the hub's index.
 - **A `.zip`** may hold JSON, pictures, tile archives and plain text files, each really what its
   name says, and nothing else: no programs, scripts, web pages, or archives inside the archive. It
   may not be encrypted or split, no entry may leave its folder, and it may hold 2,000 entries and

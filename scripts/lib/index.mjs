@@ -16,6 +16,7 @@
 // problem stays as it last was until that is fixed.
 
 import { fileNameOf } from "./posts.mjs";
+import { languageCodesOf } from "./scenario-languages.mjs";
 
 export const INDEX_VERSION = 2;
 export const MAX_BODY_CHARACTERS = 20000;
@@ -48,7 +49,10 @@ export const limitedBody = (body, sources = []) => {
 // how it stands now (state, reactions, comments).
 const listedPost = (number, record) => {
   const { released, live = {} } = record;
-  const startDate = record.kind === "scenario" ? record.files.find((file) => file.primary)?.startDate : "";
+  const primary = record.kind === "scenario" ? record.files.find((file) => file.primary) : null;
+  const startDate = primary?.startDate ?? "";
+  // The languages the scenario ships its own text in, as its check read them.
+  const languages = languageCodesOf(primary?.languages);
   return {
     number,
     kind: record.kind,
@@ -64,6 +68,7 @@ const listedPost = (number, record) => {
     reactions: { "+1": Number(live.upvotes) || 0 },
     comments: Number(live.comments) || 0,
     ...(startDate ? { scenario_date: startDate } : {}),
+    ...(languages.length ? { scenario_languages: languages } : {}),
   };
 };
 

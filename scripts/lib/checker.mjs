@@ -26,6 +26,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { FrameReader, writeFrames } from "./frames.mjs";
+import { languageCodesOf } from "./scenario-languages.mjs";
 
 const WORKER = fileURLToPath(new URL("./check-worker.mjs", import.meta.url));
 
@@ -192,6 +193,7 @@ export class Checker {
         ...(typeof result.type === "string" ? { type: result.type } : {}),
         ...(Array.isArray(result.pixels) ? { pixels: result.pixels.map(Number) } : {}),
         ...(typeof result.startDate === "string" && result.startDate ? { startDate: result.startDate.slice(0, 40) } : {}),
+        ...(languageCodesOf(result.languages).length ? { languages: languageCodesOf(result.languages) } : {}),
         ...(answer.header.has ? { bytes: answer.header.same ? bytes : answer.bytes } : {}),
       };
     } catch (error) {
