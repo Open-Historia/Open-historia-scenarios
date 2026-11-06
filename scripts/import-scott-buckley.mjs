@@ -8,6 +8,7 @@
 //   node scripts/import-scott-buckley.mjs --go            post every track not on the hub yet
 //   node scripts/import-scott-buckley.mjs --go --limit 5  post the first five of them
 //   node scripts/import-scott-buckley.mjs --clean-inbox   delete inbox files of tracks now on the list
+//                                                         ("<id>.mp3", and the re-encodes' "<id>-small.mp3")
 //
 // What a run does, for each track not already on the hub:
 //   1. reads the track from the composer's own posts list (music/importers/
@@ -116,7 +117,10 @@ if (flag("--clean-inbox")) {
   const assets = inboxAssets() ?? [];
   let removed = 0;
   for (const name of assets) {
-    if (!listed.has(name.replace(/\.(mp3|ogg)$/i, ""))) continue;
+    // A track's own upload is "<id>.mp3"; a re-encode for its version 2 was "<id>-small.mp3" (2026-10-14).
+    // Those were never matched, and the inbox kept 1.2 GB of copies of listed tracks (2026-11-06).
+    const base = name.replace(/\.(mp3|ogg)$/i, "");
+    if (!listed.has(base) && !listed.has(base.replace(/-small$/i, ""))) continue;
     gh("release", "delete-asset", INBOX, name, "-R", REPO, "--yes");
     removed += 1;
   }
